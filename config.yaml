@@ -1,0 +1,6 @@
+data:
+  fantom_url: "https://storage.googleapis.com/fantom_dataset/fantom_v1.json"
+
+eval:
+  max_examples: 200
+  model_name: "gemini-2.5-flash"
