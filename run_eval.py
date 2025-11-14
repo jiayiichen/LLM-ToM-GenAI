@@ -11,9 +11,12 @@ from dotenv import load_dotenv
 from google import genai
 from google.cloud import storage
 import requests
+import re
+from collections import Counter
+
+F1_THRESHOLD = 0.5  # ablation study
 
 
-# ==================== 配置 & Client ====================
 
 def load_config(config_path: str = "config.yaml") -> dict:
     with open(config_path, "r", encoding="utf-8") as f:
@@ -21,10 +24,6 @@ def load_config(config_path: str = "config.yaml") -> dict:
 
 
 def init_client() -> genai.Client:
-    """
-    使用本地 GOOGLE_APPLICATION_CREDENTIALS / gcloud login 的 ADC，
-    再从 .env 中拿 project / location.
-    """
     load_dotenv()
     project_id = os.getenv("GOOGLE_CLOUD_PROJECT")
     location = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
@@ -36,8 +35,6 @@ def init_client() -> genai.Client:
     )
     return client
 
-
-# ==================== 读取 FANTOM 数据 ====================
 
 def _load_from_gcs(gs_path: str):
     """
@@ -67,13 +64,6 @@ def _load_from_local(path: str):
 
 
 def load_fantom(fantom_path: str) -> List[Dict]:
-    """
-    支持三种方式：
-      - gs://...      → google-cloud-storage
-      - http(s)://... → requests
-      - 其它          → 当成本地文件路径
-    所有路径都只从 config.yaml 里读，不在代码里写死。
-    """
     print(f"[FANTOM] Loading dataset from: {fantom_path}")
 
     if fantom_path.startswith("gs://"):
@@ -83,7 +73,6 @@ def load_fantom(fantom_path: str) -> List[Dict]:
     else:
         data = _load_from_local(fantom_path)
 
-    # 统一成 list[dict]
     if isinstance(data, list):
         examples = data
     elif isinstance(data, dict) and "data" in data:
@@ -94,40 +83,16 @@ def load_fantom(fantom_path: str) -> List[Dict]:
     print(f"[FANTOM] Loaded {len(examples)} entries")
     return examples
 
-
-# ==================== FanToM: prompt & gold 映射 ====================
-# 当前先实现 FACTQ，一条 conversation 取对应的 factQA 问题。
-# 你给的 schema:
-# ['set_id', 'part_id', 'conv_id', 'full_context', 'short_context',
-#  'missed_info', 'joining_speaker', 'factQA', 'beliefQAs',
-#  'infoAccessibilityQA_list', 'answerabilityQA_list',
-#  'infoAccessibilityQAs_binary', 'answerabilityQAs_binary']
+# factQ
 
 def get_context(example: Dict, context_field: str) -> str:
-    """
-    从 full_context / short_context 里挑一个作为输入。
-    """
     ctx = example.get(context_field)
     if not ctx:
-        # 兜底：没有这个 key 就退回 full_context
         ctx = example.get("full_context", "")
     return str(ctx)
 
 
 def _pick_fact_qa_block(example: Dict) -> Dict:
-    """
-    从样本里拿到一个 FactQ block。
-    FanToM 原始构造是“每个 FactQ 再派生 6 种 ToM QA”，
-    这里先只用 FactQ 做基本 comprehension。
-    
-    你需要根据实际 JSON 确认 factQA 的结构：
-      - 如果 factQA 是 dict： {question: ..., full_answer: ...}
-      - 如果 factQA 是 list： [ {question: ..., ...}, ... ]
-    下面的代码默认：
-      1) 如果是 list，就用第一个；
-      2) 字段名先假设为 "question" / "answer" / "full_answer" 之类，
-         你可以跑一下 print 看再改。
-    """
     fact_block = example.get("factQA")
     if fact_block is None:
         raise KeyError("Example has no 'factQA' field")
@@ -147,17 +112,8 @@ def build_factq_prompt_and_gold(
     example: Dict,
     context_field: str = "full_context",
 ) -> Tuple[str, str, Dict]:
-    """
-    构造一个 FACTQ 的 prompt 和 gold。
-    返回： (prompt_text, gold_answer_str, extra_meta)
-    """
     context = get_context(example, context_field)
     fact = _pick_fact_qa_block(example)
-
-    # ========= 这里请你确认一下字段名 =========
-    # 建议你先 print(fact.keys()) 看一眼：
-    #   - 常见写法可能是："question", "full_answer", "limited_answer", ...
-    # 下面先按最朴素的 guess 写：question / answer / full_answer，供你微调。
     question = (
         fact.get("question")
         or fact.get("fact_question")
@@ -165,9 +121,7 @@ def build_factq_prompt_and_gold(
     )
     if question is None:
         raise KeyError("Cannot find question field in factQA block; please adjust key names.")
-
-    # FULL FACT A 是"上帝视角的真实答案"，用来衡量 basic comprehension
-    # Fantom 数据集使用 correct_answer 字段
+    
     gold = (
         fact.get("correct_answer")
         or fact.get("full_answer")
@@ -181,8 +135,6 @@ def build_factq_prompt_and_gold(
     question = str(question).strip()
     gold = str(gold).strip()
 
-    # ========= Prompt：对话 + 问题 =========
-    # 按论文设定：模型看到整段对话，扮演“全知观察者”回答 fact 问题
     prompt = f"""You are evaluating a Theory-of-Mind benchmark called FanToM.
 
 Read the following multi-party casual conversation carefully, then answer a factual question about it.
@@ -219,7 +171,7 @@ Do NOT include explanations, just the answer itself.
 # 然后在 run_eval 里根据 cfg["eval"]["task_type"] 做分派。
 
 
-# ==================== 调用 Gemini ====================
+# Gemini
 
 def call_model(client: genai.Client, model_name: str, prompt: str) -> str:
     resp = client.models.generate_content(
@@ -232,11 +184,47 @@ def call_model(client: genai.Client, model_name: str, prompt: str) -> str:
 def normalize_text(s: str) -> str:
     return s.strip().lower()
 
+def simple_tokenize(text: str):
+    """
+    非严格分词：小写 + 去标点 + 按空格切分
+    """
+    text = normalize_text(text)
+    # 把标点变成空格
+    text = re.sub(r"[^\w\s]", " ", text)
+    tokens = text.split()
+    return tokens
 
-# ==================== 主评测循环 ====================
+
+def token_f1(pred: str, gold: str) -> float:
+    """
+    token-level F1。
+    这里实现一个标准版本：用多重集交集计算 overlap。
+    """
+    pred_tokens = simple_tokenize(pred)
+    gold_tokens = simple_tokenize(gold)
+
+    if not pred_tokens or not gold_tokens:
+        return 0.0
+
+    p_counts = Counter(pred_tokens)
+    g_counts = Counter(gold_tokens)
+
+    overlap = 0
+    for t, c in p_counts.items():
+        overlap += min(c, g_counts.get(t, 0))
+
+    precision = overlap / len(pred_tokens)
+    recall = overlap / len(gold_tokens)
+
+    if precision + recall == 0:
+        return 0.0
+
+    return 2 * precision * recall / (precision + recall)
+
+
+
 
 def run_eval(config_path: str = "config.yaml"):
-    # 1. 读配置
     cfg = load_config(config_path)
 
     data_cfg = cfg["data"]
@@ -250,22 +238,22 @@ def run_eval(config_path: str = "config.yaml"):
     model_name = eval_cfg["model_name"]
     output_path = eval_cfg.get("output_path", f"fantom_{task_type}_results.csv")
 
-    # 2. 初始化 Gemini client
     client = init_client()
 
-    # 3. 载入数据
     examples = load_fantom(fantom_path)
     if max_examples is not None:
         examples = examples[:max_examples]
         print(f"[FANTOM] Subsampled to first {len(examples)} examples.")
 
-    # 4. 逐条跑模型（目前先只支持 FactQ）
+    # 目前只实现 FactQ
     if task_type != "FactQ":
-        raise NotImplementedError(f"task_type={task_type} 暂时只实现了 FactQ，其他题型可以仿照再写。")
+        raise NotImplementedError(f"task_type={task_type} only supports 'FactQ' for now.")
 
     results = []
-    num_correct = 0
-    total_q = 0
+    num_correct = 0        # F1 >= 阈值 的个数
+    total_f1 = 0.0         # 用来算 mean F1
+    total_q = 0            # 有效问题数
+
 
     for idx, ex in enumerate(examples, start=1):
         try:
@@ -280,11 +268,16 @@ def run_eval(config_path: str = "config.yaml"):
         pred = call_model(client, model_name, prompt)
 
         total_q += 1
-        is_correct = False
+
         if gold:
-            # 这里只是最 naive 的 string match；
-            # 真正要和论文对齐得上 Sentence-BERT + token-F1 
-            is_correct = normalize_text(pred) == normalize_text(gold)
+            f1 = token_f1(pred, gold)
+        else:
+            f1 = 0.0
+
+        total_f1 += f1
+
+        # 可选：用 F1 阈值当成一个粗略正确/错误指标
+        is_correct = (f1 >= F1_THRESHOLD) if gold else False
 
         if is_correct:
             num_correct += 1
@@ -298,6 +291,7 @@ def run_eval(config_path: str = "config.yaml"):
             "qa_type": meta.get("qa_type"),
             "gold": gold,
             "prediction": pred,
+            "f1": f1,
             "correct": int(is_correct),
         }
         results.append(row)
@@ -306,16 +300,17 @@ def run_eval(config_path: str = "config.yaml"):
             print(f"[FANTOM] Processed {idx} / {len(examples)} entries "
                   f"({total_q} valid FactQ)")
 
-    # 5. 打印简单指标
     if total_q > 0:
+        mean_f1 = total_f1 / total_q
         acc = num_correct / total_q
-        print(f"\n[FANTOM] FactQ accuracy (exact string match): "
+        print(f"\n[FANTOM] FactQ mean token F1: {mean_f1:.4f}")
+        print(f"[FANTOM] FactQ accuracy (F1 >= {F1_THRESHOLD}): "
               f"{acc:.4f} ({num_correct}/{total_q})")
     else:
         print("\n[FANTOM] No valid FactQ examples were processed. "
-              "请检查 factQA 的字段名。")
+              "Please check the factQA field names.")
 
-    # 6. 写出 CSV 结果
+
     fieldnames = [
         "global_index",
         "question_index",
@@ -325,6 +320,7 @@ def run_eval(config_path: str = "config.yaml"):
         "qa_type",
         "gold",
         "prediction",
+        "f1",
         "correct",
     ]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
