@@ -8,7 +8,7 @@ data:
   context_field: "full_context"   # or "short_context"
 
 eval:
-  model_name: "gemini-2.5-flash" 
-  max_examples: null             # or null to use all examples
-  output_path: "fantom_factq_gemini_flash.csv"
-  task_type: "FactQ" # or "beliefQ / info-access"
+  model_name: "gemini-2.5-flash"   
+  max_examples: 4             # null = all 870 examples, or set a number like 100
+  output_path: "fantom_all_types_results.csv"
+  task_type: "All"              # "All" = test all types, or "FactQ", "BeliefQ", "Answerability", "InfoAccess"
