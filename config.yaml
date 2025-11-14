@@ -1,6 +1,14 @@
+
 data:
-  fantom_url: "https://storage.googleapis.com/fantom_dataset/fantom_v1.json"
+  #   "gs://fantom_dataset/fantom_v1.json"
+  #   "https://storage.googleapis.com/fantom_dataset/fantom_v1.json"
+  #   "data/fantom_v1.json"
+  fantom_url: "gs://fantom_dataset/fantom_v1.json"
+
+  context_field: "full_context"   # or "short_context"
 
 eval:
-  max_examples: 200
-  model_name: "gemini-2.5-flash"
+  model_name: "gemini-2.5-flash"  # Vertex AI 模型名称（不带版本号）
+  max_examples: null             # or null to use all examples
+  output_path: "fantom_factq_gemini_flash.csv"
+  task_type: "FactQ" # or "beliefQ / info-access"
