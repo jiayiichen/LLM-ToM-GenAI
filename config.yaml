@@ -8,7 +8,7 @@ data:
   context_field: "full_context"   # or "short_context"
 
 eval:
-  model_name: "gemini-2.5-flash"  # Vertex AI 模型名称（不带版本号）
+  model_name: "gemini-2.5-flash" 
   max_examples: null             # or null to use all examples
   output_path: "fantom_factq_gemini_flash.csv"
   task_type: "FactQ" # or "beliefQ / info-access"
