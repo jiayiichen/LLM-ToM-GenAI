@@ -35,10 +35,10 @@ def parse_arguments():
     parser.add_argument(
         "--outdir",
         "-o",
+        required=True,
         type=str,
-        default="/home/guo_chen2023/output_qwen",
         help="Output directory path."
-    )
+    ) 
 
     return parser.parse_args()
 
@@ -89,66 +89,73 @@ def main():
     df = pd.read_csv(file_path)
 
     for i, row in df.iterrows():
-        Story = row['STORY']
-        Questions = row['QUESTION']
-        Option_a = row['OPTION-A']
-        Option_b = row['OPTION-C']
-        Option_c = row['OPTION-C']
-        Option_d = row['OPTION-D']
 
-        prompt = f"""Below is a multiple-choice question with a story and serveral answer options. Based on the content of the story and the given
-question, please infer the most likely answer and output the answer index.
-Note:
-(1) Please first think step by step, conduct analysis on the answers to the questions, and finally output the most likely answer
-index in the format: [[Answer Index]], for example, if the most likely answer option is 'A. Handbag', then output '[[A]]';
-(2) You must choose one of the given answer options 'A, B, C, D' as the most likely answer, regardless of whether the story
-provides enough information. If you think there is not enough information in the story to choose an answer, please randomly
-output one of "[[A]]", "[[B]]", "[[C]]", or "[[D]]";
-(3) Again, you must first output the results of step-by-step reasoning, and finally output the most likely answer index. You
-should not directly output the answer index.
-[Story]
-{Story}
-[Question]
-{Questions}
-[Candidate Answers]
-A. {Option_a} B. {Option_b} C. {Option_d} D. {Option_c}"""
+        output_file_path = f"{outdir}/{i}.txt"
 
-        URL = f"https://{ENDPOINT}/v1/projects/{PROJECT_ID}/locations/{REGION}/endpoints/openapi/chat/completions"
-        data_payload = {
-            "model": MODEL_ID, 
-            "stream": True, 
-            "messages": [{"role": "user", "content": prompt}]
-        }
-        DATA = json.dumps(data_payload)
+        if not os.path.exists(output_file_path):
+            Story = row['STORY']
+            Questions = row['QUESTION']
+            Option_a = row['OPTION-A']
+            Option_b = row['OPTION-C']
+            Option_c = row['OPTION-C']
+            Option_d = row['OPTION-D']
 
-        curl_command_list = [
-            "curl",
-            "-X", "POST",
-            "-H", f"Authorization: Bearer {ACCESS_TOKEN}",
-            "-H", "Content-Type: application/json",
-            URL,
-            "-d", DATA
-        ]
+            prompt = f"""Below is a multiple-choice question with a story and serveral answer options. Based on the content of the story and the given
+    question, please infer the most likely answer and output the answer index.
 
-        try:
-            result = subprocess.run(
-                curl_command_list, 
-                capture_output=True, 
-                text=True, 
-                check=True # Will raise CalledProcessError on HTTP/curl failure
-            )
-            
-            output_file_path = f"{outdir}/{i}.txt"
+    IMPORTANT: Please respond in English only.
+    
+    Note:
+    (1) Please first think step by step, conduct analysis on the answers to the questions, and finally output the most likely answer
+    index in the format: [[Answer Index]], for example, if the most likely answer option is 'A. Handbag', then output '[[A]]';
+    (2) You must choose one of the given answer options 'A, B, C, D' as the most likely answer, regardless of whether the story
+    provides enough information. If you think there is not enough information in the story to choose an answer, please randomly
+    output one of "[[A]]", "[[B]]", "[[C]]", or "[[D]]";
+    (3) Again, you must first output the results of step-by-step reasoning, and finally output the most likely answer index. You
+    should not directly output the answer index.
+    [Story]
+    {Story}
+    [Question]
+    {Questions}
+    [Candidate Answers]
+    A. {Option_a} B. {Option_b} C. {Option_d} D. {Option_c}"""
 
-            with open(output_file_path, 'a', encoding='utf-8') as f:
-                f.write(result.stdout)
+            URL = f"https://{ENDPOINT}/v1/projects/{PROJECT_ID}/locations/{REGION}/endpoints/openapi/chat/completions"
+            data_payload = {
+                "model": MODEL_ID, 
+                "stream": True, 
+                "messages": [{"role": "user", "content": prompt}]
+            }
+            DATA = json.dumps(data_payload)
 
-            print(f"✅ Successfully wrote result for row {i} to {output_file_path}")
+            curl_command_list = [
+                "curl",
+                "-X", "POST",
+                "-H", f"Authorization: Bearer {ACCESS_TOKEN}",
+                "-H", "Content-Type: application/json",
+                URL,
+                "-d", DATA
+            ]
 
-        except subprocess.CalledProcessError as e:
-            print(f"Curl command failed for row {i} with non-zero exit code: {e.returncode}", file=sys.stderr)
-            print(f"Error Details (stderr): {e.stderr.strip()}", file=sys.stderr)
-            print(f"Response (stdout): {e.stdout.strip()}", file=sys.stderr)
+            try:
+                result = subprocess.run(
+                    curl_command_list, 
+                    capture_output=True, 
+                    text=True, 
+                    check=True # Will raise CalledProcessError on HTTP/curl failure
+                )
+                
+                
+
+                with open(output_file_path, 'a', encoding='utf-8') as f:
+                    f.write(result.stdout)
+
+                print(f"✅ Successfully wrote result for row {i} to {output_file_path}")
+
+            except subprocess.CalledProcessError as e:
+                print(f"Curl command failed for row {i} with non-zero exit code: {e.returncode}", file=sys.stderr)
+                print(f"Error Details (stderr): {e.stderr.strip()}", file=sys.stderr)
+                print(f"Response (stdout): {e.stdout.strip()}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
