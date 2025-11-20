@@ -1,0 +1,60 @@
+STORY,QUESTION,OPTION-A,OPTION-B,OPTION-C,OPTION-D,ANSWER,SOURCE_FILE,reasoning_process,model_response
+"Xiao Hua is in the kitchen preparing dinner when suddenly he hears the doorbell ring. He turns down the fire and goes to open the door, finding it is his friend Xiao Li. Xiao Li holds some movie tickets in his hand and invites Xiao Hua to watch a movie. Xiao Hua thinks for a moment and tells Xiao Li that he must finish dinner first. At this time, Xiao Hua's sister also runs over and says she can help cook, letting Xiao Hua go play. Xiao Hua looks at the half-cooked dinner in the kitchen and hesitates.",What does Xiao Hua do next after hearing Xiao Li's invitation?,He continues to cook dinner.,He accepts Xiao Li's invitation and goes to watch a movie.,He lets his sister finish dinner and he rests.,He goes to discuss with other friends whether to go to the movies.,B,Completion of failed actions,"The story says that after Xiao Li invites him, Xiao Hua thinks for a moment and **tells Xiao Li that he must finish dinner first**, implying he will keep cooking rather than go out immediately.
+
+So the most likely answer is:",A
+"Zhang Hua is preparing the last artwork for the art exhibition, while his friend Li Lei is complaining to him about workplace troubles over the phone. Suddenly, Zhang Hua's paintbrush falls to the ground. As he bends down to pick it up, there is a hurried knock on the window from his neighbor who rushes to borrow something. At the same time, Zhang Hua remembers that there is an important family gathering tonight, and his participation is very important to his family.","After Zhang Hua handles the sudden situation, what does he do first?",He opens the door to help the neighbor.,He calls back Li Lei to provide help and advice.,He prepares to attend the family gathering.,He reorganizes the studio and relaxes a bit.,A,Completion of failed actions,"故事中的事件顺序是：
+
+1. 张华在为画展准备最后一幅作品，同时在接李雷的电话。
+2. 画笔掉到地上，他弯腰去捡。
+3. 邻居急匆匆敲窗户来借东西（突发情况）。
+4. 同时，他想起今晚有一个对家人很重要的家庭聚会，他的参加也很重要。
+
+题目问的是：“在张华处理完突发情况之后，他**首先**会做什么？”
+
+- 邻居的敲窗是“突发情况”，他会先去应对（开门、借东西）——但这是“处理突发情况”的过程本身，不是“之后要做什么”。
+- 之后在四个选项中，需要判断他最优先去做的事情：
+  - 家庭聚会被强调“很重要”“他的参与也很重要”，优先级最高。
+  - 给李雷回电话只是帮助朋友抱怨职场烦恼，紧迫性较低。
+  - 整理工作室、放松更不紧急。
+  - 再去“开门帮邻居”已经包含在处理突发情况中了，不符合“之后”的含义。
+
+因此，在处理完邻居这件突发状况后，他最可能**首先**去做的，是为重要的家庭聚会做准备。
+
+最终答案：",C
+"Li Hua is a person who is passionate about outdoor adventures, and he goes hiking or camping every weekend. He always seeks fresh and exciting experiences. Wang Fang, a quiet librarian, spends her weekends in a quiet library, reading and organizing books. She likes a calm and orderly environment. This weekend, Li Hua invites Wang Fang to go out for the weekend.",Where does Li Hua plan to spend the weekend with Wang Fang?,Hiking,Library,Sports Park,Skiing,B,Discrepant desires,"Li Hua is passionate about outdoor adventures and typically goes hiking or camping every weekend, so it’s most likely he plans to take Wang Fang hiking.",A
+"Jianning and Mingkai are the co-captains of the football team. They still lack one team member. They joke that the remaining unselected players are ""the best players"". After a while, Mingkai does not speak, winks at Jianning, and then looks at Taotao, Taotao is one of the remaining unselected players. Mingkai turns his head and smiles at Jianning. Jianning nods his head, chooses Taotao to join their team. Taotao sees the wink and smile of Mingkai and Jianning.",What does Taotao do next?,"He walks towards Jianning and Mingkai, extends his hand, and shows a positive and friendly attitude.","He talks to a good friend about his feelings, seeks support and comfort.","He reinterprets this situation in a positive way, such as considering himself as a ""hidden treasure"" or ""secret weapon"", not the last one to be selected.","He shifts his attention to the upcoming game, not focusing on the order of being selected.",D,Emotion Regulation,"Taotao has just been chosen and has seen the friendly, inclusive nonverbal cues (wink, smile) from Mingkai and Jianning. The most plausible immediate next action in this context is that he joins them in a positive, friendly way, rather than going off to talk to someone else or just silently reinterpreting the situation.
+
+So the best answer is:",A
+"Tara is a curious robot, living in an underwater city called Aquatica in the deep sea. In Aquatica, there are no birds or flying creatures, and Tara never understands them. However, Aquatica is full of all kinds of marine life. Tara is doing imitation behavior: it swings its arms up and down gracefully, like a forward motion, very similar to the flapping of bird wings.",What is Tara likely imitating?,Fish sliding fins,Soaring eagle,Butterfly flapping wings,Bat in flight,A,Knowledge-pretend play links,"Tara is described as swinging its arms “very similar to the flapping of bird wings.” Among the choices:
+
+- A. Fish sliding fins – underwater swimming motion, not like bird wings  
+- B. Soaring eagle – a bird; directly matches “flapping of bird wings”  
+- C. Butterfly flapping wings – wings flap, but not bird wings  
+- D. Bat in flight – also not a bird  
+
+The option that best matches “bird wings” is the eagle.",B
+"Emily finds a book she really wants to read in the library, but discovers the book is already borrowed by someone else. Emily sees a book with a similar cover next to it, thinks it is the same book, and takes it away. When she gets home, Emily realizes it is a different book, but she is too lazy to return it. At the same time, Kate is busy working in the library. She knows this book belongs to a blind person who is waiting for this book. Kate gets tricked by a blind person she doesn't know not long ago, she notices Emily takes the wrong book, but she chooses not to tell Emily.",What kind of emotion does Emily feel after she realizes she takes the wrong book and decides not to return it?,"Emily possibly feels indifferent, because she finds a book she wants to read, and she doesn't want to bother herself to go back and return the book.","Emily possibly feels frustrated, because she can't read the book she originally wants to read.","Emily possibly feels guilty and uneasy, because she knows she takes the wrong book, but she doesn't want to take the trouble to return it.","Emily possibly feels satisfied, because she thinks she accidentally finds a new book, and considers this as a kind of luck.",A,Moral emotions,"After realizing she took the wrong book and deciding not to return it, Emily is most likely to feel guilty and uneasy, since she knows she’s doing something wrong but chooses convenience over correcting it.",C
+"Xiao Ming and Xiao Li are wandering in the bank, they see a handbag and a box, they find chalk in the handbag, Xiao Li leaves the bank, Xiao Ming moves the chalk to the box.","After Xiao Li returns to the bank, does Xiao Li know where the chalk is now?",Does not know,"Knows, in the handbag","Knows, in the Tote Bags","Knows, in the box",A,Percepts-knowledge links,"Xiao Ming and Xiao Li both see the chalk in the handbag. Then Xiao Li leaves. While Xiao Li is gone, Xiao Ming moves the chalk from the handbag to the box.  
+
+When Xiao Li returns, he did not see the chalk being moved, so he will still *believe* the chalk is in the original place: the handbag. He has a definite (but wrong) belief rather than uncertainty.
+
+So among the options, the intended answer is:",B
+"Xiao Hong is a 6-year-old child. Today is Saturday. Mom and Dad have free time today, they do not know what they can do together. Maybe go for ice cream? Xiao Hong really, really wants to go to the amusement park today. However, Dad thinks the amusement park has a lot of noise. He says: ""Xiao Hong, this is not a good idea. I think there is a lot of noise in the amusement park.""",How does Xiao Hong persuade her dad?,"Xiao Hong can look up some information, proving that the current amusement parks take many measures to reduce noise, such as setting up soundproof walls, using quieter equipment, etc.","Xiao Hong can tell her dad that she has not been to the amusement park for a long time, this is a very special wish for her, she really wants to go.","If Dad really does not want to go to the amusement park, Xiao Hong can suggest going to other places, such as parks or zoos, so everyone is happy.","Xiao Hong can suggest: ""How about we go in the early morning or on weekdays? I hear that there are fewer people at that time, and it is quieter. We can avoid peak hours, and get a quieter experience.""",B,Persuasion Story Task,"Dad’s concern is that the amusement park is too noisy.  
+
+- A: Too technical and research-based for a 6-year-old; less realistic.  
+- B: Expresses her wish but doesn’t address the noise issue.  
+- C: Gives up on the amusement park instead of persuading Dad.  
+- D: Directly addresses the noise concern by suggesting a quieter time to visit; also realistic for a child to say.
+
+The most plausible way for Xiao Hong to persuade her dad is D.",D
+"Zhang San and Li Si are college roommates. Today is the weekend, a rare rest day, they do not know where to go for fun. Zhang San suggests going to the amusement park, he really wants to go. However, Li Si worries that there are too many people.",How does Zhang San convince Li Si to go to the amusement park?,"We can go first, if we feel there are too many people, then we look for other places to play.","Li Si, a crowd means it is lively, if we queue, we can chat and play with our phones while queuing, it is not boring.","Do you remember last time we want to go on that new roller coaster, but we do not have time? This time we have the chance, if we miss it, we do not know when the next time is.","Actually, I hear that the snacks in the amusement park are very delicious, even if there are many people, we can go to eat.",C,Persuasion Story Task,"Zhang San needs to address Li Si’s worry that “there are too many people.”
+
+- Option A: Offers a fallback plan (leave if too crowded) – this eases pressure but doesn’t really make crowds feel acceptable.
+- Option B: Directly reframes “many people” as a positive (lively), and explains that queuing won’t be boring because they can chat and use their phones. This most directly counters Li Si’s concern.
+- Option C: Focuses on the missed roller coaster opportunity, not on the crowd issue.
+- Option D: Focuses on snacks; partially acknowledges the crowd but doesn’t really handle the worry about “too many people.”
+
+The most targeted and persuasive response to the stated concern is B.",B
+"Dongdong and Xixi are fixing a car in the park, preparing for a weekend outing. They are always discussing where to play, but neither of them comes up with a good idea. At this time, Nannan passes by, and Dongdong then stops Nannan and asks him to come over to see the car they are fixing. Nannan sees their interaction and still walks over.",What does Dongdong want to do?,Ask Nannan to help him fix the car,Invite Nannan to go out with them,Ask Nannan to give them an idea of where to play.,Dongdong hopes to show off their car repair skills to Nannan.,C,Prediction of actions,"Dongdong calls Nannan over specifically “to see the car they are fixing,” which most directly suggests he wants to show Nannan their car repair work rather than ask for help, invite him along, or get ideas about where to play.
+
+So the best answer is:",D
