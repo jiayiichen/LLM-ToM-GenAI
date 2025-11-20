@@ -1,8 +1,8 @@
 import json
 import sys
-import re
 import os
-import pandas as pd
+import argparse
+import re
 
 def parse_streaming_response(file_path):
     full_reasoning = ""
@@ -41,40 +41,58 @@ def parse_streaming_response(file_path):
                 except json.JSONDecodeError:
                     continue
 
+        answer_match = re.search(r'\[\[([A-D])\]\]', full_content)
+        answer = answer_match.group(1) if answer_match else None
+
         return {
             "reasoning": full_reasoning,
-            "content": full_content
+            "content": full_content,
+            "answer": answer
         }
 
     except FileNotFoundError:
         print(f"Error: File '{file_path}' not found.")
+        return None
 
-data_path = "/home/guo_chen2023/output_qwen_ambiguous_story_task"
-csv_dir = "/home/guo_chen2023/LLM-ToM-GenAI/tombench_csvs"
-file_path = "/home/guo_chen2023/LLM-ToM-GenAI/tombench_csvs/Ambiguous Story Task.csv"
-filename = os.path.basename(file_path)
-submit_name = filename.split('.')[0].lower().replace(' ', '_')
-output_txt_dir = f"/home/guo_chen2023/output_qwen_{submit_name}"
-
-df = pd.read_csv(file_path)
-
-for i, row in df.iterrows():
-    d = parse_streaming_response(f'{output_txt_dir}/{i}.txt')
-
-    pattern = r"\[\[([a-zA-Z]+)\]\]"
-    matches = re.findall(pattern, d["content"])
-
-    if matches == "":
-        # Fallback logic here
-        print("No tags found, using fallback.")
-        matches = ["N/A"]
-
-    d['model_answer'] = matches[0]
-    d['id'] = i
-    d['correct_answer'] = row['ANSWER']
-
-    os.makedirs(f"/home/guo_chen2023/parsed_{submit_name}", exist_ok=True)
-    with open(f"/home/guo_chen2023/parsed_{submit_name}/qwen_{i}.json", "w") as f:
-        json.dump(d, f, indent=4)
+def process_directory(input_dir, output_file):
+    results = []
     
-    break
+    txt_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
+    txt_files.sort(key=lambda x: int(x.replace('.txt', '')) if x.replace('.txt', '').isdigit() else 0)
+    
+    print(f"Found {len(txt_files)} files to process...")
+    
+    for txt_file in txt_files:
+        file_path = os.path.join(input_dir, txt_file)
+        parsed = parse_streaming_response(file_path)
+        
+        if parsed:
+            file_id = txt_file.replace('.txt', '')
+            results.append({
+                "id": file_id,
+                "answer": parsed["answer"],
+                "reasoning": parsed["reasoning"],
+                "full_content": parsed["content"]
+            })
+            print(f"Processed {txt_file} - Answer: {parsed['answer']}")
+        else:
+            print(f"Failed to process {txt_file}")
+    
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    
+    print(f"\nSaved {len(results)} results to {output_file}")
+    return results
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Parse inference results from streaming response files")
+    parser.add_argument("-i", "--input", required=True, help="Input directory containing .txt files")
+    parser.add_argument("-o", "--output", required=True, help="Output JSON file path")
+    
+    args = parser.parse_args()
+    
+    if not os.path.isdir(args.input):
+        print(f"Error: Input directory '{args.input}' does not exist")
+        sys.exit(1)
+    
+    process_directory(args.input, args.output)
