@@ -1,5 +1,8 @@
 import json
 import sys
+import re
+import os
+import pandas as pd
 
 def parse_streaming_response(file_path):
     full_reasoning = ""
@@ -46,4 +49,32 @@ def parse_streaming_response(file_path):
     except FileNotFoundError:
         print(f"Error: File '{file_path}' not found.")
 
-d = parse_streaming_response('/home/guo_chen2023/test_results_0.txt')
+data_path = "/home/guo_chen2023/output_qwen_ambiguous_story_task"
+csv_dir = "/home/guo_chen2023/LLM-ToM-GenAI/tombench_csvs"
+file_path = "/home/guo_chen2023/LLM-ToM-GenAI/tombench_csvs/Ambiguous Story Task.csv"
+filename = os.path.basename(file_path)
+submit_name = filename.split('.')[0].lower().replace(' ', '_')
+output_txt_dir = f"/home/guo_chen2023/output_qwen_{submit_name}"
+
+df = pd.read_csv(file_path)
+
+for i, row in df.iterrows():
+    d = parse_streaming_response(f'{output_txt_dir}/{i}.txt')
+
+    pattern = r"\[\[([a-zA-Z]+)\]\]"
+    matches = re.findall(pattern, d["content"])
+
+    if matches == "":
+        # Fallback logic here
+        print("No tags found, using fallback.")
+        matches = ["N/A"]
+
+    d['model_answer'] = matches[0]
+    d['id'] = i
+    d['correct_answer'] = row['ANSWER']
+
+    os.makedirs(f"/home/guo_chen2023/parsed_{submit_name}", exist_ok=True)
+    with open(f"/home/guo_chen2023/parsed_{submit_name}/qwen_{i}.json", "w") as f:
+        json.dump(d, f, indent=4)
+    
+    break
