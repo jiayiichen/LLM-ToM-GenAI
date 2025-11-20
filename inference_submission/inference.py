@@ -5,6 +5,7 @@ import argparse
 import os
 import json
 import sys
+import time
 
 
 def parse_arguments():
@@ -151,6 +152,9 @@ def main():
                     f.write(result.stdout)
 
                 print(f"✅ Successfully wrote result for row {i} to {output_file_path}")
+                
+                # Add delay to avoid rate limit (6 seconds = max 10 requests/minute)
+                time.sleep(6)
 
             except subprocess.CalledProcessError as e:
                 print(f"Curl command failed for row {i} with non-zero exit code: {e.returncode}", file=sys.stderr)
