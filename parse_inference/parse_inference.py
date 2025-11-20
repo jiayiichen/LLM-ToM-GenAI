@@ -5,6 +5,15 @@ import argparse
 import re
 
 def parse_streaming_response(file_path):
+    """
+    Parse streaming response file and extract reasoning and answer.
+    
+    Args:
+        file_path: Path to the .txt file containing streaming response
+        
+    Returns:
+        dict with keys: reasoning, content, answer
+    """
     full_reasoning = ""
     full_content = ""
 
@@ -28,12 +37,12 @@ def parse_streaming_response(file_path):
                     if "choices" in data and len(data["choices"]) > 0:
                         delta = data["choices"][0].get("delta", {})
                         
-                        # 1. Accumulate Reasoning (The model's thought process)
+                        # Accumulate reasoning content (for models like o1 that have separate reasoning)
                         reasoning_chunk = delta.get("reasoning_content")
                         if reasoning_chunk:
                             full_reasoning += reasoning_chunk
                         
-                        # 2. Accumulate Content (The final response)
+                        # Accumulate main content (the final response)
                         content_chunk = delta.get("content")
                         if content_chunk:
                             full_content += content_chunk
@@ -41,11 +50,19 @@ def parse_streaming_response(file_path):
                 except json.JSONDecodeError:
                     continue
 
+        # Extract answer in format [[A]], [[B]], [[C]], [[D]]
         answer_match = re.search(r'\[\[([A-D])\]\]', full_content)
         answer = answer_match.group(1) if answer_match else None
 
+        # If full_reasoning is empty (Gemini, etc.), extract reasoning from content
+        if not full_reasoning and answer_match:
+            # Content before the answer is considered reasoning
+            reasoning_text = full_content[:answer_match.start()].strip()
+        else:
+            reasoning_text = full_reasoning
+
         return {
-            "reasoning": full_reasoning,
+            "reasoning": reasoning_text,
             "content": full_content,
             "answer": answer
         }
@@ -55,6 +72,16 @@ def parse_streaming_response(file_path):
         return None
 
 def process_directory(input_dir, output_file):
+    """
+    Process all .txt files in a directory and extract structured results.
+    
+    Args:
+        input_dir: Directory containing inference output .txt files
+        output_file: Path to save the parsed JSON results
+        
+    Returns:
+        List of parsed results
+    """
     results = []
     
     txt_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
