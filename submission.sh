@@ -1,0 +1,1 @@
+python '/home/guo_chen2023/LLM-ToM-GenAI/inference.py' -d "/home/guo_chen2023/LLM-ToM-GenAI/tombench_csvs/Ambiguous Story Task.csv" -o /home/guo_chen2023/output_qwen_ambiguous_story_task
