@@ -5,8 +5,7 @@ CONFIG_FILE="model_gardem_configs/gemini.yaml"
 CSV_FILE="data_processing/sample_test.csv"
 OUTPUT_DIR="outputs/gemini_sample_test"
 
-
-echo "Starting inference "
+echo "Starting inference..."
 echo "Project: $PROJECT_ID"
 echo "Config: $CONFIG_FILE"
 echo "CSV: $CSV_FILE"
@@ -14,7 +13,7 @@ echo "Output: $OUTPUT_DIR"
 echo ""
 
 if [ -d "$OUTPUT_DIR" ] && [ "$(ls -A $OUTPUT_DIR 2>/dev/null)" ]; then
-    echo -e "${YELLOW}⏭️  Output directory already exists. Continue anyway? (y/n)${NC}"
+    echo "Output directory already exists. Continue anyway? (y/n)"
     read -r response
     if [[ ! "$response" =~ ^[Yy]$ ]]; then
         echo "Cancelled."
@@ -30,9 +29,9 @@ python3 inference_submission/inference.py \
     -c "$CONFIG_FILE"
 
 if [ $? -eq 0 ]; then
-    echo -e "Inference completed successfully!\n"
-    
-    echo -e "Parsing inference results..."
+    echo "Inference completed successfully!"
+    echo ""
+    echo "Parsing inference results..."
     PARSED_OUTPUT="${OUTPUT_DIR}/parsed_results.json"
     
     python3 parse_inference/parse_inference.py \
