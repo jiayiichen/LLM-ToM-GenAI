@@ -97,7 +97,7 @@ def main():
             Story = row['STORY']
             Questions = row['QUESTION']
             Option_a = row['OPTION-A']
-            Option_b = row['OPTION-C']
+            Option_b = row['OPTION-B']
             Option_c = row['OPTION-C']
             Option_d = row['OPTION-D']
 
