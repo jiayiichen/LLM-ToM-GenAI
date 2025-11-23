@@ -119,7 +119,7 @@ def main():
     [Question]
     {Questions}
     [Candidate Answers]
-    A. {Option_a} B. {Option_b} C. {Option_d} D. {Option_c}"""
+    A. {Option_a} B. {Option_b} C. {Option_c} D. {Option_d}"""
 
             URL = f"https://{ENDPOINT}/v1/projects/{PROJECT_ID}/locations/{REGION}/endpoints/openapi/chat/completions"
             data_payload = {
