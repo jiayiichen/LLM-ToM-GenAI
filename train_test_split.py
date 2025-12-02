@@ -14,6 +14,7 @@ Output:
 import os
 import csv
 import random
+import pandas as pd
 from collections import OrderedDict
 
 # Configuration
@@ -25,6 +26,23 @@ OUTPUT_DIR = '/Users/chenjiayi/Desktop/ToM/ToMrepo'
 
 # Set random seed for reproducibility
 random.seed(RANDOM_SEED)
+
+def clean_quotes(value):
+    if pd.isna(value) or not value:
+        return value
+
+    cleaned = str(value).strip()
+
+    if '","' in cleaned or '."' in cleaned or '",' in cleaned:
+        return cleaned  
+
+    if cleaned.startswith('"') or cleaned.startswith("'"):
+        cleaned = cleaned[1:]
+
+    if cleaned.endswith('"') or cleaned.endswith("'"):
+        cleaned = cleaned[:-1]
+
+    return cleaned
 
 def create_train_test_split():
     """Create train-test split and merge into single files."""
@@ -48,20 +66,18 @@ def create_train_test_split():
         input_path = os.path.join(CSV_DIR, csv_file)
         task_name = csv_file.replace('.csv', '')
 
-        # Read all rows
-        with open(input_path, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            all_rows = list(reader)
-            fieldnames = list(reader.fieldnames)
+        # Read with pandas
+        df = pd.read_csv(input_path, encoding='utf-8')
 
-        # Remove BOM if present
-        if fieldnames[0].startswith('\ufeff'):
-            clean_fieldname = fieldnames[0].replace('\ufeff', '')
-            fieldnames[0] = clean_fieldname
-            # Also fix the rows
-            for row in all_rows:
-                if '\ufeffSTORY' in row:
-                    row[clean_fieldname] = row.pop('\ufeffSTORY')
+        # Remove BOM from column names if present
+        df.columns = [col.replace('\ufeff', '') for col in df.columns]
+
+        # Clean all cells - apply to all columns
+        for col in df.columns:
+            df[col] = df[col].apply(clean_quotes)
+
+        # Convert to list of dicts for processing
+        all_rows = df.to_dict('records')
 
         total_rows = len(all_rows)
 
@@ -81,9 +97,10 @@ def create_train_test_split():
         remaining_available = [row for row in available_rows if row not in test_rows]
         train_rows = used_rows + remaining_available
 
-        # Add task name to each row for tracking
+        # Add task name to each row
         for row in train_rows:
             row['TASK'] = task_name
+
         for row in test_rows:
             row['TASK'] = task_name
 
@@ -93,28 +110,21 @@ def create_train_test_split():
         total_excluded += 2
 
         # Print status
-        print(f"{task_name:<35} Total: {total_rows:>3} | Train: {len(train_rows):>3} | Test: {len(test_rows):>3} | (2 excluded)")
+        print(f"{task_name:<35} Total: {total_rows:>3} | Train: {len(train_rows):>3} | Test: {len(test_rows):>3} ")
 
-    # Write merged train file
+    # Write merged train file with pandas (includes index automatically)
     train_output = os.path.join(OUTPUT_DIR, 'train.csv')
     if all_train_rows:
-        # Get fieldnames (add TASK column)
-        fieldnames_with_task = list(all_train_rows[0].keys())
+        train_df = pd.DataFrame(all_train_rows)
+        train_df = train_df.sample(frac=1, random_state=RANDOM_SEED).reset_index(drop=True)
+        train_df.to_csv(train_output, index=True, index_label='index')
 
-        with open(train_output, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames_with_task)
-            writer.writeheader()
-            writer.writerows(all_train_rows)
-
-    # Write merged test file
+    # Write merged test file with pandas (includes index automatically)
     test_output = os.path.join(OUTPUT_DIR, 'test.csv')
     if all_test_rows:
-        fieldnames_with_task = list(all_test_rows[0].keys())
-
-        with open(test_output, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames_with_task)
-            writer.writeheader()
-            writer.writerows(all_test_rows)
+        test_df = pd.DataFrame(all_test_rows)
+        test_df = test_df.sample(frac=1, random_state=RANDOM_SEED).reset_index(drop=True)
+        test_df.to_csv(test_output, index=True, index_label='index')
 
     # Summary
     print("\n" + "=" * 80)
