@@ -101,19 +101,14 @@ def main():
             Option_c = row['OPTION-C']
             Option_d = row['OPTION-D']
 
-            prompt = f"""Below is a multiple-choice question with a story and serveral answer options. Based on the content of the story and the given
-    question, please infer the most likely answer and output the answer index.
+            prompt = f"""Below is a multiple-choice question with a story and serveral answer options. Based on the content of the story and the given question, please infer the most likely answer and output the answer index.
 
-    IMPORTANT: Please respond in English only.
-    
-    Note:
-    (1) Please first think step by step, conduct analysis on the answers to the questions, and finally output the most likely answer
-    index in the format: [[Answer Index]], for example, if the most likely answer option is 'A. Handbag', then output '[[A]]';
-    (2) You must choose one of the given answer options 'A, B, C, D' as the most likely answer, regardless of whether the story
-    provides enough information. If you think there is not enough information in the story to choose an answer, please randomly
-    output one of "[[A]]", "[[B]]", "[[C]]", or "[[D]]";
-    (3) Again, you must first output the results of step-by-step reasoning, and finally output the most likely answer index. You
-    should not directly output the answer index.
+IMPORTANT: Please respond in English only.
+
+Note:
+(1) Please first think step by step, conduct analysis on the answers to the questions, and finally output the most likely answer index in the format: [[Answer Index]], for example, if the most likely answer option is 'A. Handbag', then output '[[A]]';
+(2) You must choose one of the given answer options 'A, B, C, D' as the most likely answer, regardless of whether the story provides enough information. If you think there is not enough information in the story to choose an answer, please output the most likely answer among "[[A]]", "[[B]]", "[[C]]", or "[[D]]" based on the current story;
+(3) Again, you must first output the results of step-by-step reasoning, and finally output the most likely answer index. You should not directly output the answer index.
     [Story]
     {Story}
     [Question]
