@@ -1,0 +1,14 @@
+data: {"choices":[{"delta":{"content":"To","role":"assistant"},"index":0,"logprobs":null}],"created":1764704724,"id":"1EEvabjiLsOJ0ekP06LxoQ4","model":"meta/llama-4-maverick-17b-128e-instruct-maas","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" determine if what Li Tong says to Wang Hong is true, let's analyze the information given in the story step by step.\n\n1. **Li Tong's feelings towards winning the competition**: Li Tong really","role":"assistant"},"index":0,"logprobs":null}],"created":1764704724,"id":"1EEvabjiLsOJ0ekP06LxoQ4","model":"meta/llama-4-maverick-17b-128e-instruct-maas","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" wants to win the painting competition. This indicates that winning is important to her.\n\n2. **Li Tong's reaction to not winning**: When Li Tong does not win, she is described as being","role":"assistant"},"index":0,"logprobs":null}],"created":1764704724,"id":"1EEvabjiLsOJ0ekP06LxoQ4","model":"meta/llama-4-maverick-17b-128e-instruct-maas","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" \"very upset.\" This shows that not winning has a negative emotional impact on her.\n\n3. **Li Tong's statement to Wang Hong**: Li Tong tells Wang Hong, \"Good job, I am really happy you win!\" This statement indicates that Li Tong is expressing happiness for Wang Hong's success.\n\n4. **Li Tong's statement to her mom**: Li Tong tells her mom, \"I am","role":"assistant"},"index":0,"logprobs":null}],"created":1764704724,"id":"1EEvabjiLsOJ0ekP06LxoQ4","model":"meta/llama-4-maverick-17b-128e-instruct-maas","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" very sad, I do not win the competition!\" This reveals Li Tong's true feelings about not winning the competition.\n\n5. **Analyzing Li Tong's statement to Wang Hong for its truthfulness**: \n   - Li Tong is happy for Wang Hong, as indicated by her congratulating Wang Hong and expressing happiness for her.\n   - The story","role":"assistant"},"index":0,"logprobs":null}],"created":1764704724,"id":"1EEvabjiLsOJ0ekP06LxoQ4","model":"meta/llama-4-maverick-17b-128e-instruct-maas","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764704724,"id":"1EEvabjiLsOJ0ekP06LxoQ4","model":"meta/llama-4-maverick-17b-128e-instruct-maas","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":339,"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":398,"total_tokens":737}}
+
+data: [DONE]
+

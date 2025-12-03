@@ -109,6 +109,7 @@ Note:
 (1) Please first think step by step, conduct analysis on the answers to the questions, and finally output the most likely answer index in the format: [[Answer Index]], for example, if the most likely answer option is 'A. Handbag', then output '[[A]]';
 (2) You must choose one of the given answer options 'A, B, C, D' as the most likely answer, regardless of whether the story provides enough information. If you think there is not enough information in the story to choose an answer, please output the most likely answer among "[[A]]", "[[B]]", "[[C]]", or "[[D]]" based on the current story;
 (3) Again, you must first output the results of step-by-step reasoning, and finally output the most likely answer index. You should not directly output the answer index.
+
     [Story]
     {Story}
     [Question]
@@ -142,7 +143,6 @@ Note:
                 )
                 
                 
-
                 with open(output_file_path, 'a', encoding='utf-8') as f:
                     f.write(result.stdout)
 
