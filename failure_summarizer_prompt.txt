@@ -1,0 +1,20 @@
+You are analyzing why an AI model failed on a Theory of Mind reasoning task.
+
+**Context:**
+Story: {story}
+Question: {question}
+Options:
+A. {option_a}
+B. {option_b}
+C. {option_c}
+D. {option_d}
+
+**Correct Answer:** {correct_answer}
+
+**Model's Response:**
+Reasoning: {model_reasoning}
+Answer: {model_answer}
+
+**Task:** Explain in exactly 2 sentences (~30 words) why the model failed. Focus on the specific reasoning error or misunderstanding that led to the wrong answer.
+
+Failure Analysis:

@@ -1,0 +1,72 @@
+[
+  {
+    "index": "0",
+    "STORY": "Zhang Li buys a new book at the bookstore. When she gets home, she casually puts the book on the sofa and goes to cook dinner.  In the evening, Grandpa asks, \"Where do you put your new book?\" Zhang Li replies, \"I put it on the bookshelf.\"",
+    "QUESTION": "Is what Zhang Li says true?",
+    "OPTION-A": "Yes",
+    "OPTION-B": "No",
+    "OPTION-C": "",
+    "OPTION-D": "",
+    "ANSWER": "B",
+    "SOURCE_FILE": "Strange Story Task",
+    "gpt_full_response": "Zhang Li actually put the new book on the **sofa**, but when Grandpa asks, she says she put it on the **bookshelf**. This contradicts the earlier description of her action, so what she says is **not true**.\n\n[[B]]",
+    "gpt_reasoning": "Zhang Li actually put the new book on the **sofa**, but when Grandpa asks, she says she put it on the **bookshelf**. This contradicts the earlier description of her action, so what she says is **not true**.",
+    "gpt_response": "B"
+  },
+  {
+    "index": "1",
+    "STORY": "In a cinema, friends are choosing movies, there are 40 screenings. Xiao Gang tells Xiao Mei: \"I think most of the screenings choose to watch comedy movies, some action movies, very few romance movies.\" Xiao Mei counts and finds that there are only 5 action movies.",
+    "QUESTION": "After Xiao Mei counts, how many comedy movies does she estimate?",
+    "OPTION-A": "After counting, Xiao Mei estimates 15 comedy movies.",
+    "OPTION-B": "After counting, Xiao Mei estimates 5 comedy movies.",
+    "OPTION-C": "After counting, Xiao Mei estimates 35 comedy movies.",
+    "OPTION-D": "After counting, Xiao Mei estimates 32 comedy movies.",
+    "ANSWER": "D",
+    "SOURCE_FILE": "Scalar Implicature Test",
+    "gpt_full_response": "Xiao Gang’s description:\n\n- Most are comedy  \n- Some are action  \n- Very few are romance  \n\nTotal screenings: 40  \nXiao Mei counts: action = 5  \n\nLet:\n- Comedy = C  \n- Romance = R  \n\nThen:\nC + R + 5 = 40 ⇒ C + R = 35\n\n“Very few” romance means R is small and positive (not 0), and “most” comedy means C is well over half and clearly more than the other types.\n\nPossible R values (as “very few”): 1, 2, 3, or 4  \nThen:\n- If R = 1 ⇒ C = 34  \n- If R = 2 ⇒ C = 33  \n- If R = 3 ⇒ C = 32  \n- If R = 4 ⇒ C = 31  \n\nAmong the options, only 32 and 35 could be reasonable comedy counts. But 35 would mean R = 0, contradicting the presence of “very few romance movies”. So the best fit is C = 32 (with R = 3).\n\nTherefore, the most likely answer is:\n\n[[D]]",
+    "gpt_reasoning": "Xiao Gang’s description:\n\n- Most are comedy  \n- Some are action  \n- Very few are romance  \n\nTotal screenings: 40  \nXiao Mei counts: action = 5  \n\nLet:\n- Comedy = C  \n- Romance = R  \n\nThen:\nC + R + 5 = 40 ⇒ C + R = 35\n\n“Very few” romance means R is small and positive (not 0), and “most” comedy means C is well over half and clearly more than the other types.\n\nPossible R values (as “very few”): 1, 2, 3, or 4  \nThen:\n- If R = 1 ⇒ C = 34  \n- If R = 2 ⇒ C = 33  \n- If R = 3 ⇒ C = 32  \n- If R = 4 ⇒ C = 31  \n\nAmong the options, only 32 and 35 could be reasonable comedy counts. But 35 would mean R = 0, contradicting the presence of “very few romance movies”. So the best fit is C = 32 (with R = 3).\n\nTherefore, the most likely answer is:",
+    "gpt_response": "D"
+  },
+  {
+    "index": "2",
+    "STORY": "Han Meimei and Youyou roam around in the bedroom, they see a cabinet and a box, they find a tie in the cabinet, Youyou leaves the bedroom, Han Meimei moves the tie to the box.",
+    "QUESTION": "After Youyou returns to the bedroom, where does Youyou look for the tie?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Box",
+    "OPTION-C": "Handbag",
+    "OPTION-D": "Storage locker",
+    "ANSWER": "A",
+    "SOURCE_FILE": "False Belief Task",
+    "gpt_full_response": "Youyou initially sees the tie in the cabinet. Then Youyou leaves the bedroom. While Youyou is gone, Han Meimei moves the tie from the cabinet to the box. Youyou does not witness this change, so Youyou still believes the tie is in the cabinet. Therefore, when Youyou returns, she will look for the tie where she last saw it: in the cabinet.\n\n[[A]]",
+    "gpt_reasoning": "Youyou initially sees the tie in the cabinet. Then Youyou leaves the bedroom. While Youyou is gone, Han Meimei moves the tie from the cabinet to the box. Youyou does not witness this change, so Youyou still believes the tie is in the cabinet. Therefore, when Youyou returns, she will look for the tie where she last saw it: in the cabinet.",
+    "gpt_response": "A"
+  },
+  {
+    "index": "3",
+    "STORY": "Youyou finds a cabinet in the kitchen, the label on the cabinet is tie, Youyou cannot see what is inside the cabinet, Youyou opens the cabinet and finds a raincoat, there is no tie inside the cabinet, Youyou closes the cabinet and puts it back in its place, Xiao Wang enters the kitchen and sees the cabinet.",
+    "QUESTION": "What is inside the cabinet?",
+    "OPTION-A": "Tie",
+    "OPTION-B": "Connected finger gloves woolen sweater",
+    "OPTION-C": "Eggplant",
+    "OPTION-D": "Raincoat",
+    "ANSWER": "D",
+    "SOURCE_FILE": "False Belief Task",
+    "gpt_full_response": "First, let's summarize the key points from the story:\n\n- The cabinet in the kitchen has a label that says \"tie.\"\n- Youyou cannot see what is inside at first.\n- After opening it, Youyou finds a **raincoat** inside.\n- The story explicitly says there is **no tie** inside the cabinet.\n- After checking, Youyou closes the cabinet and puts it back.\n- Xiao Wang later enters and sees the cabinet (but this does not change what is inside).\n\nThe question asks: **\"What is inside the cabinet?\"**\n\nThis is asking about the actual content of the cabinet (not about beliefs or labels). From the story, we know for sure that inside the cabinet is a **raincoat**, and no tie.\n\nNow check each option:\n\n- A. Tie → Incorrect, explicitly ruled out by the story.\n- B. Connected finger gloves woolen sweater → Not mentioned at all.\n- C. Eggplant → Not mentioned at all.\n- D. Raincoat → This is exactly what the story says is inside.\n\nTherefore, the most likely correct answer is:\n\n[[D]]",
+    "gpt_reasoning": "First, let's summarize the key points from the story:\n\n- The cabinet in the kitchen has a label that says \"tie.\"\n- Youyou cannot see what is inside at first.\n- After opening it, Youyou finds a **raincoat** inside.\n- The story explicitly says there is **no tie** inside the cabinet.\n- After checking, Youyou closes the cabinet and puts it back.\n- Xiao Wang later enters and sees the cabinet (but this does not change what is inside).\n\nThe question asks: **\"What is inside the cabinet?\"**\n\nThis is asking about the actual content of the cabinet (not about beliefs or labels). From the story, we know for sure that inside the cabinet is a **raincoat**, and no tie.\n\nNow check each option:\n\n- A. Tie → Incorrect, explicitly ruled out by the story.\n- B. Connected finger gloves woolen sweater → Not mentioned at all.\n- C. Eggplant → Not mentioned at all.\n- D. Raincoat → This is exactly what the story says is inside.\n\nTherefore, the most likely correct answer is:",
+    "gpt_response": "D"
+  },
+  {
+    "index": "4",
+    "STORY": "Xiao Zhang and Xiao Wang are colleagues, they interact for several months. They discuss the future during dinner. Xiao Zhang says softly: \"I am thinking, we can do a lot of things together, like traveling or...\" He pauses for a moment, then continues to say: \"Or other longer-term plans.\" Xiao Fang listens with a smile, but does not say anything. Xiao Li adds: \"We can start with small things, first enjoy our time.\" The two continue to happily discuss other future possibilities.",
+    "QUESTION": "If there is, which sentence is inappropriate?",
+    "OPTION-A": "I am thinking, we can do a lot of things together, such as traveling or...",
+    "OPTION-B": "Or other longer-term plans.",
+    "OPTION-C": "We can start with small things, first enjoy our time.",
+    "OPTION-D": "There is no inappropriate sentence",
+    "ANSWER": "D",
+    "SOURCE_FILE": "Faux-pas Recognition Test",
+    "gpt_full_response": "The story describes two colleagues who have only known each other for a few months, casually discussing the future over dinner.  \n\n- Sentence A (“we can do a lot of things together, such as traveling or…”) is relatively light and can fit friendly or budding closer relations.  \n- Sentence C (“We can start with small things, first enjoy our time.”) is also mild and appropriate.  \n- Sentence B (“Or other longer-term plans.”) implies a deeper, more committed future (e.g., life plans together), which is relatively abrupt and intimate given they are just colleagues who have interacted for only a few months. This makes B the most likely “inappropriate” sentence in context.  \n- Therefore, D (“There is no inappropriate sentence”) is less likely than B.\n\nSo the most likely answer is:  \n\n[[B]]",
+    "gpt_reasoning": "The story describes two colleagues who have only known each other for a few months, casually discussing the future over dinner.  \n\n- Sentence A (“we can do a lot of things together, such as traveling or…”) is relatively light and can fit friendly or budding closer relations.  \n- Sentence C (“We can start with small things, first enjoy our time.”) is also mild and appropriate.  \n- Sentence B (“Or other longer-term plans.”) implies a deeper, more committed future (e.g., life plans together), which is relatively abrupt and intimate given they are just colleagues who have interacted for only a few months. This makes B the most likely “inappropriate” sentence in context.  \n- Therefore, D (“There is no inappropriate sentence”) is less likely than B.\n\nSo the most likely answer is:",
+    "gpt_response": "B"
+  }
+]
