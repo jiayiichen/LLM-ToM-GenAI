@@ -1,0 +1,14 @@
+
+data:
+  #   "gs://fantom_dataset/fantom_v1.json"
+  #   "https://storage.googleapis.com/fantom_dataset/fantom_v1.json"
+  #   "data/fantom_v1.json"
+  fantom_url: "gs://fantom_dataset/fantom_v1.json"
+
+  context_field: "full_context"   # or "short_context"
+
+eval:
+  model_name: "gemini-2.5-flash"   
+  max_examples: 4             # null = all 870 examples, or set a number like 100
+  output_path: "fantom_all_types_results.csv"
+  task_type: "All"              # "All" = test all types, or "FactQ", "BeliefQ", "Answerability", "InfoAccess"

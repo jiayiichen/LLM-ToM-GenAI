@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is whether what Zhang Yang says is true. The story says that Zhang Yang and Li Ming are going to have a picnic, Li Ming says today is a good day for a picnic. Then when they open the food, it starts raining and they get soaked. Zhang Yang says, \"Oh, yes, a good weather for a picnic!\"\n\nWait, the question is asking if her statement is true. So her statement is \"a good weather for a picnic\" but in reality, it started raining, so the weather is bad. So she's being sarcastic here. Because when it's raining, it's not a good day for a picnic. So her statement is not true; she's saying the opposite of what's actually happening. So the answer should be B. No.\n\nBut let's check the options again. The candidate answers are A. Yes, B. No, C. nan, D. nan. So \"Yes\" would mean her statement is true, but since it's raining, it's not a good day, so her saying it's good is false. So the answer is B. No.\n\nBut wait, the question is phrased as \"Is what Zhang Yang says true?\" Her statement is \"Oh, yes, a good weather for a picnic!\" which is sarcastic. So the actual truth is that it's not a good day, so her statement is false. Therefore, the correct answer is B. No.\n\nBut maybe there's a trick here. Let me read the story again. The story says \"it starts to rain from the sky, and in a short while, they are all soaked. Zhang Yang is very upset. She says: 'Oh, yes, a good weather for a picnic!'\" So she's being sarcastic. So when she says \"a good weather for a picnic,\" she's actually saying the opposite. So the truth is that it's not a good day, so her statement isn't true. So the answer should be B. No.\n\nYes. So the correct answer is B.",
+    "content": "\n\nThe story describes Zhang Yang and Li Ming planning a picnic. Li Ming claims it's a good day for a picnic, but immediately after opening the food, it starts raining and they get soaked. Zhang Yang, upset, says, \"Oh, yes, a good weather for a picnic!\" This statement is clearly sarcastic because the rain makes the weather terrible for a picnic. The actual situation contradicts her words, meaning her statement is not true. Therefore, the correct answer is that her statement is false, corresponding to option B.\n\n[[B]]",
+    "model_answer": "B",
+    "id": 36,
+    "correct_answer": "B",
+    "STORY": "Zhang Yang and Li Ming are going to have a picnic. This is Li Ming's idea, he says today is a good day for a picnic. But just as they open the food packaging, it starts to rain from the sky, and in a short while, they are all soaked. Zhang Yang is very upset. She says: \"Oh, yes, a good weather for a picnic!\"",
+    "QUESTION": "Is what Zhang Yang says true?",
+    "OPTION-A": "Yes",
+    "OPTION-B": "No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "SOURCE_FILE": "Strange Story Task"
+}

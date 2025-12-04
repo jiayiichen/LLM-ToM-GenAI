@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiaogang and Xiaoming in a bedroom. They see a handbag, a briefcase, and a backpack. Then they find cabbage in the handbag. Then Xiaoming leaves the bedroom, and Xiaogang moves the cabbage to the backpack.\n\nThe question is: Where is the cabbage before?\n\nHmm. Let me parse the story again. The key points are: \"they find cabbage in the handbag\" \u2013 so initially, the cabbage is in the handbag. Then Xiaogang moves it to the backpack.\n\nSo before Xiaogang moved it, where was it? The story says they found cabbage in the handbag. So before moving, cabbage was in the handbag. Then he moved it to backpack. So the answer should be handbag.\n\nLooking at the options: A. Tote bag (but the story says handbag, briefcase, backpack; maybe tote bag is another name for handbag? But the options have B. Handbag. So B is handbag. Wait, the candidate answers are:\n\nA. Tote bag\n\nB. Handbag\n\nC. Briefcase\n\nD. Backpack\n\nSo the cabbage was found in the handbag. So before moving, it was in handbag. So before Xiaogang moved it, it was in handbag. So the answer is B.\n\nWait, the question is \"Where is the cabbage before?\" Before what? Before Xiaogang moved it. Because the story says \"Xiaogang moves the cabbage to the backpack.\" So before that action, the cabbage was in the handbag. Because \"they find cabbage in the handbag\" \u2013 so initially, cabbage was in handbag. Then Xiaoming leaves, then Xiaogang moves it. So yes, before moving, it's in handbag.\n\nSo the correct answer is B. Handbag.\n\nSo the answer index is B. So output [[B]].\n",
+    "content": "\n\nThe story states that Xiaogang and Xiaoming \"see a handbag, a briefcase, and a backpack, they find cabbage in the handbag.\" This explicitly indicates the cabbage was initially in the handbag. Xiaogang later moves the cabbage to the backpack, but the question asks where the cabbage was \"before\" this action. Since the cabbage was found in the handbag prior to being moved, the correct answer is B. Handbag. \n\n[[B]]",
+    "model_answer": "B",
+    "id": 13,
+    "correct_answer": "B",
+    "STORY": "Xiaogang and Xiaoming are wandering in the bedroom, they see a handbag, a briefcase, and a backpack, they find cabbage in the handbag, Xiaoming leaves the bedroom, Xiaogang moves the cabbage to the backpack.",
+    "QUESTION": "Where is the cabbage before?",
+    "OPTION-A": "Tote bag",
+    "OPTION-B": "Handbag",
+    "OPTION-C": "Briefcase",
+    "OPTION-D": "Backpack",
+    "SOURCE_FILE": "False Belief Task"
+}

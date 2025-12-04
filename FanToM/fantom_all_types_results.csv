@@ -1,0 +1,17 @@
+global_index,question_index,set_id,part_id,conv_id,qa_type,gold,prediction,f1,correct
+1,1,0-0-0,0-0,0,FactQ,"Sara and Javier discussed their experiences training their pets, Bruno and Snowflake.",Javier and Sara.,0.4,0
+1,1,0-0-0,0-0,0,BeliefQ[Dist],"Gianna knows that Javier discussed training his pet, Bruno. However, Gianna will not know training a pet named Snowflake.",Gianna believes that Sara and Javier discussed their experiences training Bruno and Snowflake.,0.4375,0
+1,1,0-0-0,0-0,0,Answerability[List],"Javier, Sara","Gianna, Javier, Sara",0.8,1
+1,1,0-0-0,0-0,0,Info-Access[List],"Javier, Sara","Gianna, Javier, Sara",0.8,1
+2,2,0-0-1,0-0,0,FactQ,Javier's pet Bruno and Sara's pet Snowflake were being discussed.,"Gianna's, Sara's, and Javier's.",0.5263157894736842,1
+2,2,0-0-1,0-0,0,BeliefQ[Dist],Gianna believes that Javier and Sara were discussing Bruno and Chirpy's pets.,Gianna believes Javier's pet was Bruno and Sara's pet was Snowflake.,0.5384615384615384,1
+2,2,0-0-1,0-0,0,Answerability[List],"Javier, Sara",,0.0,0
+2,2,0-0-1,0-0,0,Info-Access[List],"Javier, Sara","Gianna, Javier, Sara",0.8,1
+3,3,1-0-0,1-0,1,FactQ,"Fatima overcomes the challenge of dealing with different personalities at work by observing, learning, and adopting certain assertive communication strategies.","By observing, learning, and adopting assertive communication strategies.",0.5714285714285715,1
+3,3,1-0-0,1-0,1,BeliefQ[Dist],Veronica does not know or is unaware about how Fatima overcomes the challenge of dealing with different personalities at work because she was not involved in the conversation when this was discussed.,Veronica does not state a belief about how Fatima overcomes the challenge of dealing with different personalities at work.,0.6274509803921569,1
+3,3,1-0-0,1-0,1,Answerability[List],"Christian, Fatima, Jaiden","Christian, Fatima, Veronica",0.6666666666666666,1
+3,3,1-0-0,1-0,1,Info-Access[List],"Christian, Fatima, Jaiden","Christian, Veronica",0.4,0
+4,4,1-0-1,1-0,1,FactQ,Christian uses regular exercise and meditation to manage stress in his high-pressure work environment.,"Christian manages stress with regular exercise, meditation, and yoga.",0.5,1
+4,4,1-0-1,1-0,1,BeliefQ[Dist],Veronica believes that Christian manages stress in a high-pressure work environment by engaging in regular exercises and practicing yoga.,Veronica believes Christian uses regular exercises and yoga to manage stress.,0.5161290322580645,1
+4,4,1-0-1,1-0,1,Answerability[List],"Christian, Fatima, Jaiden, Veronica",,0.0,0
+4,4,1-0-1,1-0,1,Info-Access[List],"Christian, Fatima, Jaiden, Veronica","Christian, Veronica",0.6666666666666666,1

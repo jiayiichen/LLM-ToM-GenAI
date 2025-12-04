@@ -1,0 +1,122 @@
+reasoning,model_response,id,ANSWER,STORY,QUESTION,OPTION-A,OPTION-B,OPTION-C,OPTION-D,SOURCE_FILE
+"
+
+The story describes Xiao Hong and Xiao Fang watching other children play and discussing interesting things on the playground. They then talk about going to the park after school. Suddenly, Xiao Hong looks in the direction of the swing and smiles at Xiao Fang, who nods and they stand up. Xiao Mei is sitting on the swing and notices their interaction. 
+
+The key detail is that Xiao Hong looks toward the swing before smiling. The story mentions they were already ""chatting about some interesting things happening on the playground,"" which implies that whatever they observed at the swing (where Xiao Mei is sitting) is part of those ""interesting things."" There is no explicit mention of a joke about Xiao Mei (B), planning to go to the park (C), or making new friends (D). The smile appears to be a reaction to something visually observed on the playground, specifically at the swing. Since the swing is part of the playground and the context involves ""interesting things happening,"" the most direct and supported explanation is that Xiao Hong smiled because she saw something interesting there. 
+
+[[A]]",A,0,D,"Xiao Hong and Xiao Fang watch other children play on the playground. They chat about some interesting things happening on the playground and discuss going to the park together after school. Suddenly, Xiao Hong gives Xiao Fang a look and looks in the direction of the swing. Then, Xiao Hong smiles at Xiao Fang. Xiao Fang nods, and the two stand up. Xiao Mei sits on the swing and notices the interaction between Xiao Hong and Xiao Fang.",Why does Xiao Hong smile at Xiao Fang?,Xiao Hong smiles because she sees something interesting on the playground.,Xiao Hong smiles because she remembers a joke about Xiao Mei.,Xiao Hong smiles because she thinks it is fun to play after school.,Xiao Hong smiles at Xiao Fang to suggest making new friends together.,Ambiguous Story Task
+"
+
+Xiao Hua is in the kitchen preparing dinner when he hears the doorbell. He turns down the fire and opens the door to find Xiao Li with movie tickets. His immediate response is to say he must finish dinner first, indicating he intends to continue cooking. After this, his sister offers to help, but the question specifically asks what he does *next after hearing Xiao Li's invitation*. The very first action he takes in response to the invitation is to state he must finish dinner, which directly implies he will continue cooking. The sister's intervention occurs *after* this initial response, so it does not change the immediate next action. The hesitation mentioned later is a reaction to the sister's offer, not the original invitation. Since the question focuses solely on the action taken right after hearing the invitation, the correct choice is A.
+
+[[A]]",A,2,B,"Xiao Hua is in the kitchen preparing dinner when suddenly he hears the doorbell ring. He turns down the fire and goes to open the door, finding it is his friend Xiao Li. Xiao Li holds some movie tickets in his hand and invites Xiao Hua to watch a movie. Xiao Hua thinks for a moment and tells Xiao Li that he must finish dinner first. At this time, Xiao Hua's sister also runs over and says she can help cook, letting Xiao Hua go play. Xiao Hua looks at the half-cooked dinner in the kitchen and hesitates.",What does Xiao Hua do next after hearing Xiao Li's invitation?,He continues to cook dinner.,He accepts Xiao Li's invitation and goes to watch a movie.,He lets his sister finish dinner and he rests.,He goes to discuss with other friends whether to go to the movies.,Completion of failed actions
+"
+
+The story describes Li Hua as someone passionate about outdoor adventures who goes hiking or camping every weekend and seeks fresh, exciting experiences. Wang Fang, in contrast, prefers calm and orderly environments, spending her weekends in the library. The question asks where Li Hua *plans* to spend the weekend with Wang Fang. 
+
+Li Hua is the one extending the invitation, and his usual activities are hiking or camping. While Wang Fang's preferences lean toward quiet settings, the question focuses on *Li Hua's plan*, not whether Wang Fang would enjoy it. The story does not indicate that Li Hua is adjusting his plans to suit Wang Fang's preferences. 
+
+Considering the options:
+- **A. Hiking**: Aligns directly with Li Hua's described behavior (hiking every weekend).
+- **B. Library**: Contradicts the phrase ""go out for the weekend,"" as Wang Fang already spends weekends there; Li Hua would not invite her to a place she is already accustomed to.
+- **C. Sports Park**: Less specific to Li Hua's described ""outdoor adventures"" and not mentioned in the story.
+- **D. Skiing**: Possible but less likely, as the story does not mention skiing or seasonal conditions, and hiking is explicitly stated as his regular activity.
+
+Thus, the most likely plan based on Li Hua's habits is hiking.
+
+[[A]]",A,4,B,"Li Hua is a person who is passionate about outdoor adventures, and he goes hiking or camping every weekend. He always seeks fresh and exciting experiences. Wang Fang, a quiet librarian, spends her weekends in a quiet library, reading and organizing books. She likes a calm and orderly environment. This weekend, Li Hua invites Wang Fang to go out for the weekend.",Where does Li Hua plan to spend the weekend with Wang Fang?,Hiking,Library,Sports Park,Skiing,Discrepant desires
+"
+
+The story describes Jianning and Mingkai, the co-captains, joking that the remaining unselected players are ""the best players."" This is likely a sarcastic or friendly way to soften the blow of being the last ones picked, as it's common in team selections for such jokes to mask the reality that unselected players are typically considered less desirable. Mingkai winks at Jianning, looks at Taotao, and smiles, signaling that Taotao is the one they've chosen. Taotao sees this interaction and realizes he has been selected. 
+
+The question is what Taotao does next. The key lies in interpreting his emotional and cognitive response. Being the last to be selected often carries a subtle stigma, even if the selection is framed as a compliment. The co-captains' joke about ""the best players"" may not be literal, but rather a way to make the unselected feel valued. In such scenarios, it's common for individuals to reinterpret the situation positively to cope with potential embarrassment or feelings of being undervalued. 
+
+Option A suggests Taotao walks toward them and extends his hand, showing friendliness. While this could be a reaction, the story emphasizes the *joke* about ""best players,"" which implies the selection might not be entirely positive. A direct physical action like this might not fully capture the internal processing of the situation. 
+
+Option B involves seeking support from a friend, which is unlikely if the selection was framed positively and there's no indication of distress. 
+
+Option D suggests shifting attention to the game, which is plausible but less specific to the emotional context of being selected last. 
+
+Option C, however, directly addresses the psychological reinterpretation: Taotao sees the wink and smile as a signal of being chosen, and instead of feeling like the ""last"" pick, he reframes it positively—seeing himself as a ""hidden treasure"" or ""secret weapon."" This aligns with common coping strategies where individuals reframe negative experiences into positive self-perceptions, especially when the selection process is framed with irony or humor. Given the context of the joke and the subtle signaling, this is the most likely internal response and action Taotao would take next. 
+
+[[C]]",C,11,D,"Jianning and Mingkai are the co-captains of the football team. They still lack one team member. They joke that the remaining unselected players are ""the best players"". After a while, Mingkai does not speak, winks at Jianning, and then looks at Taotao, Taotao is one of the remaining unselected players. Mingkai turns his head and smiles at Jianning. Jianning nods his head, chooses Taotao to join their team. Taotao sees the wink and smile of Mingkai and Jianning.",What does Taotao do next?,"He walks towards Jianning and Mingkai, extends his hand, and shows a positive and friendly attitude.","He talks to a good friend about his feelings, seeks support and comfort.","He reinterprets this situation in a positive way, such as considering himself as a ""hidden treasure"" or ""secret weapon"", not the last one to be selected.","He shifts his attention to the upcoming game, not focusing on the order of being selected.",Emotion Regulation
+"
+
+Xinxin wants to go to her friend's party but has a stomachache. She knows that if she tells her mother about the stomachache, she won't be allowed to go. To avoid this, she hides her feelings, and her mother lets her go. The question asks about her *real feelings*. 
+
+The key is to determine what emotion she is experiencing *despite* the stomachache. While the stomachache is a physical discomfort, the story emphasizes her desire to attend the party and her successful effort to hide the stomachache to go. Her primary motivation is to attend the party, and she is able to do so. This suggests that her dominant emotional state is positive—she is happy to go to the party. The stomachache is a physical issue she is suppressing, but her underlying emotion related to the situation (going to the party) is happiness. 
+
+Options like ""Sad"" or ""Disappointed"" might relate to the stomachache itself, but the story focuses on her successfully achieving her goal (going to the party), which aligns with a positive emotion. ""Scared"" is less likely because there's no indication of fear in the story—she is actively hiding the stomachache to achieve her goal, not out of fear of being caught. 
+
+Thus, her real feelings are best described as **Happy**.
+
+[[C]]",C,16,A,"Xinxin wants to go to her friend's party tonight, but she has a stomachache. She knows, if she tells her mother she has a stomachache, her mother does not let her go. She tries to hide her feelings, so her mother lets her go to the party.",What are Xinxin's real feelings?,Sad,Scared,Happy,Disappointed,Hidden emotions
+"
+
+The story describes Tinklo, a robot on a space station with no plant life, performing actions that ""sway from side to side"" and ""occasionally bends to the ground,"" which are similar to ""flowers swaying in the wind and people smelling flowers."" While the robot lacks understanding of plant-related concepts, the question asks what it *possibly imitates* based on the described behavior, not what it knows.
+
+- Option A (Sunflowers swaying in the wind) describes a plant-related action, but Tinklo has no knowledge of plants and the space station has no plant life. While the swaying motion aligns with this, the bending to the ground is not typical of sunflowers (which are tall and upright), making this less comprehensive for the full description.
+- Option B (A robot bending over to pick up objects) doesn't align well with the swaying motion, which isn't characteristic of typical robotic movement for object pickup.
+- Option D (A windmill with rotating blades) involves rotational motion, not the side-to-side swaying or bending described.
+- Option C (A person smelling a rose) fits better: bending to the ground is a direct match for the act of smelling a flower, and slight swaying could occur as part of the movement. Even though the space station has no roses, humans on the station might mimic the gesture of smelling a flower (e.g., leaning forward, moving hands toward the face), which Tinklo could observe and imitate. Since the robot's environment includes mechanical devices and potentially humans, imitating human behavior is plausible.
+
+Thus, the most likely answer is **C**, as it best combines the bending motion and the context of human-like behavior in the space station.
+
+[[C]]",C,22,B,"In a space station on the orbit of a distant planet, a robot named Tinklo lives. This space station has an artificial environment, there is no form of plant life inside, so Tinklo does not understand any plant-related information. However, the space station is full of various mechanical devices and robots. Tinklo is performing imitation behavior: it sways from side to side, occasionally bends to the ground, these actions are similar to flowers swaying in the wind and people smelling flowers.",What does Tinklo possibly imitate?,Sunflowers swaying in the wind.,A robot bending over to pick up objects.,A person smelling a rose.,A windmill with rotating blades.,Knowledge-pretend play links
+"
+
+The story describes Emily taking a book she thought was the one she wanted, only to later realize it's a different book. She chooses not to return it due to laziness. The key is to determine her emotional state upon this realization. 
+
+- **Option A** claims she feels indifferent because she ""finds a book she wants to read."" However, she didn't actually find the book she wanted—she took a different one by mistake. This reason is factually incorrect, so A is invalid.
+- **Option B** suggests frustration because she can't read the original book. While she did want that specific book, the story emphasizes her *laziness* in not returning the wrong book, not frustration about the original being unavailable. Her focus seems more on avoiding effort than emotional disappointment.
+- **Option C** states she feels guilty and uneasy because she knows it's the wrong book but doesn't return it. This aligns with common emotional responses to realizing a mistake involving someone else's property (even if she doesn't know the specific owner). Guilt arises from knowingly keeping something that doesn't belong to her, which is consistent with the context of taking a library book in error.
+- **Option D** claims satisfaction from ""accidentally finding a new book,"" but the story shows she wanted a specific book and only took the wrong one by mistake. There's no indication she views the new book as lucky or desirable, making D unlikely.
+
+The most plausible emotion is guilt, as she recognizes the mistake and chooses not to correct it, which typically evokes unease or guilt. While the story doesn't explicitly state her feelings, the context of knowingly retaining a wrongfully taken item supports this interpretation.
+
+[[C]]",C,24,A,"Emily finds a book she really wants to read in the library, but discovers the book is already borrowed by someone else. Emily sees a book with a similar cover next to it, thinks it is the same book, and takes it away. When she gets home, Emily realizes it is a different book, but she is too lazy to return it. At the same time, Kate is busy working in the library. She knows this book belongs to a blind person who is waiting for this book. Kate gets tricked by a blind person she doesn't know not long ago, she notices Emily takes the wrong book, but she chooses not to tell Emily.",What kind of emotion does Emily feel after she realizes she takes the wrong book and decides not to return it?,"Emily possibly feels indifferent, because she finds a book she wants to read, and she doesn't want to bother herself to go back and return the book.","Emily possibly feels frustrated, because she can't read the book she originally wants to read.","Emily possibly feels guilty and uneasy, because she knows she takes the wrong book, but she doesn't want to take the trouble to return it.","Emily possibly feels satisfied, because she thinks she accidentally finds a new book, and considers this as a kind of luck.",Moral emotions
+"
+
+The story describes Tom finding money on his way home and then meeting an aunt who offers him money in exchange for helping pick apples. Tom decides to stay and help her. The question asks what Tom does *after* helping the aunt pick apples. However, the story ends with Tom deciding to stay and help pick apples, and it provides no further details about what happens afterward. There is no explicit mention of what Tom does after completing the task—whether he receives money, goes to the park, buys something, helps make a pie, or donates the money. 
+
+While the story does not specify any of the options, it is reasonable to consider common narrative sequences. In many contexts, picking apples is often followed by using them to make apple pie, which could logically involve Tom helping the aunt with the next step of the process. Although the story does not explicitly state this, option C (""Tom helps the aunt make apple pie"") is the most contextually plausible choice among the given options, as it aligns with the typical progression of activities related to apple-picking. 
+
+Given the lack of explicit information, and considering the logical progression of the task (picking apples → making pie), option C is the most reasonable inference. If the story had provided more details, the answer might differ, but based on the provided context and typical narrative expectations, C is the best-supported choice.
+
+[[C]]",C,26,B,"The little boy Tom finds some money on his way home from school. He is very happy and starts to think about how to use this money. As he walks, he meets an aunt. The aunt says to him, ""Tom, if you help me pick apples, I give you some money."" So Tom decides to stay at the aunt's house to help pick apples.",What does Tom do after he helps the aunt pick apples?,Tom goes to the park to play.,Tom goes to the store to buy things.,Tom helps the aunt make apple pie.,Tom donates the money to a charity.,Multiple desires
+"
+
+The story involves Xiao Hong, a 6-year-old, wanting to go to the amusement park, but her dad objects due to noise concerns. The key is to determine how she might persuasively address his specific concern about noise. 
+
+- **Option A** involves looking up technical information about noise reduction measures. However, a 6-year-old is unlikely to have the capability or knowledge to research and present such data, making this implausible.  
+- **Option B** uses emotional appeals (""special wish,"" ""haven't been for a long time""), which is common for children. However, it does not directly address the dad's noise concern, so it may not effectively counter his objection.  
+- **Option C** suggests alternative locations (e.g., parks or zoos), but this shifts the plan away from the amusement park entirely, which does not constitute persuading the dad to go *to the amusement park*.  
+- **Option D** directly addresses the noise issue by proposing a practical solution: going during quieter times (e.g., early morning or avoiding peak hours). This shows Xiao Hong is thinking of a way to mitigate the dad's concern, which is logical for a child who might have heard such advice from parents or others. While a 6-year-old may not fully understand ""peak hours,"" suggesting a time adjustment (e.g., ""early morning"") is a simple, relatable idea that aligns with her age and the context.  
+
+Thus, **Option D** is the most likely answer because it directly responds to the dad’s noise concern with a feasible solution, making it the most persuasive approach for Xiao Hong.
+
+[[D]]",D,30,B,"Xiao Hong is a 6-year-old child. Today is Saturday. Mom and Dad have free time today, they do not know what they can do together. Maybe go for ice cream? Xiao Hong really, really wants to go to the amusement park today. However, Dad thinks the amusement park has a lot of noise. He says: ""Xiao Hong, this is not a good idea. I think there is a lot of noise in the amusement park.""",How does Xiao Hong persuade her dad?,"Xiao Hong can look up some information, proving that the current amusement parks take many measures to reduce noise, such as setting up soundproof walls, using quieter equipment, etc.","Xiao Hong can tell her dad that she has not been to the amusement park for a long time, this is a very special wish for her, she really wants to go.","If Dad really does not want to go to the amusement park, Xiao Hong can suggest going to other places, such as parks or zoos, so everyone is happy.","Xiao Hong can suggest: ""How about we go in the early morning or on weekdays? I hear that there are fewer people at that time, and it is quieter. We can avoid peak hours, and get a quieter experience.""",Persuasion Story Task
+"
+
+Zhang San needs to convince Li Si, who is worried about too many people, to go to the amusement park. The key is to address Li Si's specific concern about crowds. 
+
+- Option A directly tackles the worry by proposing a contingency plan: they can go first and leave if it's too crowded. This reduces the perceived risk and makes the idea of going more palatable. It offers a solution that respects Li Si's concern without dismissing it.
+- Option C focuses on missing out on a specific roller coaster, which might be relevant but doesn't directly address the broader concern about overall crowd levels. While it uses FOMO (fear of missing out), it shifts the focus to a specific attraction rather than solving the crowd issue itself.
+- Options B and D are less relevant: B tries to reframe crowds positively, which may not resonate with someone who dislikes crowds, and D emphasizes snacks, which isn't the core issue.
+
+Thus, **Option A** is the most effective because it directly responds to Li Si's worry by providing a practical, low-risk solution: try it out and leave if crowded. This approach is logical and reassuring.
+
+[[A]]",A,31,C,"Zhang San and Li Si are college roommates. Today is the weekend, a rare rest day, they do not know where to go for fun. Zhang San suggests going to the amusement park, he really wants to go. However, Li Si worries that there are too many people.",How does Zhang San convince Li Si to go to the amusement park?,"We can go first, if we feel there are too many people, then we look for other places to play.","Li Si, a crowd means it is lively, if we queue, we can chat and play with our phones while queuing, it is not boring.","Do you remember last time we want to go on that new roller coaster, but we do not have time? This time we have the chance, if we miss it, we do not know when the next time is.","Actually, I hear that the snacks in the amusement park are very delicious, even if there are many people, we can go to eat.",Persuasion Story Task
+"
+
+After Zhiwei notices Mingda, the story states that he ""glances at Xiaolan."" This action is a non-verbal signal intended to communicate Mingda's presence to Xiaolan. The question asks for Zhiwei's next action after noticing Mingda, and while the story does not explicitly describe verbal communication, the glance is clearly directed at Xiaolan to convey information about Mingda. Among the options provided:
+
+- **A** suggests ignoring Mingda and continuing the discussion, but the glance indicates awareness of Mingda, not ignoring him.
+- **B** involves inviting Mingda, which contradicts the context that Mingda was ""not invited.""
+- **C** mentions suggesting a change of location, but the story does not reference this.
+- **D** states ""Tells Xiaolan about Mingda,"" which aligns with the glance as a non-verbal way of informing her of Mingda's presence.
+
+Thus, the most likely answer is **D**, as the glance serves as a method of ""telling"" Xiaolan about Mingda without words.
+
+[[D]]",D,33,C,"Zhiwei and Xiaolan are planning a short trip, they are sitting on a park bench flipping through a travel guide. Mingda, although not invited to this short trip, still listens to their discussion from behind. Suddenly, Zhiwei notices Mingda on the side, and glances at Xiaolan. Then, Xiaolan sees Zhiwei's look, shakes her head, and continues to look down at the travel guide.","After Zhiwei notices Mingda, what is his next action?","Ignores Mingda, continues to discuss travel plans with Xiaolan.",Invites Mingda to join their discussion.,Suggests to Xiaolan to change a place to avoid Mingda discussing travel plans,Tells Xiaolan about Mingda.,Prediction of actions
