@@ -1,0 +1,12 @@
+data: {"choices":[{"delta":{"content":"*   **Step 1: Analyze the story.** The story states that Xiao Gang finds a cabinet with a label that says \"vest\". This label indicates the intended contents of the cabinet.\n*   **Step 2: Identify the conflict.** Xiao Gang opens the cabinet and finds \"cabbage\" instead of a \"","role":"assistant"},"index":0,"logprobs":null}],"created":1764890123,"id":"CxYyacv6KJuemecP0pSN-AI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"vest\". This means the actual content does not match the labeled content.\n*   **Step 3: Analyze the question.** The question asks, \"What *should* be in the cabinet?\". The word \"should\" implies what is expected or supposed to be there, not what is actually there.\n*   ","role":"assistant"},"index":0,"logprobs":null}],"created":1764890123,"id":"CxYyacv6KJuemecP0pSN-AI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"**Step 4: Evaluate the options against the question.**\n    *   A. Thermometer: Not mentioned in the story.\n    *   B. Vest: The label on the cabinet explicitly says \"vest\". Therefore, a vest is what *should* be in the cabinet.\n    *   C. Sweat","role":"assistant"},"index":0,"logprobs":null}],"created":1764890123,"id":"CxYyacv6KJuemecP0pSN-AI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"shirt: Not mentioned in the story.\n    *   D. Cabbage: This is what is *actually* in the cabinet, but it's not what *should* be there according to the label.\n*   **Step 5: Conclude the most likely answer.** Based on the label, the cabinet is","role":"assistant"},"index":0,"logprobs":null}],"created":1764890123,"id":"CxYyacv6KJuemecP0pSN-AI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" intended to hold a vest. Therefore, a vest *should* be in the cabinet.\n\n[[B]]","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764890123,"id":"CxYyacv6KJuemecP0pSN-AI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":284,"completion_tokens_details":{"reasoning_tokens":592},"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":346,"total_tokens":1222}}
+
+data: [DONE]
+

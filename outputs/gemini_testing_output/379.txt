@@ -1,0 +1,10 @@
+data: {"choices":[{"delta":{"content":"*   **Step-by-step analysis:**\n    1.  The question asks whether Xiao Li's mother knows what wedding theme Xiao Li likes.\n    2.  In the story, the mother initiates the conversation by saying, \"I know you always like green, so the wedding can have a green","role":"assistant"},"index":0,"logprobs":null}],"created":1764886913,"id":"gQkyaf-oFoK53NoP0p3BiAw","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" theme.\"\n    3.  This sentence explicitly states that the mother believes she knows Xiao Li's preference for the color green.\n    4.  Xiao Li's enthusiastic response, \"Great, I always dream of a green-themed wedding,\" confirms that her mother's assumption is correct.\n    5.  ","role":"assistant"},"index":0,"logprobs":null}],"created":1764886913,"id":"gQkyaf-oFoK53NoP0p3BiAw","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"Therefore, the story provides direct evidence that the mother knows Xiao Li likes green, and by extension, would like a green-themed wedding.\n\n*   **Conclusion:**\n    Based on the analysis, the mother knows what wedding theme Xiao Li likes. Option A, \"Knows,\" is the correct answer.\n\n","role":"assistant"},"index":0,"logprobs":null}],"created":1764886913,"id":"gQkyaf-oFoK53NoP0p3BiAw","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"[[A]]","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764886913,"id":"gQkyaf-oFoK53NoP0p3BiAw","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":198,"completion_tokens_details":{"reasoning_tokens":547},"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":363,"total_tokens":1108}}
+
+data: [DONE]
+

@@ -1,0 +1,10 @@
+data: {"choices":[{"delta":{"content":"*   **Step-by-step reasoning:**\n    1.  The story describes Zhang Haoyu's room as very messy, filled with \"Clothes, toys, and comics\".\n    2.  His mother says, \"This room is like a pigsty!\".\n    3.  The phrase \"","role":"assistant"},"index":0,"logprobs":null}],"created":1764887060,"id":"FAoyaaDaCdeAm9IPsonP6QE","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"like a pigsty\" is a figure of speech, specifically a simile. It is used to compare the room's messiness to the typical state of a pigsty, which is known for being dirty and untidy.\n    4.  The mother is not making a literal statement that there are pigs in the room. She","role":"assistant"},"index":0,"logprobs":null}],"created":1764887060,"id":"FAoyaaDaCdeAm9IPsonP6QE","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" is using a common expression to emphasize how messy the room is.\n    5.  The story lists the items making the room messy, and pigs are not mentioned among them.\n    6.  Therefore, we can infer that Zhang Haoyu does not actually keep pigs in his room.\n\n*   **Conclusion","role":"assistant"},"index":0,"logprobs":null}],"created":1764887060,"id":"FAoyaaDaCdeAm9IPsonP6QE","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":":** The correct answer is \"No\".\n\n[[B]]","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764887060,"id":"FAoyaaDaCdeAm9IPsonP6QE","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":207,"completion_tokens_details":{"reasoning_tokens":435},"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":337,"total_tokens":979}}
+
+data: [DONE]
+

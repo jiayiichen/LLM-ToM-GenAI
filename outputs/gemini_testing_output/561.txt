@@ -1,0 +1,10 @@
+data: {"choices":[{"delta":{"content":"*   **Step-by-step reasoning:**\n    1.  The question asks how long Xiao Liu has been married.\n    2.  The story contains a direct conversation about this topic between Xiao Wang and Xiao Liu.\n    3.  Xiao Wang asks a specific question: \"You are married for three","role":"assistant"},"index":0,"logprobs":null}],"created":1764893478,"id":"JiMyadqJOP_XhMIPvdaUgAI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" years, right?\".\n    4.  Xiao Liu provides a direct confirmation in his reply: \"Yes, it is already three years, everything is very good.\"\n    5.  This dialogue explicitly states that Xiao Liu has been married for three years.\n    6.  Comparing this information with the provided options","role":"assistant"},"index":0,"logprobs":null}],"created":1764893478,"id":"JiMyadqJOP_XhMIPvdaUgAI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":":\n        *   A. One year - Incorrect.\n        *   B. Two years - Incorrect.\n        *   C. Three years - Correct, as confirmed by Xiao Liu.\n        *   D. Never marries - Incorrect, as Xiao Liu confirms he is married.\n    7.  ","role":"assistant"},"index":0,"logprobs":null}],"created":1764893478,"id":"JiMyadqJOP_XhMIPvdaUgAI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":"Therefore, the most likely answer is C.\n\n*   **Final Answer:**\n    [[C]]","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764893478,"id":"JiMyadqJOP_XhMIPvdaUgAI","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":214,"completion_tokens_details":{"reasoning_tokens":521},"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":387,"total_tokens":1122}}
+
+data: [DONE]
+

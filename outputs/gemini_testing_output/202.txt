@@ -1,0 +1,10 @@
+data: {"choices":[{"delta":{"content":"*   **Step 1: Analyze the question.** The question asks for the reason why Xiao Zhao is moving.\n*   **Step 2: Scan the story for keywords related to the reason for moving.** The very first sentence of the story is: \"Xiao Zhao moves house because of family reasons.\"\n*   **Step","role":"assistant"},"index":0,"logprobs":null}],"created":1764875407,"id":"j9wxaai2LreWmecP18jcgQU","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" 3: Evaluate the candidate answers based on the information found in the story.**\n    *   **A. Because he finds a better job:** The story does not mention anything about Xiao Zhao's job.\n    *   **B. Because he goes to another city for school:** The story does not mention anything about school","role":"assistant"},"index":0,"logprobs":null}],"created":1764875407,"id":"j9wxaai2LreWmecP18jcgQU","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":".\n    *   **C. Because of his family reasons:** This directly matches the information given in the first sentence of the story.\n    *   **D. The story does not mention:** This is incorrect because the story explicitly states the reason.\n*   **Step 4: Conclude the most likely answer.** Based","role":"assistant"},"index":0,"logprobs":null}],"created":1764875407,"id":"j9wxaai2LreWmecP18jcgQU","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" on the direct statement in the story, the reason for Xiao Zhao's move is \"family reasons\". Therefore, option C is the correct answer.\n\n[[C]]","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764875407,"id":"j9wxaai2LreWmecP18jcgQU","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":236,"completion_tokens_details":{"reasoning_tokens":466},"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":411,"total_tokens":1113}}
+
+data: [DONE]
+

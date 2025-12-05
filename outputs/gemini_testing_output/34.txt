@@ -1,0 +1,12 @@
+data: {"choices":[{"delta":{"content":"*   **Step-by-step derivation:**\n    1.  The story describes a cabinet with a label that says \"zucchini\".\n    2.  Xiao Hong opens the cabinet and finds a jacket, not a zucchini. She then closes it.\n    3.  After Xiao Hong leaves, Xiao Gang enters","role":"assistant"},"index":0,"logprobs":null}],"created":1764691266,"id":"Qg0vafHmIIaTmecPw8q3wA8","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" the room and sees the cabinet.\n    4.  The story gives no indication that Xiao Gang witnessed Xiao Hong's actions or knows that the contents of the cabinet do not match the label.\n    5.  The question asks what Xiao Gang *expects* to find. A person's expectation is based","role":"assistant"},"index":0,"logprobs":null}],"created":1764691266,"id":"Qg0vafHmIIaTmecPw8q3wA8","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" on the information available to them.\n    6.  The only information available to Xiao Gang about the cabinet's contents is the label on the outside, which reads \"zucchini\".\n    7.  Therefore, it is most logical to infer that Xiao Gang expects to find what the label indicates, which is zucchini","role":"assistant"},"index":0,"logprobs":null}],"created":1764691266,"id":"Qg0vafHmIIaTmecPw8q3wA8","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":".\n    8.  Option B (Jacket) is what is actually inside, but this is unknown to Xiao Gang. The question is about his expectation, not the reality. Options A and C are irrelevant to the story.\n\n*   **Conclusion:** Based on the label on the cabinet, Xiao Gang would","role":"assistant"},"index":0,"logprobs":null}],"created":1764691266,"id":"Qg0vafHmIIaTmecPw8q3wA8","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":""}
+
+data: {"choices":[{"delta":{"content":" expect to find zucchini.\n\n[[D]]","role":"assistant"},"finish_reason":"stop","index":0,"logprobs":null}],"created":1764691266,"id":"Qg0vafHmIIaTmecPw8q3wA8","model":"google/gemini-2.5-pro","object":"chat.completion.chunk","system_fingerprint":"","usage":{"completion_tokens":267,"completion_tokens_details":{"reasoning_tokens":675},"extra_properties":{"google":{"traffic_type":"ON_DEMAND"}},"prompt_tokens":359,"total_tokens":1301}}
+
+data: [DONE]
+
