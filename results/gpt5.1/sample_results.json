@@ -1,0 +1,402 @@
+[
+  {
+    "sample_id": 0,
+    "story": "Xiao Hong and Xiao Fang watch other children play on the playground. They chat about some interesting things happening on the playground and discuss going to the park together after school. Suddenly, Xiao Hong gives Xiao Fang a look and looks in the direction of the swing. Then, Xiao Hong smiles at Xiao Fang. Xiao Fang nods, and the two stand up. Xiao Mei sits on the swing and notices the interaction between Xiao Hong and Xiao Fang.",
+    "question": "Why does Xiao Hong smile at Xiao Fang?",
+    "correct_answer": "D",
+    "task": "Ambiguous Story Task",
+    "responses": {
+      "openai/gpt-5.1": "The story describes a nonverbal exchange:\n\n- Xiao Hong looks toward the swing.\n- Then she smiles at Xiao Fang.\n- Xiao Fang nods, and they both stand up.\n- Xiao Mei is on the swing and notices this.\n\nThis sequence suggests Xiao Hong is signaling something to Xiao Fang about the situation near the swing—likely a social action they’re about to take together (e.g., going over, interacting with Xiao Mei, or joining the play). The nod and both standing up show Xiao Fang understood it as a suggestion.\n\nAmong the options:\n\n- A. “Sees something interesting on the playground” – too vague; doesn’t explain the coordinated nod and standing.\n- B. “Remembers a joke about Xiao Mei” – no evidence of any joke in the story.\n- C. “Thinks it is fun to play after school” – they already discussed going to the park; the timing of the smile is specifically after looking at the swing, not about after-school plans.\n- D. “Suggest making new friends together” – best fits the context of nonverbal communication, looking at the swing (where Xiao Mei is), smiling, nodding, and then acting together.\n\nTherefore, the most likely answer is:\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 1,
+    "story": "Xiao Hong and Xiao Fang watch other children play on the playground. They chat about some interesting things happening on the playground and discuss going to the park together after school. Suddenly, Xiao Hong gives Xiao Fang a look and looks in the direction of the swing. Then, Xiao Hong smiles at Xiao Fang. Xiao Fang nods, and the two stand up. Xiao Mei sits on the swing and notices the interaction between Xiao Hong and Xiao Fang.",
+    "question": "How do you think Xiao Mei feels?",
+    "correct_answer": "B",
+    "task": "Ambiguous Story Task",
+    "responses": {
+      "openai/gpt-5.1": "The story only shows that Xiao Hong and Xiao Fang exchange a look, smile, stand up, and look toward the swing, and that Xiao Mei notices this. There’s no clear sign they want to include her (so A and D are less likely) and no indication of past bullying (so C is too strong). The most neutral and plausible reaction is that Xiao Mei is curious about what they’re going to do, perhaps with a bit of worry or unease.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 2,
+    "story": "Xiao Hua is in the kitchen preparing dinner when suddenly he hears the doorbell ring. He turns down the fire and goes to open the door, finding it is his friend Xiao Li. Xiao Li holds some movie tickets in his hand and invites Xiao Hua to watch a movie. Xiao Hua thinks for a moment and tells Xiao Li that he must finish dinner first. At this time, Xiao Hua's sister also runs over and says she can help cook, letting Xiao Hua go play. Xiao Hua looks at the half-cooked dinner in the kitchen and hesitates.",
+    "question": "What does Xiao Hua do next after hearing Xiao Li's invitation?",
+    "correct_answer": "B",
+    "task": "Completion of failed actions",
+    "responses": {
+      "openai/gpt-5.1": "The story says that after Xiao Li invites him, Xiao Hua thinks for a moment and **tells Xiao Li that he must finish dinner first**, implying he will keep cooking rather than go out immediately.\n\nSo the most likely answer is:\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 3,
+    "story": "Zhang Hua is preparing the last artwork for the art exhibition, while his friend Li Lei is complaining to him about workplace troubles over the phone. Suddenly, Zhang Hua's paintbrush falls to the ground. As he bends down to pick it up, there is a hurried knock on the window from his neighbor who rushes to borrow something. At the same time, Zhang Hua remembers that there is an important family gathering tonight, and his participation is very important to his family.",
+    "question": "After Zhang Hua handles the sudden situation, what does he do first?",
+    "correct_answer": "A",
+    "task": "Completion of failed actions",
+    "responses": {
+      "openai/gpt-5.1": "故事中的事件顺序是：\n\n1. 张华在为画展准备最后一幅作品，同时在接李雷的电话。\n2. 画笔掉到地上，他弯腰去捡。\n3. 邻居急匆匆敲窗户来借东西（突发情况）。\n4. 同时，他想起今晚有一个对家人很重要的家庭聚会，他的参加也很重要。\n\n题目问的是：“在张华处理完突发情况之后，他**首先**会做什么？”\n\n- 邻居的敲窗是“突发情况”，他会先去应对（开门、借东西）——但这是“处理突发情况”的过程本身，不是“之后要做什么”。\n- 之后在四个选项中，需要判断他最优先去做的事情：\n  - 家庭聚会被强调“很重要”“他的参与也很重要”，优先级最高。\n  - 给李雷回电话只是帮助朋友抱怨职场烦恼，紧迫性较低。\n  - 整理工作室、放松更不紧急。\n  - 再去“开门帮邻居”已经包含在处理突发情况中了，不符合“之后”的含义。\n\n因此，在处理完邻居这件突发状况后，他最可能**首先**去做的，是为重要的家庭聚会做准备。\n\n最终答案：[[C]]"
+    }
+  },
+  {
+    "sample_id": 4,
+    "story": "Li Hua is a person who is passionate about outdoor adventures, and he goes hiking or camping every weekend. He always seeks fresh and exciting experiences. Wang Fang, a quiet librarian, spends her weekends in a quiet library, reading and organizing books. She likes a calm and orderly environment. This weekend, Li Hua invites Wang Fang to go out for the weekend.",
+    "question": "Where does Li Hua plan to spend the weekend with Wang Fang?",
+    "correct_answer": "B",
+    "task": "Discrepant desires",
+    "responses": {
+      "openai/gpt-5.1": "Li Hua is passionate about outdoor adventures and typically goes hiking or camping every weekend, so it’s most likely he plans to take Wang Fang hiking.\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 5,
+    "story": "Li Hua is a photographer who is passionate about outdoor adventures. He often spends his weekends hiking or climbing in the mountains, pursuing those rare natural landscapes. His friend Wang Min is an interior designer who prefers indoor activities, especially visiting art exhibitions and design expos. This weekend, Wang Min wants to invite Li Hua to spend together.",
+    "question": "To make this weekend enjoyable, where should Wang Min suggest going?",
+    "correct_answer": "B",
+    "task": "Discrepant desires",
+    "responses": {
+      "openai/gpt-5.1": "Li Hua loves outdoor natural landscapes and photography in nature.  \nWang Min prefers indoor activities like art exhibitions and design expos.\n\nWe’re asked: “To make this weekend enjoyable,” i.e., to find an activity both can enjoy.\n\nAnalyze options:\n\n- **A. Natural Scenic Area**  \n  Great for Li Hua (outdoor landscapes), but not aligned with Wang Min’s preference for indoor/art/design activities.\n\n- **B. Natural Landscape Photography Exhibition**  \n  Indoor exhibition (matches Wang Min’s interest in exhibitions) and focused on natural landscapes/photography (matches Li Hua’s passion). Best overlap of both interests.\n\n- **C. Interior Design Expo**  \n  Perfect for Wang Min, but less connected to Li Hua’s stated interests.\n\n- **D. City Shopping Center**  \n  Neutral, but not especially related to either of their specific passions.\n\nThe option that best suits both is **B. Natural Landscape Photography Exhibition**.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 6,
+    "story": "Xiao Hong is supposed to help her club prepare for this event, but she goes to visit a friend instead.",
+    "question": "What kind of emotion does Xiao Hong's friend have?",
+    "correct_answer": "C",
+    "task": "Discrepant emotions",
+    "responses": {
+      "openai/gpt-5.1": "We know:\n- Xiao Hong is supposed to help her club prepare for an event.\n- Instead, she chooses to go visit a friend.\n\nThe question asks about the *friend’s* emotion. Being visited—especially when the visitor is skipping another obligation—most naturally suggests that the friend would feel appreciative or thankful for the attention and time.\n\nAmong the options:\n- Angry: No indication the friend is upset; Xiao Hong is doing something “for” the friend.\n- Proud: Not really relevant here.\n- Grateful: Fits well; the friend is likely glad and appreciative of the visit.\n- Regretful: No basis for the friend feeling regret in the story.\n\nThe most plausible emotional reaction is that the friend is grateful.\n\n[[C]]"
+    }
+  },
+  {
+    "sample_id": 7,
+    "story": "Xiao Hong is supposed to help her club prepare for this event, but she goes to visit a friend instead.",
+    "question": "What kind of emotion does the club member have?",
+    "correct_answer": "A",
+    "task": "Discrepant emotions",
+    "responses": {
+      "openai/gpt-5.1": "The club member would likely feel upset that Xiao Hong didn’t fulfill her responsibility and went to visit a friend instead, so the most fitting emotion is anger.\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 8,
+    "story": "Emily finds a book she really wants to read in the library, but discovers that the book is already borrowed by someone else. Emily sees a book with a similar cover next to it, thinks it is the same book, and takes it away. After returning home, Emily realizes it is a different book, but is too lazy to return it. Meanwhile, Kate is busy working in the library. She knows this book belongs to a blind person who is waiting for this book. Kate, who is recently cheated by a blind person she does not know, notices that Emily takes the wrong book, but she chooses not to tell Emily.",
+    "question": "What is the possible intention behind Emily's behavior?",
+    "correct_answer": "D",
+    "task": "Discrepant intentions",
+    "responses": {
+      "openai/gpt-5.1": "Emily initially **mistakenly believes** the book she takes is the one she wants, and only realizes it’s the wrong book after getting home. This matches the story description most directly.\n\nSo the best answer is:\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 9,
+    "story": "Emily finds a book she really wants to read in the library, but discovers that the book is already borrowed by someone else. Emily sees a book with a similar cover next to it, thinks it is the same book, and takes it away. After returning home, Emily realizes it is a different book, but is too lazy to return it. Meanwhile, Kate is busy working in the library. She knows this book belongs to a blind person who is waiting for this book. Kate, who is recently cheated by a blind person she does not know, notices that Emily takes the wrong book, but she chooses not to tell Emily.",
+    "question": "What is the possible intention behind Kate's behavior?",
+    "correct_answer": "B",
+    "task": "Discrepant intentions",
+    "responses": {
+      "openai/gpt-5.1": "Kate knows the book belongs to a blind person who is waiting for it, and it’s explicitly mentioned that she was recently cheated by a blind person she doesn’t know. Despite noticing Emily takes the wrong book, she *chooses* not to tell her. This suggests her recent negative experience with a blind person has caused a bias or dislike toward blind people, influencing her to withhold help.\n\nOption analysis:\n- A: Being busy is mentioned, but the story emphasizes a deliberate choice, not lack of time.\n- B: Fits the described motive: her recent cheating experience by a blind person leads to dislike and intentional inaction.\n- C: No indication she expects Emily to correct the mistake herself.\n- D: No conflict with Emily is mentioned.\n\nSo the most likely intention is given in option B.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 10,
+    "story": "Xiao Hong and Xiao Fang watch other children play on the playground. They chat about some interesting things happening on the playground and plan to go to the park together after school. Suddenly, Xiao Hong gives Xiao Fang a look and looks at Xiao Mei on the swing. Then, Xiao Hong smiles at Xiao Fang. Xiao Fang nods, and the two walk towards Xiao Mei. Xiao Mei sees these two girls she is not familiar with coming towards her. She notices their previous eye contact and smiles. Although the three are in the same class, Xiao Mei does not talk to them before.",
+    "question": "What does Xiao Mei do next?",
+    "correct_answer": "C",
+    "task": "Emotion Regulation",
+    "responses": {
+      "openai/gpt-5.1": "Xiao Mei notices their eye contact, smiles at them, and likely interprets their approach positively rather than withdrawing or ignoring them. Since Xiao Hong and Xiao Fang are already walking toward her, she doesn’t need to “go to” them (ruling against A), and her smile suggests she isn’t ignoring them or walking off to her friend (ruling against B and D). The most consistent next step is her imagining that they just want to make friends and mean no harm.\n\n[[C]]"
+    }
+  },
+  {
+    "sample_id": 11,
+    "story": "Jianning and Mingkai are the co-captains of the football team. They still lack one team member. They joke that the remaining unselected players are \"the best players\". After a while, Mingkai does not speak, winks at Jianning, and then looks at Taotao, Taotao is one of the remaining unselected players. Mingkai turns his head and smiles at Jianning. Jianning nods his head, chooses Taotao to join their team. Taotao sees the wink and smile of Mingkai and Jianning.",
+    "question": "What does Taotao do next?",
+    "correct_answer": "D",
+    "task": "Emotion Regulation",
+    "responses": {
+      "openai/gpt-5.1": "Taotao has just been chosen and has seen the friendly, inclusive nonverbal cues (wink, smile) from Mingkai and Jianning. The most plausible immediate next action in this context is that he joins them in a positive, friendly way, rather than going off to talk to someone else or just silently reinterpreting the situation.\n\nSo the best answer is:\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 12,
+    "story": "Xiaogang and Xiaoming are wandering in the bedroom, they see a handbag, a briefcase, and a backpack, they find cabbage in the handbag, Xiaoming leaves the bedroom, Xiaogang moves the cabbage to the backpack.",
+    "question": "Where is the cabbage now?",
+    "correct_answer": "A",
+    "task": "False Belief Task",
+    "responses": {
+      "openai/gpt-5.1": "The cabbage was moved from the handbag into the backpack by Xiaogang, so it is now in the backpack.\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 13,
+    "story": "Xiaogang and Xiaoming are wandering in the bedroom, they see a handbag, a briefcase, and a backpack, they find cabbage in the handbag, Xiaoming leaves the bedroom, Xiaogang moves the cabbage to the backpack.",
+    "question": "Where is the cabbage before?",
+    "correct_answer": "B",
+    "task": "False Belief Task",
+    "responses": {
+      "openai/gpt-5.1": "The story says they “find cabbage in the handbag,” and only afterward Xiaogang moves it to the backpack. So before it was moved, the cabbage was in the handbag.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 14,
+    "story": "Last Friday, all classmates in the fifth grade of elementary school participate in a Chinese composition competition. Xiao Ming really wants to win first place in this competition. The competition results come out, Xiao Hong wins the competition, and Xiao Ming happens to take a leave of absence and does not go to school that day. When going to school on Monday, Xiao Hong is the first to see Xiao Ming and says: \"Xiao Ming, I read your composition and it is not bad, just a bit regrettable.\" Xiao Ming is very surprised when he hears this and says: \"What do you mean, can you be more clear?\" Xiao Hong looks at Xiao Ming and says: \"Oh, it is nothing, let's go to class.\"",
+    "question": "Does anyone say something inappropriate in this story?",
+    "correct_answer": "A",
+    "task": "Faux-pas Recognition Test",
+    "responses": {
+      "openai/gpt-5.1": "The key detail is that Xiao Ming was absent on the day the results came out and did not go to school. Yet Xiao Hong says to him on Monday:\n\n> “Xiao Ming, I read your composition and it is not bad, just a bit regrettable.”\n\nIn a formal composition competition, students usually do not have access to each other’s compositions before or during judging. Since Xiao Ming wasn’t at school when results were announced, and there is no mention of compositions being publicly posted or read, Xiao Hong’s claim that she has read his composition is suspicious.\n\nThis suggests she may have had access to something she wasn’t supposed to see, or is revealing information in a way that implies something improper (e.g., secretly reading or using others’ compositions). In puzzle logic, this is treated as “saying something inappropriate” (说了不该说的话).\n\nTherefore, the most likely intended answer is:\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 15,
+    "story": "Last Friday, all classmates in the fifth grade of elementary school participate in a Chinese composition competition. Xiao Ming really wants to win first place in this competition. The competition results come out, Xiao Hong wins the competition, and Xiao Ming happens to take a leave of absence and does not go to school that day. When going to school on Monday, Xiao Hong is the first to see Xiao Ming and says: \"Xiao Ming, I read your composition and it is not bad, just a bit regrettable.\" Xiao Ming is very surprised when he hears this and says: \"What do you mean, can you be more clear?\" Xiao Hong looks at Xiao Ming and says: \"Oh, it is nothing, let's go to class.\"",
+    "question": "If there is one, which sentence is inappropriate?",
+    "correct_answer": "A",
+    "task": "Faux-pas Recognition Test",
+    "responses": {
+      "openai/gpt-5.1": "Xiao Ming was absent on the day of the composition competition, so he shouldn’t have written a competition composition for Xiao Hong to read. Therefore, Xiao Hong’s line:\n\n> \"Xiao Ming, I read your composition and it is not bad, just a bit regrettable.\"\n\nis inconsistent with the story context and thus inappropriate.\n\nSo the inappropriate sentence is:\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 16,
+    "story": "Xinxin wants to go to her friend's party tonight, but she has a stomachache. She knows, if she tells her mother she has a stomachache, her mother does not let her go. She tries to hide her feelings, so her mother lets her go to the party.",
+    "question": "What are Xinxin's real feelings?",
+    "correct_answer": "A",
+    "task": "Hidden emotions",
+    "responses": {
+      "openai/gpt-5.1": "Xinxin actually has a stomachache and feels bad, but hides it so she can go to the party. Among the options, that best matches feeling **sad/unwell**.\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 17,
+    "story": "Xinxin wants to go to her friend's party tonight, but she has a stomachache. She knows, if she tells her mother she has a stomachache, her mother does not let her go. She tries to hide her feelings, so her mother lets her go to the party.",
+    "question": "Why is Xinxin's true feeling sad?",
+    "correct_answer": "B",
+    "task": "Hidden emotions",
+    "responses": {
+      "openai/gpt-5.1": "Xinxin wants to go to the party, so she is motivated to hide her stomachache from her mother so she’ll be allowed to attend. The question asks why her *true feeling* is sad. The only option that fits is that she feels bad because of her physical condition.\n\n- A. “Because she does not like parties” – Contradicted by the story; she wants to go.\n- C. “She cannot attend the party” – Also contradicted; she does attend after hiding her pain.\n- D. “Because she fears her mother worries” – Her concern is that her mother would stop her from going, not that her mother would worry.\n- B. “Because of the stomachache” – Fits: she is sad internally due to feeling unwell.\n\nSo the best answer is:\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 18,
+    "story": "After experiencing a long and hot highway trip, George arrives at Angela's office. Angela immediately starts to talk about some business ideas. George interrupts Angela, saying, \"Ah, I experience a long and hot highway trip.\"",
+    "question": "What is the real meaning George wants to express?",
+    "correct_answer": "C",
+    "task": "Hinting Task Test",
+    "responses": {
+      "openai/gpt-5.1": "George is implicitly indicating that he’s tired/uncomfortable from the long, hot trip and would like a short break (e.g., a drink or a few minutes to rest) before starting business talk.\n\nSo the best answer is:\n\n[[C]]"
+    }
+  },
+  {
+    "sample_id": 19,
+    "story": "After experiencing a long and hot highway trip, George arrives at Angela's office. Angela immediately starts to talk about some business ideas. George interrupts Angela, saying, \"Ah, I experience a long and hot highway trip.\" Then George adds, \"I am thirsty.\"",
+    "question": "What does George hope Angela does?",
+    "correct_answer": "B",
+    "task": "Hinting Task Test",
+    "responses": {
+      "openai/gpt-5.1": "George has just arrived from “a long and hot highway trip.” Angela starts talking business right away, but George interrupts to mention the trip and then explicitly says, “I am thirsty.”  \n\nBy stating he is thirsty, he’s indirectly requesting help with that need. The most natural inference is that he wants Angela to offer him something to drink.\n\nSo the best answer is:\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 20,
+    "story": "On a winter vacation evening, Wang Lei, Liu Ting, and Xiao Ming play toys together at home. They first play with the first novel toy - an electric car, then they play with the second novel toy - a puzzle. At this time, Wang Lei says, \"I have something to do and need to leave the room\", and he leaves after closing the door. Liu Ting says, \"Oh, he leaves, it doesn't matter, we play together.\" Liu Ting and Xiao Ming play with the third novel toy - colored pencils. After playing, they put all three toys in a plate on the table. At this time, Wang Lei comes back, looks at the three toys in the tray, and excitedly says, \"Oh, look! Look at that toy!\", \"Xiao Ming, can you pass it to me?\"",
+    "question": "What does Xiao Ming most likely do?",
+    "correct_answer": "C",
+    "task": "Knowledge-attention links",
+    "responses": {
+      "openai/gpt-5.1": "Wang Lei played with the electric car and the puzzle before leaving the room. During his absence, Liu Ting and Xiao Ming played with the colored pencils, which Wang Lei did not see or use.\n\nWhen Wang Lei returns, he sees *all three* toys on the plate and gets excited about “that toy,” asking Xiao Ming to pass it. Since the electric car and puzzle are no longer new or surprising to him, the one most likely to excite his interest is the *new* toy he hasn’t played with yet: the colored pencils.\n\nSo Xiao Ming can reasonably infer that Wang Lei is referring to the colored pencils and will hand those to him.\n\nTherefore, the most likely answer is:\n\n[[C]]"
+    }
+  },
+  {
+    "sample_id": 21,
+    "story": "On a sunny weekend afternoon, Li Juan, Wang Qiang, and Xiao Fang play toys together at home. They first play with the first novel toy - a maze 3D puzzle, then they play with the second novel toy - an electric flyer. At this time, Li Juan says, \"I have something to do and need to leave the room\", and she leaves after closing the door. Wang Qiang says, \"Oh, she leaves, it's okay, we play together.\" Wang Qiang and Xiao Fang play with the third novel toy - a smart rotating color light. After playing, they put all three toys in a plate on the table. At this time, Li Juan comes back, looks at the three toys in the tray, and excitedly says, \"Oh, look! Look at that toy!\", \"Xiao Fang, can you pass it to me?\"",
+    "question": "What does Xiao Fang most likely do?",
+    "correct_answer": "B",
+    "task": "Knowledge-attention links",
+    "responses": {
+      "openai/gpt-5.1": "To figure out what Xiao Fang most likely does, consider the sequence:\n\n1. All three (Li Juan, Wang Qiang, Xiao Fang) play:\n   - First toy: maze 3D puzzle.\n   - Second toy: electric flyer.\n\n2. Then Li Juan leaves the room.\n3. While she is gone, Wang Qiang and Xiao Fang play with:\n   - Third toy: smart rotating color light.\n\n4. After playing, they put all three toys together in a plate on the table.\n5. Li Juan returns, sees the three toys, and excitedly says:\n   - “Oh, look! Look at that toy! Xiao Fang, can you pass it to me?”\n\nKey inference:\n\n- Li Juan has already played with the first two toys (maze 3D puzzle and electric flyer).\n- She has *not* played with the third toy (smart rotating color light).\n- Her excitement on returning and saying “that toy” most naturally refers to the *new* toy she hasn’t tried yet.\n- Xiao Fang, knowing which toy is new to her (the smart rotating color light), would reasonably infer she means that one and hand it to her.\n\nThus, the most likely action:\n\n**Xiao Fang picks out the smart rotating color light and gives it to Li Juan.**\n\nSo the answer index is:\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 22,
+    "story": "In a space station on the orbit of a distant planet, a robot named Tinklo lives. This space station has an artificial environment, there is no form of plant life inside, so Tinklo does not understand any plant-related information. However, the space station is full of various mechanical devices and robots. Tinklo is performing imitation behavior: it sways from side to side, occasionally bends to the ground, these actions are similar to flowers swaying in the wind and people smelling flowers.",
+    "question": "What does Tinklo possibly imitate?",
+    "correct_answer": "B",
+    "task": "Knowledge-pretend play links",
+    "responses": {
+      "openai/gpt-5.1": "Tinklo has never seen plants, but is surrounded by robots and mechanical devices. Its swaying and occasionally bending to the ground fits best with imitating a robot bending over to pick something up, rather than flowers, roses, or a windmill.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 23,
+    "story": "Tara is a curious robot, living in an underwater city called Aquatica in the deep sea. In Aquatica, there are no birds or flying creatures, and Tara never understands them. However, Aquatica is full of all kinds of marine life. Tara is doing imitation behavior: it swings its arms up and down gracefully, like a forward motion, very similar to the flapping of bird wings.",
+    "question": "What is Tara likely imitating?",
+    "correct_answer": "A",
+    "task": "Knowledge-pretend play links",
+    "responses": {
+      "openai/gpt-5.1": "Tara is described as swinging its arms “very similar to the flapping of bird wings.” Among the choices:\n\n- A. Fish sliding fins – underwater swimming motion, not like bird wings  \n- B. Soaring eagle – a bird; directly matches “flapping of bird wings”  \n- C. Butterfly flapping wings – wings flap, but not bird wings  \n- D. Bat in flight – also not a bird  \n\nThe option that best matches “bird wings” is the eagle.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 24,
+    "story": "Emily finds a book she really wants to read in the library, but discovers the book is already borrowed by someone else. Emily sees a book with a similar cover next to it, thinks it is the same book, and takes it away. When she gets home, Emily realizes it is a different book, but she is too lazy to return it. At the same time, Kate is busy working in the library. She knows this book belongs to a blind person who is waiting for this book. Kate gets tricked by a blind person she doesn't know not long ago, she notices Emily takes the wrong book, but she chooses not to tell Emily.",
+    "question": "What kind of emotion does Emily feel after she realizes she takes the wrong book and decides not to return it?",
+    "correct_answer": "A",
+    "task": "Moral emotions",
+    "responses": {
+      "openai/gpt-5.1": "After realizing she took the wrong book and deciding not to return it, Emily is most likely to feel guilty and uneasy, since she knows she’s doing something wrong but chooses convenience over correcting it.\n\n[[C]]"
+    }
+  },
+  {
+    "sample_id": 25,
+    "story": "Emily finds a book she really wants to read in the library, but discovers the book is already borrowed by someone else. Emily sees a book with a similar cover next to it, thinks it is the same book, and takes it away. When she gets home, Emily realizes it is a different book, but she is too lazy to return it. At the same time, Kate is busy working in the library. She knows this book belongs to a blind person who is waiting for this book. Kate gets tricked by a blind person she doesn't know not long ago, she notices Emily takes the wrong book, but she chooses not to tell Emily.",
+    "question": "Kate knows Emily takes the wrong book, but she chooses not to tell Emily, what kind of emotion does she feel?",
+    "correct_answer": "B",
+    "task": "Moral emotions",
+    "responses": {
+      "openai/gpt-5.1": "Kate was tricked by a blind person before, and this past negative experience is explicitly mentioned right before noting that she sees Emily take the wrong book and chooses not to intervene. This suggests her inaction is driven by a biased, negative attitude toward blind people rather than neutral indifference or self-punishment. The story doesn’t describe her reflecting, feeling torn, or guilty; it emphasizes her prior bad experience and her resulting choice not to help.\n\nSo the most consistent option is that she feels a kind of disgust or prejudice toward the blind person.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 26,
+    "story": "The little boy Tom finds some money on his way home from school. He is very happy and starts to think about how to use this money. As he walks, he meets an aunt. The aunt says to him, \"Tom, if you help me pick apples, I give you some money.\" So Tom decides to stay at the aunt's house to help pick apples.",
+    "question": "What does Tom do after he helps the aunt pick apples?",
+    "correct_answer": "B",
+    "task": "Multiple desires",
+    "responses": {
+      "openai/gpt-5.1": "We’re told:\n\n- Tom finds some money and “starts to think about how to use this money.”\n- Then an aunt offers him more money if he helps pick apples.\n- The story stops after describing that he stays to help the aunt pick apples.\n\nThe question asks: What does Tom do *after* he helps the aunt pick apples?\n\nThe text doesn’t explicitly say, so we infer from context. The key clue is that Tom is thinking about how to *use* the money, which strongly suggests he wants to *spend* it. Among the options:\n\n- A. Go to the park to play – doesn’t involve using money.\n- B. Go to the store to buy things – directly uses the money.\n- C. Help the aunt make apple pie – unrelated to his earlier goal of using money.\n- D. Donate to charity – possible, but not supported by any hint in the story.\n\nThe most consistent with the setup about “how to use this money” is that Tom goes to the store to buy things.\n\nSo the best answer is:\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 27,
+    "story": "The little boy Mark always wants to eat a hamburger at lunchtime. When he walks to the school cafeteria to buy a hamburger, his good friend Lenny comes to him and says, \"Mark, if you help me answer a few questions on my math homework, I give you a hamburger.\" So Mark decides to help Lenny with his math homework.",
+    "question": "What does Mark do after he helps Lenny finish his math homework?",
+    "correct_answer": "B",
+    "task": "Multiple desires",
+    "responses": {
+      "openai/gpt-5.1": "Mark really wants a hamburger and was already on his way to the cafeteria to buy one. Lenny stops him and offers a deal: if Mark helps with his math homework, Lenny will give him a hamburger. Mark agrees and helps Lenny.\n\nThe most logical next step, after finishing the homework, is that Mark receives and eats the hamburger from Lenny, since that was the explicit reward and also his clear desire from the beginning of the story.\n\nTherefore, the best answer is:\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 28,
+    "story": "Xiao Ming and Xiao Li are wandering in the bank, they see a handbag and a box, they find chalk in the handbag, Xiao Li leaves the bank, Xiao Ming moves the chalk to the box.",
+    "question": "What does Xiao Li see in the box?",
+    "correct_answer": "A",
+    "task": "Percepts-knowledge links",
+    "responses": {
+      "openai/gpt-5.1": "We’re told:\n\n- Xiao Ming and Xiao Li see a handbag and a box.\n- They find chalk in the handbag.\n- Then Xiao Li leaves the bank.\n- After that, Xiao Ming moves the chalk from the handbag to the box.\n\nKey point: Xiao Li leaves **before** the chalk is moved to the box.  \nThe story never says there was anything in the box earlier, nor that Xiao Li saw anything in the box at any time. So, according to the story, Xiao Li **does not see** anything in the box.\n\nThus, among the options:\n\nA. Does not see  \nB. Handbag  \nC. Tote Bags  \nD. Chalk  \n\nThe best answer is:\n\n[[A]]"
+    }
+  },
+  {
+    "sample_id": 29,
+    "story": "Xiao Ming and Xiao Li are wandering in the bank, they see a handbag and a box, they find chalk in the handbag, Xiao Li leaves the bank, Xiao Ming moves the chalk to the box.",
+    "question": "After Xiao Li returns to the bank, does Xiao Li know where the chalk is now?",
+    "correct_answer": "A",
+    "task": "Percepts-knowledge links",
+    "responses": {
+      "openai/gpt-5.1": "Xiao Ming and Xiao Li both see the chalk in the handbag. Then Xiao Li leaves. While Xiao Li is gone, Xiao Ming moves the chalk from the handbag to the box.  \n\nWhen Xiao Li returns, he did not see the chalk being moved, so he will still *believe* the chalk is in the original place: the handbag. He has a definite (but wrong) belief rather than uncertainty.\n\nSo among the options, the intended answer is:\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 30,
+    "story": "Xiao Hong is a 6-year-old child. Today is Saturday. Mom and Dad have free time today, they do not know what they can do together. Maybe go for ice cream? Xiao Hong really, really wants to go to the amusement park today. However, Dad thinks the amusement park has a lot of noise. He says: \"Xiao Hong, this is not a good idea. I think there is a lot of noise in the amusement park.\"",
+    "question": "How does Xiao Hong persuade her dad?",
+    "correct_answer": "B",
+    "task": "Persuasion Story Task",
+    "responses": {
+      "openai/gpt-5.1": "Dad’s concern is that the amusement park is too noisy.  \n\n- A: Too technical and research-based for a 6-year-old; less realistic.  \n- B: Expresses her wish but doesn’t address the noise issue.  \n- C: Gives up on the amusement park instead of persuading Dad.  \n- D: Directly addresses the noise concern by suggesting a quieter time to visit; also realistic for a child to say.\n\nThe most plausible way for Xiao Hong to persuade her dad is D.\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 31,
+    "story": "Zhang San and Li Si are college roommates. Today is the weekend, a rare rest day, they do not know where to go for fun. Zhang San suggests going to the amusement park, he really wants to go. However, Li Si worries that there are too many people.",
+    "question": "How does Zhang San convince Li Si to go to the amusement park?",
+    "correct_answer": "C",
+    "task": "Persuasion Story Task",
+    "responses": {
+      "openai/gpt-5.1": "Zhang San needs to address Li Si’s worry that “there are too many people.”\n\n- Option A: Offers a fallback plan (leave if too crowded) – this eases pressure but doesn’t really make crowds feel acceptable.\n- Option B: Directly reframes “many people” as a positive (lively), and explains that queuing won’t be boring because they can chat and use their phones. This most directly counters Li Si’s concern.\n- Option C: Focuses on the missed roller coaster opportunity, not on the crowd issue.\n- Option D: Focuses on snacks; partially acknowledges the crowd but doesn’t really handle the worry about “too many people.”\n\nThe most targeted and persuasive response to the stated concern is B.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 32,
+    "story": "Dongdong and Xixi are fixing a car in the park, preparing for a weekend outing. They are always discussing where to play, but neither of them comes up with a good idea. At this time, Nannan passes by, and Dongdong then stops Nannan and asks him to come over to see the car they are fixing. Nannan sees their interaction and still walks over.",
+    "question": "What does Dongdong want to do?",
+    "correct_answer": "C",
+    "task": "Prediction of actions",
+    "responses": {
+      "openai/gpt-5.1": "Dongdong calls Nannan over specifically “to see the car they are fixing,” which most directly suggests he wants to show Nannan their car repair work rather than ask for help, invite him along, or get ideas about where to play.\n\nSo the best answer is:\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 33,
+    "story": "Zhiwei and Xiaolan are planning a short trip, they are sitting on a park bench flipping through a travel guide. Mingda, although not invited to this short trip, still listens to their discussion from behind. Suddenly, Zhiwei notices Mingda on the side, and glances at Xiaolan. Then, Xiaolan sees Zhiwei's look, shakes her head, and continues to look down at the travel guide.",
+    "question": "After Zhiwei notices Mingda, what is his next action?",
+    "correct_answer": "C",
+    "task": "Prediction of actions",
+    "responses": {
+      "openai/gpt-5.1": "Zhiwei notices Mingda, then glances at Xiaolan. Xiaolan sees his look, shakes her head, and keeps reading. This suggests Zhiwei is nonverbally proposing some change related to Mingda’s presence, and Xiaolan is refusing.\n\nBetween the options, the glance is most naturally interpreted as suggesting to Xiaolan that they move away to avoid Mingda listening in; her head shake signals “no, let’s not.”\n\nSo the best match is:\n\n[[C]]"
+    }
+  },
+  {
+    "sample_id": 34,
+    "story": "Almost every letter to Laura Company contains a check. Today, Laura receives 5 letters.  Laura tells you on the phone \"I look at 3 out of 5 letters. There are checks in 2 of the letters.",
+    "question": "Before Laura calls you, how many of these 5 letters do you think contain checks?",
+    "correct_answer": "D",
+    "task": "Scalar Implicature Test",
+    "responses": {
+      "openai/gpt-5.1": "We’re told:\n\n- “Almost every letter to Laura Company contains a check.”\n- Today Laura receives 5 letters.\n- The question is explicitly: **“Before Laura calls you, how many of these 5 letters do you think contain checks?”**  \n  So this is about your expectation *prior* to hearing that she looked at 3 and found 2 with checks.\n\nGiven “almost every letter” has a check, your prior expectation should be that **most** (nearly all) of the 5 letters contain checks.  \nAmong the options:\n\n- 0, 1, or 2 checks are not consistent with “almost every” in a batch of 5.\n- 4 checks out of 5 is the only option that matches “almost every.”\n\nSo the best answer is:\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 35,
+    "story": "Almost every letter to Laura Company contains a check. Today, Laura receives 5 letters.  Laura tells you on the phone \"I look at 3 out of 5 letters. There are checks in 3 of the letters.",
+    "question": "After Laura calls you, how many of these 5 letters do you think contain checks?",
+    "correct_answer": "D",
+    "task": "Scalar Implicature Test",
+    "responses": {
+      "openai/gpt-5.1": "Given that almost every letter to the company contains a check, and Laura looked at 3 letters and found checks in all 3, it’s most reasonable to expect that most or all of the remaining 2 also contain checks. Among the options 0, 1, 2, and 4, the best estimate is that 4 of the 5 letters contain checks.\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 36,
+    "story": "Zhang Yang and Li Ming are going to have a picnic. This is Li Ming's idea, he says today is a good day for a picnic. But just as they open the food packaging, it starts to rain from the sky, and in a short while, they are all soaked. Zhang Yang is very upset. She says: \"Oh, yes, a good weather for a picnic!\"",
+    "question": "Is what Zhang Yang says true?",
+    "correct_answer": "B",
+    "task": "Strange Story Task",
+    "responses": {
+      "openai/gpt-5.1": "Zhang Yang is speaking sarcastically. Literally, it is *not* good weather for a picnic because it starts raining and they get soaked. So what she says is not true.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 37,
+    "story": "Zhang Yang and Li Ming are going to have a picnic. This is Li Ming's idea, he says today is a good day for a picnic. But just as they open the food packaging, it starts to rain from the sky, and in a short while, they are all soaked. Zhang Yang is very upset. She says: \"Oh, yes, a good weather for a picnic!\"",
+    "question": "Why does Zhang Yang say this?",
+    "correct_answer": "D",
+    "task": "Strange Story Task",
+    "responses": {
+      "openai/gpt-5.1": "Zhang Yang was upset because it suddenly started raining heavily right after they began their picnic, and they both got soaked. Earlier, it was Li Ming’s idea to go on a picnic and he said it was a good day for it.  \n\nWhen Zhang Yang says, **\"Oh, yes, a good weather for a picnic!\"**, she is clearly being sarcastic. She doesn’t really mean the weather is good; she is using irony to express the opposite. Given that it was **Li Ming** who insisted it was a good day, her sarcasm is directed at *him* and his earlier judgment.\n\nSo she is mocking Li Ming for saying today is a good day for a picnic.\n\n[[D]]"
+    }
+  },
+  {
+    "sample_id": 38,
+    "story": "Xiao Ming receives a bicycle on his birthday.",
+    "question": "What is Xiao Ming's emotion?",
+    "correct_answer": "B",
+    "task": "Unexpected Outcome Test",
+    "responses": {
+      "openai/gpt-5.1": "Xiao Ming receives a birthday gift (a bicycle), which is typically a positive and exciting present, especially for a child. The most likely emotion is that he feels happy.\n\n[[B]]"
+    }
+  },
+  {
+    "sample_id": 39,
+    "story": "Xiao Ming receives a bicycle on his birthday.",
+    "question": "He should be very happy, but he is very disappointed, why?",
+    "correct_answer": "D",
+    "task": "Unexpected Outcome Test",
+    "responses": {
+      "openai/gpt-5.1": "He’s disappointed because the gift wasn’t what he really wanted; he was hoping for a computer rather than a bicycle.\n\n[[D]]"
+    }
+  }
+]
