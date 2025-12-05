@@ -39,21 +39,25 @@ def main():
     model_prefix = args.model_name
     failure_cases = []
     correct_count = 0
+    empty_count = 0
 
     for i, result in enumerate(results):
         correct_answer = result.get('ANSWER', '')
         model_answer = result.get(f"{model_prefix}_response", '')
+        if not model_answer:
+            empty_count += 1
 
         # Check if it's a failure (model answer != correct answer)
-        if model_answer != correct_answer and correct_answer:  # Only count if there's a correct answer
+        if model_answer != correct_answer and model_answer:
             failure_cases.append(result)
-            print(f"Sample {result.get('index', i)}: FAIL - Correct: {correct_answer}, Model: {model_answer}, Task: {result.get('SOURCE_FILE', 'N/A')}")
-        elif model_answer == correct_answer and correct_answer:
-            correct_count += 1
 
+        if model_answer == correct_answer and correct_answer:
+            correct_count += 1
+        
     total_with_answers = correct_count + len(failure_cases)
     print(f"\n{'='*70}")
     print(f"Found {len(failure_cases)} failure cases out of {total_with_answers} samples")
+    print(f"no model response: {empty_count} cases")
     print(f"Accuracy: {(correct_count / total_with_answers * 100):.2f}%")
     print(f"{'='*70}")
 
@@ -63,7 +67,7 @@ def main():
     # Generate output filenames
     input_basename = os.path.splitext(os.path.basename(args.input))[0]
     output_csv = os.path.join(args.output, f"{model_prefix}_{input_basename}_failures.csv")
-    output_json = os.path.join(args.output, f"{model_prefix}_{input_basename}_failures.json")
+    # output_json = os.path.join(args.output, f"{model_prefix}_{input_basename}_failures.json")
 
     # Get column names from first result
     if failure_cases:
@@ -79,10 +83,9 @@ def main():
         print(f"  - CSV:  {output_csv}")
 
         # Write to JSON (easier to read)
-        with open(output_json, 'w', encoding='utf-8') as f:
-            json.dump(failure_cases, f, indent=2, ensure_ascii=False)
-
-        print(f"  - JSON: {output_json}")
+        # with open(output_json, 'w', encoding='utf-8') as f:
+        #     json.dump(failure_cases, f, indent=2, ensure_ascii=False)
+        # print(f"  - JSON: {output_json}")
 
         # Print breakdown by task type if available
         if 'SOURCE_FILE' in fieldnames:
@@ -91,14 +94,14 @@ def main():
                 task = failure.get('SOURCE_FILE', 'Unknown')
                 task_failures[task] = task_failures.get(task, 0) + 1
 
-            print(f"\nFailures by task type:")
-            for task, count in sorted(task_failures.items(), key=lambda x: x[1], reverse=True):
-                print(f"  {task}: {count}")
+        #     print(f"\nFailures by task type:")
+        #     for task, count in sorted(task_failures.items(), key=lambda x: x[1], reverse=True):
+        #         print(f"  {task}: {count}")
 
-        # Print truncation stats if available
-        if f"{model_prefix}_truncation" in fieldnames:
-            truncated_failures = sum(1 for f in failure_cases if f.get(f"{model_prefix}_truncation", '').lower() == 'true')
-            print(f"\nTruncated failures: {truncated_failures}/{len(failure_cases)} ({truncated_failures/len(failure_cases)*100:.1f}%)")
+        # # Print truncation stats if available
+        # if f"{model_prefix}_truncation" in fieldnames:
+        #     truncated_failures = sum(1 for f in failure_cases if f.get(f"{model_prefix}_truncation", '').lower() == 'true')
+        #     print(f"\nTruncated failures: {truncated_failures}/{len(failure_cases)} ({truncated_failures/len(failure_cases)*100:.1f}%)")
 
     else:
         print("\n✓ No failures found - model got everything correct!")

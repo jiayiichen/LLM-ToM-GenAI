@@ -1,0 +1,13 @@
+{
+  "cluster_label": 55,
+  "cluster_size": 2,
+  "cluster_summary": "Both reasons emphasize a tension between Mr. Yang’s public statements and his privately described mental state, with the narrative clearly privileging the latter as ground truth. They argue the model systematically over-relies on literal spoken assertions (“fully support,” “crucial”) while discounting explicit corrective markers like “actually” and the narrator’s direct access to his concerns, leading it to misjudge sincerity. Together, these analyses highlight a recurring failure to integrate social context and power dynamics (fear of repercussions) into Theory of Mind inferences.",
+  "reasons": [
+    "The story explicitly contrasts Mr. Yang’s public statement of “fully” supporting the restructuring with the assistant’s privileged knowledge that he actually has serious concerns, indicating he is not being truthful. The model likely focused on the possibility that someone can still “support” a plan while harboring doubts, conflating partial or pragmatic support with the claim of “full” support and overlooking the corrective cue word “actually.” Therefore, the model’s choice is incorrect, because the narrative frames his statement as insincere and thus not truthful.",
+    "The story explicitly states that Mr. Yang actually has serious concerns about the plan, which directly contradicts option B’s claim that he truly believes the restructuring is crucial, so the model likely over-trusted his spoken words instead of the narrator’s clarification about his real attitude. Because the options require explaining why he publicly supports the plan despite his private doubts, option A offers a more coherent inference: he is afraid that openly criticizing the plan, especially before a board meeting, could jeopardize his position or status. Therefore, the model’s answer is not valid given the passage."
+  ],
+  "original_indices": [
+    883,
+    1370
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "cluster_label": 16,
+  "cluster_size": 6,
+  "cluster_summary": "Across these items, the human answers consistently track an agent’s perspective, beliefs, and knowledge updates, while the model often defaults to surface features like the first-mentioned object, the literal label, or the narrator’s omniscient description. Where humans treat phrases like “should be in the box” as about what a specific character reasonably expects or is excited about, the model misreads them as asking about the actual current contents, collapsing belief states into reality. This reveals a recurring failure to represent distinct mental states, interpret pragmatic cues, and revise beliefs after new observations.",
+  "reasons": [
+    "The key is Wang Lei’s *perspective*: he has already played with the electric car and the puzzle, but missed the colored pencils, so on returning he is most likely excited about the only toy he hasn’t tried. Xiao Ming, sharing this knowledge, should infer that “that toy” refers to the colored pencils and hand those over, making C the best answer. The model instead defaulted to the first-mentioned toy (the electric car), ignoring the perspective-taking/theory-of-mind aspect that drives the intended reasoning.",
+    "The story is a classic theory‑of‑mind style setup where the key is the perspective of the newcomer, Xiao Li, who only sees the label 'chalk' on the closed box. The question, “What should be in the box?”, is interpreted as “According to the label and Xiao Li’s reasonable belief, what is expected to be inside?”, so the intended answer is D (chalk), not the actual content. The model instead answered B (pencil) because it focused on the real physical contents rather than the belief-based, label-based expectation.",
+    "The story contrasts the box’s label (“vest”) with its actual content (“hoodie”), then asks, “What should be inside the box?” which pragmatically refers to what is expected or supposed to match the label, not what is physically there. The human therefore chooses “vest,” reasoning from social/labeling norms and implied expectations (and often, theory-of-mind tasks focus on such expectations rather than reality). The model instead fixates on the factual state of the world, interpreting “should” as “is,” so its choice of “hoodie” reflects a misunderstanding of the question’s intent.",
+    "The model likely focused on the tag showing a bottle and treated the question as asking about what would be assumed to be inside from that label, rather than about Xiao Li’s informed expectation after looking. It seems to have ignored the step where Xiao Li opens the backpack, directly observes the ring, and then closes it without changing the contents, so her expectation should remain “ring.” Because the story gives no reason for Xiao Li to trust the label more than her observation, the model’s choice B is incorrect and D is the better answer.",
+    "The model seems to rely mainly on the box’s “socks” label and a simple rule that people expect contents to match labels, so it answers D, Socks. By doing this, it ignores the clear narrative update that Li Lei opened the box, saw a compass, and closed it again, which should permanently revise his belief about what is inside. Thus the human answer A correctly tracks Li Lei’s informed mental state, while the model’s choice D confuses initial appearance with updated knowledge, so its reasoning and final answer are incorrect.",
+    "The story is a perspective-taking task: after Xiao Li inspects the safe, Youyou only sees a safe labeled “sponge,” so the expected or believed content, and thus the exam-style answer, is “sponge.” The model instead focused on the factual, up-to-date contents revealed by the narrator—pepper powder—treating “should be inside the safe” as a question about reality rather than about Youyou’s belief or the label’s implication. Because this ignores the intended theory-of-mind reasoning and the pragmatic meaning of “should,” the model’s choice is considered incorrect here."
+  ],
+  "original_indices": [
+    153,
+    386,
+    394,
+    786,
+    1517,
+    1951
+  ]
+}

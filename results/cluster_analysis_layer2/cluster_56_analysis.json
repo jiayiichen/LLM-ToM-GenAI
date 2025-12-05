@@ -1,0 +1,17 @@
+{
+  "cluster_label": 56,
+  "cluster_size": 4,
+  "cluster_summary": "Across all four reasons, the questions center on young children interpreting an adult’s excited comment about an object that contains a smaller, less salient sticker, probing whole‑object bias versus more refined referent tracking. The shared failure pattern is that the model misweights cues, either over‑attending to textual details like “sticker” or “cannot touch,” or overestimating children’s analytical search strategies, instead of applying developmentally typical heuristics. Together, the cases show the model treating reference resolution too much like adult logical inference and too little like pragmatic, gaze‑guided joint attention in early childhood.",
+  "reasons": [
+    "The scenario tests children’s “whole-object bias”: when an adult excitedly names or references something while looking at an object, young children typically assume the reference is to the entire familiar object (the airplane), not an unseen or secondary feature (the cloud sticker). The human answer (A) matches this well-established developmental pattern: Xiao Fang is most likely to treat Zhang Ming’s excitement as about the airplane and respond by identifying it, rather than investigating. The model’s choice (D) incorrectly attributes a more advanced, analytic search strategy to Xiao Fang, overestimating her likely cognitive response.",
+    "The model focused on the immediately salient cue that Liu Jie “stares at the sticker and excitedly shouts: ‘Oh, that’s great, look!’”, so it inferred that Xiaoyu would respond by explicitly referencing that same visual target through pointing (option C). However, the task is about what a young child “most likely” takes as the referent, and developmental evidence shows a strong whole-object bias: children tend to interpret such exclamations as about the toy car itself rather than a detail like the sticker. Thus, option A better matches typical child cognition, making the model’s choice less appropriate.",
+    "The model likely overemphasized the detail that Xiao Ming “can see but cannot touch the sticker,” inferring a general limitation in interacting with the sticker and thus defaulting to the safer choice of pointing only to the airplane (option C). It seems to have missed or underweighted the pragmatic and joint-attention cue that Sun Wei looks at the sticker, exclaims with excitement, and then looks at Xiao Ming, strongly indicating that the *sticker* is the intended referent. Therefore, the model’s choice is less consistent with typical joint-attention behavior and is probably incorrect.",
+    "The story is designed to test joint attention and understanding that Wang Dan’s excited exclamation and gaze specifically highlight the newly noticed sticker, not the already-familiar kite itself. The model likely over-focused on the earlier description that Xiao Fang can “see but cannot touch the sticker” and on the general salience of the kite as the main toy, so it inferred Xiao Fang would respond only to the kite and not to the sticker’s content. This ignores pragmatic social cues: Xiao Fang can still visually identify the smiley face from a distance, making A the better-supported answer and C unlikely."
+  ],
+  "original_indices": [
+    293,
+    737,
+    1026,
+    1405
+  ]
+}

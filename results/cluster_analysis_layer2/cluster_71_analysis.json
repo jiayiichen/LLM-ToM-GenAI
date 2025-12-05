@@ -1,0 +1,17 @@
+{
+  "cluster_label": 71,
+  "cluster_size": 4,
+  "cluster_summary": "Across these reasons, the core pattern is tension between salience-based heuristics (last-mentioned or “third novel toy”) and stricter perspective-based ambiguity: whether “that toy” has a uniquely identifiable referent from the listener’s point of view. The analyses repeatedly contrast cooperative-pragmatic inference—assuming agents highlight novel objects they haven’t played with and that partners exploit shared knowledge—against a conservative stance that treats underspecified references as irreducibly ambiguous. As a result, the model is sometimes faulted for shallow salience matching, but sometimes praised for sophisticated Theory-of-Mind reasoning that exam rubrics may underappreciate.",
+  "reasons": [
+    "The model likely focused on narrative salience: the blind box doll was the last, most “novel” toy and the only one Li Qiang didn’t clearly play with, so it inferred that his excited “Look at that toy!” must refer to this third toy, leading to choice D. However, from Xiao Fang’s perspective, all three toys are equally visible on the tray and Li Qiang’s utterance lacks any distinguishing detail, so she has no rational basis to select a specific toy. Therefore, the model’s choice is incorrect and C better reflects the pragmatic ambiguity.",
+    "The model likely assumed cooperative communication and pragmatic inference: since Liu Jie never played with the third toy, her excited “that toy” most plausibly refers to the still-novel crystal puzzle. Using theory-of-mind style reasoning, the model inferred that Xiao Yu, knowing which toy Liu Jie hasn’t tried, would pick the crystal puzzle rather than arbitrarily choosing among indistinguishable options. The human answer instead treats the request as referentially ambiguous because the text omits pointing or preferences, so both D and the model’s C are reasonable interpretations and the model’s choice is also correct.",
+    "The key pragmatic cue is that Li Juan never saw or played with the third toy, the smart rotating color light, so on returning she would most plausibly be excited about this new, unfamiliar object. Xiao Fang shares this knowledge, so under common-ground reasoning he should infer that “that toy” refers to the only novel toy for Li Juan, making option B the best answer. The model likely defaulted to a shallow textual pattern or last-mentioned-referent heuristic, linking “that toy” to the electric flyer (A), and thus missed the perspective-taking/Theory-of-Mind aspect.",
+    "The story frames the electric airplane as the newest and most exciting “third novel toy,” and explicitly notes that Zhang Lei was watching while Wang Li and Xiao Gang played with it, making it the most salient referent of “that toy.” A pragmatically sophisticated reasoner, as the model did, can infer that “that toy” most likely means the electric airplane, so option C is a coherent answer. The human answer B treats the reference as ambiguous from Xiao Gang’s perspective, so both B (ambiguity) and C (salience-based inference) are defensible, and the model’s answer is also reasonable."
+  ],
+  "original_indices": [
+    375,
+    1633,
+    1875,
+    1971
+  ]
+}

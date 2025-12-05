@@ -1,0 +1,17 @@
+{
+  "cluster_label": 72,
+  "cluster_size": 4,
+  "cluster_summary": "Across these items, the human-like reasoning integrates all quantitative constraints—fixed totals, vague quantifiers (“most,” “very few”), and narrative hints—while the model relies on a simpler maximize-the-majority heuristic. In every case, it pushes the dominant category (math, Three Kingdoms, novels, fish) to an extreme value and implicitly treats “very few” or minor categories as zero or negligible, violating the story’s requirement of a nonzero small remainder. The shared failure pattern is weak global consistency checking: the model underuses sum-to-total and lower-bound constraints that humans automatically enforce.",
+  "reasons": [
+    "From the story, Zhao Min infers that out of 20 books, 14 are math, so only 6 remain to be split between physics and biology, with physics being “a part” and biology “very few.” Options of 6 physics (implying 0 biology) and 2 physics (implying 4 biology) both contradict the description, and 7 physics is numerically impossible, leaving 4 physics plus 2 biology as the only consistent guess. The model likely fixated on maximizing physics within the remainder and ignored the “very few biology” constraint, so its choice of 6 is incorrect.",
+    "The story states there are 25 books, that 5 are about the Warring States, the vast majority are about the Three Kingdoms, and very few are about the pre–Common Era period. If the students guess 20 are about the Three Kingdoms, that leaves 0 books for the pre–Common Era, contradicting the textual claim that at least a small number belong to that era. The model likely focused only on making the Three Kingdoms books an extreme “vast majority” (20/25) and ignored the need for a nonzero “very few” category, so its choice C is inconsistent whereas D matches all constraints.",
+    "The story gives 15 books total, says most are novels, few magazines, very few picture books, and residents then learn 3 are magazines, so any estimate must respect that total. With 3 magazines fixed, 12 books remain; treating 'very few' picture books as around two leads residents to infer about 10 novels, matching option C. The model chose 13 novels, seemingly focusing on 'most are novels' as 'almost all' while overlooking the 15-book total and the need for some picture books, so its answer conflicts with the story’s numbers.",
+    "The story says that out of 40 customers, most order fish, a small part order shrimp, and very few eat crab, then specifies that 5 customers order shrimp. A natural reading is that these 5 are the “small part,” leaving a positive but small number for crab eaters and thus around 32 fish orders, matching option D. The model instead treated “very few” as zero crab orders and subtracted only the 5 shrimp from 40 to get 35, overlooking that the text implies some crab orders, so choice C is weakly supported."
+  ],
+  "original_indices": [
+    62,
+    531,
+    1327,
+    1614
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cluster_label": 66,
+  "cluster_size": 4,
+  "cluster_summary": "Across these items, the model over-relies on salient surface cues—privacy loss, social exclusion phrases, or “not wanting others to know”—and maps them to stereotyped emotions like violation, abandonment, or guilt. By contrast, the human answers prioritize integrating later narrative information, explicit self-reflection, and the most proximal, concrete cause of the character’s current emotion over more diffuse background concerns. Especially in the guilt-related cases, the gap reflects difficulty separating self-blame from feeling ignored or embarrassed, compounded by partial ambiguity where several labels are plausible but only one best matches the immediate causal chain.",
+  "reasons": [
+    "The model likely focused on the earlier fact that Lin Ting’s diary, containing “a lot of private information,” went missing and on her fear that classmates might read it, so it associated the situation with her privacy being breached and chose “feeling violated.” However, the story’s ending clarifies that the diary is safely back in her locker and the classmates neither read it nor mocked her, resolving the privacy threat. At this point the salient emotion is remorse for wrongly accusing them in her mind, so the human answer of guilt fits better and the model’s choice is incorrect.",
+    "The model likely focused on the emotional logic that guilt comes from self-blame, so it chose option C, where Zhang Hong regrets previously focusing too much on her own things and not cherishing the friendship. Option B, however, ties her guilt more concretely to a recent, specific behavior (refusing to go out because of academic pressure), which directly explains the current estrangement mentioned in the story, so it fits the narrative more tightly. Both B and C can plausibly explain guilt instead of feeling abandoned, so the model’s answer is also reasonable.",
+    "The model likely focused on the observable behavior that Kai Zhi now “only plays with his friends in the team” and spends less time with Zhang Hong, interpreting her emotional state as feeling neglected or abandoned. However, the story explicitly describes Zhang Hong reflecting on how she repeatedly refused to go out because of academic pressure and concluding that she “causes their estrangement,” which is characteristic of self-blame and guilt rather than abandonment. Therefore, the model’s choice is understandable but ultimately incorrect compared with the human answer in this specific context.",
+    "The model likely focused on the phrase “she does not want other children to know,” interpreting it as Mengmeng hiding something wrong, which maps more directly to “guilty” in many training examples. However, in the story she has not done anything bad; she simply doesn’t understand the joke and fears others discovering this, which aligns more with feeling embarrassed, left out, or sad rather than guilty. Thus, the human answer “Sad” better matches the situation, and the model’s choice of “Guilty” is not appropriate."
+  ],
+  "original_indices": [
+    1210,
+    1628,
+    1713,
+    1846
+  ]
+}

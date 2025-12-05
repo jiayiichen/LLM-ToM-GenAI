@@ -1,0 +1,11 @@
+{
+  "cluster_label": 1,
+  "cluster_size": 1,
+  "cluster_summary": "This cluster reflects a pattern where the model leans into rich social-pragmatic cues and joint attention to construct a more sophisticated theory-of-mind explanation than the human key expects. It systematically interprets characters as making deliberate, inquisitive inferences (e.g., Xiao Hong inspecting all sides because she infers something special), whereas the human answer presumes simpler, child-like labeling behavior. Across such items, model errors arise less from logical failure than from privileging nuanced mental-state reasoning over the test designer’s intended, more basic developmental-psychology interpretation.",
+  "reasons": [
+    "The model likely reasoned that Wang Lei’s excited exclamation and brief gaze toward Xiao Hong create a joint-attention cue, prompting Xiao Hong to actively inspect the balloon for anything special. From that perspective, option D fits a theory-of-mind style interpretation where Xiao Hong infers there must be a novel, noteworthy feature and deliberately checks all sides, including the smiley sticker. The human answer A instead assumes a more basic, label-the-whole-object response typical of younger children, but given the social cueing in the story both answers are defensible and the model’s choice is also reasonable."
+  ],
+  "original_indices": [
+    1302
+  ]
+}

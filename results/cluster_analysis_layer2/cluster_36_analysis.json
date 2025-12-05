@@ -1,0 +1,17 @@
+{
+  "cluster_label": 36,
+  "cluster_size": 4,
+  "cluster_summary": "Across these items, the model overweights superficial lexical cues (e.g., explicit mentions of “embarrassed,” “disgust,” or party excitement) instead of integrating narrative context and situational norms. It repeatedly confuses internal mental states with outward behavior, ignoring question wording like “how does he appear” and story cues that characters deliberately mask their true feelings to avoid negative judgments. Human answers, in contrast, depend on inferring socially appropriate emotions from mismatches or ironies in the situation, such as being the only one in costume, which the model systematically underemphasizes.",
+  "reasons": [
+    "The story states that Wang Qiang does not understand the joke but does not want others to know, fearing they will think he is stupid, which implies he will deliberately act as if he understands. The question asks how he “appears,” emphasizing his outward behavior, so the best match is that he looks happy or amused like the others, even if he is secretly confused. The model instead focused on his likely inner emotion of embarrassment rather than his external appearance, so its choice of B is not aligned with the question’s focus.",
+    "The model likely focused on Zhenming’s *internal* reaction to the old lady’s “strange and ugly clothes,” inferring that he truly feels **disgust**, so it chose option B. However, the question asks, “How does Zhenming **appear** when this happens?”, and the story explicitly says he “tries to hide his real feelings” to avoid being scolded, implying his outward expression is different from his inner state. Thus, Zhenming would likely *appear* pleasant or joyful, making A (Joy) the better-supported answer and the model’s choice incorrect.",
+    "The model likely focused on the phrases “costume party” and Zhao Lei “confidently” walking into the scene, inferring that he was excited and pleased to show off his green alien outfit. However, the key detail that he is the only one wearing alien clothes, while no one else follows the theme, implies a sudden social mismatch that would normally cause embarrassment rather than continued thrill. Because the narrative context emphasizes this mismatch, the human answer D (“Embarrassed”) better matches the expected emotional response, so the model’s choice of C is not well supported by the story.",
+    "The story’s key twist is that the party’s theme is “Alien Party,” so Zhao Lei ought to fit in, yet he feels embarrassed, which best matches option C: he is the only one actually wearing an alien costume while others are not. The model instead chose D, likely focusing on the explicit mention of “not attractive” and “no face,” directly signaling embarrassment without requiring inference about the group’s behavior. This shows the model favored a surface-level cue about shame over the deeper situational irony implied by the theme, so its choice is less appropriate."
+  ],
+  "original_indices": [
+    688,
+    693,
+    892,
+    1777
+  ]
+}

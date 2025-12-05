@@ -1,0 +1,18 @@
+You are analyzing why an AI model got a different answer from the human answer on the following question.
+
+**Context:**
+Story: {story}
+Question: {question}
+Options:
+A. {option_a}
+B. {option_b}
+C. {option_c}
+D. {option_d}
+
+**Human Answer:** {correct_answer}
+
+**Model's Response:** {model_answer}
+
+**Task:**
+
+Analyze step by step why the model didn't agree with the human answer. Write a concise conclusion of the reason in exactly 3 sentences and 90+-10 words. The human answer may not be the only correct answer. If you think the model's choice also makes sense, you should mention both answers are valid and the model's answer is also correct; otherwise, conclude with yous analysis by explaining why the model’s choice is incorrect.

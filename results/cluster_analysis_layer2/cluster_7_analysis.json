@@ -1,0 +1,13 @@
+{
+  "cluster_label": 7,
+  "cluster_size": 2,
+  "cluster_summary": "Across these reasons, the core pattern is that the model treats natural‑language quantifiers (“most,” “some,” “very few,” “almost no”) as vague, static proportions instead of contextually mapping them to concrete counts. It then defaults to a generic “around half” heuristic for “most” and fails to integrate how multiple verbal constraints jointly narrow the plausible distributions, whereas the human‑intended reasoning uses those phrases as near‑deterministic clues. As a result, the model’s numeric choices are weakly supported approximations, while the human answers follow from tighter logical inferences.",
+  "reasons": [
+    "Xiao Gang’s description, plus the later fact that there are 5 action films, is meant to cue that “some action” ≈ 5 and “very few romance” ≈ 0, so Xiao Mei’s pre‑count guess would be 40−5−0 = 35 comedy films, matching option D. The model instead treated the verbal terms (“most”, “some”, “very few”) as vague proportions and, without mapping them to specific counts, defaulted to a rough 50% interpretation, selecting 20 as a generic “many but not all” value. Under the intended logic the human answer is correct and the model’s choice is unsupported.",
+    "The model probably mapped “most of the movies are action films” to about half the total, so it chose 10 action films and ignored how the other phrases constrain the numbers. Yet Xiao Ming also says “some are science fiction, but there are almost no horror films,” which implies that almost all non‑science‑fiction movies must be action, pushing the action count very close to 20. With all three verbal quantifiers considered together, option D (18 action films) better matches Xiao Hong’s likely guess, so the model’s answer is incorrect."
+  ],
+  "original_indices": [
+    1283,
+    1385
+  ]
+}

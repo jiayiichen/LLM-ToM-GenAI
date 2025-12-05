@@ -1,0 +1,21 @@
+{
+  "cluster_label": 21,
+  "cluster_size": 6,
+  "cluster_summary": "Across these items, the model consistently favors literal, explicitly stated content over pragmatic inference, speaker intention, and social norms. It treats remarks and compliments as factually accurate or uniformly polite instead of recognizing hyperbole, irony, and face‑saving lies, and it often conflates noticing someone’s behavior with truly understanding their preferences or beliefs. Consequently, it misjudges what characters know or mean in context—over‑extending clues like “has no taste” or “prefers light food,” misinterpreting the salt‑seller idiom, and failing to see that pushy recommendations or exaggerated praise can signal ignorance or insincerity rather than genuine care.",
+  "reasons": [
+    "The model likely focused on strict, explicitly stated information: the text only says Manager Zhao “prefers light food,” not that she completely avoids spicy food, so it judged that Director Liu cannot be said to “know” she doesn’t eat spicy. It may also have interpreted Liu’s suggestion as catering to the group’s general taste rather than specific knowledge about Zhao’s dietary restriction. Because “prefers light food” does not logically entail “never eats spicy,” both answers are arguably valid, and the model’s cautious choice of B is also reasonable.",
+    "The model likely interpreted the husband’s remark as a straightforward evaluation of the food being excessively salty, so it answered “Yes,” assuming his complaint about the saltiness is factually accurate. However, the question in this type of logic riddle targets the literal truth of the statement “Do you rob the salt seller?”, which is clearly hyperbolic and not an actual accusation of robbery. Therefore the expected human answer “No” treats the sentence as figurative exaggeration rather than a true claim, while the model’s answer is incorrect for ignoring this pragmatic, non-literal aspect.",
+    "The model likely fixated on the earlier detail that Sister Zhang “has no taste” due to her cold and over‑generalized this to the husband’s reaction, assuming he also found the food bland. It appears to have interpreted the question literally, missing that “Do you rob the salt seller?” is an ironic, idiomatic complaint that she used far too much salt, not too little. Thus, option B correctly reflects the husband’s meaning, while option C contradicts the idiom and is therefore an incorrect inference.",
+    "The model likely focused on the literal politeness of the utterances—everyone uses courteous phrases—so it concluded that no one said anything explicitly rude, leading to answer B. However, the human answer A relies on pragmatic and cultural norms: Aunt Li keeps urging the boyfriend to eat coriander beef despite his clear avoidance, which can be seen as ignoring his preferences and thus socially inappropriate or inconsiderate. Because the question targets this implicit social inappropriateness, the model’s choice is incorrect.",
+    "The model likely overemphasized the word “notices,” inferring that Aunt Li’s observation of his picking only non‑coriander dishes means she consciously understands that he does not eat coriander. From that, it plausibly (but mistakenly) reasoned that her recommending “coriander beef” is a hospitable attempt to persuade him to try her signature dish despite his known dislike. However, pragmatically, if she truly knew he did not eat coriander, she would not urge that specific dish, so the human answer (B: does not know) is more logically consistent and the model’s choice is incorrect.",
+    "The model likely treated Aunt Wang’s spoken statement literally, assuming that if she says it is “one of the most delicious dishes” then she must be telling the truth, so it chose A. It failed to integrate the earlier narrative clue—“feels something is off about the taste”—as evidence that she actually dislikes or is at least suspicious of the dish, implying a polite lie to spare Uncle Zhang’s feelings. Thus, the model’s choice is incorrect because it ignored pragmatic social context and basic theory-of-mind reasoning."
+  ],
+  "original_indices": [
+    91,
+    652,
+    758,
+    835,
+    1003,
+    1351
+  ]
+}
