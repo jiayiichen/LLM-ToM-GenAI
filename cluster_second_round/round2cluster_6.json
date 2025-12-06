@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 6,
+        "round1_cluster_label": 0,
         "cluster_summary": "Across these reasons, the model relies on a simplistic mapping from external events to \u201cobvious\u201d internal emotions and assumes those emotions directly determine the truth of subsequent statements. It prioritizes logical consistency at the surface level\u2014e.g., winning implies happiness, public failure implies embarrassment\u2014rather than tracking the narrative\u2019s explicit cues about masking, conflicting feelings, or differences between inner states and outward presentations. In contrast, the human answers attend to perspective, context, and the text\u2019s meta-information about what is said, what is felt, and what is displayed.",
         "embedding_for_clustering": [
             -0.0022753568,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 9,
         "cluster_summary": "Across these reasons, the model repeatedly latches onto the most salient or literal cue\u2014initial events, generic social heuristics, or explicitly stated desires\u2014while neglecting broader narrative structure, contrastive wording, and subtle implications. Humans, and the intended labels, more often integrate shifting time points, social-relational meanings (closeness, recognition, commemorative grief), and the possibility of genuinely mixed or conflicting emotions, distinguishing inner feeling from outward display. As a result, many items are ambiguous with multiple defensible emotions, and the model\u2019s answers are psychologically reasonable yet frequently misaligned with the test\u2019s narrow \u201cbest\u201d choice.",
         "embedding_for_clustering": [
             0.00074704003,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 20,
         "cluster_summary": "Across these cases, the model tends to anchor on salient, surface-level cues\u2014success, prosocial behavior, or immediate wrongdoing\u2014and maps them to stereotypical emotions like pride, guilt, or embarrassment, while underweighting contrast markers (\u201cbut,\u201d \u201chowever\u201d), later revelations, and exam-style moral framing. The human answers more often track the narrative\u2019s value-laden focus (filial gratitude, respect for donations, exam morality, social prejudice) and the specific timepoint \u201cafter learning X,\u201d yielding emotions like worry, sadness, relief, or cherish. Many vignettes are genuinely ambiguous, so the disagreement often reflects different weighting of cues rather than outright reasoning failure.",
         "embedding_for_clustering": [
             0.007308296,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 24,
         "cluster_summary": "Across these items, the model repeatedly prioritizes inferred internal emotions or moral evaluations over the question\u2019s explicit focus on outward appearance or surface behavior. It overweights cues about potential unfairness, guilt, or worry and underweights textual signals about concealment, rewards, or pragmatic self-presentation to others. As a result, it systematically selects emotions like \u201chappy,\u201d \u201cannoyed,\u201d or \u201cguilty\u201d that fit a rich backstory it constructs, while human answers like \u201ccalm,\u201d \u201chappy,\u201d or \u201cangry\u201d better track the narrative\u2019s stated perspective and question wording.",
         "embedding_for_clustering": [
             0.0019035919,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 32,
         "cluster_summary": "Across these items, the model often defaults to literal, surface-level readings\u2014prioritizing explicit outcomes, general norms (e.g., bad smells are disgusting, poverty is negative), or charitable assumptions about speakers\u2014while neglecting nuanced contextual cues about roles, preferences, wording, or timing. It frequently misidentifies the target of evaluation (inner feeling vs outward display, character vs actor, which statement/question is being assessed) and assumes emotions and statements must be single, consistent, and fully truthful. Humans instead integrate private vs public perspectives, mixed emotions, social politeness, and puzzle-like logical constraints, making their answers better aligned with test expectations.",
         "embedding_for_clustering": [
             0.009952785,
@@ -15391,6 +15396,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 36,
         "cluster_summary": "Across these items, the model overweights superficial lexical cues (e.g., explicit mentions of \u201cembarrassed,\u201d \u201cdisgust,\u201d or party excitement) instead of integrating narrative context and situational norms. It repeatedly confuses internal mental states with outward behavior, ignoring question wording like \u201chow does he appear\u201d and story cues that characters deliberately mask their true feelings to avoid negative judgments. Human answers, in contrast, depend on inferring socially appropriate emotions from mismatches or ironies in the situation, such as being the only one in costume, which the model systematically underemphasizes.",
         "embedding_for_clustering": [
             -0.00953122,
@@ -18469,6 +18475,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 40,
         "cluster_summary": "Across these items, the model latches onto the most visually or lexically salient cue (card received, crush with someone else, work de\u2011emphasized, plan reused) and maps it to a straightforward emotion like happiness, jealousy, or betrayal. Human reasoning instead integrates background commitments, broken promises, loyalty expectations, and prosocial intentions, reinterpreting similar events as betrayal, regret, or gratitude. The gap reflects shallow, event-level pattern matching and weak use of implicit social contracts, plus limited sensitivity to ambiguity where multiple emotions are simultaneously reasonable.",
         "embedding_for_clustering": [
             -0.007277001,
@@ -21547,6 +21554,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 59,
         "cluster_summary": "Across these cases, the model overweights early, salient, or morally appealing cues and underweights later, decisive contextual information that specifies the character\u2019s final emotional state. It tends to infer abstractly plausible, high\u2011arousal or prosocial emotions (excitement, admiration, growth\u2011mindset satisfaction) instead of the exam-style, text\u2011anchored answer that reflects the concrete outcome, temporal markers, and subtle shifts like relief or emerging worry. Overall, the shared failure pattern is miscalibrated evidence weighting: privileging global plausibility over local narrative resolution, question wording, and conventional test-writing heuristics.",
         "embedding_for_clustering": [
             0.005208747,
@@ -24625,6 +24633,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 60,
         "cluster_summary": "Across these reasons, discrepancies stem from ambiguous emotional cues where both the model and humans choose different but psychologically plausible emotions. The model tends to either track explicit lexical markers in the text (e.g., \"very sad\") or infer salient internal states like fear/anxiety about being exposed or restricted, whereas human answers more often align with task-specific framing (e.g., outward appearance, \u201creal feelings\u201d) and default to sadness/disappointment. Overall, divergences reflect shifts between literal wording vs. contextual inference and internal experience vs. external presentation, not outright misunderstanding.",
         "embedding_for_clustering": [
             0.011374005,
@@ -27703,6 +27712,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 66,
         "cluster_summary": "Across these items, the model over-relies on salient surface cues\u2014privacy loss, social exclusion phrases, or \u201cnot wanting others to know\u201d\u2014and maps them to stereotyped emotions like violation, abandonment, or guilt. By contrast, the human answers prioritize integrating later narrative information, explicit self-reflection, and the most proximal, concrete cause of the character\u2019s current emotion over more diffuse background concerns. Especially in the guilt-related cases, the gap reflects difficulty separating self-blame from feeling ignored or embarrassed, compounded by partial ambiguity where several labels are plausible but only one best matches the immediate causal chain.",
         "embedding_for_clustering": [
             0.0072063063,
@@ -30781,6 +30791,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 67,
         "cluster_summary": "Across these reasons, the model repeatedly overweights local keywords that echo the question\u2019s target emotion (\u201csurprised,\u201d \u201cdisgusted\u201d) or expectation violation, while neglecting how the broader story frames the character\u2019s actual feelings. It treats emotions as coarse positive/negative or generic \u201csurprise,\u201d failing to distinguish disappointment from pleasant astonishment, irritation from moral disgust, or surprise grounded in role reversal versus stylistic similarity. More generally, it performs shallow pattern-matching instead of integrating narrative context, social roles, and twists that reframe initial attitudes like envy or curiosity.",
         "embedding_for_clustering": [
             0.0010643157,
@@ -33859,6 +33870,7 @@
     },
     {
         "cluster_label": 6,
+        "round1_cluster_label": 78,
         "cluster_summary": "Across these cases, the model relies on shallow, stereotype\u2011based associations (gifts, awards, romantic movies, helpful matchmaking) and defaults to generically positive or prototypical emotions like happiness, pride, or jealousy. It underuses discourse cues (\u201cat this time,\u201d \u201ceven so\u201d), explicit narrative statements, and relationship norms that reverse or nuance the expected valence, so it frequently misses lingering resentment, awkwardness, anger, or gratitude. The model also sometimes misidentifies whose perspective is queried, failing to track that the relevant emotion belongs to the friend, girlfriend, or spouse rather than to another character.",
         "embedding_for_clustering": [
             -0.012220442,

@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 0,
+        "round1_cluster_label": 29,
         "cluster_summary": "Across these cases, the model leans on stereotypical event\u2013emotion pairings from surface cues (\u201crevolutionary technology\u201d \u2192 thrilled, \u201caccidentally finds\u201d \u2192 surprised, first VR experience \u2192 excited), rather than fine\u2011grained appraisal of context. Humans, by contrast, emphasize subtler narrative signals\u2014mixed emotions, risk and pressure, eeriness, curiosity, and the temporal focus of the question (instant reaction versus enduring state)\u2014leading them to select different, but still compatible, labels. Thus the divergence reflects ambiguity and underspecified emotion categories, with the model picking the most prototypical feeling along one dimension of the scenario, while human raters prioritize a different plausible facet of the same state.",
         "embedding_for_clustering": [
             0.01707529,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 0,
+        "round1_cluster_label": 43,
         "cluster_summary": "Across these cases, the model repeatedly latches onto salient, stereotyped patterns\u2014team victory, overall success, visible effort, humorous personality\u2014while downplaying specific conversational cues and quoted statements that pinpoint the actual mental state. It tends to prefer clean structural contrasts (team vs individual, success vs lack of recognition, entertainment vs disappointment) and objective outcomes over more text-faithful inferences about subjective feelings, local intentions, or the immediate trigger of an utterance. Several disputes arise from genuine ambiguity, where multiple emotion attributions are logically defensible, but the human key rewards finer-grained, context-sensitive readings.",
         "embedding_for_clustering": [
             0.0037592629,

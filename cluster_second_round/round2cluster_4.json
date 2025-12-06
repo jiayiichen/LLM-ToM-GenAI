@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 4,
+        "round1_cluster_label": 2,
         "cluster_summary": "Across these reasons, the core pattern is how vague quantifiers like \u201cmost\u201d and \u201calmost no\u201d are interpreted when mapping narrative descriptions to exact numbers. Human answers implicitly preserve a small, non\u2011zero remainder for the minority category (rice or Shandong dishes, and even other cuisines), so they pick distributions such as 35\u20135 that satisfy both the total and the verbal hedges. The model instead regularizes \u201calmost no\u201d to zero and neglects unmentioned categories, yielding 40\u2011style answers that align with a strict arithmetic reading but diverge from human pragmatic expectations while still being arguably defensible.",
         "embedding_for_clustering": [
             -0.002520152,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 7,
         "cluster_summary": "Across these reasons, the core pattern is that the model treats natural\u2011language quantifiers (\u201cmost,\u201d \u201csome,\u201d \u201cvery few,\u201d \u201calmost no\u201d) as vague, static proportions instead of contextually mapping them to concrete counts. It then defaults to a generic \u201caround half\u201d heuristic for \u201cmost\u201d and fails to integrate how multiple verbal constraints jointly narrow the plausible distributions, whereas the human\u2011intended reasoning uses those phrases as near\u2011deterministic clues. As a result, the model\u2019s numeric choices are weakly supported approximations, while the human answers follow from tighter logical inferences.",
         "embedding_for_clustering": [
             -0.00276629,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 18,
         "cluster_summary": "Both reasons highlight that the model overweights a later explicit number (\u201c4 goalkeepers\u201d) and underweights an earlier proportional, approximate description (\u201calmost one third of 18\u201d). In each case, the model mistakenly treats the subset of players who get the ball as if it were the whole team, collapsing an inherently probabilistic sampling situation into a deterministic equality constraint. More generally, the pattern is a preference for surface-level, easily retrievable numerals over approximate or contextual quantitative cues, leading to rigid, globally inconsistent interpretations of the scenario.",
         "embedding_for_clustering": [
             -0.0060762446,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 26,
         "cluster_summary": "Across these items, the model treats explicit counted numbers and simple fractions as precise, overriding softer linguistic cues like \u201calmost one third\u201d or \u201calmost half.\u201d It either ignores or misweights the prior information about the whole set and over\u2011interprets the small sample as if it exactly represented, or even exhausted, the relevant subset, instead of viewing it as noisy evidence. Overall, humans integrate approximate quantifiers with sample data and rounding conventions, whereas the model applies rigid arithmetic and mis-scopes which group the proportion statements actually describe.",
         "embedding_for_clustering": [
             -0.008340645,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 27,
         "cluster_summary": "Across these items, the model treats vague quantifiers like \u201cmost,\u201d \u201csome,\u201d \u201chardly any,\u201d and \u201cvery few\u201d in a literal, often extremal or minimal way, instead of using pragmatic, graded interpretations grounded in everyday language. It also repeatedly fails to jointly enforce all constraints\u2014fixed totals, non\u2011zero minorities, comparative wording between categories, and the fact that the guesses occur before the true numbers are revealed\u2014often defaulting to simple splits or assuming zero for \u201chardly any.\u201d Humans, in contrast, integrate these linguistic cues with arithmetic reasoning and perspective\u2011taking, producing numerically moderate, more semantically coherent estimates.",
         "embedding_for_clustering": [
             -0.007639683,
@@ -15391,6 +15396,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 33,
         "cluster_summary": "Across these cases, the model defaults to a literal interpretation of vague quantifiers such as \u201cmost popular,\u201d \u201calmost half,\u201d and \u201calmost no,\u201d often mapping them to exact values like 0 or 1/2. This makes it ignore or oversimplify implicit constraints and comparative cues in the stories\u2014like popularity implying higher sales\u2014or collapse multi-category situations into simpler binary splits. Humans instead treat everyday numerical language as flexible and approximate, infer small nonzero quantities from phrases like \u201calmost none,\u201d and integrate all narrative details, so their answers better match pragmatic expectations even when the model\u2019s tidy ones are logically defensible.",
         "embedding_for_clustering": [
             0.008443891,
@@ -18469,6 +18475,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 37,
         "cluster_summary": "Across both reasons, the model stumbles on translating vague quantifiers (\u201cmost,\u201d \u201cvast majority,\u201d \u201csmall part,\u201d \u201calmost none/no one\u201d) into concrete numbers, consistently assigning relatively large sizes to groups that should be tiny. It performs a kind of over-literal proportional mapping from words to quantities, instead of using the story\u2019s internal constraints (like the explicitly stated \u201csmall part\u201d or total count) to anchor one number and infer the others pragmatically. As a result, its answers are mathematically coherent but misaligned with the narrative\u2019s intended emphasis and human conversational norms.",
         "embedding_for_clustering": [
             0.005918391,
@@ -21547,6 +21554,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 38,
         "cluster_summary": "Across these items, the model and humans mainly diverge in how they interpret vague quantifiers like \u201cmost,\u201d \u201csome,\u201d \u201cfew,\u201d \u201chardly any,\u201d and \u201calmost none.\u201d The model tends to translate these verbal cues into rigid or generic numerical schemas (e.g., treating \u201cmost\u201d as an overwhelming majority, \u201cvery few\u201d as nearly zero, or \u201caround half\u201d), then does straightforward subtraction, whereas human reasoning uses looser, context\u2011sensitive thresholds and probabilistic expectations. As a result, many model answers are arithmetically tidy yet pragmatically strained, though some remain interpretively defensible.",
         "embedding_for_clustering": [
             0.004975195,
@@ -24625,6 +24633,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 39,
         "cluster_summary": "Across these cases, the model collapses multi-category, uncertain situations into simple two-term arithmetic, typically subtracting the one explicitly numbered subset from the total and assuming everything else belongs to a single remaining category. It systematically interprets vague quantifiers and constraints (\u201chardly any,\u201d \u201calmost no,\u201d \u201calmost half,\u201d \u201conly one or two\u201d) as either exact, zero, or ignorable, instead of treating them as small-but-nonzero amounts that must also fit all narrative clues. Human-like answers, in contrast, integrate these verbal nuances, respect all category constraints, and perform a light Bayesian-style updating from new evidence.",
         "embedding_for_clustering": [
             -0.013262677,
@@ -27703,6 +27712,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 57,
         "cluster_summary": "Across these items, the model over-weights vague majority terms like \u201cmost\u201d and \u201chardly any,\u201d treating them as invitations to maximize one category, instead of as soft constraints that must coexist with fixed totals. It repeatedly violates basic arithmetic or ignores that minority categories described as \u201cvery few,\u201d \u201csome,\u201d or \u201chardly any\u201d must still be nonzero, leaving too little or no room for other kinds. In one case it also collapses the story\u2019s temporal structure, treating later factual outcomes as prior knowledge and thus generating an implausibly precise numerical guess.",
         "embedding_for_clustering": [
             -0.011306645,
@@ -30781,6 +30791,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 68,
         "cluster_summary": "Across the items, the model systematically mishandles vague quantifiers and contextual cues, either treating \u201cmost,\u201d \u201csome,\u201d \u201calmost no,\u201d and \u201calmost a quarter\u201d as rigid numerical thresholds or minimizing their pragmatic implications. Humans instead integrate everyday conversational norms\u2014like \u201csome\u201d usually meaning at least two, \u201calmost\u201d indicating slightly less than a benchmark, and narrative hints about expectations\u2014to select counts that feel contextually natural while respecting fixed totals. When the model doesn\u2019t outright violate the arithmetic constraints, it still gravitates to mathematically tidy but linguistically less plausible mappings from phrases to numbers, occasionally yielding defensible yet weaker interpretations.",
         "embedding_for_clustering": [
             -0.00092703593,
@@ -33859,6 +33870,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 72,
         "cluster_summary": "Across these items, the human-like reasoning integrates all quantitative constraints\u2014fixed totals, vague quantifiers (\u201cmost,\u201d \u201cvery few\u201d), and narrative hints\u2014while the model relies on a simpler maximize-the-majority heuristic. In every case, it pushes the dominant category (math, Three Kingdoms, novels, fish) to an extreme value and implicitly treats \u201cvery few\u201d or minor categories as zero or negligible, violating the story\u2019s requirement of a nonzero small remainder. The shared failure pattern is weak global consistency checking: the model underuses sum-to-total and lower-bound constraints that humans automatically enforce.",
         "embedding_for_clustering": [
             0.010674466,
@@ -36937,6 +36949,7 @@
     },
     {
         "cluster_label": 4,
+        "round1_cluster_label": 79,
         "cluster_summary": "Across these reasons, the model consistently treats vague quantifiers like \u201chardly any\u201d and \u201cmost\u201d as extreme, almost absolute values rather than approximate ranges that must leave room for other categories. It overweights explicit numbers and salient categories (total gifts, animals, dolls, lions) and implicitly converts underspecified groups (\u201chardly any books/reptiles/cars/zebras\u201d) to zero, thereby maximizing the dominant category. In contrast, the human answers treat these expressions as indicating small but nonzero quantities, integrate all mentioned categories, and choose estimates that jointly satisfy both numerical constraints and ordinary language pragmatics.",
         "embedding_for_clustering": [
             -0.007826936,

@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 3,
+        "round1_cluster_label": 3,
         "cluster_summary": "Across these items, the model repeatedly relies on overlearned \u201cfalse-belief\u201d templates instead of flexibly tracking which character\u2019s perspective is explicitly queried, often answering from the uninformed agent\u2019s view when the question targets the informed one. It also frequently collapses the distinction between belief and reality, failing to represent outdated or nested beliefs and thus predicting search locations based on the object\u2019s actual position rather than agents\u2019 mental states. In a few cases (3 and 5), ambiguous wording or option labeling makes both the model and human answers partially defensible, exposing sensitivity to linguistic underspecification.",
         "embedding_for_clustering": [
             -0.01094605,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 11,
         "cluster_summary": "Across all items, the discrepancy hinges on an ambiguity in phrases like \u201cshould be inside,\u201d which the model consistently interprets as asking about actual, current contents while the human-keyed answer treats it as expectation or belief based on labels and character perspective. The stories systematically juxtapose labels with mismatched contents and limited viewpoints, so humans read them as theory\u2011of\u2011mind or norm\u2011based tasks, whereas the model defaults to an omniscient, reality\u2011tracking frame. The explanations repeatedly conclude that both readings are logically defensible, but test design privileges the perspective\u2011taking interpretation.",
         "embedding_for_clustering": [
             0.008508758,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 15,
         "cluster_summary": "Across these items, the model repeatedly confuses which character\u2019s mental state is queried, often defaulting to the \u201cclassic\u201d absent-agent false\u2011belief template even when the story asks about a different, better-informed agent. A second recurring pattern is collapsing distinctions between reality, first\u2011order belief, and second\u2011order belief: it either tracks only the object\u2019s actual location or only the first observer\u2019s outdated belief, instead of maintaining parallel belief states. Finally, it underuses evidence that agents update beliefs after direct perception, and sometimes overweights static cues like labels or initial descriptions.",
         "embedding_for_clustering": [
             -0.01121966,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 16,
         "cluster_summary": "Across these items, the human answers consistently track an agent\u2019s perspective, beliefs, and knowledge updates, while the model often defaults to surface features like the first-mentioned object, the literal label, or the narrator\u2019s omniscient description. Where humans treat phrases like \u201cshould be in the box\u201d as about what a specific character reasonably expects or is excited about, the model misreads them as asking about the actual current contents, collapsing belief states into reality. This reveals a recurring failure to represent distinct mental states, interpret pragmatic cues, and revise beliefs after new observations.",
         "embedding_for_clustering": [
             -0.016186954,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 34,
         "cluster_summary": "Across these reasons, the model systematically over-applies a stock \u201cfalse-belief task\u201d script and a simple \u201clabel = contents\u201d heuristic instead of tracking narrative updates. It repeatedly ignores that the focal character has directly inspected the container, now holds a true belief about the contents, and will project that belief to what another person will find, regardless of misleading tags. The errors also show recurring confusion about whose mental state is queried, answering from an uninformed observer\u2019s perspective rather than the explicitly specified knowledgeable agent\u2019s.",
         "embedding_for_clustering": [
             -0.011565315,
@@ -15391,6 +15396,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 41,
         "cluster_summary": "Across these reasons, the model systematically mishandles perspective-taking: it either answers from an all-knowing narrator viewpoint or from a naive, label-based observer, rather than from the specific character the question targets. It over-relies on shallow heuristics\u2014such as \u201ctrust the label\u201d or \u201creport the real contents\u201d\u2014and so ignores critical temporal updates (who looked when), distinct belief states across characters, and even second-order beliefs about others\u2019 expectations. As a result, it frequently misclassifies true-belief scenarios as classic false-belief tasks (and vice versa), yielding answers that track cues, not mental states.",
         "embedding_for_clustering": [
             -0.007942463,
@@ -18469,6 +18475,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 47,
         "cluster_summary": "Across these items, the stories are framed as classic first\u2011 or second\u2011order false\u2011belief tasks where humans answer based on an agent\u2019s outdated belief rather than the object\u2019s actual location. Consistently, the model instead tracks the real state of the world or a directly stated mental attitude, failing to represent nested perspectives and conflating physical reality with belief and belief\u2011about\u2011belief. Item 10 is a partial exception, showing the model favoring a surface description of the agent\u2019s false belief while humans choose a deeper causal explanation, highlighting systematic ambiguities in interpreting such tasks.",
         "embedding_for_clustering": [
             -0.0053756516,
@@ -21547,6 +21554,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 61,
         "cluster_summary": "Across these cases, the model over-relies on salient, explicitly stated similes or metaphors and treats them as literal answers, engaging in shallow phrase-matching rather than deeper reasoning. It systematically ignores world-building constraints about what entities exist in the story worlds and what the characters have perceptual access to, so it attributes imitations to leaves, dough, eagles, trees, and flowers that the characters cannot possibly have encountered. This reflects a broader failure to integrate background constraints and character knowledge into its interpretation, undermining the intended Theory of Mind inference.",
         "embedding_for_clustering": [
             0.0046824906,
@@ -24625,6 +24633,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 62,
         "cluster_summary": "Across these reasons, the model systematically overweights salient surface cues such as container labels and typical associations, using them as shortcuts for \u201cwhat is inside\u201d instead of tracking the narrative\u2019s evidence. It repeatedly fails to update agents\u2019 beliefs after direct observation, so it answers as if no new information was gained, or as if the label-based, default belief still governs the character\u2019s expectation. The errors also show confusion about whose perspective is queried, often substituting another observer\u2019s or omniscient reality for the specified character\u2019s mental state in second-order belief questions.",
         "embedding_for_clustering": [
             -0.010263028,
@@ -27703,6 +27712,7 @@
     },
     {
         "cluster_label": 3,
+        "round1_cluster_label": 71,
         "cluster_summary": "Across these reasons, the core pattern is tension between salience-based heuristics (last-mentioned or \u201cthird novel toy\u201d) and stricter perspective-based ambiguity: whether \u201cthat toy\u201d has a uniquely identifiable referent from the listener\u2019s point of view. The analyses repeatedly contrast cooperative-pragmatic inference\u2014assuming agents highlight novel objects they haven\u2019t played with and that partners exploit shared knowledge\u2014against a conservative stance that treats underspecified references as irreducibly ambiguous. As a result, the model is sometimes faulted for shallow salience matching, but sometimes praised for sophisticated Theory-of-Mind reasoning that exam rubrics may underappreciate.",
         "embedding_for_clustering": [
             -0.0024017973,

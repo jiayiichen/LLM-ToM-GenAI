@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 9,
+        "round1_cluster_label": 1,
         "cluster_summary": "This cluster reflects a pattern where the model leans into rich social-pragmatic cues and joint attention to construct a more sophisticated theory-of-mind explanation than the human key expects. It systematically interprets characters as making deliberate, inquisitive inferences (e.g., Xiao Hong inspecting all sides because she infers something special), whereas the human answer presumes simpler, child-like labeling behavior. Across such items, model errors arise less from logical failure than from privileging nuanced mental-state reasoning over the test designer\u2019s intended, more basic developmental-psychology interpretation.",
         "embedding_for_clustering": [
             0.004267931,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 9,
+        "round1_cluster_label": 10,
         "cluster_summary": "Across this cluster, the model over-prioritizes surface pattern-matching (\u201clike a pangolin\u201d) to familiar, visually similar entities, instead of integrating the full narrative context. The reasons highlight that the stories usually contain explicit world constraints (e.g., Nimbus has only birds and flying insects), which humans use to eliminate impossible options and reinterpret metaphors in-context. Overall, the model\u2019s Theory of Mind errors here stem less from misunderstanding mental states than from neglecting story-internal logic and availability constraints on what the characters could actually perceive or imitate.",
         "embedding_for_clustering": [
             0.021272622,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 9,
+        "round1_cluster_label": 56,
         "cluster_summary": "Across all four reasons, the questions center on young children interpreting an adult\u2019s excited comment about an object that contains a smaller, less salient sticker, probing whole\u2011object bias versus more refined referent tracking. The shared failure pattern is that the model misweights cues, either over\u2011attending to textual details like \u201csticker\u201d or \u201ccannot touch,\u201d or overestimating children\u2019s analytical search strategies, instead of applying developmentally typical heuristics. Together, the cases show the model treating reference resolution too much like adult logical inference and too little like pragmatic, gaze\u2011guided joint attention in early childhood.",
         "embedding_for_clustering": [
             -0.025458422,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 9,
+        "round1_cluster_label": 63,
         "cluster_summary": "This cluster centers on one pattern: the model evaluates utterances within an in-universe role frame, while the human solution evaluates them against literal real-world facts or the speaker\u2019s private beliefs. Across cosplay, preserving a child\u2019s Santa fantasy, a neighbor dressed as Santa, and a boy in a ghost costume, the model treats claims like \u201cI am the master\u201d or \u201cIt is Santa Claus\u201d as pragmatically true in the pretend scenario. Because Theory of Mind tasks require truth conditions tied to objective identity or belief states, this framing mismatch systematically drives the model\u2019s answers away from the expected human judgments.",
         "embedding_for_clustering": [
             -0.012801198,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 9,
+        "round1_cluster_label": 76,
         "cluster_summary": "Across these reasons, the model consistently grounds its answers in explicit textual evidence, focusing on what the story literally states about Xiao Lei\u2019s preferences and knowledge. By contrast, the human responses introduce extra-story assumptions\u2014such as conflating common collectibles or inferring hidden inheritance discussions\u2014that are neither mentioned nor reliably implied. Consequently, this cluster illustrates cases where divergences arise not from the model lacking theory-of-mind capabilities but from humans overinterpreting, misreading, or importing outside knowledge, while the model\u2019s literal, evidence-based reasoning actually yields the more defensible answer.",
         "embedding_for_clustering": [
             0.015161439,

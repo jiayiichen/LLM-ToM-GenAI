@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 7,
+        "round1_cluster_label": 6,
         "cluster_summary": "Across these items, the model relies on generic, decontextualized heuristics\u2014like favoring \u201cwin\u2011win\u201d cooperation, enforcing stated rules, and checking for logical consistency\u2014rather than inferring implicit priorities, power hierarchies, or scarce resources. In all cases, it interprets key evaluative terms (especially \u201cinappropriate\u201d) in a narrow, literal way focused on explicit rudeness or contradiction, while humans apply broader, culturally grounded norms about tact, fairness, and morale. Thus the disagreement stems less from misunderstanding the scenario than from different pragmatic frames, making the model\u2019s choices partly defensible.",
         "embedding_for_clustering": [
             0.018872838,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 7,
+        "round1_cluster_label": 8,
         "cluster_summary": "Across these items, the model overweights literal semantics, grammaticality, and surface coherence while underweighting pragmatic norms, social face concerns, and culturally typical speech acts. It repeatedly misinterprets \u201cinappropriate\u201d as logical contradiction, factual impossibility, or source of narrative awkwardness, rather than as a violation of politeness, relational positioning, or test\u2011design intent. The cluster thus reflects a consistent weakness in integrating conversational context, shared background knowledge, and character perspectives to infer implied meanings, prioritize salient new information, and identify which utterance the question\u2011setter targets as contextually problematic.",
         "embedding_for_clustering": [
             0.0010732135,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 7,
+        "round1_cluster_label": 12,
         "cluster_summary": "Across these items, the model consistently construes \u201cinappropriate\u201d in a narrow, largely decontextualized way, focusing on explicit rudeness, taboo content, logical contradiction, or odd wording rather than relational dynamics. Human answers instead rely on broader pragmatic norms\u2014emotional sensitivity, respect for boundaries, recognition of power asymmetries, privacy, consent, and situational fit\u2014treating subtle pressure, invalidation, or agenda\u2011pushing as inappropriate even when phrased politely. Because the prompts under-specify which standard applies, many vignettes become ambiguous, so the analysis repeatedly concludes that both interpretations are defensible and the model is often \u201calso correct,\u201d though sometimes less socially attuned.",
         "embedding_for_clustering": [
             0.012691211,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 7,
+        "round1_cluster_label": 45,
         "cluster_summary": "Across these reasons, the model systematically privileges literal wording, explicit politeness markers, and surface sentiment, while humans rely on pragmatic subtext, cultural etiquette, and role or power dynamics to judge appropriateness or honesty. Many cases hinge on high\u2011context Chinese norms\u2014about inheritance, modesty, hierarchy, veiled criticism, indirect refusals, and emotional tact\u2014where positive\u2011sounding remarks can actually be intrusive, boastful, dismissive, or face\u2011threatening. The cluster also highlights task ambiguity: \u201cinappropriate\u201d and \u201ctruthful\u201d are underspecified, multiple utterances or readings are plausible, so human and model answers can both be defensible despite diverging reasoning.",
         "embedding_for_clustering": [
             -0.0057739867,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 7,
+        "round1_cluster_label": 54,
         "cluster_summary": "Across the items, the model systematically mis-reads what \u201cinappropriate\u201d is targeting, defaulting to grammaticality, literal coherence, or overt politeness instead of the task\u2019s intended dimension\u2014often subtle pragmatic, emotional, or cultural norms, and sometimes specific grammar errors. It over-focuses on micro-level surface features\u2014tense errors, redundancy, lexical mismatches, topic shifts\u2014while under-weighting relational context such as face-saving, hierarchy, gratitude, hurt feelings, or children\u2019s\u2011story moral expectations that humans treat as central. Several cases also reveal genuine ambiguity in the task design, where both the model\u2019s coherence-based answer and the human\u2019s norm-based answer can be defended.",
         "embedding_for_clustering": [
             0.014315976,

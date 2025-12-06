@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 1,
+        "round1_cluster_label": 4,
         "cluster_summary": "Across these items, the model repeatedly privileges generic scripts and commonsense narratives\u2014jealous classmates, surprise gifts, continued club participation, exam-focused parents, or promises of future rewards\u2014over the specific cues and constraints given in the text. It often latches onto a salient phrase (\u201cimportant family gathering,\u201d \u201cnot overwork themselves,\u201d \u201cromantic restaurant,\u201d \u201cexams\u201d) and then extrapolates a familiar storyline, underweighting temporal order, stated motivations, or explicit outcomes like money being spent or everyone wanting the task. Overall, the main divergence from human answers is mis-weighted evidence: world-knowledge templates override fine-grained, passage-grounded reasoning.",
         "embedding_for_clustering": [
             0.010120923,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 28,
         "cluster_summary": "Across these items, the model systematically treats \u201cpersuasion\u201d as an optimization problem: identify the interlocutor\u2019s stated constraint or a generalizable benefit, then select the option that most directly, logically, or instrumentally addresses it. Humans more often prioritize narrative fit and social realism\u2014child\u2011like pleading, emotional support, fairness over time, status motives, or the textbook \u201cright\u201d counseling/parenting response\u2014so they infer the intended answer from everyday scripts rather than abstract utility. Many vignettes are under\u2011specified, so multiple persuasion paths seem reasonable; the explanations repeatedly frame the model\u2019s choice as defensible, not genuinely wrong.",
         "embedding_for_clustering": [
             0.0027808223,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 42,
         "cluster_summary": "Across these items, the model fixates on the most salient, strongly cued trait or routine of a single character\u2014profession, hobby, or eating habit\u2014and extrapolates the event that best matches that one dimension. This makes it underweight the inviter\u2019s own constraints, values, and desire to accommodate the other person, so it often misses the more balanced or compromise option that humans infer from the social context. Moreover, several stories are deliberately underdetermined, so both options remain logically possible; the gap between human and model answers mainly reflects differing emphasis on subtle narrative cues rather than outright reasoning errors.",
         "embedding_for_clustering": [
             0.017909834,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 44,
         "cluster_summary": "Across these items, the model consistently privileges literal, explicitly stated details and conservative inferences, while the human annotations lean on pragmatic background knowledge, social expectations, and the question-setter\u2019s intended implication. Most disagreements hinge on genuine ambiguities\u2014shifts in temporal reference (\u201cbefore,\u201d story endpoint versus midpoint), perspective differences (narrator versus character knowledge, overhearing), or competing senses of key verbs like \u201cknow,\u201d \u201cremember,\u201d and \u201cchoose.\u201d As a result, the model\u2019s answers, though sometimes diverging from the gold labels, are usually logically coherent interpretations of underspecified narratives, revealing evaluation misalignment rather than systematic Theory-of-Mind failure.",
         "embedding_for_clustering": [
             -0.0037998832,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 49,
         "cluster_summary": "Across these items, model\u2013human divergences stem from systematic ambiguities: whether to privilege explicit narrative cues (strong interests, workload, money) or the literal content of a character\u2019s utterance. The model often infers hidden desires, practical constraints, or shyness behind refusals, treating spoken \u201cno\u201d as an excuse or factually false, while humans frequently interpret statements at face value or emphasize richer social and motivational subtexts. Many questions under-specify whether \u201ctruth,\u201d \u201cwant,\u201d or \u201creason\u201d should track internal mental states, momentary decisions, or effective behavior, making multiple options simultaneously defensible.",
         "embedding_for_clustering": [
             0.0037263152,
@@ -15391,6 +15396,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 65,
         "cluster_summary": "Across these items, the model tends to anchor on explicitly stated, temporally local events or on generic commonsense scripts (e.g., \u201cserious students keep studying,\u201d \u201cteens like sports\u201d), while humans more often privilege what is pragmatically implied or narratively expected. Many conflicts arise from ambiguity in what \u201cnext\u201d or \u201cwill do\u201d means\u2014immediate described action versus longer\u2011term goal, morally appropriate choice, or likely resolution\u2014so both answers are sometimes defensible. Overall, the model underutilizes subtle cues about character motivation, social pressure, and causal foreshadowing that humans treat as decisive.",
         "embedding_for_clustering": [
             0.017247763,
@@ -18469,6 +18475,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 69,
         "cluster_summary": "Across these reasons, the disagreement nearly always hinges on ambiguous wording, especially the phrase \u201cshould be,\u201d which can denote either actual physical contents or norm\u2011/label\u2011based expectations. The model systematically resolves this ambiguity in a literal, world\u2011state\u2011tracking way, while the human tends to interpret questions as false\u2011belief or expectation tasks, privileging labels, social norms, and characters\u2019 perspectives\u2014even when multiple answers are textually defensible. A secondary pattern is that lexical or categorical near\u2011synonyms (e.g., cabinet vs cupboard) are treated as equivalent by humans but matched rigidly to surface forms by the model.",
         "embedding_for_clustering": [
             0.0037462676,
@@ -21547,6 +21554,7 @@
     },
     {
         "cluster_label": 1,
+        "round1_cluster_label": 73,
         "cluster_summary": "Across these reasons, the model repeatedly latches onto vivid similes that mention familiar Earth animals or behaviors and directly maps them to answer options. In doing so, it ignores key narrative constraints about what exists in the character\u2019s environment and what the character can plausibly know or observe, failing to track the agent\u2019s knowledge state. The human-consistent answers instead rely on reasoning about perspective and accessibility\u2014choosing non-obvious options (robots, sculptures, local creatures) that match the character\u2019s experiences rather than the surface wording of the description.",
         "embedding_for_clustering": [
             -0.012238899,

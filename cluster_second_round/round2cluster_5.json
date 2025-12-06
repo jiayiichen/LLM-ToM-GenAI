@@ -1,6 +1,7 @@
 [
     {
         "cluster_label": 5,
+        "round1_cluster_label": 14,
         "cluster_summary": "Across the cluster, disagreements stem from mismatches between the model\u2019s interpretive standard and the exam\u2019s intended but unstated assumptions about background knowledge, conversational continuity, and what counts as \u201cknowing.\u201d Sometimes the model adheres to a narrow, text-only or fine-grained notion of knowledge while humans use broader pragmatic inferences, and other times the model over-extends pragmatic conventions and ignores later disambiguating cues. Overall, these items exploit ambiguous wording and incomplete textual evidence, so multiple answers remain defensible, and the model\u2019s responses often reflect a consistent yet mismatched reasoning policy.",
         "embedding_for_clustering": [
             -0.0027697056,
@@ -3079,6 +3080,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 17,
         "cluster_summary": "Across these reasons, the model consistently privileges strictly literal, explicitly stated information in the stories, especially around whether a character was directly told or saw something. Human annotators instead import rich pragmatic and social knowledge\u2014norms about friends knowing breakups, colleagues inferring non\u2011promotion, neighbors recognizing retirement, or classmates hearing about birthday gifts\u2014to treat implicitly suggested facts as \u201cknown.\u201d Thus the disagreements center less on faulty logic than on different thresholds for attributing knowledge: the model demands textual evidence, while humans license broader, culturally grounded mind\u2011reading.",
         "embedding_for_clustering": [
             0.0067259497,
@@ -6157,6 +6159,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 22,
         "cluster_summary": "Across this cluster, the model tends to overweight literal surface wording, narrator omniscience, and generic statements, while underweighting story conventions, real\u2011world constraints, and character\u2011specific perspectives. Many errors come from misalignments about what counts as \u201cknowing\u201d: the model often demands direct evidence or, conversely, treats any mentioned fact as universally known, whereas the human answers rely on pragmatic implicature, default trust in testimony, and task norms about strict epistemic access. Several cases also hinge on timing and scope misunderstandings\u2014whether knowledge is evaluated before or after a disclosure, and whether in\u2011story realism overrides in\u2011game or fictional framing.",
         "embedding_for_clustering": [
             -0.009939459,
@@ -9235,6 +9238,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 30,
         "cluster_summary": "Across these items, the model systematically treats the questions as requiring strict epistemic verification rather than pragmatic or narrative understanding. In each case, it ignores cues that the scenario is stylized (role\u2011play, fictional persona, or test\u2011style phrasing) that license a commonsense judgment about truth, and instead retreats to \u201cnan\u201d as if any unfinalized or fictionalized statement were undecidable. This reflects an overly literal, risk\u2011averse strategy that prioritizes formal uncertainty over interpreting communicative intent, leading it to miss the tasks\u2019 intended evaluative perspective.",
         "embedding_for_clustering": [
             -0.0071448316,
@@ -12313,6 +12317,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 46,
         "cluster_summary": "Across this cluster, the model fails to recognize that speakers often use figurative or non-literal language to convey attitudes rather than factual claims. It over-emphasizes the absence of concrete, verifiable information and therefore defaults to \u201ccannot be determined\u201d instead of inferring the intended meaning from pragmatic cues and common-sense social reasoning. In other words, these errors reflect a broader pattern: the system treats utterances as objective reports about the world, rather than as contextual expressions of beliefs, emotions, or perspectives.",
         "embedding_for_clustering": [
             0.019548219,
@@ -15391,6 +15396,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 50,
         "cluster_summary": "Across this cluster, the model over-relies on prototypical associations with salient events and ignores more diagnostic, later-arriving cues about the agent\u2019s actual mental state. Here, the phrase \u201cwins a five million lottery\u201d triggers a default mapping to happiness, so the system selects \u201cJoy\u201d instead of integrating the subsequent clause that explicitly encodes apprehension and life-disruption concerns. This pattern reflects shallow, keyword-driven interpretation and weak pragmatic reasoning about which information should be prioritized, leading the model to privilege stereotyped emotional responses rather than the text\u2019s explicitly described, contextually appropriate emotion.",
         "embedding_for_clustering": [
             0.0014617918,
@@ -18469,6 +18475,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 58,
         "cluster_summary": "Across this cluster, the model often privileges general moral rules, salient surface cues, or immediate emotions over context-specific social inferences and exam-style normative expectations. It tends to extrapolate guilt, regret, or principled honesty from minimal hints, interpret ambiguous referents or motives literally, and underweight contrasts, implicit culpability, or pragmatic goals like protecting privacy or inferring hidden intentions. As a result, its answers are frequently locally coherent yet misaligned with the intended key, which favors idealized, socially attuned, or narratively emphasized reactions.",
         "embedding_for_clustering": [
             0.0032983592,
@@ -21547,6 +21554,7 @@
     },
     {
         "cluster_label": 5,
+        "round1_cluster_label": 70,
         "cluster_summary": "In all these cases, the model relies heavily on literal, explicitly stated emotions and events, avoiding richer pragmatic inferences about characters\u2019 inner states. This leads it to default to \u201cNo\u201d or to surface-matched emotions like \u201cSurprise\u201d whenever surprise, anger, or happiness must be inferred from social expectations, narrative contrast, or background knowledge rather than directly described text. Across the cluster, the explanations frame many scenarios as genuinely ambiguous\u2014where both the model and human answers are defensible\u2014yet they also highlight a systematic underuse of commonsense social reasoning that sometimes makes the model\u2019s choice less plausible.",
         "embedding_for_clustering": [
             0.009713351,
