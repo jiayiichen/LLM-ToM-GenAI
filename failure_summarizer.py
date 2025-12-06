@@ -29,14 +29,28 @@ def load_csv(filename):
 
 
 def call_gpt51_summarizer(client, prompt):
-    """Call GPT-5.1 to analyze failure"""
+    """Call GPT-5.1 to analyze failure with reasoning enabled"""
     response = client.chat.completions.create(
         model="openai/gpt-5.1",
         messages=[{"role": "user", "content": prompt}],
+        extra_body={"reasoning": {"enabled": True}},
         temperature=0.0,
-        max_tokens=100
+        max_tokens=1024  # Increased for reasoning output
     )
-    return response.choices[0].message.content.strip()
+
+    message = response.choices[0].message
+
+    # Extract both reasoning and content
+    reasoning = getattr(message, 'reasoning', '')
+    content = message.content or ''
+
+    # Combine reasoning and final answer
+    if reasoning and content:
+        return f"**Reasoning:**\n{reasoning}\n\n**Analysis:**\n{content}"
+    elif content:
+        return content
+    else:
+        return ""
 
 
 def main():
@@ -113,11 +127,12 @@ def main():
         # Get failure analysis from GPT-5.1
         failure_summary = call_gpt51_summarizer(client, prompt)
 
-        # Create result with all original data plus analysis
-        result = {
-            **sample,  # Include all original columns
-            "failure_summary": failure_summary
-        }
+        # Create result, excluding full_response and token counts to save space
+        exclude_cols = [f"{model_prefix}_full_response",
+                       f"{model_prefix}_prompt_tokens",
+                       f"{model_prefix}_output_tokens"]
+        result = {k: v for k, v in sample.items() if k not in exclude_cols}
+        result["failure_summary"] = failure_summary
         results.append(result)
 
     # Save results

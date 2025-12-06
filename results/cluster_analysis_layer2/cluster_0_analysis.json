@@ -1,0 +1,13 @@
+{
+  "cluster_label": 0,
+  "cluster_size": 2,
+  "cluster_summary": "Across these reasons, the model relies on a simplistic mapping from external events to “obvious” internal emotions and assumes those emotions directly determine the truth of subsequent statements. It prioritizes logical consistency at the surface level—e.g., winning implies happiness, public failure implies embarrassment—rather than tracking the narrative’s explicit cues about masking, conflicting feelings, or differences between inner states and outward presentations. In contrast, the human answers attend to perspective, context, and the text’s meta-information about what is said, what is felt, and what is displayed.",
+  "reasons": [
+    "The model likely focused on the surface facts (Li Hua’s team won first place and he personally won an award) and inferred that he must actually be happy, so his later claim “I am really sad” was judged false. It seems to have treated emotions as directly determined by external success and looked for logical consistency, assuming that contradicting an earlier “I am really happy” statement implies insincerity in the later one. In contrast, the human answer accounts for hidden feelings (e.g., pressure, unfairness, jealousy), so the model’s choice is less appropriate here.",
+    "The model likely focused on the obvious emotional reaction to falling in front of others—feeling humiliated—so it inferred that Zhao Bo must be embarrassed rather than analyzing what he outwardly projects. However, the passage explicitly states that he hides his real feelings because he worries they won’t be believed, and instead redirects attention to the cause of the mistake, signaling controlled composure. Thus, a careful reading supports the human answer that he appears confident while masking his embarrassment, showing the model’s choice focused on internal emotion rather than the described outward appearance."
+  ],
+  "original_indices": [
+    1091,
+    1918
+  ]
+}

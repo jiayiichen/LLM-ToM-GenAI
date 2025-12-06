@@ -1,0 +1,15 @@
+{
+  "cluster_label": 74,
+  "cluster_size": 3,
+  "cluster_summary": "Across these reasons, the model repeatedly privileges observable actions, social stereotypes, or external circumstances over the explicitly stated internal states and perspectives of the characters. It tends to equate “want” or “readiness” with what someone does or what others expect—e.g., presenting a project or turning off a light—rather than with the character’s own feelings of fear or reluctance. This pattern shows a consistent confusion between subjective mental states and objective facts, leading the model to misjudge whether statements are truthful or actions reveal genuine preferences.",
+  "reasons": [
+    "The model likely focused on a common social-psychology trope—that people, especially children, may hide fears to avoid seeming cowardly—so it chose B, assuming Xiao Lin turns off the light to protect his image. However, the story explicitly states that “everyone knows” he needs a nightlight, meaning his friend already knows he’s afraid of the dark, which weakens the face-saving explanation and instead supports a considerate motive. Thus, D fits the given context better, and the model’s choice is not the best-supported interpretation.",
+    "The story states that Xiao Ming is afraid to speak in front of everyone, so when he tells the teacher he doesn’t want to display his project and is not ready, his words match his internal state, making option A (“Yes”) correct. The model likely interpreted “ready” as an objective requirement—assuming that because his project was selected for the exhibition, he must in fact be ready or obliged to present, so his denial was treated as false. This confusion between subjective feelings and external circumstances led the model to choose B incorrectly.",
+    "The story states Xiao Lin is very afraid of the dark and always needs a nightlight, showing his true preference is to keep the light on. When his friend stays over, he turns it off, most plausibly from embarrassment or social pressure rather than an authentic desire to sleep in darkness. The model likely focused on his deliberate action and interpreted “want” as simply choosing to do something, ignoring the contrast between external behavior and inner fear, so its answer is incorrect."
+  ],
+  "original_indices": [
+    1136,
+    1191,
+    1670
+  ]
+}

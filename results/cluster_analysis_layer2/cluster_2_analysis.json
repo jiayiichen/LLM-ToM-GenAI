@@ -1,0 +1,13 @@
+{
+  "cluster_label": 2,
+  "cluster_size": 2,
+  "cluster_summary": "Across these reasons, the core pattern is how vague quantifiers like “most” and “almost no” are interpreted when mapping narrative descriptions to exact numbers. Human answers implicitly preserve a small, non‑zero remainder for the minority category (rice or Shandong dishes, and even other cuisines), so they pick distributions such as 35–5 that satisfy both the total and the verbal hedges. The model instead regularizes “almost no” to zero and neglects unmentioned categories, yielding 40‑style answers that align with a strict arithmetic reading but diverge from human pragmatic expectations while still being arguably defensible.",
+  "reasons": [
+    "The story states there are 50 lunches in total and Xiao Liu finds 10 are dumplings, so noodles plus rice must sum to 40. Xiao Li’s description “most are noodles” and “almost no rice” implies there should still be *some* rice, just a very small amount, so the only option that allows a few rice boxes while keeping noodles the majority is 35 noodles (with about 5 rice). The model chose 40 noodles, which implicitly assumes 0 rice and ignores the phrase “almost no rice,” so its choice is less consistent with the text.",
+    "The human answer of 35 likely assumes that, besides the 10 identified Cantonese dishes, there must still be a small but non‑zero number of Shandong dishes and possibly a few other cuisines, reducing the Sichuan count below 40. The model instead treated “almost no Shandong dishes” as effectively meaning zero and implicitly ignored other cuisine types, so it subtracted only the 10 Cantonese dishes from the total 50 and arrived at 40 Sichuan dishes. Given the vagueness of “most” and “almost no,” both estimations are logically defensible, so the model’s answer is also reasonable rather than clearly incorrect."
+  ],
+  "original_indices": [
+    165,
+    1923
+  ]
+}

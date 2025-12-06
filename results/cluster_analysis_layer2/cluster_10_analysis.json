@@ -1,0 +1,11 @@
+{
+  "cluster_label": 10,
+  "cluster_size": 1,
+  "cluster_summary": "Across this cluster, the model over-prioritizes surface pattern-matching (“like a pangolin”) to familiar, visually similar entities, instead of integrating the full narrative context. The reasons highlight that the stories usually contain explicit world constraints (e.g., Nimbus has only birds and flying insects), which humans use to eliminate impossible options and reinterpret metaphors in-context. Overall, the model’s Theory of Mind errors here stem less from misunderstanding mental states than from neglecting story-internal logic and availability constraints on what the characters could actually perceive or imitate.",
+  "reasons": [
+    "The model likely focused on the explicit comparison “like a pangolin,” then pattern-matched to the most similar animal in the options—a rolling armadillo, another armoured mammal known for curling into a ball—while ignoring the broader story context. However, the narrative clearly states Nimbus has no land animals and is home only to birds and flying insects, so Elio’s mimicry should be of a tumbling beetle, the only rolling-like behavior from a creature that plausibly exists there. Therefore, the human’s choice C fits the contextual logic better, and the model’s answer is incorrect."
+  ],
+  "original_indices": [
+    1310
+  ]
+}

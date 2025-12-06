@@ -1,0 +1,19 @@
+{
+  "cluster_label": 40,
+  "cluster_size": 5,
+  "cluster_summary": "Across these items, the model latches onto the most visually or lexically salient cue (card received, crush with someone else, work de‑emphasized, plan reused) and maps it to a straightforward emotion like happiness, jealousy, or betrayal. Human reasoning instead integrates background commitments, broken promises, loyalty expectations, and prosocial intentions, reinterpreting similar events as betrayal, regret, or gratitude. The gap reflects shallow, event-level pattern matching and weak use of implicit social contracts, plus limited sensitivity to ambiguity where multiple emotions are simultaneously reasonable.",
+  "reasons": [
+    "The model focused on the surface-positive event (receiving a birthday card from a long-uncontacted cousin) and thus inferred a straightforward warm reaction, choosing “Happy.” It ignored the crucial implication in the context: the cousin had explicitly said he would attend every one of Zhang Meng’s birthdays, but after going abroad he only sends a card, which frames the gesture as a broken promise rather than a purely joyful surprise. Because the narrative emphasizes this disappointed expectation, “Feeling betrayed” better matches the intended emotional inference, making the model’s choice incorrect.",
+    "The model likely focused on the salient social cue of Xiao Mei dining with the boy Xiao Hong likes, interpreting this as a sign of disloyalty, which naturally maps to a feeling of betrayal. The human answer instead emphasizes Xiao Hong’s possible self-blame and hindsight, imagining that she now regrets asking her close friend to intervene because it may have led to this uncomfortable situation. Since the vignette is ambiguous and does not confirm actual betrayal, both emotions are psychologically plausible, so the model’s choice is also reasonable.",
+    "The model likely focused on the mismatch between Xiao Zhang’s expectations of recognition and how his work was presented, which suggests a general feeling of disappointment rather than explicit betrayal. Since the story stresses that his contribution was minimized on the final poster, the model treated this mainly as an unmet outcome, guiding it toward option D. However, the human answer focuses on the trust Xiao Zhang placed in the organizers when he designed the poster for free, so feeling betrayed is also very plausible, and both C and D are reasonable interpretations.",
+    "The model likely focused on the surface romantic triangle: Liu Yu likes Chen Nan, so seeing her crush with someone else naturally evokes jealousy, leading it to choose D. The human answer A emphasizes a deeper layer of social knowledge—that Zhang Xiang is a close friend who *knows* Liu Yu’s feelings yet dates Chen Nan anyway—making “betrayed” a richer interpretation of interpersonal ethics. Both answers are psychologically plausible, so the model’s choice is understandable, but it misses the friendship-loyalty nuance the human prioritized.",
+    "The model likely focused on the phrases “uses his unpublished project plan” and “finds that his colleague…uses” as cues of unauthorized use and theft, which align with a feeling of betrayal. It underweighted the explanation that Zhao Yang’s intention is to help Wang Lei, who cannot enter the competition himself, and that this use lets more people see Wang’s plan, implying appreciation and happiness rather than harm. Given this framing, the human answer “Happy” best matches the stated motive, but the model’s choice “Feeling betrayed” is also a defensible reading of the scenario."
+  ],
+  "original_indices": [
+    613,
+    868,
+    934,
+    1758,
+    1908
+  ]
+}

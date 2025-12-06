@@ -1,0 +1,19 @@
+{
+  "cluster_label": 19,
+  "cluster_size": 5,
+  "cluster_summary": "Across these items, the model systematically defaults to a self-centered, ego‑focused interpretation of emotions, preferring options where the protagonist’s own actions, competitiveness, or agency provide a direct, intuitive cause of guilt, regret, or pride. It underweights textual and contextual constraints—such as explicit mentions of regret, the absence of a teaching relationship, puzzle‑style conventions, and moral framing—and instead follows loose emotional stereotypes or familiar narrative tropes. As a result, it often selects answers that feel narratively plausible in everyday reasoning but misalign with the narrower “test logic” governing Theory of Mind questions.",
+  "reasons": [
+    "The model focused on the emotional logic of “she should feel violated, but she appears very guilty,” and therefore looked for an option where Lin Ting had clearly done something blameworthy herself. Option D directly explains her guilt: she intentionally exposed her diary to be read by a boy, so feeling guilty about that choice is straightforward, whereas option C mainly explains that no violation occurred and only weakly implies guilt for having suspected her classmates. Both C and D can be read as reasonable interpretations, so the model’s alternative answer is also defensible.",
+    "The model likely reasoned that regret would stem from a perceived loss of uniqueness, so it chose option D, where Zhao Ting’s honor is shared with a main competitor and therefore feels diluted. This aligns with a competitive, ego-focused interpretation of emotions, where sharing the top award undermines the anticipated pride and can plausibly cause disappointment. However, in many reasoning puzzles the word “regret” more naturally refers to an external, pity-evoking circumstance such as a beloved mentor’s illness and absence, so C better matches typical test logic and the model’s answer is not the best explanation in this context.",
+    "The prompt contrasts an expected feeling of betrayal with the girl instead displaying regret, so the key is to pick an option that explicitly explains her guilt or self-blame. Option C directly states that Xiao Hong feels guilty about a conflict she caused and enlisted Xiao Mei to mediate, which naturally explains why, upon seeing them together, her dominant emotion is regret rather than betrayal. The model chose D because it focused on jealousy and curiosity about their conversation, but that option never involves regret, so the model’s choice is incorrect.",
+    "The model focused on the familiar idea of a teacher feeling proud of a pupil, so it chose A, where Li Ting recognizes Zhang Hua is using techniques she originally taught him. This interpretation emphasizes personal pride but is not grounded in the story, which never mentions a teaching relationship or explains why her judgment about the techniques themselves would change. Answer D more plausibly accounts for her shift from contempt to pride by revealing that the traditional methods she once dismissed are actually beneficial for garden growth, so the model’s choice is less consistent with the context.",
+    "Option D fits better: although Chen Ming once impulsively hurt Lin Qiang (an act he “should regret”), the later focus is on their long‑term positive support, so his pride comes from knowing his earlier encouragement contributed to the award. The model likely latched onto a direct cause‑and‑effect pattern, reasoning that if the harm somehow “helped” Lin Qiang succeed, then Chen Ming could feel proud of that outcome, and so chose A. This ignores the passage’s moral framing that pride should arise from constructive help rather than from injury, so the model’s choice is weaker and the human answer more convincing."
+  ],
+  "original_indices": [
+    409,
+    631,
+    906,
+    1428,
+    1805
+  ]
+}

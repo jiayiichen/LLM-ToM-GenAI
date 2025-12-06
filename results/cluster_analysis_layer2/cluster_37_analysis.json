@@ -1,0 +1,13 @@
+{
+  "cluster_label": 37,
+  "cluster_size": 2,
+  "cluster_summary": "Across both reasons, the model stumbles on translating vague quantifiers (“most,” “vast majority,” “small part,” “almost none/no one”) into concrete numbers, consistently assigning relatively large sizes to groups that should be tiny. It performs a kind of over-literal proportional mapping from words to quantities, instead of using the story’s internal constraints (like the explicitly stated “small part” or total count) to anchor one number and infer the others pragmatically. As a result, its answers are mathematically coherent but misaligned with the narrative’s intended emphasis and human conversational norms.",
+  "reasons": [
+    "The model likely over-interpreted the vague quantifier “most” as “almost all” and took “almost none do not contain both” to mean that virtually every dessert without matcha must contain chocolate, so with 5 matcha desserts it inferred that the remaining 25 are chocolate desserts, leading to option B. The human answer implicitly quantifies “almost none” as a small exact number (e.g., 2 desserts with neither ingredient), so with 5 matcha desserts, 30 − 5 − 2 = 23 chocolate desserts, giving option C. Because the language in the story is imprecise, both B and C are logically defensible under different reasonable interpretations, so the model’s answer is not strictly wrong but mismatched to the intended reading.",
+    "The story is qualitative, so the model had to translate vague terms like “vast majority,” “small part,” and “almost no one” into numbers, and it apparently treated “almost no one” as roughly five students, leaving 25 out of 35 for basketball. A more precise reading is that the counselor’s investigation fixes the “small part” as 5 badminton players, and “almost no one” should then be very close to zero, so nearly all of the remaining 30 students play basketball, matching 28 best. Thus the model’s answer is less consistent with the narrative proportions than the human’s."
+  ],
+  "original_indices": [
+    1182,
+    1312
+  ]
+}

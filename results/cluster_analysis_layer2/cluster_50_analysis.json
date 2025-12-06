@@ -1,0 +1,11 @@
+{
+  "cluster_label": 50,
+  "cluster_size": 1,
+  "cluster_summary": "Across this cluster, the model over-relies on prototypical associations with salient events and ignores more diagnostic, later-arriving cues about the agent’s actual mental state. Here, the phrase “wins a five million lottery” triggers a default mapping to happiness, so the system selects “Joy” instead of integrating the subsequent clause that explicitly encodes apprehension and life-disruption concerns. This pattern reflects shallow, keyword-driven interpretation and weak pragmatic reasoning about which information should be prioritized, leading the model to privilege stereotyped emotional responses rather than the text’s explicitly described, contextually appropriate emotion.",
+  "reasons": [
+    "The model likely focused on the salient event “just wins a five million lottery,” which is typically associated with happiness, so it chose “Joy” as the most intuitive emotional label. However, the key sentence “she thinks that so much money changes and affects her normal life” signals worry and apprehension about negative impacts, which aligns more directly with “Fear” than with simple happiness. While one could argue that joy at winning is plausible in the background, the explicit described emotion is concern, so the model’s choice is less accurate than the human answer."
+  ],
+  "original_indices": [
+    1943
+  ]
+}

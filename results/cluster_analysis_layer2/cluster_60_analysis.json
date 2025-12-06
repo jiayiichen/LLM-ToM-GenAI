@@ -1,0 +1,17 @@
+{
+  "cluster_label": 60,
+  "cluster_size": 4,
+  "cluster_summary": "Across these reasons, discrepancies stem from ambiguous emotional cues where both the model and humans choose different but psychologically plausible emotions. The model tends to either track explicit lexical markers in the text (e.g., \"very sad\") or infer salient internal states like fear/anxiety about being exposed or restricted, whereas human answers more often align with task-specific framing (e.g., outward appearance, “real feelings”) and default to sadness/disappointment. Overall, divergences reflect shifts between literal wording vs. contextual inference and internal experience vs. external presentation, not outright misunderstanding.",
+  "reasons": [
+    "The model likely focused on Ruru’s internal emotional state: she made a mistake while everyone else did well, so it inferred she would feel disappointed or “Sad,” prioritizing her probable feelings over the wording about appearances. However, the question asks how she *appears* and explicitly states she “tries to pretend her speech is as good as theirs,” indicating her outward presentation rather than her true feelings. Thus, the human answer “Happy” fits the narrative better, and the model’s choice “Sad” is not the best interpretation of the prompt.",
+    "The model likely focused on Zhou Yu’s internal conflict and fear of being stopped from going out, inferring that he feels *anxious* about hiding his stomachache and possibly being found out, which naturally points to option D. The human answer instead interprets “real feelings” as his true negative emotional state caused by pain and restriction, mapping physical discomfort and disappointment to *sadness* (option C), which is also a reasonable reading. Both emotional inferences are plausible, so both answers can be considered valid and the model’s choice is also correct.",
+    "The model likely focused on Ruru’s act of “pretending” her speech was as good as others’, inferring she is **afraid** of others discovering her mistake or judging her negatively, hence choosing D. A human reader, however, may prioritize the emotional impact of making a mistake while everyone else performs well, interpreting her inner state as **sadness**, disappointment, or shame, thus selecting B. Both emotions are plausible in this scenario, so both the human answer (sad) and the model’s answer (afraid) can be considered reasonable interpretations.",
+    "The model likely focused on the explicit phrase “which makes her very sad,” so it chose option D, directly matching the stated emotion instead of inferring more nuanced feelings. The human answer B, “worried,” reflects an interpretation of Chen Yue’s fear that Li Ming may not have special feelings for her, emphasizing anticipatory anxiety rather than the stated sadness. Both answers are psychologically reasonable, but since the text literally labels her emotion as sadness, the model’s choice is also correct and better aligned with the passage’s wording."
+  ],
+  "original_indices": [
+    26,
+    567,
+    600,
+    1950
+  ]
+}

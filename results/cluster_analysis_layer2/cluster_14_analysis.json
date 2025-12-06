@@ -1,0 +1,19 @@
+{
+  "cluster_label": 14,
+  "cluster_size": 5,
+  "cluster_summary": "Across the cluster, disagreements stem from mismatches between the model’s interpretive standard and the exam’s intended but unstated assumptions about background knowledge, conversational continuity, and what counts as “knowing.” Sometimes the model adheres to a narrow, text-only or fine-grained notion of knowledge while humans use broader pragmatic inferences, and other times the model over-extends pragmatic conventions and ignores later disambiguating cues. Overall, these items exploit ambiguous wording and incomplete textual evidence, so multiple answers remain defensible, and the model’s responses often reflect a consistent yet mismatched reasoning policy.",
+  "reasons": [
+    "The passage given contains no mention of Xiao Li’s father or his illness, so the model, reasoning only from explicit text, inferred that Xiao Gang “does not know,” treating absence of evidence as evidence of absence. The human answer “knows” almost certainly relies on information or context outside this excerpt (e.g., earlier narrative segments) or on the exam’s implicit assumption that the reader already knows about the father’s illness, so the model lacked crucial background. Under the excerpt alone, both A and B are speculative, so the model’s answer is also logically defensible.",
+    "The model focused on strict textual evidence: the story never explicitly states that Xiao Jie heard Xiao Li say she only finished half the exam or saw her score, so it concluded he “does not know.” A human reader, however, typically assumes conversational continuity: Xiao Jie “walks over” during their discussion, responds directly to the topic of the exam’s difficulty, and thus plausibly hears enough to know Xiao Li did poorly. Under a commonsense, pragmatic reading A is expected, but under a literal-entailment standard B is also a defensible answer.",
+    "The disagreement arises from different interpretations of what it means to “know what they are discussing.” The human answer treats Xiao Zhang as knowing because she is explicitly told that the manager and Xiao Chen are discussing company issues and, later, the company’s predicament, which satisfies a coarse-grained notion of knowing the topic. The model likely applied a stricter standard, assuming that without detailed, specific content of the conversation, Xiao Zhang “does not know,” so under that narrower interpretation both answers can be seen as reasonable, and the model’s choice is also defensible.",
+    "The model likely treated Li Ming’s “How come you’re here?” as a conventional, polite expression of surprise that people say even when they already know someone might be there, so it inferred he was just pretending (option B). However, Xiao Hong’s reply—“Didn’t you ask me last week which city I was going to?”—functions as a reminder, strongly implying Li Ming had indeed forgotten the city she mentioned, aligning with option A. Thus the model’s choice overlooks this pragmatic cue, making its interpretation less consistent with the story’s intended inference.",
+    "Different assumptions about Xiao Lei’s background knowledge led to the disagreement. The model inferred that because Xiao Lei is physically present at the annual meeting, overhears Xiao Gao praising “this speaker” as his prize, and then immediately comments on “this speaker” and “our company’s” prizes, he must understand it is the prize Xiao Gao received, so it chose A. A human might adopt a stricter, text-only standard, judging that the story never explicitly states Xiao Lei’s awareness of ownership and therefore answering B, so both interpretations are defensible and the model’s answer is also reasonable."
+  ],
+  "original_indices": [
+    486,
+    1381,
+    1411,
+    1473,
+    1887
+  ]
+}

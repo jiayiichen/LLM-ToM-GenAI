@@ -1,0 +1,19 @@
+{
+  "cluster_label": 24,
+  "cluster_size": 5,
+  "cluster_summary": "Across these items, the model repeatedly prioritizes inferred internal emotions or moral evaluations over the question’s explicit focus on outward appearance or surface behavior. It overweights cues about potential unfairness, guilt, or worry and underweights textual signals about concealment, rewards, or pragmatic self-presentation to others. As a result, it systematically selects emotions like “happy,” “annoyed,” or “guilty” that fit a rich backstory it constructs, while human answers like “calm,” “happy,” or “angry” better track the narrative’s stated perspective and question wording.",
+  "reasons": [
+    "The model likely focused on the obvious emotional consequence of receiving unanimous praise—feeling pleased—so it inferred that Yuanyuan appears “Happy.” However, the story explicitly states that she tries to hide her real feelings so her friends will not become jealous, implying her outward appearance is restrained rather than visibly joyful. Because the question asks how she appears, not what she actually feels, “Calm” best reflects her external presentation, so the model’s answer is not appropriate to the specific wording of the scenario.",
+    "The model likely focused on sibling rivalry and perceived unfairness, inferring Nana would be annoyed at either her brother’s complaints or her mother’s instruction not to reveal the privilege. However, the question asks how she appears \"on the surface,\" which in this type of story usually means the expression she adopts to hide the secret from her brother, making \"calm\" a better fit. Because the narrative emphasizes concealment rather than resentment, the model’s choice is less appropriate than the human answer.",
+    "The model likely focused on Lili’s internal emotional state, inferring that she would feel anxious that her younger brother might discover the secret outing and lose his needed nap, so it chose “worried.” However, the question asks how Lili “appears,” pointing to her outward behavior or expression, and in order not to arouse her brother’s curiosity she would probably try to look neutral and composed rather than visibly concerned. Thus the human choice “calm” better matches the pragmatic, appearance-focused interpretation of the scenario, making the model’s answer less appropriate.",
+    "The model likely focused on the restriction and perceived unfairness toward the little brother, inferring that Nana might feel annoyed at having to hide the privilege instead of simply enjoying it. However, the narrative explicitly frames staying up late as a reward for helping her mother, with no cues that Nana resents the secrecy or prioritizes fairness over the happiness of getting special TV time. Thus the human answer of “Happy” best matches the intended emotional inference, and the model’s choice of “Annoyed” reflects an overemphasis on moral fairness reasoning rather than on the child’s likely emotional reaction.",
+    "The model likely focused on the sentence “Yangyang tries to hide her feelings” and inferred that people typically hide guilt, leading it to choose “Guilty.” However, the narrative shows Yangyang is retaliating because her sister first took her favorite toy; hiding her feelings “otherwise her sister gets angry at her” suggests she’s concealing satisfaction or anger at having secretly taken revenge, not remorse. Thus, the human answer “Angry” better matches the story’s motive and emotional logic, and the model’s choice is not well supported."
+  ],
+  "original_indices": [
+    380,
+    772,
+    1383,
+    1404,
+    1883
+  ]
+}

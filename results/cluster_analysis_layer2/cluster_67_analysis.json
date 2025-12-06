@@ -1,0 +1,15 @@
+{
+  "cluster_label": 67,
+  "cluster_size": 3,
+  "cluster_summary": "Across these reasons, the model repeatedly overweights local keywords that echo the question’s target emotion (“surprised,” “disgusted”) or expectation violation, while neglecting how the broader story frames the character’s actual feelings. It treats emotions as coarse positive/negative or generic “surprise,” failing to distinguish disappointment from pleasant astonishment, irritation from moral disgust, or surprise grounded in role reversal versus stylistic similarity. More generally, it performs shallow pattern-matching instead of integrating narrative context, social roles, and twists that reframe initial attitudes like envy or curiosity.",
+  "reasons": [
+    "The story describes Lina as “excited,” so the emotional tone is clearly positive, which matches option D’s “revolutionary technology…exceeding her expectations,” not option B’s “surprised and disappointed.” The model likely focused narrowly on the phrase “completely different from what Lina expects” in B, treating any strong mismatch with expectations as a generic trigger for surprise, while overlooking the extra qualifier “disappointed,” which conflicts with the context. Thus, the model’s choice is incorrect because it misread the emotional nuance and ignored the explicit positive mood.",
+    "The key contrast is between expected envy and actual surprise, which is best explained if Zhao Tao discovers a role reversal where the admired painter is actually his fan, as in option C. Option B focuses on stylistic similarity and even near-duplicate scenes, which more naturally evokes suspicion, confusion, or possible plagiarism concerns rather than cleanly replacing envy with surprise. The model likely fixated on the phrase “surprisingly similar” and interpreted it as directly justifying “surprise,” overlooking that C more directly and strongly explains the emotional shift described.",
+    "The model likely focused narrowly on a surface emotional link between “unpleasant comments” (option B) and “disgust,” treating disgust as general negative emotion rather than distinguishing it from irritation or hurt. It seems not to have integrated the broader narrative cues: Lina is a foreign traveler, and discovering that vendors “shortchange and deceive foreign tourists” (option C) more naturally evokes moral disgust and a sense of injustice, fitting the twist that she “should be curious” but isn’t. Thus the model’s choice is weaker contextually and emotionally, making C the better-supported answer."
+  ],
+  "original_indices": [
+    764,
+    1057,
+    1738
+  ]
+}

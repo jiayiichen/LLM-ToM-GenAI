@@ -1,0 +1,19 @@
+{
+  "cluster_label": 61,
+  "cluster_size": 5,
+  "cluster_summary": "Across these cases, the model over-relies on salient, explicitly stated similes or metaphors and treats them as literal answers, engaging in shallow phrase-matching rather than deeper reasoning. It systematically ignores world-building constraints about what entities exist in the story worlds and what the characters have perceptual access to, so it attributes imitations to leaves, dough, eagles, trees, and flowers that the characters cannot possibly have encountered. This reflects a broader failure to integrate background constraints and character knowledge into its interpretation, undermining the intended Theory of Mind inference.",
+  "reasons": [
+    "The model focused on the explicit simile in the narrative—“spins quickly, just like a leaf…sweeps it away”—and matched that almost verbatim to option A, “A leaf swept away by the whirlwind.” It neglected the crucial world-building detail that Aeria has no plants and Breezo “knows nothing about them,” which makes it implausible that Breezo could intentionally imitate a leaf. Using only surface similarity instead of integrating background constraints, the model missed that B, “A kite losing balance,” better fits Breezo’s experiences and the village’s kite-filled setting.",
+    "The model likely focused on the surface description of Plix’s arm movement, which was explicitly compared to \"rolling dough\" or \"a potter shaping clay,\" so it chose option A as the closest match to that visual motion. However, the story carefully states that Plix has no exposure to plants, food, or analogous human crafts, while explicitly emphasizing rolling spherical stones in its environment. Therefore the more context-sensitive inference is that Plix is imitating the motion of stones rolling down slopes, making the human answer more consistent with the narrative constraints and the intended reasoning test.",
+    "The model focused on the most salient explicit cue: the narration says Blix’s motion “reminds people of the soaring flight of an eagle,” so it pattern-matched directly to option B. However, the story also clearly states that Skyhaven has no birds or flying animals and that Blix “never understands or encounters them,” implying it cannot realistically be imitating an eagle it has never seen. Thus, the human answer A better respects the world-building constraint, and the model’s choice is incorrect because it ignored this key contextual limitation.",
+    "The model focused on the surface description that the motion was “similar to the swaying of tree branches,” so it matched this phrase directly to option A without considering the story’s constraints. It failed to integrate the key contextual fact that Silvatica has no trees and Plix “knows nothing about any plants,” which makes imitation of a tree implausible and instead favors an artificial structure like a crane. Thus, the model’s answer is incorrect, and D is better supported because it respects Plix’s limited experiences.",
+    "The model likely focused on the vivid phrase “looking like the opening and closing of petals under the sun,” triggering a surface association with flowers and leading it to choose option A. However, the story explicitly states that Orbis has no plants and Blinka “knows nothing about plants,” while the city is full of neon lights, making it implausible that Blinka is intentionally mimicking a flower and more consistent that it mimics flickering neon lights. Thus, the model’s choice is incorrect because it ignored key world-building constraints and relied on shallow pattern matching."
+  ],
+  "original_indices": [
+    38,
+    340,
+    741,
+    1460,
+    1516
+  ]
+}

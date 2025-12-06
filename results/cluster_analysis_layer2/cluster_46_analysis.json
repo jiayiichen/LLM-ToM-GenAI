@@ -1,0 +1,11 @@
+{
+  "cluster_label": 46,
+  "cluster_size": 1,
+  "cluster_summary": "Across this cluster, the model fails to recognize that speakers often use figurative or non-literal language to convey attitudes rather than factual claims. It over-emphasizes the absence of concrete, verifiable information and therefore defaults to “cannot be determined” instead of inferring the intended meaning from pragmatic cues and common-sense social reasoning. In other words, these errors reflect a broader pattern: the system treats utterances as objective reports about the world, rather than as contextual expressions of beliefs, emotions, or perspectives.",
+  "reasons": [
+    "The story uses an obvious metaphor: Old Zhang compares his family to “a ship full of holes” to express worry, not to make a literal, verifiable statement about an actual ship, so the intended logical answer is that what he says is not literally true (B). The model likely fixated on the lack of objective information about the family's exact situation and treated the statement as indeterminate, choosing a “nan / cannot be evaluated” style option. Because the question tests recognition of figurative language, the model’s choice is ultimately incorrect."
+  ],
+  "original_indices": [
+    1893
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cluster_label": 6,
+  "cluster_size": 4,
+  "cluster_summary": "Across these items, the model relies on generic, decontextualized heuristics—like favoring “win‑win” cooperation, enforcing stated rules, and checking for logical consistency—rather than inferring implicit priorities, power hierarchies, or scarce resources. In all cases, it interprets key evaluative terms (especially “inappropriate”) in a narrow, literal way focused on explicit rudeness or contradiction, while humans apply broader, culturally grounded norms about tact, fairness, and morale. Thus the disagreement stems less from misunderstanding the scenario than from different pragmatic frames, making the model’s choices partly defensible.",
+  "reasons": [
+    "The model applied a generic conflict‑resolution heuristic favoring cooperative “win‑win” solutions, so it chose option C, where both parties search for a spare projector and no one must change their meeting time. In contrast, the story stresses that Zhang Tao, as manager, has an official business need for the projector that specific day, while Li Xiao only has a general meeting requirement. Therefore B better matches the intended constraint—persuading the subordinate to adjust his schedule to accommodate higher‑priority work—whereas C incorrectly assumes additional equipment and sidesteps the prioritization trade‑off the question is testing.",
+    "The model likely followed a literal, surface-level reading: Manager Zhang praises Li’s technical depth and then offers critique about the market analysis, which looks like normal, constructive workplace feedback, so it judged that no obviously rude or taboo wording occurs and chose B. The human answer instead relies on pragmatic and cultural nuance: publicly singling out Li’s weakness in another area right after praise can be seen as undermining or tactless, thus “inappropriate.” Both interpretations are defensible, so in this case the model’s answer is also reasonable.",
+    "The model likely interpreted Manager Zhang’s announcement as a standard merit-based management decision, seeing no overt rudeness, insults, or rule-breaking, so it concluded that no one said anything inappropriate and selected B. The human answer, however, treats Zhang’s public promise to reward only “high-performance employees” with privileged seats as socially insensitive, because it implicitly devalues ordinary staff like Li Gong and can be read as discriminatory or demotivating. Given these different norms about what counts as “inappropriate,” both interpretations are defensible and the model’s choice is also reasonable.",
+    "The model likely prioritized internal logical consistency: once the manager states that window seats are allocated strictly by performance, claiming he arranged seating “as much as possible according to everyone’s preferences” (C) appears self-contradictory or deceptively phrased. The human answer instead treats “inappropriate” as socially or emotionally insensitive, viewing sentence B as problematic because openly favoring “high-performance employees” for coveted seats can undermine fairness and morale. Under these two different interpretations of “inappropriate” (logical vs. interpersonal), both B and C are reasonable targets, so the model’s choice is also defensible."
+  ],
+  "original_indices": [
+    140,
+    845,
+    924,
+    1940
+  ]
+}

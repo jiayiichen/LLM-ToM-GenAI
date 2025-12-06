@@ -17,7 +17,7 @@ from vllm import LLM, SamplingParams
 from tqdm import tqdm
 
 # Configuration
-PROMPT_FILE = os.path.join(os.path.dirname(__file__), "prompt.txt")
+PROMPT_FILE = os.path.join(os.path.dirname(__file__), "prompt-noCoT.txt")
 
 
 def load_prompt(prompt_file):
@@ -36,7 +36,7 @@ def parse_response(response_text):
     """Parse response to extract reasoning and final answer"""
     # Extract all answer occurrences (e.g., [[A]], [[B]], etc.) and take the LAST one
     answer_matches = re.findall(r'\[\[([A-D])\]\]', response_text)
-    answer = answer_matches[-1] if answer_matches else ''
+    answer = answer_matches[0] if answer_matches else ''
 
     # Extract reasoning (everything before the last answer)
     if answer_matches:
@@ -62,8 +62,8 @@ def main():
                        default='results/vllm',
                        help='Output directory (default: results/vllm)')
     parser.add_argument('--model',
-                       default='Qwen/Qwen3-8B',
-                       help='Model name or path (default: Qwen/Qwen3-8B)')
+                       default='Qwen/Qwen2.5-7B-Instruct',
+                       help='Model name or path (default: Qwen/Qwen2.5-7B-Instruct)')
     parser.add_argument('--tensor-parallel-size',
                        type=int,
                        default=1,
@@ -97,20 +97,20 @@ def main():
         tensor_parallel_size=args.tensor_parallel_size,
         trust_remote_code=True,
         max_model_len=4096,
-        gpu_memory_utilization=0.85  # Use 85% instead of 90% to avoid OOM
+        gpu_memory_utilization=0.75  # Reduced to 75% due to existing GPU usage
     )
 
     # Sampling parameters
     sampling_params = SamplingParams(
         temperature=0.0,
         top_p=1.0,
-        max_tokens=2048
+        max_tokens=20
     )
 
     print(f"✓ Model loaded successfully\n")
 
     # Determine model name for output filename
-    model_name = args.model.split('/')[-1].lower().replace('-', '_').replace('.', '_')
+    model_name = args.model.split('/')[-1].lower().replace('-', '_').replace('.', '_') + "_noCoT"
     input_basename = os.path.splitext(os.path.basename(args.input))[0]
 
     # Setup output directory and filename
@@ -127,7 +127,6 @@ def main():
     base_columns = ['index', 'STORY', 'QUESTION', 'OPTION-A', 'OPTION-B',
                     'OPTION-C', 'OPTION-D', 'ANSWER', 'SOURCE_FILE']
     model_columns = [f"{model_name}_full_response",
-                    f"{model_name}_reasoning",
                     f"{model_name}_response",
                     f"{model_name}_truncation",
                     f"{model_name}_prompt_tokens",
@@ -183,7 +182,6 @@ def main():
             "ANSWER": sample.get('ANSWER', ''),
             "SOURCE_FILE": sample.get('TASK', ''),
             f"{model_name}_full_response": response_text,
-            f"{model_name}_reasoning": reasoning,
             f"{model_name}_response": answer,
             f"{model_name}_truncation": is_truncated,
             f"{model_name}_prompt_tokens": prompt_tokens,
@@ -192,11 +190,10 @@ def main():
 
         results.append(result)
 
-    # Save final results as JSON and CSV
-    json_output = output_path.replace('.csv', '.json')
-
-    with open(json_output, 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+    # Save final results as CSV only
+    # json_output = output_path.replace('.csv', '.json')
+    # with open(json_output, 'w', encoding='utf-8') as f:
+    #     json.dump(results, f, indent=2, ensure_ascii=False)
 
     with open(output_path, 'w', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -204,7 +201,6 @@ def main():
         writer.writerows(results)
 
     print(f"\n✓ Results saved:")
-    print(f"  - JSON: {json_output}")
     print(f"  - CSV:  {output_path}")
     print(f"✓ Total samples processed: {len(results)}")
 
