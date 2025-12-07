@@ -1,0 +1,411 @@
+{
+  "layer3_cluster_label": 5,
+  "layer3_cluster_summary": "Across the cluster, the model applies a rigid, literal, text-bound standard for knowledge, emotion, and belief, demanding explicit evidence or over-generalizing any stated fact, while human annotators lean on pragmatic, cultural, and narrative background assumptions. It underweights timing, perspective, figurative language, task framing, and diagnostic later cues, instead privileging narrator omniscience, generic rules, salient keywords, and stereotyped emotional or moral responses, often retreating to “cannot be determined.” Thus disagreements are usually not logical errors but policy mismatches: locally coherent, risk-averse readings versus socially attuned, exam-normative interpretations.",
+  "layer3_cluster_size": 8,
+  "total_original_items": 49,
+  "all_original_indices": [
+    24,
+    65,
+    167,
+    202,
+    247,
+    283,
+    463,
+    486,
+    541,
+    619,
+    622,
+    692,
+    712,
+    735,
+    787,
+    808,
+    843,
+    859,
+    880,
+    902,
+    926,
+    929,
+    946,
+    972,
+    997,
+    1024,
+    1028,
+    1064,
+    1150,
+    1266,
+    1308,
+    1329,
+    1381,
+    1411,
+    1418,
+    1457,
+    1468,
+    1473,
+    1497,
+    1499,
+    1570,
+    1757,
+    1766,
+    1769,
+    1887,
+    1893,
+    1896,
+    1943,
+    1947
+  ],
+  "all_current_indices": [
+    7,
+    21,
+    59,
+    67,
+    79,
+    88,
+    142,
+    147,
+    162,
+    187,
+    189,
+    206,
+    211,
+    217,
+    238,
+    245,
+    259,
+    263,
+    272,
+    284,
+    291,
+    293,
+    301,
+    309,
+    319,
+    327,
+    330,
+    343,
+    373,
+    409,
+    420,
+    431,
+    448,
+    458,
+    461,
+    471,
+    475,
+    476,
+    481,
+    483,
+    508,
+    561,
+    565,
+    567,
+    605,
+    607,
+    609,
+    628,
+    630
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 14,
+      "layer2_cluster_summary": "Across the cluster, disagreements stem from mismatches between the model’s interpretive standard and the exam’s intended but unstated assumptions about background knowledge, conversational continuity, and what counts as “knowing.” Sometimes the model adheres to a narrow, text-only or fine-grained notion of knowledge while humans use broader pragmatic inferences, and other times the model over-extends pragmatic conventions and ignores later disambiguating cues. Overall, these items exploit ambiguous wording and incomplete textual evidence, so multiple answers remain defensible, and the model’s responses often reflect a consistent yet mismatched reasoning policy.",
+      "layer2_cluster_size": 5,
+      "original_items": [
+        {
+          "original_index": 486,
+          "current_index": 147,
+          "failed_summary": "The passage given contains no mention of Xiao Li’s father or his illness, so the model, reasoning only from explicit text, inferred that Xiao Gang “does not know,” treating absence of evidence as evidence of absence. The human answer “knows” almost certainly relies on information or context outside this excerpt (e.g., earlier narrative segments) or on the exam’s implicit assumption that the reader already knows about the father’s illness, so the model lacked crucial background. Under the excerpt alone, both A and B are speculative, so the model’s answer is also logically defensible."
+        },
+        {
+          "original_index": 1381,
+          "current_index": 448,
+          "failed_summary": "The model focused on strict textual evidence: the story never explicitly states that Xiao Jie heard Xiao Li say she only finished half the exam or saw her score, so it concluded he “does not know.” A human reader, however, typically assumes conversational continuity: Xiao Jie “walks over” during their discussion, responds directly to the topic of the exam’s difficulty, and thus plausibly hears enough to know Xiao Li did poorly. Under a commonsense, pragmatic reading A is expected, but under a literal-entailment standard B is also a defensible answer."
+        },
+        {
+          "original_index": 1411,
+          "current_index": 458,
+          "failed_summary": "The disagreement arises from different interpretations of what it means to “know what they are discussing.” The human answer treats Xiao Zhang as knowing because she is explicitly told that the manager and Xiao Chen are discussing company issues and, later, the company’s predicament, which satisfies a coarse-grained notion of knowing the topic. The model likely applied a stricter standard, assuming that without detailed, specific content of the conversation, Xiao Zhang “does not know,” so under that narrower interpretation both answers can be seen as reasonable, and the model’s choice is also defensible."
+        },
+        {
+          "original_index": 1473,
+          "current_index": 476,
+          "failed_summary": "The model likely treated Li Ming’s “How come you’re here?” as a conventional, polite expression of surprise that people say even when they already know someone might be there, so it inferred he was just pretending (option B). However, Xiao Hong’s reply—“Didn’t you ask me last week which city I was going to?”—functions as a reminder, strongly implying Li Ming had indeed forgotten the city she mentioned, aligning with option A. Thus the model’s choice overlooks this pragmatic cue, making its interpretation less consistent with the story’s intended inference."
+        },
+        {
+          "original_index": 1887,
+          "current_index": 605,
+          "failed_summary": "Different assumptions about Xiao Lei’s background knowledge led to the disagreement. The model inferred that because Xiao Lei is physically present at the annual meeting, overhears Xiao Gao praising “this speaker” as his prize, and then immediately comments on “this speaker” and “our company’s” prizes, he must understand it is the prize Xiao Gao received, so it chose A. A human might adopt a stricter, text-only standard, judging that the story never explicitly states Xiao Lei’s awareness of ownership and therefore answering B, so both interpretations are defensible and the model’s answer is also reasonable."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 17,
+      "layer2_cluster_summary": "Across these reasons, the model consistently privileges strictly literal, explicitly stated information in the stories, especially around whether a character was directly told or saw something. Human annotators instead import rich pragmatic and social knowledge—norms about friends knowing breakups, colleagues inferring non‑promotion, neighbors recognizing retirement, or classmates hearing about birthday gifts—to treat implicitly suggested facts as “known.” Thus the disagreements center less on faulty logic than on different thresholds for attributing knowledge: the model demands textual evidence, while humans license broader, culturally grounded mind‑reading.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 622,
+          "current_index": 189,
+          "failed_summary": "The model based its answer purely on the literal content of the story, which never mentions a breakup, so it inferred that Xiao Chen does not know about something not described. In contrast, the human answer assumes extra social context: because everyone thoughtfully prepared a surprise party and gifts, they must be aware of Xiao Zhao’s recent emotional situation, including the breakup. Given that the breakup is never explicitly referenced, the model’s answer is logically consistent, but the dataset’s human answer reflects an intended implicit assumption, so both interpretations can be considered reasonable."
+        },
+        {
+          "original_index": 692,
+          "current_index": 206,
+          "failed_summary": "The model likely focused on the literal wording of the story, noting that it only explicitly states the manager is promoted and never directly mentions Xiao Wang’s promotion status. From that perspective, the model concludes Xiao Liu cannot be said to “know” that Xiao Wang is not promoted, because the text provides no explicit evidence of Xiao Liu’s belief or knowledge about others’ promotions. The human answer instead relies on pragmatic, real‑world inference that if only the manager’s promotion is announced, colleagues know they themselves were not promoted, so both answers are defensible."
+        },
+        {
+          "original_index": 787,
+          "current_index": 238,
+          "failed_summary": "The model likely focused on explicit information in the story: Lili is described as eating vegetables and bean paste and caring about healthy eating, but the text never mentions the word “vegan” or any decision to become vegan. Since there is also no statement that Yiran knows of such a decision, the model inferred that Yiran does not know, treating “trying vegan” as unwarranted extra information. The human answer assumes that healthy, plant-based choices plus Yiran’s encouragement imply a vegan decision he knows about, but this goes beyond what the passage states."
+        },
+        {
+          "original_index": 902,
+          "current_index": 284,
+          "failed_summary": "It likely reasoned strictly from the dialogue, where Xiao Zhao only asks why Xiao Wang missed the party and offers support for his bad mood, but never explicitly mentions a breakup, so it inferred “does not know.” The human answer probably treated the narrator’s first sentence, “Xiao Wang breaks up last weekend,” as implying that close friends like Xiao Zhao would obviously know this important event, so “knows” feels natural. Because the text never states what Xiao Zhao was told, both interpretations are defensible and the model’s more conservative choice is also reasonable."
+        },
+        {
+          "original_index": 1468,
+          "current_index": 475,
+          "failed_summary": "The model likely focused strictly on explicit information in the passage: the text never states that Uncle Liu is retired, nor does it clearly describe retirement-related behavior, so it concluded Li Na “does not know.” The human answer probably relies on cultural or pragmatic inference—“Uncle” as an older neighbor casually playing Sudoku in the morning may suggest a retiree whose status Li Na, as a neighbor, would reasonably know. Both perspectives are defensible: the model’s caution about unspoken mental states is logically consistent, while the human’s inference uses broader real‑world knowledge."
+        },
+        {
+          "original_index": 1757,
+          "current_index": 561,
+          "failed_summary": "The model likely focused on explicit information, noticing that the passage never states Xiao Jing was told about Xiao Long’s strong wish to win, so it assumed she “does not know” his internal motivation. In contrast, the human answer assumes pragmatic, social inference: Xiao Jing’s enthusiastic praise and encouragement imply awareness that winning matters a lot to Xiao Long, so “knows” is seen as the more natural interpretation. Both answers are defensible—one prioritizes strict textual evidence, while the other relies on reasonable but implicit social and motivational inference."
+        },
+        {
+          "original_index": 1766,
+          "current_index": 565,
+          "failed_summary": "The model likely focused strictly on what is explicitly stated in the story: while the narrator tells us the airplane was a birthday gift, Xiaolong is never described as telling Xiaohu that specific fact. From this perspective, the safest literal answer is that Xiaohu does not know, because we cannot infer his knowledge state beyond his comments about the airplane’s design and color. A human reader might assume that when a child brings a new toy after a birthday, classmates are told it was a birthday present, so both answers are plausible and the model’s choice is defensible."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 22,
+      "layer2_cluster_summary": "Across this cluster, the model tends to overweight literal surface wording, narrator omniscience, and generic statements, while underweighting story conventions, real‑world constraints, and character‑specific perspectives. Many errors come from misalignments about what counts as “knowing”: the model often demands direct evidence or, conversely, treats any mentioned fact as universally known, whereas the human answers rely on pragmatic implicature, default trust in testimony, and task norms about strict epistemic access. Several cases also hinge on timing and scope misunderstandings—whether knowledge is evaluated before or after a disclosure, and whether in‑story realism overrides in‑game or fictional framing.",
+      "layer2_cluster_size": 13,
+      "original_items": [
+        {
+          "original_index": 247,
+          "current_index": 79,
+          "failed_summary": "The model likely treated the narrative at face value and assumed Xiao Zhang’s statement “I return it” accurately reports his action, because the text never explicitly says that he did *not* return the book. It missed the pragmatic inference that, since he was reading in the park until dark and then “rushed home in a hurry” after his sister’s call, there was no time or mention of stopping by the library, so his claim is probably false. Therefore, the model’s choice is incorrect and the human answer better matches the story’s implied logic."
+        },
+        {
+          "original_index": 283,
+          "current_index": 88,
+          "failed_summary": "The discrepancy arises from differing interpretations of the story's intent and realism. The human answer treats Zhao Lili's statement literally, recognizing that magic is fictional and that, although she is acting seriously in a role‑playing game, she is not actually proficient in real magic, so the correct choice is “No.” The model likely focused on her confident, unhesitating response and her dedicated attitude, inferring in‑story competence at magic and thus chose “Yes,” but this ignores the obvious real‑world impossibility, making its choice incorrect."
+        },
+        {
+          "original_index": 712,
+          "current_index": 211,
+          "failed_summary": "The model likely focused too literally on the phrasing difference between “miss home a bit” in the story and “misses home a lot” in the question, concluding that because the degree (“a lot”) was not explicitly stated, Xiao Wang “does not know.”  \nHowever, in normal discourse and reading-comprehension conventions, once Xiao Liu directly says he misses home, Xiao Wang can be said to know that Xiao Liu is homesick, regardless of the precise intensity.  \nThus the human answer is better supported by the narrative, and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 735,
+          "current_index": 217,
+          "failed_summary": "The narrative explicitly labels Xiao Chen as “another customer” and then immediately states that Xiao Yang “goes over and says to the waiter,” clearly distinguishing the waiter from Xiao Chen, so the human answer (A: He knows) follows directly from the text. The model likely focused only on the temporal proximity of Xiao Chen’s presence at the cashier and Xiao Yang’s request, inferring that Xiao Yang might have mistaken Xiao Chen for staff, and thus chose (B: He does not know). This ignores the narrator’s clear role labels, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 880,
+          "current_index": 272,
+          "failed_summary": "The model likely focused on Xiao Wang’s surprised reaction, silence, and topic change as clear pragmatic signals of discomfort, inferring that any reasonable partner, including Xiao Li, would understand Xiao Wang is not ready. It thus treated conversational implicature and common-sense mindreading as evidence that Xiao Li “knows,” overlooking that the story never shows Xiao Li registering or accepting this reluctance. In contrast, the human answer treats knowledge more strictly, inferring from Xiao Li’s continued insistence that he does not yet realize Xiao Wang’s feelings, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1024,
+          "current_index": 327,
+          "failed_summary": "The model likely fixated on the narrative phrase “Xiao Rong remembers” and mistakenly treated it as evidence that she remembered Xiao Li’s birthday, rather than noticing that what she actually remembered was a prior commitment to another friend’s concert. It also appears to reason only about the moment after Xiao Li announces the birthday party, inferring that since Xiao Rong now knows about it, she “remembers” the birthday. In contrast, the human answer interprets the question as asking whether Xiao Rong had independently remembered the birthday beforehand, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1028,
+          "current_index": 330,
+          "failed_summary": "The crucial detail is that “Li always wants a seat by the window” is narrator knowledge, not something explicitly revealed to Manager Zhang. The model likely over-interpreted Zhang’s statement “I know everyone likes the seats by the window” as implying he specifically knows Li’s personal desire, or treated a generic assumption (“everyone”) as concrete knowledge about each individual. Under common theory-of-mind conventions for such tasks, this is incorrect: Zhang only expresses a general belief about employees’ preferences, so the safer, more precise answer is that he does not know Li wants a window seat."
+        },
+        {
+          "original_index": 1064,
+          "current_index": 343,
+          "failed_summary": "The model likely assumed that because the narrative informs the reader about Xiao Wang’s financial problems and because couples commonly share such important information, Xiao Li must also know about his difficulties. It may have further interpreted Xiao Li’s insistence on expensive celebrations as deliberate encouragement to maintain quality of life despite hardships, which only makes sense if she is aware of the situation. However, the text never states that Xiao Wang told her, and her carefree push for even more luxurious restaurants more naturally implies ignorance of his finances, so the model’s inference is not well-supported."
+        },
+        {
+          "original_index": 1329,
+          "current_index": 431,
+          "failed_summary": "The model likely inferred that Xiaofang “knows” because the narrative from the omniscient viewpoint explicitly states Xiaojie canceled his movie plans to accompany her, and it blurred narrator knowledge with character knowledge. From a strict reading-comprehension perspective, however, the story never shows Xiaojie telling Xiaofang about the canceled plans, and her remarks (“You finally come,” “take it seriously this time”) only express impatience and expectations, not awareness of his sacrifice. Therefore the human answer treats “knows” as requiring explicit evidence from Xiaofang’s perspective, while the model incorrectly relied on unstated assumptions about what she must have known."
+        },
+        {
+          "original_index": 1418,
+          "current_index": 461,
+          "failed_summary": "The model likely fixated on the word “surprise,” assuming that if something is a surprise, the recipient must not *know about it at all*, and therefore chose “does not know.” However, the question asks whether Xiaojie knows that Xiaofang **plans** a surprise date, not whether he knows the **content or details** of that plan. From the dialogue (“I have a plan…let's go together” and “I look forward to your surprise”), Xiaojie clearly knows a surprise date is being planned for him, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1457,
+          "current_index": 471,
+          "failed_summary": "The story’s first sentence gives the reader omniscient information about Ouyang Li’s latex allergy, but it never shows that this fact is shared with Hongjie, so the model infers he “does not know.” The human answer likely treats that initial fact as common knowledge within the story world (or misreads the question as about what the reader knows), and therefore assumes Hongjie also knows about the allergy. Under a strict epistemic reading the model’s answer is reasonable, so both answers are defensible and the model’s choice is also correct."
+        },
+        {
+          "original_index": 1570,
+          "current_index": 508,
+          "failed_summary": "The model likely focused on the fact that, by the end of the dialogue, Xiaoqiang explicitly states his interest in the family business, and thus inferred that Dad “knows” this interest once it is spoken, leading to choice A. The human answer instead interprets the question as asking about Dad’s knowledge **before** Xiaoqiang’s statement, and notes that Dad’s suggestion of an art career implies he was unaware of Xiaoqiang’s interest, so chose B. Under normal reading of tense and context, the question targets prior knowledge, so the model’s answer is incorrect."
+        },
+        {
+          "original_index": 1947,
+          "current_index": 630,
+          "failed_summary": "The model likely reasoned that Xiao Yang lacks direct evidence about the project status beyond Xiao Zhao’s brief statement, so it treated Yang’s reply as a generic comforting remark rather than knowledge that challenges truly exist. From this epistemic perspective, the model chose “Does not know” because acknowledging someone’s report is different from independently knowing it is accurate. However, in everyday conversational pragmatics, people normally take such direct statements at face value, so treating Xiao Yang as knowing about the challenges is also reasonable, meaning the human answer is valid and the model’s choice is overly skeptical."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 30,
+      "layer2_cluster_summary": "Across these items, the model systematically treats the questions as requiring strict epistemic verification rather than pragmatic or narrative understanding. In each case, it ignores cues that the scenario is stylized (role‑play, fictional persona, or test‑style phrasing) that license a commonsense judgment about truth, and instead retreats to “nan” as if any unfinalized or fictionalized statement were undecidable. This reflects an overly literal, risk‑averse strategy that prioritizes formal uncertainty over interpreting communicative intent, leading it to miss the tasks’ intended evaluative perspective.",
+      "layer2_cluster_size": 3,
+      "original_items": [
+        {
+          "original_index": 463,
+          "current_index": 142,
+          "failed_summary": "The passage frames Xiaohua as a modern “new bride” deliberately dressing and acting like a Republic of China housewife to please her in‑laws, implying she is role‑playing, not literally from that era. The model likely treated the question as epistemically unanswerable—reasoning that we cannot strictly verify whether her described experiences are true—so it defaulted to the “nan”/unknown option rather than inferring the intended commonsense answer. This over‑cautious, literal reading ignores the narrative cues that her “life experiences” story is fictional, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 541,
+          "current_index": 162,
+          "failed_summary": "The story clearly frames Zhang Wei as “disguising” himself and deliberately role‑playing an ancient poet in a modern market, so his in‑character claims (e.g., about living in that era or using ancient currency) are fictional, making “No” the most appropriate answer. The model likely focused on the lack of explicit statements to verify or falsify, treating the truth of his specific utterances as unknowable from the text and therefore selecting “nan” (cannot be determined). In this context, though, the narrative intent makes the human answer correct and the model’s choice incorrect."
+        },
+        {
+          "original_index": 808,
+          "current_index": 245,
+          "failed_summary": "The story explicitly says Zhou Li announces a collaboration “even though this collaboration has not been finalized yet,” implying she presents an uncertain, merely potential deal as if it were settled. In this kind of reasoning question, that phrasing is usually intended to show that her public claim is not (yet) true, so the human answer “No” fits the test’s logic. The model likely chose option D (“nan”) because it interpreted the situation as epistemically uncertain or undecidable from the text, but that over‑cautious stance conflicts with the question’s intended evaluative framing."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 46,
+      "layer2_cluster_summary": "Across this cluster, the model fails to recognize that speakers often use figurative or non-literal language to convey attitudes rather than factual claims. It over-emphasizes the absence of concrete, verifiable information and therefore defaults to “cannot be determined” instead of inferring the intended meaning from pragmatic cues and common-sense social reasoning. In other words, these errors reflect a broader pattern: the system treats utterances as objective reports about the world, rather than as contextual expressions of beliefs, emotions, or perspectives.",
+      "layer2_cluster_size": 1,
+      "original_items": [
+        {
+          "original_index": 1893,
+          "current_index": 607,
+          "failed_summary": "The story uses an obvious metaphor: Old Zhang compares his family to “a ship full of holes” to express worry, not to make a literal, verifiable statement about an actual ship, so the intended logical answer is that what he says is not literally true (B). The model likely fixated on the lack of objective information about the family's exact situation and treated the statement as indeterminate, choosing a “nan / cannot be evaluated” style option. Because the question tests recognition of figurative language, the model’s choice is ultimately incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 50,
+      "layer2_cluster_summary": "Across this cluster, the model over-relies on prototypical associations with salient events and ignores more diagnostic, later-arriving cues about the agent’s actual mental state. Here, the phrase “wins a five million lottery” triggers a default mapping to happiness, so the system selects “Joy” instead of integrating the subsequent clause that explicitly encodes apprehension and life-disruption concerns. This pattern reflects shallow, keyword-driven interpretation and weak pragmatic reasoning about which information should be prioritized, leading the model to privilege stereotyped emotional responses rather than the text’s explicitly described, contextually appropriate emotion.",
+      "layer2_cluster_size": 1,
+      "original_items": [
+        {
+          "original_index": 1943,
+          "current_index": 628,
+          "failed_summary": "The model likely focused on the salient event “just wins a five million lottery,” which is typically associated with happiness, so it chose “Joy” as the most intuitive emotional label. However, the key sentence “she thinks that so much money changes and affects her normal life” signals worry and apprehension about negative impacts, which aligns more directly with “Fear” than with simple happiness. While one could argue that joy at winning is plausible in the background, the explicit described emotion is concern, so the model’s choice is less accurate than the human answer."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 58,
+      "layer2_cluster_summary": "Across this cluster, the model often privileges general moral rules, salient surface cues, or immediate emotions over context-specific social inferences and exam-style normative expectations. It tends to extrapolate guilt, regret, or principled honesty from minimal hints, interpret ambiguous referents or motives literally, and underweight contrasts, implicit culpability, or pragmatic goals like protecting privacy or inferring hidden intentions. As a result, its answers are frequently locally coherent yet misaligned with the intended key, which favors idealized, socially attuned, or narratively emphasized reactions.",
+      "layer2_cluster_size": 12,
+      "original_items": [
+        {
+          "original_index": 65,
+          "current_index": 21,
+          "failed_summary": "The model likely focused on the company’s new regulation about accepting valuable gifts and equated Zhang Wei’s anxiety and moral conflict in option C with “feeling ashamed,” interpreting shame broadly as discomfort about possibly violating rules. However, the story’s contrast—“he should feel very surprised, but he feels ashamed”—implies a clear moral fault or dishonorable act already committed, which option B directly provides through deliberate lottery manipulation. Thus the model’s choice is less precise, and the human answer B better matches the narrative logic and emotional cue of “ashamed.”"
+        },
+        {
+          "original_index": 202,
+          "current_index": 67,
+          "failed_summary": "The story implies Xiao Gang helped greatly yet received no acknowledgment, a situation that more naturally causes resentment or anger toward Xiao Ming, matching option B. The model likely overgeneralized from patterns where negative outcomes lead characters to feel self-directed remorse, inferring that Xiao Gang might regret having helped or regret relying on Xiao Ming for recognition, which aligns with “regretful.” However, because the key conflict is lack of appreciation by another person rather than a mistake by Xiao Gang himself, anger is the more contextually appropriate emotion and the model’s choice is less accurate."
+        },
+        {
+          "original_index": 619,
+          "current_index": 187,
+          "failed_summary": "The model applied a strict norm against lying, so it saw “Everything is normal at Xiao Gang's house” as an unethical false statement and therefore marked option C as inappropriate. In many moral-education problems like this, however, the primary value being tested is respecting a friend's privacy and promise-keeping, and the story implicitly endorses Xiao Ming’s white lie as a reasonable way to protect Xiao Gang, so the exam-style key is D, “no inappropriate sentence.” Thus both answers are valid: the solution favors privacy protection, while the model upholds honesty, so its choice is reasonable despite differing from the standard."
+        },
+        {
+          "original_index": 843,
+          "current_index": 259,
+          "failed_summary": "The model likely focused on the narrative emphasis that Mr. Wang sees an unequal level of effort and sacrifice among his children, which semantically aligns closely with “disappointed” in their behavior rather than the more intense, reactive emotion “angry.” It also may have prioritized the description of his thoughtful recognition of Xiao Ming’s sacrifice, interpreting this reflective stance as quieter disillusionment instead of active fury, thus favoring option D. In this context, however, both anger and disappointment are plausible parental reactions to selfish siblings, so both C and D are reasonable, and the model’s answer is also correct."
+        },
+        {
+          "original_index": 859,
+          "current_index": 263,
+          "failed_summary": "The story only states that Xiao Hua “completely forgets” the cleanup and goes out to play with friends, which directly suggests a carefree, enjoyable mood, matching the human answer “Happy.” The model likely inferred a later moral or guilty reaction—thinking Xiao Hua *should* feel bad for leaving Xiao Min to work alone—and therefore chose “Regretful,” projecting an unstated emotional consequence. Because the text never mentions remorse and focuses instead on playing with friends, the human’s interpretation is better grounded and the model’s choice is not well supported."
+        },
+        {
+          "original_index": 926,
+          "current_index": 291,
+          "failed_summary": "The model likely focused on Zhao Min’s inner doubt about long‑term impact, so it chose C, which directly questions whether her efforts can truly change the children’s futures, a classic source of melancholy in altruistic work. The human answer B emphasizes a different but equally plausible psychological reason: feeling insignificant in the face of many unmet needs, which also naturally leads to melancholy despite external support. Given the brief story, both interpretations are reasonable, so both answers are valid and the model’s choice is also correct."
+        },
+        {
+          "original_index": 972,
+          "current_index": 309,
+          "failed_summary": "The model latched onto the most explicit causal link in the text: Xiao Ming “has too much homework,” interprets “I have something to do after school” literally, and therefore chose option A as the direct, surface-level reason. The human answer, C, instead infers a subtler social motive: Xiao Ming uses homework as a pretext so he can secretly break his healthy diet plan later, without his friend knowing. Both interpretations are logically consistent with the story, so both A and C are valid and the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1150,
+          "current_index": 373,
+          "failed_summary": "The model likely focused on a moral-emotional interpretation: after causing a conflict that disrupts Old Wang’s game but seeing Old Wang ultimately win with Li Hua’s support, Xiao Ming might reflect on his behavior and feel guilty, leading it to choose A. The human answer C instead emphasizes competitive frustration and social isolation, inferring that losing and having quarreled with Old Wang leaves Xiao Ming annoyed and friendless in that moment. Because the story doesn’t specify Xiao Ming’s feelings, both inferred emotions are reasonable, so the model’s choice is also valid."
+        },
+        {
+          "original_index": 1308,
+          "current_index": 420,
+          "failed_summary": "The model likely interpreted “club member” as referring to Xiao Hong herself, reasoning that because she neglected her responsibility to prepare for the event and instead visited a friend, she might later feel regretful about letting the club down. In contrast, the human answer assumes “the club member” refers to the other members who were counting on her help, making anger the most straightforward emotional reaction to her absence and broken commitment. Under these two different but reasonable interpretations of the referent and timeline, both A (Angry) and D (Regretful) are logically defensible, so the model’s answer is also correct."
+        },
+        {
+          "original_index": 1497,
+          "current_index": 481,
+          "failed_summary": "The model likely focused on the shop owner’s framing of the incident as “accidental revenge” and Bob’s history of rudeness, inferring that Lisa would share the owner’s schadenfreude and thus feel happy, making option D seem natural. However, the question emphasizes that Lisa’s action was unintentional and that the contract was important, which normatively supports an empathetic, guilt‑ and anxiety‑based reaction, aligning with option A. While the story could loosely support both interpretations, A better reflects typical moral-emotional reasoning about accidental harm, so the model’s choice is less appropriate."
+        },
+        {
+          "original_index": 1499,
+          "current_index": 483,
+          "failed_summary": "The model likely focused on the emotional cues: Sanming eating a birthday cake alone, watching his supervisor warmly give Dehua a secretive document and pat him on the back, which can easily trigger feelings of exclusion and anger (option B). The human answer instead centers on the competitive promotion context and infers that, upon seeing this seemingly preferential treatment, Sanming would rationally reconsider his own chances for promotion (option D). Both interpretations are reasonable: D captures the cognitive inference about promotions, while B reflects a believable emotional reaction, so both are valid."
+        },
+        {
+          "original_index": 1896,
+          "current_index": 609,
+          "failed_summary": "The model likely focused on the immediate emotional response to discovering that “precious items are missing,” a situation that commonly triggers anger or a sense of being wronged, so it chose A. The human answer C treats the question as probing a more nuanced or morally “ideal” reaction, where Aunt Yang withholds judgment and first becomes curious about what actually happened before reacting emotionally. Both answers are in fact reasonable: anger is a natural, intuitive reaction, while curiosity represents a more reflective, less assumptive interpretation, so the model’s choice is also valid."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 70,
+      "layer2_cluster_summary": "In all these cases, the model relies heavily on literal, explicitly stated emotions and events, avoiding richer pragmatic inferences about characters’ inner states. This leads it to default to “No” or to surface-matched emotions like “Surprise” whenever surprise, anger, or happiness must be inferred from social expectations, narrative contrast, or background knowledge rather than directly described text. Across the cluster, the explanations frame many scenarios as genuinely ambiguous—where both the model and human answers are defensible—yet they also highlight a systematic underuse of commonsense social reasoning that sometimes makes the model’s choice less plausible.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 24,
+          "current_index": 7,
+          "failed_summary": "The model likely focused on the explicitly stated emotions in the story: the mother is “gratified and moved” and her “eyes become moist,” but there is no direct mention of surprise, so it inferred the safe literal answer “No.” It may also have interpreted her reaction as continuous—she is already emotional before Xiao Ping speaks—so his apologetic words deepen her existing feelings rather than trigger a new, surprising emotion. However, the human answer infers a plausible extra reaction, so both A and B are reasonable interpretations and the model’s answer is also correct."
+        },
+        {
+          "original_index": 167,
+          "current_index": 59,
+          "failed_summary": "The model likely focused strictly on the explicit text, which never states the old man’s inner feelings, so it defaulted to “No” rather than inferring an emotional reaction that isn’t directly described. It may also have reasoned that, as a poor man in ragged clothes, he might be accustomed to contempt and therefore not particularly surprised by the insult, only silently sharing cookies he believes are his. However, the human answer “Yes” is also reasonable, since the twist implies the cookies belonged to the old man, making the rebuke unexpectedly unjust, so both answers are defensible."
+        },
+        {
+          "original_index": 929,
+          "current_index": 293,
+          "failed_summary": "The story stresses that Zhang Sheng has always resisted leaving his city job, while Li Lei longs for a quiet place, so his sudden promise represents a major, unexpected concession. Because the text never explicitly states Li Lei’s reaction, the model likely reasoned conservatively that her feelings are unknown and chose “No” to avoid inferring unstated emotional content. However, given her awareness of his prior reluctance and the narrative focus on his inner struggle, pragmatic commonsense supports the human answer that she would be surprised, making the model’s choice less plausible."
+        },
+        {
+          "original_index": 946,
+          "current_index": 301,
+          "failed_summary": "The model likely focused on the word “suddenly” and the unexpected loud phone conversation, inferring that Liu Yang’s immediate reaction would be one of surprise at the abrupt disruption. From this perspective, option D (“Surprise”) is a reasonable emotional response to an unforeseen, intrusive event in a previously quiet environment. However, considering everyday social expectations about noise in shared spaces and the irritation caused by someone “completely disregarding others,” anger (option A) is equally, and perhaps more, natural, so both answers are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 997,
+          "current_index": 319,
+          "failed_summary": "The model likely focused on the unexpected coincidence that a stranger behind Liu Yang is loudly discussing his own recent job application, interpreting this as an astonishing, out-of-the-ordinary event and therefore choosing “Surprise.” In contrast, the human answer “Happy” assumes that hearing information related to his job application is good news or at least welcome, so the salient emotion is positive pleasure rather than shock. Because the story doesn’t specify whether the phone content is positive and strongly emphasizes the sudden, uncanny situation, both “Happy” and “Surprise” are defensible, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1266,
+          "current_index": 409,
+          "failed_summary": "The model likely focused on Star being a new transfer student who is suddenly approached and warmly greeted, so it inferred that the most salient emotion would be surprise at their unexpected initiative, which matches option A. However, the narrative also describes subtle nonverbal cues—Morning Light’s glance, Dawn’s nervousness, and their coordinated smiles—that can reasonably make Star unsure of their intentions and thus feeling confused yet curious, which aligns with option B. Given the ambiguity of the situation, both answers are plausible and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 1769,
+          "current_index": 567,
+          "failed_summary": "The story clearly implies that the man only wants to ask the time, so a reasonable reader infers he would be surprised when Grandma Wang suddenly offers her wallet and begs not to be hurt, making “Yes” the better pragmatic answer. The model likely focused narrowly on explicitly stated emotions—only Grandma Wang’s fear is described—so it avoided inferring the man’s mental state and chose “No” because his surprise is never directly mentioned. Thus the model’s choice overlooks basic social reasoning about expectations and reactions, so its answer is incorrect."
+        }
+      ]
+    }
+  ]
+}

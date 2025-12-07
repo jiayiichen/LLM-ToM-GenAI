@@ -1,0 +1,551 @@
+{
+  "layer3_cluster_label": 1,
+  "layer3_cluster_summary": "Across these reasons, the model resolves under‑specified stories by clinging to salient surface cues—explicit constraints, vivid phrases, similes, traits, or labels—and to generic commonsense scripts, often tracking literal world state over mental perspectives. Humans and gold labels instead privilege pragmatic subtext, narrative plausibility, social norms, and the question‑setter’s likely intention, so ambiguities in time, modality, verbs like “know/remember,” and phrases like “should be” get interpreted as Theory‑of‑Mind or expectation tasks. Thus divergences mostly reflect misweighted evidence and evaluation misalignment, not wholesale failures of coherent reasoning.",
+  "layer3_cluster_size": 8,
+  "total_original_items": 69,
+  "all_original_indices": [
+    27,
+    49,
+    90,
+    154,
+    187,
+    188,
+    189,
+    240,
+    250,
+    261,
+    271,
+    291,
+    449,
+    450,
+    563,
+    566,
+    570,
+    595,
+    602,
+    621,
+    695,
+    725,
+    746,
+    788,
+    806,
+    814,
+    858,
+    876,
+    890,
+    927,
+    932,
+    938,
+    1033,
+    1047,
+    1051,
+    1079,
+    1095,
+    1097,
+    1205,
+    1229,
+    1298,
+    1330,
+    1340,
+    1412,
+    1414,
+    1425,
+    1426,
+    1445,
+    1453,
+    1461,
+    1487,
+    1489,
+    1514,
+    1527,
+    1551,
+    1562,
+    1587,
+    1627,
+    1631,
+    1653,
+    1679,
+    1699,
+    1716,
+    1852,
+    1897,
+    1917,
+    1939,
+    1949,
+    1955
+  ],
+  "all_current_indices": [
+    9,
+    15,
+    31,
+    53,
+    60,
+    61,
+    62,
+    76,
+    80,
+    82,
+    85,
+    89,
+    138,
+    139,
+    168,
+    169,
+    172,
+    178,
+    182,
+    188,
+    208,
+    214,
+    221,
+    239,
+    244,
+    248,
+    262,
+    271,
+    277,
+    292,
+    296,
+    299,
+    331,
+    334,
+    336,
+    349,
+    356,
+    357,
+    390,
+    395,
+    417,
+    432,
+    435,
+    459,
+    460,
+    464,
+    465,
+    468,
+    470,
+    474,
+    478,
+    479,
+    490,
+    497,
+    501,
+    506,
+    514,
+    523,
+    525,
+    533,
+    542,
+    551,
+    554,
+    593,
+    610,
+    616,
+    624,
+    631,
+    635
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 4,
+      "layer2_cluster_summary": "Across these items, the model repeatedly privileges generic scripts and commonsense narratives—jealous classmates, surprise gifts, continued club participation, exam-focused parents, or promises of future rewards—over the specific cues and constraints given in the text. It often latches onto a salient phrase (“important family gathering,” “not overwork themselves,” “romantic restaurant,” “exams”) and then extrapolates a familiar storyline, underweighting temporal order, stated motivations, or explicit outcomes like money being spent or everyone wanting the task. Overall, the main divergence from human answers is mis-weighted evidence: world-knowledge templates override fine-grained, passage-grounded reasoning.",
+      "layer2_cluster_size": 10,
+      "original_items": [
+        {
+          "original_index": 261,
+          "current_index": 82,
+          "failed_summary": "The model likely focused on the social implications of a “highly respected” position, inferring that prominence could provoke jealousy, which led it to choose C. However, the context explicitly notes that Xiao Fang has “widespread support from classmates,” which weakens the jealousy explanation and instead suggests a positive peer environment. In contrast, option A reflects a very common parental concern—that time-consuming student leadership roles may harm academic performance—so the human answer better fits typical reasoning patterns, making the model’s choice less well-supported by the passage."
+        },
+        {
+          "original_index": 450,
+          "current_index": 139,
+          "failed_summary": "The story’s temporal logic strongly favors option A: the last “sudden situation” is the neighbor’s urgent knock, so the most immediate next action is opening the door to help the neighbor. The model likely focused on the phrase “important family gathering” and applied a priority-based reasoning (choosing the seemingly most important long-term goal) instead of following the narrative sequence of events and the cue “suddenly,” which frames the neighbor’s request as the key interruption. Therefore, the model’s choice C is not as textually grounded as the human’s answer A."
+        },
+        {
+          "original_index": 806,
+          "current_index": 244,
+          "failed_summary": "The model likely focused on a commonsense narrative pattern: after discovering a charitable cause, a sympathetic child might keep engaging, so it inferred that Amy “continues to participate in the animal rescue club.” However, this option is not supported by the text, which only states that she donates once and gets a pendant; there is no mention of ongoing club involvement. In contrast, the human answer uses explicit causal logic—donating the found money replaces her plan to buy pencils—so the model’s choice is not textually justified and is incorrect."
+        },
+        {
+          "original_index": 932,
+          "current_index": 296,
+          "failed_summary": "The model likely relied on a common narrative pattern where children say they “want nothing” because they secretly hope for a surprise, so it selected option C as a familiar storyline rather than carefully weighing textual clues. However, the story explicitly describes the toy store as “luxurious,” which strongly implies high prices and supports the inference that Xiaohua worries about cost and doesn’t want her parents to spend too much, aligning with option B. Thus, the model’s choice is not as well grounded in the given context, making the human answer more appropriate."
+        },
+        {
+          "original_index": 1047,
+          "current_index": 334,
+          "failed_summary": "The model likely overemphasized the line that “they do not want to overwork themselves” and the detail that Xuefeng is playing with her phone, inferring she prefers to slack off and would therefore feel relaxed if given less work (option C). It underweighted the explicit statement that “everyone wants to take on this important task,” which implies that being excluded from the core work would feel odd or unpleasant, fitting option B. Thus, the model’s choice is inconsistent with the story’s stated motives, and the human answer is more contextually accurate."
+        },
+        {
+          "original_index": 1425,
+          "current_index": 464,
+          "failed_summary": "The story explicitly states that George **uses his pocket money to participate in the game**, implying he spends the money that was intended for buying chocolate. A careful reader infers that, with no pocket money left, he can no longer go to the convenience store to buy the big chocolate, so option A best matches the described outcome. The model likely focused on George’s strong desire for chocolate and a default script of “go buy it afterward,” overlooking the implication that his funds were fully used up, making its choice C inconsistent with the narrative."
+        },
+        {
+          "original_index": 1445,
+          "current_index": 468,
+          "failed_summary": "The model based its choice on the explicit detail in the story that Xiao Li and Xiao Wang “have dinner in a romantic restaurant,” directly mapping that phrase to option B, Restaurant. This is a straightforward reading-comprehension task where the setting is clearly named, so the model reasonably ignored other options like Cafe, Park, or Amusement park, which lack textual support. Because the narrative gives no indication that the date occurs in a park and explicitly states it happens in a restaurant, the human answer C is not supported by the passage, whereas the model’s answer B is correct."
+        },
+        {
+          "original_index": 1562,
+          "current_index": 506,
+          "failed_summary": "The model focused on the parents’ concern about upcoming exams and therefore chose option D, which promises that going out will not affect Xiaohua’s grades. However, the story emphasizes the parents’ primary worry as nighttime safety, and option C directly addresses that by offering regular check-ins that reassure them about his situation while he is outside. Thus, although the model’s answer has some logical basis, it overlooks the key concern in the scenario, so the human answer better matches the intended reasoning."
+        },
+        {
+          "original_index": 1852,
+          "current_index": 593,
+          "failed_summary": "The model likely focused on the contrast between “mountain climbing” and “amusement park” and imported a commonsense assumption that parents feel safer about amusement parks, so it inferred Mom would feel “relieved” (D). In doing so, it overlooked the explicit textual cue that Mom “does not see Xiaohua’s series of actions,” meaning she never realizes he gave up on hiking and thus cannot specifically feel relief about a choice she’s unaware of; she only hears the final suggestion. Therefore the human answer (C) is better supported by the narrative, and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1939,
+          "current_index": 624,
+          "failed_summary": "The model likely focused on the father’s emotional aim to “comfort Xiao Li’s current disappointment” while respecting his present financial limits, so it chose option A as a plausible, culturally common strategy: promising a future reward tied to good grades. However, the story also emphasizes that he “tries every way to satisfy his daughter's wish,” which better aligns with option C—finding a cheaper substitute that partially fulfills her desire without exceeding his means. Both A and C are reasonable interpretations, but C more directly matches the narrative’s compromise between love and poverty."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 28,
+      "layer2_cluster_summary": "Across these items, the model systematically treats “persuasion” as an optimization problem: identify the interlocutor’s stated constraint or a generalizable benefit, then select the option that most directly, logically, or instrumentally addresses it. Humans more often prioritize narrative fit and social realism—child‑like pleading, emotional support, fairness over time, status motives, or the textbook “right” counseling/parenting response—so they infer the intended answer from everyday scripts rather than abstract utility. Many vignettes are under‑specified, so multiple persuasion paths seem reasonable; the explanations repeatedly frame the model’s choice as defensible, not genuinely wrong.",
+      "layer2_cluster_size": 11,
+      "original_items": [
+        {
+          "original_index": 90,
+          "current_index": 31,
+          "failed_summary": "The model likely centered its reasoning on Wang’s explicit objection that “changing eating habits is not an easy thing,” inferring that the most persuasive response is to validate his difficulty, show empathy, and thus lower his resistance, which directly matches option B. In contrast, the human answer (A) emphasizes leading by example, assuming that modeling healthy behavior is the most convincing way to inspire change, even if it doesn’t explicitly address his stated concern. Because the brief context supports either empathetic understanding or role-modeling as plausible strategies, both A and B are reasonable, and the model’s answer is also correct."
+        },
+        {
+          "original_index": 188,
+          "current_index": 61,
+          "failed_summary": "The model likely chose option B because it interpreted “persuade” as requiring a concrete incentive or trade‑off, so offering to take on more cleaning in exchange for closing the refrigerator door seemed like a stronger motivational strategy than a simple reminder. In contrast, the human answer A emphasizes direct, friendly communication and habit‑building, which aligns more closely with common conflict‑resolution advice in shared living situations. Both A and B are reasonable persuasion strategies, so the model’s choice is also defensible rather than clearly incorrect."
+        },
+        {
+          "original_index": 189,
+          "current_index": 62,
+          "failed_summary": "The model likely focused on Mother Liu’s belief that “studying is useless” and that working early is more “practical,” so it chose option C because it directly frames education as a concrete way to support the family financially in the future. In contrast, the human answer A emphasizes social status and respect, which is another valid but less directly practical benefit from the mother’s perspective. Both A and C are reasonable ways for Xiaofang to persuade her mother, so the model’s choice is also defensible and not clearly incorrect."
+        },
+        {
+          "original_index": 566,
+          "current_index": 169,
+          "failed_summary": "The model likely focused on interpersonal persuasion rather than legal or factual arguments, interpreting the question as asking which statement would most emotionally move Li Si. Option A emphasizes sincere concern and the value of friendship, which many communication or counseling norms treat as a powerful, prosocial way to influence risky behavior, so the model selected it. Since the prompt does not explicitly favor legal reasoning over emotional appeal and multiple strategies can be effective, both A and C are reasonable choices and the model’s answer is also defensible."
+        },
+        {
+          "original_index": 570,
+          "current_index": 172,
+          "failed_summary": "The model likely focused on addressing the father’s explicit concern—noise—so it chose option D, which directly proposes a concrete, noise-reducing compromise (going at quieter times) as a more “rational” persuasion strategy. The human answer B instead emphasizes emotional appeal and expressing personal desire, which is very natural and developmentally typical for a 6-year-old persuading a parent. Both B and D are reasonable ways to persuade the dad, so in this case both answers are valid and the model’s choice is also defensible."
+        },
+        {
+          "original_index": 621,
+          "current_index": 188,
+          "failed_summary": "The model likely focused on Xiao Ming’s *true* but unspoken concern: that Xiao Li will “make a mess everywhere,” and saw option B as directly addressing this by promising to eat carefully. In contrast, the human chose D, which responds to the *stated* concern (“not good for the body”) by bargaining to eat only a little and adding emotional pleading, a common real‑life persuasion strategy for a 5‑year‑old. Both B and D are reasonable interpretations of “convince,” so the model’s answer is also a valid choice."
+        },
+        {
+          "original_index": 938,
+          "current_index": 299,
+          "failed_summary": "The model likely favored option B because it generalizes a common academic stance that qualitative and quantitative methods are complementary, so explaining their integration sounds like an ideal, theory-driven way to persuade Zhao Ming. However, the story frames Zhao Ming’s doubt specifically about the effectiveness of qualitative research, so option A’s concrete successful cases more directly address his belief that “only quantitative methods are effective.” Both A and B are pedagogically plausible ways to convince him, so both answers are valid and the model’s choice is also correct."
+        },
+        {
+          "original_index": 1340,
+          "current_index": 435,
+          "failed_summary": "The model likely chose option D because it prioritized a more abstract, prosocial appeal—emphasizing intercultural understanding and respect—as the most persuasive way to increase residents’ willingness to participate. In contrast, the human answer A focuses on a concrete, immediately attractive incentive (tasting diverse foods), which is also a reasonable and context‑relevant strategy given the story explicitly highlights food from different cultures. Both answers are valid interpretations of how Li might persuade residents, so the model’s choice is also reasonable rather than simply incorrect."
+        },
+        {
+          "original_index": 1461,
+          "current_index": 474,
+          "failed_summary": "Both options B and D present plausible ways for Xiao Hong to convince her parents, but they emphasize different persuasion strategies. The model likely favored B because it reflects a concrete, low-risk compromise—trying computer science temporarily and leaving open a path to medicine—which aligns with common conflict-resolution heuristics and risk-averse parental concerns. The human answer D instead stresses open communication of passion and potential, which is more psychologically aligned with “convincing” via intrinsic motivation, so both answers are valid and the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1627,
+          "current_index": 523,
+          "failed_summary": "The model focused on Mr. Li’s stated objection—“work”—and chose C because it directly links exercise to improved work efficiency, which seems logically tailored to his expressed concern. However, the story also notes that his work is already “leisurely” and emphasizes his poor health and family relationship, so the human’s choice B better fits a subtle, emotionally supportive persuasion strategy (using companionship and care rather than argument). In this interpersonal-communication context, both answers are valid and the model’s answer is also correct, though B aligns more closely with the passage’s intent."
+        },
+        {
+          "original_index": 1699,
+          "current_index": 551,
+          "failed_summary": "The model likely relied on a heuristic that persuasion should highlight direct benefits, so it chose option A, emphasizing relaxation and stress relief as strong incentives for Xiao Li to accept the beach trip. In contrast, the human answer C reflects a fairness or compromise-based reasoning pattern, focusing on maintaining relationship balance by alternating between each partner’s preferred vacation style across different occasions. Both answers are reasonable: A plausibly convinces Xiao Li through appealing benefits, while C prioritizes mutual satisfaction over time, so the model’s answer is also a justifiable interpretation of the scenario."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 42,
+      "layer2_cluster_summary": "Across these items, the model fixates on the most salient, strongly cued trait or routine of a single character—profession, hobby, or eating habit—and extrapolates the event that best matches that one dimension. This makes it underweight the inviter’s own constraints, values, and desire to accommodate the other person, so it often misses the more balanced or compromise option that humans infer from the social context. Moreover, several stories are deliberately underdetermined, so both options remain logically possible; the gap between human and model answers mainly reflects differing emphasis on subtle narrative cues rather than outright reasoning errors.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 746,
+          "current_index": 221,
+          "failed_summary": "Li Hua loves outdoor adventures and natural landscapes, while Wang Min prefers indoor cultural events like exhibitions and design expos and wants to invite Li Hua for the weekend. Option B, a natural landscape photography exhibition, is an indoor event that blends Li Hua’s passion for nature and photography with Wang Min’s interest in exhibitions, making it the best compromise for mutual enjoyment. The model likely focused mainly on Wang Min’s profession and preference, choosing the interior design expo in option C, but this neglects Li Hua’s interests and so makes the model’s answer less appropriate than the human answer."
+        },
+        {
+          "original_index": 1412,
+          "current_index": 459,
+          "failed_summary": "The model latched onto Li Lei’s foodie identity and love of fast food, inferring that Chen Chen would invite him to the most obviously appealing option, a fried chicken shop tasting.  \nYet the story highlights Chen Chen’s strict healthy‑eating and fitness lifestyle, making it improbable she would select a particularly unhealthy fried‑chicken event that conflicts with her established habits.  \nConsidering both personalities, a neutral, active city exploration better suits her exercise focus while still offering Li Lei novelty, so the human answer fits the narrative more and the model’s choice is weaker."
+        },
+        {
+          "original_index": 1551,
+          "current_index": 501,
+          "failed_summary": "The model likely focused on Li Hua’s established pattern: he “goes hiking or camping every weekend” and “always seeks fresh and exciting experiences,” so it inferred that his invitation means taking Wang Fang to his usual outdoor activity, i.e., hiking. The human answer instead infers that, because Wang Fang prefers a calm library environment, Li Hua’s plan might accommodate her comfort and thus be the library. Since the story never explicitly states the weekend destination, both interpretations are reasonable, so the model’s answer is also a logically valid choice."
+        },
+        {
+          "original_index": 1631,
+          "current_index": 525,
+          "failed_summary": "The model probably focused mainly on Zhang Qiang’s occupation as an advertising designer and thus saw an “advertising creativity seminar” as the most directly relevant and tailored event for him, matching his professional interests. However, the story also emphasizes Wang Li’s identity as a scientific researcher, so a “digital art exhibition” better integrates her technological, data-driven perspective with Zhang Qiang’s artistic creativity, making B a more balanced intersection of both characters’ worlds. Thus both B and C are logically defensible, but B aligns more closely with the narrative’s dual emphasis on science–technology and art."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 44,
+      "layer2_cluster_summary": "Across these items, the model consistently privileges literal, explicitly stated details and conservative inferences, while the human annotations lean on pragmatic background knowledge, social expectations, and the question-setter’s intended implication. Most disagreements hinge on genuine ambiguities—shifts in temporal reference (“before,” story endpoint versus midpoint), perspective differences (narrator versus character knowledge, overhearing), or competing senses of key verbs like “know,” “remember,” and “choose.” As a result, the model’s answers, though sometimes diverging from the gold labels, are usually logically coherent interpretations of underspecified narratives, revealing evaluation misalignment rather than systematic Theory-of-Mind failure.",
+      "layer2_cluster_size": 12,
+      "original_items": [
+        {
+          "original_index": 27,
+          "current_index": 9,
+          "failed_summary": "The model focused strictly on explicit textual evidence: the uncle stays silent and expressionless, so it reasoned Xiao Li cannot know his stance and selected “does not know.”  \nThe human answer interprets Xiao Li’s remark that “everyone has their own views” as implying she already understands her uncle’s general perspective from past interactions, even if he doesn’t voice it here.  \nGiven the narrative’s ambiguity about whether her comment is generic or grounded in specific knowledge of her uncle, both interpretations are reasonable, so both answers are valid and the model’s choice is also correct."
+        },
+        {
+          "original_index": 49,
+          "current_index": 15,
+          "failed_summary": "The model likely focused strictly on the explicit text, noticing that the story never mentions a death anniversary and that Xiao Li even proposes June 15th, which could suggest she does *not* recall a sensitive date. From that literal perspective, choosing “She does not remember” seems reasonable because any link between the dates and the father’s death is entirely implicit and supplied by the question-writer, not the narrative itself. Thus both the human answer (inferring she remembers upon reflection) and the model’s answer (sticking to textual evidence) are defensible."
+        },
+        {
+          "original_index": 240,
+          "current_index": 76,
+          "failed_summary": "The model likely over-relied on the narrator’s explicit statement that “Aunt Wang hosts a neighborhood gathering, she makes many of her best dishes,” and generalized this to Mr. Li’s knowledge, assuming guests naturally know the host cooked. The human answer instead distinguishes narrator knowledge from character knowledge and infers, from Mr. Li’s blunt comparison to his wife’s cooking, that he might not realize Aunt Wang is the chef, otherwise he would be more tactful. Both interpretations are logically defensible, so both answers are arguably valid and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 250,
+          "current_index": 80,
+          "failed_summary": "The key confusion is what “before” in the question refers to: before this conversation in the story, or before the current moment in which we answer. The model likely read the dialogue sequentially, inferred from Xiao Liu’s surprised exclamation that she had *not* known his profession prior to the father’s statement, and thus chose B. The human answer instead interprets the question as asking whether, by the end of the story, Xiao Liu knows his past profession, so under that reading A is also reasonable and the model’s answer is still logically valid."
+        },
+        {
+          "original_index": 449,
+          "current_index": 138,
+          "failed_summary": "The model interpreted “remember the comic book” in a literal, everyday sense: Xiao Li talks about the book twice and returns it the next day, so he clearly remembers that the book exists and that it was lent to him, leading to answer A. The human annotation likely treats “remember” as “having actually engaged with/knowing the content of the book,” and because Xiao Li never reads it, they mark B (“does not know”). Under these two different but reasonable interpretations, both answers are defensible and the model’s choice is also coherent."
+        },
+        {
+          "original_index": 563,
+          "current_index": 168,
+          "failed_summary": "The model focused on the explicit information in the story: Manager Li is absent because he went home to visit his family, not because of overtime work. Since “too busy with overtime work” is never mentioned and directly contradicts the given reason, the model correctly inferred that Mr. Zhang cannot know this false reason and thus chose “He does not know.” The human answer assumes knowledge of a reason that is neither stated nor implied in the text, so in this case the model’s choice is more logically consistent."
+        },
+        {
+          "original_index": 725,
+          "current_index": 214,
+          "failed_summary": "The model likely focused narrowly on explicit information: Xiao Li arrives after Xiao Yang’s first statement about his mother, so the model assumes Xiao Li never heard that she works in the cafeteria and thus “does not know.” However, the story’s dialogue can reasonably imply Xiao Li overheard or inferred the connection from “Yes, my mom cooks very well” right after praise of the cafeteria food, leading to the human choice “knows.” Given this ambiguity, both interpretations are defensible, so the model’s answer is also reasonable even though it differs from the human answer."
+        },
+        {
+          "original_index": 1051,
+          "current_index": 336,
+          "failed_summary": "The story never mentions food, allergies, or any health-related detail, so the model reasonably defaulted to “does not know,” interpreting the task as strict reading comprehension where only explicitly stated or strongly implied facts count. The human answer assumes that because Liu Xin chose a notebook instead of food, she must know Chen Jie is allergic, which relies on extra-world reasoning and unstated background assumptions. Since the text alone underdetermines Liu Xin’s knowledge, both interpretations are defensible, so both answers are valid and the model’s response is also correct."
+        },
+        {
+          "original_index": 1205,
+          "current_index": 390,
+          "failed_summary": "The story never explicitly states Xiao Li’s final choice, only that she hesitates, looks outside, and then turns back to her notes and books, leaving multiple reasonable inferences. The model likely chose B by sticking closely to the literal narrative (she remains at home with her books) rather than inferring the more specific behavior of reviewing incorrect questions. Both B and D are plausible interpretations of “turns back to the notes and books,” so both answers are valid and the model’s response can also be considered correct."
+        },
+        {
+          "original_index": 1489,
+          "current_index": 479,
+          "failed_summary": "The model likely focused on the final state of the story, where the manager openly congratulates Xiao Zhang on his well-deserved promotion, so it inferred that Xiao Li now clearly knows about the promotion and chose option A. The human answer B instead appears to interpret the question as referring specifically to Xiao Li’s knowledge at the moment he casually asks about rumors, before hearing the manager’s congratulations, at which point he indeed does not yet know of the promotion. Because the timeline reference is ambiguous, both interpretations are reasonable and both answers defensible."
+        },
+        {
+          "original_index": 1897,
+          "current_index": 610,
+          "failed_summary": "The model focused on the explicit dialogue where Xiaohong tells Teacher Wang, in Leilei’s presence, that she is trying to be vegan, then immediately afterward Leilei comments “I hope you are just trying,” which pragmatically presupposes he has just learned about her vegan attempt—so it inferred he *does* know. The human answer likely keyed instead on Leilei offering meat earlier and on a stricter notion of prior knowledge before that revelation. Because the question’s timing and notion of “know” are ambiguous, both interpretations are reasonable and the model’s answer is also defensible."
+        },
+        {
+          "original_index": 1955,
+          "current_index": 635,
+          "failed_summary": "From the human-answer perspective, the key cue is that the client “does not say anything for a long time,” which in many social contexts implies uncertainty, suspense, and possible disapproval, so Xiao Liu is likely to feel nervous while waiting for feedback. The model instead seems to focus on the prior statement that the advertisement is “eye-catching” and that the client is “attracted,” inferring that the silence reflects impressed contemplation, which aligns with Xiao Liu feeling satisfied. Because the narrative is somewhat ambiguous, both interpretations are plausible, so the human and model answers can be considered jointly valid."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 49,
+      "layer2_cluster_summary": "Across these items, model–human divergences stem from systematic ambiguities: whether to privilege explicit narrative cues (strong interests, workload, money) or the literal content of a character’s utterance. The model often infers hidden desires, practical constraints, or shyness behind refusals, treating spoken “no” as an excuse or factually false, while humans frequently interpret statements at face value or emphasize richer social and motivational subtexts. Many questions under-specify whether “truth,” “want,” or “reason” should track internal mental states, momentary decisions, or effective behavior, making multiple options simultaneously defensible.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 271,
+          "current_index": 85,
+          "failed_summary": "The story emphasizes that Li Lei “really likes” the band, has been saving for a long time, and wants enough money to attend the concert with his girlfriend, implying a strong desire to go. The model likely focused on this implicit desire and inferred that his saying “I do not want to go” masks a practical concern (e.g., ticket cost or wanting to wait for his girlfriend), so it chose B: No. The human answer A treats his spoken refusal at face value, so here both A and B can be justified, and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 291,
+          "current_index": 89,
+          "failed_summary": "The story says the band’s tickets are very expensive and that Li Lei has been saving for a long time so he can attend with his girlfriend, which can be read in two ways. The model likely focused on the need to keep saving money and inferred that, at the time of the friend’s invitation, he still lacked enough funds, so option D seemed the most direct cause. However, the explicit goal of going specifically with his girlfriend also strongly supports option A, so both A and D are reasonable interpretations and the model’s answer is also correct."
+        },
+        {
+          "original_index": 695,
+          "current_index": 208,
+          "failed_summary": "The discrepancy comes from how the question “is this true?” is interpreted. The human likely read it as asking whether Xiaoli’s statement matches her stable preference for braised pork, concluding “No” because the story emphasizes that she really likes it, so saying she doesn’t want to eat seems inconsistent. The model instead focused on the literal event that she *did* say “I do not want to eat,” or that she might not want it at that specific moment, so it answered “Yes,” and under this interpretation the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1095,
+          "current_index": 356,
+          "failed_summary": "The story explicitly states Xiaohua wants to play the new game, but he tells his friend he does not, so the model likely reasoned literally: his verbal claim contradicts his internal desire, making it factually false, thus choosing B. The human answer A likely interprets “want” in a practical or social sense—because he cannot use the computer, he effectively “does not want” to play, or he is aligning his statement with external constraints rather than his inner wish. Both interpretations are reasonable, so both answers can be viewed as valid."
+        },
+        {
+          "original_index": 1414,
+          "current_index": 460,
+          "failed_summary": "The model likely focused on the explicitly stated academic pressure: the text emphasizes that Li Lei is in his senior year and his coursework is heavy, so it inferred that concern for his studies (option D) explains his refusal. In contrast, the human answer (C) relies on pragmatic social reasoning: since his sister “always mocks his basketball skills,” his “no” when she asks suggests avoidance of further ridicule, even though this causal link is only implied. Both interpretations are reasonable, so both C and D can be considered valid, and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1917,
+          "current_index": 616,
+          "failed_summary": "The model prioritized Xiao Ming’s strong interest in science, reasoning that someone who eagerly listens to scientific knowledge is unlikely to truly reject a science reading club. It interpreted “rarely expresses his own opinions” as shyness or social anxiety, so it assumed his stated “does not want to go” was a polite or fearful excuse rather than his real wish. The human answer instead takes his words literally, and because the text never explicitly states a hidden desire to join, both readings are defensible and the model’s answer can also be considered correct."
+        },
+        {
+          "original_index": 1949,
+          "current_index": 631,
+          "failed_summary": "The model likely focused on the explicit statement that Xiao Ming is “very busy with his studies,” directly linking this to his inability to join regular football training, which matches option C. The human answer, option D, infers a motivational reason from the parents’ expectations—he avoids selection because he doesn’t want to disappoint them by diverting attention from academics—which is also well grounded in the context. Both interpretations are reasonable, so both answers are valid and the model’s choice is also correct."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 65,
+      "layer2_cluster_summary": "Across these items, the model tends to anchor on explicitly stated, temporally local events or on generic commonsense scripts (e.g., “serious students keep studying,” “teens like sports”), while humans more often privilege what is pragmatically implied or narratively expected. Many conflicts arise from ambiguity in what “next” or “will do” means—immediate described action versus longer‑term goal, morally appropriate choice, or likely resolution—so both answers are sometimes defensible. Overall, the model underutilizes subtle cues about character motivation, social pressure, and causal foreshadowing that humans treat as decisive.",
+      "layer2_cluster_size": 8,
+      "original_items": [
+        {
+          "original_index": 595,
+          "current_index": 178,
+          "failed_summary": "The model likely focused on the literal event sequence in the story: immediately after hanging up, the text explicitly says Zhang Hua “turns around and sees the sunset,” so it chose C as the next thing he does. The human answer A instead infers his morally appropriate or intended action—going to help Li Lei—which is not directly stated but is pragmatically expected. Because the question is ambiguous between “next described event” and “next meaningful chosen action,” both A and C are reasonable, and the model’s choice is also defensible."
+        },
+        {
+          "original_index": 814,
+          "current_index": 248,
+          "failed_summary": "The model focused on the explicit statement “he must finish dinner first” and treated that as a firm commitment, so it inferred he would simply continue cooking and chose option A, a literal, text-based continuation. The human answer B instead assumes a likely narrative resolution: given the sister’s offer of help and the social pull of a movie with a friend, Xiao Hua will probably accept the invitation, even though the story ends at his hesitation. Both A and B are inferential rather than stated, so both answers are defensible and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 890,
+          "current_index": 277,
+          "failed_summary": "The story’s timeline is explicit: as Li Hua is fixing the wet notebook, Xiao Zhang arrives to borrow a book, so after the notebook problem, the next unresolved event is helping Xiao Zhang.  \nThe human answer (D) tracks this event sequence and treats “next” as the immediate subsequent action in the narrative, not as a return to Li Hua’s long‑term task.  \nThe model chose A by focusing on his main goal of preparing the speech and the boss’s deadline, but this overlooks the textual ordering, so its choice is less consistent with the passage."
+        },
+        {
+          "original_index": 1298,
+          "current_index": 417,
+          "failed_summary": "The model probably focused on the explicit statement that Li Hua was “just about to leave the activity room,” interpreting this as his firm intention to go away and not get involved, which closely matches option B. However, the narrative then deliberately mentions Li Hua noticing Old Wang’s frown and the tea room by the door, a cue commonly used in reading comprehension to imply he decides to make tea to comfort Old Wang and others, aligning with option D. Therefore, the model’s answer overlooks this implicit causal link and is less contextually supported than the human choice."
+        },
+        {
+          "original_index": 1453,
+          "current_index": 470,
+          "failed_summary": "From the story, Li Hua has already resisted the temptation of watching strange birds in order to keep working, showing a clear pattern of prioritizing his math problem over distractions, so humans infer he will most likely keep solving it (A). The model instead leans on generic commonsense that teenagers enjoy socializing and sports, so it prioritizes the new basketball invitation and assumes he will accept and go (C). Thus the model’s choice is inconsistent with the narrative evidence, revealing a failure to track character motivation over time."
+        },
+        {
+          "original_index": 1514,
+          "current_index": 490,
+          "failed_summary": "The model likely prioritized a utilitarian reasoning pattern, inferring that a diligent high-school student facing an imminent physics exam would rationally decide to keep studying in the library until closing. In doing so, it focused on the academic-pressure aspect of the scenario and treated the question as asking what Zhang Hua should do overall, rather than his immediate response to the message. However, the human answer better matches the explicit cue about unread injury details, so the model’s choice is less textually grounded and therefore less appropriate than option C."
+        },
+        {
+          "original_index": 1653,
+          "current_index": 533,
+          "failed_summary": "The model focused on the narrative sequence: after Li Hua replies, the story says he “continues to stay in the library,” where he was already “preparing for an important exam,” which directly matches option A. In contrast, the human answer B seems driven by pragmatic reasoning: with a nearly dead phone and no charging socket, it is plausible Li Hua would soon go home to charge his device. Both interpretations are reasonable, so the model’s answer is also valid, even if it ignored the battery detail emphasized by the human."
+        },
+        {
+          "original_index": 1679,
+          "current_index": 542,
+          "failed_summary": "The story states that after Li Hua’s laptop shows low battery, “He starts to look for power outlets in the library,” which directly matches option B, not D. Option D (“He stays in the library waiting for his sister”) describes one of two *future possibilities* he is merely considering, and the text never confirms that he actually chooses to stay. The model likely focused on the precise temporal cue “after the battery…runs low” and the explicitly described action, whereas the human answer inferred a final decision that the passage does not specify."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 69,
+      "layer2_cluster_summary": "Across these reasons, the disagreement nearly always hinges on ambiguous wording, especially the phrase “should be,” which can denote either actual physical contents or norm‑/label‑based expectations. The model systematically resolves this ambiguity in a literal, world‑state‑tracking way, while the human tends to interpret questions as false‑belief or expectation tasks, privileging labels, social norms, and characters’ perspectives—even when multiple answers are textually defensible. A secondary pattern is that lexical or categorical near‑synonyms (e.g., cabinet vs cupboard) are treated as equivalent by humans but matched rigidly to surface forms by the model.",
+      "layer2_cluster_size": 10,
+      "original_items": [
+        {
+          "original_index": 154,
+          "current_index": 53,
+          "failed_summary": "The story explicitly states that Xiao Li “moves the eggplant to the cabinet,” so the model naturally selected option B, matching the exact noun used in the text. The human, however, chose D, likely interpreting “cabinet” and “cupboard” as equivalent household storage furniture or assuming that “cabinet” in the story was translated from a term that can also mean “cupboard,” making D a semantically similar location. Because everyday language often treats “cabinet” and “cupboard” as near-synonyms, both B and D are reasonable, and the model’s answer is also correct."
+        },
+        {
+          "original_index": 602,
+          "current_index": 182,
+          "failed_summary": "The model likely interpreted the question literally as asking what is actually in the drawer, so it followed the story events: Xiao Hong opens the drawer, observes beetroot and no bananas, then closes it, leading directly to option C. In contrast, the human seems to interpret “should be in the drawer” relative to the label and Xiao Bei’s perspective on entering the room—since the drawer is labeled “banana,” the drawer should contain bananas, regardless of reality. Under this ambiguity, both answers are defensible, and the model’s choice is also reasonable and coherent."
+        },
+        {
+          "original_index": 858,
+          "current_index": 262,
+          "failed_summary": "The story distinguishes between the label (“shirt”) and the actual content (coconut) of the basket. The human answer, C, interprets “What should be in the basket?” as asking about the expected or intended content according to the label and social norms, not the literal object inside, and aligns with typical theory‑of‑mind/false-belief tasks. The model instead treated the question as about the real, observed content at the story’s end, ignoring the pragmatic cue in “should” and the perspective-based reasoning, so its choice D is contextually incorrect."
+        },
+        {
+          "original_index": 876,
+          "current_index": 271,
+          "failed_summary": "The model likely focused on the literal, factual state described in the story: after Youyou opens the basket, the only contents mentioned are tomatoes, so it concluded that tomatoes “should be” in the basket. The human answer instead interprets “should be” in a normative or expectation-based sense: because the label on the basket is a button, one would *expect* or think there “should” be a button inside, aligning with theory-of-mind or label-based reasoning. Under these two different interpretations of “should,” both A (tomatoes) and D (button) are defensible, so the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 927,
+          "current_index": 292,
+          "failed_summary": "The story establishes a mismatch between the backpack’s label (tie) and its real contents (pumpkin), then ends from Youyou’s perspective, inviting interpretation of “should” as expectation based on the label. The human answer C treats “should be inside” as what a reasonable observer, seeing only the labeled backpack, would believe or what is normatively supposed to match the label, emphasizing theory-of-mind reasoning. The model’s choice B instead tracks the literal, updated physical contents after Han Meimei’s actions, ignoring the pragmatic nuance of “should,” so both interpretations are defensible and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1079,
+          "current_index": 349,
+          "failed_summary": "From the story, the box is labeled as containing a ring, but in reality it contains a carrot that Youyou has already seen and then closed back up. The question “What should be inside the box?” is ambiguous: it might refer to the norm/label-based expectation (a ring) or to the actual present contents (the carrot). The human likely interpreted “should” as “according to the label or intended content,” while the model treated it as “what is actually in there now,” so both C and D are defensible answers."
+        },
+        {
+          "original_index": 1097,
+          "current_index": 357,
+          "failed_summary": "The discrepancy arises from how the ambiguous phrase “What should be inside the briefcase?” is interpreted in the context of the story. The human answer, C (beetroot), treats “should” as referring to what one would reasonably expect or believe based on the external label that Xiao Ming sees, emphasizing expected contents over reality. The model’s choice, D (banana), instead treats the question as asking about the actual physical content Li Lei discovered, so both answers are defensible, and the model’s response is also correct."
+        },
+        {
+          "original_index": 1229,
+          "current_index": 395,
+          "failed_summary": "The model likely interpreted “should be in the cabinet” as asking about the actual contents rather than the labeled or expected contents, so it focused on Xiao Hong opening the cabinet and discovering potatoes, leading it to choose D. In contrast, the human answer treats “should” as norm-based or label-based, emphasizing that a cabinet marked “cups” is supposed to contain cups, and it may implicitly adopt Xiao Bei’s perspective before opening it. Because the question’s wording is ambiguous between real contents and intended contents, both interpretations are defensible, so both answers are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1487,
+          "current_index": 478,
+          "failed_summary": "From the story, there is a mismatch between the drawer’s label (“cucumber”) and its true content (a book), and the question “What should be inside the drawer?” is ambiguous between expectation and reality. The model likely interpreted “should be” as asking what is actually in the drawer after Xiao Hong’s observation, so it answered “Book,” focusing on physical state rather than anyone’s belief. The human answer treats “should be” as referring to what Youyou or a person would expect from the label, so “Cucumber” fits the task’s theory‑of‑mind focus, yet both interpretations – and thus both answers – are defensible."
+        },
+        {
+          "original_index": 1527,
+          "current_index": 497,
+          "failed_summary": "The discrepancy comes from how the phrase “What should be inside the basket?” is interpreted in relation to the story and perspective-taking. The human likely treated this as a false-belief question about Youyou, who only sees the external label “pepper powder,” so they answered D, focusing on what the character rationally expects to be there. The model instead tracked the actual state of the world—Xiao Hong has already looked inside and found only a sweater—so it answered C, which is also a coherent, reality-based interpretation of what the basket should currently contain."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 73,
+      "layer2_cluster_summary": "Across these reasons, the model repeatedly latches onto vivid similes that mention familiar Earth animals or behaviors and directly maps them to answer options. In doing so, it ignores key narrative constraints about what exists in the character’s environment and what the character can plausibly know or observe, failing to track the agent’s knowledge state. The human-consistent answers instead rely on reasoning about perspective and accessibility—choosing non-obvious options (robots, sculptures, local creatures) that match the character’s experiences rather than the surface wording of the description.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 187,
+          "current_index": 60,
+          "failed_summary": "The model likely focused on the explicit simile “reminds people of…a ballet dancer in a toe spin,” and treated the question as asking what the motion most closely resembles from a human observer’s perspective, leading it to choose option A. However, the story also clearly states that Asteria has no animal life and that Quixo lacks any animal knowledge, while emphasizing its familiarity with spiral crystal formations, so B better fits what Quixo could actually be imitating. The model’s answer is therefore less consistent with the story’s constraints than the human answer."
+        },
+        {
+          "original_index": 788,
+          "current_index": 239,
+          "failed_summary": "The model likely focused on the explicit cue “these actions are similar to … people smelling flowers,” so it chose option C, directly matching the described comparison of bending down as if smelling a rose. However, the story also states that there is no plant life in the station and Tinklo does not understand any plant-related information, while the environment is full of mechanical devices and robots. Thus, the more coherent inference is that Tinklo imitates behavior it can actually observe—B, a robot bending over to pick up objects—making the model’s choice less consistent with the setup."
+        },
+        {
+          "original_index": 1033,
+          "current_index": 331,
+          "failed_summary": "The model likely fixated on the explicit comparison of Plexi’s movements to “a playing cat and a squirrel looking for food,” and picked the closest literal match. This led it to choose the squirrel option, while overlooking the earlier statement that Solaris has no land creatures and Plexi knows nothing about them. Because Plexi can actually observe only drones and gadgets in its environment, the human answer B aligns better with the story’s logic, making the model’s choice more inconsistent."
+        },
+        {
+          "original_index": 1330,
+          "current_index": 432,
+          "failed_summary": "The model focused on the narrative phrase that Pixel’s motion “reminding people of hummingbirds shuttling between flowers” and directly mapped that vivid similarity onto option A about a hummingbird. However, it overlooked the crucial constraint in the story that the lab is isolated from Earth and Pixel “knows nothing about the creatures on land,” so Pixel cannot intentionally imitate hummingbirds. Reasoning about what Pixel has actually observed—only the floating spherical drones that move in a similar way—supports the human answer B as the correct target of imitation, making the model’s choice incorrect."
+        },
+        {
+          "original_index": 1426,
+          "current_index": 465,
+          "failed_summary": "The model likely latched onto the vivid similes “like an eagle hunting or a butterfly shuttling through flowers” and treated them as the direct target of imitation, leading it to select option A. However, the passage explicitly states that there are no animals in Skyhaven and Pixel knows nothing about them, while emphasizing the many wind‑driven kinetic sculptures Pixel can actually observe. Therefore, careful reasoning about what Pixel can perceive and copy makes the human answer (B, the special kind of sculpture) better supported, and the model’s choice incorrect."
+        },
+        {
+          "original_index": 1587,
+          "current_index": 514,
+          "failed_summary": "The model likely focused on the explicit cue “mechanical call, somewhat similar to a lion’s roar,” and matched it directly to the option “Lion,” using a surface-level similarity heuristic. In doing so, it ignored the crucial contextual constraints: Lumina has no large mammals, and Rizo “knows nothing about these creatures,” so it could not plausibly be imitating a lion but must be imitating something actually present, like a lizard native to the desert. Thus, the human’s answer C is better supported by the story, and the model’s choice B is incorrect."
+        },
+        {
+          "original_index": 1716,
+          "current_index": 554,
+          "failed_summary": "The model likely focused on the explicit description “very similar to a hummingbird hovering for food in mid-air,” and matched it directly to option A, overlooking the logical constraints set by the story. The passage clearly states that Circuiton has never had contact with Earth’s animals and that Blinko knows nothing about them, but is surrounded by small hovering drones whose movement style he could actually observe and imitate, making option B the better-supported answer. Thus, the model’s choice is incorrect because it prioritized surface similarity over narrative logic and given premises."
+        }
+      ]
+    }
+  ]
+}

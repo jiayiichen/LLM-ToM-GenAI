@@ -1,0 +1,712 @@
+{
+  "layer3_cluster_label": 6,
+  "layer3_cluster_summary": "Across the cluster, the model does shallow pattern‑matching from salient surface cues or keywords to stereotyped single emotions, over‑relying on initial events, generic social heuristics, and lexical echoes of labels. It systematically underweights broader narrative structure, temporal shifts, subtle discourse markers, social‑relational norms, and question framing about whose perspective, which timepoint, and whether inner feelings or outward appearance are being asked about. Many vignettes are genuinely ambiguous, so disagreements usually reflect miscalibrated evidence weighting and exam‑style label conventions rather than deep Theory‑of‑Mind failure.",
+  "layer3_cluster_size": 12,
+  "total_original_items": 88,
+  "all_original_indices": [
+    26,
+    41,
+    64,
+    82,
+    83,
+    86,
+    213,
+    215,
+    322,
+    337,
+    380,
+    431,
+    507,
+    510,
+    515,
+    518,
+    557,
+    567,
+    600,
+    609,
+    613,
+    636,
+    640,
+    688,
+    693,
+    736,
+    755,
+    764,
+    769,
+    771,
+    772,
+    783,
+    784,
+    819,
+    823,
+    868,
+    870,
+    881,
+    892,
+    901,
+    934,
+    961,
+    975,
+    979,
+    1013,
+    1042,
+    1055,
+    1056,
+    1057,
+    1071,
+    1074,
+    1075,
+    1091,
+    1092,
+    1126,
+    1210,
+    1231,
+    1306,
+    1364,
+    1379,
+    1383,
+    1404,
+    1409,
+    1498,
+    1503,
+    1507,
+    1582,
+    1628,
+    1655,
+    1683,
+    1695,
+    1713,
+    1738,
+    1754,
+    1758,
+    1777,
+    1784,
+    1786,
+    1809,
+    1846,
+    1865,
+    1883,
+    1908,
+    1909,
+    1918,
+    1950,
+    1962,
+    1974
+  ],
+  "all_current_indices": [
+    8,
+    13,
+    20,
+    27,
+    28,
+    29,
+    70,
+    71,
+    97,
+    101,
+    114,
+    132,
+    153,
+    154,
+    156,
+    157,
+    166,
+    170,
+    181,
+    183,
+    185,
+    192,
+    194,
+    204,
+    207,
+    218,
+    224,
+    227,
+    229,
+    230,
+    231,
+    235,
+    236,
+    250,
+    251,
+    266,
+    267,
+    273,
+    279,
+    283,
+    298,
+    306,
+    310,
+    314,
+    324,
+    332,
+    339,
+    340,
+    341,
+    345,
+    346,
+    347,
+    353,
+    354,
+    367,
+    391,
+    396,
+    419,
+    443,
+    447,
+    449,
+    455,
+    457,
+    482,
+    484,
+    487,
+    512,
+    524,
+    534,
+    543,
+    548,
+    552,
+    558,
+    560,
+    562,
+    569,
+    573,
+    574,
+    581,
+    591,
+    598,
+    603,
+    612,
+    613,
+    617,
+    632,
+    637,
+    641
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 0,
+      "layer2_cluster_summary": "Across these reasons, the model relies on a simplistic mapping from external events to “obvious” internal emotions and assumes those emotions directly determine the truth of subsequent statements. It prioritizes logical consistency at the surface level—e.g., winning implies happiness, public failure implies embarrassment—rather than tracking the narrative’s explicit cues about masking, conflicting feelings, or differences between inner states and outward presentations. In contrast, the human answers attend to perspective, context, and the text’s meta-information about what is said, what is felt, and what is displayed.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 1091,
+          "current_index": 353,
+          "failed_summary": "The model likely focused on the surface facts (Li Hua’s team won first place and he personally won an award) and inferred that he must actually be happy, so his later claim “I am really sad” was judged false. It seems to have treated emotions as directly determined by external success and looked for logical consistency, assuming that contradicting an earlier “I am really happy” statement implies insincerity in the later one. In contrast, the human answer accounts for hidden feelings (e.g., pressure, unfairness, jealousy), so the model’s choice is less appropriate here."
+        },
+        {
+          "original_index": 1918,
+          "current_index": 617,
+          "failed_summary": "The model likely focused on the obvious emotional reaction to falling in front of others—feeling humiliated—so it inferred that Zhao Bo must be embarrassed rather than analyzing what he outwardly projects. However, the passage explicitly states that he hides his real feelings because he worries they won’t be believed, and instead redirects attention to the cause of the mistake, signaling controlled composure. Thus, a careful reading supports the human answer that he appears confident while masking his embarrassment, showing the model’s choice focused on internal emotion rather than the described outward appearance."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 9,
+      "layer2_cluster_summary": "Across these reasons, the model repeatedly latches onto the most salient or literal cue—initial events, generic social heuristics, or explicitly stated desires—while neglecting broader narrative structure, contrastive wording, and subtle implications. Humans, and the intended labels, more often integrate shifting time points, social-relational meanings (closeness, recognition, commemorative grief), and the possibility of genuinely mixed or conflicting emotions, distinguishing inner feeling from outward display. As a result, many items are ambiguous with multiple defensible emotions, and the model’s answers are psychologically reasonable yet frequently misaligned with the test’s narrow “best” choice.",
+      "layer2_cluster_size": 16,
+      "original_items": [
+        {
+          "original_index": 82,
+          "current_index": 27,
+          "failed_summary": "Given the brief vignette, the model likely fixated on the explicit causal link in option C: Xiao Ming has newly learned kite‑repair skills and brought tools, so damage becomes a manageable challenge instead of a true loss. This fits a pattern where models prefer explanations based on personal competence and preparation, interpreting his happiness as confidence in using a new ability rather than reacting to the damaged kite itself. Yet human annotators favored B because a friend’s spare kite more directly explains obvious happiness, though both answers remain narratively plausible and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 215,
+          "current_index": 71,
+          "failed_summary": "The model focused on the sentence “she really wants to know where her shortcomings are,” which directly indicates a desire to understand and learn, naturally mapping to the emotion “curious.” The human answer “happy” instead interprets her positive attitude toward Zhang Tao’s changes (“may be improvements”) as emotional pleasure or satisfaction, emphasizing acceptance and optimism rather than the cognitive state of inquiry. Both emotions can reasonably arise simultaneously in this context, so both answers are valid and the model’s choice is also correct."
+        },
+        {
+          "original_index": 518,
+          "current_index": 157,
+          "failed_summary": "The model likely focused on the narrative emphasis that the whole startup project won first prize and that Zhou Jing had worked very hard early on, then got sick and received no formal credit for that success. From this angle, option C—happy about the project’s victory but depressed about her lack of recognition—matches a common psychological reading of mixed emotions over fairness and acknowledgment, even though her spoken happiness is framed around Zhao Lei’s individual award. Thus both A and C are defensible, and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 640,
+          "current_index": 194,
+          "failed_summary": "The model likely treated Wang Mei’s two statements (“I am so happy” vs. “I am really disappointed”) as mutually exclusive, assuming a person cannot genuinely feel both happiness and disappointment at the same time. From that rigid, non‑psychological view, if she is truly happy for Zhao Min’s success, then claiming to be “really disappointed” to her sister must be false, leading the model to choose B. However, people commonly experience mixed emotions (pride in the team and friend, disappointment in personal results), so her disappointment is plausibly sincere, making A the better-supported answer."
+        },
+        {
+          "original_index": 769,
+          "current_index": 229,
+          "failed_summary": "The question asks about Xinxin's “real feelings,” contrasting her internal emotional state with the appearance she presents to convince her mother to let her attend the party. A human might infer she feels sad because she has a stomachache, must hide her discomfort, and risks not fully enjoying the event, making sadness a natural basic emotion label. The model likely focused on the mismatch between her desire to go and her physical condition, interpreting this as frustration and unmet expectations, thus choosing “disappointed,” which is also a reasonable, defensible answer here."
+        },
+        {
+          "original_index": 771,
+          "current_index": 230,
+          "failed_summary": "The model likely focused narrowly on the initial event—Xiao Ming discovering his kite is damaged—and inferred the immediate, intuitive emotional reaction of disappointment, leading it to choose option A. In contrast, the human answer B reflects integrating the subsequent context that Xiao Hua anticipated the problem and brought a spare kite, so “at this moment” Xiao Ming may feel happy or relieved rather than upset. Since both the disappointment at damage and happiness at the timely help can plausibly coexist, both answers are reasonable and the model’s choice is also defensible."
+        },
+        {
+          "original_index": 819,
+          "current_index": 250,
+          "failed_summary": "The model likely focused on the latter part of the story, where the father insists Lili must not tell her younger brother and she then encounters him, interpreting this as creating internal conflict and potential guilt. From that perspective, choosing “worried” seems reasonable: she might fear her brother will follow, or feel uneasy about keeping a secret, so the model prioritized anticipated anxiety over the earlier positive emotions. However, the human answer emphasizes the father’s praise and promised toy, so both “happy” and “worried” are psychologically plausible, and the model’s choice is also defensible."
+        },
+        {
+          "original_index": 870,
+          "current_index": 267,
+          "failed_summary": "The model likely relied on a simple social-psychological heuristic: fewer listeners → less pressure → more relaxation and thus some excitement, leading it to choose A as a plausible, generic explanation. However, the question’s contrastive phrasing (“should feel disappointed…but she seems very excited”) and the detail that this was an “important” speech prepared for months suggest a stronger, special positive reason, best captured by C: a confidential meeting with highly admired experts. Thus, the model’s choice is ultimately misaligned with the intended, more contextually justified answer."
+        },
+        {
+          "original_index": 901,
+          "current_index": 283,
+          "failed_summary": "The model likely focused on ordinary social-emotional reasoning: once Bob “realizes that he may have shredded Emily’s document by mistake,” it inferred he would feel negative emotions like panic and guilt over causing serious harm, leading to option D. The human label instead treats Susan’s reassurance and the framing of Bob as “not at fault” as dominant, so it infers that Bob might feel satisfied for having properly done his cleaning job despite the mishap, choosing option A. Both interpretations are psychologically plausible, so both answers are arguably valid and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 1055,
+          "current_index": 339,
+          "failed_summary": "The model probably focused on the phrases “takes a gondola for the first time,” “always dreams of experiencing this unique form of water transportation,” and “plan she makes,” which strongly suggest excitement and fulfillment, leading it to choose C (Thrilled). The human answer A (Sadness) instead prioritizes the detail that the plan was made with her “late grandmother” and that she now goes alone, implying grief and loneliness overshadowing the excitement. Both emotions are plausible in context, so both answers can be defended, but the human answer better emphasizes the story’s explicit loss."
+        },
+        {
+          "original_index": 1056,
+          "current_index": 340,
+          "failed_summary": "The model likely focused on the literal event that Zhang Hong did not invite Liu Jing, applying everyday social norms where being excluded from a friend’s birthday party typically causes disappointment rather than happiness. In contrast, the human (and test designer) interpret the prior agreement to celebrate together as implying that not sending an invitation is a sign of assumed closeness, so Liu Jing will feel happy about sharing the party. Given the ambiguous wording, both emotional inferences are reasonable, so the model’s choice is also a valid, context-sensitive answer."
+        },
+        {
+          "original_index": 1075,
+          "current_index": 347,
+          "failed_summary": "The model likely focused on the story’s overall positive trajectory—Xiao Guang eventually chatting and walking home with them—so it inferred that his initial feeling was happiness and expectation of making friends (Option B). The human answer (A) instead emphasizes his initial uncertainty, which is also supported by the text: at first he only smiles quietly, suggesting some curiosity and confusion about their intentions before relaxing. Both readings are reasonable, so both A and B are valid; the model’s answer is understandable rather than clearly incorrect."
+        },
+        {
+          "original_index": 1498,
+          "current_index": 482,
+          "failed_summary": "The model likely focused on the fact that Zhang Tingting is described as a “music lover” and that a nearby piano concert is happening, so it inferred she would feel excitement or anticipation, leading to the choice “Thrilled.” The human answer instead emphasizes the commemorative nature of the concert—held in memory of Mr. Zhao’s deceased wife—which naturally cues sadness and empathy as the more contextually sensitive reaction. Given the sparse description, both emotional responses are psychologically plausible, so both A and B can be considered valid."
+        },
+        {
+          "original_index": 1503,
+          "current_index": 484,
+          "failed_summary": "The model likely focused on the overwhelmingly positive descriptions of the house—“excellent architectural structure,” “very comfortable and safe,” “every family dreams of,” and “everyone in the family likes this bigger, more comfortable home”—and therefore inferred that “Happy” best captured the family’s dominant emotion about moving. In contrast, the human answer foregrounds the later clause about worrying whether the elderly grandparents can adapt, interpreting the question as emphasizing this specific concern. Since real families can feel simultaneous happiness and worry in such situations, both B and C are reasonable interpretations, and the model’s answer is also defensible."
+        },
+        {
+          "original_index": 1865,
+          "current_index": 598,
+          "failed_summary": "The model likely focused on Zhou Yu’s internal emotional state: he has a stomachache, knows his mother might forbid him to go out, and thus plausibly feels worried, so it inferred he would appear anxious. However, the question asks how he “appears” while intentionally hiding his pain to convince his mother to let him go out, implying he would act cheerful or “happy” despite discomfort. Both answers are valid and the model’s answer is correct, since B and D are psychologically reasonable, but B better matches the wording about outward appearance, while D emphasizes internal emotion rather than visible behavior."
+        },
+        {
+          "original_index": 1909,
+          "current_index": 613,
+          "failed_summary": "The model likely used a shallow heuristic that “birthdays + receiving a gift = happiness,” so it focused on the positive event of getting a bicycle and ignored the mismatch between Xiao Ming’s wish and the actual gift. A more context-sensitive reading notices that he specifically *hoped* for a computer or new game, implying a clear expectation that was not met, which commonly leads to disappointment rather than happiness. Therefore, the model’s choice of B is incorrect, and C, “Disappointed,” better reflects the emotional implication of the story."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 20,
+      "layer2_cluster_summary": "Across these cases, the model tends to anchor on salient, surface-level cues—success, prosocial behavior, or immediate wrongdoing—and maps them to stereotypical emotions like pride, guilt, or embarrassment, while underweighting contrast markers (“but,” “however”), later revelations, and exam-style moral framing. The human answers more often track the narrative’s value-laden focus (filial gratitude, respect for donations, exam morality, social prejudice) and the specific timepoint “after learning X,” yielding emotions like worry, sadness, relief, or cherish. Many vignettes are genuinely ambiguous, so the disagreement often reflects different weighting of cues rather than outright reasoning failure.",
+      "layer2_cluster_size": 15,
+      "original_items": [
+        {
+          "original_index": 64,
+          "current_index": 20,
+          "failed_summary": "The model likely focused on the immediate social consequence of spilling a drink on someone, inferring Zhang Wei’s primary reaction as embarrassment, which is a common emotional response to causing an awkward accident in public. The human answer instead centers on Zhang Wei’s emotional response to Li Hua’s unexpected tolerance and reconciliation, inferring gratitude once Zhang recognizes Li’s kindness and the resolution of their dispute. Because the story supports both an initial sense of embarrassment and a deeper feeling of gratitude, both answers are reasonable and the model’s choice is also valid."
+        },
+        {
+          "original_index": 636,
+          "current_index": 192,
+          "failed_summary": "The model likely fixated on the early description that the student council presidency is a highly respected position and a significant achievement, which naturally cues the emotion of pride. It underweighted the contrastive cue “however” and the explicit statement that Mr. Zhang thinks the role affects his daughter’s studies, which is meant to shift the focus from pride to concern. Because the question asks about his emotion regarding her becoming president in this specific context, the human answer “worried” fits the narrative emphasis better than “proud,” so the model’s choice is not optimal."
+        },
+        {
+          "original_index": 784,
+          "current_index": 236,
+          "failed_summary": "The story portrays Xiao Ming voluntarily giving up an important basketball game in order to help raise funds for an orphanage, which is usually framed as a morally admirable, prosocial act. The model likely inferred an internal conflict and imagined that Xiao Ming felt guilty either for neglecting his responsibility to his team or for the orphans’ plight, so it chose “guilt,” even though the narrative gives no evidence of remorse or self-blame. In contrast, “proud” fits standard reading-comprehension conventions here, because such selfless sacrifice is typically associated with justified pride in doing the right thing."
+        },
+        {
+          "original_index": 979,
+          "current_index": 314,
+          "failed_summary": "The model likely focused on Zhang Wei’s prosocial intention (improving class activities) and the phrase “helps improve the quality of class activities,” so it inferred he would feel proud and satisfied about the outcome rather than reflecting on the moral issue. However, the question explicitly asks about his emotion *after he learns* the money was from the donation box, which shifts the focus from good intentions to misuse of others’ donations. In that context, guilt over using money that doesn’t belong to him (option D) is the better-supported answer, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1013,
+          "current_index": 324,
+          "failed_summary": "The model likely focused narrowly on Bob’s competitive success and inferred that obtaining key information, even unfairly, would make him feel proud and satisfied about increasing his chances of promotion. However, the vignette emphasizes that the file was Amy’s unshared property and that Bob was reported for plagiarism, strongly framing his behavior as unethical rather than clever or justified. Given this moral framing and the question’s phrasing about his feelings after discovering the truth, guilt and uneasiness are the most context-consistent emotions, so the model’s selection of pride is implausible and incorrect."
+        },
+        {
+          "original_index": 1074,
+          "current_index": 346,
+          "failed_summary": "The model focused primarily on the immediately positive event—Xiao Hong winning first place and being a goal‑driven child raised by an “enlightened” mother—so it inferred that pride (option C) was the most natural reaction. However, the question explicitly highlights that Zhang Juan “thinks of her deceased husband,” a strong cue in many reading‑comprehension tasks that the tested emotion is grief or sadness (option B), not just satisfaction with her daughter’s achievement. Both pride and sadness are psychologically plausible here, but the human answer follows the exam’s conventional focus on the salient “deceased husband” detail."
+        },
+        {
+          "original_index": 1092,
+          "current_index": 354,
+          "failed_summary": "The model likely fixated on Wang Zhi becoming “disheartened” after Liu Mei alone was promoted, inferring that his earlier statement of pride was insincere or overridden by jealousy, so it chose “No.” In contrast, the human answer interprets emotions as dynamic and layered: Wang Zhi can genuinely feel proud of the joint success at first, yet later feel disappointed or unfairly treated when rewards are distributed, without retroactively negating his pride. Thus, the model’s choice is ultimately incorrect because it treats pride and later disappointment as mutually exclusive."
+        },
+        {
+          "original_index": 1306,
+          "current_index": 419,
+          "failed_summary": "The model likely focused on the immediate, realistic emotional reaction to being teased for worn-out shoes, so it chose “Embarrassed,” which is a common, psychologically plausible response to social ridicule. The human answer, “Cherish,” reflects a moral-educational framing implied by the detail that the shoes were lovingly handmade by his grandmother, emphasizing gratitude and appreciation over situational shame. Under a purely descriptive lens the model’s choice is reasonable, but within the intended values-oriented context of the question, “Cherish” is more aligned with what he *should* show."
+        },
+        {
+          "original_index": 1364,
+          "current_index": 443,
+          "failed_summary": "The model likely focused on Xiaoyun’s academic success (earning a doctorate) and her altruistic choice to help disadvantaged groups, inferring that such socially valuable work would naturally make a parent proud. However, the human answer treats the mother’s “high hopes” and the family’s “average” situation as implying expectations of a higher-status or better-paid career, so her feeling becomes relief that her daughter has a stable job at all. Because the text does not state Mrs. Wang’s reaction explicitly, both “proud” and “relieved” are defensible inferences, so the model’s choice is reasonable even though it differs from the human reference answer."
+        },
+        {
+          "original_index": 1379,
+          "current_index": 447,
+          "failed_summary": "The model likely focused on the immediate surface cues—winning a championship and receiving praise—so it inferred Zhang Wei would naturally feel “proud,” a very common emotional response in success scenarios. The human answer “guilt” depends on integrating the brother’s ongoing hardship and sacrifice, inferring that Zhang Wei might feel uneasy enjoying success built on his brother’s exhausting part-time work and lack of free time. Both interpretations are reasonable: pride is a plausible, straightforward reading, while guilt reflects a deeper moral-emotional inference, so the model’s answer is also valid."
+        },
+        {
+          "original_index": 1507,
+          "current_index": 487,
+          "failed_summary": "The model likely focused on Yangyang’s intentional wrongdoing—stealing and hiding her sister’s favorite toy—and the fact that she conceals her feelings, which are classic cues of guilt and secretive remorse. In contrast, the human answer emphasizes that Yangyang is primarily afraid of her sister’s anger and possible punishment, so when she tries to hide her emotions she outwardly appears tense and anxious. Given the story’s ambiguity—Yangyang both does something wrong and fears being caught—both “anxious” and “guilty” are reasonable interpretations of her appearance, so both answers are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1582,
+          "current_index": 512,
+          "failed_summary": "The model likely focused on the clause that Li Ting “thinks” Zhang Hua’s techniques are inefficient and outdated, inferring a negative emotional response consistent with contempt toward what she perceives as inferior methods. In contrast, the human answer emphasizes the narrative’s second part—these techniques are actually very beneficial—leading to an interpretation that Li Ting ends up feeling proud of her student’s effective traditional gardening. Both readings are reasonable given the ambiguous timing of her realization, so the model’s choice of contempt and the human’s choice of pride are both defensible."
+        },
+        {
+          "original_index": 1683,
+          "current_index": 543,
+          "failed_summary": "The model likely focused on the salient cue that Xiaoqiang became captain of a very popular football team, a status usually framed as an impressive achievement that would naturally make most parents feel proud. Anchored on this common-sense association between children’s success and parental pride, it overlooked the contrastive marker “but” and the explicit statement that Mrs. Li thinks her son may face pressure. Thus the human answer “worried” better matches the text’s emphasis on concern about balancing study and football, although feeling proud is also a plausible secondary emotion."
+        },
+        {
+          "original_index": 1784,
+          "current_index": 573,
+          "failed_summary": "The model likely focused on the salient, positive cues: Wang Lei is a programmer whose “new algorithm” is “widely considered as a major breakthrough,” which naturally aligns with feeling *proud* of public recognition. The human answer instead prioritizes the latter detail that “the algorithm involves secrets and needs approval,” inferring that wide attention would make Wang Lei *worried* about possible violations, exposure, or consequences. The scenario is ambiguous, so both emotional inferences are reasonable; therefore, both answers are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1974,
+          "current_index": 641,
+          "failed_summary": "The model likely focused on general moral psychology: seeing that Kate recognizes a duty to speak up but stays silent naturally suggests inner guilt and conflict, pushing it toward option C. In doing so, it underweighted the narrative detail that she was previously tricked by a blind person, which more directly implies a resulting negative bias or disgust toward blind people, aligning with option B. Both B and C are psychologically plausible interpretations of Kate’s emotion, so the model’s answer is reasonable even though it overlooks the prejudice cue emphasized in the human answer."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 24,
+      "layer2_cluster_summary": "Across these items, the model repeatedly prioritizes inferred internal emotions or moral evaluations over the question’s explicit focus on outward appearance or surface behavior. It overweights cues about potential unfairness, guilt, or worry and underweights textual signals about concealment, rewards, or pragmatic self-presentation to others. As a result, it systematically selects emotions like “happy,” “annoyed,” or “guilty” that fit a rich backstory it constructs, while human answers like “calm,” “happy,” or “angry” better track the narrative’s stated perspective and question wording.",
+      "layer2_cluster_size": 5,
+      "original_items": [
+        {
+          "original_index": 380,
+          "current_index": 114,
+          "failed_summary": "The model likely focused on the obvious emotional consequence of receiving unanimous praise—feeling pleased—so it inferred that Yuanyuan appears “Happy.” However, the story explicitly states that she tries to hide her real feelings so her friends will not become jealous, implying her outward appearance is restrained rather than visibly joyful. Because the question asks how she appears, not what she actually feels, “Calm” best reflects her external presentation, so the model’s answer is not appropriate to the specific wording of the scenario."
+        },
+        {
+          "original_index": 772,
+          "current_index": 231,
+          "failed_summary": "The model likely focused on sibling rivalry and perceived unfairness, inferring Nana would be annoyed at either her brother’s complaints or her mother’s instruction not to reveal the privilege. However, the question asks how she appears \"on the surface,\" which in this type of story usually means the expression she adopts to hide the secret from her brother, making \"calm\" a better fit. Because the narrative emphasizes concealment rather than resentment, the model’s choice is less appropriate than the human answer."
+        },
+        {
+          "original_index": 1383,
+          "current_index": 449,
+          "failed_summary": "The model likely focused on Lili’s internal emotional state, inferring that she would feel anxious that her younger brother might discover the secret outing and lose his needed nap, so it chose “worried.” However, the question asks how Lili “appears,” pointing to her outward behavior or expression, and in order not to arouse her brother’s curiosity she would probably try to look neutral and composed rather than visibly concerned. Thus the human choice “calm” better matches the pragmatic, appearance-focused interpretation of the scenario, making the model’s answer less appropriate."
+        },
+        {
+          "original_index": 1404,
+          "current_index": 455,
+          "failed_summary": "The model likely focused on the restriction and perceived unfairness toward the little brother, inferring that Nana might feel annoyed at having to hide the privilege instead of simply enjoying it. However, the narrative explicitly frames staying up late as a reward for helping her mother, with no cues that Nana resents the secrecy or prioritizes fairness over the happiness of getting special TV time. Thus the human answer of “Happy” best matches the intended emotional inference, and the model’s choice of “Annoyed” reflects an overemphasis on moral fairness reasoning rather than on the child’s likely emotional reaction."
+        },
+        {
+          "original_index": 1883,
+          "current_index": 603,
+          "failed_summary": "The model likely focused on the sentence “Yangyang tries to hide her feelings” and inferred that people typically hide guilt, leading it to choose “Guilty.” However, the narrative shows Yangyang is retaliating because her sister first took her favorite toy; hiding her feelings “otherwise her sister gets angry at her” suggests she’s concealing satisfaction or anger at having secretly taken revenge, not remorse. Thus, the human answer “Angry” better matches the story’s motive and emotional logic, and the model’s choice is not well supported."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 32,
+      "layer2_cluster_summary": "Across these items, the model often defaults to literal, surface-level readings—prioritizing explicit outcomes, general norms (e.g., bad smells are disgusting, poverty is negative), or charitable assumptions about speakers—while neglecting nuanced contextual cues about roles, preferences, wording, or timing. It frequently misidentifies the target of evaluation (inner feeling vs outward display, character vs actor, which statement/question is being assessed) and assumes emotions and statements must be single, consistent, and fully truthful. Humans instead integrate private vs public perspectives, mixed emotions, social politeness, and puzzle-like logical constraints, making their answers better aligned with test expectations.",
+      "layer2_cluster_size": 17,
+      "original_items": [
+        {
+          "original_index": 41,
+          "current_index": 13,
+          "failed_summary": "The story states that Li Na’s plan to rebuild the park encounters strong opposition, a situation that most naturally implies she feels anger or frustration toward the opposing residents rather than self-blame or sorrow about her own proposal. The human answer “angry” matches this interpersonal conflict reading, as opposition from others commonly evokes anger, especially when she has invested effort and believes the plan is beneficial to the community. The model’s choice “regretful” is less supported, likely reflecting an overgeneralization that any resistance makes the proposer doubt themselves, so its answer is not as contextually justified as the human one."
+        },
+        {
+          "original_index": 83,
+          "current_index": 28,
+          "failed_summary": "The model likely focused on the literal outcome of the story—Wang Li’s team wins first place and Chen Yue gets an individual first prize—so it inferred Wang Li should genuinely feel happy, making her later statement “I am really sad” to her sister seem false, thus choosing B. The human, however, interprets the contrast between the two statements as revealing concealed jealousy or disappointment, so the confession to her sister is taken as her true feeling, hence A. Both readings are logically defensible, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 86,
+          "current_index": 29,
+          "failed_summary": "The model probably leaned on the common assumption that strong food smells, especially onion-like odors on a crowded bus, are typically unpleasant, so it defaulted to predicting disgust. By doing this, it ignored or downplayed the clear contextual statement that Zhao Yan is a food expert who particularly enjoys the fresh scent of onions, a detail that should bias the inference toward a positive emotion. Given that her known preference directly matches the smell spreading around her, the human answer “Thrilled” best fits the story, and the model’s choice of “Disgust” is not well justified."
+        },
+        {
+          "original_index": 213,
+          "current_index": 70,
+          "failed_summary": "The passage only states that Xiao Li volunteers to teach rural children so they can receive education and that she notices harsh conditions and limited resources, without describing the children feeling guilty. The model may have overfocused on the negative environment, mistakenly assuming that suffering or deprivation corresponds to guilt, or confusing a possible adult reaction with the students’ emotions. Because the narrative emphasis is on children finally accessing schooling through a caring volunteer, it is more coherent to infer they feel happy, so the human answer is correct."
+        },
+        {
+          "original_index": 337,
+          "current_index": 101,
+          "failed_summary": "The story emphasizes that Xiao Li is playing a tragic role and “immerses herself into the role,” which cues that the emotion being asked about is the character’s feeling, i.e., sadness. The model likely focused instead on the later detail that the audience praises her wonderful performance and her being very demanding of herself, inferring she would feel proud of her acting achievement. However, reading comprehension questions of this type usually target the directly described, in‑scene emotion, so the model’s choice overlooks the narrative focus and is less appropriate than the human answer."
+        },
+        {
+          "original_index": 431,
+          "current_index": 132,
+          "failed_summary": "The model likely assumed emotional states must remain consistent, so it treated Li Xiao’s later claim of sadness as contradicting her earlier happiness and therefore judged it false. In contrast, the human answer interprets the story as highlighting that Li Xiao masked her true feelings (perhaps jealousy or disappointment about not winning the best paper award), meaning her private statement to her father accurately reflects her real emotion. Under this reading, the human answer is more contextually sensitive, so the model’s choice is less justified and thus incorrect."
+        },
+        {
+          "original_index": 515,
+          "current_index": 156,
+          "failed_summary": "The story explicitly states that Li Yue personally finds the cheongsam’s color and style “a bit outdated,” yet she tells her grandmother it is “very beautiful and fits very well,” indicating a polite “white lie.” The human answer B (“No”) follows this contrast between inner thought and spoken words, treating “telling the truth” as matching one’s genuine opinion rather than social politeness. The model likely focused on the narrative’s positive framing of the compliment and inferred that the dress might objectively look fine, thus misclassifying the compliment as truthful."
+        },
+        {
+          "original_index": 557,
+          "current_index": 166,
+          "failed_summary": "The story describes Zhao Li outwardly congratulating Wang Qiang but later privately telling her sister she is disappointed and cannot believe how she was treated, revealing her true feelings. The question asks whether what she tells her sister is true, which targets the sincerity of her private statement about her disappointment rather than her polite remark to Wang Qiang. The model likely focused on the contrast between her public and private statements and assumed one must be false, mistakenly picking B, while the narrative clearly supports A because her disappointment is genuine."
+        },
+        {
+          "original_index": 609,
+          "current_index": 183,
+          "failed_summary": "The puzzle states the prisoner will definitely lie to protect his army, so his claim “in the mountains” must be false, implying the tank is actually at the sea. The human answer reflects this logical inversion and assumes the Red Army, being aware of his tendency to lie, will reason correctly and head to the sea, while the model seems to have taken his statement at face value or ignored the lying constraint. Therefore, the model’s choice is incorrect and the human answer better matches the puzzle’s intended logic."
+        },
+        {
+          "original_index": 736,
+          "current_index": 218,
+          "failed_summary": "Xiaoyue has made silly mistakes while all her friends report doing perfectly, so the model likely inferred she would feel anxious or guilty, leading it to select “troubled” as her most natural emotional state. However, the question asks how she *looks* at the moment she is actively pretending to have done as well as them, which highlights her outward appearance rather than her inner feelings, matching “happy” as the human chose. Thus, the model’s answer is understandable but ultimately incorrect because it neglected the significance of the word “pretend” and the external-focus wording."
+        },
+        {
+          "original_index": 783,
+          "current_index": 235,
+          "failed_summary": "The model likely assumed that Li Chen’s two statements cannot both be genuine, so it treated his happiness about his friend’s victory as the “real” emotion and inferred that the later complaint to his dad was insincere, leading to answer B. It missed that people commonly experience mixed or layered emotions, so Li Chen can honestly feel both happy for his friend and disappointed for himself at the same time. Because the story explicitly states “I am really disappointed,” the dad-directed statement is presented as true, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 823,
+          "current_index": 251,
+          "failed_summary": "The model likely focused on Zhao Min’s realization that her power is limited and inferred a negative emotion, selecting “Sad” as the closest emotional state to that sense of discouragement. The human answer, “Sadness,” matches the same emotional interpretation but uses the noun form, which often better aligns with “What is she feeling?” phrasing in test-style questions. Since “sad” and “sadness” are semantically equivalent in this context, both answers are logically valid; the model’s choice is reasonable but mismatched the test’s expected wording."
+        },
+        {
+          "original_index": 881,
+          "current_index": 273,
+          "failed_summary": "The model likely inferred that Mr. Zhao was strategically *pretending* to be in serious trouble so his rivals would underestimate him, so it treated his lament about failures as deceptive and answered “No.” The story highlights his “sincerity” only from the competitors’ perspective and never confirms the truth of his claims, which reinforces that strategic-reading and makes the model’s interpretation reasonable. Since the text is ambiguous and does not state whether his losses are real or fabricated, both the human’s “Yes” and the model’s “No” can be viewed as valid."
+        },
+        {
+          "original_index": 1126,
+          "current_index": 367,
+          "failed_summary": "The question likely asks whether Sun Wu is honestly expressing his feelings when he tells his brother, “I feel very disappointed, it should not be like this.” From the story, his earlier praise of Liu Yun is polite surface behavior, while his private comment reveals his true disappointment about losing and not finishing, so the human answer “Yes” matches the intended reading that his statement is true about his feelings. The model probably interpreted “should not be like this” as an objective judgment about fairness or outcome correctness, treating that as false, which makes its choice “No” incorrect."
+        },
+        {
+          "original_index": 1754,
+          "current_index": 560,
+          "failed_summary": "The model likely read the story at face value: competitors make accusations, Mr. Zhang confidently denies them, so it inferred he must be telling the truth and chose “Yes.” However, the human answer notices the logical trick in his statement: claiming the company’s finances “always” are very healthy is almost certainly false, because no company can be in perfect financial condition at all times. Thus the model’s choice is incorrect, as it ignored the absolutist wording and treated the situation as a simple credibility contest instead of a logic puzzle."
+        },
+        {
+          "original_index": 1786,
+          "current_index": 574,
+          "failed_summary": "The model likely interpreted Miss Zhou’s statement literally and charitably, assuming that if she confidently announces a breakthrough strategy, her team must already have developed it even if details remain secret. However, the story’s timeline states that only after the gathering does she instruct her team to start planning the innovative strategy, implying that it did not yet exist when she described it. Because this creates a clear inconsistency between her claim of an already developed method and the subsequent initiation of planning, the human answer “No” better fits the passage and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1962,
+          "current_index": 637,
+          "failed_summary": "Teasing usually causes negative emotions, and the model likely focused on the hurt or let‑down aspect, inferring that Liu Hong felt “disappointed” rather than explicitly angry. He hides his feelings so his brother will not keep teasing, which fits best with anger or annoyance—the emotional reaction teasers typically try to provoke and then exploit when they see it. Thus, while disappointment is a conceivable emotion, the narrative and common social‑reasoning standards for such questions most strongly indicate anger, so the human answer is more appropriate and the model’s choice is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 36,
+      "layer2_cluster_summary": "Across these items, the model overweights superficial lexical cues (e.g., explicit mentions of “embarrassed,” “disgust,” or party excitement) instead of integrating narrative context and situational norms. It repeatedly confuses internal mental states with outward behavior, ignoring question wording like “how does he appear” and story cues that characters deliberately mask their true feelings to avoid negative judgments. Human answers, in contrast, depend on inferring socially appropriate emotions from mismatches or ironies in the situation, such as being the only one in costume, which the model systematically underemphasizes.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 688,
+          "current_index": 204,
+          "failed_summary": "The story states that Wang Qiang does not understand the joke but does not want others to know, fearing they will think he is stupid, which implies he will deliberately act as if he understands. The question asks how he “appears,” emphasizing his outward behavior, so the best match is that he looks happy or amused like the others, even if he is secretly confused. The model instead focused on his likely inner emotion of embarrassment rather than his external appearance, so its choice of B is not aligned with the question’s focus."
+        },
+        {
+          "original_index": 693,
+          "current_index": 207,
+          "failed_summary": "The model likely focused on Zhenming’s *internal* reaction to the old lady’s “strange and ugly clothes,” inferring that he truly feels **disgust**, so it chose option B. However, the question asks, “How does Zhenming **appear** when this happens?”, and the story explicitly says he “tries to hide his real feelings” to avoid being scolded, implying his outward expression is different from his inner state. Thus, Zhenming would likely *appear* pleasant or joyful, making A (Joy) the better-supported answer and the model’s choice incorrect."
+        },
+        {
+          "original_index": 892,
+          "current_index": 279,
+          "failed_summary": "The model likely focused on the phrases “costume party” and Zhao Lei “confidently” walking into the scene, inferring that he was excited and pleased to show off his green alien outfit. However, the key detail that he is the only one wearing alien clothes, while no one else follows the theme, implies a sudden social mismatch that would normally cause embarrassment rather than continued thrill. Because the narrative context emphasizes this mismatch, the human answer D (“Embarrassed”) better matches the expected emotional response, so the model’s choice of C is not well supported by the story."
+        },
+        {
+          "original_index": 1777,
+          "current_index": 569,
+          "failed_summary": "The story’s key twist is that the party’s theme is “Alien Party,” so Zhao Lei ought to fit in, yet he feels embarrassed, which best matches option C: he is the only one actually wearing an alien costume while others are not. The model instead chose D, likely focusing on the explicit mention of “not attractive” and “no face,” directly signaling embarrassment without requiring inference about the group’s behavior. This shows the model favored a surface-level cue about shame over the deeper situational irony implied by the theme, so its choice is less appropriate."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 40,
+      "layer2_cluster_summary": "Across these items, the model latches onto the most visually or lexically salient cue (card received, crush with someone else, work de‑emphasized, plan reused) and maps it to a straightforward emotion like happiness, jealousy, or betrayal. Human reasoning instead integrates background commitments, broken promises, loyalty expectations, and prosocial intentions, reinterpreting similar events as betrayal, regret, or gratitude. The gap reflects shallow, event-level pattern matching and weak use of implicit social contracts, plus limited sensitivity to ambiguity where multiple emotions are simultaneously reasonable.",
+      "layer2_cluster_size": 5,
+      "original_items": [
+        {
+          "original_index": 613,
+          "current_index": 185,
+          "failed_summary": "The model focused on the surface-positive event (receiving a birthday card from a long-uncontacted cousin) and thus inferred a straightforward warm reaction, choosing “Happy.” It ignored the crucial implication in the context: the cousin had explicitly said he would attend every one of Zhang Meng’s birthdays, but after going abroad he only sends a card, which frames the gesture as a broken promise rather than a purely joyful surprise. Because the narrative emphasizes this disappointed expectation, “Feeling betrayed” better matches the intended emotional inference, making the model’s choice incorrect."
+        },
+        {
+          "original_index": 868,
+          "current_index": 266,
+          "failed_summary": "The model likely focused on the salient social cue of Xiao Mei dining with the boy Xiao Hong likes, interpreting this as a sign of disloyalty, which naturally maps to a feeling of betrayal. The human answer instead emphasizes Xiao Hong’s possible self-blame and hindsight, imagining that she now regrets asking her close friend to intervene because it may have led to this uncomfortable situation. Since the vignette is ambiguous and does not confirm actual betrayal, both emotions are psychologically plausible, so the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 934,
+          "current_index": 298,
+          "failed_summary": "The model likely focused on the mismatch between Xiao Zhang’s expectations of recognition and how his work was presented, which suggests a general feeling of disappointment rather than explicit betrayal. Since the story stresses that his contribution was minimized on the final poster, the model treated this mainly as an unmet outcome, guiding it toward option D. However, the human answer focuses on the trust Xiao Zhang placed in the organizers when he designed the poster for free, so feeling betrayed is also very plausible, and both C and D are reasonable interpretations."
+        },
+        {
+          "original_index": 1758,
+          "current_index": 562,
+          "failed_summary": "The model likely focused on the surface romantic triangle: Liu Yu likes Chen Nan, so seeing her crush with someone else naturally evokes jealousy, leading it to choose D. The human answer A emphasizes a deeper layer of social knowledge—that Zhang Xiang is a close friend who *knows* Liu Yu’s feelings yet dates Chen Nan anyway—making “betrayed” a richer interpretation of interpersonal ethics. Both answers are psychologically plausible, so the model’s choice is understandable, but it misses the friendship-loyalty nuance the human prioritized."
+        },
+        {
+          "original_index": 1908,
+          "current_index": 612,
+          "failed_summary": "The model likely focused on the phrases “uses his unpublished project plan” and “finds that his colleague…uses” as cues of unauthorized use and theft, which align with a feeling of betrayal. It underweighted the explanation that Zhao Yang’s intention is to help Wang Lei, who cannot enter the competition himself, and that this use lets more people see Wang’s plan, implying appreciation and happiness rather than harm. Given this framing, the human answer “Happy” best matches the stated motive, but the model’s choice “Feeling betrayed” is also a defensible reading of the scenario."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 59,
+      "layer2_cluster_summary": "Across these cases, the model overweights early, salient, or morally appealing cues and underweights later, decisive contextual information that specifies the character’s final emotional state. It tends to infer abstractly plausible, high‑arousal or prosocial emotions (excitement, admiration, growth‑mindset satisfaction) instead of the exam-style, text‑anchored answer that reflects the concrete outcome, temporal markers, and subtle shifts like relief or emerging worry. Overall, the shared failure pattern is miscalibrated evidence weighting: privileging global plausibility over local narrative resolution, question wording, and conventional test-writing heuristics.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 507,
+          "current_index": 153,
+          "failed_summary": "The story frames the basketball game as “important” and highlights that Xiao Ming is the captain, so his absence directly threatens the team’s performance, making anxiety about the game’s outcome the most context-relevant emotion. The model likely focused instead on the moral value of the charity performance and inferred that teammates would admire or be proud of his altruism, overlooking the immediate competitive pressure they face. Because the question asks specifically about the other team members in the game context, their being anxious (B) is more appropriate, and the model’s choice (A) is less justified."
+        },
+        {
+          "original_index": 755,
+          "current_index": 224,
+          "failed_summary": "From the story, the key emotional cues are “patient guidance” and the successful outcome that Xiao Gang “finally admits his mistake and promises to correct it,” which imply calm satisfaction rather than intense excitement. A human reader infers that the teacher feels pleased or happy that the student learned and changed, making “Joy” the most natural emotional label. The model likely focused on the word “finally” and the positive resolution, overgeneralizing them to a stronger, high-arousal state like being “Thrilled,” so its choice is understandable but ultimately not the best fit."
+        },
+        {
+          "original_index": 1071,
+          "current_index": 345,
+          "failed_summary": "The model likely focused on the early sentence that Xiao Chen “is not sure if his idea is acceptable,” and generalized this into a persistent state of nervousness and unease, leading it to choose option A. However, the story explicitly says that after seeing the mutual smile between Yang Hong and Cheng Tian, “his expression is relieved,” indicating his anxiety has eased and is replaced by positive expectation, making option C more consistent with the final emotional state. Thus, the model’s choice is incorrect because it ignored this later contextual shift."
+        },
+        {
+          "original_index": 1231,
+          "current_index": 396,
+          "failed_summary": "The model likely focused on a psychologically realistic growth‑mindset explanation, so it chose B because it interprets Chen Yu’s excitement as appreciation for useful feedback and future opportunities. However, the riddle-like structure of the question and the phrase “very excited” suggest a more dramatic, concrete positive outcome, which is captured much better by C, where she essentially still gets the job via a new position. Thus, the model’s choice underestimates the strength of her excitement and overlooks that C explains the emotional reversal more directly and completely."
+        },
+        {
+          "original_index": 1409,
+          "current_index": 457,
+          "failed_summary": "Mrs. Wu experiences multiple emotions: she and her family are “extremely excited” and proud because Xiao Gang is the first in the family to enter a top university, but the narrative then highlights her belief that he cannot adapt to life away from home. Exam-style questions usually target the final, more specific psychological state mentioned—her concern about his adjustment—so the keyed human answer is “worried.” The model likely overemphasized the earlier pride and excitement cues, ignoring the concluding sentence that directly implies worry."
+        },
+        {
+          "original_index": 1655,
+          "current_index": 534,
+          "failed_summary": "The model likely focused on the phrase that his proposal “receives unanimous approval” and associated this event with a strongly positive, high-arousal emotion, leading it to choose “Thrilled.” It underweighted the subsequent information that he “realizes” the project requires residents’ effort and that residents may not actively participate, which directly introduces concern and anticipatory anxiety, matching “Worry.” Because the question asks what he feels after approval while explicitly highlighting this concern, “Worry” is the better supported answer and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1809,
+          "current_index": 581,
+          "failed_summary": "The model focused on Xiao Yun’s possible anticipation before the invitation was clearly extended, so it chose D, inferring she “might be invited” and thus feels excited. However, the story explicitly states that Xiao Yun “hesitates at first, then nods,” directly matching option C’s description that she initially hesitates and then happily participates, while D inaccurately keeps the invitation in a hypothetical state. Therefore, the model’s choice is incorrect because it privileged an inferred emotional state over the explicit outcome and temporal sequence given in the text."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 60,
+      "layer2_cluster_summary": "Across these reasons, discrepancies stem from ambiguous emotional cues where both the model and humans choose different but psychologically plausible emotions. The model tends to either track explicit lexical markers in the text (e.g., \"very sad\") or infer salient internal states like fear/anxiety about being exposed or restricted, whereas human answers more often align with task-specific framing (e.g., outward appearance, “real feelings”) and default to sadness/disappointment. Overall, divergences reflect shifts between literal wording vs. contextual inference and internal experience vs. external presentation, not outright misunderstanding.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 26,
+          "current_index": 8,
+          "failed_summary": "The model likely focused on Ruru’s internal emotional state: she made a mistake while everyone else did well, so it inferred she would feel disappointed or “Sad,” prioritizing her probable feelings over the wording about appearances. However, the question asks how she *appears* and explicitly states she “tries to pretend her speech is as good as theirs,” indicating her outward presentation rather than her true feelings. Thus, the human answer “Happy” fits the narrative better, and the model’s choice “Sad” is not the best interpretation of the prompt."
+        },
+        {
+          "original_index": 567,
+          "current_index": 170,
+          "failed_summary": "The model likely focused on Zhou Yu’s internal conflict and fear of being stopped from going out, inferring that he feels *anxious* about hiding his stomachache and possibly being found out, which naturally points to option D. The human answer instead interprets “real feelings” as his true negative emotional state caused by pain and restriction, mapping physical discomfort and disappointment to *sadness* (option C), which is also a reasonable reading. Both emotional inferences are plausible, so both answers can be considered valid and the model’s choice is also correct."
+        },
+        {
+          "original_index": 600,
+          "current_index": 181,
+          "failed_summary": "The model likely focused on Ruru’s act of “pretending” her speech was as good as others’, inferring she is **afraid** of others discovering her mistake or judging her negatively, hence choosing D. A human reader, however, may prioritize the emotional impact of making a mistake while everyone else performs well, interpreting her inner state as **sadness**, disappointment, or shame, thus selecting B. Both emotions are plausible in this scenario, so both the human answer (sad) and the model’s answer (afraid) can be considered reasonable interpretations."
+        },
+        {
+          "original_index": 1950,
+          "current_index": 632,
+          "failed_summary": "The model likely focused on the explicit phrase “which makes her very sad,” so it chose option D, directly matching the stated emotion instead of inferring more nuanced feelings. The human answer B, “worried,” reflects an interpretation of Chen Yue’s fear that Li Ming may not have special feelings for her, emphasizing anticipatory anxiety rather than the stated sadness. Both answers are psychologically reasonable, but since the text literally labels her emotion as sadness, the model’s choice is also correct and better aligned with the passage’s wording."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 66,
+      "layer2_cluster_summary": "Across these items, the model over-relies on salient surface cues—privacy loss, social exclusion phrases, or “not wanting others to know”—and maps them to stereotyped emotions like violation, abandonment, or guilt. By contrast, the human answers prioritize integrating later narrative information, explicit self-reflection, and the most proximal, concrete cause of the character’s current emotion over more diffuse background concerns. Especially in the guilt-related cases, the gap reflects difficulty separating self-blame from feeling ignored or embarrassed, compounded by partial ambiguity where several labels are plausible but only one best matches the immediate causal chain.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 1210,
+          "current_index": 391,
+          "failed_summary": "The model likely focused on the earlier fact that Lin Ting’s diary, containing “a lot of private information,” went missing and on her fear that classmates might read it, so it associated the situation with her privacy being breached and chose “feeling violated.” However, the story’s ending clarifies that the diary is safely back in her locker and the classmates neither read it nor mocked her, resolving the privacy threat. At this point the salient emotion is remorse for wrongly accusing them in her mind, so the human answer of guilt fits better and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1628,
+          "current_index": 524,
+          "failed_summary": "The model likely focused on the emotional logic that guilt comes from self-blame, so it chose option C, where Zhang Hong regrets previously focusing too much on her own things and not cherishing the friendship. Option B, however, ties her guilt more concretely to a recent, specific behavior (refusing to go out because of academic pressure), which directly explains the current estrangement mentioned in the story, so it fits the narrative more tightly. Both B and C can plausibly explain guilt instead of feeling abandoned, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1713,
+          "current_index": 552,
+          "failed_summary": "The model likely focused on the observable behavior that Kai Zhi now “only plays with his friends in the team” and spends less time with Zhang Hong, interpreting her emotional state as feeling neglected or abandoned. However, the story explicitly describes Zhang Hong reflecting on how she repeatedly refused to go out because of academic pressure and concluding that she “causes their estrangement,” which is characteristic of self-blame and guilt rather than abandonment. Therefore, the model’s choice is understandable but ultimately incorrect compared with the human answer in this specific context."
+        },
+        {
+          "original_index": 1846,
+          "current_index": 591,
+          "failed_summary": "The model likely focused on the phrase “she does not want other children to know,” interpreting it as Mengmeng hiding something wrong, which maps more directly to “guilty” in many training examples. However, in the story she has not done anything bad; she simply doesn’t understand the joke and fears others discovering this, which aligns more with feeling embarrassed, left out, or sad rather than guilty. Thus, the human answer “Sad” better matches the situation, and the model’s choice of “Guilty” is not appropriate."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 67,
+      "layer2_cluster_summary": "Across these reasons, the model repeatedly overweights local keywords that echo the question’s target emotion (“surprised,” “disgusted”) or expectation violation, while neglecting how the broader story frames the character’s actual feelings. It treats emotions as coarse positive/negative or generic “surprise,” failing to distinguish disappointment from pleasant astonishment, irritation from moral disgust, or surprise grounded in role reversal versus stylistic similarity. More generally, it performs shallow pattern-matching instead of integrating narrative context, social roles, and twists that reframe initial attitudes like envy or curiosity.",
+      "layer2_cluster_size": 3,
+      "original_items": [
+        {
+          "original_index": 764,
+          "current_index": 227,
+          "failed_summary": "The story describes Lina as “excited,” so the emotional tone is clearly positive, which matches option D’s “revolutionary technology…exceeding her expectations,” not option B’s “surprised and disappointed.” The model likely focused narrowly on the phrase “completely different from what Lina expects” in B, treating any strong mismatch with expectations as a generic trigger for surprise, while overlooking the extra qualifier “disappointed,” which conflicts with the context. Thus, the model’s choice is incorrect because it misread the emotional nuance and ignored the explicit positive mood."
+        },
+        {
+          "original_index": 1057,
+          "current_index": 341,
+          "failed_summary": "The key contrast is between expected envy and actual surprise, which is best explained if Zhao Tao discovers a role reversal where the admired painter is actually his fan, as in option C. Option B focuses on stylistic similarity and even near-duplicate scenes, which more naturally evokes suspicion, confusion, or possible plagiarism concerns rather than cleanly replacing envy with surprise. The model likely fixated on the phrase “surprisingly similar” and interpreted it as directly justifying “surprise,” overlooking that C more directly and strongly explains the emotional shift described."
+        },
+        {
+          "original_index": 1738,
+          "current_index": 558,
+          "failed_summary": "The model likely focused narrowly on a surface emotional link between “unpleasant comments” (option B) and “disgust,” treating disgust as general negative emotion rather than distinguishing it from irritation or hurt. It seems not to have integrated the broader narrative cues: Lina is a foreign traveler, and discovering that vendors “shortchange and deceive foreign tourists” (option C) more naturally evokes moral disgust and a sense of injustice, fitting the twist that she “should be curious” but isn’t. Thus the model’s choice is weaker contextually and emotionally, making C the better-supported answer."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 78,
+      "layer2_cluster_summary": "Across these cases, the model relies on shallow, stereotype‑based associations (gifts, awards, romantic movies, helpful matchmaking) and defaults to generically positive or prototypical emotions like happiness, pride, or jealousy. It underuses discourse cues (“at this time,” “even so”), explicit narrative statements, and relationship norms that reverse or nuance the expected valence, so it frequently misses lingering resentment, awkwardness, anger, or gratitude. The model also sometimes misidentifies whose perspective is queried, failing to track that the relevant emotion belongs to the friend, girlfriend, or spouse rather than to another character.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 322,
+          "current_index": 97,
+          "failed_summary": "Xiao Hong skips her club duty to visit a friend, and commonsense social reasoning suggests the friend, who benefits from her time and attention, is most likely to feel grateful for the visit. The model instead chose “regretful,” probably focusing on the neglected responsibility and inferring a generic consequence emotion—regret—while also perhaps misattributing the emotion to Xiao Hong rather than specifically to the friend. Since the story nowhere indicates that the friend feels guilty or wishes the visit had not happened, but clearly implies a positive social gesture, the model’s answer is weakly supported and the human answer is more appropriate."
+        },
+        {
+          "original_index": 510,
+          "current_index": 154,
+          "failed_summary": "From a commonsense social perspective, a romantic movie is typically a date-like, intimate activity, so Xiao Li would likely feel jealous, threatened, or disrespected when her boyfriend invites her best friend instead, making “Angry” a natural choice. The model probably focused only on the superficially positive elements—an invitation, a movie, and the involvement of a “best friend”—and therefore inferred Xiao Li would share in the pleasant outing and feel “Happy.” Because it ignored implicit relationship norms and jealousy dynamics, the model’s answer is less plausible than the human answer."
+        },
+        {
+          "original_index": 961,
+          "current_index": 306,
+          "failed_summary": "The model likely focused on the generally positive association of being invited to watch a movie, especially a “romantic movie,” and therefore inferred that Xiao Fang would feel happy. However, the social context—being invited by her best friend’s boyfriend to an intimate, romantic setting—more naturally implies awkwardness or discomfort, which aligns with embarrassment rather than happiness. The model’s answer is thus less sensitive to interpersonal boundaries and implied social norms, making the human answer D (“Embarrassed”) the more contextually appropriate interpretation."
+        },
+        {
+          "original_index": 975,
+          "current_index": 310,
+          "failed_summary": "The model likely relied on a stereotypical love triangle pattern, inferring that someone who secretly loves a person would feel jealous seeing that person with a friend, so it chose “jealous.” However, the story explicitly states that Liu Yu herself arranges for Zhang Xiang and Chen Nan to date and asks Zhang Xiang to help match them, implying she anticipates and welcomes their being together. Given these cues, the more text-aligned interpretation is that Liu Yu feels thrilled rather than betrayed or jealous, so the model’s choice is less consistent with the narrative."
+        },
+        {
+          "original_index": 1042,
+          "current_index": 332,
+          "failed_summary": "The model likely focused primarily on the fact that Zhao Li’s garden won the “Best Garden” award and that she proudly posted photos online, inferring a positive emotional state such as pride. However, the question emphasizes the timing “at this time,” immediately after neighbors publish negative, jealous comments, combined with the description that she dislikes listening to others’ opinions, which strongly suggests irritation or anger. Thus the human choice “Angry” better fits the contextual cues, while the model’s answer overlooks the social conflict and is therefore a less accurate interpretation of Zhao Li’s reaction."
+        },
+        {
+          "original_index": 1695,
+          "current_index": 548,
+          "failed_summary": "The model likely focused on the surface event—Mr. Li rushing home early and preparing a special birthday dinner—which stereotypically suggests a positive emotional reaction, leading it to choose “Happy.” However, the passage explicitly emphasizes that his long-term absence has had a “deep negative impact” on his wife and children, and the phrase “Even so” signals that this one gesture does not repair the emotional damage, making “Angry” a more contextually supported inference. Thus, the model’s choice overlooks the implied lingering resentment and is less accurate than the human answer."
+        }
+      ]
+    }
+  ]
+}

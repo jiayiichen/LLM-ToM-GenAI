@@ -1,0 +1,94 @@
+You are generating 10 synthetic Theory of Mind (ToM) questions to give a model additional practice and help it better avoid a specific reasoning failure pattern. Each question must include a story, a question, four options (A–D), and a correct answer.
+
+Your generated questions should:
+1. Closely reflect the failure mode described by the provided cluster summary and reinforced by the two example items listed below.
+2. Exhibit diversity in story content, context, and surface features while maintaining the same underlying reasoning pattern.
+3. Follow the dataset format exactly, ensuring consistency with the provided examples.
+
+*** Failure Pattern You Must Target ***
+Below is the summary describing the reasoning failure mode that your synthesized item should reflect:
+**Summary:** {cluster_summary}
+
+*** Two Reference Examples ***
+Use the following two example failure cases to understand:
+- What the dataset format looks like
+- What the "reason for failure" looks like
+- How the story structure leads to the failure mode
+
+These examples should guide the style, complexity, and reasoning structure of the question you will synthesize.
+
+*** Example 1 ***
+**Story:**
+{example1_story}
+**Question:**
+{example1_question}
+**Options:**
+A. {example1_option_a}
+B. {example1_option_b}
+C. {example1_option_c}
+D. {example1_option_d}
+**Human Answer:** {example1_human_answer}
+**Model's Response:** {example1_model_answer}
+**Reason for Failure:**
+{example1_reason}
+
+*** Example 2 ***
+**Story:**
+{example2_story}
+**Question:**
+{example2_question}
+**Options:**
+A. {example2_option_a}
+B. {example2_option_b}
+C. {example2_option_c}
+D. {example2_option_d}
+**Human Answer:** {example2_human_answer}
+**Model's Response:** {example2_model_answer}
+**Reason for Failure:**
+{example2_reason}
+
+*** Your Task ***
+Generate 10 new ToM questions that:
+1. Follow the same failure pattern described in the summary
+2. Would cause a model with this weakness to make a similar error
+3. Match the style and complexity of the reference examples
+4. Are distinct from the examples but exhibit the same type of reasoning failure
+
+*** Output Format ***
+Your output must be valid JSON containing an array of exactly 10 questions with the following structure:
+
+```json
+{{
+  "questions": [
+    {{
+      "story": "The complete story text here",
+      "question": "The question text here",
+      "option_a": "First option text",
+      "option_b": "Second option text",
+      "option_c": "Third option text",
+      "option_d": "Fourth option text",
+      "correct_answer": "A"
+    }},
+    {{
+      "story": "Second story here...",
+      "question": "Second question here...",
+      "option_a": "...",
+      "option_b": "...",
+      "option_c": "...",
+      "option_d": "...",
+      "correct_answer": "B"
+    }},
+    ...
+    (8 more items for a total of 10)
+  ]
+}}
+```
+
+**Important Requirements:**
+- Generate exactly 10 diverse questions in the "questions" array
+- Each question must test the same failure pattern but with different story contexts
+- `correct_answer`: Must be a single letter: "A", "B", "C", or "D" (representing the human-correct answer)
+- Ensure diversity in scenarios, characters, contexts, and settings while maintaining the same underlying reasoning pattern
+- All text fields must be properly escaped for JSON
+- Do not include any text outside the JSON structure
+- Do not use trailing commas in JSON

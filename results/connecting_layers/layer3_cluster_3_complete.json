@@ -1,0 +1,782 @@
+{
+  "layer3_cluster_label": 3,
+  "layer3_cluster_summary": "Taken together, these reasons portray a model that defaults to salience- and template-based heuristics—classic false-belief scripts, label‑equals‑contents, last‑mentioned item, or literal similes—instead of flexibly tracking the narrative. It repeatedly misidentifies whose perspective is relevant, collapses distinctions between reality and multiple nested belief states, and neglects how agents’ knowledge changes with perception or world constraints, so it often answers from an omniscient or naïve observer rather than the targeted character. Across many items, lingering linguistic and pragmatic ambiguities mean the model’s reality‑tracking, conservative, or literal interpretations are sometimes partially defensible against rubric expectations.",
+  "layer3_cluster_size": 10,
+  "total_original_items": 100,
+  "all_original_indices": [
+    30,
+    35,
+    38,
+    87,
+    93,
+    106,
+    108,
+    118,
+    124,
+    129,
+    133,
+    153,
+    158,
+    190,
+    222,
+    229,
+    235,
+    242,
+    315,
+    327,
+    340,
+    344,
+    346,
+    351,
+    360,
+    364,
+    375,
+    386,
+    394,
+    423,
+    433,
+    440,
+    461,
+    468,
+    491,
+    501,
+    527,
+    550,
+    560,
+    611,
+    630,
+    715,
+    733,
+    741,
+    774,
+    786,
+    796,
+    839,
+    899,
+    900,
+    962,
+    965,
+    976,
+    977,
+    991,
+    1002,
+    1005,
+    1076,
+    1103,
+    1111,
+    1140,
+    1174,
+    1224,
+    1241,
+    1243,
+    1244,
+    1281,
+    1314,
+    1334,
+    1349,
+    1386,
+    1403,
+    1419,
+    1458,
+    1460,
+    1482,
+    1505,
+    1516,
+    1517,
+    1525,
+    1555,
+    1576,
+    1633,
+    1641,
+    1673,
+    1734,
+    1789,
+    1799,
+    1811,
+    1844,
+    1859,
+    1875,
+    1885,
+    1895,
+    1942,
+    1951,
+    1961,
+    1971,
+    1979,
+    1992
+  ],
+  "all_current_indices": [
+    10,
+    11,
+    12,
+    30,
+    33,
+    39,
+    40,
+    42,
+    44,
+    45,
+    47,
+    52,
+    54,
+    63,
+    73,
+    74,
+    75,
+    78,
+    96,
+    99,
+    102,
+    104,
+    105,
+    107,
+    108,
+    109,
+    113,
+    117,
+    119,
+    131,
+    133,
+    135,
+    141,
+    143,
+    149,
+    152,
+    159,
+    165,
+    167,
+    184,
+    190,
+    212,
+    216,
+    220,
+    233,
+    237,
+    240,
+    258,
+    281,
+    282,
+    307,
+    308,
+    311,
+    312,
+    317,
+    320,
+    322,
+    348,
+    359,
+    362,
+    371,
+    380,
+    394,
+    402,
+    403,
+    404,
+    411,
+    424,
+    433,
+    437,
+    451,
+    454,
+    462,
+    472,
+    473,
+    477,
+    485,
+    491,
+    492,
+    496,
+    503,
+    510,
+    527,
+    530,
+    539,
+    557,
+    576,
+    578,
+    582,
+    590,
+    595,
+    602,
+    604,
+    608,
+    627,
+    633,
+    636,
+    639,
+    642,
+    644
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 3,
+      "layer2_cluster_summary": "Across these items, the model repeatedly relies on overlearned “false-belief” templates instead of flexibly tracking which character’s perspective is explicitly queried, often answering from the uninformed agent’s view when the question targets the informed one. It also frequently collapses the distinction between belief and reality, failing to represent outdated or nested beliefs and thus predicting search locations based on the object’s actual position rather than agents’ mental states. In a few cases (3 and 5), ambiguous wording or option labeling makes both the model and human answers partially defensible, exposing sensitivity to linguistic underspecification.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 461,
+          "current_index": 141,
+          "failed_summary": "The model likely misapplied a common “false-belief” pattern: in many classic tasks, one agent moves an object and the question asks where the *other* (uninformed) agent will look, so the model defaulted to the original location (the drawer). Here, however, the question is explicitly about Xiao Bei, who personally moved the jacket and thus knows it is now in the storage cabinet, so she should look in the storage cabinet (B). Therefore, the model’s choice C is incorrect because it confused whose perspective the question targets."
+        },
+        {
+          "original_index": 527,
+          "current_index": 159,
+          "failed_summary": "The story describes a classic false-belief situation, where Xiao North initially sees the bananas in the box, then leaves before Xiao Red secretly moves them to the backpack. When asked where Xiao North will look after returning, the correct reasoning focuses on Xiao North’s belief state, not the actual location, so the human answer \"A. Box\" follows standard theory-of-mind logic. The model instead answered \"B. Backpack\" by tracking the real location of the bananas, revealing a failure to represent Xiao North’s outdated knowledge and distinguish belief from reality."
+        },
+        {
+          "original_index": 774,
+          "current_index": 233,
+          "failed_summary": "The model reasoned about Han Mei Mei’s belief state: when she left, the eggplant was in the handbag, and she is unaware Xiao Li moved it, so she would expect him to search where they last saw it, i.e., the handbag (B). The human answer “tote bag” (D) probably treats “tote bag” as synonymous with “handbag” or reflects an idiosyncrasy in the labeling of answer choices rather than the narrative itself. Under a straightforward reading of the story, both B and D target the original bag location, so the model’s answer is also defensible."
+        },
+        {
+          "original_index": 839,
+          "current_index": 258,
+          "failed_summary": "The story is a classic second-order false-belief task: we must track what Xiao Bei thinks Xiao Ming will believe about the corn’s location after Xiao Ming returns. Since Xiao Ming left before the corn was moved, Xiao Bei should reason that Xiao Ming will still think the corn is in the original place (the box), so the human answer D matches the required perspective-taking. The model instead chose B, likely confusing “where the corn actually is now” with “where Xiao Bei thinks Xiao Ming will look,” thus failing to correctly represent nested beliefs."
+        },
+        {
+          "original_index": 900,
+          "current_index": 282,
+          "failed_summary": "The discrepancy comes from how each interprets the belief being queried. The human answer treats the question as a standard first-order false-belief task—assuming it really asks “Where does Xiao Bei think the cup is / where will she look?”, yielding “handbag,” because she left before the move. The model instead takes the wording literally as a second-order belief—“Where does Xiao Bei think Li Lei will look?”—and since Xiao Bei knows Li Lei stayed in the bar, it is reasonable for the model to answer “briefcase,” so both answers are defensible."
+        },
+        {
+          "original_index": 991,
+          "current_index": 317,
+          "failed_summary": "In the story, both Xiao Ming and Zhang Wei first see the hat in the suitcase, but after Zhang Wei leaves, Xiao Ming moves the hat into the handbag and knows its new location. Therefore, when Zhang Wei returns, Xiao Ming should look for the hat in the handbag, so option A matches his true belief and the straightforward reading of the question. The model answered C, likely misapplying a false-belief template by assuming the question concerned the uninformed Zhang Wei’s perspective rather than Xiao Ming’s, which makes the model’s choice incorrect."
+        },
+        {
+          "original_index": 1859,
+          "current_index": 595,
+          "failed_summary": "The story explicitly states that Xiao Bei personally moves the pineapple from the storage locker to the handbag, so he now knows its new location and should rationally look in the handbag, matching the human answer A. The model likely defaulted to a common “false-belief task” pattern, mistakenly reasoning about Han Mei Mei’s outdated belief (that the pineapple is still in the storage locker) and then transferring that belief to Xiao Bei, thus picking B. Because the question asks about Xiao Bei’s perspective, not Han Mei Mei’s, the model’s answer is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 11,
+      "layer2_cluster_summary": "Across all items, the discrepancy hinges on an ambiguity in phrases like “should be inside,” which the model consistently interprets as asking about actual, current contents while the human-keyed answer treats it as expectation or belief based on labels and character perspective. The stories systematically juxtapose labels with mismatched contents and limited viewpoints, so humans read them as theory‑of‑mind or norm‑based tasks, whereas the model defaults to an omniscient, reality‑tracking frame. The explanations repeatedly conclude that both readings are logically defensible, but test design privileges the perspective‑taking interpretation.",
+      "layer2_cluster_size": 18,
+      "original_items": [
+        {
+          "original_index": 35,
+          "current_index": 11,
+          "failed_summary": "The model likely interpreted the question literally as asking about the *actual* contents of the handbag after Xiaogang checked it, so it chose “hat,” which matches the story’s factual state. The human answer treats “should be in the handbag” as referring to what Xiaoming would reasonably *believe* or *expect* based on the cabbage label, a perspective-taking, theory-of-mind reading that aligns with many such test questions. Both interpretations are logically coherent, so both B and D can be seen as valid depending on how one understands “should.”"
+        },
+        {
+          "original_index": 190,
+          "current_index": 63,
+          "failed_summary": "The divergence comes from interpreting “should be inside the drawer” differently: the model treated it as asking about the actual current content, which is the zucchini, while the human treated it as asking about what Han Meimei would rationally *expect* to be inside, based on the “bottle” label. The story foregrounds perception and labeling (Li Lei can’t see, opens it, then Han Meimei later only sees the drawer), so a theory-of-mind reading that focuses on Han Meimei’s belief makes the “bottle” answer reasonable. Both answers are thus defensible, and the model’s answer is also correct under a reality-based interpretation."
+        },
+        {
+          "original_index": 315,
+          "current_index": 96,
+          "failed_summary": "The model interpreted the question literally as asking about the actual physical contents of the backpack, so it followed the narrative chain: Han Meimei opens the backpack, sees a light bulb, and closes it again, concluding that a light bulb is what is inside. The human, however, read “should be inside the backpack” as a perspective or norm-based question, anchored to the external tomato label and to what Li Lei would reasonably expect to find. Under these two different but reasonable interpretations, both “light bulb” and “tomato” are defensible, so the model’s answer is also correct."
+        },
+        {
+          "original_index": 346,
+          "current_index": 105,
+          "failed_summary": "The model reasoned that because Xiao Li left before the ring was moved, she still believes the ring is in the original container, so she expects Xiao Gang to look in the handbag, matching option A. The human answer D, “tote bag,” appears to refer to essentially the same object as the handbag, but that wording never appears in the story, creating an artificial mismatch between the narrative and the answer choices. Under a straightforward reading of the text, the model’s answer is logically consistent and at least as justifiable as the human answer."
+        },
+        {
+          "original_index": 351,
+          "current_index": 107,
+          "failed_summary": "From the story, the factual content of the suitcase after Li Lei’s inspection is a tie, so the model likely interpreted the question “What should be inside the suitcase?” as asking about the real, current object and thus picked option B. However, this task is probably testing perspective-taking or label-based expectation: Xiao Hong only sees a suitcase labeled “carrot,” so the “should” refers to what one would expect or believe is inside, making A reasonable. Because the wording is ambiguous between actual contents and expected contents, both answers are defensible and the model’s response is also coherent."
+        },
+        {
+          "original_index": 360,
+          "current_index": 108,
+          "failed_summary": "The story sets up a classic belief-versus-reality situation: the label says “mask,” Xiao Li only sees the bag and label, so the “should be inside” refers to Xiao Li’s reasonable expectation, not the actual content. The model likely interpreted the question literally and from an omniscient perspective, focusing on what *actually* is inside after Youyou checks, which leads naturally to “hat.” Here the human answer better matches the perspective-based reasoning the question targets, so the model’s choice, while logical in a different frame, is not context-appropriate."
+        },
+        {
+          "original_index": 364,
+          "current_index": 109,
+          "failed_summary": "The story contrasts the box’s label “raincoat” with its actual content, a jacket, setting up a difference between expectation and reality. In questions like “What should be inside the box?”, test designers usually mean what ought to be there according to the label and factory norms, so the keyed answer is “raincoat.” The model instead read “should” as asking about what in fact is inside, so it chose “jacket,” a literal but pragmatically misaligned interpretation, making its answer incorrect for this task."
+        },
+        {
+          "original_index": 423,
+          "current_index": 131,
+          "failed_summary": "The story sets up a classic perspective-taking problem: Lilei only sees a handbag labeled 'carrot,' so from his viewpoint he should think a carrot is inside, even though the reader knows the true content is a thermometer. The model instead treated 'should be inside' as asking about the actual physical contents after Youyou's inspection and thus logically answered 'thermometer,' matching the factual state of the world. Because the phrasing is somewhat ambiguous, both interpretations are defensible, so the model’s answer is reasonable even though it misses the intended theory-of-mind focus."
+        },
+        {
+          "original_index": 501,
+          "current_index": 152,
+          "failed_summary": "The divergence arises from how the question “What should be inside the handbag?” is interpreted: the human uses a perspective-taking, belief-based reading, while the model uses a literal, reality-based reading. From Zhang Wei’s viewpoint, who only sees the label “hat” and hasn’t opened the bag, the expected or “should be” content is a hat, so the human answer captures his reasonable belief. The model instead focuses on the actual discovered content, the sponge, so its choice is also logically consistent given that alternative interpretation of “should.”"
+        },
+        {
+          "original_index": 550,
+          "current_index": 165,
+          "failed_summary": "The model focused on the literal narrative detail that, after Xiao Gang opens the handbag, the only described object inside is a tie, so it mapped the question “What should be inside the handbag?” to “What is inside now?”  \nBy contrast, the human answer treats “should be” as referring to the label’s intended contents or Xiao Li’s expectation, reasoning that a bag tagged with a ring ought to contain a ring even if reality differs.  \nBecause the question is linguistically ambiguous between actual state and normative expectation, both interpretations are defensible and the model’s answer is also correct."
+        },
+        {
+          "original_index": 899,
+          "current_index": 281,
+          "failed_summary": "The model likely interpreted the question in a strictly factual way, focusing on the actual physical content of the handbag described in the story: Xiao Wang opens it, finds corn, then closes and returns it, so in reality the handbag contains corn (option C). The human answer instead reflects a perspective-taking or labeling interpretation: from Xiao Ming’s viewpoint, seeing only the label “jacket,” what “should” be inside—according to that label or expectation—is a jacket (option B). Because the wording “should be inside” is ambiguous between factual content and expected content, both answers are reasonable and the model’s choice is also valid."
+        },
+        {
+          "original_index": 962,
+          "current_index": 307,
+          "failed_summary": "From the story, the factual content of the handbag is clearly a mask, so the model followed a literal, physical-state reading of the question and chose A, “Mask.” However, these tasks usually test theory-of-mind or label-based expectations: since the bag is labeled “banana” and Xiao Li has only seen the label, a human reasoner infers that what “should be” inside, from the character’s or normative labeling perspective, is B, “Banana.” Thus both interpretations are defensible, but the human answer better matches the typical intention of such problems."
+        },
+        {
+          "original_index": 1002,
+          "current_index": 320,
+          "failed_summary": "The discrepancy arises because the question uses the ambiguous phrase “should be inside the box,” which can refer either to the actual current contents or to what is expected given the label. The human interpreted “should” in terms of the labeled, intended, or expected content from Han Meimei’s perspective, so chose A (socks), while the model focused on the factual content revealed in the narrative and answered D (compass). Under these two different but reasonable interpretations, both answers are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1224,
+          "current_index": 394,
+          "failed_summary": "The model interpreted the question “What should be in the box?” as asking about the contents after Xiao Li opened it, so it chose “Cup,” which matches the discovered object. However, this kind of task is usually a theory-of-mind or belief reasoning question, where the crucial perspective is Youyou’s, who only sees the label and therefore should think a hat is inside. Thus the human answer emphasizes the intended mental-state reasoning, while the model focuses on literal reality; both answers are valid and the model's answer is also correct, though the task’s design makes A the better targeted choice."
+        },
+        {
+          "original_index": 1281,
+          "current_index": 411,
+          "failed_summary": "The story sets up a mismatch between the box’s label (“hats”) and its real content (a notebook), then introduces Xiao Li, who only observes the box from outside. The human interprets “What should be inside the box?” as asking about the expectation created by the label and Xiao Li’s likely belief, so selects “hat,” emphasizing social convention and perspective-taking over literal reality. The model instead reads the question literally, prioritizing the actually observed content and answering “notebook,” so both answers are defensible given the ambiguity between normative/expected contents and factual contents."
+        },
+        {
+          "original_index": 1576,
+          "current_index": 510,
+          "failed_summary": "The model focused on the literal, factual state of the world described in the story: after Xiao Li opens the drawer, we are explicitly told that there is a cup and no buttons inside, so the model inferred that a cup “should be” in the drawer because that is its actual current content. The human answer instead treats “should” as asking about the norm or expectation created by the drawer’s label, so from Xiao Bei’s perspective a drawer labeled “buttons” ought to contain buttons even though it in fact holds a cup. Thus both answers are reasonable and valid."
+        },
+        {
+          "original_index": 1641,
+          "current_index": 530,
+          "failed_summary": "The human answer interprets “should be inside the handbag” relative to the label and Xiao Bei’s expectation: a bag tagged with a cup ought to contain a cup, even though it in fact holds a pencil. The model instead answered “pencil,” focusing on the actual observed contents after Li Lei opened the bag and treating “should be” as a question about reality rather than normative or belief-based expectations. Both answers are reasonable—the model’s is also logically correct—but because the story emphasizes the mismatch between the label and contents, the human’s perspective-based answer better matches the intended reasoning test."
+        },
+        {
+          "original_index": 1789,
+          "current_index": 576,
+          "failed_summary": "The story contrasts the suitcase’s **label** (“beetroot”) with its **actual contents** (a marker), and the question “What should be inside the suitcase?” is about expectation or label-based belief, not physical reality. The human answer “A. Beetroot” reflects what Xiao Ming would reasonably think or what *ought* to be inside given the label, whereas the model focused on the last explicitly mentioned real content, “D. Marker.” Both interpretations are logically defensible, so the model’s answer is also reasonable even though it ignores the belief/label-based reading of “should.”"
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 15,
+      "layer2_cluster_summary": "Across these items, the model repeatedly confuses which character’s mental state is queried, often defaulting to the “classic” absent-agent false‑belief template even when the story asks about a different, better-informed agent. A second recurring pattern is collapsing distinctions between reality, first‑order belief, and second‑order belief: it either tracks only the object’s actual location or only the first observer’s outdated belief, instead of maintaining parallel belief states. Finally, it underuses evidence that agents update beliefs after direct perception, and sometimes overweights static cues like labels or initial descriptions.",
+      "layer2_cluster_size": 14,
+      "original_items": [
+        {
+          "original_index": 118,
+          "current_index": 42,
+          "failed_summary": "Han Meimei herself moves the tie from the cabinet to the box and never loses sight of it, so when Youyou returns, Han Meimei’s correct search location is the box, matching the human answer. The model likely over-applied a familiar “false-belief” template (similar to Sally–Anne tasks), focusing on the person who left (Youyou) and defaulting to the original location (cabinet), instead of tracking whose perspective the question explicitly asks about. Because the question concerns Han Meimei’s knowledge, not Youyou’s mistaken belief, the model’s choice of “cabinet” is incorrect and the human answer better matches the story logic."
+        },
+        {
+          "original_index": 129,
+          "current_index": 45,
+          "failed_summary": "The story tracks Youyou’s knowledge: she personally moves the tie from the cabinet to the suitcase, so after Xiao Wang returns, Youyou should rationally search the suitcase, making A the better-supported answer. The model likely treated this as a standard “false-belief” problem and mistakenly centered the question on Xiao Wang’s outdated belief, defaulting to the cabinet where Xiao Wang last saw the tie. In other words, it confused whose perspective was being queried, projecting Xiao Wang’s belief onto Youyou and thus chose B for the wrong agent."
+        },
+        {
+          "original_index": 235,
+          "current_index": 75,
+          "failed_summary": "Here the task is a second‑order false‑belief question: we must infer where Xiao Li thinks Youyou will search, given that Youyou never saw the sponge moved from the handbag to the box. The human correctly reasons that Xiao Li knows Youyou still believes the sponge is in the original place, so Xiao Li expects Youyou to look in the handbag, not the box. The model instead appears to track only the sponge’s actual location and Xiao Li’s first‑order knowledge, ignoring Youyou’s outdated belief, so its choice D is incorrect."
+        },
+        {
+          "original_index": 733,
+          "current_index": 216,
+          "failed_summary": "The story describes that Xiao Hong personally opens the cabinet, sees a jacket instead of zucchini, and then closes it again, so she now has correct knowledge of its actual contents. When asked what Xiao Hong expects Xiao Gang will find after he opens the cabinet, a human reasoner focuses on her updated belief state, concluding she expects a jacket, which corresponds to option B. The model likely defaulted to the cabinet’s misleading label or confused whose perspective mattered, treating it like a classic false-belief task about initial expectations, so it incorrectly answered A, zucchini."
+        },
+        {
+          "original_index": 977,
+          "current_index": 312,
+          "failed_summary": "The model likely tracked only the real-time location of the zucchini, concluding that because Xiao Li moved it to the safe, any subsequent search would rationally occur there. It failed to represent Zhang Wei’s outdated belief state and, more specifically, Xiao Li’s meta-belief about where Zhang Wei expects the zucchini to be, which should still be the original box Zhang Wei saw. Thus, the model’s choice of “Safe” reflects a here-and-now physical reasoning error rather than correct theory-of-mind reasoning, so the human answer is preferable."
+        },
+        {
+          "original_index": 1140,
+          "current_index": 371,
+          "failed_summary": "The story explicitly states that Xiao Hong moves the cucumber from the briefcase to the cabinet after Youyou leaves, so when Youyou returns, Xiao Hong knows the new, real location and should rationally search the cabinet, matching the human answer A. The model likely treated the problem as a classic false-belief task and mistakenly centered on Youyou’s outdated belief about the cucumber still being in the briefcase, then transferred that belief to Xiao Hong when choosing B. Because the question asks about Xiao Hong’s perspective, not Youyou’s, the model’s answer is incorrect."
+        },
+        {
+          "original_index": 1174,
+          "current_index": 380,
+          "failed_summary": "The model likely focused on the *actual* location of the cucumber and Xiao Hong’s true knowledge (that it was moved to the cabinet), so it chose D, “Cabinet,” based on the real world rather than beliefs about beliefs. However, the question asks a second-order belief question: after leaving, Youyou does not see the move, so she still thinks the cucumber is in the briefcase and thus thinks Xiao Hong will look there, making B the appropriate answer. The model’s mistake is confusing reality and Xiao Hong’s knowledge with Youyou’s belief about Xiao Hong’s belief."
+        },
+        {
+          "original_index": 1403,
+          "current_index": 454,
+          "failed_summary": "The story states that Xiao Hong herself moved the cup from the briefcase to the cabinet, so she knows its new location and would rationally search the cabinet, making B the correct answer. The model likely applied a standard “false-belief” pattern—assuming the question was about the returning agent’s (Xiao Bei’s) mistaken belief—and so defaulted to the original location, the briefcase (D), even though the question explicitly asks about Xiao Hong’s behavior. Thus, the model’s answer is incorrect because it confused which character’s perspective was being queried."
+        },
+        {
+          "original_index": 1482,
+          "current_index": 477,
+          "failed_summary": "The model likely focused on the drawer’s “cucumber” label and treated the task like a standard false-belief problem, assuming expectations are guided by the misleading label rather than by direct knowledge. However, Xiao Hong has already opened the drawer, seen there is a book and no cucumber, and then closed it, so her belief about the drawer’s contents is now accurate. Therefore, when asked what Xiao Hong expects will be inside when Youyou opens it, the logically consistent answer is “book,” making the model’s choice of “cucumber” incorrect."
+        },
+        {
+          "original_index": 1505,
+          "current_index": 485,
+          "failed_summary": "The model likely focused on the factual, updated location of the pepper—after Xiao Hong moves it—so it reasoned that any rational searcher, including Youyou, should look in the cabinet, leading it to pick option C. However, the question is about Xiao Hong’s belief about Youyou’s belief, a second-order false-belief situation: Xiao Hong should expect Youyou to search where she last saw the pepper, the drawer. Thus the model’s choice is incorrect because it ignored the perspective-taking requirement and treated this as a simple “where is it now?” task."
+        },
+        {
+          "original_index": 1525,
+          "current_index": 496,
+          "failed_summary": "The model likely tracked only the cabinet’s label and Xiao Gang’s initial assumption, treating the question as about a static association (“vest”) rather than his updated knowledge after opening it. By contrast, the human answer recognizes that once Xiao Gang saw cabbage and confirmed there was no vest, his expectation for any future opening—including Youyou’s—would rationally be cabbage. Therefore, the model’s choice of option A stems from a confusion between labels, initial beliefs, and later knowledge, whereas the perspective-sensitive reading of the story makes option B the more coherent and correct answer."
+        },
+        {
+          "original_index": 1673,
+          "current_index": 539,
+          "failed_summary": "Both agents initially see the sponge in the handbag, but Youyou leaves before Xiao Li secretly moves it into the box, so only Xiao Li knows its new location. The model seems to track only the real world state (sponge now in the box) and infers that Youyou will expect Xiao Li to search where the sponge actually is, instead of modeling Youyou’s outdated belief. Because the question targets Youyou’s belief about Xiao Li’s search, the correct answer is “handbag,” so the model’s choice of “box” is incorrect."
+        },
+        {
+          "original_index": 1885,
+          "current_index": 604,
+          "failed_summary": "The story states that Xiao Hong herself moved the zucchini from the box to the crate, so she knows its true current location and would rationally search in the crate, matching the human answer. The model likely defaulted to the common “false-belief” pattern in similar psychology tasks, mistakenly assuming the question was about Xiao Gang’s outdated belief and therefore picking the original location, the box. Because the question explicitly asks about Xiao Hong’s search behavior, not Xiao Gang’s belief, the model’s answer is not contextually appropriate."
+        },
+        {
+          "original_index": 1979,
+          "current_index": 642,
+          "failed_summary": "The discrepancy arises because the model tracked the sponge’s real location instead of Youyou’s belief about its location. In classic false-belief scenarios like this, Youyou left before Xiao Li moved the sponge, so Youyou still believes it is in the handbag and would rationally search there first, matching the human answer C. By focusing on the physical move into the box and ignoring the perspective of the absent character, the model incorrectly selected A, revealing a failure in theory-of-mind style reasoning."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 16,
+      "layer2_cluster_summary": "Across these items, the human answers consistently track an agent’s perspective, beliefs, and knowledge updates, while the model often defaults to surface features like the first-mentioned object, the literal label, or the narrator’s omniscient description. Where humans treat phrases like “should be in the box” as about what a specific character reasonably expects or is excited about, the model misreads them as asking about the actual current contents, collapsing belief states into reality. This reveals a recurring failure to represent distinct mental states, interpret pragmatic cues, and revise beliefs after new observations.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 153,
+          "current_index": 52,
+          "failed_summary": "The key is Wang Lei’s *perspective*: he has already played with the electric car and the puzzle, but missed the colored pencils, so on returning he is most likely excited about the only toy he hasn’t tried. Xiao Ming, sharing this knowledge, should infer that “that toy” refers to the colored pencils and hand those over, making C the best answer. The model instead defaulted to the first-mentioned toy (the electric car), ignoring the perspective-taking/theory-of-mind aspect that drives the intended reasoning."
+        },
+        {
+          "original_index": 386,
+          "current_index": 117,
+          "failed_summary": "The story is a classic theory‑of‑mind style setup where the key is the perspective of the newcomer, Xiao Li, who only sees the label 'chalk' on the closed box. The question, “What should be in the box?”, is interpreted as “According to the label and Xiao Li’s reasonable belief, what is expected to be inside?”, so the intended answer is D (chalk), not the actual content. The model instead answered B (pencil) because it focused on the real physical contents rather than the belief-based, label-based expectation."
+        },
+        {
+          "original_index": 394,
+          "current_index": 119,
+          "failed_summary": "The story contrasts the box’s label (“vest”) with its actual content (“hoodie”), then asks, “What should be inside the box?” which pragmatically refers to what is expected or supposed to match the label, not what is physically there. The human therefore chooses “vest,” reasoning from social/labeling norms and implied expectations (and often, theory-of-mind tasks focus on such expectations rather than reality). The model instead fixates on the factual state of the world, interpreting “should” as “is,” so its choice of “hoodie” reflects a misunderstanding of the question’s intent."
+        },
+        {
+          "original_index": 786,
+          "current_index": 237,
+          "failed_summary": "The model likely focused on the tag showing a bottle and treated the question as asking about what would be assumed to be inside from that label, rather than about Xiao Li’s informed expectation after looking. It seems to have ignored the step where Xiao Li opens the backpack, directly observes the ring, and then closes it without changing the contents, so her expectation should remain “ring.” Because the story gives no reason for Xiao Li to trust the label more than her observation, the model’s choice B is incorrect and D is the better answer."
+        },
+        {
+          "original_index": 1517,
+          "current_index": 492,
+          "failed_summary": "The model seems to rely mainly on the box’s “socks” label and a simple rule that people expect contents to match labels, so it answers D, Socks. By doing this, it ignores the clear narrative update that Li Lei opened the box, saw a compass, and closed it again, which should permanently revise his belief about what is inside. Thus the human answer A correctly tracks Li Lei’s informed mental state, while the model’s choice D confuses initial appearance with updated knowledge, so its reasoning and final answer are incorrect."
+        },
+        {
+          "original_index": 1951,
+          "current_index": 633,
+          "failed_summary": "The story is a perspective-taking task: after Xiao Li inspects the safe, Youyou only sees a safe labeled “sponge,” so the expected or believed content, and thus the exam-style answer, is “sponge.” The model instead focused on the factual, up-to-date contents revealed by the narrator—pepper powder—treating “should be inside the safe” as a question about reality rather than about Youyou’s belief or the label’s implication. Because this ignores the intended theory-of-mind reasoning and the pragmatic meaning of “should,” the model’s choice is considered incorrect here."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 34,
+      "layer2_cluster_summary": "Across these reasons, the model systematically over-applies a stock “false-belief task” script and a simple “label = contents” heuristic instead of tracking narrative updates. It repeatedly ignores that the focal character has directly inspected the container, now holds a true belief about the contents, and will project that belief to what another person will find, regardless of misleading tags. The errors also show recurring confusion about whose mental state is queried, answering from an uninformed observer’s perspective rather than the explicitly specified knowledgeable agent’s.",
+      "layer2_cluster_size": 15,
+      "original_items": [
+        {
+          "original_index": 87,
+          "current_index": 30,
+          "failed_summary": "The model likely fixated on the misleading label “carrot” and on standard false-belief patterns, assuming expectations should follow the label instead of the actual contents. However, the question asks about Xiao Li’s expectation after he has opened the cabinet, seen the coat, and closed it again, so his belief now matches reality. Thus the human answer D (coat) correctly tracks Xiao Li’s updated knowledge state, while the model’s choice B (carrot) is incorrect for mixing up label-based or other-agent belief with his own."
+        },
+        {
+          "original_index": 133,
+          "current_index": 47,
+          "failed_summary": "The model likely defaulted to a simple “label = contents” heuristic and treated the cabinet’s label (“eggplant”) as the determining factor, overlooking the crucial update that Xiao Li has already opened the cabinet and seen beetroot. In belief-tracking terms, Xiao Li’s mental model has changed: after direct observation, he now knows the cabinet actually contains beetroot and no eggplant, so his expectation should align with beetroot regardless of the misleading label or Han Meimei’s later actions. Therefore, the human answer (C, beetroot) reflects the correct reasoning, and the model’s choice (D) is incorrect."
+        },
+        {
+          "original_index": 242,
+          "current_index": 78,
+          "failed_summary": "The story clearly states that Xiao Li looked inside the locker, discovered there were crayons and no zucchini, then closed it; so by the time Zhang Wei later opens it, Xiao Li’s updated expectation about its contents should be “crayon,” not “zucchini.” The model likely treated this as a standard “label vs. contents” or false-belief problem and defaulted to the label-based answer, incorrectly anchoring on the zucchini label rather than tracking Xiao Li’s knowledge update after inspection. Thus, the model’s choice A is incorrect and the human’s choice C is better supported."
+        },
+        {
+          "original_index": 327,
+          "current_index": 99,
+          "failed_summary": "The model seems to rely mainly on the cabinet’s “carrot” label and generic world knowledge, assuming Han Meimei’s expectation still matches the label. But the story clearly states that she opened the cabinet, saw a tie instead of a carrot, and closed it again, so her updated belief about its contents is “tie,” not “carrot,” regardless of the label. Thus the human answer (D) correctly tracks Han Meimei’s knowledge and expectations, and the model’s choice (C) is incorrect because it ignores her belief revision and confuses the visible label with the known contents."
+        },
+        {
+          "original_index": 560,
+          "current_index": 167,
+          "failed_summary": "The story clearly states that Xiao Li actually opens the drawer, sees there is a cup and no buttons, then closes it, so Xiao Li’s belief is updated to “there is a cup in the drawer.” When the question asks what Xiao Li expects Xiao Bei will find after opening it, the rational answer is “cup,” because nothing in the story suggests the contents changed or that Li reverted to trusting the label. The model likely over-focused on the drawer’s label “buttons” and on typical false-belief-task patterns, so its choice D is incorrect."
+        },
+        {
+          "original_index": 796,
+          "current_index": 240,
+          "failed_summary": "The story states that Xiao Li personally opened the box and saw that it actually contained a cup and no hat, so her current belief about the box’s contents is “cup.” The question asks what Xiao Li expects to find in the box after Youyou opens it, which concerns Xiao Li’s own knowledge, not Youyou’s belief; therefore the human answer C (cup) follows straightforwardly from the narrative. The model likely over-applied a “false-belief” pattern and fixated on the misleading label (“hat”), making option B incorrect here."
+        },
+        {
+          "original_index": 976,
+          "current_index": 311,
+          "failed_summary": "The model likely over-applied the classic “false-belief task” pattern (where a character continues to hold the original, mistaken belief) and fixated on the handbag’s hat label, assuming Xiao Ming still believes a hat is inside. It ignored the crucial update that Xiao Ming looked into the handbag, discovered a sponge, and then closed and replaced it, which means his belief about its contents is now accurate and stable. Therefore, at the time Zhang Wei opens the handbag, Xiao Ming would expect a sponge inside, so the model’s choice of “hat” is incorrect."
+        },
+        {
+          "original_index": 1103,
+          "current_index": 359,
+          "failed_summary": "The model seems to have focused mainly on the misleading label “bottle” on the drawer and applied a stereotypical false-belief pattern, inferring that Li Lei’s expectation would still match the label rather than the actual content he observed. However, the story explicitly states that Li Lei opened the drawer, saw a zucchini, noticed there was no bottle, and then closed it, so from his perspective he has updated knowledge and should expect a zucchini to still be inside when Han Meimei opens it. Therefore the human answer is better supported by the narrative, and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1314,
+          "current_index": 424,
+          "failed_summary": "The model likely treated this as a standard false-belief task and defaulted to the label “socks,” reasoning about what an uninformed agent might think is inside the basket instead of what Xiao Li expects. However, the question asks specifically what Xiao Li expects Xiao Zhang to find *after* Xiao Li has already opened the basket and discovered a jacket, so Xiao Li’s updated belief is that the basket contains a jacket. Thus, the human answer “A. Jacket” correctly tracks Xiao Li’s knowledge state, while the model’s answer “D. Socks” is incorrect."
+        },
+        {
+          "original_index": 1334,
+          "current_index": 433,
+          "failed_summary": "The model likely focused on the handbag’s ring tag as the key cue, inferring that Xiao Gang’s expectation is tied to the external label rather than to his updated knowledge after looking inside. However, the story explicitly states that Xiao Gang opens the bag, sees there is only a tie and no ring, then closes it again, so his belief about the contents is now that it contains a tie. Therefore the human answer is correct and the model’s answer is incorrect, because it ignored Xiao Gang’s new knowledge and treated his belief as if it never changed."
+        },
+        {
+          "original_index": 1555,
+          "current_index": 503,
+          "failed_summary": "The model likely applied a stereotypical “false-belief task” pattern and over-relied on the box’s label (“ring”), assuming Youyou would still expect a ring inside despite later evidence. However, the story clearly states that Youyou opened the box, saw a carrot, and found no ring, then closed it again; so her updated knowledge is that the box contains a carrot, and she should expect Li Lei to find a carrot as well. Therefore, the human answer (A) is correct, and the model’s choice (D) is incorrect."
+        },
+        {
+          "original_index": 1811,
+          "current_index": 582,
+          "failed_summary": "The question asks about Xiao Li’s expectation after he has already opened the safe, seen pepper powder, and closed it again. At that point Xiao Li’s belief about the contents is updated to “pepper powder,” so he should expect Youyou to find pepper powder, regardless of the misleading “sponge” label, which makes option A correct. The model likely fixated on the label and treated the task like a classic false-belief problem about Youyou, mistakenly answering from Youyou’s naive perspective rather than from Xiao Li’s informed perspective."
+        },
+        {
+          "original_index": 1895,
+          "current_index": 608,
+          "failed_summary": "The model likely treated this as a simple label-based or “false-belief” task and over-relied on the backpack’s sweatshirt tag, assuming Li Lei’s belief is still tied to that label. It seems to have misread the question as asking what Han Meimei (or an uninformed observer) would expect, rather than what Li Lei expects *after* he has already seen the light bulb and closed the backpack. Since Li Lei directly observed the light bulb and knows there is no sweatshirt inside, the human answer (A, light bulb) is correct and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1961,
+          "current_index": 636,
+          "failed_summary": "The model likely focused on the external tag (a cup) as the primary cue and treated the question as about what someone should infer from the label, ignoring the narrative’s later evidence. However, Li Lei directly inspected the handbag, observed that it contained a pencil and no cup, then closed it again, so his updated belief—and thus what he expects anyone to find—is the pencil. Therefore, the human answer is better supported by the story’s belief dynamics, and the model’s choice reflects a failure of theory-of-mind reasoning."
+        },
+        {
+          "original_index": 1992,
+          "current_index": 644,
+          "failed_summary": "The story clearly states that Han Meimei has looked inside the briefcase and seen an apple, so after closing it she holds a true belief that it contains an apple; thus she should expect Xiao Ming to find an apple, matching option C. The model likely defaulted to using the misleading label “banana” as the key cue or confused whose expectation was being asked about, effectively answering what Xiao Ming might think instead of what Han Meimei expects. Therefore, the model’s choice D is incorrect, and the human answer is correct."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 41,
+      "layer2_cluster_summary": "Across these reasons, the model systematically mishandles perspective-taking: it either answers from an all-knowing narrator viewpoint or from a naive, label-based observer, rather than from the specific character the question targets. It over-relies on shallow heuristics—such as “trust the label” or “report the real contents”—and so ignores critical temporal updates (who looked when), distinct belief states across characters, and even second-order beliefs about others’ expectations. As a result, it frequently misclassifies true-belief scenarios as classic false-belief tasks (and vice versa), yielding answers that track cues, not mental states.",
+      "layer2_cluster_size": 9,
+      "original_items": [
+        {
+          "original_index": 30,
+          "current_index": 10,
+          "failed_summary": "The story explicitly states that Xiao Hong opens the briefcase, sees a plate and a ruler, and then closes it, so she now knows its true contents and has no reason to think they changed. Therefore, when asked what Xiao Hong expects Xiao Bei will find after opening it, the correct inference is that she expects the plate and ruler, making option B consistent with her knowledge state. The model instead chose D, likely over-focusing on the misleading “scarf” label and treating this as a simple label-based belief question rather than a perspective-taking, knowledge-tracking task."
+        },
+        {
+          "original_index": 106,
+          "current_index": 39,
+          "failed_summary": "The story is a perspective-taking / false-belief task: the backpack’s tag shows a bottle, so from an outside observer’s expectation (and what “should be” inside, given the label), the answer is “bottle,” even though the true content is a ring. The model instead focused on the literal object Xiao Li actually found, ignoring the pragmatic cue in the question that points to what is expected rather than what is real. Thus, it treated this as a straightforward factual query about contents, making its choice of “ring” incorrect here."
+        },
+        {
+          "original_index": 222,
+          "current_index": 73,
+          "failed_summary": "The story is a classic false-belief scenario testing perspective-taking, where the crucial detail is that Xiao Li only sees the briefcase and its label, not Xiao Ming opening it. The human answer “B. Tape” reflects what Xiao Li would *think* is inside based on the label, while the model chose “C. Calculator,” focusing instead on the actual object Xiao Ming found. Thus the model likely failed to track differing beliefs across characters and defaulted to the real-world content, making its answer incorrect for this reasoning task."
+        },
+        {
+          "original_index": 965,
+          "current_index": 308,
+          "failed_summary": "In the story, Xiao Gang discovers that the handbag actually contains a hat, then closes it and leaves it where it was, and afterwards Xiao Ming merely enters the room and sees the handbag from outside. The model likely focused on the true internal contents from an all-knowing narrator perspective, reasoning that since there is a hat in the handbag, Xiao Ming would therefore “see” a hat and chose option D. However, the question concerns Xiao Ming’s visual access, not objective reality, so the human answer A (“sees nothing”) better fits the scenario."
+        },
+        {
+          "original_index": 1005,
+          "current_index": 322,
+          "failed_summary": "The story is structured as a classic false-belief task, where the crucial point is what Xiao Bei believes based on the cabinet’s label rather than the actual contents Xiao Hong discovered earlier. Because Xiao Bei only sees a cabinet labeled “cups” and is never told about the potatoes, a human reasoner infers she would expect to find cups, aligning with option A. The model instead focused on the real state of the world (potatoes in the cabinet) and ignored the character’s limited knowledge, so its answer reflects reality rather than belief and is incorrect for this question."
+        },
+        {
+          "original_index": 1349,
+          "current_index": 437,
+          "failed_summary": "The story is a second-order false-belief task: Xiao Zhang last saw the carrot in the handbag and does not know it was moved, and he also thinks Xiao Li still believes the carrot is in the handbag, so Zhang should expect Li to look in the handbag first, matching option C. The model instead chose A (briefcase), which never contained the carrot, suggesting it either confused “handbag” and “briefcase” as similar containers or failed to track the specific container mentioned. It also likely ignored the second-order belief aspect and defaulted to an arbitrary alternative location."
+        },
+        {
+          "original_index": 1419,
+          "current_index": 462,
+          "failed_summary": "The story clearly states that Han Meimei opened the backpack, saw a light bulb, and then closed it, so her updated belief about its contents is “light bulb,” regardless of the misleading tomato label. The model likely defaulted to a standard false-belief pattern, over-focusing on the backpack’s label and treating the situation as if Han Meimei never looked inside, effectively answering what Li Lei might believe instead of what Han expects him to find. Therefore, the human answer B is correct, and the model’s choice A is based on a perspective-tracking error."
+        },
+        {
+          "original_index": 1458,
+          "current_index": 472,
+          "failed_summary": "The story clearly states that Xiao Ming opened the briefcase, saw a calculator, and then closed it, so his expectation about its contents should match his direct knowledge: a calculator. The model seems to have focused on the label “tape” and treated the question like a classic false-belief task about being misled by external cues, incorrectly assuming Xiao Ming’s belief is driven by the label rather than his observation. It therefore chose A, but this ignores the explicit evidence that Xiao Ming knows the label is wrong, so the human answer B is better supported."
+        },
+        {
+          "original_index": 1799,
+          "current_index": 578,
+          "failed_summary": "The model likely focused on the label “beetroot” as the salient cue and implicitly answered from Xiao Ming’s naive perspective (or from an initial, label-based assumption), rather than from Li Lei’s updated knowledge after opening the briefcase. It failed to track that Li Lei has already seen the banana and therefore holds a true belief about the content, so his expectation should match reality, not the label. Thus, the human answer D (banana) is correct, and the model’s choice A (beetroot) reflects a perspective-taking and belief-tracking error."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 47,
+      "layer2_cluster_summary": "Across these items, the stories are framed as classic first‑ or second‑order false‑belief tasks where humans answer based on an agent’s outdated belief rather than the object’s actual location. Consistently, the model instead tracks the real state of the world or a directly stated mental attitude, failing to represent nested perspectives and conflating physical reality with belief and belief‑about‑belief. Item 10 is a partial exception, showing the model favoring a surface description of the agent’s false belief while humans choose a deeper causal explanation, highlighting systematic ambiguities in interpreting such tasks.",
+      "layer2_cluster_size": 11,
+      "original_items": [
+        {
+          "original_index": 93,
+          "current_index": 33,
+          "failed_summary": "The story is a classic false-belief setup: both Han Meimei and Li Lei originally see the tomatoes in the backpack, then Li Lei leaves, and only Han Meimei observes and performs the move to the suitcase. Therefore, Han knows that Li Lei still believes the tomatoes are in the backpack, so she should think he will look there first, making “Backpack” the correct option. The model instead answered “Suitcase,” indicating it tracked the *actual* tomato location rather than reasoning about Han Meimei’s perspective on Li Lei’s outdated belief."
+        },
+        {
+          "original_index": 124,
+          "current_index": 44,
+          "failed_summary": "First, the story states that Han Meimei sees the bottle in the box, then leaves the balcony before Li Lei secretly moves the bottle to the suitcase. A human reasoner typically interprets the question “where does Han Meimei look for the bottle?” as probing her belief or expectation, not the bottle’s real location, so they choose “box” based on her last knowledge. The model instead answered “suitcase,” tracking the actual location and ignoring Han Meimei’s outdated perspective, so its choice is incorrect for this classic false-belief style question."
+        },
+        {
+          "original_index": 229,
+          "current_index": 74,
+          "failed_summary": "The story is a classic false-belief / second-order belief task: Han Meimei leaves before the bottle is moved, so she still believes it is in the box, and Li Lei knows she didn’t see the move. Therefore, Li Lei should think Han Meimei will look in the box, matching the human answer A. The model instead chose D (suitcase), likely by tracking the bottle’s real location rather than representing Han’s outdated belief and Li Lei’s belief about her belief, thus confusing physical reality with nested mental states and yielding an incorrect theory-of-mind inference."
+        },
+        {
+          "original_index": 440,
+          "current_index": 135,
+          "failed_summary": "The story is a classic false-belief scenario, where the key is Xiao Li’s belief, not the bananas’ real location. When Xiao Li left, the bananas were in the box, and he did not see Xiao Bei move them, so a human reasoner assumes Xiao Li will first look in the box, making option B correct. The model instead tracked the true, updated location of the bananas (the basket) and answered D, showing it prioritized objective state over Xiao Li’s perspective and thus failed the intended theory-of-mind reasoning."
+        },
+        {
+          "original_index": 468,
+          "current_index": 143,
+          "failed_summary": "The model likely focused on the sweatshirt’s actual new location (the handbag) and treated the question as “Where is the sweatshirt now?”, ignoring the perspective-taking implied by “Li Lei thinks Han Meimei looks.” This reflects a failure of second‑order theory of mind: Li Lei knows Han Meimei left before the sweatshirt was moved, so he should expect her to search where she last saw it, not where it really is. Although the provided human answer D (wardrobe) is inconsistent with the story, the model’s answer C is still incorrect for the reasoning task."
+        },
+        {
+          "original_index": 491,
+          "current_index": 149,
+          "failed_summary": "The story is a classic false-belief task requiring reasoning about what one character thinks another character believes. Xiao Gang leaves when the raincoat is in the backpack, so he falsely believes it remains there, and Xiao Li knows he holds this outdated belief. The model instead tracks only the raincoat’s actual location in the safe, confusing reality with nested beliefs about belief, so its answer D reflects a perspective error rather than an alternative but valid interpretation of the question."
+        },
+        {
+          "original_index": 630,
+          "current_index": 190,
+          "failed_summary": "This problem is a second‑order belief task asking about Xiao Zhang’s belief about Xiao Li’s search, not about the socks’ actual location. When Zhang left, both knew the socks were in the handbag; Zhang never sees the move, so he still thinks the socks—and Li’s belief about them—remain in the handbag. The model instead tracks Li’s real knowledge and answers where Li will actually search (the basket), effectively ignoring the “Zhang thinks” perspective, so its choice D reflects a perspective‑taking error and is incorrect."
+        },
+        {
+          "original_index": 1111,
+          "current_index": 362,
+          "failed_summary": "The core issue is that this problem tests theory-of-mind: Xiao Bei last saw the button in the cabinet before leaving, so on returning she would still *believe* it is there even though it was secretly moved. The human answer B reflects this belief-based reasoning, whereas the model’s answer D tracks only the button’s actual location and ignores Xiao Bei’s outdated perspective. In other words, the model solved a physical-state tracking task instead of a belief-state task, so its choice is incorrect for the question being asked."
+        },
+        {
+          "original_index": 1241,
+          "current_index": 402,
+          "failed_summary": "The story is a classic false-belief scenario: Li Lei leaves before Xiao Li moves the dress, so from Xiao Li’s perspective Li Lei should still believe the dress is in its original location, the handbag, making B the perspective-correct answer. The model instead appears to track the actual, updated location of the dress and implicitly reinterpret the question as asking where Li Lei *should* look given reality, which leads it to choose D, the briefcase. This shows the model failed to model Li Lei’s outdated belief state and confused objective reality with agents’ mental perspectives."
+        },
+        {
+          "original_index": 1243,
+          "current_index": 403,
+          "failed_summary": "The model focused on the explicit mental state stated in the story: “he thinks he brings the ball home,” which directly matches option B (“Li Lei really thinks the football is in his bag”). The human answer, D, zooms in on the underlying cause of that false belief—that he forgot leaving the ball in the locker room—treating memory failure as the key explanation. Both perspectives are logically consistent, so both B (immediate belief) and D (deeper cause) can be seen as valid, and the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1244,
+          "current_index": 404,
+          "failed_summary": "The key to this question is tracking Li Lei’s belief about Han Meimei’s belief: she last saw the socks in the backpack, then left before Li Lei moved them. A human reasoner typically applies theory-of-mind, concluding that Li Lei expects Han to still think the socks are in the backpack and to search there first, giving answer A. The model instead answered D, seemingly focusing on the socks’ actual new location or implicitly assuming Han observed or inferred the move, thus ignoring the nested-belief perspective, which makes its choice incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 61,
+      "layer2_cluster_summary": "Across these cases, the model over-relies on salient, explicitly stated similes or metaphors and treats them as literal answers, engaging in shallow phrase-matching rather than deeper reasoning. It systematically ignores world-building constraints about what entities exist in the story worlds and what the characters have perceptual access to, so it attributes imitations to leaves, dough, eagles, trees, and flowers that the characters cannot possibly have encountered. This reflects a broader failure to integrate background constraints and character knowledge into its interpretation, undermining the intended Theory of Mind inference.",
+      "layer2_cluster_size": 5,
+      "original_items": [
+        {
+          "original_index": 38,
+          "current_index": 12,
+          "failed_summary": "The model focused on the explicit simile in the narrative—“spins quickly, just like a leaf…sweeps it away”—and matched that almost verbatim to option A, “A leaf swept away by the whirlwind.” It neglected the crucial world-building detail that Aeria has no plants and Breezo “knows nothing about them,” which makes it implausible that Breezo could intentionally imitate a leaf. Using only surface similarity instead of integrating background constraints, the model missed that B, “A kite losing balance,” better fits Breezo’s experiences and the village’s kite-filled setting."
+        },
+        {
+          "original_index": 340,
+          "current_index": 102,
+          "failed_summary": "The model likely focused on the surface description of Plix’s arm movement, which was explicitly compared to \"rolling dough\" or \"a potter shaping clay,\" so it chose option A as the closest match to that visual motion. However, the story carefully states that Plix has no exposure to plants, food, or analogous human crafts, while explicitly emphasizing rolling spherical stones in its environment. Therefore the more context-sensitive inference is that Plix is imitating the motion of stones rolling down slopes, making the human answer more consistent with the narrative constraints and the intended reasoning test."
+        },
+        {
+          "original_index": 741,
+          "current_index": 220,
+          "failed_summary": "The model focused on the most salient explicit cue: the narration says Blix’s motion “reminds people of the soaring flight of an eagle,” so it pattern-matched directly to option B. However, the story also clearly states that Skyhaven has no birds or flying animals and that Blix “never understands or encounters them,” implying it cannot realistically be imitating an eagle it has never seen. Thus, the human answer A better respects the world-building constraint, and the model’s choice is incorrect because it ignored this key contextual limitation."
+        },
+        {
+          "original_index": 1460,
+          "current_index": 473,
+          "failed_summary": "The model focused on the surface description that the motion was “similar to the swaying of tree branches,” so it matched this phrase directly to option A without considering the story’s constraints. It failed to integrate the key contextual fact that Silvatica has no trees and Plix “knows nothing about any plants,” which makes imitation of a tree implausible and instead favors an artificial structure like a crane. Thus, the model’s answer is incorrect, and D is better supported because it respects Plix’s limited experiences."
+        },
+        {
+          "original_index": 1516,
+          "current_index": 491,
+          "failed_summary": "The model likely focused on the vivid phrase “looking like the opening and closing of petals under the sun,” triggering a surface association with flowers and leading it to choose option A. However, the story explicitly states that Orbis has no plants and Blinka “knows nothing about plants,” while the city is full of neon lights, making it implausible that Blinka is intentionally mimicking a flower and more consistent that it mimics flickering neon lights. Thus, the model’s choice is incorrect because it ignored key world-building constraints and relied on shallow pattern matching."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 62,
+      "layer2_cluster_summary": "Across these reasons, the model systematically overweights salient surface cues such as container labels and typical associations, using them as shortcuts for “what is inside” instead of tracking the narrative’s evidence. It repeatedly fails to update agents’ beliefs after direct observation, so it answers as if no new information was gained, or as if the label-based, default belief still governs the character’s expectation. The errors also show confusion about whose perspective is queried, often substituting another observer’s or omniscient reality for the specified character’s mental state in second-order belief questions.",
+      "layer2_cluster_size": 11,
+      "original_items": [
+        {
+          "original_index": 108,
+          "current_index": 40,
+          "failed_summary": "The story clearly states that Zhang Wei has already opened the safe and seen there is a scarf and no sweater, so his current belief is that a scarf is inside. The question asks what **Zhang Wei** expects Xiao Ming will find, not what Xiao Ming might infer from the “sweater” label, so Zhang Wei should still expect a scarf to be there, making B the better-supported answer. The model likely fixated on the label “sweater” and confused Xiao Ming’s potential belief with Zhang Wei’s, leading it to choose D incorrectly."
+        },
+        {
+          "original_index": 158,
+          "current_index": 54,
+          "failed_summary": "The model likely fixated on the misleading label “tie” and treated the task as a label-based or default-belief question, choosing C because cabinets are usually expected to match their labels. However, the story clearly states that Youyou has already opened the cabinet, seen a raincoat, confirmed there is no tie, then closed and replaced it, so her updated belief is that a raincoat is inside. Therefore, the human’s answer (A) aligns with Youyou’s knowledge, while the model’s answer (C) is incorrect due to misinterpreting the belief state."
+        },
+        {
+          "original_index": 344,
+          "current_index": 104,
+          "failed_summary": "The discrepancy arises because the model seems to anchor on the suitcase’s label (“corn”) as the source of Xiao Bei’s belief, rather than tracking what Xiao Bei actually observed. After Xiao Bei opens the suitcase and directly sees a pencil inside and no corn, his updated and current belief is that the suitcase contains a pencil, so he should expect Xiao Ming to find a pencil if nothing has changed. Therefore, the human answer C is correct, and the model’s choice D is incorrect for ignoring this belief-updating step."
+        },
+        {
+          "original_index": 433,
+          "current_index": 133,
+          "failed_summary": "The key point is that Xiao Ming has never seen inside the storage locker and only observes the label \"coat\" when he enters the garage. A reasoner modeling Xiao Ming’s beliefs should infer that he expects some kind of coat (here represented by answer D, “Jacket”), not a cup, because he lacks Xiao Bei’s private knowledge that the label is misleading. The model instead defaulted to the actual content (“Cup,” option B), revealing a failure to track the character’s false belief and to separate reality from another agent’s expectations."
+        },
+        {
+          "original_index": 611,
+          "current_index": 184,
+          "failed_summary": "The model fixated on the basket’s label (“shirt”) and treated it as Xiao Gang’s belief, overlooking that Xiao Gang opened the basket, saw a coconut, and updated his belief. Because Xiao Gang saw the coconut and nothing changes afterward, he should expect that when Zhang Wei opens the basket, Zhang Wei will also find a coconut, not a shirt. Therefore, the human answer (D, Coconut) correctly reflects Xiao Gang’s informed belief about the basket’s contents, while the model’s answer (C, Shirt) is incorrect because it ignores this belief update."
+        },
+        {
+          "original_index": 715,
+          "current_index": 212,
+          "failed_summary": "The story clearly states that Xiao Bei opened the locker, saw that there was a cup and no coat, then closed it again, so his informed belief about its contents is “cup.” The question asks what *Xiao Bei expects* Xiao Ming will find after opening the locker, so Xiao Bei should predict that Xiao Ming will also see the cup, regardless of the misleading \"coat\" label, making option C correct. The model likely ignored the belief-tracking aspect and instead over-relied on the label “coat,” mapping it to the closest clothing item (“jacket,” option B), so its answer is incorrect."
+        },
+        {
+          "original_index": 1076,
+          "current_index": 348,
+          "failed_summary": "The story clearly states that Xiao Li opened the box, saw a jacket, and then closed it, so his belief about the box’s contents is “jacket,” making option A consistent with his knowledge. The model probably fixated on the label “raincoat” and on Xiao Gang’s perspective, confusing either (a) what the label suggests is inside or (b) what Xiao Gang might initially think, with what Xiao Li expects. Because the question explicitly asks about Xiao Li’s expectation after his observation, the model’s choice D is incorrect."
+        },
+        {
+          "original_index": 1386,
+          "current_index": 451,
+          "failed_summary": "The model likely misinterpreted the question as asking about Xiao Ming’s expectation based on the label “jacket,” rather than Xiao Wang’s expectation after he has already seen the corn inside. Since Xiao Wang opened the handbag, discovered there was no jacket and only corn, and then closed it again, his updated belief about its contents should clearly be “corn,” matching option B. Therefore, the model’s choice of “jacket” is incorrect, because it ignores Xiao Wang’s acquired knowledge and instead relies on the outdated information from the external label."
+        },
+        {
+          "original_index": 1734,
+          "current_index": 557,
+          "failed_summary": "The story clearly states that Xiao Ming opens the locker, directly observes a pumpkin and no sponge, then closes it again, so his last known belief is that a pumpkin is inside. Therefore, when Zhang Wei later opens the locker, the content Xiao Ming expects Zhang Wei to find is still the pumpkin, matching option A. The model likely defaulted to the locker’s label (“sponge”) as a cue for what is expected, failing to track Xiao Ming’s updated knowledge state after observing the pumpkin, so its choice D is incorrect."
+        },
+        {
+          "original_index": 1844,
+          "current_index": 590,
+          "failed_summary": "The model likely focused on the cabinet’s label “cups” and treated the question as if expectations are determined solely by that label, ignoring the later crucial event where Xiao Hong opens the cabinet and observes potatoes. It may also have confused whose perspective matters, implicitly answering what Xiao Bei might expect from seeing a cabinet labeled “cups,” rather than what Xiao Hong now expects after direct observation. Given the story, Xiao Hong’s updated expectation should align with reality—potatoes—so the human answer C is correct and the model’s answer A is incorrect."
+        },
+        {
+          "original_index": 1942,
+          "current_index": 627,
+          "failed_summary": "The model likely treated this as a standard “false-belief from label” task and fixated on the suitcase’s beetroot label as the determining cue for expectations. In doing so, it seems to have implicitly answered a different question—what Xiao Ming, who has only seen the label, might expect—rather than the explicit question about Xiao Gang’s expectation after he has already opened the suitcase and seen the marker. Because Xiao Gang’s knowledge has been updated by direct observation, he should now expect a marker, so the model’s choice of beetroot is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 71,
+      "layer2_cluster_summary": "Across these reasons, the core pattern is tension between salience-based heuristics (last-mentioned or “third novel toy”) and stricter perspective-based ambiguity: whether “that toy” has a uniquely identifiable referent from the listener’s point of view. The analyses repeatedly contrast cooperative-pragmatic inference—assuming agents highlight novel objects they haven’t played with and that partners exploit shared knowledge—against a conservative stance that treats underspecified references as irreducibly ambiguous. As a result, the model is sometimes faulted for shallow salience matching, but sometimes praised for sophisticated Theory-of-Mind reasoning that exam rubrics may underappreciate.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 375,
+          "current_index": 113,
+          "failed_summary": "The model likely focused on narrative salience: the blind box doll was the last, most “novel” toy and the only one Li Qiang didn’t clearly play with, so it inferred that his excited “Look at that toy!” must refer to this third toy, leading to choice D. However, from Xiao Fang’s perspective, all three toys are equally visible on the tray and Li Qiang’s utterance lacks any distinguishing detail, so she has no rational basis to select a specific toy. Therefore, the model’s choice is incorrect and C better reflects the pragmatic ambiguity."
+        },
+        {
+          "original_index": 1633,
+          "current_index": 527,
+          "failed_summary": "The model likely assumed cooperative communication and pragmatic inference: since Liu Jie never played with the third toy, her excited “that toy” most plausibly refers to the still-novel crystal puzzle. Using theory-of-mind style reasoning, the model inferred that Xiao Yu, knowing which toy Liu Jie hasn’t tried, would pick the crystal puzzle rather than arbitrarily choosing among indistinguishable options. The human answer instead treats the request as referentially ambiguous because the text omits pointing or preferences, so both D and the model’s C are reasonable interpretations and the model’s choice is also correct."
+        },
+        {
+          "original_index": 1875,
+          "current_index": 602,
+          "failed_summary": "The key pragmatic cue is that Li Juan never saw or played with the third toy, the smart rotating color light, so on returning she would most plausibly be excited about this new, unfamiliar object. Xiao Fang shares this knowledge, so under common-ground reasoning he should infer that “that toy” refers to the only novel toy for Li Juan, making option B the best answer. The model likely defaulted to a shallow textual pattern or last-mentioned-referent heuristic, linking “that toy” to the electric flyer (A), and thus missed the perspective-taking/Theory-of-Mind aspect."
+        },
+        {
+          "original_index": 1971,
+          "current_index": 639,
+          "failed_summary": "The story frames the electric airplane as the newest and most exciting “third novel toy,” and explicitly notes that Zhang Lei was watching while Wang Li and Xiao Gang played with it, making it the most salient referent of “that toy.” A pragmatically sophisticated reasoner, as the model did, can infer that “that toy” most likely means the electric airplane, so option C is a coherent answer. The human answer B treats the reference as ambiguous from Xiao Gang’s perspective, so both B (ambiguity) and C (salience-based inference) are defensible, and the model’s answer is also reasonable."
+        }
+      ]
+    }
+  ]
+}

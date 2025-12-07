@@ -1,0 +1,192 @@
+{
+  "cluster_id": 3,
+  "table_cluster_id": 4,
+  "cluster_summary": "Taken together, these reasons portray a model that defaults to salience- and template-based heuristics—classic false-belief scripts, label‑equals‑contents, last‑mentioned item, or literal similes—instead of flexibly tracking the narrative. It repeatedly misidentifies whose perspective is relevant, collapses distinctions between reality and multiple nested belief states, and neglects how agents’ knowledge changes with perception or world constraints, so it often answers from an omniscient or naïve observer rather than the targeted character. Across many items, lingering linguistic and pragmatic ambiguities mean the model’s reality‑tracking, conservative, or literal interpretations are sometimes partially defensible against rubric expectations.",
+  "example_indices": [
+    510,
+    73
+  ],
+  "num_questions": 20,
+  "questions": [
+    {
+      "story": "Mei finds a jar in the kitchen, the label on the jar is sugar, Mei cannot see what is inside the jar, Mei opens the jar and finds rice, there is no sugar inside the jar, Mei closes the jar and puts it back in its place, Kai enters the kitchen and sees the jar.",
+      "question": "What should be inside the jar?",
+      "option_a": "Rice",
+      "option_b": "Sugar",
+      "option_c": "Pasta",
+      "option_d": "Coffee",
+      "correct_answer": "B"
+    },
+    {
+      "story": "Omar finds a toolbox in the garage, the label on the toolbox is screws, Omar cannot see what is inside the toolbox, Omar opens the toolbox and finds a hammer, there are no screws inside the toolbox, Omar closes the toolbox and puts it back in its place, Lina enters the garage and sees the toolbox.",
+      "question": "What should be inside the toolbox?",
+      "option_a": "Screws",
+      "option_b": "Hammer",
+      "option_c": "Wrench",
+      "option_d": "Glue",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Priya finds a drawer in the refrigerator, the label on the drawer is vegetables, Priya cannot see what is inside the drawer, Priya opens the drawer and finds soda cans, there are no vegetables in the drawer, Priya closes the drawer and puts it back in its place, Arjun enters the kitchen and sees the drawer.",
+      "question": "What should be inside the drawer?",
+      "option_a": "Vegetables",
+      "option_b": "Soda",
+      "option_c": "Ice",
+      "option_d": "Yogurt",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Nora finds a folder in the office, the label on the folder is invoices, Nora cannot see what is inside the folder, Nora opens the folder and finds photographs, there are no invoices in the folder, Nora closes the folder and puts it back in its place, Marco enters the office and sees the folder.",
+      "question": "What should be inside the folder?",
+      "option_a": "Photographs",
+      "option_b": "Invoices",
+      "option_c": "Postcards",
+      "option_d": "Maps",
+      "correct_answer": "B"
+    },
+    {
+      "story": "Kenji finds an envelope on the coffee table, the label on the envelope is tickets, Kenji cannot see what is inside the envelope, Kenji opens the envelope and finds keys, there are no tickets in the envelope, Kenji closes the envelope and puts it back in its place, Hana enters the living room and sees the envelope.",
+      "question": "What should be inside the envelope?",
+      "option_a": "Stamps",
+      "option_b": "Keys",
+      "option_c": "Tickets",
+      "option_d": "Money",
+      "correct_answer": "C"
+    },
+    {
+      "story": "Zara finds a bin in the classroom, the label on the bin is markers, Zara cannot see what is inside the bin, Zara opens the bin and finds chalk, there are no markers in the bin, Zara closes the bin and puts it back in its place, Leo enters the classroom and sees the bin.",
+      "question": "What should be inside the bin?",
+      "option_a": "Chalk",
+      "option_b": "Erasers",
+      "option_c": "Markers",
+      "option_d": "Crayons",
+      "correct_answer": "C"
+    },
+    {
+      "story": "Mateo finds a crate at the market stall, the label on the crate is apples, Mateo cannot see what is inside the crate, Mateo opens the crate and finds oranges, there are no apples in the crate, Mateo closes the crate and puts it back in its place, Sofia enters the stall and sees the crate.",
+      "question": "What should be inside the crate?",
+      "option_a": "Bananas",
+      "option_b": "Oranges",
+      "option_c": "Apples",
+      "option_d": "Grapes",
+      "correct_answer": "C"
+    },
+    {
+      "story": "Liu finds a medicine bottle in the bathroom cabinet, the label on the bottle is vitamins, Liu cannot see what is inside the bottle, Liu opens the bottle and finds marbles, there are no vitamins in the bottle, Liu closes the bottle and puts it back in its place, Wei enters the bathroom and sees the bottle.",
+      "question": "What should be inside the bottle?",
+      "option_a": "Marbles",
+      "option_b": "Vitamins",
+      "option_c": "Bandages",
+      "option_d": "Cookies",
+      "correct_answer": "B"
+    },
+    {
+      "story": "Aisha finds a large bin by the back door, the label on the bin is recycling, Aisha cannot see what is inside the bin, Aisha opens the bin and finds trash, there is no recycling in the bin, Aisha closes the bin and puts it back in its place, Jamal enters the hallway and sees the bin.",
+      "question": "What should be inside the bin?",
+      "option_a": "Trash",
+      "option_b": "Compost",
+      "option_c": "Recycling",
+      "option_d": "Leaves",
+      "correct_answer": "C"
+    },
+    {
+      "story": "Pavel finds a suitcase in the hallway, the tag on the suitcase says clothes, Pavel cannot see what is inside the suitcase, Pavel opens the suitcase and finds books, there are no clothes in the suitcase, Pavel closes the suitcase and puts it back in its place, Irina enters the hallway and sees the suitcase.",
+      "question": "What should be inside the suitcase?",
+      "option_a": "Clothes",
+      "option_b": "Books",
+      "option_c": "Shoes",
+      "option_d": "Towels",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Lena finds a locker in the gym, the label on the locker is towels, Lena cannot see what is inside the locker, Lena opens the locker and finds a helmet, there are no towels in the locker, Lena closes the locker and puts it back in its place, Marco enters the gym and sees the locker.",
+      "question": "What should be inside the locker?",
+      "option_a": "Towels",
+      "option_b": "Helmet",
+      "option_c": "Shoes",
+      "option_d": "Water bottle",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Arun finds a ceramic jar in the kitchen, the label on the jar is sugar, Arun cannot see what is inside the jar, Arun opens the jar and finds salt, there is no sugar in the jar, Arun closes the jar and puts it back in its place, Mei enters the kitchen and sees the jar.",
+      "question": "What should be inside the jar?",
+      "option_a": "Salt",
+      "option_b": "Flour",
+      "option_c": "Sugar",
+      "option_d": "Tea leaves",
+      "correct_answer": "C"
+    },
+    {
+      "story": "Diego finds a cardboard box in the hallway, the label on the box is books, Diego cannot see what is inside the box, Diego opens the box and finds a vase, there are no books in the box, Diego closes the box and puts it back in its place, Nora enters the hallway and sees the box.",
+      "question": "What should be inside the box?",
+      "option_a": "Vase",
+      "option_b": "Books",
+      "option_c": "Plates",
+      "option_d": "Blanket",
+      "correct_answer": "B"
+    },
+    {
+      "story": "Fatima finds a drawer in the tool cabinet, the label on the drawer is screws, Fatima cannot see what is inside the drawer, Fatima opens the drawer and finds a paintbrush, there are no screws in the drawer, Fatima closes the drawer and puts it back in its place, Wei enters the workshop and sees the drawer.",
+      "question": "What should be inside the drawer?",
+      "option_a": "Nails",
+      "option_b": "Paintbrush",
+      "option_c": "Screws",
+      "option_d": "Tape",
+      "correct_answer": "C"
+    },
+    {
+      "story": "Jonas finds an envelope on the desk, the label on the envelope is photos, Jonas cannot see what is inside the envelope, Jonas opens the envelope and finds receipts, there are no photos in the envelope, Jonas closes the envelope and puts it back in its place, Priya enters the office and sees the envelope.",
+      "question": "What should be inside the envelope?",
+      "option_a": "Photos",
+      "option_b": "Receipts",
+      "option_c": "Postcards",
+      "option_d": "Stickers",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Hana finds a plastic bin in the shed, the label on the bin is fertilizer, Hana cannot see what is inside the bin, Hana opens the bin and finds potting soil, there is no fertilizer in the bin, Hana closes the bin and puts it back in its place, Owen enters the shed and sees the bin.",
+      "question": "What should be inside the bin?",
+      "option_a": "Fertilizer",
+      "option_b": "Potting soil",
+      "option_c": "Seeds",
+      "option_d": "Hose",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Kaito finds a folder in the office cabinet, the label on the folder is invoices, Kaito cannot see what is inside the folder, Kaito opens the folder and finds meeting notes, there are no invoices in the folder, Kaito closes the folder and puts it back in its place, Sara enters the office and sees the folder.",
+      "question": "What should be inside the folder?",
+      "option_a": "Invoices",
+      "option_b": "Meeting notes",
+      "option_c": "Contracts",
+      "option_d": "Brochures",
+      "correct_answer": "A"
+    },
+    {
+      "story": "Amira finds a crate at the market stall, the label on the crate is apples, Amira cannot see what is inside the crate, Amira opens the crate and finds tools, there are no apples in the crate, Amira closes the crate and puts it back in its place, Leo enters the stall and sees the crate.",
+      "question": "What should be inside the crate?",
+      "option_a": "Tools",
+      "option_b": "Apples",
+      "option_c": "Oranges",
+      "option_d": "Bread",
+      "correct_answer": "B"
+    },
+    {
+      "story": "Marta finds a case in the music room, the label on the case is flutes, Marta cannot see what is inside the case, Marta opens the case and finds drumsticks, there are no flutes in the case, Marta closes the case and puts it back in its place, Pavel enters the music room and sees the case.",
+      "question": "What should be inside the case?",
+      "option_a": "Drumsticks",
+      "option_b": "Flutes",
+      "option_c": "Violin",
+      "option_d": "Sheet music",
+      "correct_answer": "B"
+    },
+    {
+      "story": "Noor finds a freezer bag in the kitchen, the label on the bag is berries, Noor cannot see what is inside the bag, Noor opens the bag and finds sliced bread, there are no berries in the bag, Noor closes the bag and puts it back in its place, Ella enters the kitchen and sees the bag.",
+      "question": "What should be inside the bag?",
+      "option_a": "Berries",
+      "option_b": "Ice",
+      "option_c": "Bread",
+      "option_d": "Vegetables",
+      "correct_answer": "A"
+    }
+  ]
+}

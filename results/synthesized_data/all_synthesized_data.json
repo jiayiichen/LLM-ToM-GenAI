@@ -1,0 +1,104 @@
+{
+  "4": {
+    "cluster_id": 4,
+    "table_cluster_id": 5,
+    "cluster_summary": "These reasons all describe a shared failure in mapping vague quantifiers to numbers: the model treats terms like “most,” “almost no,” “few,” and “some” as fixed, often extreme values instead of flexible ranges. It overweights explicit numerals and simple subtraction, collapses multi-category or probabilistic setups into binary splits, and ignores narrative timing, implicit comparisons, and the requirement that minority categories remain small-but-nonzero. Humans, by contrast, integrate all constraints—totals, verbal hedges, expectations, and sampling uncertainty—yielding arithmetically consistent yet pragmatically moderate distributions where majority terms are strong but not maximized and “almost none” still leaves a remainder.",
+    "example_indices": [
+      145,
+      58
+    ],
+    "num_questions": 10,
+    "questions": [
+      {
+        "story": "At the city library, Mia and Leo are sorting a display. Mia says, \"There are 30 books here, most are novels, some are comics, and there is almost no poetry.\" Leo counts and finds there are only 8 comics on the display.",
+        "question": "After Leo counts, how many novels does he guess are on the display?",
+        "option_a": "After counting, Leo guesses there are 20 novels on the display.",
+        "option_b": "After counting, Leo guesses there are 22 novels on the display.",
+        "option_c": "After counting, Leo guesses there are 30 novels on the display.",
+        "option_d": "After counting, Leo guesses there are 24 novels on the display.",
+        "correct_answer": "A"
+      },
+      {
+        "story": "At an animal shelter open day, Nora tells Sam, \"We have 40 animals today: most are cats, some are dogs, and there are almost no rabbits.\" Sam checks the pens and finds there are only 12 dogs.",
+        "question": "After Sam checks, how many cats does he guess are at the shelter today?",
+        "option_a": "After checking, Sam guesses there are 25 cats.",
+        "option_b": "After checking, Sam guesses there are 28 cats.",
+        "option_c": "After checking, Sam guesses there are 40 cats.",
+        "option_d": "After checking, Sam guesses there are 30 cats.",
+        "correct_answer": "A"
+      },
+      {
+        "story": "In an office supply closet, Priya tells Omar, \"There are 60 pens total, most are blue, some are black, and a few are red.\" Omar opens a box and finds there are only 15 black pens.",
+        "question": "After Omar looks, how many blue pens does he guess there are?",
+        "option_a": "After looking, Omar guesses there are 45 blue pens.",
+        "option_b": "After looking, Omar guesses there are 40 blue pens.",
+        "option_c": "After looking, Omar guesses there are 60 blue pens.",
+        "option_d": "After looking, Omar guesses there are 50 blue pens.",
+        "correct_answer": "B"
+      },
+      {
+        "story": "While organizing a shared playlist, Aiden says to Ruth, \"There are 80 songs here, most are pop, some are rock, and there is hardly any jazz.\" Ruth scans the list and finds there are only 25 rock songs.",
+        "question": "After Ruth scans the list, how many pop songs does she guess there are?",
+        "option_a": "After scanning, Ruth guesses there are 55 pop songs.",
+        "option_b": "After scanning, Ruth guesses there are 50 pop songs.",
+        "option_c": "After scanning, Ruth guesses there are 80 pop songs.",
+        "option_d": "After scanning, Ruth guesses there are 60 pop songs.",
+        "correct_answer": "B"
+      },
+      {
+        "story": "At a bake sale, Jin tells Aria, \"There are 24 cookies on this tray, most are chocolate chip, some are oatmeal, and there is almost no peanut butter.\" Aria counts and finds there are only 6 oatmeal cookies.",
+        "question": "After Aria counts, how many chocolate chip cookies does she guess are on the tray?",
+        "option_a": "After counting, Aria guesses there are 16 chocolate chip cookies.",
+        "option_b": "After counting, Aria guesses there are 18 chocolate chip cookies.",
+        "option_c": "After counting, Aria guesses there are 24 chocolate chip cookies.",
+        "option_d": "After counting, Aria guesses there are 20 chocolate chip cookies.",
+        "correct_answer": "A"
+      },
+      {
+        "story": "At a university club fair, Elena says to Victor, \"There are 70 members signed up, most are undergraduates, some are master\u0019s students, and there are almost no PhD students.\" Victor checks the roster and finds there are only 18 master\u000019s students.",
+        "question": "After Victor checks the roster, how many undergraduates does he guess there are?",
+        "option_a": "After checking, Victor guesses there are 52 undergraduates.",
+        "option_b": "After checking, Victor guesses there are 48 undergraduates.",
+        "option_c": "After checking, Victor guesses there are 70 undergraduates.",
+        "option_d": "After checking, Victor guesses there are 60 undergraduates.",
+        "correct_answer": "B"
+      },
+      {
+        "story": "At a farmer\u000019s market stall, Lila tells Ben, \"There are 90 crates, most are apples, some are oranges, and a handful are pears.\" Ben looks and finds there are only 30 crates of oranges.",
+        "question": "After Ben looks, how many crates of apples does he guess there are?",
+        "option_a": "After looking, Ben guesses there are 53 crates of apples.",
+        "option_b": "After looking, Ben guesses there are 60 crates of apples.",
+        "option_c": "After looking, Ben guesses there are 90 crates of apples.",
+        "option_d": "After looking, Ben guesses there are 70 crates of apples.",
+        "correct_answer": "A"
+      },
+      {
+        "story": "Before a symposium, Kai tells Dana, \"There are 35 talks on the schedule, most are lectures, some are workshops, and there are almost no poster sessions.\" Dana reviews the lineup and finds there are only 9 workshops.",
+        "question": "After Dana reviews the lineup, how many lectures does she guess there are?",
+        "option_a": "After reviewing, Dana guesses there are 24 lectures.",
+        "option_b": "After reviewing, Dana guesses there are 26 lectures.",
+        "option_c": "After reviewing, Dana guesses there are 35 lectures.",
+        "option_d": "After reviewing, Dana guesses there are 30 lectures.",
+        "correct_answer": "A"
+      },
+      {
+        "story": "In a toy store inventory, Carlos tells Mei, \"There are 55 toys on this shelf, most are cars, some are dolls, and a few are puzzles.\" Mei checks and finds there are only 17 dolls.",
+        "question": "After Mei checks, how many cars does she guess are on the shelf?",
+        "option_a": "After checking, Mei guesses there are 38 cars.",
+        "option_b": "After checking, Mei guesses there are 35 cars.",
+        "option_c": "After checking, Mei guesses there are 55 cars.",
+        "option_d": "After checking, Mei guesses there are 45 cars.",
+        "correct_answer": "B"
+      },
+      {
+        "story": "During a product survey, Olivia tells Theo, \"We received 100 responses: most prefer option A, some prefer option B, and almost none prefer option C.\" Theo looks at the tally and finds there are only 28 responses for option B.",
+        "question": "After Theo looks at the tally, how many responses does he guess prefer option A?",
+        "option_a": "After looking, Theo guesses there are 72 responses preferring option A.",
+        "option_b": "After looking, Theo guesses there are 68 responses preferring option A.",
+        "option_c": "After looking, Theo guesses there are 100 responses preferring option A.",
+        "option_d": "After looking, Theo guesses there are 80 responses preferring option A.",
+        "correct_answer": "B"
+      }
+    ]
+  }
+}

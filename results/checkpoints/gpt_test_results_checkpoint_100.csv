@@ -1,0 +1,1515 @@
+index,STORY,QUESTION,OPTION-A,OPTION-B,OPTION-C,OPTION-D,ANSWER,SOURCE_FILE,gpt_full_response,gpt_reasoning,gpt_response
+0,"Zhang Li buys a new book at the bookstore. When she gets home, she casually puts the book on the sofa and goes to cook dinner.  In the evening, Grandpa asks, ""Where do you put your new book?"" Zhang Li replies, ""I put it on the bookshelf.""",Is what Zhang Li says true?,Yes,No,,,B,Strange Story Task,"Zhang Li actually put the new book on the **sofa**, but when Grandpa asks, she says she put it on the **bookshelf**. This contradicts the earlier description of her action, so what she says is **not true**.
+
+[[B]]","Zhang Li actually put the new book on the **sofa**, but when Grandpa asks, she says she put it on the **bookshelf**. This contradicts the earlier description of her action, so what she says is **not true**.",B
+1,"In a cinema, friends are choosing movies, there are 40 screenings. Xiao Gang tells Xiao Mei: ""I think most of the screenings choose to watch comedy movies, some action movies, very few romance movies."" Xiao Mei counts and finds that there are only 5 action movies.","After Xiao Mei counts, how many comedy movies does she estimate?","After counting, Xiao Mei estimates 15 comedy movies.","After counting, Xiao Mei estimates 5 comedy movies.","After counting, Xiao Mei estimates 35 comedy movies.","After counting, Xiao Mei estimates 32 comedy movies.",D,Scalar Implicature Test,"Xiao Gang’s description:
+
+- Most are comedy  
+- Some are action  
+- Very few are romance  
+
+Total screenings: 40  
+Xiao Mei counts: action = 5  
+
+Let:
+- Comedy = C  
+- Romance = R  
+
+Then:
+C + R + 5 = 40 ⇒ C + R = 35
+
+“Very few” romance means R is small and positive (not 0), and “most” comedy means C is well over half and clearly more than the other types.
+
+Possible R values (as “very few”): 1, 2, 3, or 4  
+Then:
+- If R = 1 ⇒ C = 34  
+- If R = 2 ⇒ C = 33  
+- If R = 3 ⇒ C = 32  
+- If R = 4 ⇒ C = 31  
+
+Among the options, only 32 and 35 could be reasonable comedy counts. But 35 would mean R = 0, contradicting the presence of “very few romance movies”. So the best fit is C = 32 (with R = 3).
+
+Therefore, the most likely answer is:
+
+[[D]]","Xiao Gang’s description:
+
+- Most are comedy  
+- Some are action  
+- Very few are romance  
+
+Total screenings: 40  
+Xiao Mei counts: action = 5  
+
+Let:
+- Comedy = C  
+- Romance = R  
+
+Then:
+C + R + 5 = 40 ⇒ C + R = 35
+
+“Very few” romance means R is small and positive (not 0), and “most” comedy means C is well over half and clearly more than the other types.
+
+Possible R values (as “very few”): 1, 2, 3, or 4  
+Then:
+- If R = 1 ⇒ C = 34  
+- If R = 2 ⇒ C = 33  
+- If R = 3 ⇒ C = 32  
+- If R = 4 ⇒ C = 31  
+
+Among the options, only 32 and 35 could be reasonable comedy counts. But 35 would mean R = 0, contradicting the presence of “very few romance movies”. So the best fit is C = 32 (with R = 3).
+
+Therefore, the most likely answer is:",D
+2,"Han Meimei and Youyou roam around in the bedroom, they see a cabinet and a box, they find a tie in the cabinet, Youyou leaves the bedroom, Han Meimei moves the tie to the box.","After Youyou returns to the bedroom, where does Youyou look for the tie?",Cabinet,Box,Handbag,Storage locker,A,False Belief Task,"Youyou initially sees the tie in the cabinet. Then Youyou leaves the bedroom. While Youyou is gone, Han Meimei moves the tie from the cabinet to the box. Youyou does not witness this change, so Youyou still believes the tie is in the cabinet. Therefore, when Youyou returns, she will look for the tie where she last saw it: in the cabinet.
+
+[[A]]","Youyou initially sees the tie in the cabinet. Then Youyou leaves the bedroom. While Youyou is gone, Han Meimei moves the tie from the cabinet to the box. Youyou does not witness this change, so Youyou still believes the tie is in the cabinet. Therefore, when Youyou returns, she will look for the tie where she last saw it: in the cabinet.",A
+3,"Youyou finds a cabinet in the kitchen, the label on the cabinet is tie, Youyou cannot see what is inside the cabinet, Youyou opens the cabinet and finds a raincoat, there is no tie inside the cabinet, Youyou closes the cabinet and puts it back in its place, Xiao Wang enters the kitchen and sees the cabinet.",What is inside the cabinet?,Tie,Connected finger gloves woolen sweater,Eggplant,Raincoat,D,False Belief Task,"First, let's summarize the key points from the story:
+
+- The cabinet in the kitchen has a label that says ""tie.""
+- Youyou cannot see what is inside at first.
+- After opening it, Youyou finds a **raincoat** inside.
+- The story explicitly says there is **no tie** inside the cabinet.
+- After checking, Youyou closes the cabinet and puts it back.
+- Xiao Wang later enters and sees the cabinet (but this does not change what is inside).
+
+The question asks: **""What is inside the cabinet?""**
+
+This is asking about the actual content of the cabinet (not about beliefs or labels). From the story, we know for sure that inside the cabinet is a **raincoat**, and no tie.
+
+Now check each option:
+
+- A. Tie → Incorrect, explicitly ruled out by the story.
+- B. Connected finger gloves woolen sweater → Not mentioned at all.
+- C. Eggplant → Not mentioned at all.
+- D. Raincoat → This is exactly what the story says is inside.
+
+Therefore, the most likely correct answer is:
+
+[[D]]","First, let's summarize the key points from the story:
+
+- The cabinet in the kitchen has a label that says ""tie.""
+- Youyou cannot see what is inside at first.
+- After opening it, Youyou finds a **raincoat** inside.
+- The story explicitly says there is **no tie** inside the cabinet.
+- After checking, Youyou closes the cabinet and puts it back.
+- Xiao Wang later enters and sees the cabinet (but this does not change what is inside).
+
+The question asks: **""What is inside the cabinet?""**
+
+This is asking about the actual content of the cabinet (not about beliefs or labels). From the story, we know for sure that inside the cabinet is a **raincoat**, and no tie.
+
+Now check each option:
+
+- A. Tie → Incorrect, explicitly ruled out by the story.
+- B. Connected finger gloves woolen sweater → Not mentioned at all.
+- C. Eggplant → Not mentioned at all.
+- D. Raincoat → This is exactly what the story says is inside.
+
+Therefore, the most likely correct answer is:",D
+4,"Xiao Zhang and Xiao Wang are colleagues, they interact for several months. They discuss the future during dinner. Xiao Zhang says softly: ""I am thinking, we can do a lot of things together, like traveling or..."" He pauses for a moment, then continues to say: ""Or other longer-term plans."" Xiao Fang listens with a smile, but does not say anything. Xiao Li adds: ""We can start with small things, first enjoy our time."" The two continue to happily discuss other future possibilities.","If there is, which sentence is inappropriate?","I am thinking, we can do a lot of things together, such as traveling or...",Or other longer-term plans.,"We can start with small things, first enjoy our time.",There is no inappropriate sentence,D,Faux-pas Recognition Test,"The story describes two colleagues who have only known each other for a few months, casually discussing the future over dinner.  
+
+- Sentence A (“we can do a lot of things together, such as traveling or…”) is relatively light and can fit friendly or budding closer relations.  
+- Sentence C (“We can start with small things, first enjoy our time.”) is also mild and appropriate.  
+- Sentence B (“Or other longer-term plans.”) implies a deeper, more committed future (e.g., life plans together), which is relatively abrupt and intimate given they are just colleagues who have interacted for only a few months. This makes B the most likely “inappropriate” sentence in context.  
+- Therefore, D (“There is no inappropriate sentence”) is less likely than B.
+
+So the most likely answer is:  
+
+[[B]]","The story describes two colleagues who have only known each other for a few months, casually discussing the future over dinner.  
+
+- Sentence A (“we can do a lot of things together, such as traveling or…”) is relatively light and can fit friendly or budding closer relations.  
+- Sentence C (“We can start with small things, first enjoy our time.”) is also mild and appropriate.  
+- Sentence B (“Or other longer-term plans.”) implies a deeper, more committed future (e.g., life plans together), which is relatively abrupt and intimate given they are just colleagues who have interacted for only a few months. This makes B the most likely “inappropriate” sentence in context.  
+- Therefore, D (“There is no inappropriate sentence”) is less likely than B.
+
+So the most likely answer is:",B
+5,"Zhou Ting receives an invitation to a new book launch by a famous author, she is a loyal reader of this author.",What is Zhou Ting's reaction at the new book launch?,Thrilled,Embarrassed,Disappointed,Indifferent,A,Unexpected Outcome Test,"Zhou Ting is described as “a loyal reader” of this famous author and receives an invitation to the new book launch. A loyal fan meeting a favorite author’s new work is most likely to feel excited and happy, not negative or neutral emotions.
+
+- Embarrassed (B) doesn’t fit the context; nothing suggests a shameful or awkward situation.
+- Disappointed (C) would require the event or author to fail expectations, which isn’t mentioned.
+- Indifferent (D) contradicts her being a “loyal reader.”
+- Thrilled (A) is the most natural reaction for a loyal reader invited to such an event.
+
+Therefore, the most likely answer is:
+
+[[A]]","Zhou Ting is described as “a loyal reader” of this famous author and receives an invitation to the new book launch. A loyal fan meeting a favorite author’s new work is most likely to feel excited and happy, not negative or neutral emotions.
+
+- Embarrassed (B) doesn’t fit the context; nothing suggests a shameful or awkward situation.
+- Disappointed (C) would require the event or author to fail expectations, which isn’t mentioned.
+- Indifferent (D) contradicts her being a “loyal reader.”
+- Thrilled (A) is the most natural reaction for a loyal reader invited to such an event.
+
+Therefore, the most likely answer is:",A
+6,"Xiao Ming loves football very much, always dreams of becoming a football player. He often plays matches with his school football team classmates. But he is in senior year three recently, he is very busy with his studies, his parents hope he studies well and gets into a good university. When the school football team recruits new members, his team classmates ask him if he wants to participate in the selection? He says: ""I do not participate.""",Does Xiao Hua really not want to participate in the team selection?,Yes,No,,,A,Strange Story Task,"Xiao Ming loves football and dreams of becoming a football player, but because he is busy with studying and under pressure from his parents, he says he won’t participate. This suggests he actually wants to join but feels he cannot.
+
+So the answer is: he really does want to participate.
+
+[[B]]","Xiao Ming loves football and dreams of becoming a football player, but because he is busy with studying and under pressure from his parents, he says he won’t participate. This suggests he actually wants to join but feels he cannot.
+
+So the answer is: he really does want to participate.",B
+7,"Han Meimei finds a backpack in the garden, the label on the backpack is tomato, Han Meimei cannot see what is inside the backpack, Han Meimei opens the backpack and finds a light bulb, there are no tomatoes in the backpack, Han Meimei closes the backpack and puts it back in its place, Li Lei enters the garden and sees the backpack.","After Li Lei opens the backpack, what does Li Lei expect to find in the backpack?",Light bulb,Box,Tomato,Coat,C,False Belief Task,"Li Lei enters the garden and only sees the backpack with the label ""tomato."" He has no knowledge that Han Meimei opened it or that it actually contains a light bulb. People normally expect labels to indicate the contents, so based on his perspective, Li Lei would expect the backpack to contain tomatoes.
+
+Therefore, the most likely answer is:
+
+[[C]]","Li Lei enters the garden and only sees the backpack with the label ""tomato."" He has no knowledge that Han Meimei opened it or that it actually contains a light bulb. People normally expect labels to indicate the contents, so based on his perspective, Li Lei would expect the backpack to contain tomatoes.
+
+Therefore, the most likely answer is:",C
+8,"Xiao Ming is a big liar. Xiao Ming's brother, Xiao Yang, secretly knows that Xiao Ming is a big liar, but Xiao Ming thinks he can escape punishment for anything! Yesterday, Xiao Ming steals Xiao Yang's ping pong paddle, Xiao Yang knows where Xiao Ming hides it, but he cannot find it. He is very angry. So he finds Xiao Ming and says: ""Where is my paddle? You must hide it in the cabinet or under the bed, because I search everywhere else. Where is it? In the cabinet or under the bed?"" Xiao Ming tells him the paddle is under the bed.","Where does Xiao Yang go to find his paddle, and why?",Under the bed,Cabinet,,,B,Strange Story Task,"Xiao Yang knows Xiao Ming is a big liar and cannot be trusted. He has already reasoned that the paddle must be either in the cabinet or under the bed.  
+
+When Xiao Ming says, ""The paddle is under the bed,"" Xiao Yang, knowing Xiao Ming lies, infers that this statement is false.  
+So if ""under the bed"" is false, and the only two options are ""cabinet"" or ""under the bed,"" it must be in the cabinet.
+
+Therefore, Xiao Yang goes to the cabinet to find his paddle.
+
+[[B]]","Xiao Yang knows Xiao Ming is a big liar and cannot be trusted. He has already reasoned that the paddle must be either in the cabinet or under the bed.  
+
+When Xiao Ming says, ""The paddle is under the bed,"" Xiao Yang, knowing Xiao Ming lies, infers that this statement is false.  
+So if ""under the bed"" is false, and the only two options are ""cabinet"" or ""under the bed,"" it must be in the cabinet.
+
+Therefore, Xiao Yang goes to the cabinet to find his paddle.",B
+9,"Wang Lei is a programmer, he posts his new algorithm on a well-known tech forum. This algorithm is widely considered a major breakthrough in the field.",What is Wang Lei's reaction when he sees his algorithm is widely recognized?,Proud,Ashamed,Surprise,Worry,A,Unexpected Outcome Test,"Wang Lei is a programmer who posts a new algorithm on a well-known tech forum, and it becomes widely regarded as a major breakthrough. When someone's work is publicly recognized as a major success, the most typical emotional reaction is feeling proud of their achievement.
+
+- **A. Proud** – Fits very well: recognition of a major breakthrough naturally leads to pride.
+- **B. Ashamed** – Does not fit: there is nothing negative or embarrassing in the story.
+- **C. Surprise** – Possible, but the question asks for his reaction *when he sees it is widely recognized*; at that point, pride is more central than surprise.
+- **D. Worry** – Also possible in some scenarios, but there is no indication in the story of negative consequences or anxiety.
+
+The most likely reaction is therefore pride.
+
+[[A]]","Wang Lei is a programmer who posts a new algorithm on a well-known tech forum, and it becomes widely regarded as a major breakthrough. When someone's work is publicly recognized as a major success, the most typical emotional reaction is feeling proud of their achievement.
+
+- **A. Proud** – Fits very well: recognition of a major breakthrough naturally leads to pride.
+- **B. Ashamed** – Does not fit: there is nothing negative or embarrassing in the story.
+- **C. Surprise** – Possible, but the question asks for his reaction *when he sees it is widely recognized*; at that point, pride is more central than surprise.
+- **D. Worry** – Also possible in some scenarios, but there is no indication in the story of negative consequences or anxiety.
+
+The most likely reaction is therefore pride.",A
+10,"Mingming, Xiaohan, and Weiguang are friends, they plan to drive for a trip together. The three of them do not decide where to go, so they are discussing the details of the trip at this moment. Among many tourist attractions, most tourists choose attractions A and B, and fewer people choose attraction C. Xiaohan shows Mingming the screenshot of the netizen's share of attraction C that she saves before, and says to Mingming, ""Look at this"". Weiguang looks back at Xiaohan and smiles at Mingming. Mingming takes the phone, the corners of his mouth rise.",What does Mingming do?,Mingming proposes to travel to attraction C.,Mingming plans a trip with attraction A as the target.,Ask Xiaohan about her opinion on attraction C.,"Mingming knows that attractions A and B are too crowded, but still tells Xiaohan that he wants to go to attraction A.",A,Prediction of actions,"The story describes Xiaohan showing Mingming a screenshot about attraction C, Weiguang smiling at Mingming, and Mingming taking the phone with the corners of his mouth rising―a clear sign he’s pleased or interested. This mutual smiling suggests they all see attraction C positively.
+
+- Option A: Mingming proposes to travel to attraction C.  
+  This fits well with the positive reaction and the focus on attraction C.
+
+- Option B: Plans a trip with attraction A as the target.  
+  This contradicts the immediate context, which centers on attraction C and a positive response to it.
+
+- Option C: Asks Xiaohan about her opinion on attraction C.  
+  Possible, but the text emphasizes his pleased reaction rather than curiosity or inquiry.
+
+- Option D: Knows A and B are crowded but still says he wants to go to A.  
+  This conflicts with the suggestive, positive setup around C.
+
+The most plausible interpretation is that Mingming responds positively and suggests going to attraction C.
+
+[[A]]","The story describes Xiaohan showing Mingming a screenshot about attraction C, Weiguang smiling at Mingming, and Mingming taking the phone with the corners of his mouth rising―a clear sign he’s pleased or interested. This mutual smiling suggests they all see attraction C positively.
+
+- Option A: Mingming proposes to travel to attraction C.  
+  This fits well with the positive reaction and the focus on attraction C.
+
+- Option B: Plans a trip with attraction A as the target.  
+  This contradicts the immediate context, which centers on attraction C and a positive response to it.
+
+- Option C: Asks Xiaohan about her opinion on attraction C.  
+  Possible, but the text emphasizes his pleased reaction rather than curiosity or inquiry.
+
+- Option D: Knows A and B are crowded but still says he wants to go to A.  
+  This conflicts with the suggestive, positive setup around C.
+
+The most plausible interpretation is that Mingming responds positively and suggests going to attraction C.",A
+11,"At a European medieval art exhibition, An Lei and Aunt Jane visit under the guidance of guide Li. When they come to a famous painting that An Lei helps to restore, Aunt Jane happily says, ""This restoration is really great, there is almost no difference from the original!"" An Lei shyly replies, ""Thank you, aunt, I also put a lot of effort into it."" Guide Li nods in agreement, ""Indeed, the restoration of this work reflects superb skills and profound cultural heritage. We continue to the next exhibition area.""",Does anyone say something inappropriate in this story?,Someone says something inappropriate in the story,No one says anything inappropriate in the story.,,,B,Faux-pas Recognition Test,"There is no statement in the story that is rude, impolite, or contextually inappropriate.  
+
+- Aunt Jane is praising the restoration work.  
+- An Lei responds modestly and gratefully.  
+- Guide Li gives professional recognition.
+
+All dialogue fits the setting of an art exhibition and is socially appropriate.
+
+So the best answer is:
+
+[[B]]","There is no statement in the story that is rude, impolite, or contextually inappropriate.  
+
+- Aunt Jane is praising the restoration work.  
+- An Lei responds modestly and gratefully.  
+- Guide Li gives professional recognition.
+
+All dialogue fits the setting of an art exhibition and is socially appropriate.
+
+So the best answer is:",B
+12,"In a school cafeteria, 50 students are eating. The cafeteria manager tells the principal that she observes most students prefer rice as their main food, and only a small part prefer noodles or steamed buns as their main food. After observing, the principal finds that only 3 students are eating noodles.","Before the principal observes, how many students does he guess are having rice as their main food?","Before the principal observes, he guesses that 15 students are having rice as their main food.","Before the principal observes, he guesses that 10 students are having rice as their main food.","Before the principal observes, he guesses that 40 students are having rice as their main food.","Before the principal observes, he guesses that 20 students are having rice as their main food.",C,Scalar Implicature Test,"The cafeteria manager tells the principal that **most** students prefer rice and only a **small part** prefer noodles or steamed buns. There are 50 students in total.
+
+- If the principal trusts this description, he will expect a large majority to be eating rice.
+- Among the options:
+  - 10 or 15 out of 50 would mean only 20–30% eat rice → not ""most"".
+  - 20 out of 50 is exactly 40% → still not ""most"".
+  - 40 out of 50 is 80% → clearly matches ""most students prefer rice"".
+
+Therefore, the principal’s reasonable guess, before observing, would be that **40** students are having rice as their main food.
+
+[[C]]","The cafeteria manager tells the principal that **most** students prefer rice and only a **small part** prefer noodles or steamed buns. There are 50 students in total.
+
+- If the principal trusts this description, he will expect a large majority to be eating rice.
+- Among the options:
+  - 10 or 15 out of 50 would mean only 20–30% eat rice → not ""most"".
+  - 20 out of 50 is exactly 40% → still not ""most"".
+  - 40 out of 50 is 80% → clearly matches ""most students prefer rice"".
+
+Therefore, the principal’s reasonable guess, before observing, would be that **40** students are having rice as their main food.",C
+13,"On Monday morning, Xiao Hua, a third-grade elementary school student, celebrates his birthday yesterday and receives a cool red robot transformer toy car as a gift. He excitedly brings the toy car to school, wanting to share it with his classmates. Before class, he shows it to Xiaoming and Xiaoli who sit next to him. Xiaoming frowns and says, ""This toy car doesn't look cool at all, I have more than ten bigger and more complex robot toys at home!"" Xiao Hua doesn't respond, his face doesn't look very happy. Xiaoli looks at Xiao Hua and says, ""Xiao Hua, do you like this gift?"" Xiao Hua thinks for a moment and says, ""I do like it, my mom specifically chooses it for me.""","If there is, which sentence is inappropriate?","This toy car doesn't look cool at all, I have more than ten bigger and more complex robot toys at home!","Xiao Hua, do you like this gift yourself?","I do like it, my mom specifically chooses it for me.",There is no inappropriate sentence,A,Faux-pas Recognition Test,"The inappropriate sentence is the one that hurts Xiao Hua’s feelings and shows off in a negative way.
+
+- Sentence A belittles Xiao Hua’s toy and brags: “This toy car doesn't look cool at all, I have more than ten bigger and more complex robot toys at home!”  
+  This is impolite and inconsiderate.
+
+B and C are normal, kind, or self-expressive sentences, so they are appropriate. Therefore, the most likely answer is:
+
+[[A]]","The inappropriate sentence is the one that hurts Xiao Hua’s feelings and shows off in a negative way.
+
+- Sentence A belittles Xiao Hua’s toy and brags: “This toy car doesn't look cool at all, I have more than ten bigger and more complex robot toys at home!”  
+  This is impolite and inconsiderate.
+
+B and C are normal, kind, or self-expressive sentences, so they are appropriate. Therefore, the most likely answer is:",A
+14,"One afternoon, Xiao Ming takes a walk in the park and accidentally finds a mobile phone. Xiao Ming is a person who likes to help others and always wants to help others. The owner of the phone carelessly leaves the phone on the bench. Xiao Ming picks up the phone and prepares to find the owner of the phone. The owner of the phone realizes that her phone is missing, suspects it is stolen, and so she goes back to look for it. At this time, she sees Xiao Ming holding her phone, so she walks towards Xiao Ming and angrily says, ""Your behavior is too despicable, give me back my phone!",Why does the owner of the phone say this?,The owner of the phone thinks Xiao Ming steals her phone and angrily demands it back.,Xiao Ming prepares to hide the found phone and the owner of the phone sees it.,"The owner of the phone feels happy because she finds her phone, so she says that sentence in a happy tone.",The owner of the phone sees Xiao Ming holding her stolen phone.,A,Strange Story Task,"The owner of the phone had just realized her phone was missing and *suspected it had been stolen*. When she returned and saw Xiao Ming holding her phone, she *mistakenly believed* that he was the thief and therefore spoke angrily, accusing him and demanding the phone back.
+
+So the best matching option is:
+
+[[A]]","The owner of the phone had just realized her phone was missing and *suspected it had been stolen*. When she returned and saw Xiao Ming holding her phone, she *mistakenly believed* that he was the thief and therefore spoke angrily, accusing him and demanding the phone back.
+
+So the best matching option is:",A
+15,"Xiao Li and Xiao Zhang are wandering in the study, they see a handbag, a briefcase, and a storage cabinet, they find a carrot in the handbag, Xiao Zhang leaves the study, Xiao Li moves the carrot to the storage cabinet.","After Xiao Zhang returns to the study room, where does Xiao Li look for the carrot?",Storage cabinet,Briefcase,Handbag,Suitcase,A,False Belief Task,"Xiao Li and Xiao Zhang are in the study. They see three items: a handbag, a briefcase, and a storage cabinet.  
+They find a carrot in the **handbag**. Then **Xiao Zhang leaves** the study.  
+While Xiao Zhang is gone, **Xiao Li moves the carrot from the handbag to the storage cabinet**.
+
+The question asks: **After Xiao Zhang returns to the study room, where does Xiao Li look for the carrot?**
+
+This is asking about **Xiao Li’s** behavior and knowledge, not Xiao Zhang’s belief. Since **Xiao Li himself moved the carrot to the storage cabinet**, he knows its current location and will look for it there.
+
+So the most likely answer is:
+
+**[[A]]**","Xiao Li and Xiao Zhang are in the study. They see three items: a handbag, a briefcase, and a storage cabinet.  
+They find a carrot in the **handbag**. Then **Xiao Zhang leaves** the study.  
+While Xiao Zhang is gone, **Xiao Li moves the carrot from the handbag to the storage cabinet**.
+
+The question asks: **After Xiao Zhang returns to the study room, where does Xiao Li look for the carrot?**
+
+This is asking about **Xiao Li’s** behavior and knowledge, not Xiao Zhang’s belief. Since **Xiao Li himself moved the carrot to the storage cabinet**, he knows its current location and will look for it there.
+
+So the most likely answer is:
+
+**",A
+16,"Zhenming walks on the street, an old lady passes him. The old lady wears strange and ugly clothes. But Zhenming tries to hide his real feelings when he sees the old lady in strange clothes, otherwise the old lady scolds him.",Why does Zhenming truly feel disgusted?,Because he thinks the old lady is ugly,Because he thinks the old lady's clothes are strange and ugly,Because he thinks the old lady has good taste,Because he does not like old ladies,B,Hidden emotions,"Zhenming is walking on the street when he sees an old lady whose *clothes* are described as ""strange and ugly."" The story explicitly states that he tries to hide his real feelings **when he sees the old lady in strange clothes**, implying that his disgust is directed at how she is dressed, not at her as a person or at old ladies in general.
+
+Analyze options:
+
+- **A. Because he thinks the old lady is ugly**  
+  The story never says the old lady herself is ugly, only that her *clothes* are ugly. So this adds information not supported by the text.
+
+- **B. Because he thinks the old lady's clothes are strange and ugly**  
+  This directly matches the story: ""The old lady wears strange and ugly clothes."" This is the stated reason for his reaction.
+
+- **C. Because he thinks the old lady has good taste**  
+  This contradicts the text; he clearly does *not* think her taste is good.
+
+- **D. Because he does not like old ladies**  
+  The story gives no evidence that he dislikes old ladies in general, only that he's reacting to this one's clothing.
+
+The most text-consistent answer is **B**.
+
+[[B]]","Zhenming is walking on the street when he sees an old lady whose *clothes* are described as ""strange and ugly."" The story explicitly states that he tries to hide his real feelings **when he sees the old lady in strange clothes**, implying that his disgust is directed at how she is dressed, not at her as a person or at old ladies in general.
+
+Analyze options:
+
+- **A. Because he thinks the old lady is ugly**  
+  The story never says the old lady herself is ugly, only that her *clothes* are ugly. So this adds information not supported by the text.
+
+- **B. Because he thinks the old lady's clothes are strange and ugly**  
+  This directly matches the story: ""The old lady wears strange and ugly clothes."" This is the stated reason for his reaction.
+
+- **C. Because he thinks the old lady has good taste**  
+  This contradicts the text; he clearly does *not* think her taste is good.
+
+- **D. Because he does not like old ladies**  
+  The story gives no evidence that he dislikes old ladies in general, only that he's reacting to this one's clothing.
+
+The most text-consistent answer is **B**.",B
+17,"Kunpeng falls and gets hurt. He knows if he shows his real feelings, other kids laugh at him. Therefore, he tries to hide his real feelings",Why does Kunpeng appear calm on the surface?,Because he does not care about getting hurt,Because he is confident,To prevent other kids from seeing his weakness and making fun of him,Because the fall does not hurt at all,C,Hidden emotions,"Kunpeng knows that if he shows his real feelings, the other kids will laugh at him. So he hides his real feelings and appears calm so they won’t see his weakness and make fun of him.
+
+Therefore, the best answer is:
+
+[[C]]","Kunpeng knows that if he shows his real feelings, the other kids will laugh at him. So he hides his real feelings and appears calm so they won’t see his weakness and make fun of him.
+
+Therefore, the best answer is:",C
+18,"Over the weekend, Xiao Wang runs into his old friend Xiao Liu, whom he has not seen for many years, at a coffee shop. They are very happy to see each other. Xiao Wang says, ""Remember we often go to concerts, you are engaged at that time."" Xiao Liu laughs and replies, ""Yes, time flies really fast."" Xiao Wang asks, ""You are married for three years, right? How is it?"" Xiao Liu says, ""Yes, it is already three years, everything is very good.""","If there is, which sentence is inappropriate?","Remember we often go to concerts, you are engaged at that time.","Yes, time flies really fast.","You are married for three years, right? How is it?",There is no inappropriate sentence,D,Faux-pas Recognition Test,"First, analyze each sentence for (mainly) grammatical appropriateness in English:
+
+A. **""Remember we often go to concerts, you are engaged at that time.""**  
+Issues:  
+- Talking about the past, it should use past tense: ""we often went to concerts"" and ""you were engaged at that time.""  
+- Mixing present tense (""go"", ""are"") with a clearly past reference (""at that time"") is incorrect.
+
+B. **""Yes, time flies really fast.""**  
+This is natural and correct.
+
+C. **""You are married for three years, right? How is it?""**  
+Issues:  
+- For an action/state continuing from the past up to now with a duration (""for three years""), English requires the present perfect: ""You have been married for three years, right?""  
+- ""You are married for three years"" is ungrammatical.
+
+D. **""There is no inappropriate sentence""**  
+This would only be correct if all the sentences were appropriate, which they are not.
+
+Between A and C, both are grammatically off, but in standard English-learning contexts, the most clearly incorrect and typically tested structure is C, because ""for three years"" almost obligatorily calls for ""have been married"" rather than ""are married.""
+
+Thus, the most likely intended answer is:
+
+[[C]]","First, analyze each sentence for (mainly) grammatical appropriateness in English:
+
+A. **""Remember we often go to concerts, you are engaged at that time.""**  
+Issues:  
+- Talking about the past, it should use past tense: ""we often went to concerts"" and ""you were engaged at that time.""  
+- Mixing present tense (""go"", ""are"") with a clearly past reference (""at that time"") is incorrect.
+
+B. **""Yes, time flies really fast.""**  
+This is natural and correct.
+
+C. **""You are married for three years, right? How is it?""**  
+Issues:  
+- For an action/state continuing from the past up to now with a duration (""for three years""), English requires the present perfect: ""You have been married for three years, right?""  
+- ""You are married for three years"" is ungrammatical.
+
+D. **""There is no inappropriate sentence""**  
+This would only be correct if all the sentences were appropriate, which they are not.
+
+Between A and C, both are grammatically off, but in standard English-learning contexts, the most clearly incorrect and typically tested structure is C, because ""for three years"" almost obligatorily calls for ""have been married"" rather than ""are married.""
+
+Thus, the most likely intended answer is:",C
+19,"The office on Friday fills with relaxation and joy, everyone discusses their weekend plans. The project manager hopes everyone shares their plans, welcoming the upcoming weekend with a positive attitude. Lina speaks first: ""I plan to enjoy a peaceful weekend, and catch up on some sleep."" She then asks Minghao: ""What about you, Minghao, do you have any special plans for the weekend?"" Minghao smiles and answers: ""I want to go cycling in the countryside, breathe some fresh air."" The project manager agrees: ""That's a good idea. I plan to take my family to the beach.""",Does anyone say something inappropriate in this story?,Someone in the story says something inappropriate,No one in the story says anything inappropriate.,,,B,Faux-pas Recognition Test,"The story describes coworkers casually sharing their weekend plans: resting, cycling, going to the beach. All comments are friendly, neutral, and appropriate for a workplace setting. There is no offensive, rude, or otherwise inappropriate language or behavior depicted.
+
+Therefore, the correct answer is:
+
+[[B]]","The story describes coworkers casually sharing their weekend plans: resting, cycling, going to the beach. All comments are friendly, neutral, and appropriate for a workplace setting. There is no offensive, rude, or otherwise inappropriate language or behavior depicted.
+
+Therefore, the correct answer is:",B
+20,"Xiaoling and Xiaojie maintain a friendly relationship after they break up. One night, Xiaoling casually mentions her past with Xiaojie during a chat, saying, ""Do you remember the seaside coffee shop we go to? The coffee there is really good."" Xiaojie replies, ""Hmm, that shop is pretty good."" At this moment, Xiaojie's current girlfriend comes over and quietly listens to their conversation. Xiaojie quickly asks, ""Do you go to any new places recently?""",Does Xiaoling know that Xiaojie has a girlfriend now?,She knows,She does not know,,,B,Faux-pas Recognition Test,"Based on the story, there is no indication that Xiaoling is aware of Xiaojie’s current girlfriend. 
+
+- Xiaoling talks casually and nostalgically about their past together (“Do you remember the seaside coffee shop we go to?”), which suggests she’s not self-conscious about how this might sound in front of a current girlfriend.  
+- Xiaojie changes the topic quickly only after his current girlfriend comes over and quietly listens, implying he’s concerned about the girlfriend’s feelings, not reacting to anything Xiaoling knows.
+- The narrative never states that Xiaoling sees or notices the girlfriend; it only says the girlfriend “quietly listens,” which could mean Xiaoling doesn’t realize she’s there.
+
+The most reasonable inference is that Xiaoling does *not* know Xiaojie has a girlfriend now.
+
+[[B]]","Based on the story, there is no indication that Xiaoling is aware of Xiaojie’s current girlfriend. 
+
+- Xiaoling talks casually and nostalgically about their past together (“Do you remember the seaside coffee shop we go to?”), which suggests she’s not self-conscious about how this might sound in front of a current girlfriend.  
+- Xiaojie changes the topic quickly only after his current girlfriend comes over and quietly listens, implying he’s concerned about the girlfriend’s feelings, not reacting to anything Xiaoling knows.
+- The narrative never states that Xiaoling sees or notices the girlfriend; it only says the girlfriend “quietly listens,” which could mean Xiaoling doesn’t realize she’s there.
+
+The most reasonable inference is that Xiaoling does *not* know Xiaojie has a girlfriend now.",B
+21,"Lin Ting and Chen Yang are a young couple. They haven't saved much money since they started working not long ago. Chen Yang has spent a lot of time, effort, and money planning a romantic vacation for Lin Ting. When they arrive at their destination, Lin Ting says to Chen Yang, ""This is the vacation spot I've been dreaming of; I'm so happy!"" Chen Yang hears this and feels very happy. However, when they are alone, Chen Yang's expression becomes somewhat melancholic.",Is Chen Yang really happy?,A. Yes,B. No,,,A,Strange Story Task,"Chen Yang feels happy when he hears Lin Ting say she’s very happy, but when he’s alone his expression turns melancholic. That suggests that, deep down, he is not really happy — he may be worried about money, pressure, or something else beneath the surface joy.
+
+So the most likely answer is:
+
+[[B]]","Chen Yang feels happy when he hears Lin Ting say she’s very happy, but when he’s alone his expression turns melancholic. That suggests that, deep down, he is not really happy — he may be worried about money, pressure, or something else beneath the surface joy.
+
+So the most likely answer is:",B
+22,"Huang Li and Zhang Qiang are college classmates, Huang Li secretly loves Zhang Qiang for many years. On one accidental opportunity, Huang Li decides to confess to Zhang Qiang, but finds out that Zhang Qiang already has a girlfriend.","Huang Li should feel disappointed about the news that Zhang Qiang already has a girlfriend, why does she feel excited instead?","Huang Li thinks that the past secret love experience finally ends, there is no regret in her heart.","Huang Li realizes that Zhang Qiang's girlfriend is her old friend, this makes her feel excited.","Although Huang Li fails, it inspires her determination to find the true happiness that belongs to her.",Huang Li is excited because she thinks this is a chance to challenge Zhang Qiang's feelings.,C,Unexpected Outcome Test,"Huang Li’s unusual excitement is best explained if the news itself contains something pleasantly surprising for her, not just disappointment. Among the options:
+
+- A: Ending a secret crush might bring relief, but not strong “excitement” at that moment.
+- C: Being inspired to find her own happiness is more about motivation than immediate excitement.
+- D: Being excited to “challenge” someone’s feelings is possible, but it’s a more negative, less likely interpretation.
+
+B gives a direct and positive reason for excitement *about this specific news*: she discovers that Zhang Qiang’s girlfriend is actually her old friend, which is plausibly surprising and exciting.
+
+So the most likely answer is:
+
+[[B]]","Huang Li’s unusual excitement is best explained if the news itself contains something pleasantly surprising for her, not just disappointment. Among the options:
+
+- A: Ending a secret crush might bring relief, but not strong “excitement” at that moment.
+- C: Being inspired to find her own happiness is more about motivation than immediate excitement.
+- D: Being excited to “challenge” someone’s feelings is possible, but it’s a more negative, less likely interpretation.
+
+B gives a direct and positive reason for excitement *about this specific news*: she discovers that Zhang Qiang’s girlfriend is actually her old friend, which is plausibly surprising and exciting.
+
+So the most likely answer is:",B
+23,"On a production line in a factory, worker Xiao Yang is inspecting the products. He tells supervisor Xiao Wang, ""We produce 40 products today, most of them are qualified, some are substandard, but there are hardly any waste products."" Xiao Wang checks the quality inspection report and finds only 5 substandard products.","Before Xiao Wang checks the quality inspection report, how many qualified products does he estimate?","Before Xiao Wang checks the quality inspection report, he estimates there are 20 qualified products.","Before Xiao Wang checks the quality inspection report, he estimates there are 35 qualified products.","Before Xiao Wang checks the quality inspection report, he estimates there are 40 qualified products","Before Xiao Wang checks the quality inspection report, he estimates there are 25 qualified products.",B,Scalar Implicature Test,"Based on Xiao Yang’s description:
+
+- Total products: 40  
+- “Most are qualified” → qualified products should be a large majority, well over half  
+- “Some are substandard” → a small number, but not zero  
+- “Hardly any waste products” → waste is close to zero  
+
+A natural estimate from this kind of description would be:
+- Few substandard + almost no waste → around 5 non‑qualified in total  
+- Thus, qualified ≈ 40 − 5 = 35  
+
+Among the choices, 35 qualified products best matches that reasoning.
+
+So the most likely answer is:
+
+[[B]]","Based on Xiao Yang’s description:
+
+- Total products: 40  
+- “Most are qualified” → qualified products should be a large majority, well over half  
+- “Some are substandard” → a small number, but not zero  
+- “Hardly any waste products” → waste is close to zero  
+
+A natural estimate from this kind of description would be:
+- Few substandard + almost no waste → around 5 non‑qualified in total  
+- Thus, qualified ≈ 40 − 5 = 35  
+
+Among the choices, 35 qualified products best matches that reasoning.
+
+So the most likely answer is:",B
+24,"Huang Jie participates in a virtual reality game experience for the first time. When he puts on the VR headset and enters a whole new virtual world, he is amazed by the surrounding environment and interactivity, and his eyes look around.","Huang Jie should be surprised by the virtual reality game, but why does he seem to find it boring?","Huang Jie finds that the image quality of the virtual reality game is not as expected, which makes him feel disappointed and bored.","Huang Jie finds the game content monotonous, lacking the excitement and challenge he expects.","Huang Jie experiences some technical problems in the game, which affects his game experience and makes him feel bored.","Huang Jie thinks that the game lacks social elements, which makes people feel bored.",B,Unexpected Outcome Test,"Based on the story, there is no explicit information about image quality, technical issues, or social elements. The only thing we know is that Huang Jie enters the virtual world, looks around, and despite the amazement he ""seems to find it boring.""
+
+Boredom most naturally connects to the *content* of the game rather than to technical issues or social factors, especially in a first-time VR experience where the main expectation is excitement and novelty.
+
+Therefore, the most likely reason among the options is that the game content is monotonous and lacks excitement and challenge.
+
+[[B]]","Based on the story, there is no explicit information about image quality, technical issues, or social elements. The only thing we know is that Huang Jie enters the virtual world, looks around, and despite the amazement he ""seems to find it boring.""
+
+Boredom most naturally connects to the *content* of the game rather than to technical issues or social factors, especially in a first-time VR experience where the main expectation is excitement and novelty.
+
+Therefore, the most likely reason among the options is that the game content is monotonous and lacks excitement and challenge.",B
+25,"Han Meimei and Youyou roam around in the bedroom, they see a cabinet and a box, they find a tie in the cabinet, Youyou leaves the bedroom, Han Meimei moves the tie to the box.",Where is the tie before?,Handbag,Box,Cabinet,Cupboard,C,False Belief Task,"The tie was originally found in the cabinet before it was moved to the box.
+
+[[C]]",The tie was originally found in the cabinet before it was moved to the box.,C
+26,"The future of Virtual Reality (VR) is promising. Zhao Wei posts a social media update, announcing that his team is about to launch a revolutionary virtual reality technology.",What is Zhao Wei's mood after posting this update?,Thrilled,Panic,Nervous,Confused,A,Unexpected Outcome Test,"Given the story:
+
+- Zhao Wei is announcing that his team is *about to launch a revolutionary virtual reality technology*.
+- The future of VR is described as *promising*.
+- Posting a social media update to announce something ""revolutionary"" and promising typically implies pride, excitement, and positive anticipation rather than negative emotions.
+
+Now evaluate each option:
+
+- **A. Thrilled** – Fits well. Someone announcing a major, promising achievement is likely to feel excited or thrilled.
+- **B. Panic** – Panic is associated with fear or feeling overwhelmed, which is not suggested by the context.
+- **C. Nervous** – While it's possible to be nervous before a big launch, the text frames the situation positively and doesn't hint at anxiety.
+- **D. Confused** – There's no indication of confusion; Zhao Wei seems clear about what is happening.
+
+The most plausible mood from the context is **thrilled**.
+
+[[A]]","Given the story:
+
+- Zhao Wei is announcing that his team is *about to launch a revolutionary virtual reality technology*.
+- The future of VR is described as *promising*.
+- Posting a social media update to announce something ""revolutionary"" and promising typically implies pride, excitement, and positive anticipation rather than negative emotions.
+
+Now evaluate each option:
+
+- **A. Thrilled** – Fits well. Someone announcing a major, promising achievement is likely to feel excited or thrilled.
+- **B. Panic** – Panic is associated with fear or feeling overwhelmed, which is not suggested by the context.
+- **C. Nervous** – While it's possible to be nervous before a big launch, the text frames the situation positively and doesn't hint at anxiety.
+- **D. Confused** – There's no indication of confusion; Zhao Wei seems clear about what is happening.
+
+The most plausible mood from the context is **thrilled**.",A
+27,"On Thursday afternoon, Xiao Li meets Xiao Zhang and the class monitor in the corridor. The class monitor is discussing the school basketball team selection with Xiao Zhang. Xiao Li interrupts and says: ""Xiao Zhang, are you here to watch the basketball team selection? I hear the selection is very intense."" Xiao Zhang smiles, the class monitor quietly looks at Xiao Li and answers: ""Actually, Xiao Zhang is here to participate in the selection."" Xiao Li says somewhat awkwardly: ""Oh, really? I don't expect you to be so interested in basketball."" Xiao Zhang doesn't say anything.",Does Xiao Li know that Xiao Zhang applies to join the basketball team?,Knows,Does not know,,,B,Faux-pas Recognition Test,"From the dialogue:
+
+- Xiao Li assumes Xiao Zhang is there just to **watch** the selection: “Are you here to watch the basketball team selection?”
+- The class monitor corrects him: “Actually, Xiao Zhang is here to participate in the selection.”
+- Xiao Li responds with surprise and awkwardness: “Oh, really? I didn't expect you to be so interested in basketball.”
+
+This clearly shows that **before** the class monitor’s explanation, Xiao Li did **not** know that Xiao Zhang had applied to join the basketball team.
+
+Therefore, the most likely answer is:
+
+[[B]]","From the dialogue:
+
+- Xiao Li assumes Xiao Zhang is there just to **watch** the selection: “Are you here to watch the basketball team selection?”
+- The class monitor corrects him: “Actually, Xiao Zhang is here to participate in the selection.”
+- Xiao Li responds with surprise and awkwardness: “Oh, really? I didn't expect you to be so interested in basketball.”
+
+This clearly shows that **before** the class monitor’s explanation, Xiao Li did **not** know that Xiao Zhang had applied to join the basketball team.
+
+Therefore, the most likely answer is:",B
+28,"Lin Feng is a musician, after many years of effort, his album finally wins the ""Best Album of the Year"" award at the music awards ceremony.",What is Lin Feng's reaction when he finds out this news?,Angry,Feeling violated,Disappointed,Joy,D,Unexpected Outcome Test,"Winning “Best Album of the Year” at a music awards ceremony is a major positive achievement that typically brings happiness and a sense of accomplishment.  
+
+- Angry? Unlikely, since this is good news.  
+- Feeling violated? No indication of anything negative or harmful.  
+- Disappointed? He achieved a major goal after many years of effort, so disappointment doesn’t fit.  
+- Joy? This matches the expected emotional reaction to such success.
+
+Therefore, the most likely answer is:  
+
+[[D]]","Winning “Best Album of the Year” at a music awards ceremony is a major positive achievement that typically brings happiness and a sense of accomplishment.  
+
+- Angry? Unlikely, since this is good news.  
+- Feeling violated? No indication of anything negative or harmful.  
+- Disappointed? He achieved a major goal after many years of effort, so disappointment doesn’t fit.  
+- Joy? This matches the expected emotional reaction to such success.
+
+Therefore, the most likely answer is:",D
+29,"On Sunday night, Xiao Jie's family gathers to discuss the future of the family business. Dad says, ""Xiao Jie, it is appropriate to hand over the family business to you, are you ready to take over?"" Xiao Jie says, ""Yes, Dad, I always prepare for this."" Dad nods with satisfaction. Mom says, ""Xiao Jie definitely does very well.""",Does anyone say something inappropriate in this story?,Someone in the story says something inappropriate.,No one in the story says anything inappropriate.,,,B,Faux-pas Recognition Test,"The story describes a respectful and supportive family discussion about passing on the family business. All statements are appropriate and contextually normal. No one says anything rude, offensive, or out of place.
+
+Therefore, the best answer is:
+
+[[B]]","The story describes a respectful and supportive family discussion about passing on the family business. All statements are appropriate and contextually normal. No one says anything rude, offensive, or out of place.
+
+Therefore, the best answer is:",B
+30,"Xiao Li and Xiao Wei discuss the wedding date. Xiao Li says, ""We can choose June 15th or July 20th."" Xiao Wei thinks for a while and says, ""Perhaps July 20th is better."" Xiao Li thinks for a while and says softly, ""I respect your opinion."" Xiao Wei replies, ""Thank you for your understanding, I hope the weather is good that day.""",Does anyone say something inappropriate in this story?,Someone in the story says something inappropriate.,No one in the story says anything inappropriate.,,,B,Faux-pas Recognition Test,"The dialogue in the story is polite and respectful throughout. They are calmly discussing possible wedding dates, expressing preferences, respecting each other's opinions, and expressing a hope for good weather. There is no rude, offensive, or inappropriate language or attitude from either person.
+
+Therefore, no one says anything inappropriate.
+
+[[B]]","The dialogue in the story is polite and respectful throughout. They are calmly discussing possible wedding dates, expressing preferences, respecting each other's opinions, and expressing a hope for good weather. There is no rude, offensive, or inappropriate language or attitude from either person.
+
+Therefore, no one says anything inappropriate.",B
+31,"Zhang Li buys a new book at the bookstore. When she gets home, she casually puts the book on the sofa and goes to cook dinner.  In the evening, Grandpa asks, ""Where do you put your new book?"" Zhang Li replies, ""I put it on the bookshelf.""",Why does Zhang Li say this?,Zhang Li really puts the book back on the bookshelf.,Zhang Li lies on purpose because she does not want her grandfather to know she puts things randomly.,Zhang Li remembers she puts the book on the bookshelf.,Zhang Li is busy cooking and forgets where she puts the book.,D,Strange Story Task,"Zhang Li put the book on the sofa, but later tells Grandpa she put it on the bookshelf. The story gives no hint that she deliberately lies (so B is unlikely), nor that she actually moved the book (so A is impossible).  
+
+The most plausible explanation is that she **misremembers** what she did and *believes* she put it on the bookshelf when answering Grandpa, which matches option C better than D (D suggests she forgets completely, but she gives a specific location confidently).
+
+Therefore, the best answer is:
+
+[[C]]","Zhang Li put the book on the sofa, but later tells Grandpa she put it on the bookshelf. The story gives no hint that she deliberately lies (so B is unlikely), nor that she actually moved the book (so A is impossible).  
+
+The most plausible explanation is that she **misremembers** what she did and *believes* she put it on the bookshelf when answering Grandpa, which matches option C better than D (D suggests she forgets completely, but she gives a specific location confidently).
+
+Therefore, the best answer is:",C
+32,"In a supermarket, Xiao Ming and Xiao Hong are shopping, they buy 30 fruits. Xiao Ming says to Xiao Hong, we buy most of them are apples, there are some bananas and very few oranges. After counting, Xiao Hong finds out, there are only 4 bananas.","Before Xiao Hong counts, how many apples does she guess they buy?","Before counting, Xiao Hong guesses there are 25 apples.","Before counting, Xiao Hong guesses there are 30 apples.","Before counting, Xiao Hong guesses there are 15 apples.","Before counting, Xiao Hong guesses there are 10 apples.",A,Scalar Implicature Test,"Xiao Ming says that **most** of the 30 fruits are apples, with **some** bananas and **very few** oranges.  
+
+- If Xiao Hong guesses **30 apples**, that contradicts “some bananas and very few oranges.”  
+- If she guesses **15 or 10 apples**, that would not reasonably match “most” out of 30.  
+- **25 apples** fits “most,” leaving 5 fruits to be “some bananas and very few oranges,” which matches the description well.
+
+So the most reasonable guess is that she thought there were 25 apples.
+
+[[A]]","Xiao Ming says that **most** of the 30 fruits are apples, with **some** bananas and **very few** oranges.  
+
+- If Xiao Hong guesses **30 apples**, that contradicts “some bananas and very few oranges.”  
+- If she guesses **15 or 10 apples**, that would not reasonably match “most” out of 30.  
+- **25 apples** fits “most,” leaving 5 fruits to be “some bananas and very few oranges,” which matches the description well.
+
+So the most reasonable guess is that she thought there were 25 apples.",A
+33,"Over the weekend, Xiao Li runs into his old friend Xiao Zhang, whom he has not seen for many years, in the park. They have a great time chatting. Xiao Li says, ""Remember, we always go hiking together when we are both single."" Xiao Zhang laughs and replies, ""Yes, we are really happy at that time."" Xiao Li then asks, ""By the way, do you get married now?"" Xiao Zhang, with an embarrassed look on his face, says, ""Actually, I get married three years ago, and you even give a gift at that time.""",Does Xiao Li know that Xiao Zhang is already married?,He knows,He does not know,,,B,Faux-pas Recognition Test,"Xiao Li asks, ""By the way, do you get married now?"" and Xiao Zhang answers, ""Actually, I get married three years ago, and you even give a gift at that time."" This indicates Xiao Li has forgotten and does **not** know (or remember) that Xiao Zhang is already married.
+
+So the most likely answer is:
+
+[[B]]","Xiao Li asks, ""By the way, do you get married now?"" and Xiao Zhang answers, ""Actually, I get married three years ago, and you even give a gift at that time."" This indicates Xiao Li has forgotten and does **not** know (or remember) that Xiao Zhang is already married.
+
+So the most likely answer is:",B
+34,"Xiao Hong finds a cabinet in the smoking room, the label on the cabinet is zucchini, Xiao Hong cannot see what is inside the cabinet, Xiao Hong opens the cabinet and finds a jacket, there is no zucchini in the cabinet, Xiao Hong closes the cabinet and puts it back in its place, Xiao Gang enters the smoking room and sees the cabinet.","After Xiao Gang opens the cabinet, what does Xiao Gang expect to find in the cabinet?",Thermometer,Jacket,Pepper powder,Zucchini,D,False Belief Task,"Xiao Gang only sees the cabinet with the label ""zucchini"" and has no information about Xiao Hong opening it or finding a jacket. So, based on the label, he would expect to find zucchini inside.
+
+Therefore, the most likely answer is:
+
+[[D]]","Xiao Gang only sees the cabinet with the label ""zucchini"" and has no information about Xiao Hong opening it or finding a jacket. So, based on the label, he would expect to find zucchini inside.
+
+Therefore, the most likely answer is:",D
+35,"Anna donates a precious antique at a charity dinner organized by the company. She puts the antique in a special display area. Carl, a new employee, does not understand the value and importance of this antique, mistakes it for waste, and throws it in the trash while cleaning. At the same time, Bo, Anna's competitor, sees this scene, but because he hopes to surpass Anna at the party, he deliberately does not tell Carl the truth. When Anna finds that the antique is missing, she feels extremely shocked and disappointed, and starts looking around. Later, Carl realizes the possible mistake he makes after hearing colleagues discuss the value of the antique.","Bo knows that it is Anna's antique, but does not tell Carl, what kind of emotion does he feel?",Bo possibly feels guilty because he does not stop Carl's wrong behavior.,"Bo possibly feels worried, worried that Anna finds out he knows the truth but does not tell Carl.",Bo possibly feels proud and satisfied because he sees Anna's loss brings him an advantage in the competition.,Bo possibly feels indifferent because he thinks this matter has nothing to do with him.,C,Moral emotions,"Bo is Anna’s competitor and “hopes to surpass Anna at the party,” and this is given as the reason he *deliberately* does not tell Carl the truth. That implies he wants Anna to suffer the loss because it benefits him competitively, which fits pride/satisfaction at her misfortune more than guilt, worry, or indifference.
+
+So the most likely answer is:
+
+[[C]]","Bo is Anna’s competitor and “hopes to surpass Anna at the party,” and this is given as the reason he *deliberately* does not tell Carl the truth. That implies he wants Anna to suffer the loss because it benefits him competitively, which fits pride/satisfaction at her misfortune more than guilt, worry, or indifference.
+
+So the most likely answer is:",C
+36,"In a friend gathering, everyone talks about work, talks about partners, when Xiao Ling talks about her boyfriend's issue, Xiao Ling sees a work message on WeChat, her expression becomes a bit heavy, she ponders for a while. Friends notice her expression change. After Xiao Ling deals with the work message, she lifts her head, a friend says: ""Boyfriend, if he is not good, change him, Xiao Ling, you deserve better.""",Why does Xiao Ling's friend say this?,"The friend sees Xiao Ling's heavy expression, mistakenly thinks there is a problem between Xiao Ling and her boyfriend, so advises.","Because they see Xiao Ling's heavy expression, and she ponders for a while.","The friend's view on boyfriend-girlfriend relationship is ""if it doesn't work, change it, deserve better.""","The friend worries about Xiao Ling, advises Xiao Ling not to worry about her current boyfriend.",A,Strange Story Task,"The friend notices that Xiao Ling’s expression suddenly turns heavy while she is talking about her boyfriend (though in fact it’s due to a work message). The friend misinterprets this change in expression as emotional trouble related to the boyfriend and therefore gives the advice: “If he is not good, change him, you deserve better.”
+
+So the most likely answer is:
+
+[[A]]","The friend notices that Xiao Ling’s expression suddenly turns heavy while she is talking about her boyfriend (though in fact it’s due to a work message). The friend misinterprets this change in expression as emotional trouble related to the boyfriend and therefore gives the advice: “If he is not good, change him, you deserve better.”
+
+So the most likely answer is:",A
+37,"Huang Li and Chen Jie sit in the company's rest area, they are whispering and discussing something. The office door slowly opens, Wang Qiang walks in, he seems to be looking for something. The conversation between Chen Jie and Huang Li suddenly stops, they quickly switch topics, start discussing recent weather changes. As Wang Qiang walks by, Huang Li gives him a subtle nod and an almost invisible smile. Chen Jie, while Wang Qiang is not paying attention, quietly gives Huang Li a confirming look. Wang Qiang sits back in his own position, Huang Li and Chen Jie also return to their work, but their eyes still communicate from time to time.",What does Wang Qiang do next?,"He walks directly to Huang Li and Chen Jie, asks them if there is anything they need help with, or if they are discussing work-related issues.",He seeks support by telling his colleagues that he feels uneasy about the conversation between Huang Li and Chen Jie.,"He thinks that the conversation between Huang Li and Chen Jie is a slander against him, he rushes to their workstation and starts yelling.","He focuses on his own work, distracts his attention from Huang Li and Chen Jie.",D,Emotion Regulation,"Wang Qiang walks in, seems to be looking for something, then just sits back at his own position. The story doesn't describe him confronting them, asking questions, or sharing unease with others. That aligns best with him turning his attention back to his own tasks.
+
+So the most likely answer is:
+
+[[D]]","Wang Qiang walks in, seems to be looking for something, then just sits back at his own position. The story doesn't describe him confronting them, asking questions, or sharing unease with others. That aligns best with him turning his attention back to his own tasks.
+
+So the most likely answer is:",D
+38,"At 12 noon on Wednesday, Xiao Yang comes to a restaurant alone for a meal. He says to the waiter: ""I want a glass of juice and a hamburger."" The waiter says: ""Okay, please wait a moment."" After Xiao Yang receives his meal, as he picks up the juice to drink, he accidentally shakes his hand, splashing some juice on the floor by the edge of the table. At this time, another customer Xiao Chen just pays the bill, stands at the cashier ready to leave. Xiao Yang goes over and says to the waiter: ""I am really sorry, I accidentally spill the juice, can you clean the floor?"" The waiter says: ""Okay, I am coming to deal with it.""","If there is, which sentence is inappropriate?",I want a glass of juice and a hamburger.,"I am really sorry, I accidentally spill the juice, can you clean the floor?","Okay, I am coming to deal with it.",There is no inappropriate sentence.,D,Faux-pas Recognition Test,"All of the sentences fit naturally in the context of the story:  
+
+- A: A normal way to order food.  
+- B: A polite apology and reasonable request to the waiter.  
+- C: A (slightly translated-sounding) but acceptable way for the waiter to say they will handle it.  
+
+So there is no clearly inappropriate sentence.
+
+[[D]]","All of the sentences fit naturally in the context of the story:  
+
+- A: A normal way to order food.  
+- B: A polite apology and reasonable request to the waiter.  
+- C: A (slightly translated-sounding) but acceptable way for the waiter to say they will handle it.  
+
+So there is no clearly inappropriate sentence.",D
+39,"Zhang Hong stays in a seaside hotel on the island of Santorini in Greece for a vacation after she finishes a period of work. She sits on the balcony, admiring the beautiful Aegean Sea sunset.",What is Zhang Hong's feeling on the balcony of the seaside hotel?,Satisfied,Sadness,Proud,Surprise,A,Unexpected Outcome Test,"Zhang Hong has just finished a period of work and is now on vacation at a seaside hotel, sitting on the balcony and admiring the beautiful Aegean Sea sunset. The scene described is calm, pleasant, and relaxing. Typically, such a context suggests positive emotions like contentment, relaxation, or satisfaction.
+
+Among the options:
+- A. Satisfied – fits well with enjoying a beautiful sunset after finishing work.
+- B. Sadness – no indication of anything sad in the story.
+- C. Proud – no achievement or comparison is mentioned to trigger pride.
+- D. Surprise – the scene sounds tranquil and expected, not shocking or startling.
+
+Therefore, the most reasonable choice is that she feels satisfied.
+
+[[A]]","Zhang Hong has just finished a period of work and is now on vacation at a seaside hotel, sitting on the balcony and admiring the beautiful Aegean Sea sunset. The scene described is calm, pleasant, and relaxing. Typically, such a context suggests positive emotions like contentment, relaxation, or satisfaction.
+
+Among the options:
+- A. Satisfied – fits well with enjoying a beautiful sunset after finishing work.
+- B. Sadness – no indication of anything sad in the story.
+- C. Proud – no achievement or comparison is mentioned to trigger pride.
+- D. Surprise – the scene sounds tranquil and expected, not shocking or startling.
+
+Therefore, the most reasonable choice is that she feels satisfied.",A
+40,"Huahua feels a bit down after Liangliang accidentally loses his pet puppy, and Liangliang is always working hard to find the puppy. Yuwen knows this situation, looks at the silent Huahua, he turns his head and talks to Liangliang who sits next to Huahua. Yuwen casually takes out a football from his backpack, Liangliang immediately recognizes that this is the football that Huahua always wants to buy but does not have the money to buy. Yuwen gives a slight smile to Liangliang, then gently places the football next to Liangliang, then turns his head back to read a book carelessly, as if nothing happens. Huahua looks at Yuwen with confusion. Liangliang also looks at Yuwen, their eyes meet, Liangliang nods.",Why does Yuwen smile and put the football next to Liangliang?,"Yuwen always wants to give this football to Huahua, but he is a bit shy, he wants Liangliang to help deliver it.","Yuwen wants to play football with Liangliang, so he puts the football next to Liangliang.","Yuwen tries to attract Liangliang's attention with the football, he wants Liangliang and Huahua to have some other topics to talk about, to ease their conflict.","Yuwen wants to let Liangliang know that he has this football, to make Liangliang feel envious.",C,Ambiguous Story Task,"Yuwen knows Huahua has always wanted this football but couldn’t afford it. He quietly gives it to Liangliang, with a smile and a nod exchanged between them, so that Liangliang can pass it on to Huahua. This indirect way suggests Yuwen is a bit shy about giving it to Huahua himself and wants Liangliang’s help.
+
+[[A]]","Yuwen knows Huahua has always wanted this football but couldn’t afford it. He quietly gives it to Liangliang, with a smile and a nod exchanged between them, so that Liangliang can pass it on to Huahua. This indirect way suggests Yuwen is a bit shy about giving it to Huahua himself and wants Liangliang’s help.",A
+41,"Xiao Li is a professional ballet dancer. She trains and performs hard every day, believing that the pure beauty of dance and strict self-discipline are the core of her life. On the other hand, Xiao Zhang is a street graffiti artist. His works are full of color and free expression, believing that art should be free and unrestricted. One day, Xiao Zhang invites Xiao Li to an event.",What type of event does Xiao Zhang most likely invite Xiao Li to?,Ballet performance,Street dance flash mob event,Exciting modern dance performance,Street graffiti event,B,Discrepant desires,"Xiao Zhang is a street graffiti artist whose belief is that art should be “free and unrestricted,” and the story specifically frames him in contrast to Xiao Li’s ballet background. When he invites Xiao Li to an event, the most natural and likely inference is that he’s inviting her into *his* artistic world, not hers.
+
+Analyzing options:
+
+- **A. Ballet performance** – This aligns with Xiao Li’s profession, not Xiao Zhang’s. It’s less likely he is organizing or leading a ballet event.
+- **B. Street dance flash mob event** – While “street” matches his general vibe, nothing in the story mentions dance in Xiao Zhang’s art; his focus is graffiti, a visual art.
+- **C. Exciting modern dance performance** – Again, dance-related but not tied to his graffiti background.
+- **D. Street graffiti event** – This directly matches Xiao Zhang’s identity and art form. It’s the most consistent with the narrative.
+
+Therefore, the most likely answer is:
+
+[[D]]","Xiao Zhang is a street graffiti artist whose belief is that art should be “free and unrestricted,” and the story specifically frames him in contrast to Xiao Li’s ballet background. When he invites Xiao Li to an event, the most natural and likely inference is that he’s inviting her into *his* artistic world, not hers.
+
+Analyzing options:
+
+- **A. Ballet performance** – This aligns with Xiao Li’s profession, not Xiao Zhang’s. It’s less likely he is organizing or leading a ballet event.
+- **B. Street dance flash mob event** – While “street” matches his general vibe, nothing in the story mentions dance in Xiao Zhang’s art; his focus is graffiti, a visual art.
+- **C. Exciting modern dance performance** – Again, dance-related but not tied to his graffiti background.
+- **D. Street graffiti event** – This directly matches Xiao Zhang’s identity and art form. It’s the most consistent with the narrative.
+
+Therefore, the most likely answer is:",D
+42,"Xiao Hong's mother is a very enlightened mother, Xiao Hong is a child with dreams and goals. Xiao Hong wins first place in the school's long-distance running competition, her mother Zhang Juan learns this news.",What is Zhang Juan's emotion?,Disappointed,Panic,Proud,Disgust,C,Unexpected Outcome Test,"Xiao Hong is described as “a child with dreams and goals,” and she just won first place in the school’s long-distance running competition. Her mother, Zhang Juan, is described as “very enlightened,” which implies she is supportive and open-minded.
+
+A supportive mother learning that her child has achieved first place in a competition would most reasonably feel proud, not disappointed, panicked, or disgusted.
+
+Therefore, the most likely emotion is:
+
+[[C]]","Xiao Hong is described as “a child with dreams and goals,” and she just won first place in the school’s long-distance running competition. Her mother, Zhang Juan, is described as “very enlightened,” which implies she is supportive and open-minded.
+
+A supportive mother learning that her child has achieved first place in a competition would most reasonably feel proud, not disappointed, panicked, or disgusted.
+
+Therefore, the most likely emotion is:",C
+43,"After Xiao Fang and Xiao Gang break up, Xiao Gang quickly gets a new girlfriend. One night, Xiao Fang talks about her current life, saying, ""Is there anything new recently?"" Xiao Gang replies, ""Hmm, I start to learn photography recently."" At this moment, Xiao Gang's current girlfriend comes over and joins the conversation. Xiao Fang politely greets, ""Hello, I am Xiao Fang.""","If there is, which sentence is inappropriate?",What is new recently?,"Hmm, I start learning photography.","Hello, I am Xiao Fang.",There is no inappropriate sentence,D,Faux-pas Recognition Test,"All three sentences fit the context naturally:
+
+- A: Xiao Fang asking “What is new recently?” is normal small talk between exes who are still talking.
+- B: Xiao Gang replying “Hmm, I start learning photography.” appropriately answers the question.
+- C: Xiao Fang saying “Hello, I am Xiao Fang.” when the new girlfriend arrives is a polite self‑introduction.
+
+None of them are socially or contextually inappropriate, so the best answer is:
+
+[[D]]","All three sentences fit the context naturally:
+
+- A: Xiao Fang asking “What is new recently?” is normal small talk between exes who are still talking.
+- B: Xiao Gang replying “Hmm, I start learning photography.” appropriately answers the question.
+- C: Xiao Fang saying “Hello, I am Xiao Fang.” when the new girlfriend arrives is a polite self‑introduction.
+
+None of them are socially or contextually inappropriate, so the best answer is:",D
+44,"Youyou and Xiao Li stroll on the terrace, they see a safe and a backpack, they find a mask in the safe, Xiao Li leaves the terrace, Youyou moves the mask to the backpack.",Where is the mask before?,Backpack,Safe,Cabinet,Briefcase,B,False Belief Task,"The story says: “they find a mask in the safe” and then “Youyou moves the mask to the backpack.”  
+So **before** it was moved, the mask was in the **safe**.
+
+[[B]]","The story says: “they find a mask in the safe” and then “Youyou moves the mask to the backpack.”  
+So **before** it was moved, the mask was in the **safe**.",B
+45,"Jianjian and Jingjing are classmates, their relationship is not very close, although they often chat but they usually do not go home together after school. One day, when school is about to end, Xuanxuan joins their chat. Jianjian takes the opportunity when Jingjing turns her head to talk to Xuanxuan, makes a movie-watching gesture to Xuanxuan, then smiles at Xuanxuan, Xuanxuan also nods to Jianjian, both of them smile at Jingjing. After school, Jianjian and Xuanxuan leave the school together.",Why do Jianjian and Xuanxuan exchange a smile?,Jianjian hopes Xuanxuan helps him invite Jingjing to watch a movie together in a few days.,"Jianjian wants to signal to Xuanxuan, he wants to watch a movie alone with Xuanxuan, do not invite Jingjing.","Jianjian thinks of a movie-related joke, wants to share with Xuanxuan.","Jianjian and Xuanxuan together, secretly make fun of Jingjing.",B,Ambiguous Story Task,"Jianjian secretly makes a movie-watching gesture to Xuanxuan when Jingjing isn’t looking, and Xuanxuan nods; afterward, Jianjian and Xuanxuan leave school together, suggesting they’ve agreed to go watch a movie just the two of them. The secrecy when Jingjing turns away implies they don’t intend to include her.
+
+[[B]]","Jianjian secretly makes a movie-watching gesture to Xuanxuan when Jingjing isn’t looking, and Xuanxuan nods; afterward, Jianjian and Xuanxuan leave school together, suggesting they’ve agreed to go watch a movie just the two of them. The secrecy when Jingjing turns away implies they don’t intend to include her.",B
+46,"On weekend nights, Xiao Zhao and Xiao Qian go to a friend's party together. When friends ask about their recent situation, Xiao Zhao smiles and says: ""We are all good, thank you for caring."" Friends ask again: ""I hear you plan to go on a beach vacation?"" Xiao Zhao nods: ""Yes, but we are still planning."" Xiao Qian adds: ""Yeah, the details are not well planned yet."" Then the topic turns to something everyone is interested in.",Does Xiao Zhao know that Xiao Qian does not like to talk about their private affairs in public?,Knows,Does not know,,,A,Faux-pas Recognition Test,"Based on the story, when friends ask about their recent situation and the planned vacation, Xiao Zhao answers in a brief and vague way: “We are all good, thank you for caring,” and “Yes, but we are still planning.” These responses avoid sharing detailed private information. Xiao Qian’s added comment is also vague: “Yeah, the details are not well planned yet.”
+
+Both of them consistently keep things general and do not open up about private matters, and there is no sign of conflict or discomfort between them in how Xiao Zhao responds. This suggests that Xiao Zhao is aligning with Xiao Qian’s preference not to talk about private affairs in public.
+
+Thus, the most likely answer is that Xiao Zhao **knows** Xiao Qian does not like to discuss their private affairs in public.
+
+[[A]]","Based on the story, when friends ask about their recent situation and the planned vacation, Xiao Zhao answers in a brief and vague way: “We are all good, thank you for caring,” and “Yes, but we are still planning.” These responses avoid sharing detailed private information. Xiao Qian’s added comment is also vague: “Yeah, the details are not well planned yet.”
+
+Both of them consistently keep things general and do not open up about private matters, and there is no sign of conflict or discomfort between them in how Xiao Zhao responds. This suggests that Xiao Zhao is aligning with Xiao Qian’s preference not to talk about private affairs in public.
+
+Thus, the most likely answer is that Xiao Zhao **knows** Xiao Qian does not like to discuss their private affairs in public.",A
+47,"Su Ting posts an article about future technology trends on her personal blog. This article cites many literature materials and unexpectedly causes a huge response on social media, and people widely share and discuss it. Su Ting feels that she is completely exposed to the public view.",How does Su Ting feel when her document receives widespread attention?,Happy,Surprise,Panic,Anxious,D,Unexpected Outcome Test,"Su Ting’s article “unexpectedly causes a huge response,” which directly indicates that the attention it received was beyond her expectations. This aligns most clearly with the emotion of being surprised.
+
+Other options:
+- Happy: possible, but not mentioned.
+- Panic / Anxious: “exposed to the public view” might cause such feelings, but the text emphasizes the *unexpected* nature of the response more than fear.
+
+So the most supported answer is that she feels surprised.
+
+[[B]]","Su Ting’s article “unexpectedly causes a huge response,” which directly indicates that the attention it received was beyond her expectations. This aligns most clearly with the emotion of being surprised.
+
+Other options:
+- Happy: possible, but not mentioned.
+- Panic / Anxious: “exposed to the public view” might cause such feelings, but the text emphasizes the *unexpected* nature of the response more than fear.
+
+So the most supported answer is that she feels surprised.",B
+48,"In a library of a small town, librarian Xiao Li is arranging various types of books. He says to reader Xiao Liu, ""There are 80 novels here, most of them are prose, some are history books, but there are almost no science fiction novels."" Xiao Liu checks and finds that there are 20 history books.","Before Xiao Liu checks, how many prose does he guess?","Before Xiao Liu checks, he guesses there are 80 prose.","Before Xiao Liu checks, he guesses there are 65 prose.","Before Xiao Liu checks, he guesses there are 79 prose.","Before Xiao Liu checks, he guesses there are 35 prose.",B,Scalar Implicature Test,"Xiao Li says:  
+- Total novels: 80  
+- ""Most of them are prose"" → prose should be well over half  
+- ""Some are history books"" → history should take a noticeable portion, not just 1  
+- ""Almost no science fiction novels"" → sci-fi is close to 0
+
+Before checking, Xiao Liu doesn’t know there are exactly 20 history books; he just knows:
+- Prose is the majority
+- History is “some”
+- Sci-fi is negligible
+
+Evaluate choices:
+
+- A. 80 prose → leaves no room for “some are history books” → contradicts the description.
+- C. 79 prose → 79/80 are prose, almost all, not just “most”; leaves only 1 book for all history and sci-fi, which doesn’t fit “some are history books.”
+- D. 35 prose → 35/80 is not “most” (less than half), so it contradicts “most … are prose.”
+- B. 65 prose → 65/80 is a clear majority; leaves 15 for history + sci-fi, matching “most are prose, some are history, almost no sci-fi” reasonably well as a *guess* before checking.
+
+So the most reasonable guessed number of prose is 65.
+
+[[B]]","Xiao Li says:  
+- Total novels: 80  
+- ""Most of them are prose"" → prose should be well over half  
+- ""Some are history books"" → history should take a noticeable portion, not just 1  
+- ""Almost no science fiction novels"" → sci-fi is close to 0
+
+Before checking, Xiao Liu doesn’t know there are exactly 20 history books; he just knows:
+- Prose is the majority
+- History is “some”
+- Sci-fi is negligible
+
+Evaluate choices:
+
+- A. 80 prose → leaves no room for “some are history books” → contradicts the description.
+- C. 79 prose → 79/80 are prose, almost all, not just “most”; leaves only 1 book for all history and sci-fi, which doesn’t fit “some are history books.”
+- D. 35 prose → 35/80 is not “most” (less than half), so it contradicts “most … are prose.”
+- B. 65 prose → 65/80 is a clear majority; leaves 15 for history + sci-fi, matching “most are prose, some are history, almost no sci-fi” reasonably well as a *guess* before checking.
+
+So the most reasonable guessed number of prose is 65.",B
+49,"Professor Wang is a renowned historian, teaching at a university in Beijing. He earns respect for his profound historical knowledge and attention to detail. Once, the school asks him to give a speech at an important international conference. Professor Wang is not good at public speaking, and he is not interested in the theme of this conference, planning to find an excuse to withdraw from this speech. When his colleague asks him about the preparation for the upcoming speech, Professor Wang says he is preparing a wonderful speech about ancient Chinese history, he is doing a lot of research.",Is what Professor Wang says true?,Yes,No,,,B,Strange Story Task,"First, analyze the story:
+
+- Professor Wang is asked to give an important speech at an international conference.  
+- He is **not good at public speaking** and **not interested** in the conference theme.  
+- Therefore, he is **planning to find an excuse to withdraw** from the speech. This implies he does not intend to actually prepare the speech seriously.  
+- When his colleague asks about his preparation, Professor Wang says he is **preparing a wonderful speech** and **doing a lot of research**.
+
+Given his actual plan (to avoid giving the speech), his statement about preparing a wonderful, well-researched speech is very likely **not true**. He is misrepresenting his actions to his colleague.
+
+Thus, the most likely correct answer is:
+
+[[B]]","First, analyze the story:
+
+- Professor Wang is asked to give an important speech at an international conference.  
+- He is **not good at public speaking** and **not interested** in the conference theme.  
+- Therefore, he is **planning to find an excuse to withdraw** from the speech. This implies he does not intend to actually prepare the speech seriously.  
+- When his colleague asks about his preparation, Professor Wang says he is **preparing a wonderful speech** and **doing a lot of research**.
+
+Given his actual plan (to avoid giving the speech), his statement about preparing a wonderful, well-researched speech is very likely **not true**. He is misrepresenting his actions to his colleague.
+
+Thus, the most likely correct answer is:",B
+50,"In a school cafeteria, 20 students are lining up to buy lunch. Xiao Li says to Xiao Zhang, ""It looks like most people choose hamburgers, a small part choose sandwiches, almost no one buys salad."" Xiao Zhang counts and finds that only 4 people order sandwiches.","Before Xiao Zhang counts, how many students does he guess choose hamburgers?","Before Xiao Zhang counts, he guesses that 10 students buy hamburgers.","Before Xiao Zhang counts, he guesses that 5 students buy hamburgers.","Before Xiao Zhang counts, he guesses that 1 student buys a hamburger.","Before Xiao Zhang counts, he guesses that 15 students buy hamburgers.",D,Scalar Implicature Test,"Xiao Li’s description:
+
+- “Most people choose hamburgers”
+- “A small part choose sandwiches”
+- “Almost no one buys salad”
+
+Total students: 20.
+
+After counting, Xiao Zhang finds 4 people order sandwiches.  
+If “a small part” is 4 (which fits 4/20 = 20%), then “almost no one” for salad would likely be around 1 person, leaving:
+
+- Hamburgers: 20 − 4 − 1 = 15  
+
+So the natural guess, before counting, that matches the verbal description is:
+
+- 15 buying hamburgers
+- 4 buying sandwiches
+- 1 buying salad
+
+Thus the most reasonable answer from the options is:
+
+[[D]]","Xiao Li’s description:
+
+- “Most people choose hamburgers”
+- “A small part choose sandwiches”
+- “Almost no one buys salad”
+
+Total students: 20.
+
+After counting, Xiao Zhang finds 4 people order sandwiches.  
+If “a small part” is 4 (which fits 4/20 = 20%), then “almost no one” for salad would likely be around 1 person, leaving:
+
+- Hamburgers: 20 − 4 − 1 = 15  
+
+So the natural guess, before counting, that matches the verbal description is:
+
+- 15 buying hamburgers
+- 4 buying sandwiches
+- 1 buying salad
+
+Thus the most reasonable answer from the options is:",D
+51,"On Wednesday morning, Professor Li explains a complex economic concept to students in the university classroom. Student Wang raises his hand and says, ""Professor Li, can you please repeat the content just now? I feel I still don't quite understand."" Professor Li smiles and nods, saying, ""This concept indeed is difficult, I start explaining it again from a simple example to ensure every student understands."" Student Wang says, ""I really appreciate your patience."" Professor Li says, ""I am happy that you ask questions, this helps us improve teaching.""",Does anyone say something inappropriate in this story?,Someone says something inappropriate in the story,No one says anything inappropriate in the story.,,,B,Faux-pas Recognition Test,"All the dialogue in the story is polite, respectful, and appropriate:
+
+- Student Wang respectfully asks the professor to repeat the explanation because he doesn’t understand.
+- Professor Li responds patiently and positively, acknowledging that the concept is difficult and offering to explain it again with a simple example.
+- Student Wang expresses gratitude.
+- Professor Li encourages questions and frames them as beneficial for improving teaching.
+
+No one uses rude, offensive, or inappropriate language. Therefore, the best answer is:
+
+[[B]]","All the dialogue in the story is polite, respectful, and appropriate:
+
+- Student Wang respectfully asks the professor to repeat the explanation because he doesn’t understand.
+- Professor Li responds patiently and positively, acknowledging that the concept is difficult and offering to explain it again with a simple example.
+- Student Wang expresses gratitude.
+- Professor Li encourages questions and frames them as beneficial for improving teaching.
+
+No one uses rude, offensive, or inappropriate language. Therefore, the best answer is:",B
+52,"One evening, Xiao Lei eats dinner at his grandparents' house with his grandfather and grandmother. At the dinner table, the grandfather talks about some of his old items. Xiao Lei praises, ""Grandpa, your collection is really amazing, especially this old clock, it is full of historical flavor."" The grandfather smiles, the grandmother nods with a smile. Xiao Lei continues, ""This clock must have a lot of stories, right?"" The grandfather nods and says, ""Indeed, every item has its own story."" The grandmother adds, ""Yes, like this clock, every story is worth cherishing.""",Does anyone say something inappropriate in this story?,Someone in the story says something inappropriate.,No one in the story says anything inappropriate.,,,B,Faux-pas Recognition Test,"All the dialogue in the story is polite, respectful, and contextually appropriate:
+
+- Xiao Lei praises his grandfather’s collection and the old clock.
+- The grandfather responds kindly and agrees that each item has a story.
+- The grandmother echoes this sentiment and adds that every story is worth cherishing.
+
+No one is rude, offensive, or saying anything out of place or illogical within the context.
+
+Therefore, the correct choice is:
+
+[[B]]","All the dialogue in the story is polite, respectful, and contextually appropriate:
+
+- Xiao Lei praises his grandfather’s collection and the old clock.
+- The grandfather responds kindly and agrees that each item has a story.
+- The grandmother echoes this sentiment and adds that every story is worth cherishing.
+
+No one is rude, offensive, or saying anything out of place or illogical within the context.
+
+Therefore, the correct choice is:",B
+53,"Zhang Feng participates in the school's art exhibition. After the exhibition ends, he leaves his sketchbook in the classroom, but mistakenly thinks he puts it back in his backpack. At night, his mother asks, ""Where is your sketchbook?"" Zhang Feng replies, ""I put it back in my backpack, Mom.""",Does Zhang Feng tell the truth?,Yes,No,,,B,Strange Story Task,"Zhang Feng’s sketchbook is actually left in the classroom, but he *believes* he put it in his backpack and tells his mother so. His statement is factually false, even though he doesn’t intend to lie.
+
+The question asks, “Does Zhang Feng tell the truth?” In standard usage, this refers to whether what he says matches reality, not whether he is trying to deceive. Since his claim is incorrect, he does **not** tell the truth.
+
+[[B]]","Zhang Feng’s sketchbook is actually left in the classroom, but he *believes* he put it in his backpack and tells his mother so. His statement is factually false, even though he doesn’t intend to lie.
+
+The question asks, “Does Zhang Feng tell the truth?” In standard usage, this refers to whether what he says matches reality, not whether he is trying to deceive. Since his claim is incorrect, he does **not** tell the truth.",B
+54,"In a community park, there are 40 trees. The gardener tells the residents that most of them are pine trees, with only a few ginkgo and cypress trees. After checking, the residents find that only 2 are pine trees.",How many trees do the residents guess are pine trees after checking?,"After checking, the residents guess that there are 40 pine trees.","After checking, the residents guess that there are 20 pine trees.","After checking, the residents guess that there are 38 pine trees.","After checking, the residents guess that there are 35 pine trees.",D,Scalar Implicature Test,"The gardener says most of the 40 trees are pine, with only a *few* ginkgo and cypress.  
+“Only a few” among 40 would naturally suggest something like 2 non-pine trees, so the residents would guess:
+
+- Non-pine trees ≈ 2  
+- Pine trees ≈ 40 − 2 = 38  
+
+Thus, the closest and most reasonable option is that they guess there are 38 pine trees.
+
+[[C]]","The gardener says most of the 40 trees are pine, with only a *few* ginkgo and cypress.  
+“Only a few” among 40 would naturally suggest something like 2 non-pine trees, so the residents would guess:
+
+- Non-pine trees ≈ 2  
+- Pine trees ≈ 40 − 2 = 38  
+
+Thus, the closest and most reasonable option is that they guess there are 38 pine trees.",C
+55,"On Saturday morning, Xiao Rong and Xiao Li meet at the school gate. Xiao Li excitedly says: ""My birthday party is this afternoon, do you come?"" Xiao Rong remembers, she promises to go to another friend's concert today. She hesitates for a moment, then says: ""Oh, I probably go to a concert. I'm sorry, I promise before."" Xiao Li disappointingly says: ""Oh, it's okay. Next time.""",Does anyone say something inappropriate in this story?,Someone in the story says something inappropriate.,No one in the story says anything inappropriate.,,,A,Faux-pas Recognition Test,"The story describes a normal, polite interaction:
+
+- Xiao Li invites Xiao Rong to her birthday party.
+- Xiao Rong declines because she already promised to attend another friend's concert, and she apologizes.
+- Xiao Li responds that it’s okay and suggests “next time.”
+
+No one is rude, offensive, or speaking inappropriately. All remarks are socially acceptable and considerate.
+
+Therefore, the best answer is:
+
+[[B]]","The story describes a normal, polite interaction:
+
+- Xiao Li invites Xiao Rong to her birthday party.
+- Xiao Rong declines because she already promised to attend another friend's concert, and she apologizes.
+- Xiao Li responds that it’s okay and suggests “next time.”
+
+No one is rude, offensive, or speaking inappropriately. All remarks are socially acceptable and considerate.
+
+Therefore, the best answer is:",B
+56,"Teacher Chen always believes that traditional teaching methods are the most effective for educating students. The new teacher, Wang Li, hopes to persuade Teacher Chen to try new methods.",How does Wang Li persuade Teacher Chen?,Emphasize that new teaching methods help teachers keep up with the times and continuously improve their teaching level.,"Encourage Teacher Chen to maintain an open mind, be brave to try and change.","Emphasize that new teaching methods create a more relaxed, open learning environment.","Show Teacher Chen the comparison data of new teaching methods and traditional teaching methods in terms of student performance, interest in learning, etc.",D,Persuasion Story Task,"Given that Teacher Chen firmly believes traditional teaching is most effective, the strategy most likely to persuade him is one that provides concrete, objective evidence rather than just encouragement or general statements.
+
+- A, B, and C are all persuasive angles (keep up with times, be open-minded, create relaxed environment), but they are abstract and may not be enough to change a firmly held belief.
+- D offers specific comparison data on student performance and interest between traditional and new methods, which speaks directly to effectiveness—the core of Teacher Chen’s belief.
+
+Therefore, the most convincing and targeted way Wang Li would persuade Teacher Chen is:
+
+[[D]]","Given that Teacher Chen firmly believes traditional teaching is most effective, the strategy most likely to persuade him is one that provides concrete, objective evidence rather than just encouragement or general statements.
+
+- A, B, and C are all persuasive angles (keep up with times, be open-minded, create relaxed environment), but they are abstract and may not be enough to change a firmly held belief.
+- D offers specific comparison data on student performance and interest between traditional and new methods, which speaks directly to effectiveness—the core of Teacher Chen’s belief.
+
+Therefore, the most convincing and targeted way Wang Li would persuade Teacher Chen is:",D
+57,"Han Meimei finds a briefcase in the kitchen, the label on the briefcase is banana, Han Meimei cannot see what is inside the briefcase, Han Meimei opens the briefcase and finds an apple, there is no banana in the briefcase, Han Meimei closes the briefcase and puts it back in its place, Xiao Ming enters the kitchen and sees the briefcase.","After Xiao Ming opens the briefcase, what does Xiao Ming expect to find in the briefcase?",Banana,Cabbage,Apple,Tomato,A,False Belief Task,"Xiao Ming only sees the briefcase with the label “banana” and has no information about Han Meimei opening it or finding an apple. So his expectation is based solely on the label.
+
+Thus, he expects to find a banana in the briefcase.
+
+[[A]]","Xiao Ming only sees the briefcase with the label “banana” and has no information about Han Meimei opening it or finding an apple. So his expectation is based solely on the label.
+
+Thus, he expects to find a banana in the briefcase.",A
+58,"Xiaogang and Xiaoming are wandering in the storage room, they see a suitcase and a briefcase, they find beets in the suitcase, Xiaoming leaves the storage room, Xiaogang moves the beets to the briefcase.",Where are the beets now?,Briefcase,Suitcase,Box,Cabinet,A,False Belief Task,"The beets were initially in the suitcase, then Xiaogang moved them into the briefcase. So they are now in the briefcase.
+
+[[A]]","The beets were initially in the suitcase, then Xiaogang moved them into the briefcase. So they are now in the briefcase.",A
+59,"Liangliang, Yuanyuan, and Xiaoxiao are classmates at school, and next Monday is Xiaoxiao's birthday. Today, while Xiaoxiao is in class, Liangliang and Yuanyuan whisper in the hallway. Liangliang looks at his mobile phone and checks the surroundings from time to time. Then, he smiles slightly and gives Yuanyuan an OK gesture. Yuanyuan glances at the classroom window, then nods at Liangliang. Later, when Xiaoxiao comes out of the classroom, he finds Liangliang and Yuanyuan are talking in low voices and occasionally look at him.",What do you think Xiaoxiao feels when he sees Liangliang and Yuanyuan whispering and occasionally looking at him?,"Xiaoxiao probably feels curious and confused, wanting to know what they are preparing to do to him.","Xiaoxiao probably feels scared and uneasy, thinking they are talking behind his back.",Xiaoxiao probably feels angry because he thinks they are hiding something from him and do not consider him a friend.,"Xiaoxiao probably remains indifferent, just thinking they are chatting or doing homework.",A,Ambiguous Story Task,"The story describes Liangliang and Yuanyuan secretly whispering, checking around, making gestures, and occasionally looking at Xiaoxiao while he doesn’t know what’s going on. Next Monday is his birthday, so the reader can infer they’re preparing a surprise, but Xiaoxiao himself doesn’t have that information directly. From his perspective, the most natural reaction is to be curious and puzzled about what they are planning that involves him.
+
+Option B (scared/uneasy) and C (angry) are stronger negative emotions that aren’t clearly supported by the text. Option D (indifferent) doesn’t fit because the description of him noticing their behavior and the repeated glances suggests it would attract his attention.
+
+The best fit is:
+
+[[A]]","The story describes Liangliang and Yuanyuan secretly whispering, checking around, making gestures, and occasionally looking at Xiaoxiao while he doesn’t know what’s going on. Next Monday is his birthday, so the reader can infer they’re preparing a surprise, but Xiaoxiao himself doesn’t have that information directly. From his perspective, the most natural reaction is to be curious and puzzled about what they are planning that involves him.
+
+Option B (scared/uneasy) and C (angry) are stronger negative emotions that aren’t clearly supported by the text. Option D (indifferent) doesn’t fit because the description of him noticing their behavior and the repeated glances suggests it would attract his attention.
+
+The best fit is:",A
+60,"Xiao Gang and Youyou are wandering in the attic, they see drawers, suitcases, and cabinets, they find a vest in the drawer, Youyou leaves the attic, Xiao Gang moves the vest to the cabinet.","After Youyou returns to the attic, where does Youyou look for the vest?",Box,Suitcase,Drawer,Cabinet,C,False Belief Task,"Youyou saw the vest in the drawer before leaving the attic. While she was gone, Xiao Gang secretly moved the vest to the cabinet. Since Youyou doesn’t know about this change, when she comes back she will look for the vest where she last saw it: in the drawer.
+
+So the most likely answer is:
+
+[[C]]","Youyou saw the vest in the drawer before leaving the attic. While she was gone, Xiao Gang secretly moved the vest to the cabinet. Since Youyou doesn’t know about this change, when she comes back she will look for the vest where she last saw it: in the drawer.
+
+So the most likely answer is:",C
+61,"In a restaurant, Li Ting and Wang Qiang order 12 dumplings, almost half of which are shrimp-filled. They eat some, then say there are 5 that are shrimp-filled.","After they eat, guess how many are shrimp dumplings","After they eat, guess there are 7 shrimp dumplings","After they eat, guess there are 6 shrimp dumplings","After they eat, guess there are 5 shrimp dumplings","After they eat, guess there are 2 shrimp dumplings",C,Scalar Implicature Test,"They ordered 12 dumplings, with almost half being shrimp dumplings. After eating some, they *guess* there are 5 shrimp dumplings. The question asks: ""After they eat, guess how many are shrimp dumplings?"" This directly matches the statement “they … say there are 5 that are shrimp-filled.”
+
+So the most likely answer is:
+
+[[C]]","They ordered 12 dumplings, with almost half being shrimp dumplings. After eating some, they *guess* there are 5 shrimp dumplings. The question asks: ""After they eat, guess how many are shrimp dumplings?"" This directly matches the statement “they … say there are 5 that are shrimp-filled.”
+
+So the most likely answer is:",C
+62,"Xiaofang plans a surprise date for the weekend. On Friday night, Xiaofang and Xiaojie chat on the phone. Xiaofang says, ""I have a plan for the weekend, let's go together."" Xiaojie replies, ""Then I leave some free time this weekend, I look forward to your surprise."" Xiaofang says, ""Great, you definitely like it.""","If there is, which sentence is not appropriate?","I have a surprise plan for the weekend, but I don't tell you first.","Then I leave some free time this weekend, looking forward to your surprise.","Great, you definitely like it.",There is no inappropriate sentence,D,Faux-pas Recognition Test,"The dialogue is about future weekend plans, so future forms are most natural.
+
+- A. “I have a surprise plan for the weekend, but I don't tell you first.”  
+  → A bit awkward but understandable: present tense for a near-future arrangement is acceptable in conversational English.
+
+- B. “Then I leave some free time this weekend, looking forward to your surprise.”  
+  → Slightly odd; “I'll leave some free time” sounds better, but it can still pass as informal speech about a plan.
+
+- C. “Great, you definitely like it.”  
+  → This is grammatically off. It should be “you’ll definitely like it” to express a future prediction.
+
+Thus, C is the least appropriate sentence.
+
+[[C]]","The dialogue is about future weekend plans, so future forms are most natural.
+
+- A. “I have a surprise plan for the weekend, but I don't tell you first.”  
+  → A bit awkward but understandable: present tense for a near-future arrangement is acceptable in conversational English.
+
+- B. “Then I leave some free time this weekend, looking forward to your surprise.”  
+  → Slightly odd; “I'll leave some free time” sounds better, but it can still pass as informal speech about a plan.
+
+- C. “Great, you definitely like it.”  
+  → This is grammatically off. It should be “you’ll definitely like it” to express a future prediction.
+
+Thus, C is the least appropriate sentence.",C
+63,"Sun Yue is a fashion blogger, her life is full of the latest trendy clothes and fashion events. She thinks that pursuing fashion and beauty is an important part of life. On the contrary, Li Ming is a programmer, his lifestyle is simple and practical, he pays more attention to functionality rather than fashionable appearance. For him, comfort and efficiency are the primary considerations for dressing. They are a couple. Sun Yue wants to give Li Ming a piece of clothing, and buys the same style for herself, as their couple's clothing.",What clothes does Sun Yue give to Li Ming?,A tailored suit,Limited edition tight T-shirt,A well-known brand's windbreaker,A well-known brand's programmer plaid shirt,C,Discrepant desires,"Sun Yue is a fashion blogger who values trendiness and brand appeal, while Li Ming is a programmer who prioritizes comfort and functionality. She wants to buy couple’s clothing: the same style for both of them.
+
+Evaluate options:
+
+- **A. Tailored suit**  
+  Too formal for daily wear, not focused on comfort or efficiency. Also not typical for couple outfits.
+
+- **B. Limited edition tight T-shirt**  
+  Tight and “limited edition” suggests more emphasis on fashion than comfort. Li Ming prefers comfort and practicality; this clashes with his style.
+
+- **C. A well-known brand's windbreaker**  
+  Windbreakers are practical, comfortable, functional outerwear, and a well-known brand adds the fashion element Sun Yue cares about. Also very suitable as unisex couple’s clothing.
+
+- **D. A well-known brand's programmer plaid shirt**  
+  Fits Li Ming’s stereotype, but “programmer plaid shirt” is more of a cliché than a fashion-forward choice. As a fashion blogger, Sun Yue is more likely to pick something trendier that still works for him functionally.
+
+Combining both their preferences and the idea of couple’s clothing, the branded windbreaker best balances fashion and practicality.
+
+[[C]]","Sun Yue is a fashion blogger who values trendiness and brand appeal, while Li Ming is a programmer who prioritizes comfort and functionality. She wants to buy couple’s clothing: the same style for both of them.
+
+Evaluate options:
+
+- **A. Tailored suit**  
+  Too formal for daily wear, not focused on comfort or efficiency. Also not typical for couple outfits.
+
+- **B. Limited edition tight T-shirt**  
+  Tight and “limited edition” suggests more emphasis on fashion than comfort. Li Ming prefers comfort and practicality; this clashes with his style.
+
+- **C. A well-known brand's windbreaker**  
+  Windbreakers are practical, comfortable, functional outerwear, and a well-known brand adds the fashion element Sun Yue cares about. Also very suitable as unisex couple’s clothing.
+
+- **D. A well-known brand's programmer plaid shirt**  
+  Fits Li Ming’s stereotype, but “programmer plaid shirt” is more of a cliché than a fashion-forward choice. As a fashion blogger, Sun Yue is more likely to pick something trendier that still works for him functionally.
+
+Combining both their preferences and the idea of couple’s clothing, the branded windbreaker best balances fashion and practicality.",C
+64,"Xiao Li finds a box in the attic, the label on the box is a dress, Xiao Li cannot see what is inside the box, Xiao Li opens the box and finds a button, there is no dress in the box, Xiao Li closes the box and puts it back in its place, Li Lei enters the attic and sees the box.","After Li Lei opens the box, what does Xiao Li expect to find inside the box?",Dress,Tie,Button,Mango,C,False Belief Task,"Xiao Li has already opened the box and seen that it contains a button, not a dress. So her expectation about what is inside the box (regardless of Li Lei entering later) is that there is a button in it.
+
+Therefore, the most likely answer is:
+
+[[C]]","Xiao Li has already opened the box and seen that it contains a button, not a dress. So her expectation about what is inside the box (regardless of Li Lei entering later) is that there is a button in it.
+
+Therefore, the most likely answer is:",C
+65,Liu Jing finds that her best friend Zhang Hong does not invite her to the birthday party.,"She should feel disappointed, but she appears very happy, why?","Liu Jing and Zhang Hong have the same birthday, they agree to celebrate their birthdays together at the birthday party.","Liu Jing hears that it rains heavily that night, she is afraid to go out.","Liu Jing knows some of Zhang Hong's friends do not like her, so she thinks it is good not to be invited.","Liu Jing is very busy recently, she actually feels relieved not to be invited, so she can concentrate on her work.",A,Unexpected Outcome Test,"The story says Liu Jing *should* feel disappointed at not being invited to her best friend's birthday party, but instead she's happy. So the correct option must give a reason why *not* being invited is actually good for her.
+
+- A is contradictory: if they agreed to celebrate together, she would obviously be invited.
+- B (heavy rain) is possible, but it’s a weak social/emotional reason compared to the friendship context.
+- C explains that some of Zhang Hong's friends don't like Liu Jing, so missing the party lets her avoid an uncomfortable situation—this directly explains why she’s happy instead of disappointed.
+- D (being busy) also could make her relieved, but C better matches the emotional twist implied in the question.
+
+Most consistent with the story is C.
+
+[[C]]","The story says Liu Jing *should* feel disappointed at not being invited to her best friend's birthday party, but instead she's happy. So the correct option must give a reason why *not* being invited is actually good for her.
+
+- A is contradictory: if they agreed to celebrate together, she would obviously be invited.
+- B (heavy rain) is possible, but it’s a weak social/emotional reason compared to the friendship context.
+- C explains that some of Zhang Hong's friends don't like Liu Jing, so missing the party lets her avoid an uncomfortable situation—this directly explains why she’s happy instead of disappointed.
+- D (being busy) also could make her relieved, but C better matches the emotional twist implied in the question.
+
+Most consistent with the story is C.",C
+66,"Xiao Ming and Yoyo are wandering on the farm with their handbags. They see backpacks and cabinets, and inside the backpack, they find a marker pen. Yoyo leaves the farm, and Xiao Ming moves the marker pen to the cabinet.","Youyou returns to the farm, does she know where the marker is now?",Does not know,"Knows, in the cabinet","Knows, in the backpack","Knows, in the cupboard",A,Percepts-knowledge links,"Yoyo saw the marker in the backpack, then left. While she was gone, Xiao Ming moved the marker to the cabinet. Yoyo did not see this change, so when she returns, her belief about the marker’s location (still in the backpack) does not match reality (it’s in the cabinet). Therefore, she does not truly know where it is now.
+
+The best answer is:
+
+[[A]]","Yoyo saw the marker in the backpack, then left. While she was gone, Xiao Ming moved the marker to the cabinet. Yoyo did not see this change, so when she returns, her belief about the marker’s location (still in the backpack) does not match reality (it’s in the cabinet). Therefore, she does not truly know where it is now.
+
+The best answer is:",A
+67,"In a classroom of a middle school, teacher Xiao Wang is correcting students' homework. He tells his colleague Xiao Liu, ""There are a total of 60 assignments, most of them are math assignments, some are English assignments, but there are almost no history assignments."" Xiao Liu flips through and finds only 15 English assignments.","Before Xiao Liu flips through, how many math assignments does he estimate?","Before Xiao Liu flips through, he estimates there are 59 math assignments.","Before Xiao Liu flips through, he estimates there are 50 math assignments.","Before Xiao Liu flips through, he estimates there are 30 math assignments.","Before Xiao Liu flips through, he estimates there are 60 math assignments.",B,Scalar Implicature Test,"Teacher Xiao Wang says:
+
+- Total assignments: 60  
+- ""Most"" are math  
+- ""Some"" are English  
+- ""Almost no"" are history  
+
+Before flipping through, Xiao Liu only has this verbal description.  
+He’d reason roughly like this:
+
+- ""Most"" suggests a clear majority, likely well over half.
+- ""Some"" English suggests a noticeable but not large portion.
+- ""Almost no"" history suggests close to 0.
+
+A natural mental split of 60 under that description might be something like:
+- Math ≈ 50  
+- English ≈ 10  
+- History ≈ 0 (or 1–2)
+
+Among the options:
+
+- 59 math: leaves at most 1 non-math, contradicting ""some are English.""
+- 60 math: contradicts having any English or history.
+- 30 math: only half, which doesn’t fit ""most.""
+- 50 math: fits ""most are math, some are English, almost no history.""
+
+Therefore, the most likely estimate is:
+
+[[B]]","Teacher Xiao Wang says:
+
+- Total assignments: 60  
+- ""Most"" are math  
+- ""Some"" are English  
+- ""Almost no"" are history  
+
+Before flipping through, Xiao Liu only has this verbal description.  
+He’d reason roughly like this:
+
+- ""Most"" suggests a clear majority, likely well over half.
+- ""Some"" English suggests a noticeable but not large portion.
+- ""Almost no"" history suggests close to 0.
+
+A natural mental split of 60 under that description might be something like:
+- Math ≈ 50  
+- English ≈ 10  
+- History ≈ 0 (or 1–2)
+
+Among the options:
+
+- 59 math: leaves at most 1 non-math, contradicting ""some are English.""
+- 60 math: contradicts having any English or history.
+- 30 math: only half, which doesn’t fit ""most.""
+- 50 math: fits ""most are math, some are English, almost no history.""
+
+Therefore, the most likely estimate is:",B
+68,"CEO Zhao invites his business partner, Manager Wang, to a high-end restaurant for dinner. At the dinner table, CEO Zhao notices that Manager Wang shows great interest in a dish, but in fact, this dish is a bit salty. Then, CEO Zhao immediately praises that the taste of this dish is just right.",Why does Mr. Zhao say this?,"Mr. Zhao thinks this dish is really delicious, so he tells the truth.",Mr. Zhao wants to please Manager Wang in order to gain an advantageous position in future business cooperation.,"Mr. Zhao is a regular customer of this restaurant, out of respect for the restaurant, he always praises every dish.","Mr. Zhao does this out of politeness and social customs, in order to avoid embarrassment and maintain a harmonious dining atmosphere, so he chooses to praise this dish.",D,Strange Story Task,"Mr. Zhao notices the dish is actually a bit salty, but because Manager Wang likes it, he still says the taste is “just right.” This indicates he is not stating his true evaluation of the dish, but instead adjusting his words to maintain a pleasant, harmonious atmosphere and avoid embarrassment at the table.
+
+This aligns best with:
+
+**D. Mr. Zhao does this out of politeness and social customs, in order to avoid embarrassment and maintain a harmonious dining atmosphere, so he chooses to praise this dish.**
+
+So the most likely answer is:
+
+[[D]]","Mr. Zhao notices the dish is actually a bit salty, but because Manager Wang likes it, he still says the taste is “just right.” This indicates he is not stating his true evaluation of the dish, but instead adjusting his words to maintain a pleasant, harmonious atmosphere and avoid embarrassment at the table.
+
+This aligns best with:
+
+**D. Mr. Zhao does this out of politeness and social customs, in order to avoid embarrassment and maintain a harmonious dining atmosphere, so he chooses to praise this dish.**
+
+So the most likely answer is:",D
+69,"Aunt Yang slips and injures herself in the heavy snow. Her neighbor, Uncle Wang, helps her in time and takes her to the hospital. Uncle Wang also takes care of her house and pets.",What is Aunt Yang's reaction to Uncle Wang's help?,Angry,Ashamed,Curious,Grateful,D,Unexpected Outcome Test,"Aunt Yang slips in the snow, gets injured, and is helped in multiple ways by her neighbor Uncle Wang: he takes her to the hospital and also looks after her house and pets. This is considerate and generous behavior.
+
+A normal, expected emotional reaction to such help is gratitude. None of the other options fit well:
+- Angry: No reason given she’d be angry at him; he helped her.
+- Ashamed: Possible in some cultures when needing help, but less likely than gratitude given the context.
+- Curious: Not an emotional reaction that matches this situation.
+- Grateful: Best matches the scenario of receiving substantial help during an injury.
+
+So the most likely answer is:
+
+[[D]]","Aunt Yang slips in the snow, gets injured, and is helped in multiple ways by her neighbor Uncle Wang: he takes her to the hospital and also looks after her house and pets. This is considerate and generous behavior.
+
+A normal, expected emotional reaction to such help is gratitude. None of the other options fit well:
+- Angry: No reason given she’d be angry at him; he helped her.
+- Ashamed: Possible in some cultures when needing help, but less likely than gratitude given the context.
+- Curious: Not an emotional reaction that matches this situation.
+- Grateful: Best matches the scenario of receiving substantial help during an injury.
+
+So the most likely answer is:",D
+70,"Officer Wang is in charge of investigating a complex theft case. Based on preliminary investigations, he suspects Mr. Li. However, Mr. Li is a well-known figure in the town and has close ties with his political friends. Although Officer Wang never interacts with Mr. Li, Officer Wang knows that if he directly accuses Mr. Li, it possibly causes unnecessary trouble. Therefore, he decides to hide his suspicions and writes in the report that the case is still under further investigation and the suspect is not yet determined.",Is Officer Wang telling the truth?,Yes,No,,,B,Strange Story Task,"Officer Wang internally *does* suspect Mr. Li, so when he writes in the report that ""the suspect is not yet determined,"" that statement is not true.  
+
+Although the case is still under investigation (which is true), the key point is whether he is truthful about the suspect situation. Since he already has a specific suspect in mind but claims otherwise, he is not telling the truth.
+
+Therefore, the most likely answer is:
+
+[[B]]","Officer Wang internally *does* suspect Mr. Li, so when he writes in the report that ""the suspect is not yet determined,"" that statement is not true.  
+
+Although the case is still under investigation (which is true), the key point is whether he is truthful about the suspect situation. Since he already has a specific suspect in mind but claims otherwise, he is not telling the truth.
+
+Therefore, the most likely answer is:",B
+71,"Xiao Li finds a box in the hall, the label on the box is a vest, Xiao Li cannot see what is inside the box, Xiao Li opens the box and finds a hoodie, there is no vest inside the box, Xiao Li closes the box and puts it back in its place, Li Lei enters the hall and sees the box.","After Li Lei opens the box, what does Xiao Li expect to find inside the box?",Coconut,Banana,Hoodie,Vest,C,False Belief Task,"Xiao Li first sees a box labeled ""vest,"" but after opening it, discovers that it actually contains a hoodie and no vest. Xiao Li then closes the box and puts it back.
+
+From that moment on, Xiao Li’s belief about the contents of the box is that it contains a hoodie, regardless of who opens it later. So, when Li Lei opens the box, what Xiao Li would expect to be inside is still the hoodie.
+
+Therefore, the most likely answer is:
+
+[[C]]","Xiao Li first sees a box labeled ""vest,"" but after opening it, discovers that it actually contains a hoodie and no vest. Xiao Li then closes the box and puts it back.
+
+From that moment on, Xiao Li’s belief about the contents of the box is that it contains a hoodie, regardless of who opens it later. So, when Li Lei opens the box, what Xiao Li would expect to be inside is still the hoodie.
+
+Therefore, the most likely answer is:",C
+72,"Li Lei forgets his laptop in the library. Han Meimei volunteers at the library, finds this computer, but thinks it is a donated old computer, so she puts it in the donation box. Li Hua sees it, he knows this is Li Lei's computer, but he is always the second in the class, always falls behind Li Lei by one place, deliberately does not tell Han Meimei the truth. When Li Lei comes back to look for the computer, he still does not find the computer, he feels very anxious and lost. Han Meimei only learns that she mishandles Li Lei's laptop when Li Lei asks her.",What is the possible intention of Li Hua's behavior?,Li Hua possibly chooses not to reveal the truth because he worries about getting himself into trouble.,"Li Hua hopes that Li Lei cannot review his lessons without a computer, so he surpasses him in learning.",Li Hua possibly chooses not to tell Li Lei about his mishandled laptop because he has a conflict with Li Lei.,Li Hua possibly thinks that the computer is deliberately left in the library by Li Lei to test the honesty and morality of others.,B,Discrepant intentions,"Li Hua knows that the laptop belongs to Li Lei and *deliberately* chooses not to tell Han Meimei. The story then adds a key detail:  
+
+> ""he is always the second in the class, always falls behind Li Lei by one place""
+
+This explicitly introduces academic competition and implies jealousy or a desire to surpass Li Lei. The most straightforward inference is that Li Hua remains silent so that Li Lei will be disadvantaged in his studies (e.g., unable to review lessons without his computer), giving Li Hua a chance to get ahead.
+
+Now evaluate the options:
+
+- **A.** Worrying about getting into trouble is not suggested by the story. He could simply clarify the ownership; there is no indication of risk to him.
+- **B.** This directly matches the motive implied by the text: Li Hua wants to surpass Li Lei academically by letting him lose his laptop.
+- **C.** A general “conflict” is not mentioned; the story specifically emphasizes ranking, not personal animosity.
+- **D.** There is no hint that Li Hua thinks this is some kind of moral test by Li Lei.
+
+Thus, the most likely answer is:
+
+[[B]]","Li Hua knows that the laptop belongs to Li Lei and *deliberately* chooses not to tell Han Meimei. The story then adds a key detail:  
+
+> ""he is always the second in the class, always falls behind Li Lei by one place""
+
+This explicitly introduces academic competition and implies jealousy or a desire to surpass Li Lei. The most straightforward inference is that Li Hua remains silent so that Li Lei will be disadvantaged in his studies (e.g., unable to review lessons without his computer), giving Li Hua a chance to get ahead.
+
+Now evaluate the options:
+
+- **A.** Worrying about getting into trouble is not suggested by the story. He could simply clarify the ownership; there is no indication of risk to him.
+- **B.** This directly matches the motive implied by the text: Li Hua wants to surpass Li Lei academically by letting him lose his laptop.
+- **C.** A general “conflict” is not mentioned; the story specifically emphasizes ranking, not personal animosity.
+- **D.** There is no hint that Li Hua thinks this is some kind of moral test by Li Lei.
+
+Thus, the most likely answer is:",B
+73,"At 9 o'clock on Monday morning, in a third-grade classroom of a primary school, Teacher Zhao looks at the students and says: ""Classmates, I have a very sad thing to tell everyone, a boy in our class, Xiao Gang, is seriously ill in the hospital."" The students in the class all silently lower their heads. After a while, a girl named Xiao Mei runs into the classroom and says to Teacher Zhao: ""I'm sorry, teacher, I am late."" Teacher Zhao nods: ""Go to your seat."" Xiao Mei quietly sits down and starts to write her homework.","If there is, which sentence is inappropriate?","Classmates, I have a very sad thing to tell everyone, a boy in our class, Xiao Gang, is seriously ill in the hospital.","Sorry teacher, I am late.",Go to your seat.,There is no inappropriate sentence,D,Faux-pas Recognition Test,"Based on the story, all of the sentences fit the context and are appropriate:
+
+- A: The teacher solemnly informs the class about Xiao Gang’s illness. This is contextually appropriate.
+- B: Xiao Mei arrives late and apologizes to the teacher. This is polite and appropriate.
+- C: The teacher asks her to go to her seat. This is also appropriate classroom behavior.
+- Therefore, there is no sentence that is clearly inappropriate.
+
+[[D]]","Based on the story, all of the sentences fit the context and are appropriate:
+
+- A: The teacher solemnly informs the class about Xiao Gang’s illness. This is contextually appropriate.
+- B: Xiao Mei arrives late and apologizes to the teacher. This is polite and appropriate.
+- C: The teacher asks her to go to her seat. This is also appropriate classroom behavior.
+- Therefore, there is no sentence that is clearly inappropriate.",D
+74,"Xiaogang and Xiaoming are wandering in the bedroom, they see a handbag, a briefcase, and a backpack, they find cabbage in the handbag, Xiaoming leaves the bedroom, Xiaogang moves the cabbage to the backpack.","After Xiao Ming returns to the bedroom, where does Xiao Ming think Xiao Gang looks for the cabbage?",Hand suitcase,Handbag,Briefcase,Backpack,B,False Belief Task,"Xiaoming was not present when Xiaogang moved the cabbage from the handbag to the backpack. When he returns, he still believes the cabbage is in the handbag and thus thinks Xiaogang will also look for it there.
+
+So the most likely answer is:
+
+[[B]]","Xiaoming was not present when Xiaogang moved the cabbage from the handbag to the backpack. When he returns, he still believes the cabbage is in the handbag and thus thinks Xiaogang will also look for it there.
+
+So the most likely answer is:",B
+75,"Old Li and his friends gather together, the topic somehow turns to work pressure, everyone starts to vent their dissatisfaction. Old Li notices the subtle change in the atmosphere, so he raises his eyebrows and mysteriously says, ""Do you know? I meet an alien at the company today! It tells me a secret, saying that as long as we laugh every day, work pressure reduces by half!"" After saying that, he laughs loudly. His friends also start to laugh.",Is what Old Li says true?,Yes,No,,,B,Strange Story Task,"Old Li is using humor and exaggeration to ease the mood among his friends. The part about meeting an alien and being told a ""secret"" is clearly fictional and meant as a joke, not a factual statement.  
+
+So the correct choice is:
+
+[[B]]","Old Li is using humor and exaggeration to ease the mood among his friends. The part about meeting an alien and being told a ""secret"" is clearly fictional and meant as a joke, not a factual statement.  
+
+So the correct choice is:",B
+76,"Zhou Yu wants to go out, but he feels stomachache. He knows, if he tells his mother he has a stomachache, his mother says he cannot go out. He tries to hide his feelings, letting his mother let him go out of the house.",Why does Zhou Yu appear to be happy?,Because he does not want his mother to know he has a stomachache,Because his mother agrees he can go out,In order not to make his mother worry,Because he does not care about the stomachache,A,Hidden emotions,"He appears to be happy because he is pretending not to be in pain so that his mother won’t realize he has a stomachache and will still let him go out.
+
+So the best answer is:
+
+[[A]]","He appears to be happy because he is pretending not to be in pain so that his mother won’t realize he has a stomachache and will still let him go out.
+
+So the best answer is:",A
+77,"Xiao Hong probably arrives at the train station waiting room at about 9 pm. After entering, she asks the conductor, ""How long can I stay here?"". The conductor replies, ""Up to three hours, which is until 12 o'clock, do you want to go in now?"" Xiao Hong says, ""Yes, I am on the 3 am train, I think about resting here until 12 o'clock, then go out and stay for more than 2 hours."" At this time, the conductor suddenly reminds, ""Pay attention to the broadcast to remind you to get on the train, do not miss the train.""",What is the real meaning when the conductor says this?,The conductor implies that Xiao Hong can rest in the waiting room until she boards the train.,The conductor warns Xiao Hong that she needs to be vigilant about safety issues when traveling at night.,The conductor tells Xiao Hong that she must leave the waiting room before 12 o'clock.,The conductor reminds Xiao Hong to pay attention to the train schedule to prevent missing the train.,A,Hinting Task Test,"The conductor says: “Pay attention to the broadcast to remind you to get on the train, do not miss the train.”
+
+Step-by-step reasoning:
+- This sentence directly tells Xiao Hong to listen to station broadcasts.
+- The stated purpose is so she does not “miss the train.”
+- There is no mention of safety, only of boarding on time.
+- It does not change or restate the rule about staying until 12 o’clock; it addresses her catching the 3 am train.
+
+So the real meaning is that she should pay attention to the train schedule/broadcasts so she doesn’t miss her train.
+
+[[D]]","The conductor says: “Pay attention to the broadcast to remind you to get on the train, do not miss the train.”
+
+Step-by-step reasoning:
+- This sentence directly tells Xiao Hong to listen to station broadcasts.
+- The stated purpose is so she does not “miss the train.”
+- There is no mention of safety, only of boarding on time.
+- It does not change or restate the rule about staying until 12 o’clock; it addresses her catching the 3 am train.
+
+So the real meaning is that she should pay attention to the train schedule/broadcasts so she doesn’t miss her train.",D
+78,"One day, Lily plays at home and accidentally knocks over and breaks her mother's favorite crystal vase. Oh no, her mother definitely gets angry when she finds out! Therefore, when Lily's mother comes home, sees the broken vase and asks Lily what happens, Lily says, ""The dog knocks it over, it is not my fault!",Is what Lily says true?,Yes,No,,,B,Strange Story Task,"Lily was the one who accidentally knocked over and broke the vase while playing at home. When her mother asks what happened, Lily says, ""The dog knocks it over, it is not my fault!"" This contradicts the earlier information in the story, so Lily is lying, and what she says is not true.
+
+[[B]]","Lily was the one who accidentally knocked over and broke the vase while playing at home. When her mother asks what happened, Lily says, ""The dog knocks it over, it is not my fault!"" This contradicts the earlier information in the story, so Lily is lying, and what she says is not true.",B
+79,"Zhang Wei reads a book about astronomy in the library, he is full of curiosity about the mysteries of the universe. Suddenly, his good friend Li Hua sends a message, asking if he is still needed for the football match next week. Zhang Wei thinks for a while and replies to Li Hua. At this time, the library administrator comes over to remind Zhang Wei that the library is about to close, he needs to leave as soon as possible. It rains heavily outside, Zhang Wei worries that the way home is very difficult.",What is the most likely action of Zhang Wei before the library closes?,He continues to read the astronomy book.,He replies to Li Hua with more details about the football match.,He packs up his things and prepares to leave the library.,"He checks the weather forecast on his phone, considering whether to wait for the rain to stop before leaving.",C,Completion of failed actions,"The administrator reminds Zhang Wei that the library is about to close and that he needs to leave as soon as possible. In this situation, the most reasonable and immediate action is for Zhang Wei to stop what he's doing and get ready to leave.
+
+Option analysis:
+- A: Continuing to read ignores the administrator’s reminder, so it's unlikely.
+- B: Adding more details to the reply delays leaving; also, he already replied.
+- C: Packing up and preparing to leave directly follows the administrator’s instruction.
+- D: Checking the weather is possible given his worry, but it's less immediate than complying with the need to leave quickly.
+
+Therefore, the most likely action is:
+
+[[C]]","The administrator reminds Zhang Wei that the library is about to close and that he needs to leave as soon as possible. In this situation, the most reasonable and immediate action is for Zhang Wei to stop what he's doing and get ready to leave.
+
+Option analysis:
+- A: Continuing to read ignores the administrator’s reminder, so it's unlikely.
+- B: Adding more details to the reply delays leaving; also, he already replied.
+- C: Packing up and preparing to leave directly follows the administrator’s instruction.
+- D: Checking the weather is possible given his worry, but it's less immediate than complying with the need to leave quickly.
+
+Therefore, the most likely action is:",C
+80,"Xiao Hong shows no interest in foreign languages, thinks that learning foreign languages is useless, but her mother Liu Fang believes that mastering a foreign language greatly helps the future.",How does Liu Fang convince Xiao Hong?,"She discusses global issues (such as climate change, international relations) to show the importance of learning foreign languages.","She introduces how to conveniently learn foreign languages by using technological tools (such as online courses, language learning apps).","She arranges a trip to a country where people speak the foreign language, lets Xiao Hong experience the practical application of language learning.","She cooperates with Xiao Hong's school, looks for opportunities to motivate students to learn foreign languages.",C,Persuasion Story Task,"Liu Fang believes mastering a foreign language greatly helps the future, while Xiao Hong feels it’s useless. Among the options, the most persuasive way to change such a belief—especially for a child—is to let her *personally experience* the real-world usefulness of the language.
+
+- Option A (talking about global issues) is too abstract and distant from Xiao Hong’s immediate life.
+- Option B (using tech tools) makes learning easier but doesn’t directly counter the belief that it’s “useless.”
+- Option D (working with the school) is indirect and doesn’t clearly show Xiao Hong why languages matter.
+- Option C (arranging a trip abroad) gives Xiao Hong direct, concrete evidence that knowing the language matters in real situations.
+
+Therefore, the most likely answer is:
+
+[[C]]","Liu Fang believes mastering a foreign language greatly helps the future, while Xiao Hong feels it’s useless. Among the options, the most persuasive way to change such a belief—especially for a child—is to let her *personally experience* the real-world usefulness of the language.
+
+- Option A (talking about global issues) is too abstract and distant from Xiao Hong’s immediate life.
+- Option B (using tech tools) makes learning easier but doesn’t directly counter the belief that it’s “useless.”
+- Option D (working with the school) is indirect and doesn’t clearly show Xiao Hong why languages matter.
+- Option C (arranging a trip abroad) gives Xiao Hong direct, concrete evidence that knowing the language matters in real situations.
+
+Therefore, the most likely answer is:",C
+81,"Xiao Li and Xiao Gang are wandering in the bar, they see a box and a safe, they find a bottle in the box, Xiao Gang leaves the bar, Xiao Li moves the bottle to the safe.","After Xiao Gang returns to the bar, where does Xiao Li think Xiao Gang looks for the bottle?",Safe,Box,Basket,Locker,B,False Belief Task,"Xiao Li and Xiao Gang both see the bottle in the **box**. Then Xiao Gang leaves and does **not** see Xiao Li move the bottle to the **safe**.  
+
+So:
+- Xiao Gang’s belief (from his perspective): the bottle is still in the **box**.
+- Xiao Li knows Xiao Gang left before the move, so Xiao Li thinks that Xiao Gang will still look for the bottle where he last saw it: in the **box**.
+
+Therefore, the most likely answer is:
+
+[[B]]","Xiao Li and Xiao Gang both see the bottle in the **box**. Then Xiao Gang leaves and does **not** see Xiao Li move the bottle to the **safe**.  
+
+So:
+- Xiao Gang’s belief (from his perspective): the bottle is still in the **box**.
+- Xiao Li knows Xiao Gang left before the move, so Xiao Li thinks that Xiao Gang will still look for the bottle where he last saw it: in the **box**.
+
+Therefore, the most likely answer is:",B
+82,"Xiao Ming promised his mom to help tidy up the desk at home, but he left in a hurry and forgot that he hadn't finished tidying up completely. When he returns home, his mom asks, ""Is the desk tidied up?"" Xiao Ming thinks for a moment and says, ""It's tidied up.""",Is what Xiao Ming says true?,A. Yes,B. No,,,B,Strange Story Task,"Xiao Ming had *not* actually finished tidying the desk when he left; he “forgot that he hadn't finished tidying up completely.” So, when he later tells his mom “It's tidied up,” his statement does not match reality — the desk is in fact not tidied up.
+
+Therefore, what Xiao Ming says is **not** true.
+
+[[B]]","Xiao Ming had *not* actually finished tidying the desk when he left; he “forgot that he hadn't finished tidying up completely.” So, when he later tells his mom “It's tidied up,” his statement does not match reality — the desk is in fact not tidied up.
+
+Therefore, what Xiao Ming says is **not** true.",B
+83,"Xiao Hong just comes home and she finds that the TV at home does not work. She checks the TV plug and finds everything is normal, but the TV still cannot turn on. At this time, her roommate Xiao Gang comes home and tells her that he goes to an appliance store today and sees a new type of smart TV, and he really wants to buy it. Xiao Hong knows that Xiao Gang is saving money recently, but she also really wants a new TV. She looks out the window and finds that the weather is very good, which is suitable for going out for a walk to think.","After Xiao Hong finds out that the TV is broken, what does she most likely do?",She continues to try to repair the TV.,She invites Xiao Gang to go to the appliance store to see the new TV.,She goes out for a walk to relax.,She searches online for how to repair the TV.,D,Completion of failed actions,"Xiao Hong discovers the TV is broken and, after checking the plug and talking with Xiao Gang, she looks out the window, notices the good weather, and thinks it’s suitable for going out for a walk to think. This strongly implies that what she does next is go out for a walk.
+
+Among the options, the one that best matches this is:
+
+C. She goes out for a walk to relax.
+
+So the most likely answer is:
+
+[[C]]","Xiao Hong discovers the TV is broken and, after checking the plug and talking with Xiao Gang, she looks out the window, notices the good weather, and thinks it’s suitable for going out for a walk to think. This strongly implies that what she does next is go out for a walk.
+
+Among the options, the one that best matches this is:
+
+C. She goes out for a walk to relax.
+
+So the most likely answer is:",C
+84,"Zhang Ming gets a promotion at work, but his good friend Zhao Lei does not. They have a conflict recently, but Zhang Ming still goes to Zhao Lei. Zhang Ming says to Zhao Lei: ""I know you work hard!"". After going home, Zhang Ming says to his sister: ""I am really sad, but I finally get what I want",Is what Zhang Ming says to his sister true?,Yes,No,,,A,Strange Story Task,"Zhang Ming has mixed feelings: he got the promotion he wanted, but he’s sad because his good friend Zhao Lei did not, and they’ve had conflicts. When he tells his sister, “I am really sad, but I finally get what I want,” this matches the situation described in the story and reflects his true emotional state.
+
+So what he says to his sister is true.
+
+[[A]]","Zhang Ming has mixed feelings: he got the promotion he wanted, but he’s sad because his good friend Zhao Lei did not, and they’ve had conflicts. When he tells his sister, “I am really sad, but I finally get what I want,” this matches the situation described in the story and reflects his true emotional state.
+
+So what he says to his sister is true.",A
+85,"Zhao Lei attends a costume party with the theme ""Alien Party"". He dresses up as a green alien and confidently walks into the party scene.",What is Zhao Lei's reaction when he enters the party scene?,Angry,Surprise,Thrilled,Embarrassed,C,Unexpected Outcome Test,"Zhao Lei dresses up as a green alien and ""confidently"" walks into the party. Confidence implies a positive, excited attitude rather than anger, surprise, or embarrassment. Among the options, ""Thrilled"" best matches this emotional state.
+
+[[C]]","Zhao Lei dresses up as a green alien and ""confidently"" walks into the party. Confidence implies a positive, excited attitude rather than anger, surprise, or embarrassment. Among the options, ""Thrilled"" best matches this emotional state.",C
+86,"Xiao Liu is an advertising creative designer, he designs an eye-catching advertisement, when he gives the advertisement to the client, the client is attracted by the content of the advertisement, he does not say anything for a long time.",What kind of emotion does the client have?,Satisfied,Angry,Nervous,Regretful,A,Discrepant emotions,"The client is described as being ""attracted by the content of the advertisement"" and then remaining silent for a long time. In this context, the silence is more likely a sign of being impressed or satisfied rather than negative emotions like anger, nervousness, or regret.  
+
+Therefore, the most likely emotion is:
+
+[[A]]","The client is described as being ""attracted by the content of the advertisement"" and then remaining silent for a long time. In this context, the silence is more likely a sign of being impressed or satisfied rather than negative emotions like anger, nervousness, or regret.  
+
+Therefore, the most likely emotion is:",A
+87,"Xiao Hong finds a cabinet in the smoking room, the label on the cabinet is zucchini, Xiao Hong cannot see what is inside the cabinet, Xiao Hong opens the cabinet and finds a jacket, there is no zucchini in the cabinet, Xiao Hong closes the cabinet and puts it back in its place, Xiao Gang enters the smoking room and sees the cabinet.",What is in the cabinet?,Zucchini,Calculator,Coat,Jacket,D,False Belief Task,"Xiao Hong opens the cabinet and actually finds a **jacket** inside, and no zucchini. The question asks what *is* in the cabinet (the real content), not what the label says or what someone believes.
+
+Therefore, the correct answer is:
+
+[[D]]","Xiao Hong opens the cabinet and actually finds a **jacket** inside, and no zucchini. The question asks what *is* in the cabinet (the real content), not what the label says or what someone believes.
+
+Therefore, the correct answer is:",D
+88,"Xiao Hong and Youyou are wandering in the classroom, they see a briefcase and a cabinet, they find a cucumber in the briefcase, Youyou leaves the classroom, Xiao Hong moves the cucumber to the cabinet.","After Youyou returns to the classroom, where does Youyou look for the cucumber?",Cabinet,Briefcase,Handbag,Suitcase,B,False Belief Task,"Youyou saw the cucumber in the briefcase and then left the classroom. She did not see Xiao Hong move it to the cabinet. So when she returns, she will look where she last saw it: in the briefcase.
+
+[[B]]","Youyou saw the cucumber in the briefcase and then left the classroom. She did not see Xiao Hong move it to the cabinet. So when she returns, she will look where she last saw it: in the briefcase.",B
+89,"Xiao Li finds a storage cabinet in the study, the label on the storage cabinet is carrot, Xiao Li cannot see what is inside the storage cabinet, Xiao Li opens the storage cabinet and finds a coat, there are no carrots in the storage cabinet, Xiao Li closes the storage cabinet and puts it back in its place, Xiao Zhang enters the study and sees the storage cabinet.",What is in the storage cabinet?,Coat,Pencil,Carrot,Tape,A,False Belief Task,"The story says Xiao Li opens the storage cabinet labeled ""carrot"" and finds **a coat** inside; there are **no carrots** in the cabinet. After looking, Xiao Li closes it and puts it back. Nothing is said about changing the contents.
+
+So, in reality, the storage cabinet contains a **coat**.
+
+Therefore, the correct answer is:
+
+[[A]]","The story says Xiao Li opens the storage cabinet labeled ""carrot"" and finds **a coat** inside; there are **no carrots** in the cabinet. After looking, Xiao Li closes it and puts it back. Nothing is said about changing the contents.
+
+So, in reality, the storage cabinet contains a **coat**.
+
+Therefore, the correct answer is:",A
+90,"Colleagues in the company are busy preparing for Xiao Wang's birthday. Manager Zhang prepares ribbons and balloons, while Brother Li goes to the cake shop. When Xiao Wang is led to the well-decorated lounge, everyone happily sings ""Happy Birthday"". Manager Zhang smiles and gives Xiao Wang a gift box, saying, ""I am sure, this gift is better than any gift your girlfriend gives you this year!"" Xiao Wang smiles and nods in thanks, then turns his attention to the cake. Brother Li laughs and says, ""It is time to cut the cake! Who is ready for the sweet attack?",Does anyone say something inappropriate in this story?,Someone says something inappropriate in the story,No one says anything inappropriate in the story.,,,A,Faux-pas Recognition Test,"The possibly inappropriate line is from Manager Zhang: “I am sure, this gift is better than any gift your girlfriend gives you this year!”  
+
+This compares his gift to the girlfriend’s in a way that can be seen as belittling or disrespectful to Xiao Wang’s girlfriend and is somewhat intrusive about his private relationship. In a workplace context, that kind of personal comparison can be considered inappropriate.
+
+Therefore, the best answer is:
+
+[[A]]","The possibly inappropriate line is from Manager Zhang: “I am sure, this gift is better than any gift your girlfriend gives you this year!”  
+
+This compares his gift to the girlfriend’s in a way that can be seen as belittling or disrespectful to Xiao Wang’s girlfriend and is somewhat intrusive about his private relationship. In a workplace context, that kind of personal comparison can be considered inappropriate.
+
+Therefore, the best answer is:",A
+91,"On a scorching summer day, Xiao Wei stays alone at home, sweats like rain, feels exceptionally hot. He opens the window, tries to enjoy the breeze, but the sun outside the window still burns hot. Seeing the corn outside the window, Xiao Wei talks to himself, says, ""I am like this corn kernel, I am about to turn into popcorn!",Why does Xiao Wei say this?,"He compares himself to a corn kernel about to turn into popcorn, expressing the hot weather.","He sweats like rain, feels exceptionally hot, and wants to become popcorn.","He imagines himself as corn, hoping to cool down in this way.","He likes to eat popcorn, so he looks forward to becoming popcorn, forgetting about the heat.",A,Strange Story Task,"Xiao Wei is using a metaphor: because the weather is extremely hot and he feels like he is being roasted, he compares himself to a corn kernel that is about to be heated into popcorn. This vividly expresses how unbearable the heat is.
+
+So the best answer is:
+
+[[A]]","Xiao Wei is using a metaphor: because the weather is extremely hot and he feels like he is being roasted, he compares himself to a corn kernel that is about to be heated into popcorn. This vividly expresses how unbearable the heat is.
+
+So the best answer is:",A
+92,"On Monday morning, Xiao Hua, a third-grade elementary school student, celebrates his birthday yesterday and receives a cool red robot transformer toy car as a gift. He excitedly brings the toy car to school, wanting to share it with his classmates. Before class, he shows it to Xiaoming and Xiaoli who sit next to him. Xiaoming frowns and says, ""This toy car doesn't look cool at all, I have more than ten bigger and more complex robot toys at home!"" Xiao Hua doesn't respond, his face doesn't look very happy. Xiaoli looks at Xiao Hua and says, ""Xiao Hua, do you like this gift?"" Xiao Hua thinks for a moment and says, ""I do like it, my mom specifically chooses it for me.""",What birthday gift does Xiao Hua receive?,Transformer toy car,Remote control airplane,Eraser,Colored pencil,A,Faux-pas Recognition Test,"Xiao Hua’s birthday gift is described in the story as “a cool red robot transformer toy car.” Among the options:
+
+- A. Transformer toy car — matches exactly with the description.
+- B. Remote control airplane — not mentioned.
+- C. Eraser — not mentioned.
+- D. Colored pencil — not mentioned.
+
+Therefore, the correct answer is A.
+
+[[A]]","Xiao Hua’s birthday gift is described in the story as “a cool red robot transformer toy car.” Among the options:
+
+- A. Transformer toy car — matches exactly with the description.
+- B. Remote control airplane — not mentioned.
+- C. Eraser — not mentioned.
+- D. Colored pencil — not mentioned.
+
+Therefore, the correct answer is A.",A
+93,"Miss Zhou is a well-known novelist, famous for drawing inspiration from her rich life experiences for her works. At a literary symposium, an enthusiastic reader asks her if she ever experiences the intense love story described in her novel. Miss Zhou smiles and answers that her inspiration mostly comes from the books and movies she reads, and her own life is relatively plain. In fact, she has a passionate but short-lived romance, which directly influences her creation.",Why does Miss Zhou say this?,"Miss Zhou says this because she hopes to encourage readers to believe that good novel creation can rely entirely on imagination, not on personal experience.","Miss Zhou just gets nominated for an important literary award, she says this to show her professionalism and dedication as a writer.","Miss Zhou says this because she wants to protect her privacy, she does not want to publicly discuss her personal life, especially her emotional experiences.","Miss Zhou is misunderstood in a previous interview, she deliberately answers this way to avoid being misunderstood again or causing unnecessary controversy.",C,Strange Story Task,"Miss Zhou is asked directly whether she has experienced the intense love stories in her novel. She downplays her own life as “relatively plain” and shifts the focus to books and movies as her main sources of inspiration, only briefly and vaguely mentioning a “passionate but short-lived romance” without any detail.
+
+This kind of answer suggests she doesn’t want to go deep into her own emotional past in public; she acknowledges just enough to respond but keeps the specifics of her personal life private.
+
+Therefore, the most plausible option is:
+
+[[C]]","Miss Zhou is asked directly whether she has experienced the intense love stories in her novel. She downplays her own life as “relatively plain” and shifts the focus to books and movies as her main sources of inspiration, only briefly and vaguely mentioning a “passionate but short-lived romance” without any detail.
+
+This kind of answer suggests she doesn’t want to go deep into her own emotional past in public; she acknowledges just enough to respond but keeps the specifics of her personal life private.
+
+Therefore, the most plausible option is:",C
+94,"Li Hua and her roommate Wang Lei participate in a knowledge competition together, their team gets the first place in the whole competition, but only Wang Lei gets an individual ranking. Li Hua says to Wang Lei: ""I am really happy, congratulations on getting the ranking""; when she returns to the dormitory at night, she says to her brother: ""I am really sad.""",Why is Li Hua both happy and sad?,"She is happy that the team gets the first place overall, but sad that she does not get a ranking.","She is happy because Wang Lei gets a ranking, but sad that others think she is worse than Wang Lei.","She is happy that the team gets the first place overall, but sad that Wang Lei does not recognize her efforts.","She is happy because Wang Lei gets a ranking, but sad that she does not get an individual ranking.",D,Strange Story Task,"Li Hua and Wang Lei’s team wins first place, but only Wang Lei earns an individual ranking.  
+
+- When Li Hua talks to Wang Lei, she says she’s happy and congratulates her specifically on *getting the ranking* — her happiness is about Wang Lei’s success.  
+- Later, in private, she tells her brother she is sad — most likely because she herself did not get an individual ranking.
+
+Comparing the options:
+
+- A: Focuses on the team result for happiness, which doesn’t match her explicit words (“congratulations on getting the ranking”).  
+- B: Introduces the idea that others think she is worse — not mentioned.  
+- C: Mentions Wang Lei not recognizing her efforts — also not in the story.  
+- D: Matches directly: happy about Wang Lei’s individual ranking, sad about not getting one herself.
+
+So the best fit is:
+
+[[D]]","Li Hua and Wang Lei’s team wins first place, but only Wang Lei earns an individual ranking.  
+
+- When Li Hua talks to Wang Lei, she says she’s happy and congratulates her specifically on *getting the ranking* — her happiness is about Wang Lei’s success.  
+- Later, in private, she tells her brother she is sad — most likely because she herself did not get an individual ranking.
+
+Comparing the options:
+
+- A: Focuses on the team result for happiness, which doesn’t match her explicit words (“congratulations on getting the ranking”).  
+- B: Introduces the idea that others think she is worse — not mentioned.  
+- C: Mentions Wang Lei not recognizing her efforts — also not in the story.  
+- D: Matches directly: happy about Wang Lei’s individual ranking, sad about not getting one herself.
+
+So the best fit is:",D
+95,"Xiaohua and Xiaoyu are members of the hiking club, they are planning a hike next week. Xiaoyan is new and she never participates in such activities. Xiaohua looks at Xiaoyu, gently points to the date of the trip next week, and looks at Xiaoyan, but says nothing. Xiaohua looks at Xiaoyu, the two exchange knowing smiles, and together they walk towards Xiaoyan. Xiaoyan notices their gaze and smiles.",What do you think Xiaoyan's mood is at this time?,"Xiaoyan feels scared, she thinks Xiaoming and Xiaohua are trying to provoke her.","Xiaoyan feels confused, not clear why they come.","Xiaoyan feels surprised, looking forward to the hike next week.","Xiaoyan feels happy, because she is included in the plan by Xiaohua and Xiaoyu.",B,Ambiguous Story Task,"Xiaoyan notices their gaze and **smiles**, while Xiaohua and Xiaoyu share a ""knowing smile"" and walk toward her after pointing to the hike date. This strongly implies she understands she’s being included in their plan and feels pleased about it, not scared or confused.
+
+So the best choice is:
+
+[[D]]","Xiaoyan notices their gaze and **smiles**, while Xiaohua and Xiaoyu share a ""knowing smile"" and walk toward her after pointing to the hike date. This strongly implies she understands she’s being included in their plan and feels pleased about it, not scared or confused.
+
+So the best choice is:",D
+96,"Li Na is a passionate community volunteer, often helps to organize community activities. One day, she is in charge of collecting donated clothes and categorizes them into packages. Ali is her assistant, due to a misunderstanding, he mistakenly packs the clothes that a resident specifically marks for a specific charity into the general donation box. Mark knows the special significance of these clothes, but because he has a personal grudge with that resident, he does not tell Li Na and Ali. When the resident asks, Li Na feels confused, and Ali starts to check if there is a mistake, finally finds out it is his own mistake.",What kind of emotion does Ali feel after realizing that he might have mishandled the specially marked clothes?,Ali possibly feels proud because he thinks he helps to complete an important task.,Ali possibly feels indifferent because he does not know the special mark of the clothes.,Ali possibly feels confused because he is not sure if he really makes a mistake.,Ali possibly feels regret and anxiety because he unintentionally ruins the special donation intention of the clothes.,D,Moral emotions,"Ali is helping Li Na collect and categorize donated clothes. Due to a misunderstanding, he mistakenly packs clothes that were specially marked for a specific charity into the general donation box. Later, when the resident asks and Ali investigates, he discovers that it was his own mistake.
+
+At this point, Ali realizes:
+
+- The clothes had a special intention (specific charity).
+- His error has likely ruined or at least disrupted that intention.
+- The mistake was unintentional, but it affected something meaningful.
+
+Under these circumstances, a conscientious assistant is most likely to feel bad about the error, worrying about the consequences and regretting what he did.
+
+Now evaluate the options:
+
+A. Proud – This contradicts the situation; the discovery of a mistake wouldn’t reasonably cause pride.  
+B. Indifferent – He is actively checking for mistakes and discovers his own error, so indifference doesn’t fit.  
+C. Confused – The story says he “finally finds out it is his own mistake,” so he is no longer unsure; confusion is past.  
+D. Regret and anxiety – This matches someone who unintentionally mishandled a special donation and realizes the consequences.
+
+The most plausible answer is D.
+
+[[D]]","Ali is helping Li Na collect and categorize donated clothes. Due to a misunderstanding, he mistakenly packs clothes that were specially marked for a specific charity into the general donation box. Later, when the resident asks and Ali investigates, he discovers that it was his own mistake.
+
+At this point, Ali realizes:
+
+- The clothes had a special intention (specific charity).
+- His error has likely ruined or at least disrupted that intention.
+- The mistake was unintentional, but it affected something meaningful.
+
+Under these circumstances, a conscientious assistant is most likely to feel bad about the error, worrying about the consequences and regretting what he did.
+
+Now evaluate the options:
+
+A. Proud – This contradicts the situation; the discovery of a mistake wouldn’t reasonably cause pride.  
+B. Indifferent – He is actively checking for mistakes and discovers his own error, so indifference doesn’t fit.  
+C. Confused – The story says he “finally finds out it is his own mistake,” so he is no longer unsure; confusion is past.  
+D. Regret and anxiety – This matches someone who unintentionally mishandled a special donation and realizes the consequences.
+
+The most plausible answer is D.",D
+97,"A magazine contains 50 articles. The editor tells the reporter that most of his articles are about travel, a small part is suitable for entertainment news as the main theme, and there are almost no articles about food. After reading, the reporter finds that only 10 articles are about entertainment.","After reading, how many articles does the reporter guess are about travel?","After reading, the reporter guesses that 10 articles are about travel.","After reading, the reporter guesses that 20 articles are about travel","After reading, the reporter guesses that 40 articles are about travel","After reading, the reporter guesses that 38 articles are about travel.",D,Scalar Implicature Test,"The magazine has 50 articles.  
+The reporter finds that 10 are about entertainment.  
+
+The editor said:
+- Most articles are about travel.  
+- A small part is for entertainment.  
+- There are almost no articles about food.  
+
+Given typical reasoning in such problems, “almost no” food articles is usually treated as negligible (possibly zero), so the reporter would naturally guess that the rest (50 − 10 = 40) are about travel.
+
+Therefore, the most likely answer is:
+
+[[C]]","The magazine has 50 articles.  
+The reporter finds that 10 are about entertainment.  
+
+The editor said:
+- Most articles are about travel.  
+- A small part is for entertainment.  
+- There are almost no articles about food.  
+
+Given typical reasoning in such problems, “almost no” food articles is usually treated as negligible (possibly zero), so the reporter would naturally guess that the rest (50 − 10 = 40) are about travel.
+
+Therefore, the most likely answer is:",C
+98,"Xiaoling is a city girl, she firmly believes that the fast pace and competition in life are necessary. In a conversation with the pastoral poet Xiaoyang, she starts to reconsider what real quality of life is.",How does Xiaoyang convince Xiaoling?,Xiaoyang reminds Xiaoling that the real quality of life is the precious time spent with family and friends.,"Xiaoyang quotes some wisdom of the ancients, discussing the meaning and purpose of life.","Xiaoyang tells about his meditation experience in the countryside, describing the peace and tranquility within.","Xiaoyang shares his daily life in the countryside, showing the tranquility and harmony after the pace of life slows down.",D,Persuasion Story Task,"Xiaoyang is described as a “pastoral poet,” which strongly associates him with rural, slow-paced, tranquil life. Xiaoling, a city girl, believes in fast pace and competition, but then begins to reconsider the real quality of life after talking with him.  
+
+Among the options, the one that best matches this contrast—and shows *how* he would get her to rethink her values—is:
+
+- **D. Xiaoyang shares his daily life in the countryside, showing the tranquility and harmony after the pace of life slows down.**
+
+This directly addresses pace of life, countryside living, and tranquility, making it the most consistent with the story.
+
+[[D]]","Xiaoyang is described as a “pastoral poet,” which strongly associates him with rural, slow-paced, tranquil life. Xiaoling, a city girl, believes in fast pace and competition, but then begins to reconsider the real quality of life after talking with him.  
+
+Among the options, the one that best matches this contrast—and shows *how* he would get her to rethink her values—is:
+
+- **D. Xiaoyang shares his daily life in the countryside, showing the tranquility and harmony after the pace of life slows down.**
+
+This directly addresses pace of life, countryside living, and tranquility, making it the most consistent with the story.",D
+99,"Although Chen hurts his best friend Lin Qiang in a moment of impulse when he is young, the mutual aid between them over the years is greater than the conflict.","Years later, Chen meets Lin Qiang at the award ceremony where Lin Qiang is about to receive an important career award. Lin Qiang tells Chen that his award is due to his encouragement many years ago. What emotion does Chen show at this time?",Regretful,Envious,Proud,Surprise,C,Unexpected Outcome Test,"Chen learns that his earlier encouragement played a key role in Lin Qiang’s success, and despite the past conflict, their long-term mutual support has been greater than the hurt. In this situation, Chen is most likely to feel proud of Lin Qiang and of having contributed to his achievement.
+
+So the best choice is:
+
+[[C]]","Chen learns that his earlier encouragement played a key role in Lin Qiang’s success, and despite the past conflict, their long-term mutual support has been greater than the hurt. In this situation, Chen is most likely to feel proud of Lin Qiang and of having contributed to his achievement.
+
+So the best choice is:",C

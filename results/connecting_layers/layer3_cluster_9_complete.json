@@ -1,0 +1,131 @@
+{
+  "layer3_cluster_label": 9,
+  "layer3_cluster_summary": "Across this cluster, the model’s answers systematically diverge from the key because it adopts a different interpretive frame, often privileging either sophisticated social-pragmatic reasoning or strict textual literalism over the test’s intended commonsense shortcuts. It frequently over-attributes adult-like inferential abilities, world-knowledge, or role-based pretend commitments to characters—especially children—while underweighting developmental heuristics, story-specific constraints, and the task’s objective truth-conditional standards. As a result, many “errors” reflect frame or cue-weighting mismatches rather than genuine Theory of Mind deficits, sometimes making the model’s reasoning more internally coherent than the human key.",
+  "layer3_cluster_size": 5,
+  "total_original_items": 12,
+  "all_original_indices": [
+    293,
+    412,
+    689,
+    737,
+    1026,
+    1284,
+    1302,
+    1310,
+    1405,
+    1694,
+    1722,
+    1973
+  ],
+  "all_current_indices": [
+    90,
+    127,
+    205,
+    219,
+    329,
+    414,
+    418,
+    422,
+    456,
+    547,
+    555,
+    640
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 1,
+      "layer2_cluster_summary": "This cluster reflects a pattern where the model leans into rich social-pragmatic cues and joint attention to construct a more sophisticated theory-of-mind explanation than the human key expects. It systematically interprets characters as making deliberate, inquisitive inferences (e.g., Xiao Hong inspecting all sides because she infers something special), whereas the human answer presumes simpler, child-like labeling behavior. Across such items, model errors arise less from logical failure than from privileging nuanced mental-state reasoning over the test designer’s intended, more basic developmental-psychology interpretation.",
+      "layer2_cluster_size": 1,
+      "original_items": [
+        {
+          "original_index": 1302,
+          "current_index": 418,
+          "failed_summary": "The model likely reasoned that Wang Lei’s excited exclamation and brief gaze toward Xiao Hong create a joint-attention cue, prompting Xiao Hong to actively inspect the balloon for anything special. From that perspective, option D fits a theory-of-mind style interpretation where Xiao Hong infers there must be a novel, noteworthy feature and deliberately checks all sides, including the smiley sticker. The human answer A instead assumes a more basic, label-the-whole-object response typical of younger children, but given the social cueing in the story both answers are defensible and the model’s choice is also reasonable."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 10,
+      "layer2_cluster_summary": "Across this cluster, the model over-prioritizes surface pattern-matching (“like a pangolin”) to familiar, visually similar entities, instead of integrating the full narrative context. The reasons highlight that the stories usually contain explicit world constraints (e.g., Nimbus has only birds and flying insects), which humans use to eliminate impossible options and reinterpret metaphors in-context. Overall, the model’s Theory of Mind errors here stem less from misunderstanding mental states than from neglecting story-internal logic and availability constraints on what the characters could actually perceive or imitate.",
+      "layer2_cluster_size": 1,
+      "original_items": [
+        {
+          "original_index": 1310,
+          "current_index": 422,
+          "failed_summary": "The model likely focused on the explicit comparison “like a pangolin,” then pattern-matched to the most similar animal in the options—a rolling armadillo, another armoured mammal known for curling into a ball—while ignoring the broader story context. However, the narrative clearly states Nimbus has no land animals and is home only to birds and flying insects, so Elio’s mimicry should be of a tumbling beetle, the only rolling-like behavior from a creature that plausibly exists there. Therefore, the human’s choice C fits the contextual logic better, and the model’s answer is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 56,
+      "layer2_cluster_summary": "Across all four reasons, the questions center on young children interpreting an adult’s excited comment about an object that contains a smaller, less salient sticker, probing whole‑object bias versus more refined referent tracking. The shared failure pattern is that the model misweights cues, either over‑attending to textual details like “sticker” or “cannot touch,” or overestimating children’s analytical search strategies, instead of applying developmentally typical heuristics. Together, the cases show the model treating reference resolution too much like adult logical inference and too little like pragmatic, gaze‑guided joint attention in early childhood.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 293,
+          "current_index": 90,
+          "failed_summary": "The scenario tests children’s “whole-object bias”: when an adult excitedly names or references something while looking at an object, young children typically assume the reference is to the entire familiar object (the airplane), not an unseen or secondary feature (the cloud sticker). The human answer (A) matches this well-established developmental pattern: Xiao Fang is most likely to treat Zhang Ming’s excitement as about the airplane and respond by identifying it, rather than investigating. The model’s choice (D) incorrectly attributes a more advanced, analytic search strategy to Xiao Fang, overestimating her likely cognitive response."
+        },
+        {
+          "original_index": 737,
+          "current_index": 219,
+          "failed_summary": "The model focused on the immediately salient cue that Liu Jie “stares at the sticker and excitedly shouts: ‘Oh, that’s great, look!’”, so it inferred that Xiaoyu would respond by explicitly referencing that same visual target through pointing (option C). However, the task is about what a young child “most likely” takes as the referent, and developmental evidence shows a strong whole-object bias: children tend to interpret such exclamations as about the toy car itself rather than a detail like the sticker. Thus, option A better matches typical child cognition, making the model’s choice less appropriate."
+        },
+        {
+          "original_index": 1026,
+          "current_index": 329,
+          "failed_summary": "The model likely overemphasized the detail that Xiao Ming “can see but cannot touch the sticker,” inferring a general limitation in interacting with the sticker and thus defaulting to the safer choice of pointing only to the airplane (option C). It seems to have missed or underweighted the pragmatic and joint-attention cue that Sun Wei looks at the sticker, exclaims with excitement, and then looks at Xiao Ming, strongly indicating that the *sticker* is the intended referent. Therefore, the model’s choice is less consistent with typical joint-attention behavior and is probably incorrect."
+        },
+        {
+          "original_index": 1405,
+          "current_index": 456,
+          "failed_summary": "The story is designed to test joint attention and understanding that Wang Dan’s excited exclamation and gaze specifically highlight the newly noticed sticker, not the already-familiar kite itself. The model likely over-focused on the earlier description that Xiao Fang can “see but cannot touch the sticker” and on the general salience of the kite as the main toy, so it inferred Xiao Fang would respond only to the kite and not to the sticker’s content. This ignores pragmatic social cues: Xiao Fang can still visually identify the smiley face from a distance, making A the better-supported answer and C unlikely."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 63,
+      "layer2_cluster_summary": "This cluster centers on one pattern: the model evaluates utterances within an in-universe role frame, while the human solution evaluates them against literal real-world facts or the speaker’s private beliefs. Across cosplay, preserving a child’s Santa fantasy, a neighbor dressed as Santa, and a boy in a ghost costume, the model treats claims like “I am the master” or “It is Santa Claus” as pragmatically true in the pretend scenario. Because Theory of Mind tasks require truth conditions tied to objective identity or belief states, this framing mismatch systematically drives the model’s answers away from the expected human judgments.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 412,
+          "current_index": 127,
+          "failed_summary": "Yang Qing is only cosplaying a martial arts master, so the human answer treats the question as asking about objective reality, where claiming to be an actual master is factually false. The model instead interprets the statement within the play-acting context of a costume role-playing competition, where Yang Qing’s designated role is indeed “the martial arts master here,” making the utterance functionally truthful in-universe. Under this pragmatic, in-character interpretation the model’s answer is reasonable, so both answers are defensible depending on whether literal or role-based truth is required."
+        },
+        {
+          "original_index": 689,
+          "current_index": 205,
+          "failed_summary": "The story says Meng Hua answers “Of course, Santa Claus is real!” specifically because he does not want to break his cousin’s fantasy, which implies he himself does not believe Santa really exists. Therefore, the human answer “No” interprets the question “Does Meng Hua tell the truth?” as asking whether his statement matches his own belief, and correctly concludes that he is lying. The model probably focused on the surface truth of the sentence or treated Santa as real in the story’s universe, so it labeled his statement as true instead of evaluating whether it matched Meng Hua’s private belief."
+        },
+        {
+          "original_index": 1284,
+          "current_index": 414,
+          "failed_summary": "The model likely interpreted \"It is Santa Claus\" in a playful, role-based sense rather than a literal identity claim. Because the context emphasizes Mr. Liuyang dressing up as Santa and performing Santa’s function of delivering gifts, the model may have reasoned that, within the story frame, he effectively *is* Santa Claus, so his statement is true enough. However, the question usually tests strict truthfulness about real identity, under which Mr. Liuyang remains just a neighbor in costume, so the human answer \"No\" is correct and the model's \"Yes\" is logically inaccurate in this context."
+        },
+        {
+          "original_index": 1722,
+          "current_index": 555,
+          "failed_summary": "The story clearly frames Li Haoran as a boy dressed up as a ghost for Halloween, so in reality he is a human in a costume, not an actual supernatural ghost. The question “Is what Li Haoran says true?” normally refers to literal truth, so the human answer “No” reflects standard commonsense reasoning that he is pretending rather than describing reality. The model likely focused on the role‑play context and interpreted his statement as “true enough” within the Halloween game—treating the character as a ghost—thereby overlooking the task’s expectation of strict, real‑world factual accuracy."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 76,
+      "layer2_cluster_summary": "Across these reasons, the model consistently grounds its answers in explicit textual evidence, focusing on what the story literally states about Xiao Lei’s preferences and knowledge. By contrast, the human responses introduce extra-story assumptions—such as conflating common collectibles or inferring hidden inheritance discussions—that are neither mentioned nor reliably implied. Consequently, this cluster illustrates cases where divergences arise not from the model lacking theory-of-mind capabilities but from humans overinterpreting, misreading, or importing outside knowledge, while the model’s literal, evidence-based reasoning actually yields the more defensible answer.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 1694,
+          "current_index": 547,
+          "failed_summary": "From the story, Xiao Lei explicitly praises “this old clock” and calls it “full of historical flavor,” which directly indicates the specific item he likes. The model correctly focuses on this clear textual evidence and selects option A, while the human answer B (“hanging painting”) is unsupported by the passage and may stem from a mistake, guess, or confusion with another common household collectible. Therefore, in this case the model’s choice aligns with the narrative details, and the human answer appears incorrect, not an alternative valid interpretation."
+        },
+        {
+          "original_index": 1973,
+          "current_index": 640,
+          "failed_summary": "The model probably reasoned strictly from the given text: the conversation only covers appreciating the grandfather’s old clock and its stories, with no mention of wills, division of property, or any future inheritance arrangements, so it inferred that Xiao Lei does not know about an inheritance plan. The human answer \"knows\" likely relies on unstated assumptions that interest in a collection or family heirlooms implies prior discussion of inheritance, which is not supported explicitly or implicitly by the narrative. Thus the model’s answer B is reasonable and at least equally well-supported."
+        }
+      ]
+    }
+  ]
+}

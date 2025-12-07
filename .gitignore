@@ -10,7 +10,6 @@
 
 # Results and data (can be large)
 results/*.json
-*.csv
 
 # Python
 __pycache__/
@@ -22,7 +21,6 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
 # IDE
 .vscode/

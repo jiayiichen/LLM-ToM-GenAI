@@ -1,0 +1,1342 @@
+{
+  "layer3_cluster_label": 2,
+  "layer3_cluster_summary": "Across the cluster, the model over-relies on literal, local cues—keywords, explicit actions, stereotyped roles, and spoken assertions—while underweighting broader narrative context, timeline, and narrator-provided mental states. It repeatedly defaults to generic, prosocial or emotionally warm scripts and logistically simple explanations instead of integrating cultural norms, power dynamics, world-building constraints, and character‑specific motives to infer covert intentions, mixed emotions, or strategic persuasion. Consequently, its answers are often superficially plausible and text-compatible yet misaligned with the stories’ deeper Theory-of-Mind logic, pragmatic implicatures, and the human preference for context-integrated, goal-directed reasoning.",
+  "layer3_cluster_size": 16,
+  "total_original_items": 174,
+  "all_original_indices": [
+    4,
+    19,
+    21,
+    50,
+    57,
+    68,
+    70,
+    72,
+    91,
+    100,
+    112,
+    119,
+    148,
+    162,
+    163,
+    194,
+    196,
+    200,
+    205,
+    210,
+    241,
+    252,
+    263,
+    305,
+    306,
+    307,
+    309,
+    310,
+    326,
+    343,
+    348,
+    366,
+    368,
+    374,
+    396,
+    402,
+    405,
+    409,
+    417,
+    422,
+    452,
+    496,
+    534,
+    542,
+    544,
+    569,
+    589,
+    593,
+    631,
+    638,
+    649,
+    651,
+    652,
+    656,
+    669,
+    710,
+    730,
+    748,
+    756,
+    758,
+    802,
+    803,
+    817,
+    826,
+    828,
+    831,
+    835,
+    850,
+    860,
+    866,
+    882,
+    883,
+    891,
+    906,
+    930,
+    933,
+    956,
+    959,
+    978,
+    980,
+    985,
+    996,
+    1003,
+    1008,
+    1016,
+    1025,
+    1043,
+    1048,
+    1052,
+    1066,
+    1080,
+    1086,
+    1090,
+    1098,
+    1104,
+    1107,
+    1114,
+    1124,
+    1125,
+    1136,
+    1138,
+    1141,
+    1152,
+    1160,
+    1170,
+    1178,
+    1191,
+    1214,
+    1235,
+    1239,
+    1255,
+    1287,
+    1290,
+    1316,
+    1321,
+    1323,
+    1325,
+    1336,
+    1351,
+    1360,
+    1361,
+    1370,
+    1395,
+    1401,
+    1428,
+    1449,
+    1511,
+    1518,
+    1523,
+    1543,
+    1544,
+    1548,
+    1560,
+    1569,
+    1571,
+    1585,
+    1588,
+    1589,
+    1604,
+    1605,
+    1610,
+    1645,
+    1662,
+    1670,
+    1674,
+    1689,
+    1690,
+    1692,
+    1715,
+    1749,
+    1760,
+    1773,
+    1778,
+    1783,
+    1802,
+    1805,
+    1815,
+    1816,
+    1821,
+    1834,
+    1850,
+    1854,
+    1863,
+    1868,
+    1869,
+    1874,
+    1888,
+    1910,
+    1927,
+    1934,
+    1941,
+    1946,
+    1965,
+    1986
+  ],
+  "all_current_indices": [
+    1,
+    4,
+    6,
+    16,
+    17,
+    23,
+    24,
+    25,
+    32,
+    36,
+    41,
+    43,
+    50,
+    55,
+    56,
+    64,
+    65,
+    66,
+    68,
+    69,
+    77,
+    81,
+    83,
+    91,
+    92,
+    93,
+    94,
+    95,
+    98,
+    103,
+    106,
+    110,
+    111,
+    112,
+    121,
+    122,
+    123,
+    126,
+    128,
+    130,
+    140,
+    151,
+    161,
+    163,
+    164,
+    171,
+    176,
+    177,
+    191,
+    193,
+    195,
+    196,
+    197,
+    198,
+    199,
+    210,
+    215,
+    222,
+    225,
+    226,
+    242,
+    243,
+    249,
+    252,
+    253,
+    254,
+    256,
+    261,
+    264,
+    265,
+    274,
+    275,
+    278,
+    286,
+    294,
+    297,
+    304,
+    305,
+    313,
+    315,
+    316,
+    318,
+    321,
+    323,
+    325,
+    328,
+    333,
+    335,
+    337,
+    344,
+    350,
+    351,
+    352,
+    358,
+    360,
+    361,
+    363,
+    365,
+    366,
+    369,
+    370,
+    372,
+    374,
+    375,
+    378,
+    381,
+    386,
+    392,
+    398,
+    401,
+    408,
+    415,
+    416,
+    425,
+    426,
+    427,
+    428,
+    434,
+    438,
+    440,
+    441,
+    444,
+    452,
+    453,
+    467,
+    469,
+    488,
+    493,
+    495,
+    498,
+    499,
+    500,
+    505,
+    507,
+    509,
+    513,
+    515,
+    516,
+    519,
+    520,
+    521,
+    531,
+    535,
+    538,
+    540,
+    544,
+    545,
+    546,
+    553,
+    559,
+    563,
+    568,
+    570,
+    572,
+    579,
+    580,
+    584,
+    585,
+    586,
+    588,
+    592,
+    594,
+    596,
+    599,
+    600,
+    601,
+    606,
+    614,
+    622,
+    623,
+    626,
+    629,
+    638,
+    643
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 5,
+      "layer2_cluster_summary": "Across these items, the model leans on literal, local cues—the exact phrasing, visible actions, or emotionally valenced words—rather than integrating broader story context, timeline, and discourse structure. It often defaults to the most concrete, surface-level goal (fixing a car, increasing involvement, reporting a “brand new” method) and underweights pragmatic subtleties about status signaling, encouragement, or problem-resolution roles that humans infer. Because many vignettes are intentionally ambiguous, its choices are sometimes still defensible, but they regularly miss the socially implied, narratively central intention.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 638,
+          "current_index": 193,
+          "failed_summary": "The model likely rejected option B because, in the story, Sam is only an assistant, not a competitor, so “hopes to win Sam in the competition” appears logically inconsistent with the roles described. Instead, it chose D, inferring that Chris’s inaction could plausibly stem from curiosity about the outcome of the mistaken seasoning, which fits the narrative of him knowingly observing the situation. Both B and D can be defended as possible intentions—B emphasizing competitive advantage, D emphasizing curiosity—so the model’s answer is also a reasonable interpretation."
+        },
+        {
+          "original_index": 730,
+          "current_index": 215,
+          "failed_summary": "The model likely focused on the moral tone of the story: Zhang Wei finds unattended goods, does not report them, and directly takes them home, which more strongly suggests a self-interested motive like option B rather than a prosocial motive like option A. It may also have interpreted “quite troublesome” as Zhang Wei seeing an opportunity (avoiding the “trouble” of finding the owner) rather than feeling responsible for cleaning the market, reinforcing the idea of deliberate avoidance. Because the narrative is ambiguous and asks for a “possible” intention, both A and B are defensible, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 860,
+          "current_index": 264,
+          "failed_summary": "The model likely focused on the literal wording that “her team develops a brand new marketing method” and interpreted this as a factual narration, leading it to choose option A. However, a closer reading of the timeline shows that she only instructs her team to start planning the strategy after the gathering, implying that no such breakthrough method existed when she spoke. This suggests her statement was more about impressing peers and signaling industry leadership than reporting reality, so the human choice C best captures the implied intent and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 996,
+          "current_index": 318,
+          "failed_summary": "The model likely focused on the explicit phrase “HanHan cheerfully accepts the plan,” directly mapping “cheerfully” to happiness and inferring that his positive mood reflects confidence in understanding the content, hence choosing B. However, the broader context emphasizes that HanHan “does not understand community service very well,” making it unlikely he suddenly believes he understands the detailed plan, while QiQi’s smiling, eyebrow-raising, and deliberate handoff highlight emotional support and inclusion. Thus C better captures encouragement and good collegial relations, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1048,
+          "current_index": 335,
+          "failed_summary": "The model likely focused on the literal surface action—QiQi handing HanHan a detailed plan—so it inferred that her primary goal was to increase his involvement in the planning process, leading to option D.  \nHowever, the narrative details (eyebrow raise, hinting look, smile, HanHan quickly beginning to read) suggest a more dynamic intent: prompting HanHan to actively shift from passive newcomer to someone who starts working, which aligns better with option B.  \nBoth B and D are defensible interpretations of QiQi’s motive, so the model’s choice is understandable even though it diverges from the human answer."
+        },
+        {
+          "original_index": 1783,
+          "current_index": 572,
+          "failed_summary": "The model probably focused on the literal surface action—Dongdong stopping Nannan while fixing a car—so it inferred the most straightforward, concrete motive was to seek practical help repairing the car (option A). However, the broader narrative conflict is not about car repair but about choosing where to play, and introducing a new character usually serves the unresolved problem, making “ask Nannan for an idea” (option C) contextually stronger. Thus the model’s choice overlooks discourse-level intent and is less justified than the human answer, which better aligns with story structure and implicit goals."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 13,
+      "layer2_cluster_summary": "Across these items, the model consistently privileges a literal, surface parsing of events—who hands what to whom, mentions of “bookstores” or “tactics”—and then selects the most logistically straightforward explanation. It underweights pragmatic signals such as secrecy, shyness, surprise, joking tone, and narrative irony, which humans use to infer hidden intentions like matchmaking, buying snacks under playful cover, or deliberately throwing a match for betting. The cluster thus highlights a recurring weakness in integrating cultural knowledge and conversational implicature with Theory‑of‑Mind reasoning, leading the model to miss non‑literal meanings and choose safer but narratively inconsistent answers.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 68,
+          "current_index": 23,
+          "failed_summary": "The model likely focused on the literal sequence of actions—Zhi Hong handing roses to Tian Qi, who then gives them to Bai Ruo—and inferred a simple “purchase on behalf” relationship, making option C seem logistically plausible. However, the story’s pragmatic clues (Tian Qi praising Zhi Hong’s qualities to Bai Ruo, the secretive transfer, Zhi Hong’s quiet departure, and Bai Ruo’s confusion) strongly suggest a matchmaking scenario where Zhi Hong likes Bai Ruo but is too shy, so he courts her through Tian Qi. Therefore, the model’s choice is incorrect because it ignores these relationship cues."
+        },
+        {
+          "original_index": 1395,
+          "current_index": 452,
+          "failed_summary": "The model likely relied on a literal, surface reading of the text: it saw “bookstore,” “Good Product Shop,” and a title-like phrase “From Hundred Grass Taste to Three Squirrels,” so it inferred the girl wanted a specific book, leading to option C. It missed the cultural cue that “Hundred Grass Taste” and “Three Squirrels” are famous snack brands and that the characters are using “bookstore/books” as playful code for snacks. Because the story’s joke rests on this metaphor, the human answer D aligns better with the intended meaning, and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1888,
+          "current_index": 606,
+          "failed_summary": "The model focused on the literal cues: the girl mentions a “special bookstore,” the boyfriend asks “what book do you like,” and he says he will “go to buy” it, so the system inferred that an actual book purchase occurs and chose A. It missed that “Hundred Grass Taste” and “Three Squirrels” are well‑known snack brands, so the ‘bookstore’ and ‘book’ language is playful marketing for a snack shop, not a real bookshop. Therefore, the human answer B is more contextually accurate and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1927,
+          "current_index": 622,
+          "failed_summary": "The story’s cues—Xuehang speaking “quickly and quietly,” Xiaohao’s stiff and surprised reaction, the immediate pass, the “low-level attack,” and then losing at match point—strongly imply a secret instruction to deliberately throw the game, matching option C about club betting. The model likely defaulted to the safer, more literal explanation in B, interpreting the conversation as normal tactical advice and underweighting the suspicious secrecy and emotional shift. It thus failed to integrate pragmatic hints and real‑world knowledge about match‑fixing, making its choice less consistent with the narrative."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 19,
+      "layer2_cluster_summary": "Across these items, the model systematically defaults to a self-centered, ego‑focused interpretation of emotions, preferring options where the protagonist’s own actions, competitiveness, or agency provide a direct, intuitive cause of guilt, regret, or pride. It underweights textual and contextual constraints—such as explicit mentions of regret, the absence of a teaching relationship, puzzle‑style conventions, and moral framing—and instead follows loose emotional stereotypes or familiar narrative tropes. As a result, it often selects answers that feel narratively plausible in everyday reasoning but misalign with the narrower “test logic” governing Theory of Mind questions.",
+      "layer2_cluster_size": 5,
+      "original_items": [
+        {
+          "original_index": 409,
+          "current_index": 126,
+          "failed_summary": "The model focused on the emotional logic of “she should feel violated, but she appears very guilty,” and therefore looked for an option where Lin Ting had clearly done something blameworthy herself. Option D directly explains her guilt: she intentionally exposed her diary to be read by a boy, so feeling guilty about that choice is straightforward, whereas option C mainly explains that no violation occurred and only weakly implies guilt for having suspected her classmates. Both C and D can be read as reasonable interpretations, so the model’s alternative answer is also defensible."
+        },
+        {
+          "original_index": 631,
+          "current_index": 191,
+          "failed_summary": "The model likely reasoned that regret would stem from a perceived loss of uniqueness, so it chose option D, where Zhao Ting’s honor is shared with a main competitor and therefore feels diluted. This aligns with a competitive, ego-focused interpretation of emotions, where sharing the top award undermines the anticipated pride and can plausibly cause disappointment. However, in many reasoning puzzles the word “regret” more naturally refers to an external, pity-evoking circumstance such as a beloved mentor’s illness and absence, so C better matches typical test logic and the model’s answer is not the best explanation in this context."
+        },
+        {
+          "original_index": 906,
+          "current_index": 286,
+          "failed_summary": "The prompt contrasts an expected feeling of betrayal with the girl instead displaying regret, so the key is to pick an option that explicitly explains her guilt or self-blame. Option C directly states that Xiao Hong feels guilty about a conflict she caused and enlisted Xiao Mei to mediate, which naturally explains why, upon seeing them together, her dominant emotion is regret rather than betrayal. The model chose D because it focused on jealousy and curiosity about their conversation, but that option never involves regret, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1428,
+          "current_index": 467,
+          "failed_summary": "The model focused on the familiar idea of a teacher feeling proud of a pupil, so it chose A, where Li Ting recognizes Zhang Hua is using techniques she originally taught him. This interpretation emphasizes personal pride but is not grounded in the story, which never mentions a teaching relationship or explains why her judgment about the techniques themselves would change. Answer D more plausibly accounts for her shift from contempt to pride by revealing that the traditional methods she once dismissed are actually beneficial for garden growth, so the model’s choice is less consistent with the context."
+        },
+        {
+          "original_index": 1805,
+          "current_index": 580,
+          "failed_summary": "Option D fits better: although Chen Ming once impulsively hurt Lin Qiang (an act he “should regret”), the later focus is on their long‑term positive support, so his pride comes from knowing his earlier encouragement contributed to the award. The model likely latched onto a direct cause‑and‑effect pattern, reasoning that if the harm somehow “helped” Lin Qiang succeed, then Chen Ming could feel proud of that outcome, and so chose A. This ignores the passage’s moral framing that pride should arise from constructive help rather than from injury, so the model’s choice is weaker and the human answer more convincing."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 21,
+      "layer2_cluster_summary": "Across these items, the model consistently favors literal, explicitly stated content over pragmatic inference, speaker intention, and social norms. It treats remarks and compliments as factually accurate or uniformly polite instead of recognizing hyperbole, irony, and face‑saving lies, and it often conflates noticing someone’s behavior with truly understanding their preferences or beliefs. Consequently, it misjudges what characters know or mean in context—over‑extending clues like “has no taste” or “prefers light food,” misinterpreting the salt‑seller idiom, and failing to see that pushy recommendations or exaggerated praise can signal ignorance or insincerity rather than genuine care.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 91,
+          "current_index": 32,
+          "failed_summary": "The model likely focused on strict, explicitly stated information: the text only says Manager Zhao “prefers light food,” not that she completely avoids spicy food, so it judged that Director Liu cannot be said to “know” she doesn’t eat spicy. It may also have interpreted Liu’s suggestion as catering to the group’s general taste rather than specific knowledge about Zhao’s dietary restriction. Because “prefers light food” does not logically entail “never eats spicy,” both answers are arguably valid, and the model’s cautious choice of B is also reasonable."
+        },
+        {
+          "original_index": 652,
+          "current_index": 197,
+          "failed_summary": "The model likely interpreted the husband’s remark as a straightforward evaluation of the food being excessively salty, so it answered “Yes,” assuming his complaint about the saltiness is factually accurate. However, the question in this type of logic riddle targets the literal truth of the statement “Do you rob the salt seller?”, which is clearly hyperbolic and not an actual accusation of robbery. Therefore the expected human answer “No” treats the sentence as figurative exaggeration rather than a true claim, while the model’s answer is incorrect for ignoring this pragmatic, non-literal aspect."
+        },
+        {
+          "original_index": 758,
+          "current_index": 226,
+          "failed_summary": "The model likely fixated on the earlier detail that Sister Zhang “has no taste” due to her cold and over‑generalized this to the husband’s reaction, assuming he also found the food bland. It appears to have interpreted the question literally, missing that “Do you rob the salt seller?” is an ironic, idiomatic complaint that she used far too much salt, not too little. Thus, option B correctly reflects the husband’s meaning, while option C contradicts the idiom and is therefore an incorrect inference."
+        },
+        {
+          "original_index": 835,
+          "current_index": 256,
+          "failed_summary": "The model likely focused on the literal politeness of the utterances—everyone uses courteous phrases—so it concluded that no one said anything explicitly rude, leading to answer B. However, the human answer A relies on pragmatic and cultural norms: Aunt Li keeps urging the boyfriend to eat coriander beef despite his clear avoidance, which can be seen as ignoring his preferences and thus socially inappropriate or inconsiderate. Because the question targets this implicit social inappropriateness, the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1003,
+          "current_index": 321,
+          "failed_summary": "The model likely overemphasized the word “notices,” inferring that Aunt Li’s observation of his picking only non‑coriander dishes means she consciously understands that he does not eat coriander. From that, it plausibly (but mistakenly) reasoned that her recommending “coriander beef” is a hospitable attempt to persuade him to try her signature dish despite his known dislike. However, pragmatically, if she truly knew he did not eat coriander, she would not urge that specific dish, so the human answer (B: does not know) is more logically consistent and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1351,
+          "current_index": 438,
+          "failed_summary": "The model likely treated Aunt Wang’s spoken statement literally, assuming that if she says it is “one of the most delicious dishes” then she must be telling the truth, so it chose A. It failed to integrate the earlier narrative clue—“feels something is off about the taste”—as evidence that she actually dislikes or is at least suspicious of the dish, implying a polite lie to spare Uncle Zhang’s feelings. Thus, the model’s choice is incorrect because it ignored pragmatic social context and basic theory-of-mind reasoning."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 23,
+      "layer2_cluster_summary": "Across these items, the model leans on shallow, literal heuristics—matching salient words, roles, and visible actions—while neglecting how sequences of glances, smiles, winks, timing, and prior goals pragmatically reveal covert plans, shifting allegiances, or emotion‑regulation. It defaults to generic, prosocial or neutral scripts (simple encouragement, friendliness, agreement, eating treats, continuing work) instead of entertaining less obvious but text‑supported intentions such as collusion, avoidance, teasing revenge, strategic inclusion, or information‑gathering. Overall, humans integrate dispersed contextual cues to infer characters’ underlying mental states, whereas the model often stops at the first concrete, observable interpretation that fits a familiar narrative template.",
+      "layer2_cluster_size": 30,
+      "original_items": [
+        {
+          "original_index": 205,
+          "current_index": 68,
+          "failed_summary": "The model likely overemphasized a norm about “minding one’s own business,” interpreting curiosity about someone else’s bag as a potential privacy issue, which led it to choose C as a more cautious, morally safe action. However, the story explicitly notes that Da Hu “seems to be curious” about the bag, and option A offers the most direct, prosocial way to act on that curiosity in a community setting, matching typical narrative logic. Thus, the model’s choice is less text‑aligned and the human answer A better fits the intended inference."
+        },
+        {
+          "original_index": 309,
+          "current_index": 94,
+          "failed_summary": "The model likely relied on a surface-level heuristic that “smile + nod between colleagues in a meeting” often signals agreement with a spoken opinion, leading it to pick option B even though the story never mentions any specific opinion from Jiang Yang. A closer reading shows the sequence: Jiang Yang looks at Ming Ai, then at Zhang Xi; Zhang Xi responds by smiling, nodding to Jiang Yang, and walking toward the clearly nervous newcomer, which suggests coordinated reassurance rather than intellectual agreement. Thus, the human answer C is better supported and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 348,
+          "current_index": 106,
+          "failed_summary": "The model focused on the explicit elements of “showing off” and “watch me dance the steps you teach me yesterday,” inferring that Zhiming mainly wants to display his skills to Xuanxuan, leading to choice A. However, the context that Xuanxuan is standing alone not dancing and that he deliberately approaches her suggests a more prosocial motive: encouraging or inviting her to join in, which supports answer C. Both answers are somewhat plausible, but C better captures the implied social intention, so the model’s choice is less contextually accurate."
+        },
+        {
+          "original_index": 417,
+          "current_index": 128,
+          "failed_summary": "The model likely focused on the most salient and concrete association in the story—children seeing apples and receiving candy—which naturally suggests immediate eating, leading it to pick option D. However, the narrative details (Xiao Ming’s sneaky glance, giving candy first, pointing at the tree, and the silent nodding) imply a tacit plan or conspiracy to go pick apples together, i.e., “help Xiao Ming work,” making A the more contextually grounded interpretation. Therefore the model’s choice overlooks the implied cooperative plan and is less reasonable than the human answer."
+        },
+        {
+          "original_index": 452,
+          "current_index": 140,
+          "failed_summary": "The model likely inferred an unstated narrative, treating Mingkai’s wink and smile as evidence of a prearranged secret plan about Taotao. This led it to choose option D, which adds extra background not mentioned in the story, instead of focusing on the immediate, observable situation. In contrast, the human-chosen option C relies only on shared understanding that they are about to select Taotao, making no stronger assumptions than the text supports, so the model’s answer is not well justified even though it seems narratively plausible."
+        },
+        {
+          "original_index": 496,
+          "current_index": 151,
+          "failed_summary": "The story contrasts hardworking Xinxin and Jiayi with Qiaoqiao, who is chatting, then stresses Xinxin’s appreciative smile to Jiayi followed by a serious face and pointing that Qiaoqiao clearly notices. Such nonverbal cues usually signal disapproval and an expectation that the off-task person correct their behavior, so socially aware reasoning favors Qiaoqiao deciding to join the work and ask about the project (C). The model likely fixated on Qiaoqiao’s initial chatting and overlooked these cues, inferring stubbornness and choosing D, but that reading contradicts the narrated recognition of disapproval and is therefore incorrect."
+        },
+        {
+          "original_index": 569,
+          "current_index": 171,
+          "failed_summary": "The model likely focused on the social interaction between Lele and Huanhuan and inferred that Minmin, as the central figure in their planning, would notice their eye contact and feel puzzled, leading it to choose option B about her confusion. However, the passage explicitly states that Minmin \"does not pay attention to the surrounding scene,\" which directly rules out any awareness—let alone confusion—about their nonverbal exchange. Given this explicit information, option C is better supported, and the model’s answer is therefore incorrect."
+        },
+        {
+          "original_index": 669,
+          "current_index": 199,
+          "failed_summary": "The model likely focused on the surface narrative that two strangers suddenly approached Ah Zhen, inferring a simple reaction of surprise rather than discomfort. It seems to have treated the phone call as a mere interruption instead of recognizing that her prior whispering, phone-pointing, and smiling with Ah Hong imply they staged a “rescue call” to avoid engaging with the men. Because it overlooked these social-context clues and avoidance behavior, the model chose B, while C better matches the implication that Ah Zhen feels bothered and would prefer not to interact, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 802,
+          "current_index": 242,
+          "failed_summary": "The model likely focused on surface cues like Zhiming’s loud calling, “special voice,” and exaggerated dancing, interpreting these as socially awkward behaviors that would cause a bystander to feel secondhand embarrassment, hence choosing option C. However, the narrative adds that Xuanxuan “seems less restrained” after observing him, which signals relaxation and positive engagement rather than shame or disgust, aligning more naturally with being amused or attracted, as described in option B. Thus the model’s answer is poorly grounded in the text, whereas the human answer fits better."
+        },
+        {
+          "original_index": 803,
+          "current_index": 243,
+          "failed_summary": "The model focused mainly on a generic teacher‑student dynamic, inferring that the smile was simple encouragement (A) and overlooking the social context that makes the interaction more strategic. In the story, Hua Hua immediately stops talking when Le Le, who previously expressed worries about Xuan Xuan’s ability, approaches and then gives Xuan Xuan a *slight* smile; this timing and subtlety strongly suggest a conspiratorial, “this is our secret” signal (B), not overt encouragement. Thus, the model’s choice is less supported by context, and the human answer better reflects the implied social nuance."
+        },
+        {
+          "original_index": 817,
+          "current_index": 249,
+          "failed_summary": "The model likely focused on the surface fact that the lemon is sour and the brother verbally calls it sweet, which matches option C’s description of “joking,” and it ignored the deeper motivational clause. However, the passage explicitly states that the younger brother pretended to be happy “in order to let his brother also feel the sourness,” which directly corresponds to option A’s retaliation-plus-persuasion motive, not merely joking. Therefore, the model’s choice is incorrect because it captured the observable behavior but missed the explicitly stated underlying intention."
+        },
+        {
+          "original_index": 826,
+          "current_index": 252,
+          "failed_summary": "The story emphasizes Zhiqiang’s *concern* and his experience, then shows him smiling when he sees Xuemei help and quietly returning to his desk, suggesting approval that she has stepped into the mentoring role he otherwise might have taken—this aligns best with option C. The model likely focused too literally on the fact that he did not intervene and then smiled, shallowly mapping that to relief at “not having to help” (option A). It overlooked the social nuance that the smile signals satisfaction with Xuemei’s supportive behavior, not selfish avoidance of responsibility."
+        },
+        {
+          "original_index": 956,
+          "current_index": 304,
+          "failed_summary": "The model likely focused on the literal role of Xiao Yang and Xiao Bai as activity planners, inferring that their main intention was simply to continue planning, so it chose option D, which emphasizes returning to a quiet discussion. However, Xiao Bai pointing at the joke‑telling Xiao Chen, winking, and then laughing with Xiao Yang strongly implies a shared idea about involving Xiao Chen’s humor in the event planning, making option A the more contextually supported inference. Thus the model’s answer is less aligned with the narrative cues, and the human answer better captures the implied intention."
+        },
+        {
+          "original_index": 959,
+          "current_index": 305,
+          "failed_summary": "The model likely focused on the literal, surface sequence of actions: Wang Qiang smiles at Zhao Min, then immediately walks to Li Ming and clinks glasses, which straightforwardly signals alignment with Li Ming’s faction, leading it to choose option A. It underweighted the more subtle cues described—“eyes seem to be searching the crowd” and the brief, somewhat awkward eye contact with Zhao Min—which suggest hesitancy, discomfort, and insincerity rather than confident support. Because the question asks about Zhao Min’s possible interpretation, these nuances make contempt and a “two-faced” judgment in D more contextually appropriate than A."
+        },
+        {
+          "original_index": 985,
+          "current_index": 316,
+          "failed_summary": "The model likely focused on surface cues like “not familiar” and “does not talk to them before,” inferring social distance and thus predicting avoidance, which matches option D’s “ignores … and focuses on playing.” It also may have over-weighted that the question says “do next,” preferring an observable action (ignoring and swinging) rather than an internal mental process, making C seem less like a “next” event. However, the narrative cues—Xiao Mei noticing their eye contact, smiling, and the cooperative tone—more naturally support C, so the model’s choice is less contextually appropriate."
+        },
+        {
+          "original_index": 1016,
+          "current_index": 325,
+          "failed_summary": "The model focused on the immediate, literal cue: Xiao Wang nudges Xiao Li and mouths “pretty girls,” which directly supports option A (drawing Xiao Li’s attention to the girls). The human answer D instead emphasizes the broader social intention implied by the subsequent actions—after the nudge and eye contact, they laugh, coordinate, and then deliberately walk over to talk to Ah Zhen, indicating the nudge was part of initiating that approach together. Both A and D are reasonable interpretations, so the model’s choice is also defensible, though less aligned with the story’s full arc."
+        },
+        {
+          "original_index": 1043,
+          "current_index": 333,
+          "failed_summary": "The story strongly hints that Ah Zhen is preparing to use the phone as a preplanned excuse to disengage: she notices the two men approaching, whispers to Ah Hong, points at her phone, and smiles, implying coordination rather than openness. The model likely overemphasized a socially optimistic narrative, interpreting the situation as harmless friendliness and thus favoring option C’s “give them a chance” framing, instead of reading these nonverbal cues as avoidance. Therefore, its choice is incorrect; option A better matches the implied intention to politely but firmly withdraw."
+        },
+        {
+          "original_index": 1086,
+          "current_index": 351,
+          "failed_summary": "The model likely fixated on the observable action chain: Xiao Gang alerts Xiao Fen, and then they greet Xiao Yun, so it assumed the warning’s purpose was simply to prompt a polite greeting. This overlooks the crucial detail that Xiao Fen first hastily hides the movie ticket, which pragmatically suggests Xiao Gang wants to conceal the invitation and indicates a desire to go to the movie with her alone. Therefore, the human answer (B) better reflects the implied social motive, while the model’s choice (C) is an incomplete, surface interpretation."
+        },
+        {
+          "original_index": 1124,
+          "current_index": 365,
+          "failed_summary": "The model likely overemphasized the sentence “Hao Hao does not notice the exchange between Jie Jie and Lin Lin” and mapped that directly to option D, equating “not noticing” with “feeling confused about the interaction.” This ignores two key cues: Hao Hao “thinks highly of himself” and clearly notices that his task is easier, which strongly supports him feeling slighted and angry, as in option A. Since option D specifically says he “cannot understand the interaction” that he never even saw, the model’s choice is less consistent with the passage."
+        },
+        {
+          "original_index": 1178,
+          "current_index": 381,
+          "failed_summary": "The model likely focused on the literal description that Xiao Hong “looks in the direction of the swing” and then smiles, mapping this directly to option A’s surface-level wording about “seeing something interesting on the playground.” It failed to infer the implied social intention behind the nonverbal exchange—Xiao Hong’s look, smile, Xiao Fang’s nod, and their standing up—signals coordinated action toward Xiao Mei, which aligns better with suggesting making friends (option D). Thus, the model’s choice overlooks the story’s mental-state reasoning and is less contextually justified than the human answer."
+        },
+        {
+          "original_index": 1255,
+          "current_index": 408,
+          "failed_summary": "From the story, Emma’s initial goal is to help her children gain friends by holding a party, and her husband merely offers conditional assistance if she helps with his report. After she fulfills that condition, the logically implied next step is returning to the original joint plan: preparing the children’s party, with no textual hint of a celebration for her husband. The model likely over-relied on surface associations between “husband,” “help,” and “party,” inventing a surprise party scenario not mentioned in the context, so its answer is incorrect."
+        },
+        {
+          "original_index": 1401,
+          "current_index": 453,
+          "failed_summary": "The model likely focused on the overt behavior that seems to signal allegiance—Wang Qiang physically walking toward Li Ming and clinking glasses—while neglecting subtler cues of discomfort and neutrality, such as his wandering gaze. It interpreted the pre‑toast smile toward Zhao Min as a dismissive, face‑saving gesture toward the opposing camp, fitting a narrative of firmly siding with Li Ming rather than one of cautious neutrality. This overemphasis on explicit actions over social context led the model to overlook that B better explains a non‑aligned employee's polite, ambiguous conduct."
+        },
+        {
+          "original_index": 1511,
+          "current_index": 488,
+          "failed_summary": "The model likely fixated on Xiao Liu’s head shake as a literal refusal, assuming this gesture meant “don’t invite Xiao Yun,” so it chose option B. However, the broader context—Xiao Liu’s inner hesitation, his smile, and then his “expectant look” at Xiao Ming—suggests he actually wants Xiao Yun included but prefers Xiao Ming to extend the invitation. Thus option D better reflects the implied social dynamics, and the model’s answer is incorrect because it overweights the head shake and ignores how the later expectant gaze and nod signal agreement to invite Xiao Yun."
+        },
+        {
+          "original_index": 1518,
+          "current_index": 493,
+          "failed_summary": "The model likely relied on a surface association: seeing a big apple tree near Xiao Ming’s home and his smiling gesture suggested to it a friendly invitation to eat apples there, so it chose D. However, the story’s pragmatics imply something more transactional and covert: Xiao Ming first “sneakily” looks, then gives candy as a kind of bribe, and only then points, after which the others wordlessly nod, better matching B’s idea of seeking their help with work like picking apples. Therefore the model’s answer is less contextually justified than the human answer."
+        },
+        {
+          "original_index": 1548,
+          "current_index": 500,
+          "failed_summary": "The passage explicitly states that Xiao Hong invites Xiao Gang and Xiao Fang to take a break in the tea room, where they gather with drinks and chat about weekend plans, which corresponds directly to resting in the pantry. The model likely relied on a loose association between discussing weekend activities and the end of the workday, inferring they were preparing to leave the office rather than paying close attention to the described setting. Thus, the model’s choice is incorrect because it ignored explicit contextual clues about their current location and activity in favor of a plausible but unstated scenario."
+        },
+        {
+          "original_index": 1604,
+          "current_index": 519,
+          "failed_summary": "The model focused on the immediate social interaction: after Mingkai’s wink and Jianning’s nod, it inferred the most concrete, observable next step would be for Taotao to walk over and greet them, so it chose option A. The human answer, D, instead targets the underlying psychological lesson of the item—Taotao regulating his emotions by shifting attention away from being chosen last and toward the upcoming game, which aligns better with typical educational objectives. In everyday social terms both A and D are plausible, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 1605,
+          "current_index": 520,
+          "failed_summary": "The story sets up Xiaoli and Zhiqiang as discussing *who* will take charge, then introduces Feifei’s lack of confidence and the nonverbal cue sequence: Xiaoli looks at Feifei, winks at Zhiqiang, and Zhiqiang then smiles at Feifei. This strongly implies Xiaoli is silently proposing Feifei as the person in charge so she can be included and encouraged, making option C the best-supported answer. The model likely over-focused on the initial discussion between Xiaoli and Zhiqiang, assuming the choice must be between them, leading it to select D, which conflicts with Zhiqiang’s reaction toward Feifei."
+        },
+        {
+          "original_index": 1674,
+          "current_index": 540,
+          "failed_summary": "The model likely focused on the concrete visual detail that the spilled water resembles the sea, so it chose option B as a direct, surface-level cause for Wenhao’s words. However, the question “Why does Wenhao say so?” is really about his intention in context: he and Jinpeng are pretending the table is a pirate ship and inviting their mother into the game, which is captured by option D. Thus, the model’s choice is incorrect because it misses the broader playful, imaginative motivation driving Wenhao’s statement."
+        },
+        {
+          "original_index": 1874,
+          "current_index": 601,
+          "failed_summary": "The model focused on the explicit surface cue that Li Qiang was frowning and “encountering difficulties,” and that Zhang Hua “enthusiastically” asked about the project, which naturally suggests a desire to help, leading it to choose B. It overlooked subtler but crucial narrative hints: Zhang Hua’s suspicious eye contact with Zhou Yan and Zhou Yan’s sneaking to Li Qiang’s desk right after they left, which imply an ulterior motive of probing for information. Therefore, the model’s choice is incorrect because it ignored these contextual signals pointing to D."
+        },
+        {
+          "original_index": 1941,
+          "current_index": 626,
+          "failed_summary": "The model likely focused on the surface context that Yang Hui and Xiao Lin were “planning a volunteer activity,” so option B (“they came up with an idea for a volunteer activity that makes them happy”) felt naturally aligned with that frame. However, the narrative detail that Yang Hui looks at Xiao Wang, whispers, they both laugh, and then immediately invite Xiao Wang strongly implies that the whisper and the laughter are about Xiao Wang himself. Thus, option C better matches the causal chain in the story, and the model’s choice is less contextually supported."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 25,
+      "layer2_cluster_summary": "Across these cases, the model over-relies on surface cues and literal keyword matching, choosing options that echo phrases like “importance,” “experience,” or “valuable” rather than tracking the passage’s precise mechanisms of persuasion. It systematically favors emotionally warm, harmony-preserving, or autonomy-respecting responses over those that foreground concrete action steps, explicit boundary-setting, or realistic compromise structures that actually resolve the described problem. Human answers instead privilege close adherence to textual details, the specified goal (e.g., repayment, balance, rehoming), and pragmatic pedagogy or psychology tailored to each character’s concerns.",
+      "layer2_cluster_size": 10,
+      "original_items": [
+        {
+          "original_index": 306,
+          "current_index": 92,
+          "failed_summary": "The model likely focused on the most immediate, emotionally appealing persuasion tactic, interpreting the question as asking which statement directly highlights a benefit of having the cat, so it chose option C, which stresses warmth and fun. In contrast, the human answer D emphasizes a practical, low‑risk trial arrangement that directly addresses Xiao Zhao’s potential concerns about adapting to the cat, thus making acceptance easier by offering an exit plan. Therefore, the model’s reasoning is understandable but incomplete, because D better matches a realistic compromise strategy and the story’s explicit concern about rehoming the cat."
+        },
+        {
+          "original_index": 307,
+          "current_index": 93,
+          "failed_summary": "The model likely focused on the phrase “tell Xiao Qiang the importance of learning” and matched it literally to option D, which explicitly mentions explaining this importance through real-life examples. In contrast, the human answer C interprets the scenario more pedagogically, recognizing that a rebellious junior-high student is more likely to be persuaded when learning is linked to his own interests and intrinsic motivation. Both C and D are plausible strategies, so the model’s answer is understandable, though C better reflects effective, student-centered persuasion."
+        },
+        {
+          "original_index": 310,
+          "current_index": 95,
+          "failed_summary": "The model likely focused on the phrase “experience the joy of learning firsthand” in option B, interpreting the story’s emphasis on “personal experience” as something Wang Ming himself must undergo. However, the context states that Xiao Hong *herself* participates in many practical activities “hoping to convince Wang Ming through personal experience,” which aligns more directly with option D, where she demonstrates her own practical achievements. Thus, the model’s choice is inconsistent with the story’s mechanism of persuasion, and the human answer better reflects the described situation."
+        },
+        {
+          "original_index": 368,
+          "current_index": 111,
+          "failed_summary": "The model likely prioritized maintaining family harmony and open communication, so it chose option B because it offers a compromise: Xiao Gang voluntarily shares his thoughts at a set time, which seems to “reassure” the father. However, this misses the core issue in the story—unauthorized diary reading violates personal boundaries and privacy—so it fails to directly address or correct the problematic behavior. Option C is better aligned with healthy, assertive communication: it clearly identifies the disrespectful action and states Xiao Gang’s right to privacy, making the model’s choice less appropriate."
+        },
+        {
+          "original_index": 651,
+          "current_index": 196,
+          "failed_summary": "Teacher Lin discovers Wang Lei’s grades are dropping because of late-night music practice and decides to “persuade” him by emphasizing the “importance of balance,” so the key is modeling how to balance study and interests. Option C directly matches this: it explicitly describes sharing other students’ cases about maintaining academics while pursuing dreams, which concretely illustrates balanced development and serves a persuasive, educational function. The model likely chose D because it highlights emotional support and autonomy, but this option lacks explicit guidance on balance, so the model’s choice is less appropriate."
+        },
+        {
+          "original_index": 748,
+          "current_index": 222,
+          "failed_summary": "The model likely focused on the most concrete, action-oriented example of sustainable consumption, so it chose C because “teaching friends to make reusable items” is an explicit, hands-on behavior change clearly tied to sustainability. However, the story emphasizes Xiao Li “discusses the concept … hoping to make them think” differently about purchases, which aligns more directly with B: inviting friends home to *demonstrate* how he integrates sustainable consumption in daily life and thus persuade them conceptually. Both B and C plausibly promote sustainable consumption, so the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 756,
+          "current_index": 225,
+          "failed_summary": "The model likely focused on the phrase about “alleviating his repayment pressure” in option A and inferred that proposing mutual aid could emotionally motivate Xiao Li to repay, interpreting persuasion as mainly offering support and understanding. However, the question is about the concrete way Xiao Yang persuades Xiao Li to actually complete repayment, and option D directly describes a clear repayment action—providing bank information and asking for a transfer—rather than a vague cooperative arrangement. Thus, the model’s choice overlooks the need for a specific, actionable repayment step, so its answer is less appropriate than the human’s answer D."
+        },
+        {
+          "original_index": 933,
+          "current_index": 297,
+          "failed_summary": "The story explicitly says Xiao Chen “shares knowledge” with his family, which aligns most directly with option C’s focus on discussion and exploring definitions of love, rather than with option B’s demonstration through existing friendships. The model probably prioritized a psychological mechanism—normalizing diverse orientations by showing real, relatable people—which makes B feel intuitively persuasive but less textually grounded. Thus, while B could be a plausible real‑world strategy, C is better supported by the given context, so the model’s choice is not the best match to the passage."
+        },
+        {
+          "original_index": 1361,
+          "current_index": 441,
+          "failed_summary": "The model likely chose option C because it aligns with a common pedagogical strategy: start from the child’s existing interests (video games) and then build cognitive links to academic concepts, thereby transforming gaming into a gateway to learning rather than a distraction. In contrast, the human’s choice of B emphasizes broadening Xiao Ming’s exposure to fun, hands-on learning activities that are detached from games but may foster intrinsic motivation to study. Both answers are pedagogically reasonable, so the model’s choice is understandable and not actually incorrect."
+        },
+        {
+          "original_index": 1449,
+          "current_index": 469,
+          "failed_summary": "The model likely fixated on the phrase that mom wanted to \"protect her valuable items,\" so it inferred that emphasizing the cosmetics’ high price (option C) would be the primary, most literal way to persuade Xiaohua. However, the question concerns behavior guidance, and the human answer (B) focuses on offering an appropriate alternative and clear boundaries, which better matches typical parenting strategies for redirecting a child’s play. Thus the model’s choice overrelies on semantic association with “valuable” rather than on pragmatic child-education logic, so the human answer is superior."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 31,
+      "layer2_cluster_summary": "Across these reasons, the model systematically overweights explicit similes or phrases (“like a frog,” “like bird wings,” “like a jellyfish”) and performs literal pattern matching to the closest option. It underweights narrative constraints such as world-building (no animals, no birds, only robots or marine life), ecological plausibility, and characters’ knowledge limits, whereas humans privilege these contextual cues when choosing an answer. Even in the outlier case (Reason 6), the contrast still highlights a tension between surface textual grounding and broader imaginative, world-consistent interpretation.",
+      "layer2_cluster_size": 7,
+      "original_items": [
+        {
+          "original_index": 593,
+          "current_index": 177,
+          "failed_summary": "The model likely fixated on the surface cue “this action reminds people of a frog jump,” then directly mapped that to the closest option, “the jump of a frog,” following a simple pattern-matching heuristic. In doing so, it ignored the crucial contextual constraint that Virdana has no animal life and that Blink only imitates plants, making a plant behavior (the Venus flytrap’s opening and closing) the more contextually consistent choice. Thus, the model’s answer reflects shallow cue matching, while the human answer better respects the story’s world-building logic."
+        },
+        {
+          "original_index": 649,
+          "current_index": 195,
+          "failed_summary": "The model likely fixated on the explicit cue “similar to the action of an elephant flapping its ears,” leading it to choose Elephant as a direct textual match and ignore the broader story context. However, the narrative clearly states there are no large land mammals on Lumina and emphasizes jellyfish-like plankton, making a local jellyfish analogue the more contextually coherent target of Flit’s mimicry. Thus, the human answer (C) better aligns with world-building and ecological plausibility, and the model’s choice (A) is less well-justified in-context."
+        },
+        {
+          "original_index": 1104,
+          "current_index": 360,
+          "failed_summary": "The model fixated on the explicit simile “just like the pulsating movement of a jellyfish swimming in the ocean,” and therefore assumed the correct answer must be “a jellyfish swimming in the ocean.” However, the narrative states that Lumi “knows nothing about aquatic life,” so within the story’s logic it cannot deliberately imitate a jellyfish and is more plausibly copying a local glowing flower’s opening and closing. Thus the model’s answer overlooks the character’s knowledge constraints and confuses the narrator’s metaphor for the reader with Lumi’s in-universe intention, making the human answer better aligned with the story’s internal consistency."
+        },
+        {
+          "original_index": 1152,
+          "current_index": 374,
+          "failed_summary": "The model likely focused on the explicit comparison to “frogs and kangaroos,” performing shallow pattern-matching and picking the most salient animal-like jumper, hence choosing “a jumping frog.” It overlooked the crucial contextual constraint that Cyberton has no animals and that Glitro “knows nothing about them,” which implies Glitro cannot intentionally imitate a frog or kangaroo but can plausibly imitate other robots. Therefore, the model’s answer is not contextually coherent within the story world, while the human’s choice of “a jumping robot” better respects the narrative constraints."
+        },
+        {
+          "original_index": 1235,
+          "current_index": 398,
+          "failed_summary": "The model focused almost exclusively on the explicit cue that Pibo’s arm movement was “very similar to the vibration of bird wings,” so it matched that pattern directly to the most stereotypical wing-vibration example, a hummingbird. In doing so, it ignored the crucial world-building details: Glockta has no birds, Pibo has no knowledge of birds, and the only analogous, salient phenomena available to imitate are the ubiquitous glowing insects like fireflies. Therefore, the human answer better follows the narrative logic, and the model’s choice is unreasonable in context even though it fits the phrasing."
+        },
+        {
+          "original_index": 1544,
+          "current_index": 499,
+          "failed_summary": "The story explicitly says Grimmo’s movement “evok[es] the image of a spinning top or a spinning dancer,” so the model likely focused on this direct cue and chose option A, “A spinning top,” as the most literal match. The human answer D seems driven by the broader environmental description—bioluminescent fungi and minerals—leading them to associate Grimmo with a “glowing mushroom spinning in the wind,” even though nothing in the text mentions mushrooms spinning. Therefore, the model’s choice is well-grounded in the narrative, while the human’s choice is less textually supported."
+        },
+        {
+          "original_index": 1802,
+          "current_index": 579,
+          "failed_summary": "The model focused heavily on the phrase “very similar to the flapping of bird wings,” which primed it to search among the explicitly flying options (B, C, D) and pick another winged creature, the bat in flight, whose motion resembles wing flapping. In doing so, it underweighted the broader narrative context that Aquatica has no birds or flying creatures at all, while being full of marine life, implying Tara’s imitation must come from something underwater. Given that constraint, the human’s answer of fish sliding fins is contextually justified, and the model’s choice is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 35,
+      "layer2_cluster_summary": "Across these items, the model systematically clings to the literal semantic content of utterances or rules and maps them to options that paraphrase what was explicitly said, rather than inferring speakers’ intentions. It repeatedly neglects narrative buildup, emotional tone, shared cultural scripts (e.g., Chinese politeness, market hints, classroom rebukes, romantic tropes), power hierarchies, and subtle cues like gaze, timing, irony, and metaphor that humans use to recover indirect requests, criticism, warnings, or acceptance. This reveals a Theory‑of‑Mind weakness: underweighting pragmatic context and social goals, and defaulting to minimal‑inference, surface‑compatible answers.",
+      "layer2_cluster_size": 28,
+      "original_items": [
+        {
+          "original_index": 19,
+          "current_index": 4,
+          "failed_summary": "The model focused on the literal content of Linda’s final statement (“it is easy to use”) and treated it as a straightforward belief report, so it chose option D. It failed to integrate the broader narrative context: the prior praise, Linda’s high expectations, the repeated errors, the long setup time, and her “sigh of relief” all cue frustration and irony rather than genuine approval. Because it missed this pragmatic, sarcastic reading, the model’s choice is incorrect, and option A better captures Linda’s actual communicative intent."
+        },
+        {
+          "original_index": 50,
+          "current_index": 16,
+          "failed_summary": "The story clearly uses “shining diamond” as a metaphor for Xiao Ming’s value, not to claim he is literally a diamond, so the intended answer is “No.” The model likely focused on the surface fact that Teacher Li *did* utter the words “you are still that shining diamond,” and thus interpreted the question as asking whether that sentence was spoken, instead of whether he truly meant Xiao Ming is a physical diamond. This literal reading ignored the pragmatic intent of the question, leading the model to choose A incorrectly."
+        },
+        {
+          "original_index": 112,
+          "current_index": 41,
+          "failed_summary": "The model likely focused on the explicit narration—Zhiwei and Xiaolan planning a trip and Mingda merely 'listening from behind'—and inferred that the status quo of their discussion would simply continue. It underweighted the pragmatic meaning of Zhiwei’s deliberate glance at Xiaolan and her responsive headshake, which strongly implies a nonverbal negotiation about avoiding Mingda, aligning with option C’s “suggests to Xiaolan to change a place.” By overlooking these subtle social cues, the model defaulted to the more literal, least-inferential option A, making its choice incorrect."
+        },
+        {
+          "original_index": 163,
+          "current_index": 56,
+          "failed_summary": "The model interpreted the woman’s statement literally as a direct expression of her taste, focusing on the explicit content “a little sour is the best” and “I like this kind the most,” which matches option A. However, in pragmatic everyday conversational context (especially at a street stall), such a comment is usually an indirect way to hint to Xiao Zhang that these oranges are actually sour, politely countering the boss’s claim. Thus, the human answer D better captures the implied meaning, and the model’s choice is context-insensitive and incorrect."
+        },
+        {
+          "original_index": 196,
+          "current_index": 65,
+          "failed_summary": "The model likely focused on the literal content of George’s statement—describing the long, hot trip—and interpreted it as primarily an expression of dissatisfaction, which naturally led it to choose option D, “complain to Angela about his trip.” However, the intent of the question is pragmatic, asking for George’s *indirect* communicative goal: by mentioning his tiring journey right as Angela starts business talk, he is politely signaling a need to rest or drink first, which aligns with option C. Thus, the model’s answer misses the implied request and stays at a surface, literal level of meaning."
+        },
+        {
+          "original_index": 241,
+          "current_index": 77,
+          "failed_summary": "The model focused on the literal surface meaning of Xiaohua’s words—complaining about lighting, photographer, and conditions—so it inferred that Xiaohua was mainly dissatisfied with his existing ID photo and wanted a better one, leading to option B. It failed to recognize the implicit cultural and contextual cue that “going to take ID photos together another day” often alludes to couples going to take photos for a marriage registration, which aligns with option C. Given that the narrative frames them as a couple and emphasizes “together,” the human answer better captures this intended subtext, so the model’s choice is incomplete."
+        },
+        {
+          "original_index": 710,
+          "current_index": 210,
+          "failed_summary": "The model read the statement literally, focused on “no one does it all right,” and inferred the principal feels regret, disappointment about the students’ poor performance.  \nThe human answer instead uses context: the message is in a teachers’ group, so the principal is implicitly criticizing teaching quality and urging teachers to reflect and improve methods.  \nBecause the question asks for the “real meaning,” emphasizing pragmatic intention over surface emotion, option B better captures the implied reminder, so the model’s choice is incomplete and ultimately incorrect."
+        },
+        {
+          "original_index": 828,
+          "current_index": 253,
+          "failed_summary": "The model likely focused too literally on the repeated questioning and over‑interpreted it as a deliberate “test,” which made option C (“test Mingkai’s patience”) seem textually supported. It missed the pragmatic, culturally common subtext in workplace hierarchies: a leader repeatedly praising and asking “where did you buy it?” often hints that they want the subordinate to offer it as a gift, which aligns with option B. Thus the model’s choice is less plausible here, because it ignored social-context cues and inferred a more contrived managerial motive."
+        },
+        {
+          "original_index": 980,
+          "current_index": 315,
+          "failed_summary": "The model likely focused on the literal rule (“if two, need both IDs”) and interpreted the repeated question as reiterating that regulation, leading it to choose D as a warning that they cannot stay together without both IDs. It missed the conversational implicature: after Xiao Wang’s “two, what to do?” the clerk repeats “one or two?” to subtly offer a face‑saving workaround—declare “one person” so only one ID is needed—aligning with option C. Thus, the model’s answer is less contextually plausible, and C better captures the clerk’s real intent."
+        },
+        {
+          "original_index": 1008,
+          "current_index": 323,
+          "failed_summary": "The model interpreted the staff member’s words purely literally, focusing on the explicit rule “others can’t sign on behalf” and classifying the reply as a straightforward restatement of bank policy, which corresponds to option C. It failed to pick up the pragmatic implication created by repeating “there is surveillance here,” which in context functions as a hint that the only obstacle is being seen and thus indirectly suggests Hongjie could sign elsewhere, aligning with option B. This reflects a limitation in reading conversational subtext, implied meaning, and culturally grounded hints."
+        },
+        {
+          "original_index": 1025,
+          "current_index": 328,
+          "failed_summary": "The model focused on the explicit narrative surface — that Liu Wei is dramatically telling a tiger story and using the bowl as a visual aid — so it inferred his primary intention was to share an adventurous experience (option D). However, in pragmatic context, especially within many East Asian dining customs, flipping an empty bowl while exaggerating a story is a polite, indirect hint that one wants more food, so the implied meaning is that he is not full (option C). Thus the model missed the cultural cue and chose incorrectly."
+        },
+        {
+          "original_index": 1052,
+          "current_index": 337,
+          "failed_summary": "The model focused too literally on the surface meaning of Zhang San’s words about “melon seeds,” interpreting them as a straightforward warning that the stall might sell fake or low‑quality goods, which led it to choose B. It missed the implied social context: the suspicious money exchange, the boss’s refusal to make change, and Zhang San’s cryptic remark together suggest he is actually hinting that Xiao Ming’s banknote has been swapped for counterfeit. Thus, the deeper inference supports A, and the model’s choice B is ultimately incorrect."
+        },
+        {
+          "original_index": 1066,
+          "current_index": 344,
+          "failed_summary": "The model likely focused on the literal surface action: Wu Xuan “shifts the topic to the photography equipment needed” and brings up “professional skills,” which can be read as displaying expertise, leading it to choose D. However, it missed the pragmatic cue that this shift follows Wu Xuan seeing Yanan reading a snow-mountain guide and occurs amid a dispute over the travel destination, implying an indirect attempt to steer everyone toward a snow-mountain trip. Thus, option C better captures Wu Xuan’s underlying intention, and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1114,
+          "current_index": 363,
+          "failed_summary": "The model appears to have focused on the literal content of Little Zhang’s question (“Can kids eat it?”), which directly matches option C, rather than inferring the underlying communicative intention. A human reader, using pragmatic reasoning and common parent–child interaction patterns, infers that a three-year-old asking this in a supermarket while looking at fruit is indirectly expressing a desire to eat it, thus wanting the parent to buy it (option A). Since everyday conversational implicature strongly favors the “request to buy/eat” interpretation, the model’s answer is less contextually appropriate than the human answer."
+        },
+        {
+          "original_index": 1125,
+          "current_index": 366,
+          "failed_summary": "The model likely focused on the surface tone of the son’s remark, hearing it as humorous banter aimed at his father and thus chose B, interpreting it as “lightening the mood.” However, the deeper pragmatic meaning is that the son is indirectly criticizing the dog owner’s behavior: by saying “dogs don’t know how to read,” he highlights how unreasonable it is to blame the dog instead of the person, aligning with option A. Therefore, the model’s choice misses the implied moral critique, making A the better-supported answer."
+        },
+        {
+          "original_index": 1239,
+          "current_index": 401,
+          "failed_summary": "The model likely focused on the literal content “my mouth is too dry, I can’t think” and inferred an unwillingness or inability to help, leading to option B. It failed to recognize the pragmatic implication: by mentioning a “new bubble tea shop next door” right after being asked for help, Xiao Hong is hinting that he wants Xiao Zhang to buy him a drink first, making A the more contextually appropriate answer. Thus, the model’s choice overlooks the indirect request and misinterprets a hint as simple refusal."
+        },
+        {
+          "original_index": 1287,
+          "current_index": 415,
+          "failed_summary": "The model focused on the literal content of Abin’s utterance, especially the explicit question “do you find my headphones?”, and therefore mapped it directly to option B, interpreting it as a straightforward search for headphones. It failed to integrate the broader context that Abin is preparing for an exam while the roommate is playing loud music, which makes a pragmatic, indirect request to lower the volume much more plausible. Thus, the model’s choice overlooks conversational implicature and is incorrect compared with the more contextually appropriate human answer C."
+        },
+        {
+          "original_index": 1325,
+          "current_index": 428,
+          "failed_summary": "The model likely focused on the literal semantic content of “your laughter really has a unique character,” interpreting “unique” as a straightforward compliment about distinctiveness and charm, which led it to choose C. However, the human answer relies on pragmatic and situational cues: in a quiet self‑study class, a “hearty laugh” is inappropriate, so Shuhua’s “praise” is actually a tactful hint that Mingming is too loud, aligning with B. Thus the model overlooked the implied criticism and indirectness common in everyday speech, misclassifying an ironic remark as genuine praise."
+        },
+        {
+          "original_index": 1336,
+          "current_index": 434,
+          "failed_summary": "The model likely focused on a literal, surface reading of the girl’s words, interpreting them as a polite way to end the interaction, so it chose C (“She does not want to be with the boy”). It underweighted narrative and cultural pragmatics: in romantic story tropes, “I want to go back, what about you?” right after a confession usually implies willingness to walk home together and tacit acceptance, supporting D. While the situation has some ambiguity, the story’s setup and tone make the human answer more contextually appropriate than the model’s."
+        },
+        {
+          "original_index": 1523,
+          "current_index": 495,
+          "failed_summary": "The model focused too literally on Rebecca’s explicit question about the pet store’s opening hours and chose option D, interpreting her “hope” as simply wanting factual information. It failed to perform the pragmatic, commonsense inference that mentioning her love of animals and dogs, tied to her upcoming birthday and a pet store, strongly implies she is hinting that she wants a dog as a present, which aligns with option C. Thus, the model’s choice is incorrect because it misses the social and contextual subtext that humans naturally infer."
+        },
+        {
+          "original_index": 1569,
+          "current_index": 507,
+          "failed_summary": "The model likely focused on the literal surface meaning of “Do you like to eat fish?” and general conversational dynamics, inferring that such an abrupt, off-topic question in a tense meeting is meant to change the subject and ease tension, so it chose D. It missed the culturally specific, metaphorical link in Chinese between “eating fish” and “picking out fish bones,” which parallels Lao Wang’s perfectionism and excessive fault-finding, making C (mocking him for being picky) the more contextually apt answer. Thus, the model’s choice is incorrect because it ignores this pragmatic cultural implication."
+        },
+        {
+          "original_index": 1585,
+          "current_index": 513,
+          "failed_summary": "The model likely focused narrowly on Li Min’s stated hobbies—reading and playing video games at home—and therefore chose option D as the closest literal match to “play video games at home,” ignoring the nuance of Wang Wu’s invitation to “go out together.” A more context-sensitive reading recognizes that, given she is accepting an *outing*, she must pick an out-of-home location that still fits her quiet, intellectual style, making the library (C) the best compromise. Thus, the model’s choice is incorrect because it conflicts with the “go out” condition."
+        },
+        {
+          "original_index": 1689,
+          "current_index": 544,
+          "failed_summary": "The model likely interpreted “Hold your phone well, come down and see” literally, focusing on the invitation to personally inspect the oranges, so it chose option D about checking fruit quality. However, in everyday conversational context—especially in markets—such a remark usually functions as a pragmatic warning that there are pickpockets and the customer should beware of phone theft, which aligns with option C. Because the model missed this cultural and situational implication and treated the sentence at face value, its selected answer is incorrect."
+        },
+        {
+          "original_index": 1850,
+          "current_index": 592,
+          "failed_summary": "The model likely over-literalized the gesture “shakes his head,” interpreting it as a direct refusal of the entire team activity, which made option A (“does not want to participate”) seem plausible. It failed to track the social subtext: Liu Xu’s meaningful look at Meng Nan is a cue to help persuade Bai Haotian to change the activity, and Meng Nan’s head shake plus “seems to have no information” signals unwillingness or inability to cooperate, aligning with D. Thus, the model’s choice is incorrect because it ignored the pragmatic, interpersonal implication of the gesture."
+        },
+        {
+          "original_index": 1868,
+          "current_index": 599,
+          "failed_summary": "The model fixated on the literal wording of Zhao’s statement—“Teacher apologizes… I am really boring”—and thus selected option A, treating it as a genuine apology and honest evaluation of her own teaching. In typical classroom pragmatics, though, such self-deprecating remarks are an indirect, polite way to criticize students’ behavior and urge them to pay attention, which aligns with option C. The model’s choice is therefore incorrect because it missed this implied meaning and failed to apply social-context and pragmatic reasoning about teacher–student interactions."
+        },
+        {
+          "original_index": 1910,
+          "current_index": 614,
+          "failed_summary": "The model focused on the literal surface meaning of the old section chief’s words—“you sit for a while”—and thus inferred a straightforward altruistic intention, that the chief truly wants to give the stool to Xiao Wang (option C). However, the test hinges on pragmatic and cultural inference: the story explicitly notes that the chief is very tired, so his apparently considerate remark is actually a tactful, indirect way of hinting that he himself needs the seat and hopes Xiao Wang will offer it (option A). Therefore, the model’s choice is pragmatically incorrect."
+        },
+        {
+          "original_index": 1965,
+          "current_index": 638,
+          "failed_summary": "The model likely focused on the literal surface information: no explicit statement of the chosen direction and Manager Li’s polite phrase “we will consider it,” which in isolation can suggest the decision is still open, leading to option D. However, the narrative adds pragmatic cues: Li already knows a decision was made before Zhang arrived, the colleague who attended that decision-making meeting signals this with a look, and they immediately move on, implying Zhang’s innovative idea conflicts with an already chosen, existing (traditional) direction. Therefore, the model’s choice is incorrect because it ignored these indirect but decisive contextual implications."
+        },
+        {
+          "original_index": 1986,
+          "current_index": 643,
+          "failed_summary": "The model likely focused on the literal content of the mother repeatedly offering food and interpreted this as her trying to display hospitality, which maps most directly to option C, “show her generosity.” However, the human answer relies on pragmatic and cultural inference: after already giving chocolates, bringing up cutting a whole watermelon is an indirect, face‑saving way to hint that it is late and the guest should prepare to leave. Thus the model’s choice overlooks this social subtext, making A more appropriate than C as the “real intention.”"
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 48,
+      "layer2_cluster_summary": "Across this cluster, the model repeatedly relies on generic narrative or social scripts (success→pride, danger cue→fear, teacher→worry about arrogance) rather than carefully weighing all text-specific cues and discourse markers. It tends to anchor on the most salient or concrete cause mentioned (threats, burglaries, downloads, explicit praise) and often underweights subtler signals of mixed emotions, hidden motives, or contrastive framing like “should…but.” As a result, model answers are frequently psychologically plausible yet less textually grounded than the human choices, especially in stories where real emotional targets involve pressure, uncertainty, or context-driven reinterpretations rather than straightforward first-pass reactions.",
+      "layer2_cluster_size": 10,
+      "original_items": [
+        {
+          "original_index": 100,
+          "current_index": 36,
+          "failed_summary": "The model likely focused on the high-stakes competition context and the word “mistake,” mapping this to a typical emotional script where an assistant fears harming the chef’s chances, so it chose nervousness and worry (A). In doing so, it underweighted the phrase “might have added the wrong seasoning,” which emphasizes Sam’s uncertainty about whether he actually erred, aligning better with confusion (D) as the human answer suggests. Both A and D are reasonable inferences about Sam’s internal state, so the model’s answer is also defensible."
+        },
+        {
+          "original_index": 200,
+          "current_index": 66,
+          "failed_summary": "The model likely focused on the phrases about “a lot of downloads” and “positive feedback,” which naturally suggest satisfaction and accomplishment, leading it to infer that Li Na felt proud. However, the question asks about her reaction to user feedback overall, and the passage explicitly emphasizes that users’ higher expectations “bring pressure invisibly,” implying stress or panic rather than simple pride. Thus the human answer of panic better captures the nuanced emotional outcome described, while the model’s choice overlooks the negative emotional impact of pressure and is therefore not the best-supported interpretation."
+        },
+        {
+          "original_index": 305,
+          "current_index": 91,
+          "failed_summary": "The model likely focused on the most concrete causal chain in the story: heavy security testing implies Li Na is concerned about vulnerabilities, so it inferred that lingering fear of undiscovered flaws (A) explains her anxiety. In contrast, the human answer (D) infers a more abstract emotional dynamic: rapid success and many downloads create high expectations and performance pressure, a common real-world source of anxiety despite success. Both interpretations are reasonable, so both answers are valid and the model’s choice is also logically consistent with the given context."
+        },
+        {
+          "original_index": 326,
+          "current_index": 98,
+          "failed_summary": "The model likely focused on a generic, surface-level pattern: successful innovators often worry about being surpassed, so it chose option A as a plausible emotional reaction to sudden recognition. However, the story’s structure (“should feel proud, but… worried”) implicitly signals a hidden, concrete reason for anxiety, which option D directly provides: he posted something that required prior approval, creating a clear source of worry. Thus, while A is psychologically possible, it is not textually anchored, so the model’s choice is less justified than the human’s answer D."
+        },
+        {
+          "original_index": 405,
+          "current_index": 123,
+          "failed_summary": "The model focused on the explicit success cues in the passage – Su Ting’s work being recognized at a famous exhibition and her mother’s continual encouragement – and inferred that the dominant emotion would be pride in her daughter’s achievements, leading it to choose C. The human answer instead emphasizes the text stating that the family is “very worried” about the “tremendous pressure and competition,” interpreting the mother’s primary emotional state as anxiety or near-panic rather than satisfaction. Both interpretations are reasonable given the mixed emotions described, so the model’s answer is defensible, though the question targets the worry-based option."
+        },
+        {
+          "original_index": 534,
+          "current_index": 161,
+          "failed_summary": "The model likely relied on a common teaching-ethics pattern: after success, good teachers often worry students will become arrogant or complacent, so option B “feels” stereotypically right. However, the passage emphasizes community-wide attention and praise, which more naturally links to concern about external expectations and psychological burden, aligning with D’s “too much pressure” explanation. Given the text doesn’t explicitly favor one specific worry and both complacency and pressure are plausible reactions to winning a big competition, both D and B can be considered reasonable, valid interpretations."
+        },
+        {
+          "original_index": 1323,
+          "current_index": 427,
+          "failed_summary": "The model likely focused on the most explicit cause of fear, choosing option C because it directly mentions Li Na threatening former neighbors, which intuitively explains why Zhang Wei would feel scared rather than merely curious. However, the story context centers on Zhang Wei’s always-closed windows and inferring a situational reason for them, which option A provides by linking the closed windows to recent burglaries and his fear of also being robbed. Therefore the model’s choice overlooks the text-based causal chain and is less supported than the human answer."
+        },
+        {
+          "original_index": 1662,
+          "current_index": 535,
+          "failed_summary": "The model likely relied on a common narrative pattern: hearing footsteps behind you at night in a park is typically associated with danger, so it inferred fear (option A) as the most probable emotion. The human answer instead focuses on the description “very brave,” inferring that bravery reduces fear and makes it more plausible that she would feel curious (option C) about the source of the footsteps rather than scared. Given the ambiguous wording, both interpretations are reasonable, so both answers are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1692,
+          "current_index": 546,
+          "failed_summary": "The model likely focused on the question’s contrast that Li Na “should feel angry at the opponents” yet feels moved, so it searched for an option directly explaining empathy toward the opponents themselves. Option A explicitly states that the opponents are acting out of responsibility for the community, which naturally converts potential anger into admiration, matching this framing more literally than Option D. However, Option D can also make sense by explaining her being moved by supporters despite opposition, so both answers are plausible and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 1834,
+          "current_index": 588,
+          "failed_summary": "The model likely focused on Xiao Ting’s immediate perception and her exclamation “Help! The ghost comes!” and inferred she truly believed it was a real ghost, leading to option C. In contrast, the human answer (A) incorporates the broader context that this is an escape room with an actress, so Xiao Ting rationally “should” know it’s fake yet is still terrified by the realism, which is also plausible. Both A and C are reasonable interpretations of the story’s sparse detail, so the model’s answer is also defensible."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 51,
+      "layer2_cluster_summary": "Across these items, the stories explicitly give a situational, proximal cause (forgetting, distraction, misunderstanding), but the model repeatedly ignores that text-level explanation. Instead it defaults to schema- and trait-based interpretations—\"usually careful,\" \"usually punctual,\" sincerely task-serious—that over-weight a character’s current statement or a salient cue and treat it as evidence of an accurate, belief-driven action. This reveals shallow, local reading that under-integrates earlier narrative information, blurs false-belief vs reliable-memory states, and prefers generic folk-psychological patterns over the specific mental-state causality actually described.",
+      "layer2_cluster_size": 8,
+      "original_items": [
+        {
+          "original_index": 119,
+          "current_index": 43,
+          "failed_summary": "The story explicitly states that Li Ming has already forgotten the dance steps before Xiao Hong asks her question, so the cause of his odd reply is his forgetfulness, matching option B. The model instead latched onto the surface content of his confident-sounding answer (“of course, it’s left turn, right turn, and then jump”) and inferred that he truly believes those are the correct steps, leading to option D. This reflects shallow, local reasoning that prioritizes his immediate statement over the earlier causal information about his memory lapse."
+        },
+        {
+          "original_index": 263,
+          "current_index": 83,
+          "failed_summary": "The story explicitly states that Xiao Ming \"forgot that he hadn't finished tidying up completely,\" which directly supports option B: his incorrect statement results from forgetting the task was incomplete, not from any pattern of usually finishing. The model likely prioritized a more generic, habit-based explanation in option D, interpreting \"he thinks for a moment and says\" as relying on his typical behavior rather than on the specific forgetting described. Thus, the model’s choice is incorrect because it ignores the text’s explicit causal explanation."
+        },
+        {
+          "original_index": 374,
+          "current_index": 112,
+          "failed_summary": "The story explicitly states that Xiaoling “forgot to buy carrots” because she was happily chatting, directly matching option B’s explanation. The model instead focused on her pausing to “think for a moment” and generalized that to a personality trait of being “usually very careful,” which is not mentioned in the text and thus an unsupported inference. Because option D adds a new, unstated cause and ignores the explicit “forgetting” given in the story, the model’s choice is not well grounded and the human answer is better justified."
+        },
+        {
+          "original_index": 1589,
+          "current_index": 516,
+          "failed_summary": "The model likely focused on a dispositional explanation, inferring that because Xiaoling “usually takes such tasks seriously,” she sincerely believes she cleaned, leading it to choose D as a trait-based, honest-mistake account. However, the story explicitly states she “completely” forgot her mother’s request, then only “seems to” recall cleaning, which better supports the human answer B, emphasizing memory failure rather than stable character. The model’s reasoning overlooked the narrative’s strong situational cue of forgetfulness and instead over-relied on a generic psychological pattern about self-perception and usual behavior."
+        },
+        {
+          "original_index": 1749,
+          "current_index": 559,
+          "failed_summary": "The model likely defaulted to a generic commonsense pattern: people often believe they have completed routine tasks (“usually punctual”) and thus might honestly think they returned the book, leading it to choose D. However, the story explicitly highlights that Xiao Zhang was “reading in the park until it gets dark” and then “rushes home in a hurry,” making distraction and forgetting—captured in option B—directly supported by the given context. Because option D relies on an invented trait (his usual punctuality) not mentioned in the text, the model’s choice is less justified and effectively incorrect."
+        },
+        {
+          "original_index": 1821,
+          "current_index": 586,
+          "failed_summary": "The story explicitly says Ali’s error happens “due to a misunderstanding,” which aligns most directly with option C: he wrongly believes all donations should be handled the same, indicating a cognitive misinterpretation of instructions. Option D implies Ali sees the special mark and deliberately dismisses its importance, which is a conscious disregard, not a misunderstanding, and is therefore less consistent with the narrative. The model likely overemphasized the presence of the “special mark” and inferred intentional neglect rather than an honest misreading of the instructions, leading it to choose D incorrectly."
+        },
+        {
+          "original_index": 1863,
+          "current_index": 596,
+          "failed_summary": "The model likely focused on Li Ming’s *belief* at dinner (“It is in my bag”) and interpreted this as evidence that he consciously remembers placing the ball there, leading it to choose D. However, the story explicitly says he forgot to take the football from the park and only *thinks* it is in his backpack, indicating a false belief rather than an accurate memory. Therefore, option B matches the causal explanation for his statement, while D contradicts the narrative, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1946,
+          "current_index": 629,
+          "failed_summary": "The story explicitly states that Xiao Chen “rushes out of the house and forgets” and that he “thinks he waters the flowers,” directly supporting option B’s idea of memory failure due to being absorbed in play. Option D introduces an extra assumption—that he believes he watered them because he is usually responsible—which is not mentioned in the text and reflects the model’s reliance on generic schemas about “responsible children” rather than the given details. Therefore, the model’s choice is not textually grounded, and the human answer is better supported."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 52,
+      "layer2_cluster_summary": "Across these items, the model repeatedly latches onto salient surface cues (diligence, inspirational figures, crowding, longstanding collaboration) and converts them into generic, emotionally flavored persuasive strategies. In contrast, the human answers track the characters’ underlying motivational structure—risk aversion, concern for feasibility, fear of loss, and concrete economic incentives—and select options that directly resolve those core concerns. The discrepancy pattern is thus: the model overuses warmth, compromise, or inspiration as default heuristics, while humans more flexibly choose between emotional leverage and hard evidence depending on each agent’s specific stakes and priorities.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 4,
+          "current_index": 1,
+          "failed_summary": "The model likely overemphasized the narrative detail that Zhang San \"works hard and diligently,\" inferring that appealing to Li Si’s trust in his character (option A) is the key persuasive route. However, Li Si’s stated objections are about technical and economic feasibility, which are best addressed by providing objective supporting evidence such as successful analogous cases (option B), making the human answer more logically aligned with the scenario’s constraints. Thus the model’s choice is less appropriate here because it relies on emotional trust instead of directly addressing the substantive concerns."
+        },
+        {
+          "original_index": 21,
+          "current_index": 6,
+          "failed_summary": "The model likely focused on the persuasive power of inspirational role models, so it chose option A, which suggests citing famous entrepreneurs like Jack Ma and Zhang Yiming to highlight potential success. However, the scenario describes Uncle Li as valuing stability and long‑term security, so the human judged that option C—demonstrating a concrete business plan aligned with current and future market needs—directly addresses his core concern about risk. Because convincing a risk‑averse person usually requires solid evidence of feasibility rather than anecdotes, the human answer better fits the narrative context, and the model’s choice is less appropriate here."
+        },
+        {
+          "original_index": 396,
+          "current_index": 121,
+          "failed_summary": "The model likely focused on directly addressing Li Si’s explicit concern—there being too many people—so it selected option A, which offers a low-risk, trial-and-see compromise. In contrast, the human chose option C, which uses a fear-of-missing-out appeal by reminding Li Si of a previous unrealized plan, emphasizing opportunity and emotional motivation rather than risk reduction. Both strategies plausibly convince Li Si, so both answers are reasonable; the discrepancy arises from the model prioritizing practical mitigation of crowd risk, while the human answer prioritizes persuasive emotional leverage and urgency."
+        },
+        {
+          "original_index": 544,
+          "current_index": 164,
+          "failed_summary": "The model likely focused on interpersonal warmth and loyalty, seeing option A’s emotional appeal (“we’ve worked together for many years”) as a natural way for a manager to persuade a valued subordinate to stay. However, the scenario specifically involves Li Ming planning to join a competitor, raising concrete concerns about retention and trade secrets, where a strong, tangible incentive like a raise (option D) better addresses both motivation and risk. Thus the model’s choice underestimates the importance of practical benefits and organizational stakes, making its answer less appropriate than the human answer."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 53,
+      "layer2_cluster_summary": "Across these items, the model repeatedly privileges literal surface cues—explicit actions, stated reasons, and immediate events—over implied mental states, long‑term goals, and narrative setup, so it often tracks “what happened” rather than “what people are thinking.” When it does infer motives, it leans on generic social scripts and culturally or normatively “ideal” behaviors (conflict‑avoidance, professionalism, politeness, helpfulness), underweighting story‑specific signals that point to more idiosyncratic or emotionally messy intentions. As a result, many model answers are text‑plausible but miss stronger, context‑integrated human inferences.",
+      "layer2_cluster_size": 34,
+      "original_items": [
+        {
+          "original_index": 70,
+          "current_index": 24,
+          "failed_summary": "The model likely focused on the explicit content of the story: nowhere does Xiao Wu say he really wants to be outstanding employee, nor does Xiao Zhang explicitly recognize such a desire. From that literal perspective, Xiao Zhang only expresses a general hope that Xiao Wu will receive the honor next month, which can be interpreted as polite encouragement rather than evidence of knowledge about Xiao Wu’s true wishes. Under this reading the model’s answer is plausible, so both A and B can be viewed as reasonable, text-supported interpretations."
+        },
+        {
+          "original_index": 72,
+          "current_index": 25,
+          "failed_summary": "The story explicitly sets up a conflict between Xiaoli’s desire to watch a long‑awaited movie and her grandfather’s strong wish to have a family birthday dinner, then shows her changing course after he asks whether she is going out. This narrative structure implies her motivation is to avoid disappointing her grandfather on his birthday, making option A the most directly supported explanation. The model instead chose C, likely over‑generalizing from common cultural values about family togetherness and inferring she “actually prefers” family time, a motive not stated or implied in the text."
+        },
+        {
+          "original_index": 148,
+          "current_index": 50,
+          "failed_summary": "The story explicitly states that Li Jun “does not speak anymore, and continues to work,” which maps very directly to option D, so the model likely focused on the literal described behavior rather than inferring inner thoughts. The human answer A requires a theory‑of‑mind inference: that his silent thinking, frown, and the leave slip together imply a change of attitude and empathetic reassessment of Chen Yu’s leave. Both A and D are therefore reasonable: A captures the implied psychological process, while D captures the concrete action, so the model’s answer is also valid."
+        },
+        {
+          "original_index": 162,
+          "current_index": 55,
+          "failed_summary": "The model likely fixated on the literal events—Xiao Qing not seeing Yu Xuan receive the flower and him secretly slipping it into her bag—so it predicted she’d be confused on later finding the sunflower. The human answer instead uses social-emotional inference: both partners heard the old lady clearly frame the bouquet as a reconciliation symbol, so Xiao Qing can reasonably link the sunflower to Yu Xuan’s apology and feel moved. Therefore the model’s choice is weaker given the shared context, and its disagreement comes from underestimating her ability to infer his conciliatory intent."
+        },
+        {
+          "original_index": 194,
+          "current_index": 64,
+          "failed_summary": "The model likely focused on Yi Jia’s hesitant reaction and apparent distress, inferring a specific interpersonal discomfort with Li Li and therefore chose option D, where Hua Hua signals Li Li to leave. However, the story never hints that Yi Jia objects particularly to Li Li’s presence; it only shows she is upset and overwhelmed, making a preference for fewer visitors and more quiet (option A) more textually grounded. Thus the human answer better reflects cautious, minimal assumptions about the situation, while the model’s choice over-interprets limited cues and is not as well supported by the narrative context."
+        },
+        {
+          "original_index": 210,
+          "current_index": 69,
+          "failed_summary": "The model likely failed to track Susan’s explicit, unresolved goal of eating the chocolate cookies she had just baked, and instead relied on a generic script that people often go to sleep after finishing daytime activities. The story directly sets up a deferred intention—she stores the cookies, goes swimming, then presumably returns to fulfill her original desire—so eating the cookies is the most coherent continuation and matches commonsense event structure. Therefore, option D is not well supported by the context, while option A is narratively and logically preferred."
+        },
+        {
+          "original_index": 252,
+          "current_index": 81,
+          "failed_summary": "The model likely prioritized interpersonal drama over contextual details, interpreting Mrs. Zhao’s unexpected anxiety as suspicion toward her husband, so it chose D, focusing on hidden motives behind a suddenly romantic trip. However, the passage emphasizes a harmonious, affluent family and a loving husband, which weakens explanations about financial stress or marital distrust and instead makes a scheduling conflict, such as important work plans in A, more contextually coherent. Both A and D can be narratively plausible, but A better aligns with the explicitly positive relationship description, so the model’s choice is less supported."
+        },
+        {
+          "original_index": 343,
+          "current_index": 103,
+          "failed_summary": "The model likely inferred that because Director Zhang confidently proposed changing the project direction in a formal meeting, he must already know a direction is set and is intentionally trying to alter it. It may also have over-interpreted Manager Li’s polite, formulaic response (“we will consider it”) as evidence of shared prior discussion or mutual awareness of a fixed decision, rather than a face-saving rejection. However, the story more naturally implies Director Zhang is *not* aware the decision is already finalized, so the model’s choice is less well-supported."
+        },
+        {
+          "original_index": 366,
+          "current_index": 110,
+          "failed_summary": "The model probably relied on a generic pattern that large, sudden wealth makes inexperienced people anxious about managing money, so it chose option A as the most intuitive explanation. However, the passage explicitly describes Zhang Li as “a little financial expert” and notes that her friends are “honest and kind,” which weakens options A and B and instead points to a more subtle concern: the impact of money on her normal life, i.e., option C. Therefore, the model’s choice is not well supported by the given context."
+        },
+        {
+          "original_index": 402,
+          "current_index": 122,
+          "failed_summary": "The model likely focused on the explicit narrative emphasis that Xiao Li is nervous and needs comfort, so it selected option D, which directly mentions relieving tension and using comforting words. Option A instead foregrounds building trust in the hospital, which is less directly supported by the story text, so the model considered it a secondary or implicit motive. Both A and D are arguably valid interpretations, but D aligns more tightly with the described situation, so the model’s choice is also reasonable and not clearly incorrect."
+        },
+        {
+          "original_index": 422,
+          "current_index": 130,
+          "failed_summary": "Jack is depicted as noticing the tense atmosphere yet explicitly “does not go to disturb them” and only “quietly observes at the door,” which strongly aligns with option B’s implication that he waits until the meeting ends before communicating. The model likely relied on this literal behavioral cue and on social norms about not interrupting meetings, so it inferred a cautious, non‑intrusive response instead of the more proactive mediation implied by option D. Both answers are arguably valid, but the model’s choice is textually well‑supported and thus also correct."
+        },
+        {
+          "original_index": 589,
+          "current_index": 176,
+          "failed_summary": "The model likely favored D because it reflects calm, “ideal” behavior: avoiding confrontation (A), gossip and speculation (B), and even over-interpretation (C), instead choosing a self-focused, non‑reactive response that aligns with prudence and many alignment/safety norms. A human, however, often reacts emotionally in competitive, ambiguous situations, so B—venting suspicion to colleagues for validation or advice—better captures typical social psychology and workplace dynamics. Both B and D are valid interpretations of what Sanming might do next, so the model’s answer is also reasonable, just more normatively idealized."
+        },
+        {
+          "original_index": 831,
+          "current_index": 254,
+          "failed_summary": "The story frames Chen Jie as a responsible project leader worried about team commitment before a deadline, so leaving a marked report and then “pretending” to go to the copy room implies he wants to secretly observe and then intervene, especially with Old Li who is trying to leave, aligning most strongly with option C. The model likely overemphasized the literal action of “leaving the office” and underused social/managerial context, defaulting to the superficially compatible but weaker option D. Thus the model’s choice is less reasonable and C better fits Chen Jie’s implied intent."
+        },
+        {
+          "original_index": 891,
+          "current_index": 278,
+          "failed_summary": "The model focused mainly on the factual mismatch (“Xiao Ming is absent but Xiao Hong says everyone was there”) and jumped to the straightforward deception explanation in option A, without weighing the story’s specific clues. It ignored the deliberately included detail that Xiao Ming “usually doesn’t like to talk,” which signals that he is easy to overlook and directly supports option D’s “she doesn’t notice/forgets him” interpretation rather than a cover‑up motive. Therefore, the model’s choice is not well‑grounded in the text, and the human answer D is better justified."
+        },
+        {
+          "original_index": 978,
+          "current_index": 313,
+          "failed_summary": "The passage emphasizes that Mr. Zhao cares a lot about others’ opinions and that the earlier conflict over the cow is already “in the past,” which points away from resentment (B, C) and toward concern for his reputation if he fails at treating an animal, i.e., D. The model instead fixated on the explicit statement that he is busy and on the description of many waiting patients, taking his excuse at face value and choosing A. In doing so, it missed the inferential cue that the question asks for his underlying motive, not his spoken reason."
+        },
+        {
+          "original_index": 1090,
+          "current_index": 352,
+          "failed_summary": "The model likely prioritized a generic conflict-avoidance pattern, inferring that Xiao Gang stayed silent because he feared Xiao Ming’s reaction to losing the puppy, which directly matches option A’s wording. It paid less attention to the narrative emphasis that Xiao Ming “likes dogs very much,” a detail that more strongly supports option D’s interpretation that Xiao Gang didn’t want to disappoint or sadden his friend rather than being afraid of him. Since the question asks about a “possible” intention, both A and D are logically defensible, so the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 1098,
+          "current_index": 358,
+          "failed_summary": "The story emphasizes an approaching deadline, overtime work, and Chen Jie’s deliberate use of a red‑marked progress report as a subtle reminder about performance and responsibility. After Su Qing reads that report, the most straightforward consequence is a concrete change in work behavior—working extra hours to improve efficiency, matching option B. The model focused instead on her earlier lack of concentration and inferred she would seek emotional support by talking with colleagues (C), but this is less grounded in the manager’s strategic cue, so the model’s choice is likely incorrect."
+        },
+        {
+          "original_index": 1107,
+          "current_index": 361,
+          "failed_summary": "The model likely focused on the lack of explicit description of Xiaoling’s inner thoughts and on the ambiguity of Zhiming’s motives, so it defaulted to option A, interpreting her as merely confused by unexplained behavior. A more socially inferential reading notices the urgent clock-checking, Zhiming leaving before closing time, Jiancheng’s helpless expression, and the document transfer, all of which imply Zhiming is offloading work. From that perspective, the human answer D is better supported by context, and the model’s choice is not the strongest interpretation."
+        },
+        {
+          "original_index": 1160,
+          "current_index": 375,
+          "failed_summary": "The model likely focused on the explicit behavioral cues: Zhang Quan “does not want to actively participate,” stays silent when asked, and then frowns after Jingya leaves, all of which strongly suggest rejection, making option D feel directly supported by the text. The human answer A instead assumes a change of heart, reading the scene as emotional pressure or moral prompting that eventually leads him to help with the activity, even though this outcome is not stated. Given the ambiguity and lack of explicit resolution, both answers are narratively plausible, so the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 1214,
+          "current_index": 392,
+          "failed_summary": "The model likely focused on the immediate interaction with the picky customer and interpreted the sudden note as a tactical move to interrupt or redirect the conversation, so it chose option D (“tries to distract the customer”). However, the story emphasizes Xuemei’s covert observation, her careful, supportive timing, and Zhiqiang’s approving smile, all of which frame the note as quiet help for a struggling colleague rather than a customer-management ploy. Thus the model’s answer overlooks these empathy cues, making B the better-supported and D an implausible interpretation."
+        },
+        {
+          "original_index": 1290,
+          "current_index": 416,
+          "failed_summary": "The model likely fixated on the superficial pattern of two colleagues exchanging looks, using their phones, and not speaking to Xiao Ling, which resembles social exclusion. By prioritizing this generic script, it underweighted crucial context: the birthday marked on the calendar, the Taobao gift page, and their satisfied nods toward a chosen item. These cues strongly indicate Rui Li and Zhi Qiang are planning a pleasant birthday surprise, so option A aligns far better with typical human social reasoning than B."
+        },
+        {
+          "original_index": 1321,
+          "current_index": 426,
+          "failed_summary": "The story emphasizes that Xiao Gang “takes a deep breath and continues to work,” suggesting he is processing his emotions but remaining task‑focused within the same situation, not escaping into unrelated fantasies like weekend plans or vacations. Option C describes a clear attentional shift to non‑work topics, which contradicts the text, whereas Option B better fits a quiet, internal re‑evaluation of Xiao Zhang’s behavior and the situation. The model likely overgeneralized “coping with discomfort” to mean distraction/avoidance, causing it to select C instead of the more text‑consistent B."
+        },
+        {
+          "original_index": 1543,
+          "current_index": 498,
+          "failed_summary": "The model likely focused on Xiaoyue’s social motivations: she hides her mistakes during the conversation, which can be interpreted as trying to avoid letting her friends down, leading it to choose option B. The human, instead, keyed on the line that she “tries to pretend she does as well as them,” which more directly supports option C, emphasizing her desire to appear equally competent rather than concern about others’ disappointment. Both answers are plausible social explanations of her behavior, so the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 1560,
+          "current_index": 505,
+          "failed_summary": "The model likely focused on the suspicious behavior between Huang Li and Chen Jie—the sudden stop in conversation and secretive eye contact—and overgeneralized that this would make Wang Qiang feel they were discussing him, thus choosing B. However, the text explicitly states Wang Qiang “does not hear the conversation” and only directly experiences a neutral, polite nod and smile, which supports the simpler, surface-level interpretation that he just feels politely treated, matching A. Therefore, the model’s answer is not well-grounded in Wang Qiang’s perspective and is less appropriate than A."
+        },
+        {
+          "original_index": 1588,
+          "current_index": 515,
+          "failed_summary": "The story frames Chen Jie as worried about Su Qing’s lack of focus and deliberately leaving a progress report with “noticeable red marks,” which in most contexts implies criticism and a reminder to correct behavior, not simple praise. A careful reader infers that Su Qing, upon reading a marked report left as a hint, would reflect on her recent performance and realize she should adjust her work attitude, matching option B. The model likely overemphasized Chen Jie’s subtle, non-confrontational method as supportive “encouragement,” so its choice of C is not the best interpretation."
+        },
+        {
+          "original_index": 1610,
+          "current_index": 521,
+          "failed_summary": "The model likely followed a generic troubleshooting pattern: when seeing “blue screen,” it defaulted to a standard first-step response—check hardware connections and try safe mode—without deeply integrating the social and ethical context. It underweighted the suspicious behavior (Zhang Hua using Li Ming’s computer secretly, acting unnaturally, then trying to distract him) and the high stakes of the promotion-linked project, where possible sabotage and data loss make internal reporting and professional IT help more appropriate. Thus, the model’s choice of A is context-insensitive, and B is the better-supported answer in this scenario."
+        },
+        {
+          "original_index": 1645,
+          "current_index": 531,
+          "failed_summary": "The model focused on the love-triangle tension and inferred that Xiaoliang might suspect a secret between Xiaoxia and Xiaomei, extrapolating from Xiaoxia’s furtive gift-giving and distraction behavior. However, the text never shows Xiaoliang witnessing the gift or acting suspicious; the only clearly described internal state that can be safely inferred for him is happiness or gratitude when Xiaomei rushes to help after his fall. Therefore, the model’s choice is incorrect because it relies on unsupported speculation, while option D follows directly from explicit, observable events in the story."
+        },
+        {
+          "original_index": 1690,
+          "current_index": 545,
+          "failed_summary": "The model likely focused rigidly on Xiao Hong’s sense of responsibility and the phrase “important project report,” inferring she would sacrifice the meeting entirely and just keep studying. In doing so, it underweighted her excitement about seeing her pen pal, Xiao Lu’s explicit suggestion to finish the report and then meet, and the library’s announcement that it is about to close, which together point toward completing the report as the primary, feasible action. Therefore the human choice A is better supported by the narrative than D."
+        },
+        {
+          "original_index": 1760,
+          "current_index": 563,
+          "failed_summary": "The story says the dish actually tastes good and the mother is gratified and moved to tears, so her crying comes from being touched, not from the food being bad. Option B assumes the food is not delicious and makes her cry, directly contradicting the text, whereas Option C matches the situation that Xiao Ping misreads emotional tears as dissatisfaction with his cooking. Thus the model seems to rely on his stated lack of cooking skill and a simplistic cause‑effect link to the mother’s tears, overlooking the “tastes quite good” cue and making B an unjustified choice over C."
+        },
+        {
+          "original_index": 1778,
+          "current_index": 570,
+          "failed_summary": "The model likely focused on David’s established kindness toward the elderly and inferred that, after repairing the facilities, he would naturally remain with them and chat, hence choosing option D. It may also have treated the cancellation of the BBQ as permanent, so reorganizing the party (A) seemed unjustified without explicit textual support about rescheduling. Because the story never states what happens afterward, the question is speculative and both A and D are reasonable continuations, so the model’s socially focused answer is also defensible."
+        },
+        {
+          "original_index": 1815,
+          "current_index": 584,
+          "failed_summary": "First, the model likely focused on a generic, surface-level explanation—“no time to prepare”—because it is a common stock reason for refusing optional activities, instead of integrating the story’s specific cues about Xiaohua’s personality. Second, it underused the crucial details that he highly values grades, the contest is “very difficult,” and he still wants to challenge it, which together imply an internal conflict driven by fear of performing poorly and being mocked, matching option A. Therefore, the model’s choice is not well grounded in the context, and A is clearly better supported."
+        },
+        {
+          "original_index": 1816,
+          "current_index": 585,
+          "failed_summary": "The model likely relied on shallow keyword matching, noticing that Zhao Yang’s behavior attracted help and linking this to option C’s idea of classmates helping him. Because the given context never mentions cleaning duties like sweeping or washing windows, the model saw no cue to connect the supermarket prank with option B’s motive of avoiding chores. So the model’s answer is understandable under incomplete context, but in the full narrative B better fits his real intention and C lacks textual support."
+        },
+        {
+          "original_index": 1854,
+          "current_index": 594,
+          "failed_summary": "The model likely focused on immediate workplace professionalism and literal story continuity: the passage already shows Li Li “continues to focus on her screen,” so it chose option C as a direct extension of her current behavior and a low‑risk, task‑oriented response. The human answer B instead treats the question as probing emotional coping style, inferring that her noticing the “complex look” triggers stress that she then vents online, even though this is not explicitly described. Both answers are therefore defensible: C matches the text’s surface narrative, while B reflects a plausible, albeit maladaptive, psychological reaction."
+        },
+        {
+          "original_index": 1869,
+          "current_index": 600,
+          "failed_summary": "The story states that the three hosts rarely get to eat together, then shows Dapeng quickly stopping Qingqing as she is about to leave and Bald Qiang also joining, which clearly sets up an invitation to dinner. The model seems to have ignored this key contextual setup and instead relied on a generic pattern that people who hurry to catch someone might be asking for contact information, so it selected option B. Since the passage gives no hint about phone numbers but highlights the lack of shared meals, the model’s answer is weakly supported and the human answer fits better."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 55,
+      "layer2_cluster_summary": "Both reasons emphasize a tension between Mr. Yang’s public statements and his privately described mental state, with the narrative clearly privileging the latter as ground truth. They argue the model systematically over-relies on literal spoken assertions (“fully support,” “crucial”) while discounting explicit corrective markers like “actually” and the narrator’s direct access to his concerns, leading it to misjudge sincerity. Together, these analyses highlight a recurring failure to integrate social context and power dynamics (fear of repercussions) into Theory of Mind inferences.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 883,
+          "current_index": 275,
+          "failed_summary": "The story explicitly contrasts Mr. Yang’s public statement of “fully” supporting the restructuring with the assistant’s privileged knowledge that he actually has serious concerns, indicating he is not being truthful. The model likely focused on the possibility that someone can still “support” a plan while harboring doubts, conflating partial or pragmatic support with the claim of “full” support and overlooking the corrective cue word “actually.” Therefore, the model’s choice is incorrect, because the narrative frames his statement as insincere and thus not truthful."
+        },
+        {
+          "original_index": 1370,
+          "current_index": 444,
+          "failed_summary": "The story explicitly states that Mr. Yang actually has serious concerns about the plan, which directly contradicts option B’s claim that he truly believes the restructuring is crucial, so the model likely over-trusted his spoken words instead of the narrator’s clarification about his real attitude. Because the options require explaining why he publicly supports the plan despite his private doubts, option A offers a more coherent inference: he is afraid that openly criticizing the plan, especially before a board meeting, could jeopardize his position or status. Therefore, the model’s answer is not valid given the passage."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 74,
+      "layer2_cluster_summary": "Across these reasons, the model repeatedly privileges observable actions, social stereotypes, or external circumstances over the explicitly stated internal states and perspectives of the characters. It tends to equate “want” or “readiness” with what someone does or what others expect—e.g., presenting a project or turning off a light—rather than with the character’s own feelings of fear or reluctance. This pattern shows a consistent confusion between subjective mental states and objective facts, leading the model to misjudge whether statements are truthful or actions reveal genuine preferences.",
+      "layer2_cluster_size": 3,
+      "original_items": [
+        {
+          "original_index": 1136,
+          "current_index": 369,
+          "failed_summary": "The model likely focused on a common social-psychology trope—that people, especially children, may hide fears to avoid seeming cowardly—so it chose B, assuming Xiao Lin turns off the light to protect his image. However, the story explicitly states that “everyone knows” he needs a nightlight, meaning his friend already knows he’s afraid of the dark, which weakens the face-saving explanation and instead supports a considerate motive. Thus, D fits the given context better, and the model’s choice is not the best-supported interpretation."
+        },
+        {
+          "original_index": 1191,
+          "current_index": 386,
+          "failed_summary": "The story states that Xiao Ming is afraid to speak in front of everyone, so when he tells the teacher he doesn’t want to display his project and is not ready, his words match his internal state, making option A (“Yes”) correct. The model likely interpreted “ready” as an objective requirement—assuming that because his project was selected for the exhibition, he must in fact be ready or obliged to present, so his denial was treated as false. This confusion between subjective feelings and external circumstances led the model to choose B incorrectly."
+        },
+        {
+          "original_index": 1670,
+          "current_index": 538,
+          "failed_summary": "The story states Xiao Lin is very afraid of the dark and always needs a nightlight, showing his true preference is to keep the light on. When his friend stays over, he turns it off, most plausibly from embarrassment or social pressure rather than an authentic desire to sleep in darkness. The model likely focused on his deliberate action and interpreted “want” as simply choosing to do something, ignoring the contrast between external behavior and inner fear, so its answer is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 75,
+      "layer2_cluster_summary": "Across these cases, the model repeatedly over-relies on salient surface cues—explicit traits, first events, literal gestures, or familiar story templates—while neglecting later details that constrain interpretation. It often fails to track characters’ deeper intentions, value conflicts, strategic behavior, and age-appropriate motivations, so it misses when silence, smiles, nods, or setting choices are actually indirect signals of hidden plans, deference, or sabotage. The human answers instead integrate the full narrative context, temporal ordering, and implied mental states, yielding more precise attributions of belief, desire, and causal explanation in most items.",
+      "layer2_cluster_size": 14,
+      "original_items": [
+        {
+          "original_index": 57,
+          "current_index": 17,
+          "failed_summary": "The model likely focused on a familiar narrative pattern: annoyance turning into joy upon discovering the loud customer is an old friend, which directly matches option A’s storyline. In doing so, it underweighted the critical detail that Liu Yang “finds that he does not know that person,” a statement that logically rules out any recognition of an old friend and therefore contradicts option A. Because option B does not conflict with this detail while still explaining his unexpected happiness, the model’s choice is incorrect and the human answer is better supported."
+        },
+        {
+          "original_index": 542,
+          "current_index": 163,
+          "failed_summary": "Given the story, Lily’s choice to stay silent while secretly gathering proof of Andy’s lies directly matches option C, where her silence is a strategy to lower his guard and defeat him later. The model likely relied on a generic pattern—candidates avoiding open attacks to appear kind or civil—and thus chose option B, emphasizing kindness rather than tactical evidence-collection. Because the text explicitly states she “collects evidence of Andy's false political achievements behind the scenes,” the human’s answer C is better grounded in the narrative, and the model’s choice B is not well supported."
+        },
+        {
+          "original_index": 656,
+          "current_index": 198,
+          "failed_summary": "The model focused on the explicit description “he is a very greedy boy” and matched it directly to option B, which restates this trait, instead of analyzing the specific reason for his statement. It failed to integrate the later detail that he lies (“I don't eat dinner when I get home”) as a manipulative excuse to bypass the two‑sausage rule, which is exactly what option A describes: arousing sympathy deceptively to get more food. Thus, the model’s choice is incomplete and the human answer A is the better, more precise explanation."
+        },
+        {
+          "original_index": 850,
+          "current_index": 261,
+          "failed_summary": "The model probably fixated on the words “art exhibition celebration banquet,” interpreting it as a high-profile but pleasant social occasion that lets Zhang Wei pursue connections and success while still involving Zhao Li’s artistic interests. By contrast, the passage stresses that Zhao Li values leisurely appreciation of beauty over material or status-oriented success, which a formal celebration banquet symbolically emphasizes through honor, achievement, and social display. A gallery opening ceremony (B) focuses more purely on viewing and discussing art, aligning better with her philosophy, so the human answer fits the narrative and the model’s choice is weaker."
+        },
+        {
+          "original_index": 866,
+          "current_index": 265,
+          "failed_summary": "The model likely fixated on Zhang Wei’s pride as a “successful plastic product sales manager” who just received an award, so it inferred he’d celebrate by showcasing his achievement at the company (option B). The human answer (A) instead reads the social context and value conflict, assuming Zhang Wei will choose a green-themed restaurant to respect Li Hua’s environmental beliefs and soften their ideological opposition. Both answers are narratively plausible, so the human choice isn’t uniquely correct; the model’s answer is also logically defensible from Zhang Wei’s perspective."
+        },
+        {
+          "original_index": 930,
+          "current_index": 294,
+          "failed_summary": "The model likely focused on the surface detail that Liu Ming “gives a lot” and over‑generalized this into a worry about his limited time and energy, making option A (“too busy to maintain such care”) feel plausible despite no mention of work in the context. In contrast, the story stresses a “long-term love relationship,” which more naturally supports option B: Zhao Rong’s anxiety about the relationship’s future and lack of progress, despite his current efforts. Thus the model’s choice is less textually grounded and the human answer better matches the implied emotional conflict."
+        },
+        {
+          "original_index": 1080,
+          "current_index": 350,
+          "failed_summary": "The model focused on the direct, surface-level causality (Zhang Hua pressed keys → many windows popped up), so it inferred Xiao Chen would simply think Zhang “misoperated” the computer, leading it to choose option A. It underused the broader narrative cues: the project’s link to promotion, Zhang Hua’s sneaky timing, the smile after being seen, and the deliberate attempt to distract Li Ming, all of which suggest intentional sabotage for personal gain, aligning with option B. Therefore, the model’s choice is less reasonable and the human answer better reflects the story’s implications."
+        },
+        {
+          "original_index": 1138,
+          "current_index": 370,
+          "failed_summary": "The model likely over‑generalized from the earlier pattern that “Li Ming always gives way to Zhao Li,” so it inferred they would again watch her preferred genre, a reality show like the obstacle‑course program in option A. It seems to have underweighted the new, crucial information that “tonight” Li Ming explicitly says he wants to watch what he likes, which signals an exceptional situation where his preference should dominate. Therefore, the human answer B (suspense crime TV drama) better matches the narrative shift, and the model’s choice is not well justified."
+        },
+        {
+          "original_index": 1170,
+          "current_index": 378,
+          "failed_summary": "The model likely focused too literally on the gesture of Xiaoliu “shaking his head,” interpreting it as a straightforward sign of refusal rather than considering the broader interactional context described. It ignored that Xiaoliu’s smile, the subsequent “expectant look,” and Xiaoming’s reaction—immediately deciding to invite Xiaoyun, leading to her eventual agreement—all indicate that the head shake was playful or indirect, not genuine opposition. Therefore the model’s choice of A conflicts with the narrative’s outcome and emotional cues, making the human answer B the better supported interpretation."
+        },
+        {
+          "original_index": 1316,
+          "current_index": 425,
+          "failed_summary": "The model likely focused on the first explicit positive event in the story—Lili helping her father fix the water pipe and making him happy—and treated that direct prosocial action as the primary cause of her happiness. In doing so, it underweighted the later but more psychologically salient information that her father promises to buy her a toy, which is what the question setters and human answer treat as the key motive for a child’s “true” happiness in this context. Thus, the model’s choice overlooks age-appropriate motivational reasoning, making option A less accurate than B."
+        },
+        {
+          "original_index": 1360,
+          "current_index": 440,
+          "failed_summary": "The model likely focused on the interpersonal/emotional aspect of the scene, interpreting the “successful gesture” as motivational support in response to Xiao Min’s doubts, which aligns most directly with option C’s wording about encouragement and confidence. However, the story explicitly emphasizes that the two improve the plan while Xiao Min is absent and then Xiao Chu nods toward her empty seat, strongly implying they have secretly completed an improved version without her, which matches option B more precisely. Therefore the model’s choice is not the best supported and the human answer is preferable."
+        },
+        {
+          "original_index": 1571,
+          "current_index": 509,
+          "failed_summary": "The model likely defaulted to a familiar football pattern—fans blaming referees for unfavorable calls—and thus chose option A as a generic but seemingly reasonable source of Wang Ming’s anger. Yet the question emphasizes his reaction at the exact moment of scoring, and option B explains this shift more concretely by adding a new provocation: opponents insulting and pushing his favorite players. Therefore, while the model’s answer is not logically impossible, the human’s choice B better matches the timing, causality, and emotional contrast presented in the story."
+        },
+        {
+          "original_index": 1715,
+          "current_index": 553,
+          "failed_summary": "The model likely over-relied on a surface association between “quickly browses Xiaoyu’s materials” and “preparation is very good,” leading it to infer that the patting gesture signaled approval of Xiaoyu’s work (option A). It missed the causal logic: Xiaomei already believes Xiaoyu is underprepared, Liangliang’s “rest assured” gesture comes after recognizing this, and Xiaoyu’s anxiety is eased because Liangliang implicitly promises to help, which aligns with option C. Therefore, the model’s choice is not well supported by the narrative, while the human answer accurately reflects the implied intent."
+        },
+        {
+          "original_index": 1934,
+          "current_index": 623,
+          "failed_summary": "The model focused too literally on the surface sequence—Li Yun reading the review form and then nodding—so it inferred a direct reaction to Zhang Wei’s “good” performance, matching option A’s wording. It underweighted the crucial narrative detail that Zhang Wei’s recent performance is *not* good and that Li Yun “always supports” him and wants to secure the best evaluation, implying the nod is intentional reassurance or a signal of a favorable review, which aligns better with B. Thus the model’s choice is less consistent with the story’s motivations, making the human answer stronger."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 77,
+      "layer2_cluster_summary": "Across these items, the model systematically treats persuasion as expressing good intentions or low-pressure suggestions, instead of strategically addressing the other person’s concrete constraints and motivations. It tends to select options that sound emotionally sincere, conflict-avoiding, or superficially “win–win,” while overlooking critical practical facts (who controls the computer, time already reserved, health risks) and failing to offer specific, credible benefits that resolve the interlocutor’s stated concerns. Humans judge the rejected options as less persuasive because they don’t realistically shift incentives or alleviate worries, even if they sound kind.",
+      "layer2_cluster_size": 3,
+      "original_items": [
+        {
+          "original_index": 882,
+          "current_index": 274,
+          "failed_summary": "The model likely focused on the emotional aspect of “persuade,” preferring option D because it emphasizes sincerity and asking for help, which aligns with many conversational norms about honest expression of one’s difficulties. However, the question is about persuasion, where effective communication typically includes considering the other person’s interests and offering a concrete benefit or incentive. Option A does this better by proposing a seat swap plus extra help with work, so the model’s choice is less appropriate and ultimately incorrect relative to the human answer."
+        },
+        {
+          "original_index": 1141,
+          "current_index": 372,
+          "failed_summary": "The model likely chose option A because it appears to create a “win–win” solution, letting Xiao Ming complete his homework while suggesting Xiao Qiang and his friends simply play games elsewhere. However, this ignores that the bottleneck is Xiao Qiang’s computer itself, not their location, and offers Qiang no concrete, immediate benefit or assurance about his already scheduled game time. In contrast, option D directly acknowledges the inconvenience, promises a quick return, adds a modest incentive, and is thus more persuasive, so the model’s choice is less appropriate."
+        },
+        {
+          "original_index": 1773,
+          "current_index": 568,
+          "failed_summary": "The model likely focused narrowly on Chen Hua’s immediate goal of getting Zhao Lei to “try at least once,” so it chose D because it explicitly offers a low-bar, one-time trial plus a promise of help if injured. However, option D minimizes health risks and sounds irresponsible, which clashes with Zhao Lei’s stated concern about bodily harm, making it a poor persuasive strategy in realistic interpersonal communication. Option B is better because it uses evidence from research and top athletes to address the concern directly, so the model’s choice is incorrect."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "layer3_cluster_label": 0,
+  "layer3_cluster_summary": "Both reasons describe the model over‑relying on stereotypical associations between surface events and emotions or roles, instead of analyzing the nuanced situational and linguistic context. It privileges salient, binary structures—success vs failure, excitement vs fear, victory vs lack of credit—while neglecting subtle narrative signals such as quoted remarks, temporal focus, mixed feelings, and local conversational triggers that human raters attend to. As a result, divergences often arise in ambiguous cases where several readings are reasonable, but the answer key favors the more context‑sensitive, fine‑grained appraisal.",
+  "layer3_cluster_size": 2,
+  "total_original_items": 17,
+  "all_original_indices": [
+    95,
+    164,
+    488,
+    584,
+    596,
+    680,
+    716,
+    754,
+    873,
+    903,
+    1054,
+    1062,
+    1238,
+    1512,
+    1557,
+    1579,
+    1591
+  ],
+  "all_current_indices": [
+    34,
+    57,
+    148,
+    175,
+    179,
+    202,
+    213,
+    223,
+    269,
+    285,
+    338,
+    342,
+    400,
+    489,
+    504,
+    511,
+    517
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 29,
+      "layer2_cluster_summary": "Across these cases, the model leans on stereotypical event–emotion pairings from surface cues (“revolutionary technology” → thrilled, “accidentally finds” → surprised, first VR experience → excited), rather than fine‑grained appraisal of context. Humans, by contrast, emphasize subtler narrative signals—mixed emotions, risk and pressure, eeriness, curiosity, and the temporal focus of the question (instant reaction versus enduring state)—leading them to select different, but still compatible, labels. Thus the divergence reflects ambiguity and underspecified emotion categories, with the model picking the most prototypical feeling along one dimension of the scenario, while human raters prioritize a different plausible facet of the same state.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 95,
+          "current_index": 34,
+          "failed_summary": "The model likely focused on Mark’s later admission, “I’ve actually been worrying if we made the right decision all along,” and inferred that his underlying emotional state is anxiety rather than genuine excitement, so it chose “No.” In contrast, the human answer interprets people as often feeling mixed emotions, so Mark can still be truly excited about the new house while also worrying about the decision. Because the text supports both a conflicted-but-excited reading and a worry-dominated reading, both answers are plausible and the model’s response is also reasonable."
+        },
+        {
+          "original_index": 680,
+          "current_index": 202,
+          "failed_summary": "The model likely focused on the upbeat, opportunity‑oriented framing: phrases like “revolutionary virtual reality technology” and “seize the market opportunity” usually correlate in its training data with excitement and positive anticipation, leading it to choose “Thrilled.” It downplayed the clause about being a young startup and “facing challenges,” which more subtly implies anxiety and pressure, the cues humans used to infer “Nervous.” Given the mixed emotional context of bold innovation under risk, both thrill and nervousness are reasonable, so both answers are valid and the model’s choice is also correct."
+        },
+        {
+          "original_index": 873,
+          "current_index": 269,
+          "failed_summary": "First, the model likely used a simple affective heuristic: in a loving, affluent marriage, a romantic seaside weekend for an anniversary is prototypically a joyful event, so “thrilled” feels like the most salient emotional reaction. In contrast, the human answer “surprise” focuses more on the instantaneous, cognitive reaction to an unexpected gift rather than the longer-lasting emotional state, privileging the question’s phrasing “when she receives” the vacation. Given the story, both an initial sense of surprise and a strong feeling of thrill are plausible, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 903,
+          "current_index": 285,
+          "failed_summary": "The model likely focused on the unexpected discovery of an ancient temple in a modern city and the phrase “accidentally finds,” which strongly cues surprise in many training examples. It downplayed the eerie elements—strange sounds and unusual quietness—that humans intuitively map to fear, especially in media narratives where mysterious temples plus odd noises are stereotypically scary. Both A (surprise) and D (fear) are actually reasonable inferences from the text, so the model’s answer can be seen as plausible even though it diverges from the human label."
+        },
+        {
+          "original_index": 1238,
+          "current_index": 400,
+          "failed_summary": "The model likely focused on surface cues like “rare antique” and “special unveiling segment,” which are strongly associated with an immediate feeling of surprise at an unexpected reveal, so it chose option A. The human answer B instead infers that, in a mysterious themed party centered on displaying an antique, Zhang Lei’s more relevant ongoing reaction would be curiosity about the object’s origin, value, or story rather than a brief startle. Given the sparse context, both surprise and curiosity are reasonable interpretations, so the model’s answer is also defensible and not clearly incorrect."
+        },
+        {
+          "original_index": 1591,
+          "current_index": 517,
+          "failed_summary": "Key cues are that this is Huang Jie’s first VR experience and that he is “amazed” by the environment, looking around actively, showing a strong positive emotional reaction. The model likely generalized this high-arousal positive state to “excited,” a stereotypical response to trying a fun new technology or game, without sharply distinguishing excitement from surprise. The human answer instead highlights the unexpectedness and wonder implied by “amazed,” which aligns a bit more with “surprise,” so both C and D are plausible interpretations and the model’s answer is also reasonable."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 43,
+      "layer2_cluster_summary": "Across these cases, the model repeatedly latches onto salient, stereotyped patterns—team victory, overall success, visible effort, humorous personality—while downplaying specific conversational cues and quoted statements that pinpoint the actual mental state. It tends to prefer clean structural contrasts (team vs individual, success vs lack of recognition, entertainment vs disappointment) and objective outcomes over more text-faithful inferences about subjective feelings, local intentions, or the immediate trigger of an utterance. Several disputes arise from genuine ambiguity, where multiple emotion attributions are logically defensible, but the human key rewards finer-grained, context-sensitive readings.",
+      "layer2_cluster_size": 11,
+      "original_items": [
+        {
+          "original_index": 164,
+          "current_index": 57,
+          "failed_summary": "The model likely focused on the sentence about Liu Hong knowing his brother would continue teasing if he revealed his feelings, and mistakenly treated that knowledge as the direct cause of anger rather than the reason for hiding it. In the story, the teasing itself is what naturally provokes anger, while the awareness of possible continued teasing explains his strategic behavior, not his emotional origin. Thus, option A correctly identifies the basic emotional cause, and the model’s choice of D confuses consequence with cause and is not well-supported."
+        },
+        {
+          "original_index": 488,
+          "current_index": 148,
+          "failed_summary": "The model likely focused on the overall project outcome, inferring that Zhang Ming’s happiness stemmed mainly from the project’s success, which made option C (“happy about the project, sad about lack of recognition”) seem plausible. However, the story explicitly quotes Zhang Ming telling Zhao Li he is happy *about her receiving the best employee award*, not specifically about the project itself, so the source of joy is more precisely captured by option B. Thus, the human answer better matches the given dialogue, and the model’s choice is less text-faithful."
+        },
+        {
+          "original_index": 584,
+          "current_index": 175,
+          "failed_summary": "The model likely focused on the narrative’s objective description: Liu Yang “puts in a lot of effort and leads the team to win,” so it inferred that saying “I did not perform well” is factually incorrect and chose B. The human answer instead interprets “true” as reflecting Liu Yang’s genuine subjective feelings of disappointment, so his statement to his mother is considered truthful. Because the question is ambiguous between objective performance and internal emotion, both interpretations are reasonable, so both A and B can be viewed as valid."
+        },
+        {
+          "original_index": 596,
+          "current_index": 179,
+          "failed_summary": "The passage states that Li Hua wins an individual award, so any option claiming he “does not win the competition himself” (like D) contradicts the text, meaning the model misread that fact. The model probably relied on a stereotypical pattern—being happy for the team but sad about personal failure—which is common in reading‑comprehension questions, making D feel intuitively plausible despite conflicting with the story. By contrast, the human answer B, though not perfect, at least focuses on Li Hua’s mixed feelings about recognition, which better matches his public praise of Zhang Wei and private complaint at home."
+        },
+        {
+          "original_index": 716,
+          "current_index": 213,
+          "failed_summary": "The model likely focused on the team achievement mentioned first (“their team wins the first place”) and matched it with Li Xiao’s later disappointment at lacking an individual award, making option D feel like a neat contrast between collective success and personal loss. It probably underweighted the conversational cue that she is directly congratulating Wang Qiang, which more strongly supports option A (happy for his best paper, sad for herself). Both A and D are logically plausible, but A aligns more closely with the narrative’s emotional focus."
+        },
+        {
+          "original_index": 754,
+          "current_index": 223,
+          "failed_summary": "The model likely fixated on the phrases “senior cosplay enthusiast” and “answers with a smile,” inferring that the key reason was his humorous personality, which matches option D’s wording. However, the question asks specifically why he *says* “I am the most powerful mechanical warrior,” which is more directly explained by him acting in character as the mechanical warrior he is cosplaying, as in option A. Thus, the model’s choice is less precise: it emphasizes his general traits rather than the immediate, role-playing motivation for his statement."
+        },
+        {
+          "original_index": 1054,
+          "current_index": 338,
+          "failed_summary": "The model likely focused on the narrative emphasis that Liu Yang was the captain who “led the basketball team to win the final victory,” so it inferred his happiness stemmed from the team’s win rather than specifically from Wang Gang’s MVP, which fits option D. It then mapped his statement to his mother—“I feel I am not performing well, I am a bit depressed”—to disappointment at not getting the MVP himself, which D explicitly mentions. However, option C is also semantically reasonable because his congratulation to Wang Gang centers on the MVP, so both C and D are defensible answers."
+        },
+        {
+          "original_index": 1062,
+          "current_index": 342,
+          "failed_summary": "The model likely focused on the description of a “wave of laughter and lively atmosphere” and matched this with option A’s phrase “for entertainment effect,” while overlooking the crucial added claim that he truly believes he is a star. A closer reading of the context—that Li Ming is a blogger, deliberately dresses up, and fabricates a retirement announcement to attract attention from reporters—supports motive C, wanting media focus, rather than delusion. Thus the model’s choice is incorrect because it misread a playful, attention-seeking stunt as genuine self-misidentification."
+        },
+        {
+          "original_index": 1512,
+          "current_index": 489,
+          "failed_summary": "The model likely focused on the clause “their team wins and gets the first place” and inferred that Liu Yang’s happiness comes primarily from the team victory, leading it to choose option D. The human answer instead zeroes in on Liu Yang’s direct quote to Zhao Ming (“you play really well”), taking this as evidence that his happiness is specifically about Zhao Ming’s excellent performance, which aligns with option A. Both A and D are logically defensible readings of the story, so the model’s choice reflects a different but reasonable emphasis rather than a clear error."
+        },
+        {
+          "original_index": 1557,
+          "current_index": 504,
+          "failed_summary": "The model likely focused on the structural contrast “team outcome vs. individual outcome” and chose option B because it cleanly pairs the team’s first place with Wang Mei’s personal failure to place. However, the text explicitly ties Wang Mei’s expressed happiness to Zhao Min (“You are great, congratulations!”), making Zhao Min’s individual victory—not the team result—the clearest trigger of her joy. Her private disappointment is implicitly about her own individual performance, so option C aligns more precisely with the given dialogue, and the model’s choice is therefore incorrect."
+        },
+        {
+          "original_index": 1579,
+          "current_index": 511,
+          "failed_summary": "The story explicitly states that all the neighbors gather in Li Na’s backyard, enjoy the food and music, and are very happy, which implies the party’s effect is actually good. The model likely chose D because it relied on a common causal pattern—“spent lots of effort but effect not ideal → disappointment”—without reconciling that option with the textual evidence that guests are enjoying themselves. Since the text contradicts option D, while the official key is C, the model’s answer is not well-supported by the story."
+        }
+      ]
+    }
+  ]
+}

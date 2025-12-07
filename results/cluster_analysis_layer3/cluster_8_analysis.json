@@ -1,0 +1,8 @@
+{
+  "cluster_label": 8,
+  "cluster_size": 1,
+  "cluster_summary": "Across this cluster, the model repeatedly ignores the zero-sum, competitive framing and instead attributes generic self-conscious emotions such as guilt, shame, or fear of judgment to the protagonist. Even when the narrative explicitly states that the character gains if a rival is harmed or disadvantaged, the model downplays these instrumental motives and fails to represent envy or strategic satisfaction. This pattern reveals an overreliance on abstract moral-psychology heuristics and prosocial bias, combined with insufficient use of concrete, situation-specific cues about competition, conflicting interests, and plausible non-moral emotions.",
+  "reasons": [
+    "Across these reasons, the core pattern is that the scenarios are framed as zero-sum competitions, but the model overlooks the explicitly competitive motive in favor of a more generic self-conscious emotion. In both cases, the narrative clearly signals that the protagonist stands to gain if the rival is harmed—Ella’s envy of James’s painting and Claire’s advantage over Amy—yet the model gravitates toward guilt, fear, or reputational concern that the text never actually mentions. This suggests an overreliance on stereotyped moral-psychology heuristics and underweighting of concrete, situation-specific cues."
+  ]
+}

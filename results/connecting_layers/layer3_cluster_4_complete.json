@@ -1,0 +1,537 @@
+{
+  "layer3_cluster_label": 4,
+  "layer3_cluster_summary": "These reasons all describe a shared failure in mapping vague quantifiers to numbers: the model treats terms like “most,” “almost no,” “few,” and “some” as fixed, often extreme values instead of flexible ranges. It overweights explicit numerals and simple subtraction, collapses multi-category or probabilistic setups into binary splits, and ignores narrative timing, implicit comparisons, and the requirement that minority categories remain small-but-nonzero. Humans, by contrast, integrate all constraints—totals, verbal hedges, expectations, and sampling uncertainty—yielding arithmetically consistent yet pragmatically moderate distributions where majority terms are strong but not maximized and “almost none” still leaves a remainder.",
+  "layer3_cluster_size": 13,
+  "total_original_items": 62,
+  "all_original_indices": [
+    0,
+    12,
+    18,
+    45,
+    62,
+    76,
+    131,
+    147,
+    165,
+    278,
+    384,
+    419,
+    442,
+    444,
+    480,
+    481,
+    513,
+    531,
+    580,
+    676,
+    767,
+    773,
+    777,
+    874,
+    896,
+    909,
+    921,
+    931,
+    951,
+    1018,
+    1094,
+    1117,
+    1133,
+    1161,
+    1168,
+    1172,
+    1179,
+    1182,
+    1186,
+    1192,
+    1237,
+    1253,
+    1282,
+    1283,
+    1309,
+    1312,
+    1326,
+    1327,
+    1358,
+    1363,
+    1385,
+    1427,
+    1492,
+    1614,
+    1678,
+    1697,
+    1765,
+    1767,
+    1779,
+    1912,
+    1923,
+    1924
+  ],
+  "all_current_indices": [
+    0,
+    2,
+    3,
+    14,
+    19,
+    26,
+    46,
+    49,
+    58,
+    86,
+    116,
+    129,
+    136,
+    137,
+    145,
+    146,
+    155,
+    160,
+    173,
+    201,
+    228,
+    232,
+    234,
+    270,
+    280,
+    287,
+    289,
+    295,
+    303,
+    326,
+    355,
+    364,
+    368,
+    376,
+    377,
+    379,
+    382,
+    383,
+    384,
+    387,
+    399,
+    407,
+    412,
+    413,
+    421,
+    423,
+    429,
+    430,
+    439,
+    442,
+    450,
+    466,
+    480,
+    522,
+    541,
+    550,
+    564,
+    566,
+    571,
+    615,
+    620,
+    621
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 2,
+      "layer2_cluster_summary": "Across these reasons, the core pattern is how vague quantifiers like “most” and “almost no” are interpreted when mapping narrative descriptions to exact numbers. Human answers implicitly preserve a small, non‑zero remainder for the minority category (rice or Shandong dishes, and even other cuisines), so they pick distributions such as 35–5 that satisfy both the total and the verbal hedges. The model instead regularizes “almost no” to zero and neglects unmentioned categories, yielding 40‑style answers that align with a strict arithmetic reading but diverge from human pragmatic expectations while still being arguably defensible.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 165,
+          "current_index": 58,
+          "failed_summary": "The story states there are 50 lunches in total and Xiao Liu finds 10 are dumplings, so noodles plus rice must sum to 40. Xiao Li’s description “most are noodles” and “almost no rice” implies there should still be *some* rice, just a very small amount, so the only option that allows a few rice boxes while keeping noodles the majority is 35 noodles (with about 5 rice). The model chose 40 noodles, which implicitly assumes 0 rice and ignores the phrase “almost no rice,” so its choice is less consistent with the text."
+        },
+        {
+          "original_index": 1923,
+          "current_index": 620,
+          "failed_summary": "The human answer of 35 likely assumes that, besides the 10 identified Cantonese dishes, there must still be a small but non‑zero number of Shandong dishes and possibly a few other cuisines, reducing the Sichuan count below 40. The model instead treated “almost no Shandong dishes” as effectively meaning zero and implicitly ignored other cuisine types, so it subtracted only the 10 Cantonese dishes from the total 50 and arrived at 40 Sichuan dishes. Given the vagueness of “most” and “almost no,” both estimations are logically defensible, so the model’s answer is also reasonable rather than clearly incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 7,
+      "layer2_cluster_summary": "Across these reasons, the core pattern is that the model treats natural‑language quantifiers (“most,” “some,” “very few,” “almost no”) as vague, static proportions instead of contextually mapping them to concrete counts. It then defaults to a generic “around half” heuristic for “most” and fails to integrate how multiple verbal constraints jointly narrow the plausible distributions, whereas the human‑intended reasoning uses those phrases as near‑deterministic clues. As a result, the model’s numeric choices are weakly supported approximations, while the human answers follow from tighter logical inferences.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 1283,
+          "current_index": 413,
+          "failed_summary": "Xiao Gang’s description, plus the later fact that there are 5 action films, is meant to cue that “some action” ≈ 5 and “very few romance” ≈ 0, so Xiao Mei’s pre‑count guess would be 40−5−0 = 35 comedy films, matching option D. The model instead treated the verbal terms (“most”, “some”, “very few”) as vague proportions and, without mapping them to specific counts, defaulted to a rough 50% interpretation, selecting 20 as a generic “many but not all” value. Under the intended logic the human answer is correct and the model’s choice is unsupported."
+        },
+        {
+          "original_index": 1385,
+          "current_index": 450,
+          "failed_summary": "The model probably mapped “most of the movies are action films” to about half the total, so it chose 10 action films and ignored how the other phrases constrain the numbers. Yet Xiao Ming also says “some are science fiction, but there are almost no horror films,” which implies that almost all non‑science‑fiction movies must be action, pushing the action count very close to 20. With all three verbal quantifiers considered together, option D (18 action films) better matches Xiao Hong’s likely guess, so the model’s answer is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 18,
+      "layer2_cluster_summary": "Both reasons highlight that the model overweights a later explicit number (“4 goalkeepers”) and underweights an earlier proportional, approximate description (“almost one third of 18”). In each case, the model mistakenly treats the subset of players who get the ball as if it were the whole team, collapsing an inherently probabilistic sampling situation into a deterministic equality constraint. More generally, the pattern is a preference for surface-level, easily retrievable numerals over approximate or contextual quantitative cues, leading to rigid, globally inconsistent interpretations of the scenario.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 1018,
+          "current_index": 326,
+          "failed_summary": "The story states there are 18 players and “almost one third” are goalkeepers; one third of 18 is 6, so the best discrete approximation among the options is 5, making the human answer (C) consistent with the text. The model likely overinterpreted the later detail that 4 goalkeepers were in the selected group and incorrectly inferred that an equal number (4) must have remained unselected, summing to 8 goalkeepers and leading it to choose (B). This reasoning ignores the probabilistic nature of the selection and misreads “almost one third,” so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1179,
+          "current_index": 382,
+          "failed_summary": "The model likely fixated on the explicit statement “there are 4 goalkeepers” after selection and treated that as the total number of goalkeepers remaining in the team, ignoring the earlier proportional clue. However, “almost one third of 18” implies the team originally has 5 (not 6) goalkeepers, and selecting some players to get the ball does not change how many goalkeepers belong to the team overall. Thus, the human answer (C, 5 goalkeepers) correctly interprets “almost one third” and the story logic, while the model’s answer (D) is incorrect."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 26,
+      "layer2_cluster_summary": "Across these items, the model treats explicit counted numbers and simple fractions as precise, overriding softer linguistic cues like “almost one third” or “almost half.” It either ignores or misweights the prior information about the whole set and over‑interprets the small sample as if it exactly represented, or even exhausted, the relevant subset, instead of viewing it as noisy evidence. Overall, humans integrate approximate quantifiers with sample data and rounding conventions, whereas the model applies rigid arithmetic and mis-scopes which group the proportion statements actually describe.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 1117,
+          "current_index": 364,
+          "failed_summary": "Farmer Wang keeps 15 chickens, and the story states that almost one third are white, so the intended reasoning is that about 5 of the 15 chickens are white in total. When he later counts only part of the flock and finds 4 white chickens, this sample evidence supports his prior expectation that the total number of white chickens is close to 5, not exactly 4. The model instead fixated on the explicit counted number “4” and treated the question as asking about the observed subset, ignoring the proportional clue “almost a third,” so its choice is incorrect."
+        },
+        {
+          "original_index": 1358,
+          "current_index": 439,
+          "failed_summary": "The model likely focused on the arithmetic fact that half of 16 is 8 and interpreted the sample of 4 white pigeons as directly implying a 1/2 proportion, leading it to choose option B. However, the story states that *“almost half of them are white”*, which implies a number slightly less than 8, and thus 7 is the most reasonable estimate consistent with that wording. Therefore, the model’s choice of 8 ignores the qualifier “almost,” making its answer less appropriate, and the human’s answer of 7 better matches the context."
+        },
+        {
+          "original_index": 1492,
+          "current_index": 480,
+          "failed_summary": "The key phrase “almost half of them are red apples” refers to the original 15 apples on the tree, so an estimate of about 7 red apples initially is reasonable; after Xiao Hong picks 7 including 3 red, about 4 red apples remain, matching option D. The model likely over‑interpreted the sampling information, assuming Xiao Hong’s 3 red out of 7 picked exhausts or nearly exhausts the red apples, and thus concluded there are about 0 left. Therefore, the model’s choice A is not well‑supported, and D is the better interpretation."
+        },
+        {
+          "original_index": 1697,
+          "current_index": 550,
+          "failed_summary": "The story states there are 15 apples on the tree and 'almost half' are red, which on its own points to about 7–8 red apples. After Xiao Hong randomly picks 7 apples and finds 3 red among them (a proportion close to one‑half), the most consistent estimate is that the whole tree initially had about half red, making option A (7 red apples) the best choice. The model likely underused the 'almost half' clue, over‑interpreted the sample of 3/7 as substantially below one‑half, and then incorrectly rounded its estimate down to option B (4)."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 27,
+      "layer2_cluster_summary": "Across these items, the model treats vague quantifiers like “most,” “some,” “hardly any,” and “very few” in a literal, often extremal or minimal way, instead of using pragmatic, graded interpretations grounded in everyday language. It also repeatedly fails to jointly enforce all constraints—fixed totals, non‑zero minorities, comparative wording between categories, and the fact that the guesses occur before the true numbers are revealed—often defaulting to simple splits or assuming zero for “hardly any.” Humans, in contrast, integrate these linguistic cues with arithmetic reasoning and perspective‑taking, producing numerically moderate, more semantically coherent estimates.",
+      "layer2_cluster_size": 8,
+      "original_items": [
+        {
+          "original_index": 131,
+          "current_index": 46,
+          "failed_summary": "The human answer relies on interpreting \"only 20 bouquets of tulips\" as showing that Xiao Liu originally expected more than 20 tulips, plus the florist's description that \"most are roses, some are tulips, and a very small part are sunflowers.\" From this, he should expect strictly more than half roses but not so many that tulips and sunflowers together are too few, leading naturally to about 35 roses. The model instead focused rigidly on \"most\" as implying a very large majority and neglected the comparative and arithmetic constraints, so its choice of 50 roses is not well justified."
+        },
+        {
+          "original_index": 444,
+          "current_index": 137,
+          "failed_summary": "The model likely treated “hardly any throwers” as implying approximately zero throwers, so it set throwers to 0, subtracted the 5 observed long jumpers from the total of 30 students, and concluded there must be 25 sprinters, matching option C. The human appears to interpret “hardly any” as “a few but not many,” inferring perhaps three throwers, which yields 30 − 5 − 3 = 22 sprinters, matching option D. Because the phrase “hardly any” is vague, both numerical estimates are defensible and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 909,
+          "current_index": 287,
+          "failed_summary": "The model interpreted “most,” “some,” and “hardly any” in a minimal way, treating “most” as just “more than any other single type” and then assuming an even split of the remaining 10 breads (5 raisin, 5 chocolate), which makes 10 baguettes (option D) seem acceptable. A more pragmatic reading, which the human used, treats “hardly any chocolate” as significantly fewer than “some raisin,” so Xiao Ling should expect only 1–2 chocolate breads and therefore around 18 baguettes (option C). Under ordinary language use, “hardly any” cannot reasonably equal “some,” so the model’s choice is less coherent than the human answer."
+        },
+        {
+          "original_index": 951,
+          "current_index": 303,
+          "failed_summary": "The model likely treated Ming’s statement numerically in a simplistic way: with 20 movies total and 5 sci‑fi, it assumed the remaining 15 must be action, effectively interpreting “hardly any horror movies” as meaning zero horror movies. This ignores that “hardly any” usually implies at least one or two horrors, so not all 15 remaining slots can be action films, and “most” need not mean 75%. Under a more natural reading of the vague quantifiers, the human’s choice (12) better respects the presence of some horror movies, so the model’s choice is less plausible."
+        },
+        {
+          "original_index": 1161,
+          "current_index": 376,
+          "failed_summary": "The key constraint is the fixed total of 20 breads: once Xiao Ling sees 5 chocolate breads, only 15 breads remain to be split between baguettes and raisin bread. Because the baker said “most are baguettes, some are raisin,” there must be at least 1 raisin bread, so baguettes can be at most 14; this makes option D the only numerically consistent choice. The model likely focused on the vague term “most” and heuristically picked a large number (18) without correctly enforcing the total-sum and “some raisin” constraints."
+        },
+        {
+          "original_index": 1253,
+          "current_index": 407,
+          "failed_summary": "The model likely treated the vague quantifier “most” as meaning only “at least half” and did not integrate “hardly any sparrows,” so it defaulted to a simple split of 25 parrots out of 50 birds. In contrast, the human answer D assumes that if pigeons are “some” and sparrows are “hardly any,” parrots must account for a large majority of the 50 birds, making a guess like 45 more semantically consistent with everyday usage. Thus the model’s choice underestimates the strength of “most” and is less aligned with the linguistic cues."
+        },
+        {
+          "original_index": 1282,
+          "current_index": 412,
+          "failed_summary": "The model likely misread the quantifiers “most,” “some,” and “hardly any,” and also ignored that Xiao Ling’s guess occurs before the true numbers are revealed. A human reasoner treats “most...are liquids” as a clear majority of the 60 samples, “some are solids” as a smaller group, and “hardly any gases” as only a few, so a guess around 50 liquids best fits the description and makes B the most reasonable choice. By choosing C (20 liquids), the model effectively made liquids a minority, contradicting “most...are liquids,” so its answer reflects a mistake in pragmatic language understanding and perspective-taking."
+        },
+        {
+          "original_index": 1326,
+          "current_index": 429,
+          "failed_summary": "After Xiao Zhang counts 20 bags of corn, there are 60 bags left that must be split between wheat and rice. The human answer infers Xiao Liu's description literally: since “most” of the 80 bags are wheat but “very few” are rice, wheat should be the majority of the total yet still leave a small positive number for rice, so 50 wheat and 10 rice fits all verbal constraints. The model instead seems to subtract only the counted corn and assume all remaining bags are wheat, effectively ignoring the “very few are rice” clause, so its choice is linguistically inconsistent."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 33,
+      "layer2_cluster_summary": "Across these cases, the model defaults to a literal interpretation of vague quantifiers such as “most popular,” “almost half,” and “almost no,” often mapping them to exact values like 0 or 1/2. This makes it ignore or oversimplify implicit constraints and comparative cues in the stories—like popularity implying higher sales—or collapse multi-category situations into simpler binary splits. Humans instead treat everyday numerical language as flexible and approximate, infer small nonzero quantities from phrases like “almost none,” and integrate all narrative details, so their answers better match pragmatic expectations even when the model’s tidy ones are logically defensible.",
+      "layer2_cluster_size": 5,
+      "original_items": [
+        {
+          "original_index": 0,
+          "current_index": 0,
+          "failed_summary": "The puzzle implicitly assumes “popularity” means number sold, so from 20 bottles each and 8 juice left (12 sold), soda must have sold more than 12 (so fewer than 8 left), and coffee must have sold fewer than 12 (so more than 8 left); among the options, 2 soda left best matches the idea of “most popular” vs. “almost no one likes coffee.” The model likely misread “most popular” as meaning more stock remaining, or simply ignored the sales-based inequalities and chose a large, seemingly plausible number. Therefore, its choice of 15 contradicts the story’s popularity logic, while the human answer fits it."
+        },
+        {
+          "original_index": 278,
+          "current_index": 86,
+          "failed_summary": "The model likely focused on the phrase “almost half of 12 dumplings” and applied a straightforward numerical approximation, treating “almost half” as roughly equal to half, leading it to choose 6 shrimp dumplings (option B). In contrast, the human answer seems to integrate the later detail that, after some eating, there are 5 shrimp dumplings left, and interprets “almost half” more loosely, so that estimating 5 from the start (option C) still fits the story. Because everyday proportional language is imprecise, both answers are valid, so the model’s choice remains reasonable despite diverging from the test’s expected interpretation."
+        },
+        {
+          "original_index": 480,
+          "current_index": 145,
+          "failed_summary": "The model likely treated “almost no coffee” as effectively zero, so it subtracted only the 6 sodas from the 20 drinks and inferred 14 juice types, leading it to choose option B. The human answer A implicitly assumes there are a small positive number of coffee types (e.g., 2), leaving 12 juices, 6 sodas, and very little coffee, which better matches natural language use of “almost no.” Because the story’s wording is ambiguous about whether “almost no coffee” implies zero or a few, both A and B are defensible, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 676,
+          "current_index": 201,
+          "failed_summary": "The model likely subtracted only the known 5 seafood types from the total 40, implicitly assuming the rest must all be meat, which yields 35 and leads it to choose option B. In doing so, it effectively treated “almost no vegetarian noodles” as allowing zero vegetarian options, or it ignored the vegetarian category altogether, simplifying the problem to a two-category split (meat vs. seafood). However, the puzzle’s wording implies there should still be at least one or two vegetarian types, so an answer like 33 meat noodles (leaving a few vegetarian) better matches the description."
+        },
+        {
+          "original_index": 1912,
+          "current_index": 615,
+          "failed_summary": "The model likely interpreted “almost no fruit imported from Australia” as meaning that there are actually zero Australian fruits in the shop, so, after subtracting the 4 known Thai imports from the total of 20, it inferred 16 domestically produced types. The human answer of 15 implicitly assumes that “almost none” suggests a very small, but non‑zero, number of Australian fruits, for instance one type, leaving 20 − 4 − 1 = 15 domestic types. Because the text is linguistically vague, both interpretations are reasonable and the model’s choice is also defensible."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 37,
+      "layer2_cluster_summary": "Across both reasons, the model stumbles on translating vague quantifiers (“most,” “vast majority,” “small part,” “almost none/no one”) into concrete numbers, consistently assigning relatively large sizes to groups that should be tiny. It performs a kind of over-literal proportional mapping from words to quantities, instead of using the story’s internal constraints (like the explicitly stated “small part” or total count) to anchor one number and infer the others pragmatically. As a result, its answers are mathematically coherent but misaligned with the narrative’s intended emphasis and human conversational norms.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 1182,
+          "current_index": 383,
+          "failed_summary": "The model likely over-interpreted the vague quantifier “most” as “almost all” and took “almost none do not contain both” to mean that virtually every dessert without matcha must contain chocolate, so with 5 matcha desserts it inferred that the remaining 25 are chocolate desserts, leading to option B. The human answer implicitly quantifies “almost none” as a small exact number (e.g., 2 desserts with neither ingredient), so with 5 matcha desserts, 30 − 5 − 2 = 23 chocolate desserts, giving option C. Because the language in the story is imprecise, both B and C are logically defensible under different reasonable interpretations, so the model’s answer is not strictly wrong but mismatched to the intended reading."
+        },
+        {
+          "original_index": 1312,
+          "current_index": 423,
+          "failed_summary": "The story is qualitative, so the model had to translate vague terms like “vast majority,” “small part,” and “almost no one” into numbers, and it apparently treated “almost no one” as roughly five students, leaving 25 out of 35 for basketball. A more precise reading is that the counselor’s investigation fixes the “small part” as 5 badminton players, and “almost no one” should then be very close to zero, so nearly all of the remaining 30 students play basketball, matching 28 best. Thus the model’s answer is less consistent with the narrative proportions than the human’s."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 38,
+      "layer2_cluster_summary": "Across these items, the model and humans mainly diverge in how they interpret vague quantifiers like “most,” “some,” “few,” “hardly any,” and “almost none.” The model tends to translate these verbal cues into rigid or generic numerical schemas (e.g., treating “most” as an overwhelming majority, “very few” as nearly zero, or “around half”), then does straightforward subtraction, whereas human reasoning uses looser, context‑sensitive thresholds and probabilistic expectations. As a result, many model answers are arithmetically tidy yet pragmatically strained, though some remain interpretively defensible.",
+      "layer2_cluster_size": 8,
+      "original_items": [
+        {
+          "original_index": 18,
+          "current_index": 3,
+          "failed_summary": "The story only gives exact numbers for the total (40 dozen) and duck eggs (5 dozen), while “most,” “some,” and “very few” are vague, non-numeric descriptions. The model treated “very few goose eggs” as negligible and effectively zero, so it subtracted only the known 5 dozen duck eggs from 40 and concluded that 35 dozen must be chicken eggs (option B), a straightforward but oversimplified arithmetic interpretation. The expected human answer (30 dozen) assumes there must be *some* nonzero goose eggs, but since their amount isn’t specified, both answers are interpretively plausible and the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 45,
+          "current_index": 14,
+          "failed_summary": "The human likely interprets “most of the red apples” pragmatically: with 5 red apples, “most” means Li Hua ate at least 3, so before Wang Li counts, the rational expectation is that 3–4 reds are gone and about 6 apples remain, hence option C. The model seems to treat the question less probabilistically and more literally or sloppily, perhaps misconstruing “most” or the time phrase “before Wang Li counts,” and defaulting to a near-original total of 9 apples. Under the story’s intended probabilistic reasoning, the model’s choice D is incorrect."
+        },
+        {
+          "original_index": 384,
+          "current_index": 116,
+          "failed_summary": "The model likely treated Li Ming’s vague phrases as strict quantitative clues: “most are apples” meant the vast majority of the 40 trees, “some pears” matched the counted 4 trees, and “almost no oranges” suggested only about 1 orange tree, so it inferred 40−4−1=35 apples (option B). The human answer C implicitly interprets “almost no oranges” less strictly, allowing several orange trees (e.g., 5–6) and leaving roughly 30 apple trees while still satisfying “most are apples.” Because these verbal quantifiers are inherently fuzzy, both interpretations are defensible and the model’s choice is also reasonable."
+        },
+        {
+          "original_index": 777,
+          "current_index": 234,
+          "failed_summary": "The model likely reasoned quantitatively from the text: out of 40 musicians with only 4 pianists, \"most are violinists\" and \"hardly any guitarists\" together suggest a very large majority are violinists. Given the options, 35 is the only number clearly exceeding half of 40 while still leaving room for a few guitarists, so the model chose B as the most semantically consistent estimate. Thus, while the human-chosen answer C contradicts the phrase \"most are violinists,\" both answers can be seen as plausible guesses, so both are valid and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1094,
+          "current_index": 355,
+          "failed_summary": "The key cues are “most are pine trees” and “only a few are ginkgo and cypress,” which together suggest that non‑pine trees form a very small fraction of the 40 trees. The human answer D (35 pines) fits this by assuming about five non‑pine trees, while the model probably interpreted “most” more weakly and chose 30 as a generic three‑quarters majority. Given ordinary usage of “only a few,” the human’s choice better matches the narrative implication, so the model’s answer is linguistically less plausible and should be considered incorrect here."
+        },
+        {
+          "original_index": 1133,
+          "current_index": 368,
+          "failed_summary": "The model likely focused on the phrase “most of them are roses” and mapped it to a strong numerical majority, making 60 roses (75% of 80) seem like the best fit. The human answer instead treats “most” as just over half while preserving room for “some” sunflowers and a “very small part” tulips, so 45 roses (56%) appears more linguistically balanced. Because these quantifiers are inherently vague, both 45 and 60 roses can be reasonable interpretations, so the model’s different choice is still defensible."
+        },
+        {
+          "original_index": 1678,
+          "current_index": 541,
+          "failed_summary": "The divergence comes from how “only a few footballs and volleyballs” is interpreted relative to the total of 40 balls. The human answer (30 basketballs) implicitly assumes “few” applies separately to each type, e.g., about 5 footballs and about 5 volleyballs, leaving 30 basketballs; the model instead treats “few footballs and volleyballs” as a combined small minority and, after seeing 5 footballs, infers almost no volleyballs, leaving 35 basketballs. Both interpretations are reasonable, so both C and B are logically defensible and the model’s answer is also correct."
+        },
+        {
+          "original_index": 1779,
+          "current_index": 571,
+          "failed_summary": "The model likely mapped the vague phrase “most of them are children” to a rough, generic quantity like “around half,” so with 40 people it defaulted to 20 children, making option A feel intuitively plausible without doing precise proportional reasoning. It also appears to treat “some adults” and “hardly any elderly” qualitatively, without integrating the later information that there are only 5 adults, which strongly suggests about 35 children and thus supports option B. Because 20 is not actually “most” of 40 and conflicts with the realized adult count, the model’s choice is less reasonable than the human answer."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 39,
+      "layer2_cluster_summary": "Across these cases, the model collapses multi-category, uncertain situations into simple two-term arithmetic, typically subtracting the one explicitly numbered subset from the total and assuming everything else belongs to a single remaining category. It systematically interprets vague quantifiers and constraints (“hardly any,” “almost no,” “almost half,” “only one or two”) as either exact, zero, or ignorable, instead of treating them as small-but-nonzero amounts that must also fit all narrative clues. Human-like answers, in contrast, integrate these verbal nuances, respect all category constraints, and perform a light Bayesian-style updating from new evidence.",
+      "layer2_cluster_size": 9,
+      "original_items": [
+        {
+          "original_index": 76,
+          "current_index": 26,
+          "failed_summary": "The model likely applied a simplistic arithmetic strategy: it subtracted the 15 known family photos from the total 60 photos, assuming the remaining 45 must all be travel photos, effectively treating the “hardly any wedding photos” as zero. However, the story text explicitly indicates there are *some* wedding photos, so the number of travel photos must be less than 45, leading to an estimate like 40 that fits “most are travel photos” while leaving a small remainder for weddings. Thus the model’s choice ignores linguistic nuance about small-but-nonzero quantities and is less reasonable than the human answer."
+        },
+        {
+          "original_index": 442,
+          "current_index": 136,
+          "failed_summary": "The model likely applied a simple arithmetic rule: with 30 total pairs and 5 found with one side broken, it subtracted 5 and assumed the remaining 25 are fully good, picking option A. The story, however, adds the clue “almost no completely broken headphones,” which implies the teacher should expect a small number of fully broken pairs in addition to the 5 partially broken ones, so the count of good pairs would be lower, matching option D. Because the wording encourages allowing some completely broken pairs, the model’s answer is less consistent with the intended reasoning than the human answer."
+        },
+        {
+          "original_index": 767,
+          "current_index": 228,
+          "failed_summary": "The model likely applied a straightforward arithmetic strategy: from 60 total samples subtract the 15 known solids, directly concluding 45 must be liquids and implicitly treating “hardly any gases” as effectively zero. However, the story’s phrasing suggests there should still be a few gas samples, so liquids should be slightly fewer than 45, and among the options 40 best reflects “most are liquids” while still allowing a small nonzero number of gases. Thus the model’s choice overlooks this pragmatic nuance, making the human answer more appropriate."
+        },
+        {
+          "original_index": 874,
+          "current_index": 270,
+          "failed_summary": "The model treats the teacher’s discovery that 5 students play the piano as if it were complete information about the class, effectively assuming the teacher has now talked to every student. By focusing only on the explicit number “5” and downplaying the earlier hint that “almost half” of 20 students play, it answers B, equating “known players” with “total players.” In contrast, the human answer A reasonably treats the teacher’s conversations as a partial sample updating the prior expectation of about 10 players slightly downward to 9, so the model’s answer is under-inferential and thus less appropriate."
+        },
+        {
+          "original_index": 921,
+          "current_index": 289,
+          "failed_summary": "The model likely focused on the phrase “almost half of them play the piano” and interpreted it literally as meaning approximately 10 of the 20 students, leading it to choose option C. However, the narrative then adds that the teacher “finds out that 5 of them play the piano,” which is evidence that should update the prior guess downward, making a number slightly below half—such as 9—more coherent with the term “almost half.” Thus the model’s answer overlooks Bayesian-style updating from the new information, so the human’s answer is more context-sensitive and the model’s choice is less appropriate."
+        },
+        {
+          "original_index": 1172,
+          "current_index": 379,
+          "failed_summary": "The model likely treated the problem as a simple arithmetic task: seeing 40 total products and 5 substandard ones, it subtracted 5 from 40 and concluded there must be 35 qualified products. In doing so, it implicitly interpreted the phrase “hardly any waste products” as meaning there were effectively zero waste items, so all non‑substandard products were counted as qualified, ignoring that “hardly any” usually implies a small but nonzero amount. Under the puzzle’s intended pragmatic reading, Xiao Wang should allow for some waste products, so 30 qualified (option C) better matches the verbal description and the human answer."
+        },
+        {
+          "original_index": 1237,
+          "current_index": 399,
+          "failed_summary": "The model likely applied a simple arithmetic rule, subtracting the 5 houses under renovation from the total 30 and concluding that the remaining 25 must be newly renovated, which leads directly to option A. In doing so, it effectively treated the situation as a two-category split and ignored the narrative constraint that “very few are not renovated at all,” which implies at least one but only a small number of unrenovated houses, making 24 newly renovated plus 1 unrenovated more coherent. Therefore, the model’s choice is less consistent with the story’s qualitative descriptions than the human answer."
+        },
+        {
+          "original_index": 1309,
+          "current_index": 421,
+          "failed_summary": "The story fixes two numbers: 30 total booths and 5 food booths, so clothing plus accessories must total 25. Manager Zhao also says there are “only one or two” accessory booths, which means accessories must be 1 or 2, so clothing must be 24 or 23; among the options, only 23 clothing booths (A) leaves 2 accessories and satisfies all conditions. The model likely focused only on making clothing the majority after subtracting food (e.g., 20 out of 25) and ignored or misapplied the “only one or two accessories” constraint, so its choice B is incorrect."
+        },
+        {
+          "original_index": 1924,
+          "current_index": 621,
+          "failed_summary": "The story implies three categories: math, English, and history, totaling 60 assignments, with “some” English and “almost no” history. A careful reader infers that “almost no history” means a small but nonzero number (e.g., 5), so Xiao Liu would estimate 60 − 15 − 5 = 40 math assignments, matching option C. The model likely subtracted only the observed 15 English assignments from 60, implicitly assuming zero history assignments, and thus chose 45 math assignments, ignoring the qualitative clue that there still should be *some* (though very few) history assignments."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 57,
+      "layer2_cluster_summary": "Across these items, the model over-weights vague majority terms like “most” and “hardly any,” treating them as invitations to maximize one category, instead of as soft constraints that must coexist with fixed totals. It repeatedly violates basic arithmetic or ignores that minority categories described as “very few,” “some,” or “hardly any” must still be nonzero, leaving too little or no room for other kinds. In one case it also collapses the story’s temporal structure, treating later factual outcomes as prior knowledge and thus generating an implausibly precise numerical guess.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 580,
+          "current_index": 173,
+          "failed_summary": "The discrepancy arises because the model appears to ignore the fixed total of 50 animals after learning there are 15 giraffes, and instead over-relies on the vague term “most” to justify a very high lion count. By picking 40, the model effectively assumes “most” means about 80% of 50, but this makes the numbers impossible (40 lions + 15 giraffes already exceed 50, even before adding any zebras). The human answer of 32 respects the 50-animal constraint and leaves a small, reasonable number of zebras, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 896,
+          "current_index": 280,
+          "failed_summary": "The model likely focused on the quantitative phrase “most of them are romance novels” and, after learning there are 10 detective novels, simply assigned all remaining 30 books to romance, maximizing that category. However, this overlooks the qualitative constraint that “very few are fairy tales,” which strongly implies a *nonzero* but small number of fairy-tale books, so not all 30 remaining books can be romance novels. Therefore, the human’s choice of 25 romance novels (leaving a few books for fairy tales) better respects all parts of the description, and the model’s choice is incorrect."
+        },
+        {
+          "original_index": 931,
+          "current_index": 295,
+          "failed_summary": "The model likely focused mainly on the qualitative descriptions “most are golden retrievers” and “hardly any Dalmatians,” interpreting them as implying an overwhelming majority of golden retrievers and thus choosing the extreme option of 19. In doing so, it seems to have neglected the hard quantitative constraint that there are 20 puppies in total and 5 are poodles, which leaves only 15 slots for golden retrievers plus Dalmatians, making any answer above 15 impossible. Therefore the model’s choice is mathematically inconsistent with the story, and the human answer is correct."
+        },
+        {
+          "original_index": 1192,
+          "current_index": 387,
+          "failed_summary": "The model likely treated the later factual result “there are only 4 Huskies” as if Xiao Liu already knew it beforehand, then subtracted 4 from the total 30 to infer 26 Golden Retrievers, implicitly ignoring Bulldogs. In doing so, it collapsed the temporal order in the story and failed to base Xiao Liu’s *guess* only on Xiao Yang’s vague quantifiers “most,” “some,” and “hardly any,” which do not justify a precise 26. Under those linguistic cues, an approximate midpoint “most” value like 15 fits better, so the model’s choice is incorrect."
+        },
+        {
+          "original_index": 1363,
+          "current_index": 442,
+          "failed_summary": "First, the story states there are 30 puppies in total and Xiao Liu counts exactly 4 Huskies, so only 26 puppies can be Golden Retrievers plus Bulldogs. The phrase “hardly any Bulldogs” implies there should still be a small positive number of Bulldogs, making 24 Golden Retrievers (with 2 Bulldogs) a reasonable guess and matching option C. The model’s choice of 29 Golden Retrievers ignores the given Husky count and basic arithmetic (30 − 4 ≠ 29), so its answer is logically and numerically incorrect."
+        },
+        {
+          "original_index": 1427,
+          "current_index": 466,
+          "failed_summary": "The model likely fixated on maximizing the number of golden retrievers consistent with “most” and “hardly any Dalmatians,” and thus chose 19 as the largest non‑total value. However, it failed to jointly satisfy all three verbal constraints: if there are 19 golden retrievers, then only one dog is left to cover both “some are poodles” and “hardly any Dalmatians,” which makes Xiao Wang’s description implausible. By contrast, option D (18) leaves room for at least one poodle and one Dalmatian, so the human’s choice better matches the story."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 68,
+      "layer2_cluster_summary": "Across the items, the model systematically mishandles vague quantifiers and contextual cues, either treating “most,” “some,” “almost no,” and “almost a quarter” as rigid numerical thresholds or minimizing their pragmatic implications. Humans instead integrate everyday conversational norms—like “some” usually meaning at least two, “almost” indicating slightly less than a benchmark, and narrative hints about expectations—to select counts that feel contextually natural while respecting fixed totals. When the model doesn’t outright violate the arithmetic constraints, it still gravitates to mathematically tidy but linguistically less plausible mappings from phrases to numbers, occasionally yielding defensible yet weaker interpretations.",
+      "layer2_cluster_size": 6,
+      "original_items": [
+        {
+          "original_index": 12,
+          "current_index": 2,
+          "failed_summary": "The puzzle implies there are 30 groups total, so the numbers choosing each ride must add up to 30. With 4 groups on bumper cars and “almost no one” on the carousel (interpreted as a very small but nonzero number, e.g., 1–2 groups), the only option that fits both the total and the language is 24 roller-coaster groups (e.g., 24 + 4 + 2 = 30). The model’s choice of 29 ignores the fixed total of 30 groups and thus is mathematically impossible, so its answer is incorrect."
+        },
+        {
+          "original_index": 419,
+          "current_index": 129,
+          "failed_summary": "The discrepancy comes from how the model interpreted vague quantifiers like “most,” “some,” and “almost no.” The story pragmatically suggests that Xiao Liu should expect nearly all of the 20 to be seaside resorts, with only a few non‑seaside (mountain or city) options, making a guess like 18 seaside (answer C) consistent with “most” and “almost no city exploration tours.” The model instead picked 10 seaside (D), effectively treating “most” as something like “around half,” which ignores both everyday language use and the strong “almost no city” cue, so its choice is not well‑justified."
+        },
+        {
+          "original_index": 1168,
+          "current_index": 377,
+          "failed_summary": "The story encodes a typical “quantifier to number” mapping: “most are hot dishes,” “some are cold dishes,” and “almost no desserts,” with a fixed total of 20 dishes. A standard pragmatic reading is that “almost no desserts” means 0 and “some cold dishes” means at least 2, so Xiao Fang’s best prior guess would be 18 hot and 2 cold, matching human answer D. The model likely over‑extended “most” to mean an extreme majority and treated “some” as compatible with just one cold dish, leading it to favor 19 hot dishes (option B), which is less pragmatically natural."
+        },
+        {
+          "original_index": 1186,
+          "current_index": 384,
+          "failed_summary": "The model likely reasoned from the literal semantics of “most / some / very few,” rejecting 59 and 60 as incompatible with “most are running,” then picking 20 as a moderate “some” that also stays near the true count of 15. The human answer B instead reads the discourse pragmatics: the phrase “only 15” implies Xiao Liu’s prior expectation was much higher than 15, and among the remaining options 50 best captures a strongly overestimated guess. Under these different but reasonable interpretations, both B and C are defensible, so the model’s choice is also understandable."
+        },
+        {
+          "original_index": 1765,
+          "current_index": 564,
+          "failed_summary": "The human likely used a minimal-count reading of the vague terms: “some carousels” ≈ at least two, “almost no bumper cars” ≈ zero, so Xiao Li’s prior estimate is 20−2−0=18 roller coasters (option D). The model instead seems to maximize “most,” treating “almost no bumper cars” as zero and “some carousels” as the smallest positive number (one), which gives 20−1−0=19 roller coasters and thus option B. Given ordinary language use where “some” usually implies more than one, the human’s answer is more pragmatically plausible, and the model’s choice, though mathematically coherent, relies on a less natural semantic assumption."
+        },
+        {
+          "original_index": 1767,
+          "current_index": 566,
+          "failed_summary": "Given 16 people and 'almost a quarter' being children, a careful reader treats this as slightly less than 4, so Xiao Ming’s prior reasonable guess is 3 children before looking indoors. The model instead interpreted 'almost a quarter' as effectively exactly one quarter, directly computed 16 × 1/4 = 4, and selected option B without adjusting for this qualitative modifier. Thus the model’s choice is less justified, because it overlooks the linguistic nuance that 'almost' typically signals a slightly smaller number, making the human answer of 3 more contextually appropriate."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 72,
+      "layer2_cluster_summary": "Across these items, the human-like reasoning integrates all quantitative constraints—fixed totals, vague quantifiers (“most,” “very few”), and narrative hints—while the model relies on a simpler maximize-the-majority heuristic. In every case, it pushes the dominant category (math, Three Kingdoms, novels, fish) to an extreme value and implicitly treats “very few” or minor categories as zero or negligible, violating the story’s requirement of a nonzero small remainder. The shared failure pattern is weak global consistency checking: the model underuses sum-to-total and lower-bound constraints that humans automatically enforce.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 62,
+          "current_index": 19,
+          "failed_summary": "From the story, Zhao Min infers that out of 20 books, 14 are math, so only 6 remain to be split between physics and biology, with physics being “a part” and biology “very few.” Options of 6 physics (implying 0 biology) and 2 physics (implying 4 biology) both contradict the description, and 7 physics is numerically impossible, leaving 4 physics plus 2 biology as the only consistent guess. The model likely fixated on maximizing physics within the remainder and ignored the “very few biology” constraint, so its choice of 6 is incorrect."
+        },
+        {
+          "original_index": 531,
+          "current_index": 160,
+          "failed_summary": "The story states there are 25 books, that 5 are about the Warring States, the vast majority are about the Three Kingdoms, and very few are about the pre–Common Era period. If the students guess 20 are about the Three Kingdoms, that leaves 0 books for the pre–Common Era, contradicting the textual claim that at least a small number belong to that era. The model likely focused only on making the Three Kingdoms books an extreme “vast majority” (20/25) and ignored the need for a nonzero “very few” category, so its choice C is inconsistent whereas D matches all constraints."
+        },
+        {
+          "original_index": 1327,
+          "current_index": 430,
+          "failed_summary": "The story gives 15 books total, says most are novels, few magazines, very few picture books, and residents then learn 3 are magazines, so any estimate must respect that total. With 3 magazines fixed, 12 books remain; treating 'very few' picture books as around two leads residents to infer about 10 novels, matching option C. The model chose 13 novels, seemingly focusing on 'most are novels' as 'almost all' while overlooking the 15-book total and the need for some picture books, so its answer conflicts with the story’s numbers."
+        },
+        {
+          "original_index": 1614,
+          "current_index": 522,
+          "failed_summary": "The story says that out of 40 customers, most order fish, a small part order shrimp, and very few eat crab, then specifies that 5 customers order shrimp. A natural reading is that these 5 are the “small part,” leaving a positive but small number for crab eaters and thus around 32 fish orders, matching option D. The model instead treated “very few” as zero crab orders and subtracted only the 5 shrimp from 40 to get 35, overlooking that the text implies some crab orders, so choice C is weakly supported."
+        }
+      ]
+    },
+    {
+      "layer2_cluster_label": 79,
+      "layer2_cluster_summary": "Across these reasons, the model consistently treats vague quantifiers like “hardly any” and “most” as extreme, almost absolute values rather than approximate ranges that must leave room for other categories. It overweights explicit numbers and salient categories (total gifts, animals, dolls, lions) and implicitly converts underspecified groups (“hardly any books/reptiles/cars/zebras”) to zero, thereby maximizing the dominant category. In contrast, the human answers treat these expressions as indicating small but nonzero quantities, integrate all mentioned categories, and choose estimates that jointly satisfy both numerical constraints and ordinary language pragmatics.",
+      "layer2_cluster_size": 4,
+      "original_items": [
+        {
+          "original_index": 147,
+          "current_index": 49,
+          "failed_summary": "The model seems to interpret Dad’s phrase “hardly any books” as meaning there are effectively zero books, so it subtracts only the 10 known clothes from 50 gifts and gets 40 dolls. The human answer instead treats “hardly any” as a small but nonzero quantity, reasoning that if some of the remaining 40 items are books, the estimated number of dolls should be slightly less, around 35. Given the qualitative wording about “most” toys and “hardly any” books, allowing a few books makes the 35-doll estimate more faithful to ordinary language, so the model’s 40-doll answer is less well-justified."
+        },
+        {
+          "original_index": 481,
+          "current_index": 146,
+          "failed_summary": "The story states there are 60 animals total, with 15 birds and “hardly any reptiles,” so the number of mammals must be 60 − 15 − (number of reptiles) = 45 − (number of reptiles). The human answer C (40 mammals) implicitly assumes there are about 5 reptiles, interpreting “hardly any” as “a few but not zero,” while the model’s answer A (45 mammals) treats “hardly any” as effectively zero reptiles. Since the text never quantifies reptiles, both 40 and 45 mammals are consistent estimates, so the model’s answer is also reasonable."
+        },
+        {
+          "original_index": 513,
+          "current_index": 155,
+          "failed_summary": "The model likely subtracted the 10 known puzzles from the total 50 toys and assumed the remainder must all be dolls, producing 40 dolls and ignoring remote control cars or any other categories. In doing so, it implicitly treated “hardly any remote control cars” as meaning there are none, instead of a small positive number, and thus failed to reserve any toys for that category. The human answer of 35 dolls better matches the natural reading of “hardly any” as a few items, leaving room for some remote control cars."
+        },
+        {
+          "original_index": 773,
+          "current_index": 232,
+          "failed_summary": "The model likely over-focused on the explicit number “50 animals” and the phrase “most are lions,” informally treating “most” as “almost all” and defaulting to the numerically salient option of 50 lions. In doing so, it neglected the logical constraint introduced by “some are giraffes” and “hardly any zebras,” which requires that the estimated number of lions be slightly less than 50 to leave room for those other animals. Thus, option C is inconsistent with the story’s description, whereas option D (45 lions) coherently satisfies all given constraints."
+        }
+      ]
+    }
+  ]
+}

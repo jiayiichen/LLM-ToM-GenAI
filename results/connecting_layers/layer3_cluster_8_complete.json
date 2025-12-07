@@ -1,0 +1,33 @@
+{
+  "layer3_cluster_label": 8,
+  "layer3_cluster_summary": "Across this cluster, the model repeatedly ignores the zero-sum, competitive framing and instead attributes generic self-conscious emotions such as guilt, shame, or fear of judgment to the protagonist. Even when the narrative explicitly states that the character gains if a rival is harmed or disadvantaged, the model downplays these instrumental motives and fails to represent envy or strategic satisfaction. This pattern reveals an overreliance on abstract moral-psychology heuristics and prosocial bias, combined with insufficient use of concrete, situation-specific cues about competition, conflicting interests, and plausible non-moral emotions.",
+  "layer3_cluster_size": 1,
+  "total_original_items": 2,
+  "all_original_indices": [
+    1189,
+    1919
+  ],
+  "all_current_indices": [
+    385,
+    618
+  ],
+  "layer2_clusters": [
+    {
+      "layer2_cluster_label": 64,
+      "layer2_cluster_summary": "Across these reasons, the core pattern is that the scenarios are framed as zero-sum competitions, but the model overlooks the explicitly competitive motive in favor of a more generic self-conscious emotion. In both cases, the narrative clearly signals that the protagonist stands to gain if the rival is harmed—Ella’s envy of James’s painting and Claire’s advantage over Amy—yet the model gravitates toward guilt, fear, or reputational concern that the text never actually mentions. This suggests an overreliance on stereotyped moral-psychology heuristics and underweighting of concrete, situation-specific cues.",
+      "layer2_cluster_size": 2,
+      "original_items": [
+        {
+          "original_index": 1189,
+          "current_index": 385,
+          "failed_summary": "The story explicitly states Ella is motivated by not wanting James’s painting to surpass hers, pointing to envy and competitive satisfaction when his work is mishandled, which aligns directly with option C. The model likely generalized from common moral-psychology patterns—believing that someone who withholds helpful information will feel anxiety about being exposed—so it prioritized a guilt‑ or fear‑based emotion in option B, even though the text never hints at Ella’s worry. Thus, the model’s choice is not well‑supported, and C better reflects the described motivation."
+        },
+        {
+          "original_index": 1919,
+          "current_index": 618,
+          "failed_summary": "The model likely focused on Claire’s self-protective motives in a competitive corporate environment, so it chose option C, which explicitly mentions concern for her “reputation and position,” a very plausible driver of inaction. However, the story directly highlights that the boss is choosing between Claire and Amy and that Claire “decides to stay silent” right then, which more directly supports option A: she is competing and hopes to benefit relative to Amy. Both A and C are psychologically plausible, but A is better grounded in the narrative’s explicit competitive framing."
+        }
+      ]
+    }
+  ]
+}
