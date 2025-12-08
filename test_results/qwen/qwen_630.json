@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The story says Xiao Hong and Xiao Bei are in the library and see a briefcase and a cabinet. They find a cup in the briefcase. Then Xiao Bei leaves, and Xiao Hong moves the cup to the cabinet.\n\nThe question is asking where the cup was before. So before Xiao Hong moved it, where was it?\n\nLooking at the story: \"they find a cup in the briefcase\". So initially, the cup was in the briefcase. Then Xiao Hong moved it to the cabinet. So before the move, the cup was in the briefcase.\n\nLooking at the candidate answers: A. Cabinet, B. Briefcase, C. Handbag, D. Drawer.\n\nSo the answer should be B. Briefcase. Because before moving, it was in the briefcase. The question is asking \"Where is the cup before?\" which refers to before Xiao Hong moved it. So yes, the cup was in the briefcase before being moved to the cabinet. So the correct answer is B.\n",
+    "content": "\n\nThe story states that Xiao Hong and Xiao Bei found a cup in the briefcase. Then Xiao Hong moved the cup to the cabinet. The question asks where the cup was \"before\" the movement. Since the cup was initially in the briefcase before Xiao Hong moved it, the correct answer must refer to the briefcase. Among the options, B. Briefcase directly matches this. The other options (Cabinet, Handbag, Drawer) are not mentioned as the initial location in the story. Therefore, the most likely answer is B.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 630,
+    "ANSWER": "B",
+    "STORY": "Xiao Hong and Xiao Bei are wandering in the library, they see a briefcase and a cabinet, they find a cup in the briefcase, Xiao Bei leaves the library, Xiao Hong moves the cup to the cabinet.",
+    "QUESTION": "Where is the cup before?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Briefcase",
+    "OPTION-C": "Handbag",
+    "OPTION-D": "Drawer",
+    "TASK": "False Belief Task"
+}

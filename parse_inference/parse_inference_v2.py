@@ -93,10 +93,11 @@ def parse_streaming_response(file_path):
 # df_d = pd.DataFrame(new_df_rows)
 # df_d.to_csv('/home/guo_chen2023/qwen.csv')
 
+res_dir = "/home/guo_chen2023/LLM-ToM-GenAI/test_results"
 
-file_path = "/home/guo_chen2023/LLM-ToM-GenAI/data_processing/sample_test.csv"
+file_path = "/home/guo_chen2023/LLM-ToM-GenAI/test.csv"
 submit_name = "qwen"
-output_txt_dir = f"/home/guo_chen2023/LLM-ToM-GenAI/outputs/{submit_name}_sample_test"
+output_txt_dir = f"/home/guo_chen2023/LLM-ToM-GenAI/outputs/{submit_name}_test_set"
 
 df = pd.read_csv(file_path)
 new_df_rows = []
@@ -115,20 +116,23 @@ for i, row in df.iterrows():
         matches = ["N/A"]
 
     d['model_answer'] = matches[0]
-    d['id'] = i
-    d['correct_answer'] = row['ANSWER']
+    d['index'] = i
+    d['ANSWER'] = row['ANSWER']
     d['STORY'] = row['STORY']
     d['QUESTION'] = row['QUESTION']
     for k in ['A','B','C','D']:
         d[f'OPTION-{k}'] = row[f'OPTION-{k}']
-    d['SOURCE_FILE'] = row["SOURCE_FILE"]
+    d['TASK'] = row["TASK"]
 
     new_df_rows.append(d)
 
-    os.makedirs(f"/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{submit_name}", exist_ok=True)
-    with open(f"/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{submit_name}/{submit_name}_{i}.json", "w") as f:
+    os.makedirs(f"{res_dir}/{submit_name}", exist_ok=True)
+    with open(f"{res_dir}/{submit_name}/{submit_name}_{i}.json", "w") as f:
         json.dump(d, f, indent=4)
     
-os.makedirs(f'/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{submit_name}_merged')
+os.makedirs(f'{res_dir}/{submit_name}_merged')
 df_d = pd.DataFrame(new_df_rows)
-df_d.to_csv(f'/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{submit_name}_merged/{submit_name}.csv')
+df_d.to_csv(f'{res_dir}/{submit_name}_merged/{submit_name}.csv')
+
+with open (f'{res_dir}/{submit_name}_merged/{submit_name}.json', 'w') as f:
+    json.dump(new_df_rows, f, indent=4)

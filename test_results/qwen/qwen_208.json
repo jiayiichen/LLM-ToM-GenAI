@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's try to figure this out. So the story is about Xiao Ming and Youyou at a farm. They see a backpack and a cabinet. Youyou leaves the farm, and Xiao Ming moves the marker from the backpack to the cabinet.\n\nWait, the question is where the marker is now. Let's break down the steps. Initially, they find a marker in the backpack. Then Youyou leaves, and Xiao Ming moves the marker to the cabinet. So after that action, the marker should be in the cabinet.\n\nLooking at the answer options: A is Cabinet, B is Backpack, C is Cupboard, D is Drawer. The story says Xiao Ming moved the marker to the cabinet, so the current location should be the cabinet. So the answer should be A.\n\nBut wait, let me check again. The story says \"they find a marker in the backpack\" \u2013 so initially it's in the backpack. Then \"Youyou leaves the farm, Xiao Ming moves the marker to the cabinet.\" So after moving, the marker is in the cabinet. So yes, A. Cabinet. The options include \"Cabinet\" as A, so answer A.\n\nWait, but maybe \"cupboard\" is similar to cabinet? But the story specifically says \"cabinet\", so option A is Cabinet. Cupboard is a different word but maybe a synonym, but the story says cabinet. So in the options, A is Cabinet, so that's the correct choice. Cupboard (C) might be a trick, but the story says cabinet. So answer is A.\n",
+    "content": "\n\nThe story states that Xiao Ming and Youyou initially find a marker in the backpack. Youyou then leaves the farm, and Xiao Ming moves the marker to the cabinet. This action clearly indicates that the marker's current location is the cabinet. The candidate answers include \"A. Cabinet\" as an option, which directly matches the story's description. Although \"Cupboard\" (option C) is similar in meaning, the story specifically mentions \"cabinet,\" making option A the correct choice. There is no ambiguity in the story's details regarding the marker's final location.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 208,
+    "ANSWER": "C",
+    "STORY": "Xiao Ming and Youyou stroll around the farm, they see a backpack and a cabinet, they find a marker in the backpack, Youyou leaves the farm, Xiao Ming moves the marker to the cabinet.",
+    "QUESTION": "Where is the marker now?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Backpack",
+    "OPTION-C": "Cupboard",
+    "OPTION-D": "Drawer",
+    "TASK": "False Belief Task"
+}

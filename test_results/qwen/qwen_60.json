@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Gang and Youyou in the attic. They find a vest in a drawer. Then Youyou leaves the attic, and Xiao Gang moves the vest to the cabinet. Now the question is, after Youyou returns, where does Youyou look for the vest?\n\nHmm. Let me break this down. First, when they were both there, they found the vest in the drawer. Then Youyou leaves. While Youyou is gone, Xiao Gang moves the vest to the cabinet. So when Youyou comes back, he doesn't know that Xiao Gang moved it. So Youyou would look where he last saw it, right? Because he wasn't there when Xiao Gang moved it. So the last place Youyou knew the vest was in was the drawer. Because when they found it together, it was in the drawer, then Youyou left. So when he comes back, he probably checks the drawer first, since he doesn't know it was moved.\n\nWait, but the story says \"they see drawers, suitcases, and cabinets, they find a vest in the drawer\". So they found it in the drawer. Then Youyou leaves. Xiao Gang moves it to the cabinet. So Youyou doesn't know about the move. So when he returns, he would look where he left it, which is the drawer. Because he wasn't present when Xiao Gang moved it. So the answer should be C. Drawer.\n\nLet me check the options again. The choices are A. Box, B. Suitcase, C. Drawer, D. Cabinet. So yes, C is the drawer. Because Youyou's last known location of the vest was in the drawer. He didn't see it being moved, so he would check the drawer first. Xiao Gang moved it to the cabinet, but Youyou doesn't know that. So he would look in the drawer. So answer C.\n",
+    "content": "\n\nThe story states that Xiao Gang and Youyou found the vest in the drawer. Youyou then leaves the attic, and Xiao Gang moves the vest to the cabinet. Since Youyou was not present when the vest was moved, he has no knowledge of the change in location. When Youyou returns, he would logically search for the vest in the last place he remembered seeing it, which is the drawer. The other options (box, suitcase, cabinet) are either not mentioned as the initial location or are the new location known only to Xiao Gang. Therefore, Youyou would look in the drawer first.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 60,
+    "ANSWER": "C",
+    "STORY": "Xiao Gang and Youyou are wandering in the attic, they see drawers, suitcases, and cabinets, they find a vest in the drawer, Youyou leaves the attic, Xiao Gang moves the vest to the cabinet.",
+    "QUESTION": "After Youyou returns to the attic, where does Youyou look for the vest?",
+    "OPTION-A": "Box",
+    "OPTION-B": "Suitcase",
+    "OPTION-C": "Drawer",
+    "OPTION-D": "Cabinet",
+    "TASK": "False Belief Task"
+}

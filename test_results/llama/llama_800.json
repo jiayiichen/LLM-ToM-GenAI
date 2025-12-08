@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine the most likely answer, let's analyze the information provided in the story step by step.\n\n1. **Understanding the context**: The story is set in an office environment where Xiao Wang and Xiao Zhao are colleagues. Xiao Zhao has just been promoted.\n\n2. **Identifying key information**: The story directly states that Xiao Zhao \"just gets promoted to department manager.\" This is a crucial piece of information.\n\n3. **Analyzing the question**: The question asks about the position Xiao Zhao gets promoted to.\n\n4. **Evaluating the answer options**:\n   - A. Department Assistant: This is a lower position and not the one mentioned in the story.\n   - B. Department Manager: This matches the information given in the story.\n   - C. Director: This is a higher position than a department manager but is not mentioned in the story.\n   - D. Project Manager: While this could be a significant role, it is not the position mentioned in the story.\n\n5. **Drawing a conclusion**: Based on the information provided in the story, Xiao Zhao was promoted to \"department manager.\" Therefore, the correct answer is directly stated in the story.\n\nThe most likely answer is B. Department Manager, so the answer index is [[B]].\n\n[[B]]",
+    "model_answer": "B",
+    "index": 800,
+    "ANSWER": "B",
+    "STORY": "On Monday morning, Xiao Wang runs into Xiao Zhao in the office, who just gets promoted to department manager. Xiao Wang keeps his composure and smiles, asking, \"I hear there are some new developments in the company, do you have any good news to share?\" Xiao Zhao smiles and replies, \"Yes, I get promoted, I am glad you hear about it too.\" At this moment, the manager comes over and also congratulates Xiao Zhao, \"Congratulations, Xiao Zhao, you deserve this promotion.\" After hearing this, Xiao Wang's expression reveals a hint of complex emotions.",
+    "QUESTION": "What position does Xiao Zhao get promoted to?",
+    "OPTION-A": "Department Assistant",
+    "OPTION-B": "Department Manager",
+    "OPTION-C": "Director",
+    "OPTION-D": "Project Manager",
+    "TASK": "Faux-pas Recognition Test"
+}

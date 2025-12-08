@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking where the story takes place. Let me read through the story again carefully.\n\nThe story starts with \"On Friday afternoon, in the school library, Xiao Li is reading a magazine attentively.\" Oh, right away it says \"in the school library\". So the location is mentioned right at the beginning. Then it continues talking about Xiao Gang and Xiao Xue sitting next to her at the table. They're classmates. Then there's some conversation. Later, Xiao Li closes the magazine and prepares to leave. Then Xiao Xue asks about the poetry recitation competition.\n\nSo the first sentence clearly states \"in the school library\". The candidate answers are A. Supermarket, B. Park, C. Library, D. Classroom. So the answer should be C. Library.\n\nWait, but maybe someone might think it's a classroom? Let me check again. The story says \"school library\" specifically. So the location is the library. The other options: supermarket, park, classroom. But the story explicitly says \"school library\", so the correct answer is C. Library.\n\nYes, that's straightforward. The first part of the story says \"in the school library\", so regardless of other details, the answer is C.\n",
+    "content": "\n\nThe story begins with the explicit statement: \"On Friday afternoon, in the school library, Xiao Li is reading a magazine attentively.\" This directly identifies the setting as the school library. The subsequent details, such as Xiao Gang and Xiao Xue sitting at a table next to her, Xiao Li closing the magazine, and the conversation about the poetry recitation competition, all occur within this same location. The candidate answers include \"Library\" as option C, which matches the explicitly stated setting. There is no ambiguity in the story's description of the location, making it unnecessary to infer further. The correct answer is clearly C.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 584,
+    "ANSWER": "C",
+    "STORY": "On Friday afternoon, in the school library, Xiao Li is reading a magazine attentively. Xiao Gang and Xiao Xue sit on the table next to her, they are also Xiao Li's classmates. Xiao Gang suddenly says to Xiao Xue: \"Do you know Xiao Li comes here to read magazines every day? I think she is a bit unusual.\" At this moment, Xiao Li hears their conversation, quietly closes the magazine, and prepares to leave. Xiao Xue continues to say: \"Yes, she always sits here alone, seems very focused.\" Xiao Li feels a bit surprised, but still says friendly: \"Hmm, I am particularly interested in this magazine.\" Xiao Gang and Xiao Xue laugh, then Xiao Xue asks: \"Xiao Li, are you going to participate in the school's poetry recitation competition now?\"",
+    "QUESTION": "Where does the story take place?",
+    "OPTION-A": "Supermarket",
+    "OPTION-B": "Park",
+    "OPTION-C": "Library",
+    "OPTION-D": "Classroom",
+    "TASK": "Faux-pas Recognition Test"
+}

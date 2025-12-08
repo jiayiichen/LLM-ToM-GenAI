@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "",
+    "model_answer": "N/A",
+    "index": 437,
+    "ANSWER": "B",
+    "STORY": "In a flower shop, the florist Xiao Mei is making a bouquet for the customer Xiao Liu. She tells Xiao Liu, \"We have 60 different types of flowers, most of them are roses, some are tulips, and a very small part are sunflowers.\" Xiao Liu checks and finds that there are only 20 bouquets of tulips.",
+    "QUESTION": "Before Xiao Liu checks, how many bouquets of roses does he guess?",
+    "OPTION-A": "Before checking, Xiao Liu guesses there are 59 bouquets of roses.",
+    "OPTION-B": "Before checking, Xiao Liu guesses there are 50 bouquets of roses.",
+    "OPTION-C": "Before checking, Xiao Liu guesses there are 30 bouquets of roses.",
+    "OPTION-D": "Before checking, Xiao Liu guesses there are 60 bouquets of roses.",
+    "TASK": "Scalar Implicature Test"
+}

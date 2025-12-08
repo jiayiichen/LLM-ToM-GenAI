@@ -10,10 +10,10 @@ def load_jsons_by_id(csv_path, dir_path):
     """
     df = pd.read_csv(csv_path)
 
-    if "id" not in df.columns:
+    if "index" not in df.columns:
         raise ValueError("CSV must contain an 'id' column")
 
-    ids = df["id"].astype(str).tolist()
+    ids = df["index"].astype(str).tolist()
     results = []
 
     for I in ids:
@@ -23,9 +23,9 @@ def load_jsons_by_id(csv_path, dir_path):
                 results.append(json.load(f))
 
     return results
-name="qwen"
-res = load_jsons_by_id(f"/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{name}_merged/{name}_failures.csv",
+name="llama"
+res = load_jsons_by_id(f"/home/guo_chen2023/LLM-ToM-GenAI/test_results/{name}_merged/{name}_failures.csv",
  f"/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{name}")
 
-with open(f"/home/guo_chen2023/LLM-ToM-GenAI/sample_results/{name}_merged/{name}_failures.json", "w") as f:
+with open(f"/home/guo_chen2023/LLM-ToM-GenAI/test_results/{name}_merged/{name}_failures.json", "w") as f:
     json.dump(res, f, indent=2)

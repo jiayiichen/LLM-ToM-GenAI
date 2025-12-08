@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Hong and Xiao Gang hanging out in the smoking room. They see a box and a crate. Then they find a zucchini in the box. Then Xiao Gang leaves the smoking room, and Xiao Hong moves the zucchini to the crate. The question is where the zucchini is now.\n\nHmm. Let's break it down step by step. First, the initial location: the zucchini is in the box. Then Xiao Gang leaves the room. After that, Xiao Hong moves the zucchini to the crate. So after she moves it, the zucchini should be in the crate. The answer options are A. Crate, B. Drawer, C. Backpack, D. Box.\n\nWait, the story says \"Xiao Hong moves the zucchini to the crate.\" So the current location is the crate. So the answer should be A. Crate. Let me check again. The story says they find a zucchini in the box. Then Xiao Gang leaves. Then Xiao Hong moves it to the crate. So yes, after moving, it's in the crate. So A is the correct answer.\n\nThe other options: Drawer and Backpack aren't mentioned in the story at all. So they can't be right. The Box was the original place, but she moved it out. So D is wrong. So the answer must be A.\n",
+    "content": "\n\nThe story states that Xiao Hong and Xiao Gang initially see a zucchini in the box. Then, Xiao Gang leaves the smoking room, and Xiao Hong moves the zucchini to the crate. This action clearly indicates that the zucchini is no longer in the box but has been relocated to the crate. The other options (Drawer, Backpack) are not mentioned in the story at all, so they cannot be correct. Since the story explicitly describes the zucchini being moved to the crate, the correct answer is A. Crate.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 334,
+    "ANSWER": "A",
+    "STORY": "Xiao Hong and Xiao Gang are hanging out in the smoking room, they see a box and a crate, they find a zucchini in the box, Xiao Gang leaves the smoking room, Xiao Hong moves the zucchini to the crate.",
+    "QUESTION": "Where is the zucchini now?",
+    "OPTION-A": "Crate",
+    "OPTION-B": "Drawer",
+    "OPTION-C": "Backpack",
+    "OPTION-D": "Box",
+    "TASK": "False Belief Task"
+}

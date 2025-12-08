@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "",
+    "model_answer": "N/A",
+    "index": 432,
+    "ANSWER": "C",
+    "STORY": "At a movie theater ticket window, ticket seller Xiao Chen is selling movie tickets. He tells the audience Xiao Liu, \"Today there are 8 movies showing, most are comedies, some are animations, but there are hardly any horror movies.\" Xiao Liu looks at the movie schedule and finds that there are only 2horror movies.",
+    "QUESTION": "Before Xiao Liu looks at the movie schedule, how many comedies does he guess there are?",
+    "OPTION-A": "Before Xiao Liu looks at the movie schedule, he guesses there are 8 comedies.",
+    "OPTION-B": "Before Xiao Liu looks at the movie schedule, he guesses there are 7 comedies.",
+    "OPTION-C": "Before Xiao Liu looks at the movie schedule, he guesses there are 6 comedies.",
+    "OPTION-D": "Before Xiao Liu looks at the movie schedule, he guesses there are 2 comedies.",
+    "TASK": "Scalar Implicature Test"
+}

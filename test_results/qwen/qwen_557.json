@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking where Xiao Li and Xiao Zhang are preparing to go on vacation. Let me check the story again.\n\nIn the story, it says: \"Xiao Li answers with a smile: 'We are very happy, we plan to go to the beach for a vacation next month, and prepare a lot of romantic plans!'\" So directly from Xiao Li's statement, they mentioned \"go to the beach\". Then another friend asks for details, and Xiao Li describes their plans and some of Xiao Zhang's preferences. But the key part here is the initial answer from Xiao Li: \"plan to go to the beach for a vacation next month\".\n\nLooking at the candidate answers: A. Beach, B. Mountain area, C. Hot spring, D. Grassland. The story explicitly says \"beach\", so the answer should be A.\n\nWait, but let me make sure there's no trick here. The story mentions \"prepare a lot of romantic plans!\" but the location is clearly stated as beach. The other options aren't mentioned anywhere. Xiao Zhang just says \"Yes, we all look forward to it.\" but doesn't specify the place. So the only information given about the vacation destination is the beach. So the answer must be A. Beach.\n\nI don't see any ambiguity here. The question is straightforward. The story directly states \"go to the beach\", so the correct answer is A.\n",
+    "content": "\n\nThe story explicitly states that Xiao Li says, \"We are very happy, we plan to go to the beach for a vacation next month, and prepare a lot of romantic plans!\" This directly answers the question about the vacation destination. The other options (Mountain area, Hot spring, Grassland) are not mentioned in the story at all. Xiao Zhang's response (\"Yes, we all look forward to it.\") confirms agreement but does not contradict or alter the stated destination. Therefore, the correct answer is clearly \"Beach.\"\n\n[[A]]",
+    "model_answer": "A",
+    "index": 557,
+    "ANSWER": "A",
+    "STORY": "On weekend nights, Xiao Li and Xiao Zhang go to a friend's party together. At the party, friends sit around and chat. A friend asks: \"How are you guys doing recently?\" Xiao Li answers with a smile: \"We are very happy, we plan to go to the beach for a vacation next month, and prepare a lot of romantic plans!\" Xiao Zhang says lightly: \"Yes, we all look forward to it.\" Another friend asks: \"Wow, I really want to hear you talk in detail.\" Xiao Li then starts to describe their plans in detail and some of Xiao Zhang's personal preferences, the party continues, Xiao Zhang seems a bit silent.",
+    "QUESTION": "Where do Xiao Li and Xiao Zhang prepare to go on vacation?",
+    "OPTION-A": "Beach",
+    "OPTION-B": "Mountain area",
+    "OPTION-C": "Hot spring",
+    "OPTION-D": "Grassland",
+    "TASK": "Faux-pas Recognition Test"
+}

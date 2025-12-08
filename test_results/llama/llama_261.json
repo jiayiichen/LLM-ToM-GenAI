@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine the most likely answer, let's analyze the given information step by step.\n\n1. **Understanding the Story**: The story mentions that the company's annual dinner is taking place at a specific location on Friday night at 7 pm. The location is specified as \"Yueyang Tower private room.\"\n\n2. **Identifying the Question**: The question asks where the company holds the dinner.\n\n3. **Analyzing the Candidate Answers**: The options given are:\n   - A. Yueyang Tower private room\n   - B. Yellow Crane Tower private room\n   - C. Tengwang Pavilion private room\n   - D. Guanque Tower private room\n\n4. **Relating the Story to the Question**: The story directly states that the dinner is held at \"Yueyang Tower private room.\" \n\n5. **Comparing with Candidate Answers**: The location mentioned in the story directly matches one of the candidate answers.\n\n6. **Conclusion**: Since the story explicitly mentions that the dinner is held at \"Yueyang Tower private room,\" the most likely answer is the one that matches this information.\n\n7. **Outputting the Most Likely Answer Index**: The answer that corresponds to \"Yueyang Tower private room\" is A.\n\nTherefore, the step-by-step reasoning leads to the conclusion that the most likely answer is [[A]].",
+    "model_answer": "A",
+    "index": 261,
+    "ANSWER": "A",
+    "STORY": "At 7 pm on Friday night, Yueyang Tower private room. The company's annual dinner takes place here tonight. Mr. Zhao does not attend because he needs to work late on an important report. During the meal, Miss Zhao looks around and notices that Manager Li's seat is empty. She asks Ms. Tian, the company's finance officer sitting diagonally opposite: \"Ms. Tian, why does Manager Li not attend the dinner tonight?\" Ms. Tian puts down her chopsticks, looks up at Manager Li's empty seat, and says: \"Maybe he thinks we ordinary employees are not qualified to eat with him, so he does not show up.\" Miss Zhao says lightly, \"I see,\" and lowers her head to concentrate on her food. For a while, neither of them speaks.",
+    "QUESTION": "Where does the company hold the dinner?",
+    "OPTION-A": "Yueyang Tower private room",
+    "OPTION-B": "Yellow Crane Tower private room",
+    "OPTION-C": "Tengwang Pavilion private room",
+    "OPTION-D": "Guanque Tower private room",
+    "TASK": "Faux-pas Recognition Test"
+}

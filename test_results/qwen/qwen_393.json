@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The story is about Xiao Ming and Xiao Li in the basement. They see a backpack and a box. They find tape in the backpack. Then Xiao Li leaves, and Xiao Ming moves the tape to the box.\n\nThe question is: Where is the tape before?\n\nSo, before Xiao Ming moved it, where was the tape? Let's break it down.\n\nThe story says: \"they find tape in the backpack\". So initially, the tape was in the backpack. Then Xiao Ming moves the tape to the box. So before moving, the tape was in the backpack.\n\nLooking at the choices: A. Handbag, B. Case, C. Backpack, D. Box.\n\nSo the correct answer should be C. Backpack.\n\nWait, let me check again. The story says \"they find tape in the backpack\" \u2013 so that's where the tape was before Xiao Ming moved it. Then Xiao Ming moves it to the box. So before moving, it's in the backpack. So answer C.\n\nThe options are A. Handbag, B. Case, C. Backpack, D. Box. So yes, C is correct. The question is asking where the tape was before, so before it was moved to the box, it was in the backpack. So the answer must be C.\n",
+    "content": "\n\nThe story states that Xiao Ming and Xiao Li \"see a backpack and a box\" and \"find tape in the backpack.\" This explicitly indicates that the tape was initially inside the backpack. Xiao Ming later moves the tape to the box, confirming the tape's original location before the move. The question asks where the tape was *before* the move, which directly corresponds to the backpack. Among the options, \"C. Backpack\" matches this description. The other choices (Handbag, Case, Box) are not supported by the story: \"Handbag\" and \"Case\" are not mentioned, and the Box is where the tape was moved *to*, not from. Thus, the correct answer is C.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 393,
+    "ANSWER": "C",
+    "STORY": "Xiao Ming and Xiao Li are wandering in the basement, they see a backpack and a box, they find tape in the backpack, Xiao Li leaves the basement, Xiao Ming moves the tape to the box.",
+    "QUESTION": "Where is the tape before?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Case",
+    "OPTION-C": "Backpack",
+    "OPTION-D": "Box",
+    "TASK": "False Belief Task"
+}

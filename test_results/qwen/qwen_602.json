@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So there's this story about a family gathering with 30 dishes. The host says most are spicy and only a few are sweet. Then after trying, the guests find that only 2 dishes are sweet. The question is asking how many dishes are spicy after they tried.\n\nHmm, right. So total dishes are 30. If only 2 are sweet, then the rest must be spicy. Because the problem states \"only a few dishes are sweet\" and after trying, they found 2 sweet. So spicy dishes would be total minus sweet ones. So 30 minus 2 equals 28. That makes sense.\n\nLooking at the options: A says 30 spicy, but that can't be because there are 2 sweet. B is 28, which matches 30-2. C is 10, which is way too low. D is 20, which would mean 10 sweet, but the story says only 2 sweet. So definitely B.\n\nWait, the host said \"most of the dishes are spicy, only a few are sweet\". Then guests found 2 sweet. So yes, 28 spicy. So answer B. The options are A:30, B:28, C:10, D:20. So B is correct.\n\nBut wait, the question says \"Please guess how many dishes are spicy after the guests try?\" So they already tried and found 2 sweet, so spicy must be 28. So yes, B is correct. So the answer should be B.\n",
+    "content": "\n\nThe story states there are 30 dishes total. The host mentions most are spicy and only a few are sweet. After trying, the guests find exactly 2 sweet dishes. Since the total number of dishes is fixed at 30, the number of spicy dishes must be the total minus the sweet ones. Calculating this: 30 total dishes \u2212 2 sweet dishes = 28 spicy dishes. \n\nNow reviewing the options:\n- A. 30 spicy: Incorrect, as 2 dishes are sweet, so not all can be spicy.\n- B. 28 spicy: Correct, as 30 \u2212 2 = 28.\n- C. 10 spicy: Incorrect, as this would imply 20 sweet dishes, contradicting the given information.\n- D. 20 spicy: Incorrect, as this would mean 10 sweet dishes, which also contradicts the \"only 2 sweet\" finding.\n\nThus, the correct answer is B.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 602,
+    "ANSWER": "B",
+    "STORY": "At a family gathering, there are 30 dishes. The host tells the guests that most of the dishes are spicy, only a few dishes are sweet. After trying, the guests find that only 2 dishes are sweet.",
+    "QUESTION": "Please guess how many dishes are spicy after the guests try?",
+    "OPTION-A": "After trying, the guests guess that 30 dishes are spicy.",
+    "OPTION-B": "After trying, the guests guess that 28 dishes are spicy.",
+    "OPTION-C": "After trying, the guests guess that 10 dishes are spicy.",
+    "OPTION-D": "After trying, the guests guess that 20 dishes are spicy.",
+    "TASK": "Scalar Implicature Test"
+}

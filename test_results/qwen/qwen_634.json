@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking where the marker was before Xiao Ming moved it to the cabinet.\n\nLooking at the story: \"Xiao Ming and Youyou stroll around the farm, they see a backpack and a cabinet, they find a marker in the backpack, Youyou leaves the farm, Xiao Ming moves the marker to the cabinet.\"\n\nSo the sequence is: they see a backpack and a cabinet. Then they find a marker in the backpack. So initially, the marker is in the backpack. Then Youyou leaves, and Xiao Ming moves the marker to the cabinet.\n\nThe question is \"Where is the marker before?\" So before Xiao Ming moved it, where was it? According to the story, they found the marker in the backpack. So before moving, it was in the backpack. The answer options are A. Briefcase, B. Basket, C. Cupboard, D. Backpack.\n\nOption D is Backpack. So the answer should be D. Let me check again.\n\nThe story says \"they find a marker in the backpack\" \u2013 so that's where it was before Xiao Ming moved it. Then he moves it to the cabinet. So the original location is backpack. So the correct choice is D. The options are A. Briefcase (but the story mentions backpack, not briefcase), B. Basket (not mentioned), C. Cupboard (which is similar to cabinet, but the cabinet is where it's moved to, not where it was before), D. Backpack. Yes, so D is correct.\n",
+    "content": "\n\nThe story states that \"they find a marker in the backpack,\" which indicates the initial location of the marker before any movement. Xiao Ming then moves it to the cabinet. The question asks where the marker was *before* this action. The options are A. Briefcase (not mentioned in the story), B. Basket (not mentioned), C. Cupboard (which is synonymous with cabinet but is where the marker was moved *to*, not its original location), and D. Backpack (explicitly stated as the initial location). Thus, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 634,
+    "ANSWER": "D",
+    "STORY": "Xiao Ming and Youyou stroll around the farm, they see a backpack and a cabinet, they find a marker in the backpack, Youyou leaves the farm, Xiao Ming moves the marker to the cabinet.",
+    "QUESTION": "Where is the marker before?",
+    "OPTION-A": "Briefcase",
+    "OPTION-B": "Basket",
+    "OPTION-C": "Cupboard",
+    "OPTION-D": "Backpack",
+    "TASK": "False Belief Task"
+}

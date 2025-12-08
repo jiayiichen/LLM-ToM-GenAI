@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Zhang Wei and Xiao Ming in the library. They see a suitcase and a handbag. They find a sweater in the suitcase. Then Xiao Ming leaves the library, and Zhang Wei moves the sweater to the handbag.\n\nThe question is where the sweater is now. The options are A. Handbag, B. Suitcase, C. Box, D. Briefcase.\n\nHmm. Let me break it down step by step. First, the sweater was initially in the suitcase. Then Xiao Ming leaves, but the key action is Zhang Wei moving the sweater to the handbag. So after Zhang Wei moves it, the sweater should be in the handbag. \n\nWait, the story says \"Zhang Wei moves the sweater to the handbag.\" So after that action, the sweater is in the handbag. So the answer should be A. Handbag.\n\nLet me check the options again. A is Handbag, B Suitcase, C Box, D Briefcase. The story mentions suitcase and handbag, but not box or briefcase. So C and D are probably distractors. Since the sweater was moved to the handbag, the current location is handbag. So the correct answer is A.\n\nI need to make sure there's no trick here. The story says \"they find a sweater in the suitcase\", so initially in suitcase. Then \"Zhang Wei moves the sweater to the handbag\". So after moving, it's in handbag. Xiao Ming left the library, but that doesn't affect the sweater's location. So yes, A is correct.\n",
+    "content": "\n\nThe story states that Zhang Wei and Xiao Ming found a sweater in the suitcase. Then, Xiao Ming leaves the library, and Zhang Wei moves the sweater to the handbag. This action directly places the sweater in the handbag. The options include \"Handbag\" (A), \"Suitcase\" (B), \"Box\" (C), and \"Briefcase\" (D). The story explicitly mentions the suitcase and handbag, while \"Box\" and \"Briefcase\" are not referenced. Since Zhang Wei moved the sweater to the handbag, the current location of the sweater is the handbag. There is no ambiguity in the described action, and the correct answer is clearly option A.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 148,
+    "ANSWER": "A",
+    "STORY": "Zhang Wei and Xiao Ming are wandering in the library, they see a suitcase and a handbag, they find a sweater in the suitcase, Xiao Ming leaves the library, Zhang Wei moves the sweater to the handbag.",
+    "QUESTION": "Where is the sweater now?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Suitcase",
+    "OPTION-C": "Box",
+    "OPTION-D": "Briefcase",
+    "TASK": "False Belief Task"
+}

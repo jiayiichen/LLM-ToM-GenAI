@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Zhang Li buying a new book and then putting it on the sofa when she gets home. Then in the evening, Grandpa asks where she put the book, and she says she put it on the bookshelf.\n\nWait a second. The story says she \"casually puts the book on the sofa\" when she gets home. So initially, the book is on the sofa. But when Grandpa asks, she says she put it on the bookshelf. That doesn't match. So her statement is false because she actually put it on the sofa, not the bookshelf.\n\nSo the question is whether what she says is true. She said \"I put it on the bookshelf,\" but according to the story, she put it on the sofa. Therefore, the correct answer should be B. No.\n\nLooking at the options: A is Yes, B is No, C and D are nan. So the answer should be B.\n\nWait, but let me double-check. The story says she puts the book on the sofa when she gets home. Then in the evening, Grandpa asks where she put it, and she says bookshelf. So she's lying or mistaken. Either way, the truth is she put it on the sofa, so her statement is false. So the answer is B. No.\n\nYes, that makes sense. So the correct choice is B.\n",
+    "content": "\n\nZhang Li initially puts the new book on the sofa when she gets home, as stated in the story. However, when Grandpa asks where she put the book, she replies that she put it on the bookshelf. This directly contradicts the earlier action described in the story. Since the truth is that the book was placed on the sofa, her statement about the bookshelf is false. Therefore, the correct answer is \"No.\"\n\n[[B]]",
+    "model_answer": "B",
+    "index": 0,
+    "ANSWER": "B",
+    "STORY": "Zhang Li buys a new book at the bookstore. When she gets home, she casually puts the book on the sofa and goes to cook dinner.  In the evening, Grandpa asks, \"Where do you put your new book?\" Zhang Li replies, \"I put it on the bookshelf.\"",
+    "QUESTION": "Is what Zhang Li says true?",
+    "OPTION-A": "Yes",
+    "OPTION-B": "No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Strange Story Task"
+}

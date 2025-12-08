@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Bei finding a cabinet with a label that says \"pineapple.\" But when he opens it, he finds a calculator and no pineapple. Then he closes it and puts it back. Then Han Mei Mei enters and sees the cabinet.\n\nThe question is: What is in the cabinet?\n\nThe options are A. Calculator, B. Sweatshirt, C. Pineapple, D. Beet.\n\nHmm. Let's break it down. The story says Xiao Bei opens the cabinet and finds a calculator, and there's no pineapple inside. So when he opened it, the contents were a calculator. Then he closed it and put it back. So after that, when Han Mei Mei enters, the cabinet is closed again, but the contents haven't changed because Xiao Bei just closed it after checking. So the cabinet still has the calculator inside.\n\nWait, the label says \"pineapple,\" but the actual contents are a calculator. So the question is asking what's currently in the cabinet when Han Mei Mei sees it. Since Xiao Bei found a calculator and then closed it, the cabinet's contents didn't change. So the answer should be A. Calculator.\n\nBut let me check again. The label says pineapple, but inside there's a calculator. So the actual content is calculator. The label is wrong. So when the question asks \"What is in the cabinet?\" it's about the actual contents, not the label. So yes, the calculator is inside. So the correct answer is A.\n\nLooking at the options: A is Calculator, which matches. The other options: B. Sweatshirt isn't mentioned, C. Pineapple is the label but not inside, D. Beet also not mentioned. So definitely A.\n",
+    "content": "\n\nThe story states that Xiao Bei opens the cabinet labeled \"pineapple\" and finds a calculator inside, with no pineapple present. After closing the cabinet and returning it to its place, Han Mei Mei enters and sees the cabinet. The question asks what is currently in the cabinet. Since Xiao Bei confirmed the contents were a calculator and did not alter them before closing it, the cabinet still contains the calculator when Han Mei Mei observes it. The label \"pineapple\" is misleading but does not reflect the actual contents. None of the other options (sweatshirt, pineapple, beet) are mentioned in the story as being present. Therefore, the correct answer is A. Calculator.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 612,
+    "ANSWER": "A",
+    "STORY": "Xiao Bei finds a cabinet in the office, the label on the cabinet is pineapple, Xiao Bei cannot see what is inside the cabinet, Xiao Bei opens the cabinet and finds a calculator, there is no pineapple in the cabinet, Xiao Bei closes the cabinet and puts it back in its place, Han Mei Mei enters the office and sees the cabinet.",
+    "QUESTION": "What is in the cabinet?",
+    "OPTION-A": "Calculator",
+    "OPTION-B": "Sweatshirt",
+    "OPTION-C": "Pineapple",
+    "OPTION-D": "Beet",
+    "TASK": "False Belief Task"
+}

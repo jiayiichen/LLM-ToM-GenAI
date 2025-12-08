@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To infer Xiao Min's emotion based on the given story, let's analyze the situation step by step.\n\n1. **Understanding the situation**: The story states that during a big cleanup, Xiao Min does all the work alone. This implies that there was a task or responsibility that needed to be shared, presumably between Xiao Min and Xiao Hua.\n\n2. **Xiao Hua's action**: It's mentioned that Xiao Hua completely forgets about the cleanup and goes out to play with friends instead. This indicates that Xiao Hua is not fulfilling their responsibility or contributing to the task at hand.\n\n3. **Xiao Min's situation and likely emotion**: Since Xiao Min is left to do all the work alone, it suggests that Xiao Min is shouldering the entire burden of the cleanup. This could lead to a negative emotional response due to the unfair distribution of workload or the feeling of being let down by Xiao Hua.\n\n4. **Analyzing the answer options**:\n   - **A. Happy**: It's unlikely that Xiao Min would feel happy doing all the work alone while Xiao Hua is out having fun.\n   - **B. Angry**: This is a plausible emotion. Xiao Min might feel angry or resentful towards Xiao Hua for not contributing and for leaving Xiao Min with all the work.\n   - **C. Sadness**: While possible, sadness might not be the most direct response to the situation unless Xiao Min is particularly sensitive or feels hurt by Xiao Hua's actions.\n   - **D. Regretful**: Regret could be a possible emotion if Xiao Min regrets taking on the task alone or regrets not being able to go out and play. However, the story doesn't directly suggest that Xiao Min is regretful about their decision or action.\n\n5. **Choosing the most likely emotion**: Given that Xiao Min is left to do all the work and Xiao Hua is out having fun, the most likely negative emotion that aligns with this situation is anger or resentment. Xiao Min might feel that it's unfair that they had to do all the work.\n\n6. **Conclusion**: Based on the analysis, the most likely emotion Xiao Min feels is anger due to having to do all the work alone while Xiao Hua goes out to play.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 306,
+    "ANSWER": "B",
+    "STORY": "During the big cleanup, Xiao Min does all the work alone because Xiao Hua completely forgets about this and goes out to play with friends",
+    "QUESTION": "What kind of emotion does Xiao Min have?",
+    "OPTION-A": "Happy",
+    "OPTION-B": "Angry",
+    "OPTION-C": "Sadness",
+    "OPTION-D": "Regretful",
+    "TASK": "Discrepant emotions"
+}

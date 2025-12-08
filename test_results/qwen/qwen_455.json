@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So there's this story about Han Meimei and Xiaoming in the kitchen. They see a fruit plate, a basket, and a handbag. They find a banana in the fruit plate. Then Xiaoming leaves the kitchen, and Han Meimei moves the banana to the handbag. The question is where the banana is now.\n\nHmm. Let me break it down. Initially, the banana was in the fruit plate. Then Xiaoming leaves, and Han Meimei moves it to the handbag. So after Han Meimei moves it, the banana should be in the handbag. The options are A. Fruit plate, B. Basket, C. Drawer, D. Handbag.\n\nWait, the story says they find a banana in the fruit plate. Then Xiaoming leaves, and Han Meimei moves the banana to the handbag. So the current location should be the handbag. So D is the answer.\n\nBut let me check again. The story says \"Han Meimei moves the banana to the handbag.\" So after that action, the banana is in the handbag. The other options: fruit plate was the original spot, but she moved it. Basket and drawer aren't mentioned in the story as being involved. The story only mentions fruit plate, basket, handbag as items present, but the banana was moved from fruit plate to handbag. So the answer should be D. Handbag.\n\nWait, the candidate answers are A. Fruit plate, B. Basket, C. Drawer, D. Handbag. So yes, D. The story doesn't mention a drawer, so C is probably a distractor. Basket wasn't used in the action. So yes, D is correct.\n",
+    "content": "\n\nThe story states that Han Meimei and Xiaoming initially see a banana in the fruit plate. Xiaoming then leaves the kitchen, and Han Meimei moves the banana to the handbag. This action directly places the banana in the handbag. The other options\u2014fruit plate (A), basket (B), and drawer (C)\u2014are not mentioned as the destination for the banana after Han Meimei's action. The drawer is not even referenced in the story, making it irrelevant. Since the banana was explicitly moved to the handbag, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 455,
+    "ANSWER": "D",
+    "STORY": "Han Meimei and Xiaoming are wandering in the kitchen, they see a fruit plate, a basket, and a handbag, they find a banana in the fruit plate, Xiaoming leaves the kitchen, Han Meimei moves the banana to the handbag.",
+    "QUESTION": "Where is the banana now?",
+    "OPTION-A": "Fruit plate",
+    "OPTION-B": "Basket",
+    "OPTION-C": "Drawer",
+    "OPTION-D": "Handbag",
+    "TASK": "False Belief Task"
+}

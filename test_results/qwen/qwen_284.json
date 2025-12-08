@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out where the sponge was before Xiao Ming moved it. The story says: Xiao Ming and Zhang Wei are wandering in the hall, they see a handbag and a box. They find a sponge in the handbag. Then Zhang Wei leaves the hall, and Xiao Ming moves the sponge to the box.\n\nSo the question is asking where the sponge was before Xiao Ming moved it. Wait, the key here is \"before\" he moved it. So before Xiao Ming moved it, where was it?\n\nThe story states: \"they find a sponge in the handbag\". So when they found it, it was in the handbag. Then Zhang Wei leaves, and Xiao Ming moves it to the box. So before moving, the sponge was in the handbag. So the answer should be A. Handbag.\n\nLet me check the options again. The candidate answers are A. Handbag, B. Cabinet, C. Box, D. Drawer. So the correct answer is A. Because the sponge was found in the handbag initially, then moved to the box. So before moving, it was in the handbag.\n\nWait, the question is \"Where is the sponge before?\" Before what? Before Xiao Ming moved it. So yes, the time before the moving action. At the start, when they found it, it's in the handbag. So before Xiao Ming moved it, it was in the handbag. So answer A.\n\nThe other options like cabinet, box, drawer aren't mentioned. The story only mentions handbag and box. So box is where it was moved to, but before moving, it's in handbag. So A is correct.\n",
+    "content": "\n\nThe story states that Xiao Ming and Zhang Wei \"see a handbag and a box, they find a sponge in the handbag.\" This explicitly indicates the sponge's initial location is the handbag. Zhang Wei then leaves, and Xiao Ming moves the sponge to the box. The question asks where the sponge was \"before,\" referring to the time prior to Xiao Ming's action of moving it. Since the sponge was found in the handbag before any movement occurred, the correct answer is A. Handbag. The other options (Cabinet, Box, Drawer) are not mentioned in the story as locations for the sponge prior to the move.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 284,
+    "ANSWER": "A",
+    "STORY": "Xiao Ming and Zhang Wei are wandering in the hall, they see a handbag and a box, they find a sponge in the handbag, Zhang Wei leaves the hall, Xiao Ming moves the sponge to the box.",
+    "QUESTION": "Where is the sponge before?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Cabinet",
+    "OPTION-C": "Box",
+    "OPTION-D": "Drawer",
+    "TASK": "False Belief Task"
+}

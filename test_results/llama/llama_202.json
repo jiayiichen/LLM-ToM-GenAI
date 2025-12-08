@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine the most likely answer, let's analyze the given story and question step by step.\n\n1. **Understanding the Story**: The story is about Xiao Zhao, who is moving house. He invites friends over for a small party on a Sunday afternoon. When Xiao Wang arrives, he notices boxes in the living room and inquires about them. Xiao Zhao confirms that he is moving and is in the process of sorting and packing.\n\n2. **Identifying the Reason for Moving**: The story directly mentions that Xiao Zhao moves house \"because of family reasons.\" This is stated in the first sentence.\n\n3. **Analyzing the Question**: The question asks for the reason behind Xiao Zhao's decision to move house.\n\n4. **Evaluating the Answer Options**:\n   - A. Because he finds a better job: The story does not mention anything about Xiao Zhao finding a new job or a change in his employment status.\n   - B. Because he goes to another city for school: There is no mention of Xiao Zhao going to school in another city.\n   - C. Because of his family reasons: The story directly states that Xiao Zhao moves house due to family reasons.\n   - D. The story does not mention: The story explicitly mentions the reason for Xiao Zhao's move.\n\n5. **Conclusion**: Based on the information provided in the story, the reason for Xiao Zhao's move is clearly stated as being \"because of family reasons.\" Therefore, the most likely answer is directly supported by the story.\n\nThe most likely answer index is: [[C]]",
+    "model_answer": "C",
+    "index": 202,
+    "ANSWER": "C",
+    "STORY": "Xiao Zhao moves house because of family reasons. On Sunday afternoon, Xiao Zhao prepares a small party and invites a few friends, including Xiao Wang. When Xiao Wang arrives at Xiao Zhao's house, he notices several boxes full of things in the living room and asks, \"Are these boxes for sorting things?\" Xiao Zhao replies, \"Yes, oh, I am doing some sorting and packing recently.\" Xiao Wang nods and says, \"You are moving, right? I will often come to play with you.\" The two then talk about all kinds of preparations for moving.",
+    "QUESTION": "Why does Xiao Zhao move house?",
+    "OPTION-A": "Because he finds a better job",
+    "OPTION-B": "Because he goes to another city for school",
+    "OPTION-C": "Because of his family reasons",
+    "OPTION-D": "The story does not mention",
+    "TASK": "Faux-pas Recognition Test"
+}

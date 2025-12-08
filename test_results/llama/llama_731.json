@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine where Xiao Li looks for the zucchini after Zhang Wei returns to the storage room, let's analyze the given information step by step.\n\n1. **Initial Situation**: Xiao Li and Zhang Wei are in the storage room. They see boxes and safes.\n   \n2. **Discovery and Action**: They find zucchini in a box. After Zhang Wei leaves the storage room, Xiao Li moves the zucchini to the safe.\n\n3. **Zhang Wei's Knowledge**: When Zhang Wei leaves the storage room, he is aware that the zucchini was in the box because that's where they found it together. He doesn't know that Xiao Li moved the zucchini to the safe after he left.\n\n4. **Xiao Li's Knowledge**: Xiao Li knows that she moved the zucchini from the box to the safe.\n\n5. **The Question**: After Zhang Wei returns to the storage room, where does Xiao Li look for the zucchini?\n\nGiven that Xiao Li knows she moved the zucchini to the safe, the most logical action for her would be to look for the zucchini in the safe, as she is aware of its current location.\n\nLet's examine the answer options:\n- A. Safe: This is where Xiao Li knows the zucchini is, as she moved it there.\n- B. Suitcase: There's no mention of a suitcase in the story.\n- C. Box: This is where the zucchini was initially, but Xiao Li knows she moved it.\n- D. Locker: There's no mention of a locker in the story.\n\nSince Xiao Li is aware that she moved the zucchini to the safe, she would look for it there. Thus, the most likely answer is the location where Xiao Li knows the zucchini is.\n\nThe step-by-step reasoning leads to the conclusion that Xiao Li would look for the zucchini in the safe because that's where she put it.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 731,
+    "ANSWER": "A",
+    "STORY": "Xiao Li and Zhang Wei are wandering in the storage room, they see boxes and safes, they find zucchini in the box, Zhang Wei leaves the storage room, Xiao Li moves the zucchini to the safe.",
+    "QUESTION": "After Zhang Wei returns to the storage room, where does Xiao Li look for the zucchini?",
+    "OPTION-A": "Safe",
+    "OPTION-B": "Suitcase",
+    "OPTION-C": "Box",
+    "OPTION-D": "Locker",
+    "TASK": "False Belief Task"
+}

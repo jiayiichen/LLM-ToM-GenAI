@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the question is whether Lily's statement is true. The story says that Lily knocked over her mother's favorite crystal vase by accident. Then when her mom comes home and asks what happened, Lily says the dog did it.\n\nWait, so Lily is blaming the dog. But according to the story, she was the one who actually knocked it over. So she's lying. The question is asking if what she says is true. So her statement is \"The dog knocks it over, it is not my fault!\" But in reality, she did it herself. So the truth is that the dog didn't do it; Lily did. Therefore, her statement is false.\n\nLooking at the options: A is Yes, B is No, C and D are nan. So the correct answer should be B. No, because what she said isn't true. She's lying about the dog. So the answer is B.\n\nWait, but the options have two nan? Maybe a typo, but regardless, the choices are A, B, C, D. So the answer is B. No.\n",
+    "content": "\n\nThe story states that Lily accidentally knocks over and breaks her mother's crystal vase. When confronted, she claims \"The dog knocks it over, it is not my fault!\" However, the narrative explicitly says Lily herself caused the accident. Therefore, her statement is false because the dog did not knock over the vase\u2014Lily did. The question asks if her statement is true, and the correct answer is \"No.\" Among the options, B corresponds to \"No.\"\n\n[[B]]",
+    "model_answer": "B",
+    "index": 78,
+    "ANSWER": "B",
+    "STORY": "One day, Lily plays at home and accidentally knocks over and breaks her mother's favorite crystal vase. Oh no, her mother definitely gets angry when she finds out! Therefore, when Lily's mother comes home, sees the broken vase and asks Lily what happens, Lily says, \"The dog knocks it over, it is not my fault!",
+    "QUESTION": "Is what Lily says true?",
+    "OPTION-A": "Yes",
+    "OPTION-B": "No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Strange Story Task"
+}

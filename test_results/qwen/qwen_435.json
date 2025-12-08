@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Gang finding a basket on the terrace. The label on the basket says \"shirt\", but when he opens it, there's a coconut inside and no shirt. Then he closes it and puts it back. Then Zhang Wei enters and sees the basket.\n\nThe question is asking what's inside the basket. The options are A. Cabbage, B. Eggplant, C. Shirt, D. Coconut.\n\nHmm. Let's break it down. The story says Xiao Gang opens the basket and finds a coconut, no shirt. So when he opens it, the contents are a coconut. Then he closes it again. So when Zhang Wei comes in later, the basket is closed, but the contents would still be the coconut, right? Because he just put it back as he found it, except he checked inside.\n\nWait, the label says \"shirt\", but inside there's a coconut. So the actual content is a coconut. The question is what's inside the basket when Zhang Wei sees it. Since Xiao Gang checked it and found coconut, then closed it, so when Zhang Wei sees it, the basket still has the coconut inside. So the correct answer should be D. Coconut.\n\nLooking at the options: C is Shirt, but the story says there's no shirt inside. The label says shirt, but actual content is coconut. So the answer is D.\n\nCheck the options again. A. Cabbage, B. Eggplant, C. Shirt, D. Coconut. Yes. So the answer should be D.\n",
+    "content": "\n\nThe story states that Xiao Gang opens the basket and finds a coconut inside, with no shirt. He then closes the basket and puts it back. When Zhang Wei enters later, the basket's contents remain unchanged since Xiao Gang did not remove or alter the coconut. The label on the basket says \"shirt,\" but the actual contents are a coconut. The question asks what is inside the basket, and the correct answer must reflect the physical contents, not the label. Among the options, \"Coconut\" is explicitly mentioned in the story as the item found inside. The other options (Cabbage, Eggplant, Shirt) are not supported by the story. Therefore, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 435,
+    "ANSWER": "D",
+    "STORY": "Xiao Gang finds a basket on the terrace, the label on the basket is shirt, Xiao Gang cannot see what is inside the basket, Xiao Gang opens the basket and finds a coconut, there is no shirt inside the basket, Xiao Gang closes the basket and puts it back in its place, Zhang Wei enters the terrace and sees the basket.",
+    "QUESTION": "What is inside the basket?",
+    "OPTION-A": "Cabbage",
+    "OPTION-B": "Eggplant",
+    "OPTION-C": "Shirt",
+    "OPTION-D": "Coconut",
+    "TASK": "False Belief Task"
+}

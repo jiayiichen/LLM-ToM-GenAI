@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Youyou and Li Lei in the basement. They see backpacks and briefcases. Then they find carrots in the backpack. Li Lei leaves, and Youyou moves the carrots to the briefcase.\n\nThe question is asking where the carrots were before. So before Youyou moved them, where were they?\n\nLet me read the story again carefully. \"Youyou and Li Lei are wandering in the basement, they see backpacks and briefcases, they find carrots in the backpack, Li Lei leaves the basement, Youyou moves the carrots to the briefcase.\"\n\nSo the sequence is: they find carrots in the backpack. Then Li Lei leaves, and Youyou moves the carrots to the briefcase. So before moving, the carrots were in the backpack. Because they found them there. Then Youyou moved them to the briefcase. So the original location was the backpack.\n\nLooking at the candidate answers: A. Cabinet, B. Backpack, C. Safe, D. Briefcase.\n\nSo the correct answer should be B. Backpack. Because before moving, they were in the backpack. The question is \"Where are the carrots before?\" which refers to before Youyou moved them. So yes, the carrots were in the backpack before being moved to the briefcase.\n\nSo the answer is B. Backpack. So the index is B.\n",
+    "content": "\n\nThe story states that \"they find carrots in the backpack,\" which indicates the initial location of the carrots. Afterward, Youyou moves the carrots to the briefcase. The question asks where the carrots were *before* this movement. Since the carrots were found in the backpack prior to being moved, the correct answer is \"Backpack.\" The other options (Cabinet, Safe, Briefcase) are not mentioned as the original location in the story.  \n\n[[B]]",
+    "model_answer": "B",
+    "index": 611,
+    "ANSWER": "B",
+    "STORY": "Youyou and Li Lei are wandering in the basement, they see backpacks and briefcases, they find carrots in the backpack, Li Lei leaves the basement, Youyou moves the carrots to the briefcase.",
+    "QUESTION": "Where are the carrots before?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Backpack",
+    "OPTION-C": "Safe",
+    "OPTION-D": "Briefcase",
+    "TASK": "False Belief Task"
+}

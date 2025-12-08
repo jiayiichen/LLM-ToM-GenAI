@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking about Li Dong's reaction at the concert based on the story provided.\n\nFirst, I need to read the story carefully. It says: \"Li Dong attends an outdoor night concert for the first time. As the band takes the stage, the lights flash, the music starts, he feels extremely excited, swaying with the rhythm of the music.\"\n\nSo the key part here is \"he feels extremely excited, swaying with the rhythm of the music.\" The story explicitly states that he feels extremely excited. Then the candidate answers are A. Tired, B. Shy, C. Angry, D. Excited.\n\nLooking at the options, D is Excited. The story directly mentions \"feels extremely excited,\" so that's a clear match. The other options don't fit. Tired isn't mentioned, shy would be if he was nervous or quiet, but he's swaying with the music, which shows he's engaged. Angry also doesn't fit. So the answer should be D.\n\nWait, but let me check again. The question is \"What is Li Dong's reaction at the concert?\" and the story says \"he feels extremely excited, swaying with the rhythm of the music.\" So yes, the reaction described is excitement. Therefore, the correct answer is D. Excited. So the answer index is D.\n",
+    "content": "\n\nThe story states: \"Li Dong attends an outdoor night concert for the first time. As the band takes the stage, the lights flash, the music starts, he feels extremely excited, swaying with the rhythm of the music.\" The key phrase here is \"he feels extremely excited,\" which directly describes his emotional state during the concert. The candidate answers are A. Tired, B. Shy, C. Angry, D. Excited. Among these, \"Excited\" (option D) is explicitly mentioned in the story as his reaction. The other options (Tired, Shy, Angry) are not supported by the story. Therefore, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 500,
+    "ANSWER": "D",
+    "STORY": "Li Dong attends an outdoor night concert for the first time. As the band takes the stage, the lights flash, the music starts, he feels extremely excited, swaying with the rhythm of the music.",
+    "QUESTION": "What is Li Dong's reaction at the concert?",
+    "OPTION-A": "Tired",
+    "OPTION-B": "Shy",
+    "OPTION-C": "Angry",
+    "OPTION-D": "Excited",
+    "TASK": "Unexpected Outcome Test"
+}

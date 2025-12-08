@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out where the tie was before Han Meimei moved it to the box. Let's read the story again carefully.\n\nThe story says: \"Han Meimei and Youyou roam around in the bedroom, they see a cabinet and a box, they find a tie in the cabinet, Youyou leaves the bedroom, Han Meimei moves the tie to the box.\"\n\nSo the sequence of events: they are in the bedroom, see a cabinet and a box. Then they find a tie in the cabinet. Then Youyou leaves, and Han Meimei moves the tie to the box.\n\nThe question is asking \"Where is the tie before?\" So before Han Meimei moved it, where was it? According to the story, they found the tie in the cabinet. So before moving it to the box, the tie was in the cabinet.\n\nLooking at the answer options: A. Handbag, B. Box, C. Cabinet, D. Cupboard.\n\nWait, the story mentions a cabinet and a box. The tie was found in the cabinet. So before moving, it's in the cabinet. The answer should be C. Cabinet.\n\nBut wait, option D is Cupboard. Sometimes \"cupboard\" and \"cabinet\" can be similar, but in the story it specifically says \"cabinet\" and \"box\". So the tie was in the cabinet, so the correct answer is C.\n\nLet me check again. The story says \"they find a tie in the cabinet\", then Han Meimei moves it to the box. So before moving, it's in the cabinet. So the answer is C.\n\nOptions: C is Cabinet, which matches. So the answer is C.\n",
+    "content": "\n\nThe story states that Han Meimei and Youyou \"find a tie in the cabinet\" before Han Meimei moves it to the box. The question asks where the tie was \"before\" the movement. Since the tie was explicitly found in the cabinet prior to being moved, the correct answer must be \"Cabinet.\" The other options (Handbag, Box, Cupboard) are not mentioned as the original location in the story. Although \"cupboard\" (option D) might be semantically similar to \"cabinet,\" the story specifically uses the word \"cabinet,\" making option C the precise match.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 25,
+    "ANSWER": "C",
+    "STORY": "Han Meimei and Youyou roam around in the bedroom, they see a cabinet and a box, they find a tie in the cabinet, Youyou leaves the bedroom, Han Meimei moves the tie to the box.",
+    "QUESTION": "Where is the tie before?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Box",
+    "OPTION-C": "Cabinet",
+    "OPTION-D": "Cupboard",
+    "TASK": "False Belief Task"
+}

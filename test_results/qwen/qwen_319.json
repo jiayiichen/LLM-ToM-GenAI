@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the question is asking who Xiao Li finally decided to be roommates with. The story says that Xiao Li and Xiao Zhang were looking for roommates. They met in the library, and Xiao Zhang asked who Xiao Li wanted as a roommate. Xiao Li replied that he's considering options, maybe someone he hasn't lived with before. Then Xiao Zhang was silent, said \"Okay, I wish you a smooth choice,\" and changed the subject. Later, Xiao Li and another classmate, Xiao Zhao, became roommates.\n\nSo looking at the candidate answers: A is Xiao Zhang, B is Xiao Zhao, C is Xiao Wang, D is Xiao Liu.\n\nThe story explicitly states \"Later, Xiao Li and another classmate, Xiao Zhao, become roommates.\" So the answer should be B. Xiao Zhao. Because the story directly mentions that Xiao Li became roommates with Xiao Zhao. The part where Xiao Zhang was silent and then changed the subject might imply that Xiao Zhang wasn't chosen, since Xiao Li was considering someone new. But the key point is the later part where it says he became roommates with Xiao Zhao. So the answer is B.\n",
+    "content": "\n\nThe story states that \"Later, Xiao Li and another classmate, Xiao Zhao, become roommates.\" This directly indicates that Xiao Li's final roommate choice is Xiao Zhao. The earlier conversation with Xiao Zhang, where Xiao Li mentioned considering someone he hadn't lived with before, and Xiao Zhang's reaction, does not change the explicit outcome described in the story. The candidate answers include Xiao Zhao as option B, which matches the story's clear statement. \n\n[[B]]",
+    "model_answer": "B",
+    "index": 319,
+    "ANSWER": "B",
+    "STORY": "As the semester is about to start, Xiao Li and Xiao Zhang are both looking for roommates. They are good friends in college and often take classes together. One day, Xiao Li and Xiao Zhang meet in the library. Xiao Zhang asks, \"Who do you want to be your roommate for the new semester?\" Xiao Li replies, \"I am considering a few options, I may choose someone I have not lived with before.\" Xiao Zhang is silent for a moment after hearing this, then says, \"Okay, I wish you a smooth choice.\" Then he changes the subject and starts talking about other things. Later, Xiao Li and another classmate, Xiao Zhao, become roommates.",
+    "QUESTION": "Who does Xiao Li finally decide to be roommates with?",
+    "OPTION-A": "Xiao Zhang",
+    "OPTION-B": "Xiao Zhao",
+    "OPTION-C": "Xiao Wang",
+    "OPTION-D": "Xiao Liu",
+    "TASK": "Faux-pas Recognition Test"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Li finding a safe in the laundry room. The label on the safe says \"sponge\". But when Xiao Li opens it, there's pepper powder inside, not sponge. Then Xiao Li closes it and puts it back. Then Youyou enters and sees the safe.\n\nThe question is asking what's inside the safe. The options are A. Sponge, B. Pepper powder, C. Carrot, D. Coconut.\n\nHmm. Let's break it down. The label says sponge, but when Xiao Li opens it, there's pepper powder. So the actual contents are pepper powder. Then Xiao Li closes it again. So when Youyou comes in, the safe still has pepper powder inside because Xiao Li just put it back.\n\nWait, the problem is what's inside the safe at the time when Youyou sees it. Since Xiao Li opened it, found pepper powder, then closed it again. So the contents are still pepper powder. So the answer should be B. Pepper powder.\n\nBut let's check the options again. The candidate answers are A. Sponge (but the label says sponge but inside is pepper), B. Pepper powder (which is what was inside when opened), C and D are carrot and coconut which aren't mentioned. So yes, the correct answer should be B. Because even though the label says sponge, the actual content is pepper powder, and Xiao Li closed it after checking, so when Youyou looks, it's still pepper powder inside.\n\nSo the answer is B.\n",
+    "content": "\n\nThe story states that Xiao Li finds a safe labeled \"sponge\" in the laundry room. When Xiao Li opens it, they discover pepper powder inside, not sponge. Xiao Li then closes the safe and puts it back. The question asks what is inside the safe when Youyou enters and sees it. Since Xiao Li had already opened the safe, found pepper powder, and re-closed it without changing the contents, the safe still contains pepper powder when Youyou sees it. The label \"sponge\" is misleading but does not reflect the actual contents. Options C (Carrot) and D (Coconut) are not mentioned in the story at all. Therefore, the correct answer is B. Pepper powder.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 360,
+    "ANSWER": "B",
+    "STORY": "Xiao Li finds a safe in the laundry room, the label on the safe is sponge, Xiao Li cannot see what is inside the safe, Xiao Li opens the safe and finds pepper powder, there is no sponge inside the safe, Xiao Li closes the safe and puts it back in its place, Youyou enters the laundry room and sees the safe.",
+    "QUESTION": "What is inside the safe?",
+    "OPTION-A": "Sponge",
+    "OPTION-B": "Pepper powder",
+    "OPTION-C": "Carrot",
+    "OPTION-D": "Coconut",
+    "TASK": "False Belief Task"
+}

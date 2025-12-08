@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking where the company holds the dinner. Let me check the story again.\n\nThe story starts with: \"At 7 pm on Friday night, Yueyang Tower private room. The company's annual dinner takes place here tonight.\" So right at the beginning, it says the location is Yueyang Tower private room. Then it goes on to describe Mr. Zhao not attending, Miss Zhao noticing Manager Li's empty seat, and talking to Ms. Tian. \n\nThe candidate answers are A. Yueyang Tower private room, B. Yellow Crane Tower, C. Tengwang Pavilion, D. Guanque Tower. \n\nSo the story explicitly states \"Yueyang Tower private room\" as the location. The answer should be A. But let me make sure there's no trick here. Sometimes questions might have distractors, but in this case, the first sentence clearly mentions it. Let me check again. \n\nYes, the very first line: \"At 7 pm on Friday night, Yueyang Tower private room. The company's annual dinner takes place here tonight.\" So the location is Yueyang Tower private room, which is option A. The other options are other famous towers, but the story specifically says Yueyang Tower. So the answer must be A.\n",
+    "content": "\n\nThe story begins with the explicit statement: \"At 7 pm on Friday night, Yueyang Tower private room. The company's annual dinner takes place here tonight.\" This directly identifies the location of the dinner as the \"Yueyang Tower private room.\" The subsequent details about Mr. Zhao, Miss Zhao, Manager Li, and Ms. Tian do not alter or contradict this initial information. All candidate answers (A-D) refer to different towers, but the story only mentions \"Yueyang Tower\" as the venue. There is no ambiguity or hidden context suggesting otherwise. Therefore, the correct answer is option A.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 261,
+    "ANSWER": "A",
+    "STORY": "At 7 pm on Friday night, Yueyang Tower private room. The company's annual dinner takes place here tonight. Mr. Zhao does not attend because he needs to work late on an important report. During the meal, Miss Zhao looks around and notices that Manager Li's seat is empty. She asks Ms. Tian, the company's finance officer sitting diagonally opposite: \"Ms. Tian, why does Manager Li not attend the dinner tonight?\" Ms. Tian puts down her chopsticks, looks up at Manager Li's empty seat, and says: \"Maybe he thinks we ordinary employees are not qualified to eat with him, so he does not show up.\" Miss Zhao says lightly, \"I see,\" and lowers her head to concentrate on her food. For a while, neither of them speaks.",
+    "QUESTION": "Where does the company hold the dinner?",
+    "OPTION-A": "Yueyang Tower private room",
+    "OPTION-B": "Yellow Crane Tower private room",
+    "OPTION-C": "Tengwang Pavilion private room",
+    "OPTION-D": "Guanque Tower private room",
+    "TASK": "Faux-pas Recognition Test"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To solve this question, let's analyze the information provided step by step.\n\n1. **Understanding the Story**: Xiao Hong finds a drawer labeled \"banana\" in the reading room. Upon opening it, she finds beetroot instead of bananas. She then closes the drawer and puts it back. Later, Xiao Bei enters the room and sees the drawer.\n\n2. **Analyzing Xiao Hong's Actions and Thoughts**: Xiao Hong opens the drawer and finds beetroot. She then closes it and puts it back in its original place. This implies that she doesn't alter the contents or the label of the drawer.\n\n3. **Understanding the Question**: The question is about what Xiao Hong thinks Xiao Bei expects to find in the drawer when Xiao Bei opens it.\n\n4. **Analyzing Xiao Bei's Perspective**: Since Xiao Bei sees the drawer (which is labeled \"banana\") and presumably has no knowledge of Xiao Hong's actions, Xiao Bei's expectation would be based on the label.\n\n5. **Xiao Hong's Perspective on Xiao Bei's Expectation**: From Xiao Hong's point of view, she knows the drawer is labeled \"banana\". She also knows that she didn't change the label or the contents after checking. Therefore, when Xiao Bei sees the drawer, Xiao Hong would assume that Xiao Bei's expectation is based on the label on the drawer.\n\n6. **Evaluating the Answer Options**:\n   - A. Plate ruler: There's no information in the story that relates to a \"plate ruler\" being associated with the drawer or its label.\n   - B. Beetroot: This is what Xiao Hong found inside the drawer, but it's not what's on the label.\n   - C. Banana: This",
+    "model_answer": "N/A",
+    "index": 182,
+    "ANSWER": "C",
+    "STORY": "Xiao Hong finds a drawer in the reading room, the label on the drawer is banana, Xiao Hong cannot see what is inside the drawer, Xiao Hong opens the drawer and finds beetroot, there are no bananas in the drawer, Xiao Hong closes the drawer and puts it back in its place, Xiao Bei enters the reading room and sees the drawer.",
+    "QUESTION": "After Xiao Bei opens the drawer, what does Xiao Hong think Xiao Bei expects to find in the drawer?",
+    "OPTION-A": "Plate ruler",
+    "OPTION-B": "Beetroot",
+    "OPTION-C": "Banana",
+    "OPTION-D": "Shirt",
+    "TASK": "False Belief Task"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out which sentence in the story is inappropriate based on the given options.\n\nFirst, let me read the story again carefully. Aunt Wang hosts a gathering, makes dishes. Mr. Li tastes the sauce ribs and says they're good but his wife's are better. Aunt Wang smiles and says \"That's good, I hope everyone enjoys their meal.\" Then Mr. Li says \"I'm just",
+    "content": "",
+    "model_answer": "N/A",
+    "index": 447,
+    "ANSWER": "A",
+    "STORY": "On the weekend, neighbor Aunt Wang hosts a neighborhood gathering, she makes many of her best dishes to entertain everyone. Mr. Li first tastes a bite of the sauce ribs, then he says to Aunt Wang: \"This sauce rib tastes really good, it is very delicious. But I still think the sauce ribs my wife makes at home taste better.\" After hearing this, Aunt Wang still maintains a smile, saying: \"That's good, I hope everyone enjoys their meal.\" Mr. Li says: \"I am just expressing my feelings, please don't take it personally.\" Aunt Wang says: \"Don't mention it, please enjoy.\" She then goes to entertain other guests.",
+    "QUESTION": "If there is, which sentence is inappropriate?",
+    "OPTION-A": "This sauce rib tastes really good, it is very delicious. But I still think the sauce ribs my wife makes at home are a bit more delicious.",
+    "OPTION-B": "That's good, I hope everyone can enjoy the meal.",
+    "OPTION-C": "Don't be polite, please enjoy.",
+    "OPTION-D": "There is no inappropriate sentence.",
+    "TASK": "Faux-pas Recognition Test"
+}

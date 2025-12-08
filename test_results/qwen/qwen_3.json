@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Youyou finding a cabinet in the kitchen with a label that says \"tie\". But when Youyou opens it, there's a raincoat inside and no tie. Then they close it and put it back. Then Xiao Wang enters and sees the cabinet.\n\nThe question is asking what's inside the cabinet. The options are A. Tie, B. Connected finger gloves woolen sweater (which sounds weird), C. Eggplant, D. Raincoat.\n\nWait, the story says Youyou opens the cabinet and finds a raincoat, no tie. So when Youyou opened it, the item inside was a raincoat. Then they closed it again. So when Xiao Wang enters later, the cabinet is closed, but the contents haven't changed because they just put it back. So the current contents should still be the raincoat.\n\nBut the label on the cabinet says \"tie\", but that's probably a mislabel. The actual contents are a raincoat. So the answer should be D. Raincoat.\n\nLet me check the options again. Option D is Raincoat. Yes. The story clearly states that when Youyou opened it, there was a raincoat inside and no tie. So even though the label says \"tie\", the actual thing inside is a raincoat. So the correct answer is D.\n\nOption B is a bit confusing: \"Connected finger gloves woolen sweater\" \u2013 maybe that's a mistranslation or something. But regardless, the story says raincoat was found. So D is correct.\n\nSo the answer should be D.\n",
+    "content": "\n\nThe story states that Youyou finds a cabinet labeled \"tie\" but when opened, discovers a raincoat inside with no tie. After closing and replacing the cabinet, Xiao Wang enters the kitchen and sees the cabinet. The key detail is that the actual contents revealed upon opening were a raincoat, and there is no indication the contents changed after Youyou closed it. The label \"tie\" is misleading, but the physical item inside is explicitly stated as a raincoat. Among the options, D directly matches this description. Option A is incorrect because the story specifies \"no tie inside,\" and options B and C are unrelated to the described contents. Thus, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 3,
+    "ANSWER": "D",
+    "STORY": "Youyou finds a cabinet in the kitchen, the label on the cabinet is tie, Youyou cannot see what is inside the cabinet, Youyou opens the cabinet and finds a raincoat, there is no tie inside the cabinet, Youyou closes the cabinet and puts it back in its place, Xiao Wang enters the kitchen and sees the cabinet.",
+    "QUESTION": "What is inside the cabinet?",
+    "OPTION-A": "Tie",
+    "OPTION-B": "Connected finger gloves woolen sweater",
+    "OPTION-C": "Eggplant",
+    "OPTION-D": "Raincoat",
+    "TASK": "False Belief Task"
+}

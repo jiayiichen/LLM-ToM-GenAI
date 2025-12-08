@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the question is asking what's in the backpack based on the story provided. Let me read through the story again carefully.\n\nHan Meimei finds a backpack in the garden with a label that says \"tomato\". She can't see inside, so she opens it and finds a light bulb. Then it says there are no tomatoes in the backpack. She closes it and puts it back. Then Li Lei enters and sees the backpack.\n\nThe question is \"What is in the backpack?\" with options A. Hat, B. Eggplant, C. Tomato, D. Light bulb.\n\nHmm. Let's break down the story. The label on the backpack is \"tomato\", but when Han Meimei opens it, she finds a light bulb and there are no tomatoes. So the actual contents are a light bulb. The label says tomato, but the contents are different. So the question is asking what is actually inside the backpack, not what the label says.\n\nLooking at the answer options: C is Tomato, but the story says \"there are no tomatoes in the backpack\". So C is wrong. D is Light bulb. The story says she found a light bulb inside. So D should be the correct answer.\n\nWait, the options are A. Hat, B. Eggplant, C. Tomato, D. Light bulb. Yes. The story states clearly that when she opened it, she found a light bulb and no tomatoes. So the contents are a light bulb. So answer D.\n\nBut let me check again. The question is \"What is in the backpack?\" when Li Lei enters, but Han Meimei put it back after opening. So the backpack was closed again, but the contents didn't change. So the light bulb is still there. So the answer should be D. Light bulb.\n\nYes, the answer is D. So the correct choice is D.\n",
+    "content": "\n\nThe story states that Han Meimei finds a backpack labeled \"tomato\" but when she opens it, she discovers a light bulb and notes there are no tomatoes inside. After closing it and returning it, Li Lei sees the backpack. The question asks what is *in* the backpack, not what the label says. The story explicitly mentions the contents are a light bulb, and there are no tomatoes. Among the options, D (\"Light bulb\") directly matches the described contents. Options A, B, and C are contradicted or unsupported by the story (e.g., \"no tomatoes\" rules out C, and no mention of hat or eggplant). Thus, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 473,
+    "ANSWER": "D",
+    "STORY": "Han Meimei finds a backpack in the garden, the label on the backpack is tomato, Han Meimei cannot see what is inside the backpack, Han Meimei opens the backpack and finds a light bulb, there are no tomatoes in the backpack, Han Meimei closes the backpack and puts it back in its place, Li Lei enters the garden and sees the backpack.",
+    "QUESTION": "What is in the backpack?",
+    "OPTION-A": "Hat",
+    "OPTION-B": "Eggplant",
+    "OPTION-C": "Tomato",
+    "OPTION-D": "Light bulb",
+    "TASK": "False Belief Task"
+}

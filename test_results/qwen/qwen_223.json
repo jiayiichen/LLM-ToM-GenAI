@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out where the raincoat was before Xiao Li moved it to the safe. Let me read the story again carefully.\n\nSo the story says: \"Xiao Li and Xiao Gang stroll around the factory, they see backpacks and safes, they find raincoats in the backpack, Xiao Gang leaves the factory, Xiao Li moves the raincoat to the safe.\"\n\nWait, the question is asking \"Where is the raincoat before?\" So before Xiao Li moved it to the safe, where was it?\n\nLooking at the story: \"they find raincoats in the backpack\". So when they found it, it was in the backpack. Then Xiao Li moves it to the safe. So before moving, the raincoat was in the backpack.\n\nThe candidate answers are A. Handbag, B. Backpack, C. Safe, D. Box.\n\nSo the answer should be B. Backpack. Because they found the raincoat in the backpack, then moved it to the safe. So before moving, it was in the backpack.\n\nWait, but the story says \"they find raincoats in the backpack\" \u2013 so yes, the raincoat was in the backpack before Xiao Li moved it. So the correct answer is B.\n",
+    "content": "\n\nThe story states that Xiao Li and Xiao Gang \"see backpacks and safes, they find raincoats in the backpack.\" This explicitly indicates that the raincoat was initially located inside the backpack. Later, Xiao Li moves the raincoat to the safe. Therefore, before the movement, the raincoat was in the backpack. The candidate options include \"Backpack\" as option B, which directly matches the described location prior to the move. There is no mention of a handbag, safe (as the initial location), or box, making B the only logical choice based on the story.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 223,
+    "ANSWER": "B",
+    "STORY": "Xiao Li and Xiao Gang stroll around the factory, they see backpacks and safes, they find raincoats in the backpack, Xiao Gang leaves the factory, Xiao Li moves the raincoat to the safe.",
+    "QUESTION": "Where is the raincoat before?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Backpack",
+    "OPTION-C": "Safe",
+    "OPTION-D": "Box",
+    "TASK": "False Belief Task"
+}

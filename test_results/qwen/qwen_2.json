@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So there's this story about Han Meimei and Youyou. They're in the bedroom, see a cabinet and a box. They find a tie in the cabinet. Then Youyou leaves the bedroom, and Han Meimei moves the tie to the box. The question is, after Youyou returns, where does Youyou look for the tie?\n\nHmm. So first, I need to figure out what Youyou knows. When Youyou was in the bedroom, they saw the tie in the cabinet. Then Youyou left. While Youyou was gone, Han Meimei moved the tie to the box. But Youyou doesn't know that Han Meimei moved it. So when Youyou comes back, they would still think the tie is where they left it, which was in the cabinet. Because Youyou wasn't there when Han Meimei moved it, so they don't know it's been moved. So Youyou would check the cabinet first.\n\nLooking at the options: A is Cabinet, B is Box, C is Handbag, D is Storage locker. So the answer should be A. Cabinet. But wait, let me check again.\n\nThe story says \"youyou leaves the bedroom, Han Meimei moves the tie to the box.\" So Youyou left before the tie was moved. So Youyou's last knowledge is that the tie was in the cabinet. When they return, they would check where they last saw it, which is the cabinet. Unless there's some other clue. The options don't have anything else. Handbag and storage locker aren't mentioned in the story. So probably A.\n\nBut maybe the question is a trick. Like maybe Youyou knows Han Meimei moved it? But the story says Youyou left, then Han Meimei moved it. So Youyou wasn't present when the move happened. So Youyou wouldn't know. So when returning, Youyou would look where they left it. So cabinet.\n\nYes, so answer A. Cabinet. So the answer should be [[A]].\n",
+    "content": "\n\nThe story describes Han Meimei and Youyou finding a tie in the cabinet. Youyou then leaves the bedroom, and Han Meimei moves the tie to the box. Since Youyou was not present when the tie was moved, Youyou has no knowledge of the relocation. When returning, Youyou would logically search for the tie in the last known location, which is the cabinet. The other options (Handbag, Storage locker) are not mentioned in the story, and the box is the new location but unknown to Youyou. Thus, the most likely answer is the cabinet.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 2,
+    "ANSWER": "A",
+    "STORY": "Han Meimei and Youyou roam around in the bedroom, they see a cabinet and a box, they find a tie in the cabinet, Youyou leaves the bedroom, Han Meimei moves the tie to the box.",
+    "QUESTION": "After Youyou returns to the bedroom, where does Youyou look for the tie?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Box",
+    "OPTION-C": "Handbag",
+    "OPTION-D": "Storage locker",
+    "TASK": "False Belief Task"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking what the mother plans to make for Xiao Li to eat. Let me read the story again carefully.\n\nThe story says: \"This day is Xiao Li's birthday, her mother decides to give her a surprise, she makes her favorite ramen at night. Mother says to Xiao Li's best friend Xiao Mei: 'Remember this secret, do not tell Xiao Li.' Xiao Mei says: 'I know, I keep the secret.' The next day, Xiao Mei and Xiao Li play together, Xiao Mei says to Xiao Li: 'Come, let's play on the seesaw.'\"\n\nSo the key part here is \"she makes her favorite ramen at night.\" The mother is making ramen as a surprise for Xiao Li's birthday. The question is asking what the mother plans to make. The candidate answers are A. Cake, B. Dumplings, C. Ramen, D. Pizza.\n\nLooking at the story, it explicitly says \"makes her favorite ramen\". So the answer should be C. Ramen. The other options aren't mentioned. The mother's plan is to make ramen, which is stated directly. The part about Xiao Mei keeping the secret and then playing on the seesaw the next day doesn't change the fact that the mother made ramen. So the correct answer is C.\n",
+    "content": "\n\nThe story explicitly states that \"her mother decides to give her a surprise, she makes her favorite ramen at night.\" This directly indicates that the mother planned to make ramen for Xiao Li. The other details, such as Xiao Mei being told to keep the secret and the subsequent seesaw activity, do not alter the fact that ramen is the food mentioned. The candidate answers include \"C. Ramen,\" which matches the story's description. There is no ambiguity in the text regarding the food item, so the correct answer is clearly C.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 254,
+    "ANSWER": "C",
+    "STORY": "This day is Xiao Li's birthday, her mother decides to give her a surprise, she makes her favorite ramen at night. Mother says to Xiao Li's best friend Xiao Mei: \"Remember this secret, do not tell Xiao Li.\" Xiao Mei says: \"I know, I keep the secret.\" The next day, Xiao Mei and Xiao Li play together, Xiao Mei says to Xiao Li: \"Come, let's play on the seesaw.\"",
+    "QUESTION": "What does mother plan to make for Xiao Li to eat?",
+    "OPTION-A": "Cake",
+    "OPTION-B": "Dumplings",
+    "OPTION-C": "Ramen",
+    "OPTION-D": "Pizza",
+    "TASK": "Faux-pas Recognition Test"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is whether Zhang Haoyu keeps pigs in his room based on the story provided.\n\nFirst, I need to read the story carefully. The story says that Zhang Haoyu is a very untidy boy. His mother walks into his bedroom, which is messier than usual. Clothes, toys, and comics are everywhere. Then his mother says, \"This room is like a pigsty!\"\n\nNow, the question is asking if he actually keeps pigs in his room. The candidate answers are A. Yes, B. No, C. nan, D. nan.\n\nHmm. The key here is understanding the phrase \"pigsty\". A pigsty is a term used to describe a very messy place, not literally a place where pigs are kept. So when someone says a room is like a pigsty, they're using a metaphor to say it's very dirty or disorganized, not that there are actual pigs in the room.\n\nLooking at the story again, the mother is complaining about the mess\u2014clothes, toys, comics everywhere. She's using the expression to emphasize how messy it is. There's no mention of actual pigs being present. So the answer should be B. No.\n\nBut wait, the candidate answers have C and D as \"nan\". Maybe \"nan\" here means not applicable or something else. But in Chinese contexts, sometimes \"nan\" might be used as a placeholder for non-applicable, but here the options are given as A to D. However, the way the question is phrased, the mother's statement is a common idiom. So the correct answer is definitely B. No.\n\nC and D being \"nan\" might be a trick, but probably in this case, the answer is B. Because the story doesn't say anything about pigs; it's just a metaphor. So the answer is B. No.\n",
+    "content": "\n\nThe story describes Zhang Haoyu's bedroom as extremely messy, with clothes, toys, and comics scattered everywhere. His mother says, \"This room is like a pigsty!\" The phrase \"pigsty\" is a common metaphor used to describe a very dirty or disorganized place, not a literal reference to pigs being kept in the room. There is no mention of actual pigs in the story, only the use of this idiomatic expression to emphasize the messiness. Therefore, the correct answer is that Zhang Haoyu does not keep pigs in his room.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 387,
+    "ANSWER": "B",
+    "STORY": "Zhang Haoyu is a very untidy boy. One day, his mother walks into his bedroom, which is messier than usual! Clothes, toys, and comics are everywhere. Zhang Haoyu's mother says to Zhang Haoyu: \"This room is like a pigsty!",
+    "QUESTION": "Does Zhang Haoyu keep pigs in his room?",
+    "OPTION-A": "Yes",
+    "OPTION-B": "No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Strange Story Task"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking which two possible wedding dates Xiaofang proposed. Let me read the story again carefully.\n\nSo, the story says: Xiaofang and Xiao Jie are discussing the wedding date. Xiaofang says, \"We can choose June 15th or July 20th.\" Then Xiao Jie thinks and says, \"How about June 15th?\" Xiaofang responds, \"I hope it is July 20th, the weather should be very good that day.\" Then Xiao Jie doesn't speak, and Xiao Jie's mother says it's a special day.\n\nThe question is asking for the two dates Xiaofang proposed. Let's look at the candidate answers.\n\nThe options are:\n\nA. May 15th and June 20th\n\nB. June 15th and July 20th\n\nC. July 15th and August 20th\n\nD. August 15th and September 20th\n\nFrom the story: Xiaofang says \"We can choose June 15th or July 20th.\" So that's exactly the two dates she proposed. So the answer should be B. June 15th and July 20th.\n\nWait, let me check again. The first line of the story: \"Xiaofang says, 'We can choose June 15th or July 20th.'\" So yes, that's exactly option B. The other options don't match. For example, option A has May 15th and June 20th, which isn't mentioned. C is July 15 and August 20, which isn't right. D is August and September. So definitely B.\n\nI think that's straightforward. The story directly states the two dates. So the answer must be B.\n",
+    "content": "\n\nThe story states: \"Xiaofang says, 'We can choose June 15th or July 20th.'\" This directly indicates the two dates Xiaofang proposed. Comparing this with the candidate answers:  \n- Option A (May 15th and June 20th) does not match.  \n- Option B (June 15th and July 20th) exactly matches the dates mentioned.  \n- Options C and D include different months and dates not referenced in the story.  \n\nThus, the correct answer is clearly B.  \n\n[[B]]",
+    "model_answer": "B",
+    "index": 492,
+    "ANSWER": "B",
+    "STORY": "Xiaofang and Xiao Jie discuss the wedding date. Xiaofang says, \"We can choose June 15th or July 20th.\" Xiao Jie thinks for a moment and says, \"How about June 15th?\" Xiaofang says, \"I hope it is July 20th, the weather should be very good that day.\" Xiao Jie does not speak, Xiao Jie's mother quietly says on the side, \"That day is... a special day.\"",
+    "QUESTION": "Which two possible wedding dates does Xiaofang propose?",
+    "OPTION-A": "May 15th and June 20th",
+    "OPTION-B": "June 15th and July 20th",
+    "OPTION-C": "July 15th and August 20th",
+    "OPTION-D": "August 15th and September 20th",
+    "TASK": "Faux-pas Recognition Test"
+}

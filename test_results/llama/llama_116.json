@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To infer Xiao Min's emotion based on the given story, let's analyze the situation step by step.\n\n1. **Understanding the Context**: Xiao Min comes from a poor family. This background information is crucial as it sets the stage for understanding her potential financial situation and how it might compare to her friends.\n\n2. **The Situation**: Xiao Min and her friends go out to attend a party and have a big meal. This indicates a social engagement that likely involves some expense, as they are going out for a meal, which can be costly.\n\n3. **The Proposal to Go Dutch**: Her friends propose to go Dutch, meaning they suggest splitting the bill equally among themselves. This is a significant detail because it implies that the cost of the meal will be divided, and Xiao Min will have to pay her share.\n\n4. **Potential Financial Implication for Xiao Min**: Given that Xiao Min comes from a poor family, it's reasonable to infer that she might not be in a strong financial position compared to her friends. The proposal to go Dutch could potentially put her in an uncomfortable financial situation if she cannot afford to pay her share easily.\n\n5. **Emotional Inference**: \n    - **Happy (A)**: There's no clear reason why Xiao Min would necessarily feel happy about going Dutch, especially if she's concerned about the cost.\n    - **Angry (B)**: While possible, anger isn't directly implied by the situation unless Xiao Min felt strongly that going Dutch was unfair or that her friends should have considered her financial situation.\n    - **Proud (C)**: There's no information in the story that would directly suggest Xiao Min feels proud. Pride might come from various factors not mentioned here.\n    - **Embarrassed (D)**: Given Xiao Min's financial background and the fact that her friends are suggesting going Dutch, she might feel embarrassed if she's unable to afford her share of the bill or if she's self-conscious about her financial situation compared to her friends.\n\n6. **Conclusion**: The most plausible emotional response from Xiao Min, based on the given context, is embarrassment. This is because the situation (going Dutch after a big meal) could highlight her financial constraints in front of her friends, making her feel self-conscious or embarrassed about her inability to afford the meal without strain.\n\nTherefore, the most likely answer is [[D]].",
+    "model_answer": "D",
+    "index": 116,
+    "ANSWER": "D",
+    "STORY": "Xiao Min comes from a poor family, she and her friends go out to attend a party and have a big meal, and her friends propose to go Dutch.",
+    "QUESTION": "What kind of emotion does Xiao Min have?",
+    "OPTION-A": "Happy",
+    "OPTION-B": "Angry",
+    "OPTION-C": "Proud",
+    "OPTION-D": "Embarrassed",
+    "TASK": "Discrepant emotions"
+}

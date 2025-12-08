@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Li and Xiao Gang in a bar. They see a box and a safe. Then they find a bottle in the box. After that, Xiao Gang leaves the bar, and Xiao Li moves the bottle to the safe. The question is asking where the bottle was before.\n\nHmm, the question is \"Where is the bottle before?\" So before what? Before Xiao Li moved it to the safe. Because the story says \"Xiao Li moves the bottle to the safe.\" So the action of moving implies that it was somewhere else before that.\n\nLooking at the story: \"they find a bottle in the box\". So initially, the bottle was in the box. Then Xiao Li moves it to the safe. So before moving, the bottle was in the box. The question is asking where it was before (the move), so the answer should be the box.\n\nNow looking at the options: A. Handbag, B. Basket, C. Safe, D. Box. So D is Box.\n\nWait, let me double-check. The story says \"they see a box and a safe, they find a bottle in the box\". So the bottle was found in the box. So before moving, it's in the box. Then Xiao Li moves it to the safe. So before moving, it was in the box. So answer D.\n\nThe candidate answers have D as Box. So the correct answer should be D. Let me check again.\n\nYes. The bottle was in the box before Xiao Li moved it to the safe. So the answer is D.\n",
+    "content": "\n\nThe story states that Xiao Li and Xiao Gang \"find a bottle in the box\" before any movement occurs. Xiao Li then \"moves the bottle to the safe,\" which implies the bottle's initial location was the box. The question asks where the bottle was *before* it was moved, so the correct answer is the box. Among the options, D corresponds to \"Box.\" \n\n[[D]]",
+    "model_answer": "D",
+    "index": 580,
+    "ANSWER": "D",
+    "STORY": "Xiao Li and Xiao Gang are wandering in the bar, they see a box and a safe, they find a bottle in the box, Xiao Gang leaves the bar, Xiao Li moves the bottle to the safe.",
+    "QUESTION": "Where is the bottle before?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Basket",
+    "OPTION-C": "Safe",
+    "OPTION-D": "Box",
+    "TASK": "False Belief Task"
+}

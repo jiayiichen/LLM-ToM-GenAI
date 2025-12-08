@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is whether what Andy said is true. The story says that Andy exaggerated his political achievements and claimed to have broad support. The key word here is \"exaggerates,\" which means he made his achievements sound bigger or better than they actually are. So if he's exaggerating, that implies that his claims aren't entirely true. Then Lily notices his tactics but doesn't accuse him publicly, instead collecting evidence of his false achievements. So the story states that Andy's claims are false because he exaggerated them.\n\nLooking at the answer options: A is Yes, B is No, C and D are both nan. Since the story says he exaggerated, which means his statements weren't true, the answer should be B. No. The other options: C and D are nan, which probably means \"not applicable\" or \"not known,\" but the story does give enough information. The story explicitly says he exaggerated, so we can conclude it's not true. So the answer is B.\n",
+    "content": "\n\nThe story states that Andy \"exaggerates his political achievements during the debate and claims to have broad support.\" The term \"exaggerates\" directly implies that his statements are not entirely truthful or accurate. Additionally, Lily \"collects evidence of Andy's false political achievements behind the scenes,\" which further confirms that his claims are false. Since the story explicitly describes Andy's claims as exaggerated and false, the question \"Is what Andy said true?\" can be answered definitively as \"No.\" The answer options include \"B. No,\" which aligns with the story's details. Options C and D (\"nan\") are irrelevant here because the story provides sufficient information to determine the truthfulness of Andy's statements.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 143,
+    "ANSWER": "B",
+    "STORY": "In a political debate, Andy is a candidate, and Lily is another competitor. To appear more leadership-oriented, Andy exaggerates his political achievements during the debate and claims to have broad support. Lily vaguely notices Andy's tactics, so she stays put without publicly accusing Andy, but she collects evidence of Andy's false political achievements behind the scenes.",
+    "QUESTION": "Is what Andy said true?",
+    "OPTION-A": "A. Yes",
+    "OPTION-B": "B. No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Strange Story Task"
+}

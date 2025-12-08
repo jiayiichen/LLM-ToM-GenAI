@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Hong and Youyou in a classroom. They see a briefcase and a cabinet. They find a cucumber in the briefcase. Then Youyou leaves the classroom, and Xiao Hong moves the cucumber to the cabinet. The question is where the cucumber is now.\n\nAlright, breaking it down step by step. Initially, the cucumber is in the briefcase. Then Youyou leaves, and Xiao Hong moves it to the cabinet. So after Xiao Hong moves it, the cucumber should be in the cabinet. Let me check the answer options. The choices are A. Cabinet, B. Handbag, C. Briefcase, D. Storage locker.\n\nWait, the story says they found a cucumber in the briefcase. Then Xiao Hong moves it to the cabinet. So after that action, the cucumber is in the cabinet. So the correct answer should be A. Cabinet.\n\nBut let me make sure there's no trick here. The question is \"Where is the cucumber now?\" after Xiao Hong moved it. So yes, moved to cabinet. The other options: Handbag isn't mentioned in the story. The story mentioned briefcase and cabinet. Storage locker isn't mentioned either. So B and D are probably distractors. The original location was briefcase, but after moving, it's in cabinet. So answer A.\n\nWait, the candidate answers have \"Cabinet\" as option A. Yes. So the answer should be A.\n",
+    "content": "\n\nThe story states that Xiao Hong and Youyou found a cucumber in the briefcase. After Youyou leaves the classroom, Xiao Hong moves the cucumber to the cabinet. The question asks where the cucumber is now, which directly follows the action of Xiao Hong moving it to the cabinet. The answer options include \"Cabinet\" (A), which matches the final location described in the story. The other options\u2014Handbag (B), Briefcase (C), and Storage locker (D)\u2014are not mentioned as the current location after the move. Therefore, the correct answer is A.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 150,
+    "ANSWER": "A",
+    "STORY": "Xiao Hong and Youyou are wandering in the classroom, they see a briefcase and a cabinet, they find a cucumber in the briefcase, Youyou leaves the classroom, Xiao Hong moves the cucumber to the cabinet.",
+    "QUESTION": "Where is the cucumber now?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Handbag",
+    "OPTION-C": "Briefcase",
+    "OPTION-D": "Storage locker",
+    "TASK": "False Belief Task"
+}

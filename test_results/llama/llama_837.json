@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine the most likely answer, let's analyze the information given in the story and the question.\n\n1. **Understanding the context**: The story is set on a Saturday morning at Aunt Zhang's house, where Xiao Fang is visiting. The atmosphere is friendly and casual, with Aunt Li visiting Aunt Zhang.\n\n2. **Identifying relevant information**: The key detail related to the question is what Xiao Fang is doing when Aunt Li arrives. The story explicitly states, \"she is reading a book in Aunt Zhang's living room.\"\n\n3. **Analyzing the question**: The question asks what Xiao Fang does at Aunt Zhang's house.\n\n4. **Matching the information to the answer choices**:\n   - A. Watch TV: There is no mention of Xiao Fang watching TV.\n   - B. Read a book: The story directly states that Xiao Fang is reading a book.\n   - C. Do homework: There is no mention of Xiao Fang doing homework.\n   - D. Play mobile games: There is no mention of Xiao Fang playing mobile games.\n\n5. **Conclusion**: Based on the information provided in the story, the most likely activity Xiao Fang is doing at Aunt Zhang's house is reading a book.\n\nThe most likely answer index is: [[B]]",
+    "model_answer": "B",
+    "index": 837,
+    "ANSWER": "B",
+    "STORY": "At 10 o'clock on Saturday morning, Xiao Fang comes to her Aunt Zhang's house to play. She has short hair and wears a light yellow dress, and she is reading a book in Aunt Zhang's living room. Suddenly the doorbell rings, Aunt Zhang opens the door, it is her neighbor Aunt Li who comes to visit. Aunt Li smiles and says: \"Aunt Zhang, hello.\" Aunt Zhang also smiles and says: \"Aunt Li, please come in, it's been a long time.\" After Aunt Li comes in, she sees Xiao Fang sitting on the sofa and says to her: \"Hello, I don't think I've seen this little boy before, what's your name?\" Xiao Fang looks up at Aunt Li and doesn't say anything. At this time, Aunt Zhang comes over and says: \"Come and have some tea, the weather is really good today.\"",
+    "QUESTION": "What does Xiao Fang do at Aunt Zhang's house?",
+    "OPTION-A": "Watch TV",
+    "OPTION-B": "Read a book",
+    "OPTION-C": "Do homework",
+    "OPTION-D": "Play mobile games",
+    "TASK": "Faux-pas Recognition Test"
+}

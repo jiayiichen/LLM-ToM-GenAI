@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The story says Youyou and Li Lei are in the classroom, they see a drawer and a basket. They find a button in the drawer. Then Li Lei leaves the classroom, and Youyou moves the button to the basket.\n\nThe question is asking where the button was before. So we need to figure out the original location of the button before Youyou moved it.\n\nLooking at the story: \"they find a button in the drawer\". So initially, the button was in the drawer. Then Youyou moves it to the basket. So before moving, it was in the drawer. The question is \"Where is the button before?\" which refers to before Youyou moved it.\n\nLooking at the choices: A. Handbag, B. Drawer, C. Briefcase, D. Basket.\n\nSo the correct answer should be B. Drawer. Because the story says they found it in the drawer first. Then Youyou moved it to the basket. So before that action, it was in the drawer. Therefore, the answer is B.\n\nLet me check again. The story: \"they find a button in the drawer\" \u2013 so the button was in the drawer. Then Li Lei leaves, Youyou moves it to the basket. So before moving, it was in the drawer. So the answer is B. The choices are A Handbag, B Drawer, etc. So yes, B is correct. The other options like handbag or briefcase aren't mentioned. Basket is where it was moved to, so that's after. So the before location is drawer.\n",
+    "content": "\n\nThe story states that Youyou and Li Lei \"find a button in the drawer,\" which clearly indicates the button's initial location before any action. Li Lei then leaves, and Youyou moves the button to the basket. The question asks where the button was \"before,\" referring to its position prior to Youyou's action. Since the button was explicitly found in the drawer first, the correct answer must be the drawer. The other options (Handbag, Briefcase, Basket) are not supported by the story; the basket is where the button was moved to, not its original location. Thus, the answer is B.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 352,
+    "ANSWER": "B",
+    "STORY": "Youyou and Li Lei are wandering in the classroom, they see a drawer and a basket, they find a button in the drawer, Li Lei leaves the classroom, Youyou moves the button to the basket.",
+    "QUESTION": "Where is the button before?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Drawer",
+    "OPTION-C": "Briefcase",
+    "OPTION-D": "Basket",
+    "TASK": "False Belief Task"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Youyou and Xiao Li on a terrace. They see a safe and a backpack. Then they find a mask in the safe. Then Xiao Li leaves, and Youyou moves the mask to the backpack.\n\nThe question is asking where the mask was before. So before Youyou moved it, where was it?\n\nFrom the story: \"they find a mask in the safe\" \u2013 so initially, the mask was in the safe. Then Youyou moves it to the backpack. So before the move, the mask was in the safe.\n\nLooking at the answer options: A. Backpack, B. Safe, C. Cabinet, D. Briefcase.\n\nSo the correct answer should be B. Safe.\n\nWait, let me check again. The story says \"they find a mask in the safe\" \u2013 so when they found it, it was in the safe. Then Xiao Li leaves, and Youyou moves it to the backpack. So prior to moving, it was in the safe. So before the move, the mask was in the safe. So the answer is B.\n\nThe options are A. Backpack (which is where it was moved to), B. Safe (original location), C. Cabinet (not mentioned), D. Briefcase (not mentioned). So yes, B is correct.\n",
+    "content": "\n\nThe story states that \"they find a mask in the safe\" before Xiao Li leaves and Youyou moves the mask to the backpack. This clearly indicates the mask's initial location was inside the safe. The question asks where the mask was *before* Youyou moved it, so the answer must refer to its original position. Among the options, \"Safe\" (B) directly matches this description. The other choices (Backpack, Cabinet, Briefcase) are either the destination after moving (Backpack) or not mentioned in the story at all. Therefore, the correct answer is B.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 44,
+    "ANSWER": "B",
+    "STORY": "Youyou and Xiao Li stroll on the terrace, they see a safe and a backpack, they find a mask in the safe, Xiao Li leaves the terrace, Youyou moves the mask to the backpack.",
+    "QUESTION": "Where is the mask before?",
+    "OPTION-A": "Backpack",
+    "OPTION-B": "Safe",
+    "OPTION-C": "Cabinet",
+    "OPTION-D": "Briefcase",
+    "TASK": "False Belief Task"
+}

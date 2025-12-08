@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the question is whether what Mr. Zhao says is true. Let me read the story again carefully.\n\nMr. Zhao is a historian who studies ancient Chinese military strategy. In a public lecture, someone asks if he ever gives advice to the military. He says his research is only academic and doesn't involve actual military strategy. He adds that his interest is only in history, unrelated to the present. But the story also says he secretly participates in an important national defense project.\n\nWait, so he publicly says he doesn't involve in actual military strategy and his interest is only historical, not present. But in reality, he's secretly working on a national defense project. That means his public statement is not entirely true because he's actually involved in a defense project, which is related to current military matters. So when he says \"never involves in actual military strategy\" and \"interest only lies in history, unrelated to present,\" but he's actually part of a national defense project, which would be part of the present military strategy.\n\nSo his statement is false. Because he's secretly participating, which contradicts his public claim. So the answer should be B. No.\n\nLet me check the options again. A is Yes, B is No, C and D are nan. So the correct choice is B.\n\nBecause the story states that he secretly participates in the defense project, which means his public statement that he never involves in actual military strategy is false. So the answer is B.\n",
+    "content": "\n\nThe story states that Mr. Zhao publicly claims his research is limited to the academic field and does not involve actual military strategy, and that his interest is only in history, unrelated to the present. However, the story explicitly mentions that he \"secretly participates in an important national defense project.\" A national defense project is inherently related to current military strategy and real-world applications, which directly contradicts his public statement. Therefore, his claim is false. The correct answer is \"B. No.\"\n\n[[B]]",
+    "model_answer": "B",
+    "index": 646,
+    "ANSWER": "B",
+    "STORY": "Mr. Zhao is a respected historian, focusing on the study of ancient Chinese military strategy. In a public lecture, someone asks Mr. Zhao if he ever provides advice to the military. Mr. Zhao replies that his research only limits to the academic field and never involves in actual military strategy. He adds that his interest only lies in history, unrelated to the present. In fact, Mr. Zhao secretly participates in an important national defense project.",
+    "QUESTION": "Is what Mr. Zhao says true?",
+    "OPTION-A": "Yes",
+    "OPTION-B": "No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Strange Story Task"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine where Youyou looks for the mask after Xiao Li returns to the terrace, let's analyze the given story step by step.\n\n1. Initially, Youyou and Xiao Li are on the terrace where they see a safe and a backpack.\n2. They find a mask in the safe.\n3. Xiao Li leaves the terrace.\n4. While Xiao Li is away, Youyou moves the mask from the safe to the backpack.\n5. The question is about where Youyou looks for the mask after Xiao Li returns to the terrace.\n\nFrom the story, we understand that:\n- The mask was initially in the safe.\n- Youyou moved it to the backpack while Xiao Li was away.\n\nSince Xiao Li was not present when Youyou moved the mask from the safe to the backpack, Xiao Li would not know that the mask was moved. Thus, from Xiao Li's perspective, the last known location of the mask was the safe. However, the question is about Youyou's action, not Xiao Li's knowledge or action.\n\nYouyou knows that she moved the mask to the backpack. Therefore, when looking for the mask after Xiao Li returns, Youyou would look for it in the location where she last placed it, which is the backpack.\n\nThe candidate answers are:\nA. Briefcase\nB. Basket\nC. Backpack\nD. Safe\n\nThe story mentions a safe and a backpack but does not mention a briefcase or a basket. Given that Youyou moved the mask to the backpack, the most logical place for Youyou to look for the mask would be the backpack.\n\nStep-by-step reasoning:\n1. Youyou knows the mask is in the backpack because she moved it there.\n2. The question asks where Youyou looks for the mask after Xiao Li returns.\n3. The correct location, based on Youyou's knowledge, is the backpack.\n\nTherefore, the most likely answer is 'C. Backpack'.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 416,
+    "ANSWER": "C",
+    "STORY": "Youyou and Xiao Li stroll on the terrace, they see a safe and a backpack, they find a mask in the safe, Xiao Li leaves the terrace, Youyou moves the mask to the backpack.",
+    "QUESTION": "After Xiao Li returns to the terrace, where does Youyou look for the masks?",
+    "OPTION-A": "Briefcase",
+    "OPTION-B": "Basket",
+    "OPTION-C": "Backpack",
+    "OPTION-D": "Safe",
+    "TASK": "False Belief Task"
+}

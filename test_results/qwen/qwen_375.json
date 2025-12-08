@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So there's this story about Han Meimei and Zhang Wei. They're in a lounge, see a handbag and a suitcase. They find a carrot in the handbag. Then Zhang Wei leaves the lounge, and Han Meimei moves the carrot to the suitcase. The question is where the carrot is now.\n\nHmm. Let me break it down step by step. First, initially, the carrot is in the handbag. Then Zhang Wei leaves. Then Han Meimei moves the carrot to the suitcase. So after she moves it, the carrot should be in the suitcase. Let me check the options: A is Handbag, B is Safe, C is Suitcase, D is Storage locker. So according to the story, Han Meimei moved it to the suitcase, so the answer should be C.\n\nWait, but let's make sure. The story says \"Han Meimei moves the carrot to the suitcase.\" So the current location is suitcase. So answer C. The other options: Safe and Storage locker aren't mentioned at all. The story only talks about handbag and suitcase. So B and D are probably distractors. So yes, the correct answer is C. Suitcase.\n",
+    "content": "\n\nThe story states that Han Meimei and Zhang Wei initially find a carrot in the handbag. After Zhang Wei leaves the lounge, Han Meimei moves the carrot to the suitcase. This action directly changes the location of the carrot from the handbag to the suitcase. The candidate answers include \"Handbag\" (A), \"Safe\" (B), \"Suitcase\" (C), and \"Storage locker\" (D). Since the story explicitly mentions the carrot being moved to the suitcase and no other locations (like \"Safe\" or \"Storage locker\") are referenced, the correct answer must be \"Suitcase.\" There is sufficient information in the story to determine the current location of the carrot.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 375,
+    "ANSWER": "C",
+    "STORY": "Han Meimei and Zhang Wei are wandering in the lounge, they see a handbag and a suitcase, they find a carrot in the handbag, Zhang Wei leaves the lounge, Han Meimei moves the carrot to the suitcase.",
+    "QUESTION": "Where is the carrot now?",
+    "OPTION-A": "Handbag",
+    "OPTION-B": "Safe",
+    "OPTION-C": "Suitcase",
+    "OPTION-D": "Storage locker",
+    "TASK": "False Belief Task"
+}

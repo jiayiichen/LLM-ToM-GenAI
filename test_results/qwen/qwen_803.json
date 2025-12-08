@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So there's this story about Zhang Wei finding a safe in the library with a label that says \"sweater\". He opens it and finds a scarf, no sweater inside. Then he closes it and puts it back. Then Xiao Ming enters and sees the safe.\n\nThe question is asking what's inside the safe. The options are A. Sweater, B. Marker, C. Scarf, D. Tomato.\n\nHmm. Let's break down the story. The label on the safe is \"sweater\", but when Zhang Wei opens it, he finds a scarf and no sweater. So the actual contents are a scarf. Then he closes it again. So when Xiao Ming comes in, the safe is closed, but the contents haven't changed because Zhang Wei just put it back. So the scarf is still inside.\n\nSo the correct answer should be C. Scarf. Let me check the options again. Yes, option C is Scarf.\n\nWait, the label says sweater, but the actual content is scarf. So when the question is what's inside, it's the scarf. The label is misleading. So the answer is C.\n\nLooking at the candidate answers, A is Sweater (but there's no sweater inside), B is Marker (not mentioned), C Scarf (yes, found inside), D Tomato (not mentioned). So definitely C.\n\nSo the answer should be C.\n",
+    "content": "\n\nThe story states that Zhang Wei finds a safe labeled \"sweater\" but when he opens it, he finds a scarf and no sweater inside. After closing and replacing the safe, Xiao Ming enters and sees it. The question asks what is currently inside the safe. Since Zhang Wei placed the scarf inside and did not change the contents afterward, the safe still contains the scarf. The label \"sweater\" is misleading but does not reflect the actual contents. The options include \"Scarf\" as choice C, which matches the story's description. Other options (Sweater, Marker, Tomato) are not mentioned or contradicted by the story. Thus, the correct answer is C.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 803,
+    "ANSWER": "C",
+    "STORY": "Zhang Wei finds a safe in the library, the label on the safe is sweater, Zhang Wei cannot see what is inside the safe, Zhang Wei opens the safe and finds a scarf, there is no sweater inside the safe, Zhang Wei closes the safe and puts it back in its place, Xiao Ming enters the library and sees the safe.",
+    "QUESTION": "What is inside the safe?",
+    "OPTION-A": "Sweater",
+    "OPTION-B": "Marker",
+    "OPTION-C": "Scarf",
+    "OPTION-D": "Tomato",
+    "TASK": "False Belief Task"
+}

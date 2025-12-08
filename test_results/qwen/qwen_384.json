@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out where Xiao Li suggested to go on the weekend based on the story provided.\n\nFirst, I'll read through the story again carefully. The story says that Xiao Li and Xiao Zhang are discussing weekend plans in the dormitory. Xiao Li suggests, \"We can go to the amusement park on the weekend, it should be fun.\" Then Xiao Zhang replies, \"Hmm, that works.\" Then Xiao Li asks about what's been happening with Xiao Zhang, and Xiao Zhang says he misses home. Xiao Li responds by saying they're too busy with college life to miss home, and Xiao Zhang stays silent.\n\nThe question is asking where Xiao Li suggested to go on the weekend. The answer options are A. Cafe, B. Cinema, C. Park, D. Amusement park.\n\nLooking at the story, Xiao Li's exact words are \"We can go to the amusement park on the weekend, it should be fun.\" So the direct answer here is \"amusement park,\" which corresponds to option D.\n\nWait, but let me check again. The candidate answers include D. Amusement park. Yes. So the answer should be D. The other options like Cafe, Cinema, Park (C is Park, but maybe a different park? But the story says amusement park specifically). So the correct answer is D. Amusement park.\n\nI don't see any trick here. The story clearly states the suggestion. Sometimes maybe there's a possible confusion between \"Park\" and \"Amusement park,\" but in Chinese context, amusement park is usually a specific place with rides, while a park might be a public park. The story says \"amusement park\" exactly. So the correct answer is D.\n",
+    "content": "\n\nThe story states: \"Xiao Li suggests: 'We can go to the amusement park on the weekend, it should be fun.'\" This directly indicates the location Xiao Li proposed. The candidate answers include \"D. Amusement park,\" which matches the exact phrase used in the story. While \"C. Park\" might seem similar, the story specifically mentions \"amusement park,\" not a general park. There is no ambiguity in the text, and the answer is clearly specified. Therefore, the correct choice is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 384,
+    "ANSWER": "D",
+    "STORY": "Xiao Li and Xiao Zhang discuss weekend plans in the dormitory. Xiao Li suggests: \"We can go to the amusement park on the weekend, it should be fun.\" Xiao Zhang replies: \"Hmm, that works.\" Xiao Li curiously asks: \"What happens to you recently?\" Xiao Zhang softly says: \"Nothing, just sometimes I miss home.\" Xiao Li casually laughs: \"Miss home? We are so busy with college life, where is the time to miss home!\" Xiao Zhang hears this and remains silent, does not respond.",
+    "QUESTION": "Where does Xiao Li suggest to go on the weekend?",
+    "OPTION-A": "Cafe",
+    "OPTION-B": "Cinema",
+    "OPTION-C": "Park",
+    "OPTION-D": "Amusement park",
+    "TASK": "Faux-pas Recognition Test"
+}

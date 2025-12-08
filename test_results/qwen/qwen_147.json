@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Li Lei finding a box labeled \"socks\" in the living room. He can't see inside, so he opens it and finds a compass instead of socks. Then he closes it and puts it back. Then Han Meimei enters and sees the box.\n\nThe question is asking what's in the box. The options are A. Compass, B. Pumpkin, C. Bottle, D. Socks.\n\nHmm. Let's break it down. The label says socks, but when Li Lei opened it, he found a compass. So the actual contents are a compass. Then he closed it again. So when Han Meimei sees the box, the contents are still the compass because Li Lei put it back. So regardless of the label, the real content is a compass.\n\nWait, the label says socks, but inside there's a compass. So the correct answer should be A. Compass. Because Li Lei opened it and found a compass, then closed it. So the box now has a compass inside. The label was wrong, but the actual contents are compass.\n\nThe other options: Pumpkin, Bottle, Socks. But the story says there are no socks inside. So D is out. The story doesn't mention pumpkin or bottle, so they're not there. So A is correct.\n\nWait, the question is \"What is in the box?\" after Li Lei put it back. So yes, the compass is inside. So answer A.\n",
+    "content": "\n\nThe story states that Li Lei finds a box labeled \"socks\" but when he opens it, he finds a compass and no socks inside. After opening and verifying the contents, he closes the box and puts it back. When Han Meimei enters later, the box still contains the compass because Li Lei did not change its contents after opening it. The label on the box is misleading, but the actual contents are explicitly described as a compass. The other options (Pumpkin, Bottle, Socks) are not mentioned in the story as being inside the box. Therefore, the correct answer is A. Compass.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 147,
+    "ANSWER": "A",
+    "STORY": "Li Lei finds a box in the living room, the label on the box is socks, Li Lei cannot see what is inside the box, Li Lei opens the box and finds a compass, there are no socks inside the box, Li Lei closes the box and puts it back in its place, Han Meimei enters the living room and sees the box.",
+    "QUESTION": "What is in the box?",
+    "OPTION-A": "Compass",
+    "OPTION-B": "Pumpkin",
+    "OPTION-C": "Bottle",
+    "OPTION-D": "Socks",
+    "TASK": "False Belief Task"
+}

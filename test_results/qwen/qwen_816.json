@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is whether the news released by Zhao Jun is true. The story says that Zhao Jun is a young entrepreneur whose company is facing financial difficulties. His competitor announced a new product, so to prevent investors from losing confidence, he posted false news on social media about his company receiving a large investment.\n\nWait, the key part here is \"posted a series of false news\". So the news he released is false by definition. The question is asking if the news is true. Since the story explicitly says it's false, the answer should be No.\n\nLooking at the options: A is Yes, B is No, C and D are nan. So the correct answer should be B. No.\n\nBut let me check again. The story says \"posted a series of false news\", so the news is false. Therefore, the answer is B. No. The options are A. Yes, B. No, so yes, B is correct. The other options are nan, which probably means not applicable or something, but since the story clearly states it's false, B is the right choice.\n",
+    "content": "\n\nThe story explicitly states that Zhao Jun \"posted a series of false news on social media about his company soon receiving a large investment.\" The term \"false news\" directly indicates that the content he released is not true. Therefore, the answer to the question \"Is the news released by Zhao Jun true?\" is definitively \"No.\" Among the options, \"B. No\" is the correct choice. \n\n[[B]]",
+    "model_answer": "B",
+    "index": 816,
+    "ANSWER": "B",
+    "STORY": "Zhao Jun is a young entrepreneur, and his company has recently encountered some financial difficulties. His competitor has announced that their company is about to launch a new product. In order to prevent investors from losing confidence, he has posted a series of false news on social media about his company soon receiving a large investment.",
+    "QUESTION": "Is the news released by Zhao Jun true?",
+    "OPTION-A": "A. Yes",
+    "OPTION-B": "B. No",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Strange Story Task"
+}

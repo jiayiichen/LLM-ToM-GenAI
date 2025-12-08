@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The story says Xiao Bei and Han Mei Mei are wandering around the office. They see the storage locker and the handbag. Then they find a pineapple in the storage locker. Then Han Mei Mei leaves the office, and Xiao Bei moves the pineapple to the handbag.\n\nThe question is asking where the pineapple was before. So before Xiao Bei moved it, where was it?\n\nLet me read the story again carefully. \"they find a pineapple in the storage locker\" \u2014 so initially, the pineapple is in the storage locker. Then Xiao Bei moves it to the handbag. So before moving, it was in the storage locker. The question is \"Where is the pineapple before?\" So before the move, it was in the storage locker.\n\nLooking at the options: A. Tote bag, B. Storage locker, C. Basket, D. Handbag.\n\nSo the answer should be B. Storage locker. Because before Xiao Bei moved it, it was in the storage locker. The story says \"they find a pineapple in the storage locker\" \u2014 that's where it was initially. Then Xiao Bei moves it to the handbag. So the original location is storage locker. Therefore, the correct answer is B.\n\nLet me check again. The story: \"they see the storage locker and the handbag, they find a pineapple in the storage locker\" \u2014 so yes, the pineapple was found in the storage locker. Then \"Xiao Bei moves the pineapple to the handbag.\" So before the move, it was in storage locker. So the question \"Where is the pineapple before?\" refers to before the move. So the answer is B. Storage locker. The options include B as Storage locker. So yes, B is correct.\n",
+    "content": "\n\nThe story states that \"they find a pineapple in the storage locker\" before any movement occurs. Subsequently, Xiao Bei moves the pineapple to the handbag. The question asks where the pineapple was *before* this action. Since the pineapple was initially found in the storage locker and only later moved to the handbag, the correct answer must be the storage locker. Among the options, \"B. Storage locker\" directly matches this location. The other options (Tote bag, Basket, Handbag) are not mentioned as the original location in the story. Therefore, the answer is B.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 521,
+    "ANSWER": "B",
+    "STORY": "Xiao Bei and Han Mei Mei wander around the office, they see the storage locker and the handbag, they find a pineapple in the storage locker, Han Mei Mei leaves the office, Xiao Bei moves the pineapple to the handbag.",
+    "QUESTION": "Where is the pineapple before?",
+    "OPTION-A": "Tote bag",
+    "OPTION-B": "Storage locker",
+    "OPTION-C": "Basket",
+    "OPTION-D": "Handbag",
+    "TASK": "False Belief Task"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Li and Zhang Wei in a storage room. They see boxes and safes, find zucchini in a box. Then Zhang Wei leaves, and Xiao Li moves the zucchini to the safe. The question is where the zucchini is now.\n\nHmm. Let me break it down step by step. First, they're in the storage room. There are boxes and safes there. They find zucchini in a box. So initially, zucchini is in the box. Then Zhang Wei leaves the storage room. After that, Xiao Li moves the zucchini to the safe. So the action is Xiao Li moves it from the box to the safe. So after that move, the zucchini should be in the safe.\n\nLooking at the answer options: A. Safe, B. Handbag, C. Box, D. Basket. So according to the story, after Xiao Li moves it to the safe, the zucchini is in the safe. So the answer should be A.\n\nWait, let me check again. The story says \"Zhang Wei leaves the storage room, Xiao Li moves the zucchini to the safe.\" So yes, after Zhang Wei leaves, Xiao Li does the moving. So the zucchini was originally in the box, then moved to the safe. So current location is safe. So option A.\n\nBut wait, the options are A. Safe, which is correct. The other options: Handbag, Box, Basket. The story doesn't mention a handbag or basket. The box was where it was initially, but Xiao Li moved it to the safe. So box is no longer correct. So answer A.\n\nYes, definitely. So the answer should be A.\n",
+    "content": "\n\nThe story states that Xiao Li and Zhang Wei find zucchini in a box. After Zhang Wei leaves the storage room, Xiao Li moves the zucchini to the safe. This action clearly indicates that the zucchini is no longer in the box but has been relocated to the safe. The options provided are A. Safe, B. Handbag, C. Box, D. Basket. The story does not mention a handbag or basket, and the box is explicitly stated as the original location before the move. Since Xiao Li moved the zucchini to the safe, the correct current location is the safe. \n\n[[A]]",
+    "model_answer": "A",
+    "index": 146,
+    "ANSWER": "A",
+    "STORY": "Xiao Li and Zhang Wei are wandering in the storage room, they see boxes and safes, they find zucchini in the box, Zhang Wei leaves the storage room, Xiao Li moves the zucchini to the safe.",
+    "QUESTION": "Where is the zucchini now?",
+    "OPTION-A": "Safe",
+    "OPTION-B": "Handbag",
+    "OPTION-C": "Box",
+    "OPTION-D": "Basket",
+    "TASK": "False Belief Task"
+}

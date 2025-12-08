@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine whether Xiao Lan knows that Xiao Lin wants to watch this film, let's analyze the given story step by step.\n\n1. **Xiao Lin invites Xiao Lan to watch a movie**: The story begins with Xiao Lin inviting Xiao Lan to a newly opened art cinema to watch a movie. This indicates that Xiao Lin has already chosen the movie and is inviting Xiao Lan to watch it with him.\n\n2. **Xiao Lan's response to the movie synopsis**: After reading the movie synopsis, Xiao Lan expresses her lack of knowledge about the movie, including its lead actors and background. This shows that she is aware of the movie Xiao Lin has chosen because she has read its synopsis.\n\n3. **Xiao Lin's explanation and Xiao Lan's agreement**: Xiao Lin explains that it's a non-mainstream, low-budget movie about urban young people, and Xiao Lan agrees to watch it, appreciating the opportunity to have a new movie-watching experience.\n\nFrom these steps, it's clear that Xiao Lan is aware of the movie Xiao Lin wants to watch because:\n- Xiao Lin invites her to watch a specific movie.\n- She reads the movie's synopsis and comments on it.\n- She agrees to watch the movie after Xiao Lin's explanation.\n\nTherefore, Xiao Lan knows that Xiao Lin wants to watch this film because she was directly invited by Xiao Lin to watch it and engaged in a discussion about it.\n\nThe most likely answer index is: [[A]]",
+    "model_answer": "A",
+    "index": 196,
+    "ANSWER": "A",
+    "STORY": "On Sunday noon, Xiao Lin invites his friend Xiao Lan to a newly opened art cinema to watch a movie made by a small independent producer. After reading the movie synopsis, Xiao Lan says, \"I never hear about this movie before, I don't know the male and female lead actors, and I don't understand the background and style of the movie.\" Xiao Lin says, \"Yes, this is a non-mainstream low-budget movie, it tells the story of urban young people, we can try a new movie-watching experience.\" Xiao Lan says, \"Okay, it is eye-opening to have the opportunity to see some different movies.\"",
+    "QUESTION": "Does Xiao Lan know that Xiao Lin wants to watch this film?",
+    "OPTION-A": "Knows",
+    "OPTION-B": "Does not know",
+    "OPTION-C": NaN,
+    "OPTION-D": NaN,
+    "TASK": "Faux-pas Recognition Test"
+}

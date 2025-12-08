@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's try to figure this out. So, the story is about Xiao Gang finding a basket on the terrace with a label that says \"shirt\". He can't see inside, opens it, finds a coconut instead of a shirt, then closes it and puts it back. Then Zhang Wei comes in and sees the basket. The question is asking what Xiao Gang thinks Zhang Wei expects to find in the basket after Zhang Wei opens it.\n\nHmm. Let me break it down. First, the basket has a label saying \"shirt\". So whoever sees the basket would see the label. Xiao Gang himself opened it and found a coconut, but the label was still there saying shirt. Now, when Zhang Wei enters and sees the basket, he would see the label. So Zhang Wei would probably expect to find a shirt because that's what the label says. But Xiao Gang knows that there's actually a coconut inside, but he also knows that the label says shirt. Wait, but the question is what does Xiao Gang think Zhang Wei expects to find. So Xiao Gang knows the label is there, so he would think that Zhang Wei, seeing the label \"shirt\", would expect to find a shirt. Even though Xiao Gang knows there's a coconut inside, he knows that Zhang Wei hasn't opened it yet, so Zhang Wei would only know what the label says. Therefore, Xiao Gang would think Zhang Wei expects to find a shirt.\n\nLooking at the options: A. Pumpkin, B. Shirt, C. Tomato, D. Coconut. So the answer should be B. Shirt. Because the label says shirt, so Zhang Wei would expect a shirt. Xiao Gang knows that the label is there, so he'd think Zhang Wei expects the shirt. Even though there's a coconut inside, Zhang Wei hasn't opened it yet, so he doesn't know that. So the correct answer is B.\n",
+    "content": "\n\nThe story states that the basket has a label saying \"shirt,\" and Xiao Gang opens it to find a coconut instead. When Zhang Wei enters the terrace and sees the basket, he would only see the label on it. Xiao Gang, knowing the label is still present, would reasonably assume that Zhang Wei, upon seeing the label, expects to find a shirt inside. The actual contents (coconut) are unknown to Zhang Wei until he opens it. Therefore, Xiao Gang would think Zhang Wei expects to find a shirt based on the label.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 491,
+    "ANSWER": "B",
+    "STORY": "Xiao Gang finds a basket on the terrace, the label on the basket is shirt, Xiao Gang cannot see what is inside the basket, Xiao Gang opens the basket and finds a coconut, there is no shirt inside the basket, Xiao Gang closes the basket and puts it back in its place, Zhang Wei enters the terrace and sees the basket.",
+    "QUESTION": "After Zhang Wei opens the basket, what does Xiaogang think Zhang Wei expects to find in the basket?",
+    "OPTION-A": "Pumpkin",
+    "OPTION-B": "Shirt",
+    "OPTION-C": "Tomato",
+    "OPTION-D": "Coconut",
+    "TASK": "False Belief Task"
+}

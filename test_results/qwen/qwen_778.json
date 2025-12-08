@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out Su Ming's reaction based on the story.\n\nThe story says: \"Su Ming attends a long-awaited e-sports championship final. When his favorite team is in a fierce battle, he holds the support item in his hand nervously, and watches every move with full concentration.\"\n\nThe question is asking for his reaction while watching. The candidate answers are A. Nervous, B. Disappointed, C. Thrilled, D. Bored.\n\nLooking at the story details. He's holding a support item \"nervously\" \u2013 the word \"nervously\" is directly used there. So that's a key point. Also, he's watching with full concentration, which might indicate he's focused, but the specific emotion mentioned is nervous.\n\nWait, but sometimes when people are excited or thrilled, they might also be nervous. But the story explicitly says \"holds the support item in his hand nervously\". So the word \"nervously\" is describing how he's holding it. So that directly points to nervous as the reaction.\n\nBut let's check the options again. A is Nervous. The other options: Disappointed would be if things aren't going well, but the story doesn't say that. Thrilled is possible, but the text uses \"nervously\" which is more about anxiety. Bored doesn't make sense because he's watching with full concentration. So the answer should be A.\n\nWait, but sometimes \"nervous\" could be part of being excited. However, the question is about his reaction, and the story specifically says \"nervously\" when holding the item. So the answer is A. So the correct choice is A.\n",
+    "content": "\n\nThe story states that Su Ming \"holds the support item in his hand nervously\" while watching his favorite team in a fierce battle. The word \"nervously\" directly describes his physical reaction, indicating anxiety or tension. Although watching an e-sports championship might be exciting, the specific detail provided in the story emphasizes nervousness. The other options do not align with the text: \"Disappointed\" and \"Bored\" are contradicted by his full concentration and the context of a \"long-awaited\" event, while \"Thrilled\" is not explicitly mentioned. The direct use of \"nervously\" makes A the most supported choice.\n\n[[A]]",
+    "model_answer": "A",
+    "index": 778,
+    "ANSWER": "C",
+    "STORY": "Su Ming attends a long-awaited e-sports championship final. When his favorite team is in a fierce battle, he holds the support item in his hand nervously, and watches every move with full concentration.",
+    "QUESTION": "What is Su Ming's reaction while watching the e-sports championship?",
+    "OPTION-A": "Nervous",
+    "OPTION-B": "Disappointed",
+    "OPTION-C": "Thrilled",
+    "OPTION-D": "Bored",
+    "TASK": "Unexpected Outcome Test"
+}

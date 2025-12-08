@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Gang and Zhang Wei on a terrace. They see a box and a drawer. They find a shirt in the box. Then Zhang Wei leaves, and Xiao Gang moves the shirt to the drawer. The question is where the shirt is now.\n\nHmm. Let me break it down step by step. First, the initial location of the shirt is in the box. Then Zhang Wei leaves, and Xiao Gang moves it to the drawer. So after Xiao Gang moves it, the shirt should be in the drawer. The options are A. Cabinet, B. Drawer, C. Suitcase, D. Box.\n\nWait, the story says they found a shirt in the box. Then Xiao Gang moved it to the drawer. So the current location is the drawer. So answer B. Drawer.\n\nBut let me check again. The story says \"Xiao Gang moves the shirt to the drawer.\" So yes, the shirt is now in the drawer. The options have B as Drawer, so that's the correct choice. The other options: Cabinet might be similar to a drawer but the story specifically says drawer. Suitcase isn't mentioned. Box was the original place but it was moved. So definitely B.\n",
+    "content": "\n\nThe story states that Xiao Gang and Zhang Wei initially find a shirt in the box. Then, Zhang Wei leaves the terrace, and Xiao Gang moves the shirt to the drawer. The question asks where the shirt is now. Since Xiao Gang explicitly moved the shirt to the drawer, the current location of the shirt is the drawer. Among the options, \"B. Drawer\" directly matches this description. The other options (Cabinet, Suitcase, Box) are not mentioned as the final location in the story. \n\n[[B]]",
+    "model_answer": "B",
+    "index": 717,
+    "ANSWER": "B",
+    "STORY": "Xiao Gang and Zhang Wei are strolling on the terrace, they see a box and a drawer, they find a shirt in the box, Zhang Wei leaves the terrace, Xiao Gang moves the shirt to the drawer.",
+    "QUESTION": "Where is the shirt now?",
+    "OPTION-A": "Cabinet",
+    "OPTION-B": "Drawer",
+    "OPTION-C": "Suitcase",
+    "OPTION-D": "Box",
+    "TASK": "False Belief Task"
+}

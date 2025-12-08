@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Bei and Xiao Li in a parking lot. They see boxes and baskets, find bananas in the box. Then Xiao Li leaves, and Xiao Bei moves the bananas to the basket. The question is asking where the bananas were before.\n\nHmm. Let me break it down. The story says \"they find bananas in the box\". So initially, the bananas are in the box. Then Xiao Bei moves them to the basket. So before moving, the bananas were in the box. The question is \"Where are the bananas before?\" So \"before\" refers to before Xiao Bei moved them. So the answer should be box.\n\nLooking at the options: A. Basket, B. Box, C. Cabinet, D. Briefcase.\n\nSo B is Box. The answer should be B.\n\nWait, let me check again. The story says \"they find bananas in the box\", so that's where they were found. Then Xiao Bei moves them to the basket. So before moving, they were in the box. So prior to the move, the location was the box. So the answer is B. Box.\n\nYes, that makes sense. The other options like cabinet or briefcase aren't mentioned in the story at all. The story only mentions boxes and baskets. So the bananas were in the box before being moved to the basket. So answer B.\n",
+    "content": "\n\nThe story states that Xiao Bei and Xiao Li \"find bananas in the box\" before any action is taken. Later, Xiao Bei moves the bananas to the basket. The question asks where the bananas were **before** the movement. Since the bananas were initially found in the box and only then moved to the basket, the correct location before the move is the box. The other options (cabinet, briefcase) are not mentioned in the story, and the basket is the destination after the move, not the original location. Thus, the answer is B. Box.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 671,
+    "ANSWER": "B",
+    "STORY": "Xiao Bei and Xiao Li are wandering in the parking lot, they see boxes and baskets, they find bananas in the box, Xiao Li leaves the parking lot, Xiao Bei moves the bananas to the basket.",
+    "QUESTION": "Where are the bananas before?",
+    "OPTION-A": "Basket",
+    "OPTION-B": "Box",
+    "OPTION-C": "Cabinet",
+    "OPTION-D": "Briefcase",
+    "TASK": "False Belief Task"
+}

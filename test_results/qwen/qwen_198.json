@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Xiao Bei finding a handbag in the parking lot. The label on the handbag says \"banana\", but when Xiao Bei opens it, there's a mask inside and no banana. Then they put it back, and Xiao Li sees it.\n\nThe question is asking what's in the handbag. The options are A. Chalk, B. Banana, C. Pepper powder, D. Mask.\n\nHmm. Let me break this down. The story says that the label is banana, but when Xiao Bei opens it, they find a mask and no banana. So the actual contents are a mask. The label might be misleading, but the contents are what's inside. So when they opened it, they saw a mask and no banana. So the handbag contains a mask. Therefore, the answer should be D. Mask.\n\nWait, let me double-check. The story says: \"Xiao Bei opens the handbag and finds a mask, there is no banana in the handbag\". So yes, the mask is inside. The label says banana, but the actual contents are a mask. So the correct answer is D.\n\nLooking at the options, D is Mask. So the answer should be D. The other options like chalk, banana (but it's not there), pepper powder. The story only mentions mask as what's inside. So yes, D is correct.\n",
+    "content": "\n\nThe story states that Xiao Bei finds a handbag with a label that says \"banana,\" but upon opening it, they discover a mask inside and explicitly note that there is no banana. The contents of the handbag are directly described as containing a mask, with no mention of chalk, banana, or pepper powder. While the label might suggest a banana, the actual contents are confirmed to be a mask. Therefore, the correct answer is option D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 198,
+    "ANSWER": "D",
+    "STORY": "Xiao Bei finds a handbag in the parking lot, the label on the handbag is banana, Xiao Bei cannot see what is inside the handbag, Xiao Bei opens the handbag and finds a mask, there is no banana in the handbag, Xiao Bei closes the handbag and puts it back in its place, Xiao Li enters the parking lot and sees the handbag.",
+    "QUESTION": "What is in the handbag?",
+    "OPTION-A": "Chalk",
+    "OPTION-B": "Banana",
+    "OPTION-C": "Pepper powder",
+    "OPTION-D": "Mask",
+    "TASK": "False Belief Task"
+}

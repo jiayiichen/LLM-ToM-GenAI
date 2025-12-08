@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking why Xiao Zhao moves house. Let me read the story again carefully.\n\nThe story starts with \"Xiao Zhao moves house because of family reasons.\" Wait, that's right in the first sentence. Let me check again.\n\nYes, the first line says: \"Xiao Zhao moves house because of family reasons. On Sunday afternoon, Xiao Zhao prepares a small party and invites a few friends, including Xiao Wang.\"\n\nSo the very beginning states the reason: \"because of family reasons.\" Then the rest of the story is about him preparing a party and talking with Xiao Wang about moving. Xiao Wang says, \"You are moving, right?\" and they talk about preparations.\n\nLooking at the answer options:\n\nA. Because he finds a better job\n\nB. Because he goes to another city for school\n\nC. Because of his family reasons\n\nD. The story does not mention\n\nThe story explicitly says \"Xiao Zhao moves house because of family reasons\" in the first sentence. So the answer should be C. But wait, let me make sure. Sometimes there might be tricks, but the story starts with that exact phrase. So the reason is given directly. Therefore, option C is correct. Option D says the story doesn't mention, but it does mention it right at the start. So D is wrong. A and B are not mentioned. So the correct answer is C.\n",
+    "content": "\n\nThe story begins with the explicit statement: \"Xiao Zhao moves house because of family reasons.\" This directly answers the question about the reason for the move. The subsequent details about preparing a party and discussing moving preparations with Xiao Wang do not contradict or alter this initial reason. The candidate answers include option C, which matches the exact phrase used in the story. Options A and B are not mentioned at all, and option D is incorrect because the story clearly states the reason. Therefore, the correct answer is option C.\n\n[[C]]",
+    "model_answer": "C",
+    "index": 202,
+    "ANSWER": "C",
+    "STORY": "Xiao Zhao moves house because of family reasons. On Sunday afternoon, Xiao Zhao prepares a small party and invites a few friends, including Xiao Wang. When Xiao Wang arrives at Xiao Zhao's house, he notices several boxes full of things in the living room and asks, \"Are these boxes for sorting things?\" Xiao Zhao replies, \"Yes, oh, I am doing some sorting and packing recently.\" Xiao Wang nods and says, \"You are moving, right? I will often come to play with you.\" The two then talk about all kinds of preparations for moving.",
+    "QUESTION": "Why does Xiao Zhao move house?",
+    "OPTION-A": "Because he finds a better job",
+    "OPTION-B": "Because he goes to another city for school",
+    "OPTION-C": "Because of his family reasons",
+    "OPTION-D": "The story does not mention",
+    "TASK": "Faux-pas Recognition Test"
+}

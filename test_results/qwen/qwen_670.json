@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. The question is asking about the color of the curtains that Xiao Dan and her mother bought.\n\nFirst, I need to look at the story carefully. The story says: \"Over the weekend, Xiao Dan and her mother just move into a new house, they go to the mall to buy pink curtains.\" Oh wait, right there it says they bought pink curtains. So the answer should be pink. Let me check again.\n\nYes, the first sentence: \"they go to the mall to buy pink curtains.\" So the color is pink. Then later, when Xiao Dan hangs them, she says they look nice, and her mother says \"pink is very suitable for Xiao Dan's room.\" Then Xiao Rong comments that the curtains are beautiful and match the bedroom well. All of this points to the curtains being pink.\n\nLooking at the options: A. Blue, B. Pink, C. Yellow, D. White. So B is the correct choice.\n\nWait, but maybe there's a trick here? Let me check again. The story explicitly states \"buy pink curtains\" in the beginning. So there's no ambiguity. The answer must be B. Pink. All the subsequent comments by the mother and friend refer to the pink color. So definitely B.\n",
+    "content": "\n\nThe story explicitly states that \"Xiao Dan and her mother just move into a new house, they go to the mall to buy pink curtains.\" This directly indicates the color of the curtains purchased. Later, Xiao Dan's mother confirms, \"pink is very suitable for Xiao Dan's room,\" and Xiao Rong also comments on the curtains' beauty and match with the room, reinforcing the color. All details align with the curtains being pink. The candidate answers include \"B. Pink\" as an option, which matches the story's clear description. There is no ambiguity or conflicting information. \n\n[[B]]",
+    "model_answer": "B",
+    "index": 670,
+    "ANSWER": "B",
+    "STORY": "Over the weekend, Xiao Dan and her mother just move into a new house, they go to the mall to buy pink curtains. On Monday afternoon, Xiao Dan hangs the curtains in her bedroom. After hanging them, she says to her mother: \"Mom, the new curtains look really nice.\" Her mother smiles and says: \"Yes, pink is very suitable for Xiao Dan's room.\" After a while, Xiao Dan's best friend Xiao Rong comes to the new house to play, and says after seeing the curtains: \"Wow, these curtains are really beautiful, they match your bedroom very well.\" Xiao Dan happily says: \"Thank you, what do you think of the other parts of my room?\"",
+    "QUESTION": "What color of curtains do Xiao Dan and her mother buy?",
+    "OPTION-A": "Blue",
+    "OPTION-B": "Pink",
+    "OPTION-C": "Yellow",
+    "OPTION-D": "White",
+    "TASK": "Faux-pas Recognition Test"
+}

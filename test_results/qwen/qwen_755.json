@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. I need to figure out what specialty dish Aunt Wang made based on the story.\n\nThe story says that Aunt Wang hosts a neighborhood gathering and makes many of her best dishes. Then Mr. Li tastes a bite of the sauce ribs and says they're very delicious, but his wife's are better. Aunt Wang responds nicely.\n\nWait, the question is asking for the specialty dish Aunt Wang made. The candidate answers are A. Shredded pork in garlic sauce, B. Braised ribs, C. Fried noodles, D. Mapo tofu.\n\nIn the story, Mr. Li tastes \"sauce ribs\". So when he says \"sauce ribs\", that's probably the dish. But the answer options: B is Braised ribs. Wait, \"sauce ribs\" might be a translation of a Chinese dish. In Chinese cuisine, braised ribs are common, sometimes called \"red-braised ribs\" or something similar. The term \"sauce ribs\" likely refers to a braised dish with sauce. So the dish mentioned is sauce ribs, and the answer B is Braised ribs. That seems to match.\n\nLet me check the other options. Shredded pork in garlic sauce is another dish, but the story specifically mentions \"sauce ribs\". Fried noodles and Mapo tofu don't mention ribs. So the answer should be B. Braised ribs. Because the story says \"tastes a bite of the sauce ribs\", so Aunt Wang made sauce ribs, which is braised ribs. So the correct answer is B.\n",
+    "content": "\n\nThe story mentions that Mr. Li tastes \"sauce ribs\" and comments on them. The term \"sauce ribs\" in Chinese cuisine typically refers to a braised rib dish, often called \"red-braised ribs\" or similar, which aligns with the option \"Braised ribs.\" The other options\u2014Shredded pork in garlic sauce, Fried noodles, and Mapo tofu\u2014are not referenced in the story. Since the question asks for the specialty dish Aunt Wang made, and the story explicitly highlights \"sauce ribs,\" the correct answer corresponds to option B.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 755,
+    "ANSWER": "B",
+    "STORY": "On the weekend, neighbor Aunt Wang hosts a neighborhood gathering, she makes many of her best dishes to entertain everyone. Mr. Li first tastes a bite of the sauce ribs, then he says to Aunt Wang: \"This sauce rib tastes really good, it is very delicious. But I still think the sauce ribs my wife makes at home taste better.\" After hearing this, Aunt Wang still maintains a smile, saying: \"That's good, I hope everyone enjoys their meal.\" Mr. Li says: \"I am just expressing my feelings, please don't take it personally.\" Aunt Wang says: \"Don't mention it, please enjoy.\" She then goes to entertain other guests.",
+    "QUESTION": "What specialty dish does Aunt Wang make?",
+    "OPTION-A": "Shredded pork in garlic sauce",
+    "OPTION-B": "Braised ribs",
+    "OPTION-C": "Fried noodles",
+    "OPTION-D": "Mapo tofu",
+    "TASK": "Faux-pas Recognition Test"
+}

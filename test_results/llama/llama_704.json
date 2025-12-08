@@ -1,0 +1,14 @@
+{
+    "reasoning": "",
+    "content": "To determine the emotion Wang Lei is showing, let's analyze the given information step by step.\n\n1. **Understanding the Context**: Wang Lei and Li Ting are lovers who have been separated due to work after graduation. They plan to reunite on the weekend.\n\n2. **Identifying Wang Lei's Concern**: Wang Lei is worried that the long separation has diluted their feelings for each other.\n\n3. **Analyzing the Emotion**: The worry about the dilution of their feelings due to separation indicates a concern about the future of their relationship. This concern is rooted in uncertainty or insecurity about whether their love remains strong despite the physical distance between them.\n\n4. **Matching the Emotion with the Given Options**:\n   - **A. Thrilled**: This is a positive emotion associated with excitement. While reunions can be thrilling, Wang Lei's worry doesn't directly suggest he is feeling thrilled.\n   - **B. Panic**: This emotion is associated with a feeling of anxiety or fear about the future. Wang Lei's worry about their feelings being diluted could be interpreted as a form of panic or anxiety about the state of their relationship.\n   - **C. Angry**: There's no direct indication in the story that Wang Lei is angry. Anger would typically be associated with a perceived injustice, frustration, or irritation, none of which are explicitly mentioned.\n   - **D. Sadness**: While sadness could be a plausible emotion given the context of separation, the story specifically highlights Wang Lei's worry about the state of their feelings rather than expressing sadness directly.\n\n5. **Conclusion**: Wang Lei's worry about the long separation diluting their feelings suggests he is experiencing anxiety or fear about the future of their relationship. Among the given options, **B. Panic** is the closest to describing this emotional state, as it reflects a sense of anxiety or apprehension about what might happen to their relationship.\n\n[[B]]",
+    "model_answer": "B",
+    "index": 704,
+    "ANSWER": "B",
+    "STORY": "Wang Lei and Li Ting are lovers during their university period, and they separate in two places because of work after graduation. When they plan to finally reunite on the weekend, Wang Lei worries that the long separation dilutes their feelings.",
+    "QUESTION": "What emotion does Wang Lei show at this time?",
+    "OPTION-A": "Thrilled",
+    "OPTION-B": "Panic",
+    "OPTION-C": "Angry",
+    "OPTION-D": "Sadness",
+    "TASK": "Unexpected Outcome Test"
+}

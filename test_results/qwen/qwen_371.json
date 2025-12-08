@@ -1,0 +1,14 @@
+{
+    "reasoning": "Okay, let's see. So the story is about Han Meimei finding a backpack in the bedroom. The label on the backpack is a tie. Wait, the label says \"a tie\"? Hmm, maybe the backpack has a tie as a label? Or maybe the label is a picture of a tie? But then it says Han Meimei cannot see what's inside. Then she opens it and finds a pumpkin, and there's no tie inside. Then she closes it and puts it back. Then Youyou enters and sees the backpack.\n\nThe question is, what's inside the backpack? The candidate answers are A. Bottle, B. Tie, C. Notebook, D. Pumpkin.\n\nWait, the story says when Han Meimei opens the backpack, she finds a pumpkin, and there's no tie inside. So the contents are a pumpkin. So the answer should be D. Pumpkin. But let me check again.\n\nThe story says: \"Han Meimei opens the backpack and finds a pumpkin, there is no tie inside the backpack\". So the backpack contains a pumpkin. So the correct answer is D. But the label on the backpack is a tie. Maybe the label is a tie, but the actual contents are a pumpkin. So even though the label says tie (maybe the backpack has a tie-shaped label?), but the contents are a pumpkin. So the question is asking what's inside, so it's pumpkin. So D. Pumpkin.\n\nLooking at the candidate answers, D is Pumpkin. So the answer should be D.\n\nWait, but the label is a tie. So maybe someone thought the backpack had a tie because of the label, but actually inside there's a pumpkin. So the correct answer is D. Yes. So the answer is D.\n",
+    "content": "\n\nThe story states that Han Meimei opens the backpack and finds a pumpkin, explicitly mentioning \"there is no tie inside the backpack.\" This directly indicates the contents of the backpack are a pumpkin. The label being a \"tie\" refers to the backpack's external marking, not its contents. The candidate answers include \"Pumpkin\" as option D, which matches the story's description. Therefore, the correct answer is D.\n\n[[D]]",
+    "model_answer": "D",
+    "index": 371,
+    "ANSWER": "D",
+    "STORY": "Han Meimei finds a backpack in the bedroom, the label on the backpack is a tie, Han Meimei cannot see what is inside the backpack, Han Meimei opens the backpack and finds a pumpkin, there is no tie inside the backpack, Han Meimei closes the backpack and puts it back in its place, Youyou enters the bedroom and sees the backpack.",
+    "QUESTION": "What is inside the backpack?",
+    "OPTION-A": "Bottle",
+    "OPTION-B": "Tie",
+    "OPTION-C": "Notebook",
+    "OPTION-D": "Pumpkin",
+    "TASK": "False Belief Task"
+}
