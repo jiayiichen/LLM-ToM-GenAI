@@ -31,3 +31,8 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Shell config (may contain API keys)
+.bashrc
+.bash_profile
+.zshrc
