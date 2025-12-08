@@ -36,3 +36,10 @@ Thumbs.db
 .bashrc
 .bash_profile
 .zshrc
+
+# Finetuning outputs (large model files)
+finetune/deepspeed_backup/
+finetune/finetune_with_moresyn/
+finetune/finetune_with_syn/
+finetune/finetune_without_syn/
+finetune/qwen_finetuned/
