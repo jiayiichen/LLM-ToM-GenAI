@@ -22,5 +22,5 @@ This project investigates
 - Curated dataset of verified reason-category labels
 - Validation results showing targeted interventions improve performance
 
-### Check experiment_setup.txt for step-by-step tutorial
+### Check experiment_setup.txt for step-by-step tutorial and ResultsTable.png for our results
 
