@@ -1,0 +1,720 @@
+================================================================================
+EXPERIMENTAL SETUP: Qualitative Analysis of Theory of Mind Failures in LLMs
+================================================================================
+
+This document describes the complete experimental setup for reproducing the
+research results in this project.
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+
+1. Research Questions
+2. Installation Instructions
+3. Environment Setup Guide
+4. Dataset
+5. Models Evaluated
+6. Experiment Phases
+7. Usage Examples and Demonstrations
+8. Results Summary
+9. Troubleshooting Guide
+10. File Structure
+11. References
+
+================================================================================
+1. RESEARCH QUESTIONS
+================================================================================
+
+RQ1: Are LLMs truly incapable of ToM tasks, or are current benchmarks
+     underestimating their capabilities?
+
+RQ2: When LLMs fail on ToM tasks, what systematic failure modes emerge?
+
+RQ3: Can targeted data synthesis based on failure patterns improve model
+     performance on ToM tasks?
+
+================================================================================
+2. INSTALLATION INSTRUCTIONS
+================================================================================
+
+STEP 1: Clone the Repository
+----------------------------
+git clone https://github.com/your-repo/LLM-ToM-GenAI.git
+cd LLM-ToM-GenAI
+
+STEP 2: Create Virtual Environment (Recommended)
+------------------------------------------------
+# Using conda (recommended for GPU support)
+conda create -n tom_env python=3.10
+conda activate tom_env
+
+# OR using venv
+python -m venv tom_env
+source tom_env/bin/activate  # Linux/Mac
+tom_env\Scripts\activate     # Windows
+
+STEP 3: Install Dependencies
+----------------------------
+# Install all requirements
+pip install -r requirements.txt
+
+# For finetuning with GPU support (CUDA 11.8+)
+pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+STEP 4: Verify Installation
+---------------------------
+# Run unit tests to verify setup
+python -m pytest tests/ -v
+
+# Expected output: 24 passed
+
+STEP 5: Download Dataset (if not included)
+------------------------------------------
+# ToMBench data should be in train.csv and test.csv
+# If missing, download from: https://github.com/zhchen18/ToMBench
+
+================================================================================
+3. ENVIRONMENT SETUP GUIDE
+================================================================================
+
+A. API KEYS CONFIGURATION
+-------------------------
+
+Option 1: Environment Variables (Recommended)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Add to ~/.bashrc or ~/.zshrc
+export OPENROUTER_API_KEY="sk-or-v1-your-key-here"
+export GCP_PROJECT_ID="your-gcp-project-id"
+
+# Reload shell
+source ~/.bashrc
+
+Option 2: .env File
+~~~~~~~~~~~~~~~~~~~
+# Create .env file in project root (already in .gitignore)
+echo 'OPENROUTER_API_KEY=sk-or-v1-your-key-here' > .env
+
+Option 3: Direct in Code (Not Recommended)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Only for testing - never commit API keys!
+import os
+os.environ["OPENROUTER_API_KEY"] = "your-key"
+
+
+B. GOOGLE CLOUD SETUP (for Vertex AI)
+-------------------------------------
+
+1. Install Google Cloud SDK:
+   https://cloud.google.com/sdk/docs/install
+
+2. Authenticate:
+   gcloud auth login
+   gcloud config set project YOUR_PROJECT_ID
+
+3. Enable Vertex AI API:
+   gcloud services enable aiplatform.googleapis.com
+
+4. Verify authentication:
+   gcloud auth print-access-token
+
+
+C. GPU SETUP (for Finetuning)
+-----------------------------
+
+Requirements:
+- NVIDIA GPU with 24GB+ VRAM (recommended: H100/A100)
+- CUDA 11.8 or higher
+- cuDNN 8.6 or higher
+
+Verify GPU:
+nvidia-smi
+python -c "import torch; print(torch.cuda.is_available())"
+
+
+D. JUPYTER NOTEBOOK SETUP
+-------------------------
+
+# Install Jupyter kernel for your environment
+python -m ipykernel install --user --name tom_env --display-name "ToM Environment"
+
+# Start Jupyter
+jupyter notebook
+
+================================================================================
+4. DATASET
+================================================================================
+
+Benchmark: ToMBench (Chen et al., 2024)
+Source: https://github.com/zhchen18/ToMBench
+
+Dataset Statistics:
+- Total samples: 2,860 (train: 2,003 + test: 857)
+- Task types: 8 core ToM tasks
+- Cognitive abilities: 31 different abilities tested
+- Format: Multiple choice (A, B, C, D)
+
+Task Types in ToMBench:
+1. False Belief Task
+2. Faux-pas Recognition Test
+3. Strange Story Task
+4. Hinting Task Test
+5. Scalar Implicature Test
+6. Persuasion Story Task
+7. Ambiguous Story Task
+8. Unexpected Outcome Test
++ Additional specialized tasks (Emotion, Knowledge, Prediction, etc.)
+
+Data Files:
+- train.csv: 2,003 training samples
+- test.csv: 857 test samples
+- tombench_csvs/: Individual task CSVs
+
+================================================================================
+5. MODELS EVALUATED
+================================================================================
+
+A. Small Model (Target for Finetuning):
+   - Qwen2.5-7B-Instruct (Alibaba)
+     - Parameters: 7B
+     - Context: 32K tokens
+     - Access: HuggingFace (open weights)
+
+B. State-of-the-Art Models (Baseline Comparison):
+   1. GPT-5.1 (OpenAI)
+      - Access: OpenRouter API
+      - Reasoning: Native reasoning enabled
+
+   2. Claude Sonnet 4.5 (Anthropic)
+      - Access: OpenRouter API
+      - Reasoning: Extended thinking (10K budget tokens)
+
+   3. Gemini (Google)
+      - Access: Google Cloud Vertex AI
+      - Config: model_gardem_configs/gemini.yaml
+
+   4. Qwen (Alibaba)
+      - Access: Google Cloud Vertex AI
+      - Config: model_gardem_configs/qwen.yaml
+
+   5. Llama (Meta)
+      - Access: Google Cloud Vertex AI
+      - Config: model_gardem_configs/llama.yaml
+
+================================================================================
+6. EXPERIMENT PHASES
+================================================================================
+
+PHASE 1: BENCHMARK EVALUATION
+-----------------------------
+Objective: Establish baseline performance across all models
+
+Procedure:
+1. Run inference on test.csv (857 samples) for each model
+2. Extract answers in [[A]]/[[B]]/[[C]]/[[D]] format
+3. Calculate accuracy
+
+Prompt Template (CoT version - eval/prompt.txt):
+- Instructs model to reason step-by-step
+- Requires final answer in [[X]] format
+- Forces selection even with insufficient information
+
+Prompt Template (No-CoT version - finetune training):
+- Direct answer output only
+- Format: "Output [[A]], [[B]], [[C]], or [[D]], and nothing else"
+
+Scripts:
+- eval/run_evaluation.py: OpenRouter API evaluation
+- eval/run_evaluation_vllm.py: VLLM evaluation
+- inference_submission/inference.py: Vertex AI evaluation
+
+Output:
+- results/gpt_test_results.csv
+- results/Qwen2.5-7B-Instruct/Qwen2.5-7B-Instruct_train_results.csv
+
+
+PHASE 2: FAILURE ANALYSIS
+-------------------------
+Objective: Identify and categorize why models fail on specific questions
+
+Procedure:
+1. Extract failure cases (incorrect predictions)
+2. Use GPT5.1 to summarize failure reasons via CoT analysis
+3. Generate structured failure summaries
+
+Failure Summarization Prompts:
+- hierarchical_cluster/failure_summarizer_layer1.txt
+- hierarchical_cluster/failure_summarizer_layer2.txt
+
+Scripts:
+- hierarchical_cluster/failure_summarizer.py
+- hierarchical_cluster/extract_failures.py
+
+Output:
+- failures/qwen2_5_7b_instruct_noCoT_*_failures.csv
+- hierarchical_cluster/qwen2_5_7b_instruct_noCoT_failure_analysis_645cases.csv
+
+
+PHASE 3: HIERARCHICAL CLUSTERING
+--------------------------------
+Objective: Group failures into interpretable categories
+
+Method: AI-assisted hierarchical summarization (3 layers)
+
+Layer 1: Individual Failure Summaries
+- Each failure case gets a brief summary of why model failed
+- 645 individual summaries
+
+Layer 2: Cluster Formation
+- Group similar failures using embedding similarity
+- Form 80 mid-level clusters
+- Generate cluster summaries
+
+Layer 3: High-Level Categories
+- Further aggregate into 10 interpretable categories
+- Calculate objectivity scores (1-10) for each cluster
+- Select clusters with objectivity > 5 for data synthesis
+- Selected clusters: 4, 5, 9 (table numbering)
+
+Scripts:
+- Jupyter notebooks in hierarchical_cluster/
+
+Output:
+- hierarchical_cluster/cluster_analysis_layer2/
+- hierarchical_cluster/cluster_analysis_layer3/
+- hierarchical_cluster/connecting_layers/
+
+
+PHASE 4: DATA SYNTHESIS
+-----------------------
+Objective: Generate targeted training data for identified failure patterns
+
+Method: GPT-5.1 prompted synthesis with cluster-specific examples
+
+Procedure:
+1. For each selected cluster:
+   a. Extract cluster summary (failure pattern description)
+   b. Sample 2 representative failure examples
+   c. Prompt GPT-5.1 to generate 10 similar questions
+2. Run multiple batches per cluster (multithreaded)
+3. Validate JSON format and question structure
+
+Synthesis Configuration:
+- Model: openai/gpt-5.1 (via OpenRouter)
+- Temperature: 2.0 (high diversity)
+- Batch size: 10 questions per API call
+
+Data Generated:
+- Cluster 4: 400 questions
+- Cluster 5: 281 questions
+- Cluster 9: 110 questions
+- Total synthesized: 791 questions
+
+Scripts:
+- data_synthesize.ipynb (main notebook)
+- data_synthesize_prompt.txt (prompt template)
+
+Output:
+- results/synthesized_data/data/*.csv
+
+
+PHASE 5: FINETUNING
+-------------------
+Objective: Improve Qwen2.5-7B on ToM tasks using synthesized data
+
+Method: Full parameter finetuning (not LoRA/PEFT)
+
+Training Configurations:
+
+A. Without Synthesized Data (baseline):
+   - Train: 1,802 samples (90% of train.csv)
+   - Val: 201 samples (10% of train.csv)
+   - Output: finetune/finetune_without_syn/
+
+B. With Synthesized Data:
+   - Train: 2,514 samples (original + synthesized)
+   - Val: 280 samples
+   - Output: finetune/finetune_with_moresyn/
+
+Hyperparameters:
+- Base model: Qwen/Qwen2.5-7B-Instruct
+- Epochs: 1
+- Batch size: 2
+- Gradient accumulation: 8
+- Effective batch size: 16
+- Learning rate: 2e-5
+- Scheduler: Cosine with 3% warmup
+- Precision: BF16
+- Max sequence length: 2048
+- Gradient checkpointing: Enabled
+
+Hardware:
+- GPU: 1x NVIDIA H100 (94GB VRAM)
+- Training time: ~15-20 minutes per run
+
+Label Masking:
+- Loss computed only on assistant response tokens
+- User prompt tokens masked with -100
+
+Scripts:
+- finetune/finetune_qwen.py
+- finetune/prepare_finetuning_data.ipynb
+
+Output:
+- Model weights (~14GB safetensors)
+- Training logs (TensorBoard)
+
+
+PHASE 6: EVALUATION
+-------------------
+Objective: Compare finetuned models against baselines
+
+Test Set: test.csv (857 samples)
+
+Models Compared:
+1. GPT (baseline SOTA)
+2. Qwen2.5-7B finetuned WITHOUT synthesized data
+3. Qwen2.5-7B finetuned WITH synthesized data
+
+Metrics:
+- Overall accuracy
+- Per-task accuracy
+- Accuracy delta (improvement from synthesis)
+
+Scripts:
+- eval/run_evaluation.py
+- eval/run_evaluation_vllm.py (for local models)
+
+================================================================================
+7. USAGE EXAMPLES AND DEMONSTRATIONS
+================================================================================
+
+EXAMPLE 1: Run Evaluation on Test Set
+-------------------------------------
+# Evaluate GPT-5.1 on test data
+cd LLM-ToM-GenAI
+python eval/run_evaluation.py \
+    --models gpt5.1 \
+    --input test.csv \
+    --output results/
+
+# Output: results/gpt_test_results.csv
+
+
+EXAMPLE 2: Run Vertex AI Inference
+----------------------------------
+# Run Gemini inference
+python inference_submission/inference.py \
+    -d test.csv \
+    -c model_gardem_configs/gemini.yaml \
+    -o outputs/gemini_test/
+
+# Parse streaming responses
+python parse_inference/parse_inference.py \
+    -i outputs/gemini_test/ \
+    -o results/gemini_parsed.json
+
+
+EXAMPLE 3: Prepare Finetuning Data
+----------------------------------
+# Run the data preparation notebook
+jupyter notebook finetune/prepare_finetuning_data.ipynb
+
+# Or convert manually:
+# 1. Load train.csv and synthesized data
+# 2. Format as chat messages (user/assistant)
+# 3. Save as JSONL
+
+
+EXAMPLE 4: Finetune Qwen2.5-7B
+------------------------------
+# Navigate to finetune directory
+cd finetune
+
+# Run finetuning (requires GPU)
+python finetune_qwen.py
+
+# Monitor training with TensorBoard
+tensorboard --logdir ./qwen_finetuned/runs
+
+
+EXAMPLE 5: Synthesize Training Data
+-----------------------------------
+# Open the synthesis notebook
+jupyter notebook data_synthesize.ipynb
+
+# Configure in notebook:
+# - CLUSTERS_TO_PROCESS = [4, 5, 9]
+# - NUM_BATCHES = 10
+# - MAX_WORKERS = 4
+
+# Run all cells to generate synthetic questions
+
+
+EXAMPLE 6: Calculate Accuracy
+-----------------------------
+# Python script to calculate accuracy
+import pandas as pd
+
+results = pd.read_csv('results/gpt_test_results.csv')
+correct = (results['gpt_response'] == results['ANSWER']).sum()
+total = len(results)
+print(f"Accuracy: {correct}/{total} = {correct/total*100:.2f}%")
+
+# By task type
+results['correct'] = results['gpt_response'] == results['ANSWER']
+print(results.groupby('SOURCE_FILE')['correct'].mean())
+
+
+EXAMPLE 7: Run Unit Tests
+-------------------------
+# Run all tests
+python -m pytest tests/ -v
+
+# Run specific test file
+python -m pytest tests/test_parse_inference.py -v
+
+# Run with coverage
+pip install pytest-cov
+python -m pytest tests/ --cov=. --cov-report=html
+
+================================================================================
+8. RESULTS SUMMARY
+================================================================================
+
+Overall Accuracy (Test Set: 857 samples):
+-----------------------------------------
+| Model                          | Accuracy |
+|--------------------------------|----------|
+| GPT                            | 82.03%   |
+| Qwen Finetuned (no syn data)   | 81.45%   |
+| Qwen Finetuned (+ syn data)    | 82.85%   |
+
+Key Finding: Adding synthesized data improved accuracy by +1.4%,
+surpassing GPT baseline.
+
+Per-Task Improvements (with synthesized data):
+----------------------------------------------
+| Task                    | Improvement |
+|-------------------------|-------------|
+| Knowledge-attention     | +16.66%     |
+| Discrepant intentions   | +16.67%     |
+| Discrepant desires      | +16.67%     |
+| Strange Story Task      | +6.55%      |
+| Hidden emotions         | +4.16%      |
+
+================================================================================
+9. TROUBLESHOOTING GUIDE
+================================================================================
+
+ISSUE 1: "OPENROUTER_API_KEY not found"
+---------------------------------------
+Symptom:
+  OpenAIError: The api_key client option must be set...
+
+Solution:
+  # Set environment variable
+  export OPENROUTER_API_KEY="sk-or-v1-your-key"
+
+  # Or in Python before imports:
+  import os
+  os.environ["OPENROUTER_API_KEY"] = "your-key"
+
+  # For Jupyter notebooks, add to first cell:
+  import os
+  with open(os.path.expanduser('~/.bashrc'), 'r') as f:
+      for line in f:
+          if 'OPENROUTER_API_KEY' in line:
+              key = line.split('=')[1].strip()
+              os.environ["OPENROUTER_API_KEY"] = key
+
+
+ISSUE 2: "gcloud: command not found"
+------------------------------------
+Symptom:
+  RuntimeError: gcloud CLI not found
+
+Solution:
+  # Install Google Cloud SDK
+  # Linux/Mac:
+  curl https://sdk.cloud.google.com | bash
+  exec -l $SHELL
+  gcloud init
+
+  # Or download from:
+  https://cloud.google.com/sdk/docs/install
+
+
+ISSUE 3: CUDA Out of Memory during Finetuning
+---------------------------------------------
+Symptom:
+  torch.cuda.OutOfMemoryError: CUDA out of memory
+
+Solutions:
+  # Option 1: Reduce batch size
+  # In finetune_qwen.py, change:
+  per_device_train_batch_size: int = field(default=1)  # was 2
+
+  # Option 2: Enable gradient checkpointing (already enabled by default)
+  gradient_checkpointing: bool = field(default=True)
+
+  # Option 3: Use DeepSpeed (for multi-GPU)
+  # Uncomment in finetune_qwen.py:
+  deepspeed: Optional[str] = field(default="deepspeed_config.json")
+
+
+ISSUE 4: JSON Decode Error in Data Synthesis
+--------------------------------------------
+Symptom:
+  json.JSONDecodeError: Expecting property name
+
+Solution:
+  # The API sometimes returns malformed JSON
+  # The code has retry logic (max_retries=3)
+
+  # If persistent, try:
+  # 1. Lower temperature (e.g., 1.5 instead of 2.0)
+  # 2. Increase max_tokens
+  # 3. Check API rate limits
+
+
+ISSUE 5: Import Errors
+----------------------
+Symptom:
+  ModuleNotFoundError: No module named 'xxx'
+
+Solution:
+  # Install missing dependencies
+  pip install -r requirements.txt
+
+  # For specific packages:
+  pip install transformers datasets accelerate
+
+
+ISSUE 6: Slow Inference
+-----------------------
+Symptom:
+  API calls taking too long, timeouts
+
+Solutions:
+  # 1. Check rate limits (default: 6 sec delay)
+  REQUEST_DELAY_SECONDS = 6  # in inference.py
+
+  # 2. Use multithreading for synthesis
+  MAX_WORKERS = 4  # in data_synthesize.ipynb
+
+  # 3. For local models, use vLLM:
+  python eval/run_evaluation_vllm.py
+
+
+ISSUE 7: Test Failures
+----------------------
+Symptom:
+  pytest tests fail
+
+Solution:
+  # Check Python version (need 3.10+)
+  python --version
+
+  # Reinstall test dependencies
+  pip install pytest pandas
+
+  # Run with verbose output
+  python -m pytest tests/ -v --tb=long
+
+
+ISSUE 8: Permission Denied on Model Files
+-----------------------------------------
+Symptom:
+  PermissionError when loading finetuned model
+
+Solution:
+  # Fix permissions
+  chmod -R 755 finetune/finetune_without_syn/
+
+  # Or run as appropriate user
+  sudo chown -R $USER:$USER finetune/
+
+
+ISSUE 9: Tokenizer Warnings
+---------------------------
+Symptom:
+  "Token indices sequence length is longer than the specified maximum"
+
+Solution:
+  # This is usually safe to ignore
+  # Or increase max_seq_length in finetune_qwen.py:
+  max_seq_length: int = field(default=4096)  # was 2048
+
+
+ISSUE 10: Results Don't Match Expected
+--------------------------------------
+Symptom:
+  Accuracy numbers differ from paper/documentation
+
+Checklist:
+  1. Verify using correct test.csv (857 samples)
+  2. Check prompt template matches (CoT vs no-CoT)
+  3. Ensure temperature=0 for deterministic results
+  4. Verify answer extraction regex: r'\[\[([A-D])\]\]'
+
+================================================================================
+10. FILE STRUCTURE
+================================================================================
+
+LLM-ToM-GenAI/
+├── eval/                      # Evaluation scripts
+│   ├── run_evaluation.py      # OpenRouter API evaluation
+│   ├── run_evaluation_vllm.py # Local model evaluation
+│   └── prompt.txt             # CoT prompt template
+├── finetune/                  # Finetuning pipeline
+│   ├── finetune_qwen.py       # Training script
+│   ├── prepare_finetuning_data.ipynb
+│   ├── train*.jsonl           # Training data
+│   └── val*.jsonl             # Validation data
+├── hierarchical_cluster/      # Failure analysis
+│   ├── cluster_analysis_layer2/
+│   ├── cluster_analysis_layer3/
+│   └── connecting_layers/
+├── inference_submission/      # Vertex AI inference
+│   ├── inference.py           # Main inference script
+│   └── submit.py              # Batch submission
+├── parse_inference/           # Response parsing
+│   ├── parse_inference.py     # Streaming parser
+│   └── merge_json.py          # Result merging
+├── results/                   # Experiment outputs
+│   ├── gpt_test_results.csv
+│   ├── Qwen2.5-7B-Instruct/
+│   └── synthesized_data/
+├── tests/                     # Unit tests
+│   ├── test_parse_inference.py
+│   └── test_data_utils.py
+├── model_gardem_configs/      # Vertex AI configs
+├── failures/                  # Failure case CSVs
+├── train.csv                  # Training data
+├── test.csv                   # Test data
+├── requirements.txt           # Dependencies
+├── experiment_setup.txt       # This file
+└── README.md                  # Project overview
+
+================================================================================
+11. REFERENCES
+================================================================================
+
+1. Chen, Z., et al. (2024). ToMBench: A Benchmark for Theory of Mind
+   Evaluation in Large Language Models.
+
+2. Qwen Team (2024). Qwen2.5: A Large Language Model Series.
+   https://github.com/QwenLM/Qwen2.5
+
+3. OpenRouter API Documentation.
+   https://openrouter.ai/docs
+
+4. Google Cloud Vertex AI Documentation.
+   https://cloud.google.com/vertex-ai/docs
+
+5. HuggingFace Transformers Documentation.
+   https://huggingface.co/docs/transformers
+
+================================================================================
+END OF EXPERIMENTAL SETUP
+================================================================================
