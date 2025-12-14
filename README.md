@@ -2,6 +2,8 @@
 
 **ToM refers to the ability to attribute mental states (e.g., beliefs, desires, intentions) to others and predict their behavior accordingly.**
 
+👋 Please check experiment_setup.txt for **step-by-step tutorial** and ResultsTable.png for our results.
+
 ## Overview
 
 This project investigates 
@@ -21,6 +23,4 @@ This project investigates
 - AI-based hierarchical summarization framework for failure classification
 - Curated dataset of verified reason-category labels
 - Validation results showing targeted interventions improve performance
-
-### Check experiment_setup.txt for step-by-step tutorial and ResultsTable.png for our results
 
