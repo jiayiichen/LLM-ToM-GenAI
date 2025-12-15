@@ -1,0 +1,49 @@
+================================================================================
+ANALYSIS: HIERARCHICAL FAILURE SUMMARIZATION FOR THEORY OF MIND EVALUATION
+================================================================================
+
+Overview
+
+This work moves beyond aggregate accuracy metrics to systematically analyze how
+and why models fail on Theory of Mind tasks. We introduce a failure reason hierarchical
+summarization framework that clusters individual failure cases into
+interpretable high-level patterns, revealing a critical distinction: some
+failures reflect genuine reasoning deficiencies, while others stem from
+inherent task ambiguity where multiple answers are defensible.
+
+This analysis yields two key insights. First, LLM ToM performance may be
+substantially underestimated by current benchmarks, as many apparent failures
+occur on subjective cases where human annotators themselves disagree. Second,
+by isolating objective failure patterns, we can synthesize targeted training
+data that addresses specific reasoning gaps, achieving frontier-level
+performance with a 7B parameter model trained on fewer than 3,000 examples.
+
+================================================================================
+
+Key Contributions & Analysis
+
+1. Hierarchical Failure Summarization Framework
+
+Inspired by recent work on hierarchical summarization for scalable AI monitoring
+(https://alignment.anthropic.com/2025/summarization-for-monitoring/), we develop
+a framework that transforms hundreds of individual model errors into a small set
+of interpretable failure categories, enabling systematic diagnosis of ToM
+reasoning weaknesses. This three-layer approach progressively abstracts 645
+individual failures into 80 mid-level clusters, then into 10 high-level
+categories that capture distinct failure modes.
+
+2. Discovery of Task Ambiguity in ToM Benchmarks
+
+We find that seven of the ten high-level interpretable failure categories
+exhibit inherent task ambiguity. This result is validated by a human study in
+which annotators disagree on 70% of a sampled subset of these cases. This
+observation suggests that current benchmarks may conflate subjective
+interpretive variation with genuine reasoning failure.
+
+3. Targeted Data Synthesis for Objective Failures
+
+We demonstrate that targeted data synthesis on objective failure patterns
+enables a fine-tuned Qwen2.5-7B model to match frontier models (Claude-sonnet-
+4.5, GPT5.1) on ToMBench. This indicates that smaller models possess
+significant latent ToM capabilities that can be elicited through focused
+intervention.

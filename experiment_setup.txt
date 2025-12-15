@@ -39,7 +39,7 @@ RQ3: Can targeted data synthesis based on failure patterns improve model
 
 STEP 1: Clone the Repository
 ----------------------------
-git clone https://github.com/your-repo/LLM-ToM-GenAI.git
+git clone https://github.com/jiayiichen/LLM-ToM-GenAI.git
 cd LLM-ToM-GenAI
 
 STEP 2: Create Virtual Environment (Recommended)
@@ -64,7 +64,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu118
 STEP 4: Verify Installation
 ---------------------------
 # Run unit tests to verify setup
-python -m pytest tests/ -v
+python -m pytest unit_tests/ -v
 
 # Expected output: 24 passed
 
@@ -276,7 +276,12 @@ Layer 3: High-Level Categories
 - Selected clusters: 4, 5, 9 (table numbering)
 
 Scripts:
-- Jupyter notebooks in hierarchical_cluster/
+- hierarchical_cluster/summarizer_layer1.ipynb
+- hierarchical_cluster/summarizer_layer2.ipynb
+- hierarchical_cluster/summarizer_layer3.ipynb
+- hierarchical_cluster/clustering/round1_clustering.ipynb
+- hierarchical_cluster/clustering/round2_clustering.ipynb
+- hierarchical_cluster/connecting_layer.ipynb
 
 Output:
 - hierarchical_cluster/cluster_analysis_layer2/
@@ -310,8 +315,8 @@ Data Generated:
 - Total synthesized: 791 questions
 
 Scripts:
-- data_synthesize.ipynb (main notebook)
-- data_synthesize_prompt.txt (prompt template)
+- data_synthesis/data_synthesize.ipynb (main notebook)
+- data_synthesis/data_synthesize_prompt.txt (prompt template)
 
 Output:
 - results/synthesized_data/data/*.csv
@@ -440,7 +445,7 @@ tensorboard --logdir ./qwen_finetuned/runs
 EXAMPLE 5: Synthesize Training Data
 -----------------------------------
 # Open the synthesis notebook
-jupyter notebook data_synthesize.ipynb
+jupyter notebook data_synthesis/data_synthesize.ipynb
 
 # Configure in notebook:
 # - CLUSTERS_TO_PROCESS = [4, 5, 9]
@@ -468,14 +473,14 @@ print(results.groupby('SOURCE_FILE')['correct'].mean())
 EXAMPLE 7: Run Unit Tests
 -------------------------
 # Run all tests
-python -m pytest tests/ -v
+python -m pytest unit_tests/ -v
 
 # Run specific test file
-python -m pytest tests/test_parse_inference.py -v
+python -m pytest unit_tests/test_parse_inference.py -v
 
 # Run with coverage
 pip install pytest-cov
-python -m pytest tests/ --cov=. --cov-report=html
+python -m pytest unit_tests/ --cov=. --cov-report=html
 
 ================================================================================
 8. RESULTS SUMMARY
@@ -609,7 +614,7 @@ Solutions:
 ISSUE 7: Test Failures
 ----------------------
 Symptom:
-  pytest tests fail
+  pytest unit_tests fail
 
 Solution:
   # Check Python version (need 3.10+)
@@ -619,7 +624,7 @@ Solution:
   pip install pytest pandas
 
   # Run with verbose output
-  python -m pytest tests/ -v --tb=long
+  python -m pytest unit_tests/ -v --tb=long
 
 
 ISSUE 8: Permission Denied on Model Files
@@ -672,9 +677,12 @@ LLM-ToM-GenAI/
 │   ├── train*.jsonl           # Training data
 │   └── val*.jsonl             # Validation data
 ├── hierarchical_cluster/      # Failure analysis
+│   ├── clustering/            # Clustering notebooks
 │   ├── cluster_analysis_layer2/
 │   ├── cluster_analysis_layer3/
-│   └── connecting_layers/
+│   ├── connecting_layers/
+│   ├── failure_summarizer.py
+│   └── extract_failures.py
 ├── inference_submission/      # Vertex AI inference
 │   ├── inference.py           # Main inference script
 │   └── submit.py              # Batch submission
@@ -684,8 +692,12 @@ LLM-ToM-GenAI/
 ├── results/                   # Experiment outputs
 │   ├── gpt_test_results.csv
 │   ├── Qwen2.5-7B-Instruct/
-│   └── synthesized_data/
-├── tests/                     # Unit tests
+│   ├── synthesized_data/
+│   └── human_check/           # Human evaluation data
+├── data_synthesis/            # Data synthesis
+│   ├── data_synthesize.ipynb  # Main synthesis notebook
+│   └── data_synthesize_prompt.txt
+├── unit_tests/                # Unit tests
 │   ├── test_parse_inference.py
 │   └── test_data_utils.py
 ├── model_gardem_configs/      # Vertex AI configs
